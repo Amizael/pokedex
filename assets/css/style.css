@@ -2243,9 +2243,10 @@ body {
 }
 
 .wheel-active-name {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 900;
     letter-spacing: 2px;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
 }
 
 .wheel-active-stat {

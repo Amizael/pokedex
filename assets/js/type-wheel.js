@@ -318,20 +318,18 @@ function renderTypeWheelSvg() {
     } else {
         centerPokeballHtml = `
             <g class="pokeball-center-group has-active">
-                <!-- Pokébola com o corte minimalista preservado -->
+                <!-- Pokébola com metade superior na cor da tipagem selecionada e inferior branca -->
                 <g clip-path="url(#pokeball-circle-clip)">
                     <circle cx="300" cy="300" r="${WHEEL_CONFIG.pokeballRadius}" fill="#ffffff" />
+                    <rect x="140" y="140" width="320" height="160" fill="${activeInfo.color}" />
                     <rect x="140" y="291" width="320" height="18" fill="#121212" />
                     <circle cx="300" cy="300" r="58" fill="#121212" />
                 </g>
                 <circle cx="300" cy="300" r="${WHEEL_CONFIG.pokeballRadius}" fill="none" stroke="${activeInfo.color}" stroke-width="3" />
 
-                <!-- Topo da Pokébola: Nome do Tipo e Vantagens (sem linhas passando por cima) -->
-                <text x="300" y="210" text-anchor="middle" class="wheel-active-name" fill="#111111">
+                <!-- Topo da Pokébola: Nome do Tipo Selecionado com contraste ideal -->
+                <text x="300" y="226" text-anchor="middle" class="wheel-active-name" fill="${activeInfo.textColor || '#ffffff'}">
                     ${activeInfo.namePt.toUpperCase()}
-                </text>
-                <text x="300" y="242" text-anchor="middle" class="wheel-active-stat strong" fill="#15803d">
-                    ✦ Vantagem: ${strongAgainst.length} tipos
                 </text>
 
                 <!-- Botão central iluminado com o ícone e a cor da tipagem ativa -->
@@ -342,27 +340,11 @@ function renderTypeWheelSvg() {
                     ${renderTypeIconSvg(activeType)}
                 </g>
 
-                <!-- Base da Pokébola: Fraquezas, Imunidades e Botão de Limpar -->
-                ${immuneAgainst.length > 0 ? `
-                    <text x="300" y="371" text-anchor="middle" class="wheel-active-stat weak" fill="#b91c1c">
-                        ✦ Fraqueza: ${weakAgainst.length} tipos
-                    </text>
-                    <text x="300" y="390" text-anchor="middle" class="wheel-active-stat immune" fill="#7c3aed">
-                        ✦ Imunidade: ${immuneAgainst.length} ${immuneAgainst.length === 1 ? 'tipo' : 'tipos'}
-                    </text>
-                    <g class="wheel-clear-btn" onclick="resetTypeWheel()">
-                        <rect x="235" y="404" width="130" height="24" rx="12" fill="#181818" stroke="#333333" stroke-width="1.5" />
-                        <text x="300" y="420" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
-                    </g>
-                ` : `
-                    <text x="300" y="374" text-anchor="middle" class="wheel-active-stat weak" fill="#b91c1c">
-                        ✦ Fraqueza: ${weakAgainst.length} tipos
-                    </text>
-                    <g class="wheel-clear-btn" onclick="resetTypeWheel()">
-                        <rect x="235" y="396" width="130" height="26" rx="13" fill="#181818" stroke="#333333" stroke-width="1.5" />
-                        <text x="300" y="413" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
-                    </g>
-                `}
+                <!-- Base da Pokébola: Botão Limpar centralizado na metade branca inferior (sem textos verde/vermelho) -->
+                <g class="wheel-clear-btn" onclick="resetTypeWheel()">
+                    <rect x="220" y="388" width="160" height="32" rx="16" fill="#181818" stroke="#333333" stroke-width="1.5" />
+                    <text x="300" y="409" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
+                </g>
             </g>
         `;
     }
