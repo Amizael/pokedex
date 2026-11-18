@@ -1,6 +1,8 @@
-// Controle e Renderização do Modal de Detalhes da Pokédex (Estilo Oficial)
+// Controle e Renderização do Modal de Detalhes da Pokédex (Estilo Oficial com 3 Abas)
 
 let currentModalPokemonId = null;
+let currentActiveTab = 'tab-overview'; // 'tab-overview' | 'tab-matchups' | 'tab-moves'
+let currentMoveFilter = 'all';
 
 /**
  * Abre o modal de detalhes do Pokémon
@@ -18,7 +20,7 @@ async function openPokemonModal(pokemonId) {
     modalElement.classList.add('open');
     document.body.style.overflow = 'hidden'; // Evita rolagem da página ao fundo
 
-    // Busca o Pokémon do catálogo geral (já carregado)
+    // Busca o Pokémon do catálogo geral
     const pokemon = window.allPokemons?.find(p => p.id === pokemonId);
     if (!pokemon) {
         modalBody.innerHTML = `
@@ -58,7 +60,7 @@ function closePokemonModal() {
 }
 
 /**
- * Navega para o Pokémon anterior ou próximo
+ * Navega para o Pokémon anterior ou próximo preservando a aba ativa
  */
 function navigateModalPokemon(direction) {
     if (!currentModalPokemonId) return;
@@ -66,6 +68,44 @@ function navigateModalPokemon(direction) {
     if (nextId >= 1 && nextId <= 151) {
         openPokemonModal(nextId);
     }
+}
+
+/**
+ * Alterna entre as abas do modal
+ */
+function switchModalTab(tabId) {
+    currentActiveTab = tabId;
+
+    // Atualiza botões das abas
+    document.querySelectorAll('.modal-tab-button').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === tabId);
+    });
+
+    // Atualiza painéis das abas
+    document.querySelectorAll('.modal-tab-panel').forEach(panel => {
+        panel.classList.toggle('active', panel.id === tabId);
+    });
+}
+
+/**
+ * Filtra a lista de golpes por método de aprendizado (Nível, MT/MO, Tutor, Ovo)
+ */
+function filterMovesList(method) {
+    currentMoveFilter = method;
+
+    // Atualiza pílulas de filtro
+    document.querySelectorAll('.move-filter-pill').forEach(pill => {
+        pill.classList.toggle('active', pill.dataset.method === method);
+    });
+
+    // Filtra linhas da tabela de golpes
+    document.querySelectorAll('.move-item-row').forEach(row => {
+        if (method === 'all' || row.dataset.method === method) {
+            row.style.display = '';
+        } else {
+            row.style.display = 'none';
+        }
+    });
 }
 
 /**
@@ -79,16 +119,16 @@ function scrollMatchupRibbon(containerId, direction) {
 }
 
 /**
- * Constrói o HTML completo do modal
+ * Constrói o HTML completo do modal estruturado em 3 Abas
  */
 function renderModalContent(pokemon, speciesData) {
     const modalBody = document.getElementById('modal-body-content');
     if (!modalBody) return;
 
-    // Cálculo das relações de tipo (Fraquezas, Vantagens/Countera, Resistências)
+    // Cálculo das relações elementais (Fraquezas, Vantagens/Countera, Resistências)
     const relations = calculateTypeRelations(pokemon.types);
 
-    // Cálculo dos confrontos com outros Pokémon reais da 1ª Geração
+    // Cálculo dos confrontos com outros Pokémon reais da 1ª Geração (Aba 2)
     const matchups = calculatePokemonMatchups(pokemon, window.allPokemons || []);
 
     // Tipagens do Pokémon
@@ -125,7 +165,7 @@ function renderModalContent(pokemon, speciesData) {
                 </div>
             `;
         }).join('')
-        : '<span class="empty-relation">Nenhuma fraqueza conhecida</span>';
+        : '<span class="empty-relation">Nenhuma fraqueza direta</span>';
 
     // HTML de Forte contra por Tipo
     const countersHtml = relations.counters.length > 0
@@ -172,9 +212,18 @@ function renderModalContent(pokemon, speciesData) {
     const stats = pokemon.stats;
     const maxStat = 255;
 
-    // Fitas com lista real de Pokémon (Bom contra e Fraco contra)
+    // Fitas com lista real de Pokémon (Aba 2: Bom contra e Fraco contra)
     const strongRibbonHtml = renderMatchupRibbon(matchups.strongAgainst, 'strong', 'ribbon-strong');
     const weakRibbonHtml = renderMatchupRibbon(matchups.weakAgainst, 'weak', 'ribbon-weak');
+
+    // Aba 3: Ataques & Movimentos de FireRed & LeafGreen
+    const frlgMovesList = pokemon.frlgMoves || [];
+    const levelMovesCount = frlgMovesList.filter(m => m.method === 'level-up').length;
+    const machineMovesCount = frlgMovesList.filter(m => m.method === 'machine').length;
+    const tutorMovesCount = frlgMovesList.filter(m => m.method === 'tutor').length;
+    const eggMovesCount = frlgMovesList.filter(m => m.method === 'egg').length;
+
+    const movesListHtml = renderMovesList(frlgMovesList);
 
     // Evolução HTML
     const evolutionHtml = renderEvolutionSection(speciesData?.evolutionChain, pokemon.id);
@@ -208,143 +257,327 @@ function renderModalContent(pokemon, speciesData) {
             <button type="button" class="modal-close-btn" onclick="closePokemonModal()" aria-label="Fechar">&times;</button>
         </header>
 
-        <!-- Corpo Principal em Duas Colunas -->
-        <div class="modal-grid">
-            <!-- Coluna Esquerda: Imagem, Tipos e Combate Elemental -->
-            <div class="modal-col-left">
-                <div class="modal-image-card" style="--pokemon-color: ${primaryColor}">
-                    <img src="${pokemon.image}" alt="${pokemon.name}" class="modal-pokemon-img" />
-                </div>
+        <!-- BARRA DE ABAS DO MODAL -->
+        <nav class="modal-tabs-nav" aria-label="Abas de Informações do Pokémon">
+            <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-overview' ? 'active' : ''}" data-tab="tab-overview" onclick="switchModalTab('tab-overview')">
+                <span class="tab-icon">&#128202;</span> Visão Geral & Perfil
+            </button>
+            <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-matchups' ? 'active' : ''}" data-tab="tab-matchups" onclick="switchModalTab('tab-matchups')">
+                <span class="tab-icon">&#9876;</span> Vantagens & Fraquezas
+                <span class="tab-badge">${matchups.strongAgainst.length + matchups.weakAgainst.length}</span>
+            </button>
+            <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-moves' ? 'active' : ''}" data-tab="tab-moves" onclick="switchModalTab('tab-moves')">
+                <span class="tab-icon">&#9889;</span> Ataques (FireRed & LeafGreen)
+                <span class="tab-badge">${frlgMovesList.length}</span>
+            </button>
+        </nav>
 
-                <div class="modal-section-card">
-                    <h3 class="section-title">Tipo</h3>
-                    <div class="types-row">
-                        ${typesHtml}
+        <!-- ÁREA DE CONTEÚDO DAS ABAS -->
+        <div class="modal-tabs-content-area">
+
+            <!-- ==========================================
+                 ABA 1: VISÃO GERAL, STATUS E EVOLUÇÃO
+                 ========================================== -->
+            <div id="tab-overview" class="modal-tab-panel ${currentActiveTab === 'tab-overview' ? 'active' : ''}">
+                <div class="modal-grid">
+                    <!-- Coluna Esquerda: Imagem, Tipos e Combate Elemental -->
+                    <div class="modal-col-left">
+                        <div class="modal-image-card" style="--pokemon-color: ${primaryColor}">
+                            <img src="${pokemon.image}" alt="${pokemon.name}" class="modal-pokemon-img" />
+                        </div>
+
+                        <div class="modal-section-card">
+                            <h3 class="section-title">Tipagem</h3>
+                            <div class="types-row">
+                                ${typesHtml}
+                            </div>
+                        </div>
+
+                        <!-- Resumo Elemental -->
+                        <div class="modal-section-card">
+                            <h3 class="section-title">
+                                <span>Tipos que Causam Dano Aumentado</span>
+                                <small class="section-subtitle">(Recebe 2× ou 4×)</small>
+                            </h3>
+                            <div class="relations-grid">
+                                ${weaknessesHtml}
+                            </div>
+                        </div>
+
+                        <div class="modal-section-card">
+                            <h3 class="section-title">
+                                <span>Tipos que Sofrem Dano Dobrado</span>
+                                <small class="section-subtitle">(Causa 2×)</small>
+                            </h3>
+                            <div class="relations-grid">
+                                ${countersHtml}
+                            </div>
+                        </div>
+
+                        <div class="modal-section-card">
+                            <h3 class="section-title">
+                                <span>Resistências & Imunidades</span>
+                                <small class="section-subtitle">(Dano reduzido)</small>
+                            </h3>
+                            <div class="relations-grid">
+                                ${resistancesHtml}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coluna Direita: Descrição, Características e Status -->
+                    <div class="modal-col-right">
+                        <!-- Descrição Oficial da Pokédex -->
+                        <div class="modal-section-card description-card">
+                            <h3 class="section-title">Descrição da Pokédex</h3>
+                            <p class="flavor-text">"${flavorText}"</p>
+                        </div>
+
+                        <!-- Características / Perfil -->
+                        <div class="modal-section-card profile-card">
+                            <h3 class="section-title">Características</h3>
+                            <div class="profile-grid">
+                                <div class="profile-item">
+                                    <span class="profile-label">Altura</span>
+                                    <span class="profile-value">${pokemon.height} m</span>
+                                </div>
+                                <div class="profile-item">
+                                    <span class="profile-label">Peso</span>
+                                    <span class="profile-value">${pokemon.weight} kg</span>
+                                </div>
+                                <div class="profile-item">
+                                    <span class="profile-label">Categoria</span>
+                                    <span class="profile-value">${genus}</span>
+                                </div>
+                                <div class="profile-item">
+                                    <span class="profile-label">Gênero</span>
+                                    <span class="profile-value">${genderText}</span>
+                                </div>
+                                <div class="profile-item full-width">
+                                    <span class="profile-label">Habilidades</span>
+                                    <span class="profile-value">${abilitiesText}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Status Base -->
+                        <div class="modal-section-card stats-card">
+                            <div class="stats-header">
+                                <h3 class="section-title">Status Base</h3>
+                                <span class="stats-total">Total: <strong>${stats.total}</strong></span>
+                            </div>
+
+                            <div class="stats-list">
+                                ${renderStatBar('Pontos de Saúde (PS)', stats.hp, maxStat, primaryColor)}
+                                ${renderStatBar('Ataque', stats.attack, maxStat, primaryColor)}
+                                ${renderStatBar('Defesa', stats.defense, maxStat, primaryColor)}
+                                ${renderStatBar('Atq. Especial', stats.spAttack, maxStat, primaryColor)}
+                                ${renderStatBar('Def. Especial', stats.spDefense, maxStat, primaryColor)}
+                                ${renderStatBar('Velocidade', stats.speed, maxStat, primaryColor)}
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Fraquezas por Tipo -->
-                <div class="modal-section-card">
-                    <h3 class="section-title">
-                        <span>Tipos que Causa Dano Aumentado</span>
-                        <small class="section-subtitle">(Recebe 2× ou 4× dano)</small>
-                    </h3>
-                    <div class="relations-grid">
-                        ${weaknessesHtml}
+                <!-- Linha Evolutiva -->
+                <div class="modal-evolution-container">
+                    <h3 class="section-title evolution-main-title">Linha Evolutiva</h3>
+                    ${evolutionHtml}
+                </div>
+            </div>
+
+            <!-- ==========================================
+                 ABA 2: VANTAGENS & FRAQUEZAS (CONFRONTOS)
+                 ========================================== -->
+            <div id="tab-matchups" class="modal-tab-panel ${currentActiveTab === 'tab-matchups' ? 'active' : ''}">
+                <!-- Pokémons que é Bom Contra (Vantagem) -->
+                <div class="modal-section-card matchup-section strong-matchup-section">
+                    <div class="matchup-section-header">
+                        <div class="matchup-title-group">
+                            <h3 class="section-title">
+                                <span class="matchup-header-icon">&#9876;</span> Pokémons que é Bom Contra (Vantagem)
+                            </h3>
+                            <p class="section-desc">Seus ataques causam dano dobrado (2×) ou quádruplo (4×) contra estes Pokémon da 1ª Geração</p>
+                        </div>
+                        <span class="matchup-count-badge strong">${matchups.strongAgainst.length} Pokémon</span>
                     </div>
+                    ${strongRibbonHtml}
                 </div>
 
-                <!-- Tipos que Countera -->
-                <div class="modal-section-card">
-                    <h3 class="section-title">
-                        <span>Tipos que Sofrem Dano Dobrado</span>
-                        <small class="section-subtitle">(Causa 2× dano)</small>
-                    </h3>
-                    <div class="relations-grid">
-                        ${countersHtml}
+                <!-- Pokémons que é Fraco Contra (Desvantagem) -->
+                <div class="modal-section-card matchup-section weak-matchup-section">
+                    <div class="matchup-section-header">
+                        <div class="matchup-title-group">
+                            <h3 class="section-title">
+                                <span class="matchup-header-icon">&#128737;</span> Pokémons que é Fraco Contra (Desvantagem)
+                            </h3>
+                            <p class="section-desc">Estes Pokémon causam dano aumentado (2× ou 4×) contra seus tipos</p>
+                        </div>
+                        <span class="matchup-count-badge weak">${matchups.weakAgainst.length} Pokémon</span>
                     </div>
+                    ${weakRibbonHtml}
                 </div>
+            </div>
 
-                <!-- Resistências -->
-                <div class="modal-section-card">
-                    <h3 class="section-title">
-                        <span>Resistências & Imunidades</span>
-                        <small class="section-subtitle">(Dano reduzido)</small>
-                    </h3>
-                    <div class="relations-grid">
-                        ${resistancesHtml}
+            <!-- ==========================================
+                 ABA 3: ATAQUES & MOVIMENTOS (FRLG)
+                 ========================================== -->
+            <div id="tab-moves" class="modal-tab-panel ${currentActiveTab === 'tab-moves' ? 'active' : ''}">
+                <div class="modal-section-card moves-section">
+                    <div class="moves-header-bar">
+                        <div class="moves-title-group">
+                            <h3 class="section-title">
+                                <span class="moves-header-icon">&#9889;</span> Golpes em Pokémon FireRed & LeafGreen (3ª Geração)
+                            </h3>
+                            <p class="section-desc">Movimentos que <strong>${pokemon.name}</strong> adquire em Kanto, com categorias de dano, poder, precisão e descrição fiel à mecânica de FireRed/LeafGreen.</p>
+                        </div>
+                        <span class="moves-total-pill">${frlgMovesList.length} Movimentos</span>
+                    </div>
+
+                    <!-- Filtros de Método de Aprendizado -->
+                    <div class="moves-filter-bar">
+                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'all' ? 'active' : ''}" data-method="all" onclick="filterMovesList('all')">
+                            Todos (${frlgMovesList.length})
+                        </button>
+                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'level-up' ? 'active' : ''}" data-method="level-up" onclick="filterMovesList('level-up')">
+                            📈 Por Nível (${levelMovesCount})
+                        </button>
+                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'machine' ? 'active' : ''}" data-method="machine" onclick="filterMovesList('machine')">
+                            💿 Por MT / MO (${machineMovesCount})
+                        </button>
+                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'tutor' ? 'active' : ''}" data-method="tutor" onclick="filterMovesList('tutor')">
+                            🎓 Por Tutor (${tutorMovesCount})
+                        </button>
+                        ${eggMovesCount > 0 ? `
+                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'egg' ? 'active' : ''}" data-method="egg" onclick="filterMovesList('egg')">
+                            🥚 Por Cruzamento (${eggMovesCount})
+                        </button>
+                        ` : ''}
+                    </div>
+
+                    <!-- Lista de Golpes -->
+                    <div class="moves-list-container">
+                        ${movesListHtml}
                     </div>
                 </div>
             </div>
 
-            <!-- Coluna Direita: Descrição, Características e Status -->
-            <div class="modal-col-right">
-                <!-- Descrição Oficial da Pokédex -->
-                <div class="modal-section-card description-card">
-                    <h3 class="section-title">Descrição da Pokédex</h3>
-                    <p class="flavor-text">"${flavorText}"</p>
-                </div>
-
-                <!-- Características / Perfil -->
-                <div class="modal-section-card profile-card">
-                    <h3 class="section-title">Características</h3>
-                    <div class="profile-grid">
-                        <div class="profile-item">
-                            <span class="profile-label">Altura</span>
-                            <span class="profile-value">${pokemon.height} m</span>
-                        </div>
-                        <div class="profile-item">
-                            <span class="profile-label">Peso</span>
-                            <span class="profile-value">${pokemon.weight} kg</span>
-                        </div>
-                        <div class="profile-item">
-                            <span class="profile-label">Categoria</span>
-                            <span class="profile-value">${genus}</span>
-                        </div>
-                        <div class="profile-item">
-                            <span class="profile-label">Gênero</span>
-                            <span class="profile-value">${genderText}</span>
-                        </div>
-                        <div class="profile-item full-width">
-                            <span class="profile-label">Habilidades</span>
-                            <span class="profile-value">${abilitiesText}</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Status Base -->
-                <div class="modal-section-card stats-card">
-                    <div class="stats-header">
-                        <h3 class="section-title">Status Base</h3>
-                        <span class="stats-total">Total: <strong>${stats.total}</strong></span>
-                    </div>
-
-                    <div class="stats-list">
-                        ${renderStatBar('Pontos de Saúde (PS)', stats.hp, maxStat, primaryColor)}
-                        ${renderStatBar('Ataque', stats.attack, maxStat, primaryColor)}
-                        ${renderStatBar('Defesa', stats.defense, maxStat, primaryColor)}
-                        ${renderStatBar('Atq. Especial', stats.spAttack, maxStat, primaryColor)}
-                        ${renderStatBar('Def. Especial', stats.spDefense, maxStat, primaryColor)}
-                        ${renderStatBar('Velocidade', stats.speed, maxStat, primaryColor)}
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- SEÇÃO: POKÉMONS QUE É BOM CONTRA (COM NOME, IMAGEM E DANO) -->
-        <div class="modal-section-card full-width-section matchup-section strong-matchup-section">
-            <div class="matchup-section-header">
-                <div class="matchup-title-group">
-                    <h3 class="section-title">
-                        <span class="matchup-header-icon">&#9876;</span> Pokémons que é Bom Contra (Vantagem)
-                    </h3>
-                    <p class="section-desc">Seus ataques causam dano dobrado (2×) ou quádruplo (4×) contra estes Pokémon da 1ª Geração</p>
-                </div>
-                <span class="matchup-count-badge strong">${matchups.strongAgainst.length} Pokémon</span>
-            </div>
-            ${strongRibbonHtml}
-        </div>
-
-        <!-- SEÇÃO: POKÉMONS QUE É FRACO CONTRA (COM NOME, IMAGEM E DANO) -->
-        <div class="modal-section-card full-width-section matchup-section weak-matchup-section">
-            <div class="matchup-section-header">
-                <div class="matchup-title-group">
-                    <h3 class="section-title">
-                        <span class="matchup-header-icon">&#128737;</span> Pokémons que é Fraco Contra (Desvantagem)
-                    </h3>
-                    <p class="section-desc">Estes Pokémon causam dano aumentado (2× ou 4×) contra seus tipos</p>
-                </div>
-                <span class="matchup-count-badge weak">${matchups.weakAgainst.length} Pokémon</span>
-            </div>
-            ${weakRibbonHtml}
-        </div>
-
-        <!-- Seção Inferior: Linha Evolutiva -->
-        <div class="modal-evolution-container">
-            <h3 class="section-title evolution-main-title">Linha Evolutiva</h3>
-            ${evolutionHtml}
         </div>
     `;
+}
+
+/**
+ * Renderiza a lista de golpes com estilo de cards detalhados
+ */
+function renderMovesList(frlgMovesList) {
+    if (!frlgMovesList || frlgMovesList.length === 0) {
+        return `
+            <div class="empty-moves-box">
+                <p>Nenhum movimento registrado para este Pokémon em FireRed & LeafGreen.</p>
+            </div>
+        `;
+    }
+
+    // Ordenação: 1º Por Nível (ordenado por level), 2º MT/MO, 3º Tutor, 4º Ovo
+    const sortedMoves = [...frlgMovesList].sort((a, b) => {
+        const order = { 'level-up': 1, 'machine': 2, 'tutor': 3, 'egg': 4 };
+        const orderA = order[a.method] || 5;
+        const orderB = order[b.method] || 5;
+        if (orderA !== orderB) return orderA - orderB;
+        if (a.method === 'level-up' && b.method === 'level-up') return a.level - b.level;
+        return a.name.localeCompare(b.name);
+    });
+
+    return sortedMoves.map(m => {
+        const details = (typeof FRLG_MOVES !== 'undefined' && FRLG_MOVES[m.name]) ? FRLG_MOVES[m.name] : {
+            name: m.name,
+            namePt: m.name.replace(/-/g, ' '),
+            type: 'normal',
+            category: 'physical',
+            power: null,
+            accuracy: null,
+            pp: 20,
+            desc: 'Descrição indisponível.',
+            tm: null,
+            tutor: null
+        };
+
+        const typeInfo = TYPE_INFO[details.type] || { namePt: details.type, color: '#999', textColor: '#fff' };
+
+        // Categoria (Físico, Especial, Status)
+        let catText = 'Físico';
+        let catClass = 'physical';
+        if (details.category === 'special') {
+            catText = 'Especial';
+            catClass = 'special';
+        } else if (details.category === 'status') {
+            catText = 'Status';
+            catClass = 'status';
+        }
+
+        // Como adquirir
+        let acquireBadge = '';
+        let acquireDesc = '';
+        if (m.method === 'level-up') {
+            acquireBadge = `<span class="acquire-badge level">Nv. ${m.level || 1}</span>`;
+            acquireDesc = `Ao atingir o Nível ${m.level || 1}`;
+        } else if (m.method === 'machine') {
+            const tmCode = details.tm || 'MT/MO';
+            const isHm = tmCode.startsWith('MO');
+            acquireBadge = `<span class="acquire-badge machine ${isHm ? 'hm' : 'tm'}">${tmCode}</span>`;
+            acquireDesc = isHm ? 'Máquina Oculta (MO)' : 'Máquina Técnica (MT)';
+        } else if (m.method === 'tutor') {
+            acquireBadge = `<span class="acquire-badge tutor">Tutor</span>`;
+            acquireDesc = details.tutor ? `Local: ${details.tutor}` : 'Tutor de Golpes em Kanto';
+        } else if (m.method === 'egg') {
+            acquireBadge = `<span class="acquire-badge egg">Ovo</span>`;
+            acquireDesc = 'Cruzamento / Herança Genética';
+        }
+
+        const powerVal = details.power !== null && details.power !== undefined ? details.power : '—';
+        const accVal = details.accuracy !== null && details.accuracy !== undefined ? `${details.accuracy}%` : '—';
+        const ppVal = details.pp || '—';
+
+        return `
+            <div class="move-item-row" data-method="${m.method}">
+                <div class="move-header-line">
+                    <div class="move-acquire-box">
+                        ${acquireBadge}
+                        <span class="acquire-desc">${acquireDesc}</span>
+                    </div>
+
+                    <div class="move-names-group">
+                        <h4 class="move-pt-name">${details.namePt}</h4>
+                        <span class="move-en-name">${details.name.replace(/-/g, ' ')}</span>
+                    </div>
+
+                    <div class="move-badges-group">
+                        <span class="type-badge" style="background-color: ${typeInfo.color}; color: ${typeInfo.textColor}">${typeInfo.namePt}</span>
+                        <span class="category-badge ${catClass}">${catText}</span>
+                    </div>
+
+                    <div class="move-stats-grid">
+                        <div class="stat-spec">
+                            <span class="spec-label">Poder</span>
+                            <span class="spec-val">${powerVal}</span>
+                        </div>
+                        <div class="stat-spec">
+                            <span class="spec-label">Precisão</span>
+                            <span class="spec-val">${accVal}</span>
+                        </div>
+                        <div class="stat-spec">
+                            <span class="spec-label">PP</span>
+                            <span class="spec-val">${ppVal}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="move-desc-box">
+                    <p class="move-desc-text">${details.desc}</p>
+                </div>
+            </div>
+        `;
+    }).join('');
 }
 
 /**
@@ -363,7 +596,7 @@ function renderMatchupRibbon(list, type, containerId) {
         const p = item.pokemon;
         const isSuper = type === 'strong' ? item.damageDealt === 4 : item.damageTaken === 4;
         const damageVal = type === 'strong' ? item.damageDealt : item.damageTaken;
-        const pillText = type === 'strong' ? `Causa ${damageVal}×` : `Recebe ${damageVal}×`;
+        const pillText = type === 'strong' ? `CAUSA ${damageVal}×` : `RECEBE ${damageVal}×`;
         const pillClass = isSuper ? 'pill-super' : 'pill-standard';
 
         const typesMini = p.types.map(t => {
@@ -426,7 +659,6 @@ function renderEvolutionSection(chain, currentId) {
         `;
     }
 
-    // Se o Pokémon não possui evoluções
     if (!chain.evolvesTo || chain.evolvesTo.length === 0) {
         return `
             <div class="no-evolution-card">
@@ -455,7 +687,6 @@ function renderEvolutionSection(chain, currentId) {
                     const artworkUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${node.id}.png`;
                     const fallbackUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${node.id}.png`;
 
-                    // Verifica se o Pokémon pertence à 1ª Geração
                     const isGen1 = node.id <= 151;
                     const clickAction = isGen1 ? `onclick="openPokemonModal(${node.id})"` : '';
                     const cursorClass = isGen1 ? 'clickable' : 'non-clickable';

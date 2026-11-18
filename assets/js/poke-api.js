@@ -9,6 +9,12 @@ const POKE_API = {
      * Carrega todos os 151 Pokémon da 1ª Geração (com cache no localStorage)
      */
     async loadGen1Pokemons(onProgress = null) {
+        // Se já temos a base de dados compilada de FireRed & LeafGreen, carrega instantaneamente
+        if (typeof KANTO_POKEMONS !== 'undefined' && Array.isArray(KANTO_POKEMONS) && KANTO_POKEMONS.length === this.totalGen1) {
+            if (onProgress) onProgress(151, 151);
+            return KANTO_POKEMONS;
+        }
+
         // Tenta obter do cache local para carregamento instantâneo
         try {
             const cached = localStorage.getItem(this.cacheKey);

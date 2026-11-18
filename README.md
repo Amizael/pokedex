@@ -25,35 +25,38 @@ Uma Pokédex moderna, completa e interativa inspirada na interface e experiênci
 
 ---
 
-### 📋 Detalhes Completos do Pokémon (Modal Oficial)
-Ao clicar em qualquer Pokémon, uma ficha detalhada é aberta contendo:
+### 📋 Detalhes Completos do Pokémon (Modal Oficial com 3 Abas)
+Ao clicar em qualquer Pokémon, uma ficha detalhada é aberta organizada em 3 abas temáticas:
 
-1. **Arte Oficial**: Imagem de alta resolução (*Official Artwork*).
-2. **Tipagem Oficial**: Badges estilizados com as cores oficiais.
-3. **Matriz de Combate & Fraquezas**:
-   - **Fraquezas por Elemento**: Tipos contra os quais o Pokémon recebe dano aumentado (`2×` ou `4×`).
-   - **Tipos que Countera**: Tipos contra os quais os ataques deste Pokémon causam dano super-efetivo (`2×`).
-   - **Resistências & Imunidades**: Tipos que causam dano reduzido (`½×`, `¼×`) ou nulo (`0×`).
-4. **⚔️ Listagem de Pokémons que é Bom Contra (Vantagem)**:
-   - Exibe cards reais com a **imagem**, **nome**, **número**, **tipos** e multiplicador de dano (`Causa 2×` ou `Causa 4×`) de todos os Pokémon da 1ª Geração que este monstrinho vence em combate.
-   - Navegação por botões horizontais deslizantes e clique direto para abrir a ficha de qualquer Pokémon listado.
-5. **🛡️ Listagem de Pokémons que é Fraco Contra (Desvantagem)**:
-   - Exibe cards reais com a **imagem**, **nome**, **número**, **tipos** e multiplicador de dano sofrido (`Recebe 2×` ou `Recebe 4×`) dos Pokémon da 1ª Geração que representam perigo para ele.
-   - Totalmente interativo com navegação instantânea por clique.
-6. **Descrição da Pokédex**: Textos oficiais das entradas da Pokédex.
-7. **Características / Perfil**:
-   - Altura (metros)
-   - Peso (kg)
-   - Categoria / Espécie (ex: *Pokémon Semente*, *Pokémon Lagarto*)
-   - Habilidades traduzidas (com indicação de habilidade oculta)
-   - Proporção de Gênero (♂ / ♀)
-8. **Status Base Animados**: Barras de status (PS, Ataque, Defesa, Atq. Especial, Def. Especial, Velocidade) e pontuação total (BST).
-9. **Linha Evolutiva Interativa**:
-   - Visualização de toda a cadeia de evolução (estágios e ramificações como a do *Eevee*).
-   - Requisitos e condições de evolução (ex: *Nível 16*, *Pedra da Água*, *Troca*).
-   - Destaque no Pokémon visualizado atualmente.
-   - Navegação direta: clique em qualquer evolução da linha para abrir seus dados instantaneamente.
-10. **Navegação Rápida**: Botões de Pokémon anterior e próximo, e suporte a atalhos do teclado (`←`, `→` e `Esc` para fechar).
+#### 📊 Aba 1: Visão Geral & Perfil
+- **Arte Oficial**: Imagem de alta resolução (*Official Artwork*).
+- **Tipagem Oficial**: Badges estilizados com as cores oficiais.
+- **Resumo Elemental**: Tipos contra os quais recebe dano multiplicado, tipos que countera e resistências.
+- **Descrição da Pokédex**: Textos oficiais das entradas da Pokédex.
+- **Características / Perfil**: Altura, peso, categoria/espécie, habilidades traduzidas e proporção de gênero (♂ / ♀).
+- **Status Base Animados**: Barras de status proporcionais (PS, Ataque, Defesa, Atq. Especial, Def. Especial, Velocidade) e pontuação total (BST).
+- **Linha Evolutiva Interativa**: Cadeia evolutiva completa com requisitos (Nível, Pedras, Troca) e navegação direta por clique.
+
+#### ⚔️ Aba 2: Vantagens & Fraquezas (Confrontos)
+- **⚔️ Pokémons que é Bom Contra (Vantagem)**:
+  - Fita horizontal deslizante com cards contendo **imagem**, **nome**, **número**, **tipos** e badge de dano (`CAUSA 2×` ou `CAUSA 4×`) de todos os Pokémon da 1ª Geração que ele vence com facilidade.
+- **🛡️ Pokémons que é Fraco Contra (Desvantagem)**:
+  - Fita horizontal deslizante com cards contendo **imagem**, **nome**, **número**, **tipos** e badge de dano (`RECEBE 2×` ou `RECEBE 4×`) dos Pokémon da 1ª Geração que representam perigo.
+- **Navegação direta**: Clique em qualquer card de confronto para abrir imediatamente a ficha do Pokémon correspondente!
+
+#### ⚡ Aba 3: Ataques & Movimentos (Pokémon FireRed & LeafGreen)
+- **Moveset Fiel à 3ª Geração (FRLG / Kanto)** para todos os 151 Pokémon.
+- **Filtros Rápidos por Método de Aprendizado**:
+  - 📈 **Por Nível**: Nível exato em que o golpe é desbloqueado (ex: *Nv. 10*, *Nv. 20*).
+  - 💿 **Por MT / MO**: Códigos oficiais das Máquinas Técnicas e Ocultas de FireRed/LeafGreen (ex: *MT26 Terremoto*, *MO03 Surf*, *MT35 Lança-chamas*, *MT13 Raio de Gelo*).
+  - 🎓 **Por Tutor de Golpes**: Localização exata do Tutor em Kanto (ex: *Pewter City*, *Celadon*, *Silph Co.*, *Ilha 7*).
+  - 🥚 **Por Cruzamento (Ovo)**: Golpes herdados através de cruzamento na Ilha 4.
+- **Ficha do Golpe**:
+  - Nome em Português e em Inglês.
+  - Tipo Elemental com badge oficial.
+  - Categoria (**Físico**, **Especial** ou **Status**) de acordo com a mecânica oficial da 3ª Geração.
+  - Poder (Power), Precisão (Accuracy) e PP (Pontos de Poder).
+  - Descrição oficial do efeito do golpe em FireRed e LeafGreen.
 
 ---
 
