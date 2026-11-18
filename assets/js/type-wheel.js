@@ -166,9 +166,10 @@ function renderTypeWheelSvg() {
     const activeType = selectedType !== 'all' ? selectedType : null;
     const activeInfo = activeType ? TYPE_INFO[activeType] : null;
 
-    // Calcula vantagens e fraquezas de combate
+    // Calcula vantagens, fraquezas e imunidades de combate
     let strongAgainst = [];
     let weakAgainst = [];
+    let immuneAgainst = [];
 
     if (activeType) {
         if (TYPE_CHART[activeType]) {
@@ -179,6 +180,11 @@ function renderTypeWheelSvg() {
 
         weakAgainst = ALL_TYPES.filter(atkType => {
             return TYPE_CHART[atkType] && TYPE_CHART[atkType][activeType] >= 2;
+        });
+
+        // Imunidades defensivas (Recebe 0× - Dano Nulo)
+        immuneAgainst = ALL_TYPES.filter(atkType => {
+            return TYPE_CHART[atkType] && TYPE_CHART[atkType][activeType] === 0;
         });
     }
 
@@ -207,6 +213,17 @@ function renderTypeWheelSvg() {
         }).join('')
         : '';
 
+    // Linhas roxas tracejadas (Imunidade defensiva 0x - Dano Nulo)
+    const purpleLinesHtml = (activeCoords && immuneAgainst.length > 0)
+        ? immuneAgainst.map(t => {
+            const target = getTypeCoordinates(t);
+            return `
+                <line x1="${activeCoords.x}" y1="${activeCoords.y}" x2="${target.x}" y2="${target.y}"
+                      class="wheel-relation-line purple" />
+            `;
+        }).join('')
+        : '';
+
     // Anéis de destaque sob as esferas conectadas (ESTÁTICOS - sem pulsar para dentro e para fora)
     const targetGlowsHtml = activeCoords ? `
         ${strongAgainst.map(t => {
@@ -217,6 +234,10 @@ function renderTypeWheelSvg() {
             const c = getTypeCoordinates(t);
             return `<circle cx="${c.x}" cy="${c.y}" r="34" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2.5" class="target-glow-ring red" />`;
         }).join('')}
+        ${immuneAgainst.map(t => {
+            const c = getTypeCoordinates(t);
+            return `<circle cx="${c.x}" cy="${c.y}" r="34" fill="#a855f7" fill-opacity="0.25" stroke="#a855f7" stroke-width="2.5" class="target-glow-ring purple" />`;
+        }).join('')}
     ` : '';
 
     // Orbs das 18 tipagens
@@ -226,11 +247,13 @@ function renderTypeWheelSvg() {
         const isSelected = activeType === t;
         const isStrong = strongAgainst.includes(t);
         const isWeak = weakAgainst.includes(t);
+        const isImmune = immuneAgainst.includes(t);
 
         let orbClass = 'type-wheel-orb';
         if (isSelected) orbClass += ' active-selected';
         else if (isStrong) orbClass += ' target-strong';
         else if (isWeak) orbClass += ' target-weak';
+        else if (isImmune) orbClass += ' target-immune';
 
         return `
             <g class="${orbClass}"
@@ -319,16 +342,27 @@ function renderTypeWheelSvg() {
                     ${renderTypeIconSvg(activeType)}
                 </g>
 
-                <!-- Base da Pokébola: Fraquezas e Botão de Limpar -->
-                <text x="300" y="358" text-anchor="middle" class="wheel-active-stat weak" fill="#b91c1c">
-                    ✦ Fraqueza (${weakAgainst.length} tipos)
-                </text>
-
-                <!-- Botão para limpar o filtro -->
-                <g class="wheel-clear-btn" onclick="resetTypeWheel()">
-                    <rect x="230" y="382" width="140" height="28" rx="14" fill="#181818" stroke="#333333" stroke-width="1.5" />
-                    <text x="300" y="401" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
-                </g>
+                <!-- Base da Pokébola: Fraquezas, Imunidades e Botão de Limpar -->
+                ${immuneAgainst.length > 0 ? `
+                    <text x="300" y="342" text-anchor="middle" class="wheel-active-stat weak" fill="#b91c1c">
+                        ✦ Fraqueza (${weakAgainst.length} tipos)
+                    </text>
+                    <text x="300" y="364" text-anchor="middle" class="wheel-active-stat immune" fill="#7c3aed">
+                        ✦ Imunidade (${immuneAgainst.length} ${immuneAgainst.length === 1 ? 'tipo' : 'tipos'})
+                    </text>
+                    <g class="wheel-clear-btn" onclick="resetTypeWheel()">
+                        <rect x="230" y="386" width="140" height="26" rx="13" fill="#181818" stroke="#333333" stroke-width="1.5" />
+                        <text x="300" y="403" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
+                    </g>
+                ` : `
+                    <text x="300" y="356" text-anchor="middle" class="wheel-active-stat weak" fill="#b91c1c">
+                        ✦ Fraqueza (${weakAgainst.length} tipos)
+                    </text>
+                    <g class="wheel-clear-btn" onclick="resetTypeWheel()">
+                        <rect x="230" y="382" width="140" height="28" rx="14" fill="#181818" stroke="#333333" stroke-width="1.5" />
+                        <text x="300" y="401" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
+                    </g>
+                `}
             </g>
         `;
     }
@@ -369,10 +403,11 @@ function renderTypeWheelSvg() {
                 <circle cx="300" cy="300" r="294" fill="url(#wheel-bg-rad)" stroke="#222222" stroke-width="2" />
                 <circle cx="300" cy="300" r="${WHEEL_CONFIG.radius}" fill="none" stroke="#252525" stroke-width="1.5" stroke-dasharray="4 6" />
 
-                <!-- 2. Linhas Verdes e Vermelhas (desenhadas ATRÁS da Pokébola para manter o texto 100% limpo) -->
+                <!-- 2. Linhas Verdes, Vermelhas e Roxas (desenhadas ATRÁS da Pokébola para manter o texto 100% limpo) -->
                 <g class="wheel-lines-group">
                     ${greenLinesHtml}
                     ${redLinesHtml}
+                    ${purpleLinesHtml}
                 </g>
 
                 <!-- 3. Pokébola Central e Painel de Informações (Sobre as linhas) -->
@@ -399,12 +434,16 @@ function renderTypeWheelSvg() {
                     <span class="legend-dot red"></span>
                     <span>Vermelho: Fraqueza (2×)</span>
                 </div>
+                <div class="legend-item">
+                    <span class="legend-dot purple"></span>
+                    <span>Roxo: Imunidade (0×)</span>
+                </div>
             </div>
         </div>
     `;
 
     // Renderiza o painel lateral de detalhes sobre o campo selecionado
-    renderTypeDetailsPanel(activeType, strongAgainst, weakAgainst);
+    renderTypeDetailsPanel(activeType, strongAgainst, weakAgainst, immuneAgainst);
 }
 
 /**
@@ -439,6 +478,13 @@ function renderTypeDetailsPanel(activeType, strongAgainst = [], weakAgainst = []
                         <div>
                             <strong>Linhas Vermelhas (Fraqueza Defensiva):</strong>
                             <p>Indica de quais tipos este Pokémon recebe dano aumentado (2×).</p>
+                        </div>
+                    </div>
+                    <div class="guide-item">
+                        <span class="guide-dot purple"></span>
+                        <div>
+                            <strong>Linhas Roxas (Imunidade Defensiva):</strong>
+                            <p>Indica de quais tipos este Pokémon recebe dano nulo (0× - completamente imune sem tomar dano).</p>
                         </div>
                     </div>
                 </div>

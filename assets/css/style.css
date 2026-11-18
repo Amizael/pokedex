@@ -2129,6 +2129,10 @@ body {
     filter: drop-shadow(0 0 12px #ef4444);
 }
 
+.type-wheel-orb.target-immune .orb-inner {
+    filter: drop-shadow(0 0 12px #a855f7);
+}
+
 /* Anéis de destaque ESTÁTICOS (sem pulsar para dentro e para fora) */
 .orb-aura-selected {
     transform-origin: 0px 0px;
@@ -2161,6 +2165,14 @@ body {
     filter: drop-shadow(0 0 6px #ef4444);
 }
 
+.target-glow-ring.purple {
+    fill: #a855f7;
+    fill-opacity: 0.25;
+    stroke: #a855f7;
+    stroke-width: 2.5;
+    filter: drop-shadow(0 0 6px #a855f7);
+}
+
 /* Linhas de conexão animadas (neon glow) */
 .wheel-relation-line {
     stroke-linecap: round;
@@ -2181,6 +2193,14 @@ body {
     animation: pulseLineRed 2s infinite alternate;
 }
 
+.wheel-relation-line.purple {
+    stroke: #a855f7;
+    stroke-width: 3.5;
+    stroke-dasharray: 6 4;
+    filter: drop-shadow(0 0 6px #a855f7);
+    animation: pulseLinePurple 2s infinite alternate;
+}
+
 @keyframes pulseLineGreen {
     0% { opacity: 0.8; stroke-width: 3.2; }
     100% { opacity: 1; stroke-width: 4.5; filter: drop-shadow(0 0 10px #22c55e); }
@@ -2189,6 +2209,11 @@ body {
 @keyframes pulseLineRed {
     0% { opacity: 0.8; stroke-width: 3.2; }
     100% { opacity: 1; stroke-width: 4.5; filter: drop-shadow(0 0 10px #ef4444); }
+}
+
+@keyframes pulseLinePurple {
+    0% { opacity: 0.8; stroke-width: 3.2; }
+    100% { opacity: 1; stroke-width: 4.5; filter: drop-shadow(0 0 10px #a855f7); }
 }
 
 /* Pokébola Central e textos de alto contraste */
@@ -2235,6 +2260,10 @@ body {
 
 .wheel-active-stat.weak {
     fill: #b91c1c;
+}
+
+.wheel-active-stat.immune {
+    fill: #7c3aed;
 }
 
 .wheel-center-active-btn {
@@ -2291,6 +2320,11 @@ body {
 .legend-dot.red {
     background: #ef4444;
     box-shadow: 0 0 6px #ef4444;
+}
+
+.legend-dot.purple {
+    background: #a855f7;
+    box-shadow: 0 0 6px #a855f7;
 }
 
 /* ==========================================================================
