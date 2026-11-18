@@ -7,7 +7,7 @@ let searchTerm = '';
 let selectedGeneration = 'all'; // 'all' | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
 let selectedType = 'all';
 let selectedSort = 'id-asc';
-const ITEMS_PER_PAGE = 30;
+const ITEMS_PER_PAGE = 100; // Visualização a cada 100 Pokémon conforme solicitado
 let displayedLimit = ITEMS_PER_PAGE;
 
 // Elementos do DOM
@@ -31,6 +31,9 @@ const loadingProgress = document.getElementById('loading-progress');
 document.addEventListener('DOMContentLoaded', async () => {
     renderGenerationFilterButtons();
     renderTypeFilterButtons();
+    if (typeof renderTypeWheelSvg === 'function') {
+        renderTypeWheelSvg();
+    }
     setupEventListeners();
     await loadPokemons();
 });
@@ -174,7 +177,7 @@ function setupEventListeners() {
         });
     }
 
-    // Filtros de Tipo
+    // Filtros de Tipo (Botões)
     if (typeFiltersContainer) {
         typeFiltersContainer.addEventListener('click', (e) => {
             const btn = e.target.closest('.type-filter-btn');
@@ -185,6 +188,12 @@ function setupEventListeners() {
 
             selectedType = btn.dataset.type;
             displayedLimit = ITEMS_PER_PAGE;
+
+            // Sincroniza com a Roda de Tipos
+            if (typeof renderTypeWheelSvg === 'function') {
+                renderTypeWheelSvg();
+            }
+
             applyFiltersAndRender();
         });
     }
@@ -216,6 +225,11 @@ function setupEventListeners() {
             document.querySelectorAll('.type-filter-btn').forEach(b => {
                 b.classList.toggle('active', b.dataset.type === 'all');
             });
+
+            // Reseta a roda de tipos
+            if (typeof resetTypeWheel === 'function') {
+                resetTypeWheel();
+            }
 
             displayedLimit = ITEMS_PER_PAGE;
             applyFiltersAndRender();
@@ -290,7 +304,7 @@ function applyFiltersAndRender() {
 }
 
 /**
- * Renderiza os cards no grid de acordo com o limite de exibição atual
+ * Renderiza os cards no grid de acordo com o limite de exibição atual (100 por página)
  */
 function renderCards() {
     if (!cardsContainer) return;
@@ -303,8 +317,12 @@ function renderCards() {
             const g = GENERATIONS_CONFIG[selectedGeneration];
             contextLabel = `${g.roman}ª Geração (${g.name} • ${g.mainGames})`;
         }
-        if (selectedType !== 'all' || searchTerm) {
-            contextLabel += ' (Filtrado)';
+        if (selectedType !== 'all') {
+            const tInfo = TYPE_INFO[selectedType] || { namePt: selectedType };
+            contextLabel += ` • Tipo ${tInfo.namePt}`;
+        }
+        if (searchTerm) {
+            contextLabel += ' (Busca personalizada)';
         }
         resultsCounter.textContent = `Exibindo ${Math.min(displayedLimit, matching)} de ${matching} Pokémon • ${contextLabel}`;
     }
@@ -365,7 +383,8 @@ function renderCards() {
             btnLoadMore.parentElement.style.display = 'none';
         } else {
             btnLoadMore.parentElement.style.display = 'flex';
-            btnLoadMore.textContent = `Carregar mais Pokémon (+${Math.min(ITEMS_PER_PAGE, filteredPokemons.length - displayedLimit)})`;
+            const remaining = filteredPokemons.length - displayedLimit;
+            btnLoadMore.textContent = `Carregar mais Pokémon (+${Math.min(ITEMS_PER_PAGE, remaining)})`;
         }
     }
 }

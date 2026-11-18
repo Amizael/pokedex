@@ -53,7 +53,6 @@ async function openPokemonModal(pokemonId) {
         const speciesData = await POKE_API.getSpeciesAndEvolution(numId);
         if (currentModalPokemonId === numId) {
             renderModalContent(pokemon, speciesData);
-            // Re-renderiza o painel de ataques com os dados já carregados
             renderMovesPanelContent();
         }
     } catch (err) {
@@ -223,7 +222,7 @@ function renderMovesPanelContent() {
             <div class="empty-moves-unavailable">
                 <div class="unavailable-icon">i</div>
                 <h4>Não disponível nesta geração</h4>
-                <p><strong>${pokemon?.name || 'Este Pokémon'}</strong> foi introduzido oficialmente na <strong>${introducedInfo.roman}ª Geração (${introducedInfo.name})</strong> e não existia nos jogos da <strong>${genConfig.roman}ª Geração (${genConfig.mainGames})</strong>.</p>
+                <p><strong>${pokemon?.displayName || pokemon?.name || 'Este Pokémon'}</strong> foi introduzido oficialmente na <strong>${introducedInfo.roman}ª Geração (${introducedInfo.name})</strong> e não existia nos jogos da <strong>${genConfig.roman}ª Geração (${genConfig.mainGames})</strong>.</p>
                 <button type="button" class="btn-jump-gen" onclick="document.getElementById('moves-gen-select').value = '${pokemon?.generation || 1}'; onModalMovesGenChange(${pokemon?.generation || 1})">
                     Ver ataques na ${introducedInfo.roman}ª Geração (${introducedInfo.name})
                 </button>
@@ -368,14 +367,32 @@ function renderModalContent(pokemon, speciesData) {
         ].join('')
         : '<span class="empty-relation">Dano normal de todos os tipos</span>';
 
-    // Habilidades
-    const abilitiesText = pokemon.abilities.map(a => `${a.name}${a.is_hidden ? ' (Oculta)' : ''}`).join(', ') || 'Nenhuma';
+    // Habilidades com descrição completa do que fazem em português
+    const abilitiesCardsHtml = pokemon.abilities.map(a => {
+        const abInfo = (typeof ABILITIES_DATABASE !== 'undefined' && ABILITIES_DATABASE[a.raw]) || {};
+        const ptName = abInfo.namePt || a.name;
+        const enName = abInfo.nameEn || a.raw.replace(/-/g, ' ');
+        const desc = abInfo.desc || 'Habilidade oficial registrada na Pokédex.';
+        const badgeText = a.is_hidden ? 'Oculta' : 'Comum';
+        const badgeClass = a.is_hidden ? 'hidden-ability' : 'common-ability';
+
+        return `
+            <div class="modal-ability-item">
+                <div class="modal-ability-header">
+                    <span class="ability-pt-title">${ptName}</span>
+                    <span class="ability-en-sub">(${enName})</span>
+                    <span class="ability-type-badge ${badgeClass}">${badgeText}</span>
+                </div>
+                <p class="modal-ability-desc">${desc}</p>
+            </div>
+        `;
+    }).join('') || '<p class="empty-ability">Nenhuma habilidade registrada.</p>';
 
     // Estatísticas
     const stats = pokemon.stats;
     const maxStat = 255;
 
-    // Fitas da Aba 2
+    // Fitas da Aba 2 (sem scroll infinito)
     const strongRibbonHtml = renderMatchupRibbon(matchups.strongAgainst, 'strong', 'ribbon-strong');
     const weakRibbonHtml = renderMatchupRibbon(matchups.weakAgainst, 'weak', 'ribbon-weak');
 
@@ -482,7 +499,7 @@ function renderModalContent(pokemon, speciesData) {
                         </div>
                     </div>
 
-                    <!-- Coluna Direita: Descrição, Características e Status -->
+                    <!-- Coluna Direita: Descrição, Características, Habilidades e Status -->
                     <div class="modal-col-right">
                         <!-- Descrição Oficial da Pokédex -->
                         <div class="modal-section-card description-card">
@@ -510,10 +527,14 @@ function renderModalContent(pokemon, speciesData) {
                                     <span class="profile-label">Gênero</span>
                                     <span class="profile-value">${genderText}</span>
                                 </div>
-                                <div class="profile-item full-width">
-                                    <span class="profile-label">Habilidades</span>
-                                    <span class="profile-value">${abilitiesText}</span>
-                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Habilidades Detalhadas (O que cada uma faz) -->
+                        <div class="modal-section-card abilities-card">
+                            <h3 class="section-title">Habilidades & Efeitos</h3>
+                            <div class="abilities-detail-list">
+                                ${abilitiesCardsHtml}
                             </div>
                         </div>
 
@@ -614,7 +635,6 @@ function renderModalContent(pokemon, speciesData) {
         </div>
     `;
 
-    // Renderiza os ataques logo após montar a estrutura
     renderMovesPanelContent();
 }
 
@@ -630,7 +650,6 @@ function renderMovesList(movesList) {
         `;
     }
 
-    // Ordenação padrão: por método (level-up primeiro ordenado por level asc, depois machine, tutor, egg)
     const sortedMoves = [...movesList].sort((a, b) => {
         const methodOrder = { 'level-up': 1, 'machine': 2, 'tutor': 3, 'egg': 4 };
         const orderA = methodOrder[a.method] || 99;
@@ -656,7 +675,6 @@ function renderMovesList(movesList) {
 
         const typeInfo = TYPE_INFO[details.type] || { namePt: details.type, color: '#999', textColor: '#fff' };
 
-        // Categoria (Físico, Especial, Status)
         let catText = 'Físico';
         let catClass = 'physical';
         if (details.category === 'special') {
@@ -667,7 +685,6 @@ function renderMovesList(movesList) {
             catClass = 'status';
         }
 
-        // Como adquirir
         let acquireBadge = '';
         let acquireDesc = '';
         if (m.method === 'level-up') {
@@ -737,6 +754,7 @@ function renderMovesList(movesList) {
 
 /**
  * Renderiza uma fita horizontal de Pokémon para os confrontos (Vantagens / Fraquezas)
+ * LIMITA a 30 cards e garante rolagem horizontal estrita sem quebras verticais
  */
 function renderMatchupRibbon(list, type, containerId) {
     if (!list || list.length === 0) {
@@ -747,7 +765,10 @@ function renderMatchupRibbon(list, type, containerId) {
         `;
     }
 
-    const cardsHtml = list.map(item => {
+    // Limita aos 35 mais relevantes para performance e clareza visual
+    const displayList = list.slice(0, 35);
+
+    const cardsHtml = displayList.map(item => {
         const p = item.pokemon;
         const isSuper = type === 'strong' ? item.damageDealt === 4 : item.damageTaken === 4;
         const damageVal = type === 'strong' ? item.damageDealt : item.damageTaken;
@@ -760,7 +781,7 @@ function renderMatchupRibbon(list, type, containerId) {
         }).join('');
 
         return `
-            <div class="matchup-card" onclick="openPokemonModal(${p.id})" tabindex="0" role="button" aria-label="Ver ${p.name}">
+            <div class="matchup-card" onclick="openPokemonModal(${p.id})" tabindex="0" role="button" aria-label="Ver ${p.displayName || p.name}">
                 <div class="matchup-tag ${tagClass}">${tagText}</div>
                 <div class="matchup-img-wrap">
                     <img src="${p.image}" alt="${p.displayName || p.name}" loading="lazy" />
@@ -775,12 +796,12 @@ function renderMatchupRibbon(list, type, containerId) {
     }).join('');
 
     return `
-        <div class="ribbon-wrapper">
-            <button type="button" class="ribbon-arrow left" onclick="scrollRibbon('${containerId}', -300)" aria-label="Rolar para a esquerda">&lsaquo;</button>
-            <div class="ribbon-track" id="${containerId}">
+        <div class="matchup-ribbon-wrapper ribbon-wrapper">
+            <button type="button" class="ribbon-arrow-btn left" onclick="scrollRibbon('${containerId}', -320)" aria-label="Rolar para a esquerda">&lsaquo;</button>
+            <div class="matchup-ribbon-track ribbon-track" id="${containerId}">
                 ${cardsHtml}
             </div>
-            <button type="button" class="ribbon-arrow right" onclick="scrollRibbon('${containerId}', 300)" aria-label="Rolar para a direita">&rsaquo;</button>
+            <button type="button" class="ribbon-arrow-btn right" onclick="scrollRibbon('${containerId}', 320)" aria-label="Rolar para a direita">&rsaquo;</button>
         </div>
     `;
 }
@@ -832,7 +853,6 @@ function renderEvolutionSection(chain, currentId) {
         `;
     }
 
-    // Achata a árvore em estágios: [ [estágio 1], [estágio 2], [estágio 3] ]
     const stages = [];
     function traverse(node, stageIndex) {
         if (!stages[stageIndex]) stages[stageIndex] = [];

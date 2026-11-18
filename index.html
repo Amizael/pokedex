@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pokédex Oficial Completa com as 9 gerações Pokémon (#0001 a #1025), estatísticas base, fraquezas, vantagens, evolução e ataques por versão dos jogos.">
+    <meta name="description" content="Pokédex Oficial Completa das 9 gerações (#0001 a #1025) com filtro circular de tipagens, enciclopédia de golpes, itens, habilidades e gimmicks de batalha.">
     <title>Pokédex Oficial Completa - Gerações I a IX (1025 Pokémon)</title>
 
     <!-- Normalize CSS -->
@@ -42,76 +42,239 @@
             </div>
             <span class="gen-tag">Gerações I a IX • 1025 Pokémon</span>
         </div>
+
+        <!-- Barra de Navegação das 4 Seções Principais -->
+        <nav class="main-site-nav" aria-label="Navegação da Enciclopédia">
+            <button type="button" class="site-nav-btn active" data-view="view-pokedex" onclick="switchMainView('view-pokedex')">
+                Pokédex
+            </button>
+            <button type="button" class="site-nav-btn" data-view="view-moves" onclick="switchMainView('view-moves')">
+                Golpes
+            </button>
+            <button type="button" class="site-nav-btn" data-view="view-items" onclick="switchMainView('view-items')">
+                Itens
+            </button>
+            <button type="button" class="site-nav-btn" data-view="view-gimmicks" onclick="switchMainView('view-gimmicks')">
+                Gimmicks de Batalha
+            </button>
+        </nav>
     </header>
 
     <!-- Conteúdo Principal -->
     <main class="main-wrapper">
-        <!-- Painel de Busca e Filtros -->
-        <section class="filter-panel" aria-label="Filtros da Pokédex">
-            <div class="search-row">
-                <div class="search-box">
-                    <input type="text" id="search-input" class="search-input" placeholder="Pesquisar por nome ou número (ex: Pikachu, Lucario ou 25)..." autocomplete="off" />
-                    <button type="button" id="search-btn" class="search-btn">Buscar</button>
+        <!-- =================================================================
+             1. VISÃO PRINCIPAL: POKÉDEX (COM RODA CIRCULAR DE TIPOS)
+             ================================================================= -->
+        <section id="view-pokedex" class="main-view active" aria-label="Catálogo de Pokémon">
+            <!-- Painel de Busca e Filtros -->
+            <section class="filter-panel" aria-label="Filtros da Pokédex">
+                <div class="search-row">
+                    <div class="search-box">
+                        <input type="text" id="search-input" class="search-input" placeholder="Pesquisar por nome ou número (ex: Pikachu, Lucario ou 25)..." autocomplete="off" />
+                        <button type="button" id="search-btn" class="search-btn">Buscar</button>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button type="button" id="btn-surprise" class="btn-surprise" title="Sorteia um Pokémon aleatório de 1 a 1025">
+                            Surpreenda-me!
+                        </button>
+
+                        <div class="sort-box">
+                            <select id="sort-select" class="sort-select" aria-label="Ordenar Pokémon">
+                                <option value="id-asc">Menor número primeiro</option>
+                                <option value="id-desc">Maior número primeiro</option>
+                                <option value="name-asc">Nome (A - Z)</option>
+                                <option value="name-desc">Nome (Z - A)</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="action-buttons">
-                    <button type="button" id="btn-surprise" class="btn-surprise" title="Sorteia um Pokémon aleatório de 1 a 1025">
-                        Surpreenda-me!
-                    </button>
+                <!-- Filtros por Geração (I a IX) -->
+                <div class="generation-filter-section">
+                    <div class="filter-section-header">
+                        <span class="filter-title">Filtrar por Geração</span>
+                        <span id="gen-active-badge" class="gen-active-badge">Todas as Gerações (1025)</span>
+                    </div>
+                    <div id="generation-filters" class="generation-filters-bar">
+                        <!-- Gerado dinamicamente via JS -->
+                    </div>
+                </div>
+
+                <!-- RODA CIRCULAR DE TIPAGENS COM RELAÇÕES DE COMBATE -->
+                <div class="type-wheel-section">
+                    <div class="filter-section-header">
+                        <span class="filter-title">Filtro Interativo de Tipos (Relações de Combate)</span>
+                        <button type="button" class="btn-clear-wheel" onclick="resetTypeWheel()">Limpar Tipagem</button>
+                    </div>
+                    <div id="type-wheel-container">
+                        <!-- Renderizado via type-wheel.js -->
+                    </div>
+                </div>
+
+                <!-- Filtros por Tipo (Botões Rápidos) -->
+                <div class="type-filter-section">
+                    <div class="filter-section-header">
+                        <span class="filter-title">Seleção Rápida por Tipo</span>
+                        <button type="button" id="btn-clear-filters" class="btn-clear-filters">Limpar Todos os Filtros</button>
+                    </div>
+                    <div id="type-filters" class="type-filters-grid">
+                        <!-- Gerado dinamicamente via JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Informações de Resultados -->
+            <div class="results-info-bar">
+                <span id="results-counter" class="results-counter">Carregando Pokédex...</span>
+            </div>
+
+            <!-- Grade de Cards dos Pokémon (100 por lote) -->
+            <section id="cards-pokemons" class="pokemon-grid" aria-label="Lista de Pokémon">
+                <!-- Cards injetados via JavaScript -->
+            </section>
+
+            <!-- Botão Carregar Mais -->
+            <div class="load-more-container" style="display: none;">
+                <button id="btnLoadMore" type="button" class="btn-load-more">
+                    Carregar mais Pokémon
+                </button>
+            </div>
+        </section>
+
+        <!-- =================================================================
+             2. VISÃO: GOLPES & MOVIMENTOS (ENCICLOPÉDIA DE ATAQUES)
+             ================================================================= -->
+        <section id="view-moves" class="main-view" aria-label="Enciclopédia de Golpes">
+            <div class="encyclopedia-header-card">
+                <h2>Enciclopédia de Golpes Pokémon</h2>
+                <p>Consulte todos os mais de 920 movimentos registrados, suas tipagens, categorias físicas/especiais, poder, precisão e efeitos descritos em português.</p>
+            </div>
+
+            <div class="encyclopedia-filter-panel">
+                <div class="search-box">
+                    <input type="text" id="moves-search-input" class="search-input" placeholder="Pesquisar golpe por nome (ex: Raio, Terremoto, Lança-chamas)..." autocomplete="off" />
+                </div>
+                <div class="encyclopedia-selects-row">
+                    <div class="sort-box">
+                        <select id="moves-type-filter" class="sort-select" aria-label="Filtrar por Tipo">
+                            <option value="all">Todos os Tipos</option>
+                            <option value="normal">Normal</option>
+                            <option value="fire">Fogo</option>
+                            <option value="water">Água</option>
+                            <option value="grass">Planta</option>
+                            <option value="electric">Elétrico</option>
+                            <option value="ice">Gelo</option>
+                            <option value="fighting">Lutador</option>
+                            <option value="poison">Veneno</option>
+                            <option value="ground">Terrestre</option>
+                            <option value="flying">Voador</option>
+                            <option value="psychic">Psíquico</option>
+                            <option value="bug">Inseto</option>
+                            <option value="rock">Pedra</option>
+                            <option value="ghost">Fantasma</option>
+                            <option value="dragon">Dragão</option>
+                            <option value="steel">Aço</option>
+                            <option value="fairy">Fada</option>
+                            <option value="dark">Sombrio</option>
+                        </select>
+                    </div>
 
                     <div class="sort-box">
-                        <select id="sort-select" class="sort-select" aria-label="Ordenar Pokémon">
-                            <option value="id-asc">Menor número primeiro</option>
-                            <option value="id-desc">Maior número primeiro</option>
-                            <option value="name-asc">Nome (A - Z)</option>
-                            <option value="name-desc">Nome (Z - A)</option>
+                        <select id="moves-category-filter" class="sort-select" aria-label="Filtrar por Categoria">
+                            <option value="all">Todas as Categorias</option>
+                            <option value="physical">Físico</option>
+                            <option value="special">Especial</option>
+                            <option value="status">Status</option>
                         </select>
                     </div>
                 </div>
             </div>
 
-            <!-- Filtros por Geração (I a IX) -->
-            <div class="generation-filter-section">
-                <div class="filter-section-header">
-                    <span class="filter-title">Filtrar por Geração</span>
-                    <span id="gen-active-badge" class="gen-active-badge">Todas as Gerações (1025)</span>
-                </div>
-                <div id="generation-filters" class="generation-filters-bar">
-                    <!-- Gerado dinamicamente via JS -->
-                </div>
+            <div class="results-info-bar">
+                <span id="moves-count-label" class="results-counter">Carregando golpes...</span>
             </div>
 
-            <!-- Filtros por Tipo -->
-            <div class="type-filter-section">
-                <div class="filter-section-header">
-                    <span class="filter-title">Filtrar por Tipo</span>
-                    <button type="button" id="btn-clear-filters" class="btn-clear-filters">Limpar Filtros</button>
-                </div>
-                <div id="type-filters" class="type-filters-grid">
-                    <!-- Gerado dinamicamente via JS -->
-                </div>
+            <div id="moves-encyclopedia-grid" class="encyclopedia-grid">
+                <!-- Preenchido via encyclopedia.js -->
             </div>
         </section>
 
-        <!-- Informações de Resultados -->
-        <div class="results-info-bar">
-            <span id="results-counter" class="results-counter">Carregando Pokédex...</span>
-        </div>
+        <!-- =================================================================
+             3. VISÃO: ITENS (ENCICLOPÉDIA DE ITENS)
+             ================================================================= -->
+        <section id="view-items" class="main-view" aria-label="Enciclopédia de Itens">
+            <div class="encyclopedia-header-card">
+                <h2>Enciclopédia de Itens Pokémon</h2>
+                <p>Consulte as Pokébolas, remédios, pedras de evolução, itens segurados competitivos e relíquias das 9 gerações com suas funções oficiais.</p>
+            </div>
 
-        <!-- Grade de Cards dos Pokémon -->
-        <section id="cards-pokemons" class="pokemon-grid" aria-label="Lista de Pokémon">
-            <!-- Cards injetados via JavaScript -->
+            <div class="encyclopedia-filter-panel">
+                <div class="search-box">
+                    <input type="text" id="items-search-input" class="search-input" placeholder="Pesquisar item por nome (ex: Master Bola, Restos, Pedra de Fogo)..." autocomplete="off" />
+                </div>
+                <div class="sort-box">
+                    <select id="items-category-filter" class="sort-select" aria-label="Filtrar por Categoria de Item">
+                        <option value="all">Todas as Categorias</option>
+                        <option value="Pokébolas">Pokébolas</option>
+                        <option value="Cura & Medicina">Cura & Medicina</option>
+                        <option value="Revitalização">Revitalização</option>
+                        <option value="Cura de Condições">Cura de Condições</option>
+                        <option value="Pedras & Evolução">Pedras & Evolução</option>
+                        <option value="Itens Segurados">Itens Segurados</option>
+                        <option value="Itens de Escolha">Itens de Escolha</option>
+                        <option value="Mega Pedras (Mega Evolução)">Mega Pedras</option>
+                        <option value="Cristais Z (Movimentos Z)">Cristais Z</option>
+                        <option value="Gimmicks & Batalha">Itens de Gimmick</option>
+                        <option value="Vitaminas & Nutrição">Vitaminas & Nutrição</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="results-info-bar">
+                <span id="items-count-label" class="results-counter">Carregando itens...</span>
+            </div>
+
+            <div id="items-encyclopedia-grid" class="items-grid">
+                <!-- Preenchido via encyclopedia.js -->
+            </div>
         </section>
 
-        <!-- Botão Carregar Mais -->
-        <div class="load-more-container" style="display: none;">
-            <button id="btnLoadMore" type="button" class="btn-load-more">
-                Carregar mais Pokémon
-            </button>
-        </div>
+        <!-- =================================================================
+             4. VISÃO: GIMMICKS DE BATALHA
+             ================================================================= -->
+        <section id="view-gimmicks" class="main-view" aria-label="Gimmicks de Batalha">
+            <div class="encyclopedia-header-card">
+                <h2>Mecânicas & Gimmicks de Batalha</h2>
+                <p>Explore as grandes mecânicas que definiram as batalhas Pokémon: Mega Evolução, Movimentos Z, Dynamax/Gigantamax, Teracristalização e Reversão Primitiva.</p>
+            </div>
+
+            <!-- Sub-abas de Gimmicks -->
+            <div class="gimmick-tabs-bar">
+                <button type="button" class="gimmick-tab-btn active" data-gimmick="mega-evolution" onclick="switchGimmickSubTab('mega-evolution')">
+                    Mega Evolução
+                </button>
+                <button type="button" class="gimmick-tab-btn" data-gimmick="z-moves" onclick="switchGimmickSubTab('z-moves')">
+                    Movimentos Z
+                </button>
+                <button type="button" class="gimmick-tab-btn" data-gimmick="dynamax" onclick="switchGimmickSubTab('dynamax')">
+                    Dynamax & G-Max
+                </button>
+                <button type="button" class="gimmick-tab-btn" data-gimmick="terastallization" onclick="switchGimmickSubTab('terastallization')">
+                    Teracristalização
+                </button>
+                <button type="button" class="gimmick-tab-btn" data-gimmick="primal-reversion" onclick="switchGimmickSubTab('primal-reversion')">
+                    Reversão Primitiva
+                </button>
+            </div>
+
+            <div id="gimmick-detail-container">
+                <!-- Preenchido dinamicamente via encyclopedia.js -->
+            </div>
+        </section>
     </main>
 
-    <!-- Modal de Detalhes do Pokémon (Estilo Oficial) -->
+    <!-- Modal de Detalhes do Pokémon (Estilo Oficial com 3 Abas) -->
     <div id="pokemon-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
         <div class="modal-dialog">
             <div id="modal-body-content" class="modal-content-scroll">
@@ -130,9 +293,14 @@
     <script src="assets/js/all-moves-data.js"></script>
     <script src="assets/js/frlg-moves-data.js"></script>
     <script src="assets/js/pokemons-data.js"></script>
+    <script src="assets/js/abilities-database.js"></script>
+    <script src="assets/js/items-data.js"></script>
+    <script src="assets/js/gimmicks-data.js"></script>
     <script src="assets/js/type-data.js"></script>
+    <script src="assets/js/type-wheel.js"></script>
     <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/modal.js"></script>
+    <script src="assets/js/encyclopedia.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
