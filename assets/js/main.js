@@ -236,7 +236,6 @@ function renderCards() {
     if (filteredPokemons.length === 0) {
         cardsContainer.innerHTML = `
             <div class="empty-state">
-                <div class="empty-icon">&#128269;</div>
                 <h3>Nenhum Pokémon encontrado</h3>
                 <p>Nenhum resultado corresponde aos seus filtros de busca.</p>
                 <button type="button" class="btn-clear" onclick="document.getElementById('btn-clear-filters').click()">

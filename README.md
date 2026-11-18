@@ -20,43 +20,43 @@ Uma Pokédex moderna, completa e interativa inspirada na interface e experiênci
   - Maior número primeiro
   - Nome de A a Z
   - Nome de Z a A
-- **Surpreenda-me! 🎲**: Sorteia um Pokémon aleatório e abre sua ficha imediatamente.
+- **Surpreenda-me!**: Sorteia um Pokémon aleatório e abre sua ficha imediatamente.
 - **Limpar Filtros**: Restaura a exibição completa com um clique.
 
 ---
 
-### 📋 Detalhes Completos do Pokémon (Modal Oficial com 3 Abas)
+### Detalhes do Pokémon (Modal com 3 Abas)
 Ao clicar em qualquer Pokémon, uma ficha detalhada é aberta organizada em 3 abas temáticas:
 
-#### 📊 Aba 1: Visão Geral & Perfil
+#### Aba 1: Visão Geral
 - **Arte Oficial**: Imagem de alta resolução (*Official Artwork*).
 - **Tipagem Oficial**: Badges estilizados com as cores oficiais.
-- **Resumo Elemental**: Tipos contra os quais recebe dano multiplicado, tipos que countera e resistências.
+- **Resumo de Combate**: Fraquezas, Vantagens e Resistências simplificadas por tipo.
 - **Descrição da Pokédex**: Textos oficiais das entradas da Pokédex.
 - **Características / Perfil**: Altura, peso, categoria/espécie, habilidades traduzidas e proporção de gênero (♂ / ♀).
 - **Status Base Animados**: Barras de status proporcionais (PS, Ataque, Defesa, Atq. Especial, Def. Especial, Velocidade) e pontuação total (BST).
 - **Linha Evolutiva Interativa**: Cadeia evolutiva completa com requisitos (Nível, Pedras, Troca) e navegação direta por clique.
 
-#### ⚔️ Aba 2: Vantagens & Fraquezas (Confrontos)
-- **⚔️ Pokémons que é Bom Contra (Vantagem)**:
-  - Fita horizontal deslizante com cards contendo **imagem**, **nome**, **número**, **tipos** e badge de dano (`CAUSA 2×` ou `CAUSA 4×`) de todos os Pokémon da 1ª Geração que ele vence com facilidade.
-- **🛡️ Pokémons que é Fraco Contra (Desvantagem)**:
-  - Fita horizontal deslizante com cards contendo **imagem**, **nome**, **número**, **tipos** e badge de dano (`RECEBE 2×` ou `RECEBE 4×`) dos Pokémon da 1ª Geração que representam perigo.
+#### Aba 2: Vantagens & Fraquezas
+- **Vantagens**: Fita horizontal deslizante com cards contendo imagem, nome, número, tipos e badge de dano (`CAUSA 2×` ou `CAUSA 4×`) de todos os Pokémon da 1ª Geração que ele vence com facilidade.
+- **Fraquezas**: Fita horizontal deslizante com cards contendo imagem, nome, número, tipos e badge de dano (`RECEBE 2×` ou `RECEBE 4×`) dos Pokémon da 1ª Geração que representam perigo.
 - **Navegação direta**: Clique em qualquer card de confronto para abrir imediatamente a ficha do Pokémon correspondente!
 
-#### ⚡ Aba 3: Ataques & Movimentos (Pokémon FireRed & LeafGreen)
-- **Moveset Fiel à 3ª Geração (FRLG / Kanto)** para todos os 151 Pokémon.
-- **Filtros Rápidos por Método de Aprendizado**:
-  - 📈 **Por Nível**: Nível exato em que o golpe é desbloqueado (ex: *Nv. 10*, *Nv. 20*).
-  - 💿 **Por MT / MO**: Códigos oficiais das Máquinas Técnicas e Ocultas de FireRed/LeafGreen (ex: *MT26 Terremoto*, *MO03 Surf*, *MT35 Lança-chamas*, *MT13 Raio de Gelo*).
-  - 🎓 **Por Tutor de Golpes**: Localização exata do Tutor em Kanto (ex: *Pewter City*, *Celadon*, *Silph Co.*, *Ilha 7*).
-  - 🥚 **Por Cruzamento (Ovo)**: Golpes herdados através de cruzamento na Ilha 4.
+#### Aba 3: Ataques
+- **Moveset Fiel à Geração (FireRed & LeafGreen)** para todos os 151 Pokémon.
+- **Descrições em Português**: Todos os 322 golpes com descrições traduzidas em português.
+- **Seletor de Geração**: Interface preparada para expansão de gerações.
+- **Filtros por Método de Aprendizado**:
+  - **Por Nível**: Nível exato em que o golpe é desbloqueado (ex: *Nv. 10*, *Nv. 20*).
+  - **Por MT / MO**: Códigos oficiais das Máquinas Técnicas e Ocultas (ex: *MT26 Terremoto*, *MO03 Surf*, *MT35 Lança-chamas*, *MT13 Raio de Gelo*).
+  - **Por Tutor**: Localização do Tutor em Kanto (ex: *Pewter City*, *Celadon*, *Silph Co.*, *Ilha 7*).
+  - **Por Cruzamento**: Golpes herdados através de cruzamento na Ilha 4 (*Four Island*).
 - **Ficha do Golpe**:
   - Nome em Português e em Inglês.
   - Tipo Elemental com badge oficial.
   - Categoria (**Físico**, **Especial** ou **Status**) de acordo com a mecânica oficial da 3ª Geração.
   - Poder (Power), Precisão (Accuracy) e PP (Pontos de Poder).
-  - Descrição oficial do efeito do golpe em FireRed e LeafGreen.
+  - Descrição em português do efeito do golpe.
 
 ---
 

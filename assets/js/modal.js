@@ -260,14 +260,14 @@ function renderModalContent(pokemon, speciesData) {
         <!-- BARRA DE ABAS DO MODAL -->
         <nav class="modal-tabs-nav" aria-label="Abas de Informações do Pokémon">
             <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-overview' ? 'active' : ''}" data-tab="tab-overview" onclick="switchModalTab('tab-overview')">
-                <span class="tab-icon">&#128202;</span> Visão Geral & Perfil
+                Visão Geral
             </button>
             <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-matchups' ? 'active' : ''}" data-tab="tab-matchups" onclick="switchModalTab('tab-matchups')">
-                <span class="tab-icon">&#9876;</span> Vantagens & Fraquezas
+                Vantagens & Fraquezas
                 <span class="tab-badge">${matchups.strongAgainst.length + matchups.weakAgainst.length}</span>
             </button>
             <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-moves' ? 'active' : ''}" data-tab="tab-moves" onclick="switchModalTab('tab-moves')">
-                <span class="tab-icon">&#9889;</span> Ataques (FireRed & LeafGreen)
+                Ataques
                 <span class="tab-badge">${frlgMovesList.length}</span>
             </button>
         </nav>
@@ -296,7 +296,7 @@ function renderModalContent(pokemon, speciesData) {
                         <!-- Resumo Elemental -->
                         <div class="modal-section-card">
                             <h3 class="section-title">
-                                <span>Tipos que Causam Dano Aumentado</span>
+                                <span>Fraquezas</span>
                                 <small class="section-subtitle">(Recebe 2× ou 4×)</small>
                             </h3>
                             <div class="relations-grid">
@@ -306,7 +306,7 @@ function renderModalContent(pokemon, speciesData) {
 
                         <div class="modal-section-card">
                             <h3 class="section-title">
-                                <span>Tipos que Sofrem Dano Dobrado</span>
+                                <span>Vantagens</span>
                                 <small class="section-subtitle">(Causa 2×)</small>
                             </h3>
                             <div class="relations-grid">
@@ -316,7 +316,7 @@ function renderModalContent(pokemon, speciesData) {
 
                         <div class="modal-section-card">
                             <h3 class="section-title">
-                                <span>Resistências & Imunidades</span>
+                                <span>Resistências</span>
                                 <small class="section-subtitle">(Dano reduzido)</small>
                             </h3>
                             <div class="relations-grid">
@@ -390,28 +390,24 @@ function renderModalContent(pokemon, speciesData) {
                  ABA 2: VANTAGENS & FRAQUEZAS (CONFRONTOS)
                  ========================================== -->
             <div id="tab-matchups" class="modal-tab-panel ${currentActiveTab === 'tab-matchups' ? 'active' : ''}">
-                <!-- Pokémons que é Bom Contra (Vantagem) -->
+                <!-- Vantagens -->
                 <div class="modal-section-card matchup-section strong-matchup-section">
                     <div class="matchup-section-header">
                         <div class="matchup-title-group">
-                            <h3 class="section-title">
-                                <span class="matchup-header-icon">&#9876;</span> Pokémons que é Bom Contra (Vantagem)
-                            </h3>
-                            <p class="section-desc">Seus ataques causam dano dobrado (2×) ou quádruplo (4×) contra estes Pokémon da 1ª Geração</p>
+                            <h3 class="section-title">Vantagens</h3>
+                            <p class="section-desc">Causa dano multiplicado (2× ou 4×) contra estes Pokémon</p>
                         </div>
                         <span class="matchup-count-badge strong">${matchups.strongAgainst.length} Pokémon</span>
                     </div>
                     ${strongRibbonHtml}
                 </div>
 
-                <!-- Pokémons que é Fraco Contra (Desvantagem) -->
+                <!-- Fraquezas -->
                 <div class="modal-section-card matchup-section weak-matchup-section">
                     <div class="matchup-section-header">
                         <div class="matchup-title-group">
-                            <h3 class="section-title">
-                                <span class="matchup-header-icon">&#128737;</span> Pokémons que é Fraco Contra (Desvantagem)
-                            </h3>
-                            <p class="section-desc">Estes Pokémon causam dano aumentado (2× ou 4×) contra seus tipos</p>
+                            <h3 class="section-title">Fraquezas</h3>
+                            <p class="section-desc">Recebe dano aumentado (2× ou 4×) contra estes Pokémon</p>
                         </div>
                         <span class="matchup-count-badge weak">${matchups.weakAgainst.length} Pokémon</span>
                     </div>
@@ -420,18 +416,24 @@ function renderModalContent(pokemon, speciesData) {
             </div>
 
             <!-- ==========================================
-                 ABA 3: ATAQUES & MOVIMENTOS (FRLG)
+                 ABA 3: ATAQUES (FRLG)
                  ========================================== -->
             <div id="tab-moves" class="modal-tab-panel ${currentActiveTab === 'tab-moves' ? 'active' : ''}">
                 <div class="modal-section-card moves-section">
                     <div class="moves-header-bar">
                         <div class="moves-title-group">
-                            <h3 class="section-title">
-                                <span class="moves-header-icon">&#9889;</span> Golpes em Pokémon FireRed & LeafGreen (3ª Geração)
-                            </h3>
-                            <p class="section-desc">Movimentos que <strong>${pokemon.name}</strong> adquire em Kanto, com categorias de dano, poder, precisão e descrição fiel à mecânica de FireRed/LeafGreen.</p>
+                            <h3 class="section-title">Ataques</h3>
+                            <p class="section-desc">Movimentos que <strong>${pokemon.name}</strong> pode aprender.</p>
                         </div>
-                        <span class="moves-total-pill">${frlgMovesList.length} Movimentos</span>
+                        <div class="moves-gen-selector">
+                            <label for="moves-gen-select" class="gen-select-label">Geração:</label>
+                            <select id="moves-gen-select" class="moves-gen-dropdown">
+                                <option value="frlg" selected>Geração III (FireRed & LeafGreen)</option>
+                                <option value="gen1" disabled>Geração I (Red, Blue, Yellow)</option>
+                                <option value="gen2" disabled>Geração II (Gold, Silver, Crystal)</option>
+                                <option value="gen4" disabled>Geração IV (Diamond, Pearl, Pt)</option>
+                            </select>
+                        </div>
                     </div>
 
                     <!-- Filtros de Método de Aprendizado -->
@@ -440,17 +442,17 @@ function renderModalContent(pokemon, speciesData) {
                             Todos (${frlgMovesList.length})
                         </button>
                         <button type="button" class="move-filter-pill ${currentMoveFilter === 'level-up' ? 'active' : ''}" data-method="level-up" onclick="filterMovesList('level-up')">
-                            📈 Por Nível (${levelMovesCount})
+                            Por Nível (${levelMovesCount})
                         </button>
                         <button type="button" class="move-filter-pill ${currentMoveFilter === 'machine' ? 'active' : ''}" data-method="machine" onclick="filterMovesList('machine')">
-                            💿 Por MT / MO (${machineMovesCount})
+                            Por MT / MO (${machineMovesCount})
                         </button>
                         <button type="button" class="move-filter-pill ${currentMoveFilter === 'tutor' ? 'active' : ''}" data-method="tutor" onclick="filterMovesList('tutor')">
-                            🎓 Por Tutor (${tutorMovesCount})
+                            Por Tutor (${tutorMovesCount})
                         </button>
                         ${eggMovesCount > 0 ? `
                         <button type="button" class="move-filter-pill ${currentMoveFilter === 'egg' ? 'active' : ''}" data-method="egg" onclick="filterMovesList('egg')">
-                            🥚 Por Cruzamento (${eggMovesCount})
+                            Por Cruzamento (${eggMovesCount})
                         </button>
                         ` : ''}
                     </div>

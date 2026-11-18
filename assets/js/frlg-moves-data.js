@@ -8,7 +8,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "A frenetic dance of fighting. It sharply raises the ATTACK stat.",
+    "desc": "Uma dança frenética de combate que eleva drasticamente o Ataque do usuário.",
     "tm": null,
     "tutor": "Ponte da Ilha 7"
   },
@@ -20,7 +20,7 @@ const FRLG_MOVES = {
     "power": 50,
     "accuracy": 95,
     "pp": 30,
-    "desc": "A basic attack. It can be used to cut down thin trees and grass.",
+    "desc": "Um corte básico com garras ou lâminas. Fora de combate, corta arbustos e árvores finas.",
     "tm": "MO01",
     "tutor": null
   },
@@ -32,7 +32,7 @@ const FRLG_MOVES = {
     "power": 45,
     "accuracy": 100,
     "pp": 25,
-    "desc": "The foe is struck with slender, whip like vines.",
+    "desc": "Chicoteia o oponente com vinhas finas e flexíveis.",
     "tm": null,
     "tutor": null
   },
@@ -44,7 +44,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 35,
-    "desc": "A physical attack in which the user charges, full body, into the foe.",
+    "desc": "Uma investida física na qual o usuário se choca de corpo inteiro contra o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -56,7 +56,7 @@ const FRLG_MOVES = {
     "power": 85,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user drops its full body on the foe. It may leave the foe paralyzed.",
+    "desc": "Atira todo o peso do corpo sobre o oponente. Pode paralisar o alvo.",
     "tm": null,
     "tutor": "Navio S.S. Anne (1º Andar)"
   },
@@ -68,7 +68,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 100,
     "pp": 15,
-    "desc": "A reckless, life- risking tackle that also hurts the user a little.",
+    "desc": "Uma investida com risco à própria vida que causa alto dano de recuo ao usuário.",
     "tm": null,
     "tutor": "Estrada da Vitória"
   },
@@ -80,7 +80,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 40,
-    "desc": "The user growls in a cute way, making the foe lower its ATTACK stat.",
+    "desc": "Rosna de forma fofa para desarmar o oponente, reduzindo seu Ataque.",
     "tm": null,
     "tutor": null
   },
@@ -92,7 +92,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is slugged at maximum power. Can also be used to move boulders.",
+    "desc": "Acerta o oponente com força máxima. Fora de combate, move grandes rochas.",
     "tm": "MO04",
     "tutor": null
   },
@@ -104,7 +104,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 90,
     "pp": 10,
-    "desc": "A seed is planted on the foe to steal some HP for the user on every turn.",
+    "desc": "Planta sementes parasitárias no alvo que drenam PS todo turno para curar o usuário.",
     "tm": null,
     "tutor": null
   },
@@ -116,7 +116,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user’s body is forced to grow, raising the SP. ATK stat.",
+    "desc": "Faz o corpo do usuário crescer rapidamente, aumentando seu Ataque Especial.",
     "tm": null,
     "tutor": null
   },
@@ -128,7 +128,7 @@ const FRLG_MOVES = {
     "power": 55,
     "accuracy": 95,
     "pp": 25,
-    "desc": "The foe is hit with a cutting leaf. It has a high critical-hit ratio.",
+    "desc": "Lança folhas afiadas como navalhas no oponente. Alta chance de acerto crítico.",
     "tm": null,
     "tutor": null
   },
@@ -140,7 +140,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 100,
     "pp": 10,
-    "desc": "A 2-turn move that blasts the foe with absorbed energy in the 2nd turn.",
+    "desc": "Absorve luz solar no primeiro turno e libera um raio devastador no segundo turno.",
     "tm": "MT22",
     "tutor": null
   },
@@ -152,7 +152,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 75,
     "pp": 35,
-    "desc": "A cloud of toxic dust is scattered. It may poison the foe.",
+    "desc": "Espalha um pó tóxico no ar que pode envenenar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -164,7 +164,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 75,
     "pp": 15,
-    "desc": "A sleep-inducing dust is scattered in high volume around a foe.",
+    "desc": "Espalha um pó relaxante no ar que faz o oponente adormecer.",
     "tm": null,
     "tutor": null
   },
@@ -176,7 +176,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user attacks with petals for two to three turns, then gets confused.",
+    "desc": "Ataca com pétalas dançantes por 2 a 3 turnos, ficando confuso em seguida.",
     "tm": null,
     "tutor": null
   },
@@ -188,7 +188,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 90,
     "pp": 10,
-    "desc": "A move that badly poisons the foe. Its poison damage worsens every turn.",
+    "desc": "Um veneno concentrado e potente que intensifica o dano sofrido pelo oponente a cada turno.",
     "tm": "MT06",
     "tutor": null
   },
@@ -200,7 +200,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user copies the move last used by the foe for the rest of the battle.",
+    "desc": "Copia perfeitamente um movimento usado pelo oponente durante o combate.",
     "tm": null,
     "tutor": "Saffron City (Casa da Copiadora)"
   },
@@ -212,7 +212,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "The user creates illusory copies of itself to raise its evasiveness.",
+    "desc": "Move-se rapidamente criando cópias ilusórias de si mesmo, aumentando a evasão.",
     "tm": "MT32",
     "tutor": null
   },
@@ -224,7 +224,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "A wall of light cuts damage from SP. ATK attacks for five turns.",
+    "desc": "Ergue uma tela de luz que reduz o dano de ataques especiais recebidos pela metade.",
     "tm": "MT16",
     "tutor": null
   },
@@ -236,7 +236,7 @@ const FRLG_MOVES = {
     "power": 130,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user raises its DEFENSE in the 1st turn, then attacks in the 2nd turn.",
+    "desc": "Abaixa a cabeça para elevar a Defesa no primeiro turno e ataca com força no segundo.",
     "tm": null,
     "tutor": null
   },
@@ -248,7 +248,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A blast of light that cuts the foe’s accuracy. It also illuminates caves.",
+    "desc": "Emite um clarão ofuscante que reduz a precisão do alvo. Fora de combate, ilumina cavernas.",
     "tm": "MO05",
     "tutor": null
   },
@@ -260,7 +260,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The user sleeps for two turns to fully restore HP and heal any status problem.",
+    "desc": "O usuário dorme por 2 turnos para restaurar completamente seus PS e curar status.",
     "tm": "MT44",
     "tutor": null
   },
@@ -272,7 +272,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user creates a decoy using one- quarter of its full HP.",
+    "desc": "Cria um boneco substituto usando 25% do seu próprio PS para absorver danos.",
     "tm": null,
     "tutor": "Fuchsia City"
   },
@@ -284,7 +284,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "A move that works differently for the GHOST-type and all the other types.",
+    "desc": "Se for Fantasma, gasta metade do PS para amaldiçoar o alvo; se não, aumenta Ataque e Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -296,7 +296,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Enables the user to evade all attacks. It may fail if used in succession.",
+    "desc": "Protege o usuário contra qualquer ataque no turno. Falha se usado repetidamente.",
     "tm": "MT17",
     "tutor": null
   },
@@ -308,7 +308,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Filthy sludge is hurled at the foe. It may poison the target.",
+    "desc": "Dispara uma esfera de lodo altamente infecciosa. Pode envenenar o oponente.",
     "tm": "MT36",
     "tutor": null
   },
@@ -320,7 +320,7 @@ const FRLG_MOVES = {
     "power": 75,
     "accuracy": 100,
     "pp": 10,
-    "desc": "A harsh attack that absorbs half the damage it inflicted to restore HP.",
+    "desc": "Uma drenagem suprema que recupera metade de todo dano causado em PS para o usuário.",
     "tm": "MT19",
     "tutor": null
   },
@@ -332,7 +332,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The foe is charmed by the user’s cute appeals, sharply cutting its ATTACK.",
+    "desc": "Lança um charme fofo e cativante que reduz drasticamente o Ataque do oponente.",
     "tm": null,
     "tutor": null
   },
@@ -344,7 +344,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "If it is the other gender, the foe is made infatuated and unlikely to attack.",
+    "desc": "Seduz o oponente do sexo oposto, fazendo-o hesitar em 50% dos turnos.",
     "tm": "MT45",
     "tutor": null
   },
@@ -356,7 +356,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "This attack move grows more powerful the more the user likes its TRAINER.",
+    "desc": "Um ataque cuja força máxima aumenta proporcionalmente à amizade com o treinador.",
     "tm": "MT27",
     "tutor": null
   },
@@ -368,7 +368,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "This attack move grows more powerful the less the user likes its TRAINER.",
+    "desc": "Um ataque cuja força máxima aumenta quanto menor for a amizade com o treinador.",
     "tm": "MT21",
     "tutor": null
   },
@@ -380,7 +380,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 25,
-    "desc": "It protects the user’s party from all status problems for five turns.",
+    "desc": "Cria um campo protetor místico que protege toda a equipe contra alterações de status.",
     "tm": "MT20",
     "tutor": null
   },
@@ -392,7 +392,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Allures the foe to reduce evasiveness. It also attracts wild POKéMON.",
+    "desc": "Libera um aroma doce e relaxante que reduz a evasão do oponente.",
     "tm": null,
     "tutor": null
   },
@@ -404,7 +404,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "Restores the user’s HP. The amount of HP regained varies with the weather.",
+    "desc": "Sintetiza energia solar para restaurar PS. Recupera mais com sol brilhante.",
     "tm": null,
     "tutor": null
   },
@@ -416,7 +416,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 15,
-    "desc": "An attack that varies in type and intensity depending on the user.",
+    "desc": "Um golpe místico cujo tipo elemental e poder dependem dos genes do usuário.",
     "tm": "MT10",
     "tutor": null
   },
@@ -428,7 +428,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The sun blazes for five turns, powering up FIRE-type moves.",
+    "desc": "Faz o sol brilhar intensamente por 5 turnos, fortalecendo golpes tipo Fogo.",
     "tm": "MT11",
     "tutor": null
   },
@@ -440,7 +440,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 15,
-    "desc": "An attack that may also cut DEFENSE. It can also smash cracked boulders.",
+    "desc": "Um golpe demolidor. Fora de combate, quebra pedras que bloqueiam caminhos.",
     "tm": "MO06",
     "tutor": null
   },
@@ -452,7 +452,7 @@ const FRLG_MOVES = {
     "power": 70,
     "accuracy": 100,
     "pp": 20,
-    "desc": "An attack that is boosted if user is burned, poisoned, or paralyzed.",
+    "desc": "Um ataque desesperado cujo poder dobra se o usuário estiver queimado, paralisado ou envenenado.",
     "tm": "MT42",
     "tutor": null
   },
@@ -464,7 +464,7 @@ const FRLG_MOVES = {
     "power": 70,
     "accuracy": 100,
     "pp": 20,
-    "desc": "An attack that may have an additional effect that varies with the terrain.",
+    "desc": "Um ataque misterioso cujos efeitos secundários mudam dependendo do terreno da batalha.",
     "tm": "MT43",
     "tutor": null
   },
@@ -476,7 +476,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 55,
     "pp": 15,
-    "desc": "A pleasant melody is played to lull the foe into a deep sleep.",
+    "desc": "Toca uma melodia suave em uma folha de grama para fazer o oponente adormecer.",
     "tm": null,
     "tutor": null
   },
@@ -488,7 +488,7 @@ const FRLG_MOVES = {
     "power": 25,
     "accuracy": 100,
     "pp": 30,
-    "desc": "The user shoots seeds at the foe. Two to five seeds are shot at once.",
+    "desc": "Dispara sementes em alta velocidade de 2 a 5 vezes consecutivas.",
     "tm": "MT09",
     "tutor": null
   },
@@ -500,7 +500,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": null,
     "pp": 20,
-    "desc": "The foe is attacked with a strange leaf that cannot be evaded.",
+    "desc": "Dispara folhas brilhantes com poderes mágicos que nunca erram o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -512,7 +512,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The foe is made to switch out with an ally. In the wild, the battle ends.",
+    "desc": "Um rugido feroz que faz o Pokémon selvagem fugir ou força troca em batalhas de treinador.",
     "tm": "MT05",
     "tutor": null
   },
@@ -524,7 +524,7 @@ const FRLG_MOVES = {
     "power": 150,
     "accuracy": 90,
     "pp": 5,
-    "desc": "A severely damaging attack that makes the user rest on the next turn.",
+    "desc": "Um dos ataques mais poderosos existentes. O usuário precisa recarregar no turno seguinte.",
     "tm": "MT15",
     "tutor": null
   },
@@ -536,7 +536,7 @@ const FRLG_MOVES = {
     "power": 100,
     "accuracy": 100,
     "pp": 10,
-    "desc": "An earthquake that strikes all POKéMON in battle excluding the user.",
+    "desc": "Provoca um forte tremor sísmico que atinge todos os Pokémon ao redor.",
     "tm": "MT26",
     "tutor": null
   },
@@ -548,7 +548,7 @@ const FRLG_MOVES = {
     "power": 150,
     "accuracy": 90,
     "pp": 5,
-    "desc": "The foe is hit with an enormous branch. The user can’t move on the next turn.",
+    "desc": "O ataque supremo do tipo Planta: raízes gigantescas esmagam o alvo, mas exige recarga.",
     "tm": null,
     "tutor": "Ilha 2 (Cape Brink - Inicial Planta)"
   },
@@ -560,7 +560,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 85,
     "pp": 20,
-    "desc": "The foe is slugged by a punch thrown with muscle-packed power.",
+    "desc": "Um soco incrivelmente forte desferido com força devastadora.",
     "tm": null,
     "tutor": "Rota 4 (Monte Lua)"
   },
@@ -572,7 +572,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 35,
-    "desc": "Hard, pointed, and sharp claws rake the foe.",
+    "desc": "Arranha o oponente com garras afiadas para causar dano.",
     "tm": null,
     "tutor": null
   },
@@ -584,7 +584,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 75,
     "pp": 5,
-    "desc": "The foe is attacked by a kick fired with muscle-packed power.",
+    "desc": "Um chute violento desferido com força extrema.",
     "tm": null,
     "tutor": "Rota 4 (Monte Lua)"
   },
@@ -596,7 +596,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 25,
-    "desc": "The user bites with vicious fangs. It may make the foe flinch.",
+    "desc": "Morde com presas afiadas. Pode fazer o oponente hesitar.",
     "tm": null,
     "tutor": null
   },
@@ -608,7 +608,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 25,
-    "desc": "The foe is attacked with small flames. The foe may suffer a burn.",
+    "desc": "Dispara pequenas brasas incandescentes. Pode queimar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -620,7 +620,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is scorched with intense flames. The foe may suffer a burn.",
+    "desc": "Dispara uma intensa coluna de chamas sobre o alvo. Pode queimar o oponente.",
     "tm": "MT35",
     "tutor": null
   },
@@ -632,7 +632,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A retaliation move that counters any physical hit with double the damage.",
+    "desc": "Retalia qualquer ataque físico sofrido com o dobro do dano recebido.",
     "tm": null,
     "tutor": "Shopping Celadon (3º Andar)"
   },
@@ -644,7 +644,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A gravity-fed throw that causes damage matching the user’s level.",
+    "desc": "Usa a força da gravidade para arremessar o oponente. Causa dano igual ao nível do usuário.",
     "tm": null,
     "tutor": "Museu de Pewter City"
   },
@@ -656,7 +656,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The foe is hit with a shock wave that always inflicts 40- HP damage.",
+    "desc": "Libera uma onda de choque dracônica que causa sempre exatamente 40 de dano.",
     "tm": null,
     "tutor": null
   },
@@ -668,7 +668,7 @@ const FRLG_MOVES = {
     "power": 35,
     "accuracy": 85,
     "pp": 15,
-    "desc": "The foe is trapped in an intense spiral of fire that rages two to five turns.",
+    "desc": "Aprisiona o oponente em uma espiral de fogo por 2 a 5 turnos.",
     "tm": null,
     "tutor": null
   },
@@ -680,7 +680,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "An attack that hits on the 2nd turn. Can also be used to exit dungeons.",
+    "desc": "Escava o solo no primeiro turno e ataca de surpresa no segundo. Fora de combate, sai de cavernas.",
     "tm": "MT28",
     "tutor": null
   },
@@ -692,7 +692,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "An obscuring cloud of smoke or ink reduces the foe’s accuracy.",
+    "desc": "Solta fumaça ou tinta para ofuscar a visão do oponente, reduzindo sua precisão.",
     "tm": null,
     "tutor": null
   },
@@ -704,7 +704,7 @@ const FRLG_MOVES = {
     "power": 110,
     "accuracy": 85,
     "pp": 5,
-    "desc": "The foe is hit with an intense flame. It may leave the target with a burn.",
+    "desc": "Dispara uma rajada intensa de fogo em formato kanji de chama. Pode queimar o alvo.",
     "tm": "MT38",
     "tutor": null
   },
@@ -716,7 +716,7 @@ const FRLG_MOVES = {
     "power": 75,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Large boulders are hurled at the foe. It may make the foe flinch.",
+    "desc": "Arremessa grandes blocos de pedra sobre o oponente. Pode fazer o alvo hesitar.",
     "tm": null,
     "tutor": "Túnel de Rocha (Rock Tunnel)"
   },
@@ -728,7 +728,7 @@ const FRLG_MOVES = {
     "power": 70,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The foe is slashed with claws, etc. It has a high critical-hit ratio.",
+    "desc": "Desfere um corte afiado com garras ou lâminas. Alta chance de acerto crítico.",
     "tm": null,
     "tutor": null
   },
@@ -740,7 +740,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Frightens the foe with a scary face to sharply reduce its SPEED.",
+    "desc": "Faz uma careta aterrorizante que reduz drasticamente a Velocidade do oponente.",
     "tm": null,
     "tutor": null
   },
@@ -752,7 +752,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user maximizes its ATTACK stat at the cost of half its full HP.",
+    "desc": "Tamborila na barriga sacrificando metade do PS para elevar o Ataque ao valor máximo.",
     "tm": null,
     "tutor": null
   },
@@ -764,7 +764,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user thrashes about for two to three turns, then becomes confused.",
+    "desc": "Entra em uma fúria destrutiva atacando por 2 a 3 turnos, ficando confuso em seguida.",
     "tm": null,
     "tutor": null
   },
@@ -776,7 +776,7 @@ const FRLG_MOVES = {
     "power": 100,
     "accuracy": 75,
     "pp": 15,
-    "desc": "An attack with a steel-hard tail. It may lower the foe’s DEFENSE stat.",
+    "desc": "Golpeia o oponente com uma cauda dura como aço. Pode reduzir sua Defesa.",
     "tm": "MT23",
     "tutor": null
   },
@@ -788,7 +788,7 @@ const FRLG_MOVES = {
     "power": 50,
     "accuracy": 95,
     "pp": 35,
-    "desc": "The foe is attacked with steel claws. It may also raise the user’s ATTACK.",
+    "desc": "Ataca com garras afiadas de aço. Pode aumentar o próprio Ataque.",
     "tm": null,
     "tutor": null
   },
@@ -800,7 +800,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 5,
-    "desc": "An ancient power is used to attack. It may also raise all the user’s stats.",
+    "desc": "Desperta um poder pré-histórico. Pode aumentar todos os atributos do usuário de uma vez.",
     "tm": null,
     "tutor": null
   },
@@ -812,7 +812,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "All party POKéMON join in the attack. The more allies, the more damage.",
+    "desc": "Chama todos os membros saudáveis da equipe para atacar o oponente em conjunto.",
     "tm": null,
     "tutor": null
   },
@@ -824,7 +824,7 @@ const FRLG_MOVES = {
     "power": 150,
     "accuracy": 100,
     "pp": 20,
-    "desc": "An attack that is executed last. The user flinches if hit beforehand.",
+    "desc": "Concentra a força no início do turno para socar. Se sofrer dano antes, perde o foco.",
     "tm": "MT01",
     "tutor": null
   },
@@ -836,7 +836,7 @@ const FRLG_MOVES = {
     "power": 75,
     "accuracy": 100,
     "pp": 15,
-    "desc": "An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.",
+    "desc": "Um golpe cortante que quebra defesas como Light Screen e Reflect antes de causar dano.",
     "tm": "MT31",
     "tutor": null
   },
@@ -848,7 +848,7 @@ const FRLG_MOVES = {
     "power": 130,
     "accuracy": 90,
     "pp": 5,
-    "desc": "An intense attack that also sharply reduces the user’s SP. ATK stat.",
+    "desc": "Libera todo o calor interno de uma vez com poder brutal, mas reduz seu Ataque Especial.",
     "tm": "MT50",
     "tutor": null
   },
@@ -860,7 +860,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": null,
     "pp": 20,
-    "desc": "An extremely fast attack against one target. It can’t be evaded.",
+    "desc": "Avança com manobra acrobática em alta velocidade que nunca erra o alvo.",
     "tm": "MT40",
     "tutor": null
   },
@@ -872,7 +872,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Sharp, huge claws hook and slash the foe quickly and with great power.",
+    "desc": "Golpeia o oponente com garras compridas e afiadas imbuidas com poder de dragão.",
     "tm": "MT02",
     "tutor": null
   },
@@ -884,7 +884,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "A mystic, powerful dance that boosts the user’s ATTACK and SPEED stats.",
+    "desc": "Uma dança mística e vigorosa que eleva o Ataque e a Velocidade do usuário.",
     "tm": null,
     "tutor": null
   },
@@ -896,7 +896,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 35,
-    "desc": "The foe is struck with large, imposing wings spread wide.",
+    "desc": "Abre as asas e golpeia o oponente em um ataque direto.",
     "tm": null,
     "tutor": null
   },
@@ -908,7 +908,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 95,
     "pp": 15,
-    "desc": "A 2-turn move that hits on the 2nd turn. Use it to fly to any known town.",
+    "desc": "Alça voo no primeiro turno e desce em mergulho no segundo. Fora de combate, viaja para cidades visitadas.",
     "tm": "MO02",
     "tutor": null
   },
@@ -920,7 +920,7 @@ const FRLG_MOVES = {
     "power": 70,
     "accuracy": 90,
     "pp": 25,
-    "desc": "The foe is hit with wings of steel. It may also raise the user’s DEFENSE.",
+    "desc": "Abre asas duras de aço para golpear o alvo. Pode aumentar a própria Defesa.",
     "tm": "MT47",
     "tutor": null
   },
@@ -932,7 +932,7 @@ const FRLG_MOVES = {
     "power": 95,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user exhales a heated breath to attack. It may also inflict a burn.",
+    "desc": "Sopra uma onda de ar superaquecido sobre o oponente. Pode queimar o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -944,7 +944,7 @@ const FRLG_MOVES = {
     "power": 150,
     "accuracy": 90,
     "pp": 5,
-    "desc": "The foe is hit with a huge explosion. The user can’t move on the next turn.",
+    "desc": "O ataque supremo do tipo Fogo: dispara uma explosão colossal, mas precisa recarregar.",
     "tm": null,
     "tutor": "Ilha 2 (Cape Brink - Inicial Fogo)"
   },
@@ -956,7 +956,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 30,
-    "desc": "The user wags its tail cutely, making the foe lower its DEFENSE stat.",
+    "desc": "Abana a cauda amigavelmente para distrair o oponente, reduzindo sua Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -968,7 +968,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "The ally party is protected by a mist that prevents stat reductions.",
+    "desc": "Cria uma névoa branca protetora que impede reduções nos atributos do usuário por 5 turnos.",
     "tm": null,
     "tutor": null
   },
@@ -980,7 +980,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 25,
-    "desc": "The foe is struck with a lot of water expelled forcibly from the mouth.",
+    "desc": "Dispara um jato d água com pressão moderada no oponente.",
     "tm": null,
     "tutor": null
   },
@@ -992,7 +992,7 @@ const FRLG_MOVES = {
     "power": 110,
     "accuracy": 80,
     "pp": 5,
-    "desc": "A high volume of water is blasted at the foe under great pressure.",
+    "desc": "Dispara um jato d água com volume e pressão massivos no oponente.",
     "tm": null,
     "tutor": null
   },
@@ -1004,7 +1004,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 100,
     "pp": 15,
-    "desc": "A big wave crashes down on the foe. Can also be used for crossing water.",
+    "desc": "Cria uma gigantesca onda que atinge o oponente. Fora de combate, permite navegar pela água.",
     "tm": "MO03",
     "tutor": null
   },
@@ -1016,7 +1016,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The foe is struck with an icy beam. It may freeze the foe solid.",
+    "desc": "Dispara um raio de gelo congelante contra o alvo. Pode congelar o oponente.",
     "tm": "MT13",
     "tutor": null
   },
@@ -1028,7 +1028,7 @@ const FRLG_MOVES = {
     "power": 110,
     "accuracy": 70,
     "pp": 5,
-    "desc": "The foe is blasted with a blizzard. It may freeze the foe solid.",
+    "desc": "Invoca uma tempestade violenta de gelo e neve. Pode congelar o oponente.",
     "tm": "MT14",
     "tutor": null
   },
@@ -1040,7 +1040,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "desc": "The user withdraws its body in its hard shell, raising its DEFENSE stat.",
+    "desc": "Retrai o corpo para dentro de sua concha rígida para aumentar sua Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -1052,7 +1052,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "Eliminates all stat changes among all POKéMON engaged in battle.",
+    "desc": "Cria uma névoa negra que elimina todas as mudanças de atributos de todos os Pokémon em campo.",
     "tm": null,
     "tutor": null
   },
@@ -1064,7 +1064,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "A powerful charge attack. It can also be used to climb a waterfall.",
+    "desc": "Avança com tanta força que pode escalar cachoeiras fora de combate.",
     "tm": "MO07",
     "tutor": null
   },
@@ -1076,7 +1076,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 30,
-    "desc": "A spray of bubbles hits the foe. It may lower the foe’s SPEED stat.",
+    "desc": "Dispara bolhas d água contra o oponente. Pode reduzir sua Velocidade.",
     "tm": null,
     "tutor": null
   },
@@ -1088,7 +1088,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "A desperate attack that becomes more powerful the less HP the user has.",
+    "desc": "Debate-se desajeitadamente. Causa muito mais dano quanto menor forem os PS do usuário.",
     "tm": null,
     "tutor": null
   },
@@ -1100,7 +1100,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "desc": "Completely negates the foe’s efforts to heighten its ability to evade.",
+    "desc": "Anula a evasão do oponente e permite acertar tipos Fantasma com golpes Normal e Lutador.",
     "tm": null,
     "tutor": null
   },
@@ -1112,7 +1112,7 @@ const FRLG_MOVES = {
     "power": 50,
     "accuracy": 100,
     "pp": 40,
-    "desc": "An attack that frees the user from BIND, WRAP, LEECH SEED, and SPIKES.",
+    "desc": "Gira o corpo velozmente para se libertar de amarras e remover espinhos do campo.",
     "tm": null,
     "tutor": null
   },
@@ -1124,7 +1124,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "A heavy rain falls for five turns, powering up WATER- type moves.",
+    "desc": "Invoca uma chuva torrencial que dura 5 turnos, fortalecendo golpes tipo Água.",
     "tm": "MT18",
     "tutor": null
   },
@@ -1136,7 +1136,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A retaliation move that pays back the foe’s special attack double.",
+    "desc": "Devolve qualquer ataque especial sofrido com o dobro do dano recebido.",
     "tm": null,
     "tutor": null
   },
@@ -1148,7 +1148,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "A hailstorm lasting five turns damages all POKéMON except the ICE-type.",
+    "desc": "Invoca uma tempestade de granizo que dura 5 turnos e causa dano a tipos não Gelo.",
     "tm": "MT07",
     "tutor": null
   },
@@ -1160,7 +1160,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "A huge yawn lulls the foe into falling asleep on the next turn.",
+    "desc": "Solta um bocejo contagioso que faz o oponente adormecer inevitavelmente no turno seguinte.",
     "tm": null,
     "tutor": null
   },
@@ -1172,7 +1172,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "A self-healing move that cures the user of a poisoning, burn, or paralysis.",
+    "desc": "Purifica o próprio corpo, curando-se de veneno, paralisia ou queimadura.",
     "tm": null,
     "tutor": null
   },
@@ -1184,7 +1184,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user dives underwater on the first turn and strikes next turn.",
+    "desc": "Mergulha na água no primeiro turno e ataca no segundo. Permite explorar águas profundas.",
     "tm": null,
     "tutor": null
   },
@@ -1196,7 +1196,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Weakens ELECTRIC- type attacks while the user is in the battle.",
+    "desc": "Espalha lama pelo campo para reduzir o poder de todos os ataques elétricos à metade.",
     "tm": null,
     "tutor": null
   },
@@ -1208,7 +1208,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 20,
-    "desc": "An attack with a pulsing blast of water. It may also confuse the foe.",
+    "desc": "Emite ondas sonoras pulsantes através da água. Pode deixar o oponente confuso.",
     "tm": "MT03",
     "tutor": null
   },
@@ -1220,7 +1220,7 @@ const FRLG_MOVES = {
     "power": 150,
     "accuracy": 90,
     "pp": 5,
-    "desc": "The foe is hit with a watery cannon. The user can’t move on the next turn.",
+    "desc": "O ataque supremo do tipo Água: dispara uma esfera de água maciça, mas precisa recarregar.",
     "tm": null,
     "tutor": "Ilha 2 (Cape Brink - Inicial Água)"
   },
@@ -1232,7 +1232,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 95,
     "pp": 40,
-    "desc": "The foe is bound with strings shot from the mouth to reduce its SPEED.",
+    "desc": "Expele fios de seda para enrolar o oponente e reduzir sua Velocidade.",
     "tm": null,
     "tutor": null
   },
@@ -1244,7 +1244,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "The user stiffens all the muscles in its body to raise its DEFENSE stat.",
+    "desc": "Contrai a musculatura ou carapaça para aumentar a própria Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -1256,7 +1256,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 35,
-    "desc": "Strikes the foe with a gust of wind whipped up by wings.",
+    "desc": "Cria uma forte rajada de vento batendo as asas contra o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -1268,7 +1268,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The foe is made to switch out with an ally. In the wild, the battle ends.",
+    "desc": "Gera um redemoinho violento que expulsa o oponente selvagem da batalha ou força troca.",
     "tm": null,
     "tutor": null
   },
@@ -1280,7 +1280,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 55,
     "pp": 20,
-    "desc": "The user generates odd sound waves. It may confuse the foe.",
+    "desc": "Gera ondas sonoras de alta frequência que deixam o oponente confuso.",
     "tm": null,
     "tutor": null
   },
@@ -1292,7 +1292,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A peculiar ray is shot at the foe. It may leave the foe confused.",
+    "desc": "Dispara um feixe misterioso de energia peculiar. Pode deixar o oponente confuso.",
     "tm": null,
     "tutor": null
   },
@@ -1304,7 +1304,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 75,
     "pp": 30,
-    "desc": "Paralyzing dust is scattered wildly. It may paralyze the foe.",
+    "desc": "Espalha esporos paralisantes no ar que podem paralisar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -1316,7 +1316,7 @@ const FRLG_MOVES = {
     "power": 50,
     "accuracy": 100,
     "pp": 25,
-    "desc": "A weak telekinetic attack that may also leave the foe confused.",
+    "desc": "Um fraco ataque telecinético contra o oponente. Pode deixar o alvo confuso.",
     "tm": null,
     "tutor": null
   },
@@ -1328,7 +1328,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "A strong telekinetic attack. It may also lower the foe’s SP. DEF stat.",
+    "desc": "Uma poderosa onda de força telecinética contra o oponente. Pode reduzir sua Defesa Especial.",
     "tm": "MT29",
     "tutor": null
   },
@@ -1340,7 +1340,7 @@ const FRLG_MOVES = {
     "power": 100,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Absorbs half the damage it inflicted on a sleeping foe to restore HP.",
+    "desc": "Drena os sonhos de um oponente adormecido para causar dano e recuperar metade em PS.",
     "tm": null,
     "tutor": "Viridian City"
   },
@@ -1352,7 +1352,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 25,
-    "desc": "An attack that may take the foe’s held item if the user isn’t holding one.",
+    "desc": "Ataca o oponente e rouba o item que ele estiver segurando caso o usuário não tenha item.",
     "tm": "MT46",
     "tutor": null
   },
@@ -1364,7 +1364,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "A shadowy blob is hurled at the foe. May also lower the foe’s SP. DEF.",
+    "desc": "Dispara uma esfera de pura escuridão. Pode reduzir a Defesa Especial do oponente.",
     "tm": "MT30",
     "tutor": null
   },
@@ -1376,7 +1376,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user employs its psychic power to swap abilities with the foe.",
+    "desc": "Usa telecinese para trocar de Habilidade com o oponente temporariamente.",
     "tm": "MT48",
     "tutor": null
   },
@@ -1388,7 +1388,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The foe is attacked with a silver dust. It may raise all the user’s stats.",
+    "desc": "Gera uma ventania prateada com escamas das asas. Pode aumentar todos os seus atributos.",
     "tm": null,
     "tutor": null
   },
@@ -1400,7 +1400,7 @@ const FRLG_MOVES = {
     "power": 15,
     "accuracy": 100,
     "pp": 35,
-    "desc": "The foe is stabbed with a toxic barb, etc. It may poison the foe.",
+    "desc": "Picada com ferrão tóxico. Pode envenenar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -1412,7 +1412,7 @@ const FRLG_MOVES = {
     "power": 15,
     "accuracy": 85,
     "pp": 20,
-    "desc": "The foe is jabbed repeatedly with a horn or beak two to five times.",
+    "desc": "Ataca repetidamente com chifre ou bico de 2 a 5 vezes seguidas.",
     "tm": null,
     "tutor": null
   },
@@ -1424,7 +1424,7 @@ const FRLG_MOVES = {
     "power": 25,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The foe is stabbed twice with foreleg stingers. It may poison the foe.",
+    "desc": "Dispara dois ferrões simultâneos. Pode envenenar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -1436,7 +1436,7 @@ const FRLG_MOVES = {
     "power": 25,
     "accuracy": 95,
     "pp": 20,
-    "desc": "Sharp pins are shot at the foe and hit two to five times at once.",
+    "desc": "Dispara espinhos pontiagudos de 2 a 5 vezes consecutivas.",
     "tm": null,
     "tutor": null
   },
@@ -1448,7 +1448,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "The user relaxes and lightens its body to sharply boost its SPEED.",
+    "desc": "Relaxa o corpo para se mover em altíssima velocidade, aumentando muito sua Velocidade.",
     "tm": null,
     "tutor": null
   },
@@ -1460,7 +1460,7 @@ const FRLG_MOVES = {
     "power": 20,
     "accuracy": 100,
     "pp": 20,
-    "desc": "An attack that becomes stronger each time the user is hit in battle.",
+    "desc": "A cada dano que o usuário sofre após usar este golpe, sua raiva aumenta elevando o Ataque.",
     "tm": null,
     "tutor": null
   },
@@ -1472,7 +1472,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "The user takes a deep breath and focuses to raise its critical-hit ratio.",
+    "desc": "Concentra a respiração e foca a mente para aumentar a chance de acertos críticos.",
     "tm": null,
     "tutor": null
   },
@@ -1484,7 +1484,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 20,
-    "desc": "An attack move that works especially well on a foe that is switching out.",
+    "desc": "Um golpe traiçoeiro que causa o dobro de dano se o oponente tentar ser trocado.",
     "tm": null,
     "tutor": null
   },
@@ -1496,7 +1496,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Gains power the fewer HP the user has compared with the foe.",
+    "desc": "Um golpe corajoso que reduz os PS do oponente exatamente para o mesmo valor do usuário.",
     "tm": null,
     "tutor": null
   },
@@ -1508,7 +1508,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "A lot of sand is hurled in the foe’s face, reducing its accuracy.",
+    "desc": "Arremessa areia nos olhos do oponente, reduzindo sua precisão.",
     "tm": null,
     "tutor": null
   },
@@ -1520,7 +1520,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 30,
-    "desc": "An almost invisibly fast attack that is certain to strike first.",
+    "desc": "Avança com velocidade quase invisível para atacar sempre em primeiro lugar.",
     "tm": null,
     "tutor": null
   },
@@ -1532,7 +1532,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user counters the move last used by the foe with the same move.",
+    "desc": "Imita imediatamente o último movimento com que foi alvejado pelo oponente.",
     "tm": null,
     "tutor": null
   },
@@ -1544,7 +1544,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user draws up close to the foe disarmingly, then hits without fail.",
+    "desc": "Aproxima-se sorrateiramente para desferir um golpe covarde que nunca erra.",
     "tm": null,
     "tutor": null
   },
@@ -1556,7 +1556,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is covered with a mass of down that sharply cuts the ATTACK stat.",
+    "desc": "Cobre o oponente com penas macias para reduzir drasticamente seu Ataque.",
     "tm": null,
     "tutor": null
   },
@@ -1568,7 +1568,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 95,
     "pp": 25,
-    "desc": "The foe is hit with razor-like wind. It has a high critical-hit ratio.",
+    "desc": "Dispara lâminas de vento cortantes no oponente. Alta chance de acerto crítico.",
     "tm": null,
     "tutor": null
   },
@@ -1580,7 +1580,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 100,
     "pp": 15,
-    "desc": "A strong electrical attack that may also leave the foe paralyzed.",
+    "desc": "Dispara um poderoso raio elétrico contra o alvo. Pode paralisar o oponente.",
     "tm": "MT24",
     "tutor": null
   },
@@ -1592,7 +1592,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 90,
     "pp": 20,
-    "desc": "A weak electric shock that is sure to cause paralysis if it hits.",
+    "desc": "Libera uma fraca onda eletromagnética que garante paralisia no oponente se acertar.",
     "tm": null,
     "tutor": "Silph Co. (2º Andar)"
   },
@@ -1604,7 +1604,7 @@ const FRLG_MOVES = {
     "power": 110,
     "accuracy": 70,
     "pp": 10,
-    "desc": "A brutal lightning attack that may also leave the foe paralyzed.",
+    "desc": "Invoca um estrondoso raio dos céus contra o oponente. Pode paralisar o alvo.",
     "tm": "MT25",
     "tutor": null
   },
@@ -1616,7 +1616,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 85,
     "pp": 40,
-    "desc": "An ear-splitting screech is emitted to sharply reduce the foe’s DEFENSE.",
+    "desc": "Solta um guincho agudo e irritante que reduz drasticamente a Defesa do oponente.",
     "tm": null,
     "tutor": null
   },
@@ -1628,7 +1628,7 @@ const FRLG_MOVES = {
     "power": 18,
     "accuracy": 80,
     "pp": 15,
-    "desc": "The foe is raked with sharp claws or scythes two to five times.",
+    "desc": "Arranha o oponente com unhas afiadas repetidamente de 2 a 5 vezes seguidas.",
     "tm": null,
     "tutor": null
   },
@@ -1640,7 +1640,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 90,
     "pp": 15,
-    "desc": "The foe is attacked with sharp fangs. It may make the foe flinch.",
+    "desc": "Morde ferozmente com presas longas e afiadas. Pode fazer o oponente hesitar.",
     "tm": null,
     "tutor": null
   },
@@ -1652,7 +1652,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user attacks with sharp fangs and halves the foe’s HP.",
+    "desc": "Crava suas presas afiadas reduzindo os PS atuais do oponente exatamente pela metade.",
     "tm": null,
     "tutor": null
   },
@@ -1664,7 +1664,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 25,
-    "desc": "The user makes a fiery charge at the foe. It may cause a burn.",
+    "desc": "Envolve o corpo em chamas e avança girando no oponente. Pode queimar o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -1676,7 +1676,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "An all-out attack that becomes more powerful the less HP the user has.",
+    "desc": "Um golpe de contra-ataque desesperado que causa mais dano quanto menos PS restar.",
     "tm": null,
     "tutor": null
   },
@@ -1688,7 +1688,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 85,
     "pp": 15,
-    "desc": "A move that makes the foe confused, but also sharply raises its ATTACK.",
+    "desc": "Provoca o oponente enfurecendo-o: eleva muito seu Ataque, mas o deixa confuso.",
     "tm": null,
     "tutor": null
   },
@@ -1700,7 +1700,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user attacks in an uproar that prevents sleep for two to five turns.",
+    "desc": "Cria um alvoroço estrondoso por 2 a 5 turnos, impedindo que qualquer Pokémon durma.",
     "tm": null,
     "tutor": null
   },
@@ -1712,7 +1712,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The foe is taunted into a rage that allows it to use only attack moves.",
+    "desc": "Zomba do oponente para enfurecê-lo, forçando-o a usar apenas movimentos de ataque por 2 turnos.",
     "tm": "MT12",
     "tutor": null
   },
@@ -1724,7 +1724,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": null,
     "pp": 20,
-    "desc": "A rapid jolt of electricity strikes the foe. It can’t be evaded.",
+    "desc": "Dispara uma rápida descarga elétrica contra o oponente que nunca erra o alvo.",
     "tm": "MT34",
     "tutor": null
   },
@@ -1736,7 +1736,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 30,
-    "desc": "The foe is given an intimidating look that lowers its DEFENSE stat.",
+    "desc": "Lança um olhar intimidador ao oponente, reduzindo sua Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -1748,7 +1748,7 @@ const FRLG_MOVES = {
     "power": 35,
     "accuracy": 100,
     "pp": 35,
-    "desc": "The foe is jabbed with a sharply pointed beak or horn.",
+    "desc": "Bica o oponente com um bico rígido e afiado.",
     "tm": null,
     "tutor": null
   },
@@ -1760,7 +1760,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A corkscrewing attack with the sharp beak acting as a drill.",
+    "desc": "Gira o corpo em rotação para desferir uma bicada perfurante no alvo.",
     "tm": null,
     "tutor": null
   },
@@ -1772,7 +1772,7 @@ const FRLG_MOVES = {
     "power": 140,
     "accuracy": 90,
     "pp": 5,
-    "desc": "A 2nd-turn attack move with a high critical-hit ratio. The foe may flinch.",
+    "desc": "Concentra energia brilhante no primeiro turno e ataca dos céus no segundo. Alta chance crítica.",
     "tm": null,
     "tutor": null
   },
@@ -1784,7 +1784,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "A simultaneous 3-beam attack that may paralyze, burn, or freeze the foe.",
+    "desc": "Dispara três feixes de luz simultâneos. Pode queimar, paralisar ou congelar o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -1796,7 +1796,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 40,
-    "desc": "A restrained attack that always leaves the foe with at least 1 HP.",
+    "desc": "Um ataque comedido com a lâmina que sempre deixa o oponente com pelo menos 1 PS.",
     "tm": null,
     "tutor": null
   },
@@ -1808,7 +1808,7 @@ const FRLG_MOVES = {
     "power": 30,
     "accuracy": 100,
     "pp": 15,
-    "desc": "An attack using a startling shout. It also may make the foe flinch.",
+    "desc": "Assusta o oponente repentinamente com um grito. Pode fazer o alvo hesitar.",
     "tm": null,
     "tutor": null
   },
@@ -1820,7 +1820,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 75,
     "pp": 20,
-    "desc": "The foe is struck with a long tail, vines, etc.",
+    "desc": "Golpeia o oponente com uma longa cauda ou tentáculo.",
     "tm": null,
     "tutor": null
   },
@@ -1832,7 +1832,7 @@ const FRLG_MOVES = {
     "power": 15,
     "accuracy": 90,
     "pp": 20,
-    "desc": "A long body or vines are used to wrap the foe for two to five turns.",
+    "desc": "Envolve e aperta o oponente com o corpo por 2 a 5 turnos.",
     "tm": null,
     "tutor": null
   },
@@ -1844,7 +1844,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 30,
-    "desc": "The foe is sprayed with a harsh, hide- melting acid that may lower DEFENSE.",
+    "desc": "Dispara um líquido corrosivo no oponente. Pode reduzir sua Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -1856,7 +1856,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 30,
-    "desc": "The user intimidates the foe with the design on its belly to cause paralysis.",
+    "desc": "Lança um olhar aterrorizante com as marcas do corpo para paralisar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -1868,7 +1868,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "A move that cuts 2 to 5 PP from the move last used by the foe.",
+    "desc": "Libera rancor contra o oponente para reduzir os Pontos de Poder (PP) do último golpe usado.",
     "tm": null,
     "tutor": null
   },
@@ -1880,7 +1880,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user charges up power for use later. It can be used three times.",
+    "desc": "Acumula e armazena energia interna até 3 vezes para usar depois.",
     "tm": null,
     "tutor": null
   },
@@ -1892,7 +1892,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The power built using STOCKPILE is released at once for attack.",
+    "desc": "Libera toda a energia acumulada com Stockpile contra o oponente em forma de ataque.",
     "tm": null,
     "tutor": null
   },
@@ -1904,7 +1904,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The energy it built using STOCKPILE is absorbed to restore HP.",
+    "desc": "Consome a energia acumulada com Stockpile para restaurar seus Pontos de Saúde.",
     "tm": null,
     "tutor": null
   },
@@ -1916,7 +1916,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "It enrages the foe, making it incapable of using the same move successively.",
+    "desc": "Provoca e irrita o oponente, impedindo-o de usar o mesmo golpe duas vezes seguidas.",
     "tm": "MT41",
     "tutor": null
   },
@@ -1928,7 +1928,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Steals the effects of the foe’s healing or status- changing move.",
+    "desc": "Rouba qualquer movimento de cura ou aumento de atributo que o oponente tentar usar.",
     "tm": "MT49",
     "tutor": null
   },
@@ -1940,7 +1940,7 @@ const FRLG_MOVES = {
     "power": 50,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is bitten with toxic fangs. It may also badly poison the foe.",
+    "desc": "Crava dentes venenosos no alvo. Tem 50% de chance de causar envenenamento grave.",
     "tm": null,
     "tutor": null
   },
@@ -1952,7 +1952,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 30,
-    "desc": "An electric shock attack that may also leave the foe paralyzed.",
+    "desc": "Atinge o oponente com uma descarga de eletricidade estática. Pode paralisar o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -1964,7 +1964,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "desc": "The user curls up to conceal weak spots and raise its DEFENSE stat.",
+    "desc": "Enrola o corpo para esconder pontos vitais, aumentando sua Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -1976,7 +1976,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": null,
     "pp": 20,
-    "desc": "Star-shaped rays that never miss are fired at all foes in battle.",
+    "desc": "Dispara estrelas de energia que nunca erram o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -1988,7 +1988,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "A 5-turn sandstorm that damages all types except ROCK, GROUND, and STEEL.",
+    "desc": "Invoca uma tempestade de areia que dura 5 turnos e causa dano a tipos não Rocha/Terra/Aço.",
     "tm": "MT37",
     "tutor": null
   },
@@ -2000,7 +2000,7 @@ const FRLG_MOVES = {
     "power": 75,
     "accuracy": 95,
     "pp": 10,
-    "desc": "The foe is attacked with sharp claws. It may also lower the foe’s DEFENSE.",
+    "desc": "Rasga com garras duras e afiadas. Pode reduzir a Defesa do oponente.",
     "tm": null,
     "tutor": null
   },
@@ -2012,7 +2012,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 95,
     "pp": 15,
-    "desc": "Boulders are hurled at the foe. It also lowers the foe’s SPEED if it hits.",
+    "desc": "Arremessa pedregulhos que soterram o oponente, reduzindo sua Velocidade.",
     "tm": "MT39",
     "tutor": null
   },
@@ -2024,7 +2024,7 @@ const FRLG_MOVES = {
     "power": 35,
     "accuracy": 85,
     "pp": 15,
-    "desc": "The foe is trapped inside a painful sandstorm for two to five turns.",
+    "desc": "Cria um vórtice de areia movediça que prende o oponente por 2 a 5 turnos.",
     "tm": null,
     "tutor": null
   },
@@ -2036,7 +2036,7 @@ const FRLG_MOVES = {
     "power": 30,
     "accuracy": 100,
     "pp": 30,
-    "desc": "Two legs are used to quickly kick the foe twice in one turn.",
+    "desc": "Desfere dois chutes rápidos consecutivos contra o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -2048,7 +2048,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 85,
     "pp": 20,
-    "desc": "A reckless, full- body charge attack that also hurts the user a little.",
+    "desc": "Uma investida temerária e poderosa que também causa dano de recuo ao usuário.",
     "tm": null,
     "tutor": null
   },
@@ -2060,7 +2060,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "For a few turns, it prevents the foe from using the move it last used.",
+    "desc": "Usa energia psíquica para desabilitar o último movimento usado pelo oponente temporariamente.",
     "tm": null,
     "tutor": null
   },
@@ -2072,7 +2072,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is crunched with sharp fangs. It may lower the foe’s SP. DEF.",
+    "desc": "Trinca o oponente com dentes afiados. Pode reduzir sua Defesa Especial.",
     "tm": null,
     "tutor": null
   },
@@ -2084,7 +2084,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Flattery is used to confuse the foe, but its SP. ATK also rises.",
+    "desc": "Elogia falsamente o oponente: eleva seu Ataque Especial, mas o deixa confuso.",
     "tm": null,
     "tutor": null
   },
@@ -2096,7 +2096,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "A move that boosts the power of the ally’s attack in a battle.",
+    "desc": "Ajuda um aliado aumentando o poder de seus ataques no turno.",
     "tm": null,
     "tutor": null
   },
@@ -2108,7 +2108,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 100,
     "pp": 5,
-    "desc": "A powerful attack, but it also lowers the user’s ATTACK and DEFENSE stats.",
+    "desc": "Golpeia com força colossal, mas reduz o próprio Ataque e Defesa após o uso.",
     "tm": null,
     "tutor": null
   },
@@ -2120,7 +2120,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 100,
     "pp": 25,
-    "desc": "The foe is jabbed with a sharply pointed horn to inflict damage.",
+    "desc": "Perfura o oponente com um chifre pontiagudo.",
     "tm": null,
     "tutor": null
   },
@@ -2132,7 +2132,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 30,
     "pp": 5,
-    "desc": "The horn is rotated like a drill to ram. The foe will faint if it hits.",
+    "desc": "Um ataque perfurante em rotação como broca. Nocauteia o oponente em um acerto.",
     "tm": null,
     "tutor": null
   },
@@ -2144,7 +2144,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Forgets about something and sharply raises SP. DEF.",
+    "desc": "Esquece problemas recentes para relaxar a mente, aumentando muito a Defesa Especial.",
     "tm": null,
     "tutor": null
   },
@@ -2156,7 +2156,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user rampages about for two to three turns, then becomes confused.",
+    "desc": "Ataca freneticamente por 2 a 3 turnos, ficando confuso em seguida.",
     "tm": null,
     "tutor": null
   },
@@ -2168,7 +2168,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 85,
     "pp": 10,
-    "desc": "A brutal ramming attack delivered with a tough and impressive horn.",
+    "desc": "Avança com um chifre gigantesco com força brutal para causar alto dano.",
     "tm": null,
     "tutor": null
   },
@@ -2180,7 +2180,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 35,
-    "desc": "A physical attack delivered with a long tail or a foreleg, etc.",
+    "desc": "Desfere uma pancada com a cauda ou membros dianteiros.",
     "tm": null,
     "tutor": null
   },
@@ -2192,7 +2192,7 @@ const FRLG_MOVES = {
     "power": 15,
     "accuracy": 85,
     "pp": 10,
-    "desc": "The foe is slapped repeatedly, back and forth, two to five times.",
+    "desc": "Bofeteia o oponente repetidamente de 2 a 5 vezes em um único turno.",
     "tm": null,
     "tutor": null
   },
@@ -2204,7 +2204,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 55,
     "pp": 15,
-    "desc": "A soothing song in a calming voice lulls the foe into a deep slumber.",
+    "desc": "Uma canção suave e melodiosa que faz o oponente adormecer profundamente.",
     "tm": null,
     "tutor": null
   },
@@ -2216,7 +2216,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user compresses all the cells in its body to raise its evasiveness.",
+    "desc": "Comprime o tamanho do corpo para ficar minúsculo, elevando a evasão.",
     "tm": null,
     "tutor": null
   },
@@ -2228,7 +2228,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "A wall of light cuts damage from physical attacks for five turns.",
+    "desc": "Cria uma barreira mágica que reduz o dano de ataques físicos recebidos pela metade.",
     "tm": "MT33",
     "tutor": null
   },
@@ -2240,7 +2240,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Waggles a finger and stimulates the brain into using any move at random.",
+    "desc": "Balança o dedo rítmicamente para usar quase qualquer movimento Pokémon aleatoriamente.",
     "tm": null,
     "tutor": "Laboratório de Cinnabar"
   },
@@ -2252,7 +2252,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "Heals the user by up to half its full HP. It can be used to heal an ally.",
+    "desc": "Consome um ovo cozido nutritivo para recuperar metade dos seus PS máximos.",
     "tm": null,
     "tutor": "Celadon City"
   },
@@ -2264,7 +2264,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Makes the foe use the move it last used repeatedly for two to six turns.",
+    "desc": "Aplaude o oponente forçando-o a repetir seu último movimento usado por 2 a 6 turnos.",
     "tm": null,
     "tutor": null
   },
@@ -2276,7 +2276,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "Restores the user’s HP. The amount of HP regained varies with the weather.",
+    "desc": "Banha-se no luar suave para restaurar PS. A cura varia de acordo com o clima.",
     "tm": null,
     "tutor": null
   },
@@ -2288,7 +2288,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user draws attention to itself, making foes attack only the user.",
+    "desc": "Chama a atenção dos oponentes para que todos os ataques inimigos sejam direcionados a si.",
     "tm": null,
     "tutor": null
   },
@@ -2300,7 +2300,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The foe is hit with a hard, fast punch. It may also raise the user’s ATTACK.",
+    "desc": "Desfere um soco na velocidade de um meteoro. Pode elevar o próprio Ataque.",
     "tm": null,
     "tutor": null
   },
@@ -2312,7 +2312,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user absorbs a mystic power to raise its DEFENSE and SP. DEF.",
+    "desc": "Absorve energias do cosmos para elevar sua Defesa e sua Defesa Especial.",
     "tm": null,
     "tutor": null
   },
@@ -2324,7 +2324,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user focuses its mind to raise the SP. ATK and SP. DEF stats.",
+    "desc": "Concentra e acalma a mente para aumentar seu Ataque Especial e Defesa Especial.",
     "tm": "MT04",
     "tutor": null
   },
@@ -2336,7 +2336,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 60,
     "pp": 20,
-    "desc": "Hypnotic suggestion is used to make the foe fall into a deep sleep.",
+    "desc": "Emite ondas hipnóticas que induzem o oponente a um sono profundo.",
     "tm": null,
     "tutor": null
   },
@@ -2348,7 +2348,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The foe is exposed to a sinister ray that triggers confusion.",
+    "desc": "Dispara um raio de luz sinistro que deixa o oponente completamente confuso.",
     "tm": null,
     "tutor": null
   },
@@ -2360,7 +2360,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user hypnotizes itself into copying any stat change made by the foe.",
+    "desc": "Sintoniza a mente com a do oponente para copiar todos os aumentos de atributos dele.",
     "tm": null,
     "tutor": null
   },
@@ -2372,7 +2372,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 85,
     "pp": 15,
-    "desc": "A sinister, bluish white flame is shot at the foe to inflict a burn.",
+    "desc": "Atira chamas azuis sinistras e fantasmagóricas que sempre deixam o alvo queimado.",
     "tm": null,
     "tutor": null
   },
@@ -2384,7 +2384,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Prevents foes from using any move that is also known by the user.",
+    "desc": "Sela o oponente impedindo-o de usar qualquer movimento que o usuário também conheça.",
     "tm": null,
     "tutor": null
   },
@@ -2396,7 +2396,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "If the user faints, this move deletes the PP of the move that finished it.",
+    "desc": "Se o usuário desmaiar pelo próximo ataque inimigo, zera todos os PP do golpe usado.",
     "tm": null,
     "tutor": null
   },
@@ -2408,7 +2408,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "desc": "The user howls to raise its spirit and boost its ATTACK stat.",
+    "desc": "Uiva ferozmente para elevar o próprio espírito combativo, aumentando seu Ataque.",
     "tm": null,
     "tutor": null
   },
@@ -2420,7 +2420,7 @@ const FRLG_MOVES = {
     "power": 30,
     "accuracy": 90,
     "pp": 20,
-    "desc": "A 5-turn rolling attack that becomes stronger each time it hits.",
+    "desc": "Rola no chão acelerando por 5 turnos. Cada acerto dobra o dano do golpe.",
     "tm": null,
     "tutor": null
   },
@@ -2432,7 +2432,7 @@ const FRLG_MOVES = {
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user lets loose a horribly loud shout with the power to damage.",
+    "desc": "Grita com volume ensurdecedor criando ondas sonoras destrutivas no oponente.",
     "tm": null,
     "tutor": null
   },
@@ -2444,7 +2444,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "An attack that absorbs half the damage it inflicted to restore HP.",
+    "desc": "Suga o sangue ou energia vital do oponente para recuperar metade do dano em PS.",
     "tm": null,
     "tutor": null
   },
@@ -2456,7 +2456,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The foe is fixed with a mean look that prevents it from escaping.",
+    "desc": "Fixa um olhar macabro que impede o oponente de fugir ou ser trocado em batalha.",
     "tm": null,
     "tutor": null
   },
@@ -2468,7 +2468,7 @@ const FRLG_MOVES = {
     "power": 20,
     "accuracy": 100,
     "pp": 25,
-    "desc": "An attack that absorbs half the damage it inflicted to restore HP.",
+    "desc": "Um ataque que drena nutrientes do alvo para recuperar metade do dano causado em PS.",
     "tm": null,
     "tutor": null
   },
@@ -2480,7 +2480,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user lays roots that restore HP on every turn. It can’t switch out.",
+    "desc": "Cria raízes profundas na terra para curar PS todo turno, mas impede o usuário de ser trocado.",
     "tm": null,
     "tutor": null
   },
@@ -2492,7 +2492,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 15,
-    "desc": "A tough attack that drains half the damage it inflicted to restore HP.",
+    "desc": "Um ataque de drenagem avançado que recupera metade do dano causado em PS.",
     "tm": null,
     "tutor": null
   },
@@ -2504,7 +2504,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "A soothing scent is released to heal all status problems in the user’s party.",
+    "desc": "Espalha um aroma doce e curativo que cura os problemas de status de toda a equipe.",
     "tm": null,
     "tutor": null
   },
@@ -2516,7 +2516,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user scatters bursts of fine spores that induce sleep.",
+    "desc": "Espalha esporos biológicos indutores de sono que garantem adormecer o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -2528,7 +2528,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "desc": "The user switches out, passing along any stat changes to the new battler.",
+    "desc": "Sai de combate passando todos os aumentos e reduções de atributos para o substituto.",
     "tm": null,
     "tutor": null
   },
@@ -2540,7 +2540,7 @@ const FRLG_MOVES = {
     "power": 75,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is hit with a flashing beam that may also cause confusion.",
+    "desc": "Dispara um feixe de luz intermitente e curioso. Pode deixar o oponente confuso.",
     "tm": null,
     "tutor": null
   },
@@ -2552,7 +2552,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 30,
     "pp": 5,
-    "desc": "The foe is dropped into a fissure. The foe faints if it hits.",
+    "desc": "Abre uma fenda profunda na terra. Nocauteia o oponente em um único golpe.",
     "tm": null,
     "tutor": null
   },
@@ -2564,7 +2564,7 @@ const FRLG_MOVES = {
     "power": 20,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Mud is hurled in the foe’s face to inflict damage and lower its accuracy.",
+    "desc": "Joga lama nos olhos do oponente causando dano e reduzindo sua precisão.",
     "tm": null,
     "tutor": null
   },
@@ -2576,7 +2576,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 30,
-    "desc": "A ground-shaking attack against all standing POKéMON. Its power varies.",
+    "desc": "Provoca um tremor de intensidade variável e aleatória de magnitude 4 a 10.",
     "tm": null,
     "tutor": null
   },
@@ -2588,7 +2588,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Numerous coins are hurled at the foe. Money is earned after battle.",
+    "desc": "Arremessa moedas brilhantes contra o oponente. O dinheiro é recuperado após a batalha.",
     "tm": null,
     "tutor": null
   },
@@ -2600,7 +2600,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 10,
-    "desc": "An attack that hits first and causes flinching. Usable only on 1st turn.",
+    "desc": "Avança com uma finta rápida logo no primeiro turno. Sempre faz o oponente hesitar.",
     "tm": null,
     "tutor": null
   },
@@ -2612,7 +2612,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user randomly picks and uses a move of an allied POKéMON.",
+    "desc": "Pede ajuda aos companheiros da equipe para usar aleatoriamente um golpe de um aliado.",
     "tm": null,
     "tutor": null
   },
@@ -2624,7 +2624,7 @@ const FRLG_MOVES = {
     "power": 100,
     "accuracy": 80,
     "pp": 5,
-    "desc": "The foe is hit with double chops. It has a high critical-hit ratio.",
+    "desc": "Cruza os antebraços e desfere um golpe duplo em cruz. Alta chance de acerto crítico.",
     "tm": null,
     "tutor": null
   },
@@ -2636,7 +2636,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Two turns after this move is used, the foe is attacked psychically.",
+    "desc": "Prevê um ataque psíquico futurista que atinge o oponente com força dois turnos depois.",
     "tm": null,
     "tutor": null
   },
@@ -2660,7 +2660,7 @@ const FRLG_MOVES = {
     "power": 50,
     "accuracy": 100,
     "pp": 25,
-    "desc": "The foe is attacked with a sharp chop. It has a high critical-hit ratio.",
+    "desc": "Um golpe cortante com a mão em estilo caratê. Alta chance de acerto crítico.",
     "tm": null,
     "tutor": null
   },
@@ -2672,7 +2672,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A low, tripping kick that inflicts more damage on heavier foes.",
+    "desc": "Aplica uma rasteira nos pés do oponente. Causa mais dano quanto mais pesado o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -2684,7 +2684,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "desc": "The user meditates to awaken its power and raise its ATTACK stat.",
+    "desc": "Medita calmamente para entrar em harmonia com o próprio corpo, elevando o Ataque.",
     "tm": null,
     "tutor": null
   },
@@ -2696,7 +2696,7 @@ const FRLG_MOVES = {
     "power": 70,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Doubly effective on a paralyzed foe, but it also cures the foe’s paralysis.",
+    "desc": "Causa dano dobrado contra oponentes paralisados, mas os cura da paralisia.",
     "tm": null,
     "tutor": null
   },
@@ -2708,7 +2708,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 10,
-    "desc": "An attack move that gains in intensity if the target has hurt the user.",
+    "desc": "Um golpe de vingança cujo poder dobra se o usuário já tiver recebido dano no mesmo turno.",
     "tm": null,
     "tutor": null
   },
@@ -2720,7 +2720,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user bulks up its body to boost both its ATTACK and DEFENSE stats.",
+    "desc": "Infla os músculos para elevar tanto o seu Ataque quanto a sua Defesa.",
     "tm": "MT08",
     "tutor": null
   },
@@ -2732,7 +2732,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "desc": "Completely negates the foe’s efforts to heighten its ability to evade.",
+    "desc": "Fareja o oponente para anular sua evasão e permitir acertar tipos Fantasma com golpes físicos.",
     "tm": null,
     "tutor": null
   },
@@ -2744,7 +2744,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 5,
-    "desc": "A blindingly speedy charge attack that always goes before any other.",
+    "desc": "Move-se em velocidade estonteante para atacar antes de qualquer outro movimento rápido.",
     "tm": null,
     "tutor": null
   },
@@ -2756,7 +2756,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A spray of bubbles strikes the foe. It may lower the foe’s SPEED stat.",
+    "desc": "Dispara uma rajada rápida de bolhas d água. Pode reduzir a Velocidade do alvo.",
     "tm": null,
     "tutor": null
   },
@@ -2768,7 +2768,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "desc": "The user just flops and splashes around without having any effect.",
+    "desc": "Apenas se debate na água sem causar nenhum efeito em batalha.",
     "tm": null,
     "tutor": null
   },
@@ -2780,7 +2780,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The user predicts the foe’s action to ensure its next attack hits.",
+    "desc": "Prevê os movimentos do oponente garantindo que o próximo golpe nunca erre.",
     "tm": null,
     "tutor": null
   },
@@ -2792,7 +2792,7 @@ const FRLG_MOVES = {
     "power": 30,
     "accuracy": 90,
     "pp": 20,
-    "desc": "A 5-turn rolling attack that becomes stronger each time it rolls.",
+    "desc": "Rola uma bola de gelo por 5 turnos. Cada acerto consecutivo dobra o poder do golpe.",
     "tm": null,
     "tutor": null
   },
@@ -2804,7 +2804,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 80,
     "pp": 20,
-    "desc": "A reckless, full- body throw attack that also hurts the user a little.",
+    "desc": "Agarra o oponente e rola no chão arremessando-o. O usuário sofre dano de recuo.",
     "tm": null,
     "tutor": null
   },
@@ -2816,7 +2816,7 @@ const FRLG_MOVES = {
     "power": 75,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is punched with a fiery fist. It may leave the foe with a burn.",
+    "desc": "Um soco flamejante que atinge o alvo. Pode queimar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -2828,7 +2828,7 @@ const FRLG_MOVES = {
     "power": 75,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is punched with an icy fist. It may leave the foe frozen.",
+    "desc": "Um soco gélido de baixíssima temperatura. Pode congelar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -2840,7 +2840,7 @@ const FRLG_MOVES = {
     "power": 75,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is punched with an electrified fist. It may leave the foe paralyzed.",
+    "desc": "Um soco eletrificado com alta voltagem. Pode paralisar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -2852,7 +2852,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Use it to flee from any wild POKéMON. Also warps to the last POKé CENTER.",
+    "desc": "Usa teletransporte para fugir de batalhas contra Pokémon selvagens instantaneamente.",
     "tm": null,
     "tutor": null
   },
@@ -2864,7 +2864,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user creates a sturdy wall that sharply raises its DEFENSE stat.",
+    "desc": "Cria uma parede impenetrável de energia à sua frente que aumenta muito a Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -2876,7 +2876,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Knocks down the foe’s held item to prevent its use during the battle.",
+    "desc": "Bate na mão do oponente para derrubar e inutilizar o item que ele estiver segurando.",
     "tm": null,
     "tutor": null
   },
@@ -2888,7 +2888,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "A self-healing move that restores HP by up to half of the user’s maximum HP.",
+    "desc": "Restaura até metade dos Pontos de Saúde (PS) máximos do próprio usuário.",
     "tm": null,
     "tutor": null
   },
@@ -2900,7 +2900,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 80,
     "pp": 15,
-    "desc": "The user distracts the foe by bending a spoon. It may lower accuracy.",
+    "desc": "Entorta uma colher de metal com a mente para distrair o oponente e reduzir sua precisão.",
     "tm": null,
     "tutor": null
   },
@@ -2912,7 +2912,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "A move that tricks the foe into trading held items with the user.",
+    "desc": "Usa truques de mágica para trocar o item segurado com o item do oponente.",
     "tm": null,
     "tutor": null
   },
@@ -2924,7 +2924,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user mimics the foe completely and copies the foe’s ability.",
+    "desc": "Imita a postura do oponente para copiar a Habilidade dele.",
     "tm": null,
     "tutor": null
   },
@@ -2936,7 +2936,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 85,
     "pp": 15,
-    "desc": "A quick kick from a rolling spin. It may make the foe flinch.",
+    "desc": "Um chute giratório veloz e contínuo. Pode fazer o oponente hesitar.",
     "tm": null,
     "tutor": null
   },
@@ -2948,7 +2948,7 @@ const FRLG_MOVES = {
     "power": 100,
     "accuracy": 50,
     "pp": 5,
-    "desc": "The foe is punched with the user’s full power. It confuses the foe if it hits.",
+    "desc": "Um soco poderoso com força total. Tem baixa precisão, mas sempre confunde o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -2960,7 +2960,7 @@ const FRLG_MOVES = {
     "power": 70,
     "accuracy": null,
     "pp": 10,
-    "desc": "Makes the user attack after the foe. In return, it will not miss.",
+    "desc": "Aguenta o impacto para arremessar o oponente. Sempre ataca por último, mas nunca erra.",
     "tm": null,
     "tutor": null
   },
@@ -2972,7 +2972,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A rainbow-colored attack beam. It may lower the foe’s ATTACK stat.",
+    "desc": "Dispara um feixe multicolorido semelhante a uma aurora. Pode reduzir o Ataque do alvo.",
     "tm": null,
     "tutor": null
   },
@@ -2984,7 +2984,7 @@ const FRLG_MOVES = {
     "power": 10,
     "accuracy": 100,
     "pp": 35,
-    "desc": "The foe is attacked with long tentacles or vines. It may lower SPEED.",
+    "desc": "Aperta o oponente para causar dano. Pode reduzir a Velocidade do alvo.",
     "tm": null,
     "tutor": null
   },
@@ -2996,7 +2996,7 @@ const FRLG_MOVES = {
     "power": 50,
     "accuracy": 90,
     "pp": 15,
-    "desc": "The foe is attacked with a shower of small, easily thrown rocks.",
+    "desc": "Pega pequenas rochas e as arremessa contra o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -3008,7 +3008,7 @@ const FRLG_MOVES = {
     "power": 200,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user blows up to inflict severe damage, even making itself faint.",
+    "desc": "Explode o próprio corpo causando dano colossal a todos ao redor, mas desmaia o usuário.",
     "tm": null,
     "tutor": null
   },
@@ -3020,7 +3020,7 @@ const FRLG_MOVES = {
     "power": 250,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user explodes to inflict terrible damage even while fainting itself.",
+    "desc": "O golpe mais poderoso do jogo: explode com força colossal, mas nocauteia o usuário.",
     "tm": null,
     "tutor": "Monte Brasa (Ilha 1)"
   },
@@ -3032,7 +3032,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The user blocks the foe’s way with arms spread wide to prevent escape.",
+    "desc": "Bloqueia o caminho com os braços abertos, impedindo o oponente de fugir.",
     "tm": null,
     "tutor": null
   },
@@ -3044,7 +3044,7 @@ const FRLG_MOVES = {
     "power": 25,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user hurls two to five hard rocks at the foe to attack.",
+    "desc": "Dispara pedras duras e pesadas contra o oponente de 2 a 5 vezes seguidas.",
     "tm": null,
     "tutor": null
   },
@@ -3056,7 +3056,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The foe is stomped with a big foot. It may make the foe flinch.",
+    "desc": "Pisoteia o oponente com um pé enorme. Pode fazer o alvo hesitar.",
     "tm": null,
     "tutor": null
   },
@@ -3068,7 +3068,7 @@ const FRLG_MOVES = {
     "power": 85,
     "accuracy": 85,
     "pp": 5,
-    "desc": "The user bounces on the foe on the 2nd turn. It may paralyze the foe.",
+    "desc": "Salta alto nas nuvens no primeiro turno e desce quicando no segundo. Pode paralisar o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -3080,7 +3080,7 @@ const FRLG_MOVES = {
     "power": 70,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user sticks its head out and rams. It may make the foe flinch.",
+    "desc": "Avança com a cabeça para golpear o alvo. Pode fazer o oponente hesitar.",
     "tm": null,
     "tutor": null
   },
@@ -3092,7 +3092,7 @@ const FRLG_MOVES = {
     "power": 50,
     "accuracy": 100,
     "pp": 15,
-    "desc": "An attack that can be used only while asleep. It may cause flinching.",
+    "desc": "Um ataque estrondoso que só pode ser usado enquanto o usuário estiver dormindo.",
     "tm": null,
     "tutor": null
   },
@@ -3104,7 +3104,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "While asleep, the user randomly uses one of the moves it knows.",
+    "desc": "Enquanto estiver dormindo, escolhe aleatoriamente um de seus outros movimentos para usar.",
     "tm": null,
     "tutor": null
   },
@@ -3116,7 +3116,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 90,
     "pp": 20,
-    "desc": "The foe is hit with a shock wave that always inflicts 20- HP damage.",
+    "desc": "Dispara ondas sonoras destrutivas que sempre causam exatamente 20 pontos de dano.",
     "tm": null,
     "tutor": null
   },
@@ -3128,7 +3128,7 @@ const FRLG_MOVES = {
     "power": 120,
     "accuracy": 50,
     "pp": 5,
-    "desc": "An electric blast is fired like a cannon to inflict damage and paralyze.",
+    "desc": "Dispara uma esfera elétrica gigantesca. Possui baixa precisão, mas sempre paralisa.",
     "tm": null,
     "tutor": null
   },
@@ -3140,7 +3140,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The user locks on to the foe, making the next move sure to hit.",
+    "desc": "Trava a mira no oponente garantindo que o próximo ataque nunca erre.",
     "tm": null,
     "tutor": null
   },
@@ -3152,7 +3152,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "An electrically charged tackle that may also paralyze the foe.",
+    "desc": "Avança emitindo faíscas elétricas. Pode deixar o oponente paralisado.",
     "tm": null,
     "tutor": null
   },
@@ -3164,7 +3164,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 85,
     "pp": 40,
-    "desc": "A horrible metallic screech is used to sharply lower the foe’s SP. DEF.",
+    "desc": "Raspa metais gerando um ruído estridente que reduz drasticamente a Defesa Especial.",
     "tm": null,
     "tutor": null
   },
@@ -3176,7 +3176,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 95,
     "pp": 20,
-    "desc": "An attack that grows stronger on each successive hit.",
+    "desc": "Desfere golpes contínuos com lâminas. O dano dobra a cada acerto consecutivo.",
     "tm": null,
     "tutor": null
   },
@@ -3188,7 +3188,7 @@ const FRLG_MOVES = {
     "power": 30,
     "accuracy": 100,
     "pp": 30,
-    "desc": "The foe is licked and hit with a long tongue. It may also paralyze.",
+    "desc": "Lambe o oponente com uma língua comprida. Pode deixar o alvo paralisado.",
     "tm": null,
     "tutor": null
   },
@@ -3200,7 +3200,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "Any battler that hears this faints in three turns unless it switches.",
+    "desc": "Entoa uma melodia sinistra. Qualquer Pokémon que a ouvir desmaiará em 3 turnos.",
     "tm": null,
     "tutor": null
   },
@@ -3212,7 +3212,7 @@ const FRLG_MOVES = {
     "power": 55,
     "accuracy": 95,
     "pp": 15,
-    "desc": "A chilling wind is used to attack. It also lowers the SPEED stat.",
+    "desc": "Sopra uma ventania congelante no oponente que sempre reduz sua Velocidade.",
     "tm": null,
     "tutor": null
   },
@@ -3224,7 +3224,7 @@ const FRLG_MOVES = {
     "power": 25,
     "accuracy": 100,
     "pp": 30,
-    "desc": "Sharp icicles are fired at the foe. It strikes two to five times.",
+    "desc": "Dispara estilhaços de gelo pontiagudos de 2 a 5 vezes consecutivas.",
     "tm": null,
     "tutor": null
   },
@@ -3236,7 +3236,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 30,
     "pp": 5,
-    "desc": "The foe is attacked with ultimate cold that causes fainting if it hits.",
+    "desc": "Cria uma temperatura de zero absoluto. Nocauteia o oponente em um único golpe.",
     "tm": null,
     "tutor": null
   },
@@ -3248,7 +3248,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Toxic sludge is hurled at the foe. It may poison the target.",
+    "desc": "Arremessa lama poluída e tóxica contra o oponente. Pode envenenar o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -3260,7 +3260,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 90,
     "pp": 40,
-    "desc": "The foe is sprayed with a cloud of toxic gas that may poison the foe.",
+    "desc": "Expele um gás venenoso sufocante que envenena o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -3272,7 +3272,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user alters its cells to liquefy itself and sharply raise DEFENSE.",
+    "desc": "Liquefaz o próprio corpo para escorregar e elevar drasticamente sua Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -3284,7 +3284,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user faints, but sharply lowers the foe’s ATTACK and SP. ATK.",
+    "desc": "O usuário desmaia de bom grado para reduzir drasticamente o Ataque e Atq. Esp. do alvo.",
     "tm": null,
     "tutor": null
   },
@@ -3296,7 +3296,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user throws a punch from the shadows. It cannot be evaded.",
+    "desc": "Desfere um soco das sombras que nunca erra o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -3308,7 +3308,7 @@ const FRLG_MOVES = {
     "power": 35,
     "accuracy": 85,
     "pp": 15,
-    "desc": "The foe is clamped and squeezed by the user’s shell for two to five turns.",
+    "desc": "Prende o oponente com conchas afiadas e duras por 2 a 5 turnos.",
     "tm": null,
     "tutor": null
   },
@@ -3320,7 +3320,7 @@ const FRLG_MOVES = {
     "power": 20,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Sharp spikes are fired at the foe to strike two to five times.",
+    "desc": "Dispara espinhos pontiagudos de 2 a 5 vezes consecutivas.",
     "tm": null,
     "tutor": null
   },
@@ -3332,7 +3332,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "A trap of spikes is laid around the foe’s party to hurt foes switching in.",
+    "desc": "Espalha espinhos no campo adversário que causam dano a qualquer Pokémon que entrar.",
     "tm": null,
     "tutor": null
   },
@@ -3344,7 +3344,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "An attack with a mirage that inflicts damage matching the user’s level.",
+    "desc": "Faz o oponente enxergar uma miragem tenebrosa. Causa dano igual ao nível do usuário.",
     "tm": null,
     "tutor": null
   },
@@ -3356,7 +3356,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The foe is attacked with an odd, hot energy wave that varies in intensity.",
+    "desc": "Gera uma onda de energia psíquica que causa dano variável.",
     "tm": null,
     "tutor": null
   },
@@ -3368,7 +3368,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "A sleeping foe is shown a nightmare that inflicts some damage every turn.",
+    "desc": "Provoca um pesadelo aterrador em um oponente adormecido, causando dano a cada turno.",
     "tm": null,
     "tutor": null
   },
@@ -3380,7 +3380,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "If the user faints, the foe delivering the final hit also faints.",
+    "desc": "Se o usuário desmaiar pelo próximo ataque do oponente, o alvo desmaia junto.",
     "tm": null,
     "tutor": null
   },
@@ -3392,7 +3392,7 @@ const FRLG_MOVES = {
     "power": 15,
     "accuracy": 85,
     "pp": 20,
-    "desc": "A long body or tentacles are used to bind the foe for two to five turns.",
+    "desc": "Enrola o oponente com o corpo para prender e causar dano por 2 a 5 turnos.",
     "tm": null,
     "tutor": null
   },
@@ -3404,7 +3404,7 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The foe is hit with an incredible blast of breath that may also paralyze.",
+    "desc": "Expele um sopro ardente de energia de dragão. Pode paralisar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -3416,7 +3416,7 @@ const FRLG_MOVES = {
     "power": 55,
     "accuracy": 100,
     "pp": 30,
-    "desc": "Huge, impressive pincers grip and squeeze the foe.",
+    "desc": "Prende o oponente com pinças ou garras poderosas para esmagá-lo.",
     "tm": null,
     "tutor": null
   },
@@ -3428,7 +3428,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 30,
     "pp": 5,
-    "desc": "A vicious tearing attack with pincers. The foe will faint if it hits.",
+    "desc": "Um golpe cortante letal em formato de pinça. Nocauteia o oponente em um único acerto.",
     "tm": null,
     "tutor": null
   },
@@ -3440,7 +3440,7 @@ const FRLG_MOVES = {
     "power": 100,
     "accuracy": 90,
     "pp": 10,
-    "desc": "A large pincer is used to hammer the foe. It has a high critical-hit ratio.",
+    "desc": "Golpeia o oponente com uma pinça maciça. Alta chance de acerto crítico.",
     "tm": null,
     "tutor": null
   },
@@ -3452,7 +3452,7 @@ const FRLG_MOVES = {
     "power": 55,
     "accuracy": 95,
     "pp": 15,
-    "desc": "The user attacks by hurling mud. It also reduces the foe’s SPEED.",
+    "desc": "Atira blocos de lama no oponente que sempre reduzem a sua Velocidade.",
     "tm": null,
     "tutor": null
   },
@@ -3464,7 +3464,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user charges power to boost the ELECTRIC move it uses next.",
+    "desc": "Carrega energia elétrica no corpo, dobrando o poder do próximo ataque elétrico usado.",
     "tm": null,
     "tutor": null
   },
@@ -3476,7 +3476,7 @@ const FRLG_MOVES = {
     "power": 15,
     "accuracy": 85,
     "pp": 20,
-    "desc": "Round objects are hurled at the foe to strike two to five times.",
+    "desc": "Atira objetos redondos contra o oponente de 2 a 5 vezes consecutivas.",
     "tm": null,
     "tutor": null
   },
@@ -3488,7 +3488,7 @@ const FRLG_MOVES = {
     "power": 100,
     "accuracy": 75,
     "pp": 10,
-    "desc": "A large egg is hurled with great force at the foe to inflict damage.",
+    "desc": "Atira um ovo grande e pesado contra o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -3500,7 +3500,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 85,
     "pp": 20,
-    "desc": "The foe is clubbed with a bone held in hand. It may make the foe flinch.",
+    "desc": "Golpeia o oponente com um osso pesado. Pode fazer o alvo hesitar.",
     "tm": null,
     "tutor": null
   },
@@ -3512,7 +3512,7 @@ const FRLG_MOVES = {
     "power": 50,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user throws a bone that hits the foe once, then once again on return.",
+    "desc": "Arremessa um osso que atinge o oponente na ida e volta, acertando 2 vezes.",
     "tm": null,
     "tutor": null
   },
@@ -3524,7 +3524,7 @@ const FRLG_MOVES = {
     "power": 25,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user strikes the foe with a bone in hand two to five times.",
+    "desc": "Golpeia o oponente com um osso como bastão de 2 a 5 vezes seguidas.",
     "tm": null,
     "tutor": null
   },
@@ -3536,7 +3536,7 @@ const FRLG_MOVES = {
     "power": 100,
     "accuracy": 95,
     "pp": 10,
-    "desc": "The user jumps up high, then kicks. If it misses, the user hurts itself.",
+    "desc": "Salta alto e desferir um chute descendente. Se errar, o usuário sofre dano.",
     "tm": null,
     "tutor": null
   },
@@ -3548,7 +3548,7 @@ const FRLG_MOVES = {
     "power": 130,
     "accuracy": 90,
     "pp": 10,
-    "desc": "A strong jumping knee kick. If it misses, the user is hurt.",
+    "desc": "Salta no ar para desferir uma voadora com o joelho. Se errar, sofre dano.",
     "tm": null,
     "tutor": null
   },
@@ -3560,7 +3560,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user endures any hit with 1 HP left. It may fail if used in succession.",
+    "desc": "Suporta qualquer ataque no turno com pelo menos 1 PS restante. Falha se usado em seguida.",
     "tm": null,
     "tutor": null
   },
@@ -3572,7 +3572,7 @@ const FRLG_MOVES = {
     "power": 18,
     "accuracy": 85,
     "pp": 15,
-    "desc": "The foe is hit with a flurry of punches that strike two to five times.",
+    "desc": "Dispara uma sequência rápida de socos de 2 a 5 vezes consecutivas.",
     "tm": null,
     "tutor": null
   },
@@ -3584,7 +3584,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 30,
-    "desc": "A punch thrown at blinding speed. It is certain to strike first.",
+    "desc": "Um soco disparado na velocidade do som que sempre ataca em primeiro lugar.",
     "tm": null,
     "tutor": null
   },
@@ -3596,7 +3596,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "Enables the user to evade all attacks. It may fail if used in succession.",
+    "desc": "Prevê o movimento do oponente para esquivar completamente de qualquer golpe no turno.",
     "tm": null,
     "tutor": null
   },
@@ -3608,7 +3608,7 @@ const FRLG_MOVES = {
     "power": 85,
     "accuracy": 90,
     "pp": 15,
-    "desc": "The user attacks with an uppercut thrown skywards with force.",
+    "desc": "Um gancho ascendente desferido com força aos céus. Consegue atingir Pokémon que estão voando.",
     "tm": null,
     "tutor": null
   },
@@ -3620,7 +3620,7 @@ const FRLG_MOVES = {
     "power": 30,
     "accuracy": 70,
     "pp": 20,
-    "desc": "The foe is attacked with exhaust gases. It may also poison the foe.",
+    "desc": "Expele uma nuvem de gases fétidos e tóxicos. Pode envenenar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -3632,7 +3632,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user adds its HP to the foe’s HP, then equally shares the total HP.",
+    "desc": "Soma os PS do usuário e do oponente e os divide igualmente entre ambos.",
     "tm": null,
     "tutor": null
   },
@@ -3644,7 +3644,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "A soothing bell chimes to heal the status problems of all allies.",
+    "desc": "Toca um sino relaxante que cura todos os problemas de status de toda a equipe.",
     "tm": null,
     "tutor": null
   },
@@ -3656,7 +3656,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 90,
     "pp": 15,
-    "desc": "The foe is given a booby-trapped gift. It restores HP sometimes, however.",
+    "desc": "Entrega uma caixa de presente que pode causar dano com poder variável ou curar o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -3668,7 +3668,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "An attack that changes type depending on the user’s location.",
+    "desc": "Usa as energias do ambiente ao redor para invocar um movimento diferente conforme o local.",
     "tm": null,
     "tutor": null
   },
@@ -3680,7 +3680,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The foe is made to laugh, reducing its ATTACK and DEFENSE stats.",
+    "desc": "Faz cócegas no oponente para desarmá-lo, reduzindo tanto seu Ataque quanto sua Defesa.",
     "tm": null,
     "tutor": null
   },
@@ -3692,7 +3692,7 @@ const FRLG_MOVES = {
     "power": 70,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The foe is hit with a rhythmic punch that may leave it confused.",
+    "desc": "Desfere socos desajeitados e imprevisíveis. Pode deixar o oponente confuso.",
     "tm": null,
     "tutor": null
   },
@@ -3704,7 +3704,7 @@ const FRLG_MOVES = {
     "power": 65,
     "accuracy": 85,
     "pp": 10,
-    "desc": "Ink is blasted in the foe’s face or eyes to damage and lower accuracy.",
+    "desc": "Dispara tinta escura em alta pressão. Pode reduzir a precisão do oponente.",
     "tm": null,
     "tutor": null
   },
@@ -3716,7 +3716,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 20,
-    "desc": "A vicious twister attacks the foe. It may make the foe flinch.",
+    "desc": "Cria um pequeno tornado que atinge o oponente. Pode fazê-lo hesitar.",
     "tm": null,
     "tutor": null
   },
@@ -3728,7 +3728,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Alters the user’s type depending on the location’s terrain.",
+    "desc": "Muda a cor e tipo do próprio corpo para se camuflar com o ambiente da batalha.",
     "tm": null,
     "tutor": null
   },
@@ -3740,7 +3740,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "A move that recycles a used item for use once more.",
+    "desc": "Recicla e recupera um item consumido pelo usuário durante o combate.",
     "tm": null,
     "tutor": null
   },
@@ -3752,7 +3752,7 @@ const FRLG_MOVES = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Blades of wind hit the foe on the 2nd turn. It has a high critical-hit ratio.",
+    "desc": "Gera lâminas de vento no primeiro turno e as dispara no segundo turno. Alta chance de acerto crítico.",
     "tm": null,
     "tutor": null
   },
@@ -3764,7 +3764,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 75,
     "pp": 10,
-    "desc": "The user forces a kiss on the foe with a scary face that induces sleep.",
+    "desc": "Aproxima-se com cara assustadora para dar um beijo doce que adormece o alvo.",
     "tm": null,
     "tutor": null
   },
@@ -3776,7 +3776,7 @@ const FRLG_MOVES = {
     "power": 40,
     "accuracy": 100,
     "pp": 25,
-    "desc": "Blasts the foe with a snowy gust. It may cause freezing.",
+    "desc": "Sopra uma rajada suave de neve em pó. Pode congelar o oponente.",
     "tm": null,
     "tutor": null
   },
@@ -3788,7 +3788,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The user feigns crying to sharply lower the foe’s SP. DEF stat.",
+    "desc": "Finge chorar copiosamente para enganar o oponente e reduzir muito sua Defesa Especial.",
     "tm": null,
     "tutor": null
   },
@@ -3800,7 +3800,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user transforms into a copy of the foe with even the same move set.",
+    "desc": "Transforma suas células para copiar exatamente a aparência e golpes do oponente.",
     "tm": null,
     "tutor": null
   },
@@ -3812,7 +3812,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "A self-healing move that restores half the full HP on the next turn.",
+    "desc": "Faz um desejo fervoroso às estrelas que restaura metade dos PS do usuário no turno seguinte.",
     "tm": null,
     "tutor": null
   },
@@ -3824,7 +3824,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "The user reduces its polygon count to sharpen edges and raise ATTACK.",
+    "desc": "Afia suas bordas pontiagudas para aumentar seu Ataque.",
     "tm": null,
     "tutor": null
   },
@@ -3836,7 +3836,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "The user changes its type to match the type of one of its moves.",
+    "desc": "Muda o tipo do usuário para o mesmo tipo de um de seus próprios movimentos.",
     "tm": null,
     "tutor": null
   },
@@ -3848,7 +3848,7 @@ const FRLG_MOVES = {
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "The user changes type to make itself resistant to the last attack it took.",
+    "desc": "Altera o próprio tipo para se tornar resistente ao último golpe com que foi atingido.",
     "tm": null,
     "tutor": null
   },
@@ -3860,10 +3860,9 @@ const FRLG_MOVES = {
     "power": 60,
     "accuracy": 100,
     "pp": 25,
-    "desc": "A cutely executed attack that also steals the foe’s hold item.",
+    "desc": "Pede com fofura para se aproximar e roubar o item segurado pelo oponente.",
     "tm": null,
     "tutor": null
   }
 };
-
 if (typeof module !== "undefined") module.exports = { FRLG_MOVES };
