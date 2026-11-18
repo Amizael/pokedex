@@ -469,7 +469,6 @@ function renderModalContent(pokemon, speciesData) {
                         <div class="modal-section-card">
                             <h3 class="section-title">
                                 <span>Fraquezas</span>
-                                <small class="section-subtitle">(Recebe 2× ou 4×)</small>
                             </h3>
                             <div class="relations-grid">
                                 ${weaknessesHtml}
@@ -480,7 +479,6 @@ function renderModalContent(pokemon, speciesData) {
                         <div class="modal-section-card">
                             <h3 class="section-title">
                                 <span>Vantagens</span>
-                                <small class="section-subtitle">(Causa 2×)</small>
                             </h3>
                             <div class="relations-grid">
                                 ${countersHtml}
@@ -491,7 +489,6 @@ function renderModalContent(pokemon, speciesData) {
                         <div class="modal-section-card">
                             <h3 class="section-title">
                                 <span>Resistências</span>
-                                <small class="section-subtitle">(Dano reduzido)</small>
                             </h3>
                             <div class="relations-grid">
                                 ${resistancesHtml}

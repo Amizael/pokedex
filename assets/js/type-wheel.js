@@ -331,7 +331,7 @@ function renderTypeWheelSvg() {
                     ${activeInfo.namePt.toUpperCase()}
                 </text>
                 <text x="300" y="242" text-anchor="middle" class="wheel-active-stat strong" fill="#15803d">
-                    ✦ Vantagem (${strongAgainst.length} tipos)
+                    ✦ Vantagem: ${strongAgainst.length} tipos
                 </text>
 
                 <!-- Botão central iluminado com o ícone e a cor da tipagem ativa -->
@@ -344,23 +344,23 @@ function renderTypeWheelSvg() {
 
                 <!-- Base da Pokébola: Fraquezas, Imunidades e Botão de Limpar -->
                 ${immuneAgainst.length > 0 ? `
-                    <text x="300" y="342" text-anchor="middle" class="wheel-active-stat weak" fill="#b91c1c">
-                        ✦ Fraqueza (${weakAgainst.length} tipos)
+                    <text x="300" y="371" text-anchor="middle" class="wheel-active-stat weak" fill="#b91c1c">
+                        ✦ Fraqueza: ${weakAgainst.length} tipos
                     </text>
-                    <text x="300" y="364" text-anchor="middle" class="wheel-active-stat immune" fill="#7c3aed">
-                        ✦ Imunidade (${immuneAgainst.length} ${immuneAgainst.length === 1 ? 'tipo' : 'tipos'})
+                    <text x="300" y="390" text-anchor="middle" class="wheel-active-stat immune" fill="#7c3aed">
+                        ✦ Imunidade: ${immuneAgainst.length} ${immuneAgainst.length === 1 ? 'tipo' : 'tipos'}
                     </text>
                     <g class="wheel-clear-btn" onclick="resetTypeWheel()">
-                        <rect x="230" y="386" width="140" height="26" rx="13" fill="#181818" stroke="#333333" stroke-width="1.5" />
-                        <text x="300" y="403" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
+                        <rect x="235" y="404" width="130" height="24" rx="12" fill="#181818" stroke="#333333" stroke-width="1.5" />
+                        <text x="300" y="420" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
                     </g>
                 ` : `
-                    <text x="300" y="356" text-anchor="middle" class="wheel-active-stat weak" fill="#b91c1c">
-                        ✦ Fraqueza (${weakAgainst.length} tipos)
+                    <text x="300" y="374" text-anchor="middle" class="wheel-active-stat weak" fill="#b91c1c">
+                        ✦ Fraqueza: ${weakAgainst.length} tipos
                     </text>
                     <g class="wheel-clear-btn" onclick="resetTypeWheel()">
-                        <rect x="230" y="382" width="140" height="28" rx="14" fill="#181818" stroke="#333333" stroke-width="1.5" />
-                        <text x="300" y="401" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
+                        <rect x="235" y="396" width="130" height="26" rx="13" fill="#181818" stroke="#333333" stroke-width="1.5" />
+                        <text x="300" y="413" text-anchor="middle" fill="#ffffff" class="wheel-clear-text">✕ Limpar Tipo</text>
                     </g>
                 `}
             </g>
@@ -428,15 +428,15 @@ function renderTypeWheelSvg() {
             <div class="wheel-legend-bar">
                 <div class="legend-item">
                     <span class="legend-dot green"></span>
-                    <span>Verde: Vantagem (2×)</span>
+                    <span>Verde: Vantagem</span>
                 </div>
                 <div class="legend-item">
                     <span class="legend-dot red"></span>
-                    <span>Vermelho: Fraqueza (2×)</span>
+                    <span>Vermelho: Fraqueza</span>
                 </div>
                 <div class="legend-item">
                     <span class="legend-dot purple"></span>
-                    <span>Roxo: Imunidade (0×)</span>
+                    <span>Roxo: Imunidade</span>
                 </div>
             </div>
         </div>
@@ -447,9 +447,52 @@ function renderTypeWheelSvg() {
 }
 
 /**
+ * Retorna todos os pares de tipagens [def1, def2] contra os quais o atacante atkType causa 4× de dano
+ */
+function get4xAdvantagePairs(atkType) {
+    if (!atkType || typeof TYPE_CHART === 'undefined' || !TYPE_CHART[atkType]) return [];
+    const types = typeof ALL_TYPES !== 'undefined' ? ALL_TYPES : Object.keys(TYPE_INFO);
+    const pairs = [];
+    for (let i = 0; i < types.length; i++) {
+        for (let j = i + 1; j < types.length; j++) {
+            const def1 = types[i];
+            const def2 = types[j];
+            const m1 = TYPE_CHART[atkType][def1] !== undefined ? TYPE_CHART[atkType][def1] : 1;
+            const m2 = TYPE_CHART[atkType][def2] !== undefined ? TYPE_CHART[atkType][def2] : 1;
+            if (m1 * m2 >= 4) {
+                pairs.push([def1, def2]);
+            }
+        }
+    }
+    return pairs;
+}
+
+/**
+ * Retorna os tipos atacantes que causam 4× de dano quando baseType é combinado com outros tipos
+ * Retorna um objeto: { [atacante]: [tipos_parceiros] }
+ */
+function get4xDefensiveWeaknesses(baseType) {
+    if (!baseType || typeof TYPE_CHART === 'undefined') return {};
+    const types = typeof ALL_TYPES !== 'undefined' ? ALL_TYPES : Object.keys(TYPE_INFO);
+    const res = {};
+    types.forEach(partner => {
+        if (partner === baseType) return;
+        types.forEach(atk => {
+            const m1 = (TYPE_CHART[atk] && TYPE_CHART[atk][baseType] !== undefined) ? TYPE_CHART[atk][baseType] : 1;
+            const m2 = (TYPE_CHART[atk] && TYPE_CHART[atk][partner] !== undefined) ? TYPE_CHART[atk][partner] : 1;
+            if (m1 * m2 >= 4) {
+                if (!res[atk]) res[atk] = [];
+                res[atk].push(partner);
+            }
+        });
+    });
+    return res;
+}
+
+/**
  * Renderiza o painel lateral com detalhes completos do tipo selecionado
  */
-function renderTypeDetailsPanel(activeType, strongAgainst = [], weakAgainst = []) {
+function renderTypeDetailsPanel(activeType, strongAgainst = [], weakAgainst = [], immuneAgainst = []) {
     const card = document.getElementById('type-details-card');
     if (!card) return;
 
@@ -469,22 +512,22 @@ function renderTypeDetailsPanel(activeType, strongAgainst = [], weakAgainst = []
                     <div class="guide-item">
                         <span class="guide-dot green"></span>
                         <div>
-                            <strong>Linhas Verdes (Vantagem Ofensiva):</strong>
-                            <p>Indica contra quais tipos os ataques deste elemento causam dano super-efetivo dobrado (2×).</p>
+                            <strong>Linhas Verdes: Vantagens Ofensivas</strong>
+                            <p>Indica contra quais tipos os ataques deste elemento causam dano super-efetivo 2× ou 4×.</p>
                         </div>
                     </div>
                     <div class="guide-item">
                         <span class="guide-dot red"></span>
                         <div>
-                            <strong>Linhas Vermelhas (Fraqueza Defensiva):</strong>
-                            <p>Indica de quais tipos este Pokémon recebe dano aumentado (2×).</p>
+                            <strong>Linhas Vermelhas: Fraquezas Defensivas</strong>
+                            <p>Indica de quais tipos este Pokémon recebe dano aumentado 2× ou 4×.</p>
                         </div>
                     </div>
                     <div class="guide-item">
                         <span class="guide-dot purple"></span>
                         <div>
-                            <strong>Linhas Roxas (Imunidade Defensiva):</strong>
-                            <p>Indica de quais tipos este Pokémon recebe dano nulo (0× - completamente imune sem tomar dano).</p>
+                            <strong>Linhas Roxas: Imunidades Defensivas</strong>
+                            <p>Indica de quais tipos este Pokémon não recebe dano 0×.</p>
                         </div>
                     </div>
                 </div>
@@ -517,7 +560,11 @@ function renderTypeDetailsPanel(activeType, strongAgainst = [], weakAgainst = []
     }
 
     const resistantAgainst = relations.resistances.map(r => r.type);
-    const immuneAgainst = relations.immunities.map(im => im.type);
+    const resolvedImmune = immuneAgainst.length > 0 ? immuneAgainst : relations.immunities.map(im => im.type);
+
+    // Calcula vantagens e fraquezas de dano quádruplo (4×)
+    const quadAdvantages = get4xAdvantagePairs(activeType);
+    const quadWeaknesses = get4xDefensiveWeaknesses(activeType);
 
     // Contagem de Pokémon do catálogo deste tipo
     const pokemonList = window.allPokemons || [];
@@ -543,51 +590,92 @@ function renderTypeDetailsPanel(activeType, strongAgainst = [], weakAgainst = []
 
             <!-- Grid de Relações de Combate -->
             <div class="details-relations-container">
-                <!-- Vantagens Ofensivas (Causa 2x) -->
+                <!-- Vantagens Ofensivas -->
                 <div class="details-relation-block strong">
                     <div class="relation-block-header">
                         <span class="relation-dot green"></span>
-                        <span class="relation-block-title">Vantagens Ofensivas (Causa 2×)</span>
+                        <span class="relation-block-title">Vantagens Ofensivas</span>
                         <span class="relation-badge-count green">${strongAgainst.length}</span>
                     </div>
-                    <p class="relation-block-desc">Golpes de ${info.namePt} causam dano dobrado (super-efetivo) contra:</p>
+                    <p class="relation-block-desc">Golpes de ${info.namePt} causam dano super-efetivo contra:</p>
                     <div class="relation-chips-list">
                         ${strongAgainst.length > 0 ? strongAgainst.map(t => {
                             const tInfo = TYPE_INFO[t] || { namePt: t, color: '#777', textColor: '#fff' };
                             return `
                                 <div class="relation-chip" onclick="onTypeWheelClick('${t}')" style="background-color: ${tInfo.color}; color: ${tInfo.textColor}" title="Alternar para tipo ${tInfo.namePt}">
-                                    ${tInfo.namePt}
+                                    <span class="chip-name">${tInfo.namePt}</span>
+                                    <span class="chip-mult">2×</span>
                                 </div>
                             `;
-                        }).join('') : '<span class="empty-relation-text">Nenhuma vantagem super-efetiva (dano normal).</span>'}
+                        }).join('') : '<span class="empty-relation-text">Nenhuma vantagem super-efetiva direta.</span>'}
                     </div>
+
+                    ${quadAdvantages.length > 0 ? `
+                        <div class="relation-subgroup">
+                            <div class="relation-subgroup-title">Dano Quádruplo 4× contra Duplas Tipagens:</div>
+                            <div class="relation-chips-list">
+                                ${quadAdvantages.map(([t1, t2]) => {
+                                    const i1 = TYPE_INFO[t1] || { namePt: t1, color: '#777', textColor: '#fff' };
+                                    const i2 = TYPE_INFO[t2] || { namePt: t2, color: '#777', textColor: '#fff' };
+                                    return `
+                                        <div class="relation-dual-chip" title="Causa dano quádruplo 4× contra Pokémon ${i1.namePt} e ${i2.namePt}">
+                                            <span class="dual-type-tag" style="background-color: ${i1.color}; color: ${i1.textColor}">${i1.namePt}</span>
+                                            <span class="dual-slash">/</span>
+                                            <span class="dual-type-tag" style="background-color: ${i2.color}; color: ${i2.textColor}">${i2.namePt}</span>
+                                            <span class="chip-mult quad">4×</span>
+                                        </div>
+                                    `;
+                                }).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
                 </div>
 
-                <!-- Fraquezas Defensivas (Recebe 2x) -->
+                <!-- Fraquezas Defensivas -->
                 <div class="details-relation-block weak">
                     <div class="relation-block-header">
                         <span class="relation-dot red"></span>
-                        <span class="relation-block-title">Fraquezas Defensivas (Recebe 2×)</span>
+                        <span class="relation-block-title">Fraquezas Defensivas</span>
                         <span class="relation-badge-count red">${weakAgainst.length}</span>
                     </div>
-                    <p class="relation-block-desc">Pokémon de ${info.namePt} recebem o dobro de dano de ataques do tipo:</p>
+                    <p class="relation-block-desc">Pokémon de ${info.namePt} recebem dano super-efetivo de ataques do tipo:</p>
                     <div class="relation-chips-list">
                         ${weakAgainst.length > 0 ? weakAgainst.map(t => {
                             const tInfo = TYPE_INFO[t] || { namePt: t, color: '#777', textColor: '#fff' };
                             return `
                                 <div class="relation-chip" onclick="onTypeWheelClick('${t}')" style="background-color: ${tInfo.color}; color: ${tInfo.textColor}" title="Alternar para tipo ${tInfo.namePt}">
-                                    ${tInfo.namePt}
+                                    <span class="chip-name">${tInfo.namePt}</span>
+                                    <span class="chip-mult">2×</span>
                                 </div>
                             `;
                         }).join('') : '<span class="empty-relation-text">Nenhuma fraqueza direta.</span>'}
                     </div>
+
+                    ${Object.keys(quadWeaknesses).length > 0 ? `
+                        <div class="relation-subgroup">
+                            <div class="relation-subgroup-title">Dano Quádruplo 4× em Duplas Tipagens:</div>
+                            <div class="relation-chips-list">
+                                ${Object.entries(quadWeaknesses).map(([atkType, partners]) => {
+                                    const atkInfo = TYPE_INFO[atkType] || { namePt: atkType, color: '#777', textColor: '#fff' };
+                                    const partnerNames = partners.map(p => TYPE_INFO[p]?.namePt || p).join(', ');
+                                    return `
+                                        <div class="relation-chip with-note" onclick="onTypeWheelClick('${atkType}')" style="background-color: ${atkInfo.color}; color: ${atkInfo.textColor}" title="Causa 4× de dano quando combinado com ${partnerNames}">
+                                            <span class="chip-name">${atkInfo.namePt}</span>
+                                            <span class="chip-mult quad">4×</span>
+                                            <span class="chip-note">se combinado com ${partnerNames}</span>
+                                        </div>
+                                    `;
+                                }).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
                 </div>
 
-                <!-- Resistências Defensivas (Recebe 0.5x) -->
+                <!-- Resistências Defensivas -->
                 <div class="details-relation-block resist">
                     <div class="relation-block-header">
                         <span class="relation-dot blue"></span>
-                        <span class="relation-block-title">Resistências (Recebe 0.5×)</span>
+                        <span class="relation-block-title">Resistências</span>
                         <span class="relation-badge-count blue">${resistantAgainst.length}</span>
                     </div>
                     <div class="relation-chips-list">
@@ -595,27 +683,29 @@ function renderTypeDetailsPanel(activeType, strongAgainst = [], weakAgainst = []
                             const tInfo = TYPE_INFO[t] || { namePt: t, color: '#777', textColor: '#fff' };
                             return `
                                 <div class="relation-chip mini" onclick="onTypeWheelClick('${t}')" style="background-color: ${tInfo.color}; color: ${tInfo.textColor}">
-                                    ${tInfo.namePt}
+                                    <span class="chip-name">${tInfo.namePt}</span>
+                                    <span class="chip-mult">½×</span>
                                 </div>
                             `;
                         }).join('') : '<span class="empty-relation-text">Nenhuma resistência elementar.</span>'}
                     </div>
                 </div>
 
-                <!-- Imunidades (Recebe 0x - Dano Nulo) -->
-                ${immuneAgainst.length > 0 ? `
+                <!-- Imunidades Defensivas -->
+                ${resolvedImmune.length > 0 ? `
                     <div class="details-relation-block immune">
                         <div class="relation-block-header">
                             <span class="relation-dot purple"></span>
-                            <span class="relation-block-title">Imunidades (Recebe 0× - Sem Dano)</span>
-                            <span class="relation-badge-count purple">${immuneAgainst.length}</span>
+                            <span class="relation-block-title">Imunidades</span>
+                            <span class="relation-badge-count purple">${resolvedImmune.length}</span>
                         </div>
                         <div class="relation-chips-list">
-                            ${immuneAgainst.map(t => {
+                            ${resolvedImmune.map(t => {
                                 const tInfo = TYPE_INFO[t] || { namePt: t, color: '#777', textColor: '#fff' };
                                 return `
                                     <div class="relation-chip mini" onclick="onTypeWheelClick('${t}')" style="background-color: ${tInfo.color}; color: ${tInfo.textColor}">
-                                        ${tInfo.namePt}
+                                        <span class="chip-name">${tInfo.namePt}</span>
+                                        <span class="chip-mult">0×</span>
                                     </div>
                                 `;
                             }).join('')}
@@ -664,5 +754,5 @@ function resetTypeWheel() {
 }
 
 if (typeof module !== 'undefined') {
-    module.exports = { renderTypeWheelSvg, renderTypeDetailsPanel, onTypeWheelClick, resetTypeWheel };
+    module.exports = { renderTypeWheelSvg, renderTypeDetailsPanel, onTypeWheelClick, resetTypeWheel, get4xAdvantagePairs, get4xDefensiveWeaknesses };
 }

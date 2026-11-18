@@ -2656,14 +2656,17 @@ body {
 }
 
 .relation-chip {
-    padding: 0.25rem 0.6rem;
+    padding: 0.28rem 0.65rem;
     border-radius: 14px;
-    font-size: 0.74rem;
+    font-size: 0.75rem;
     font-weight: 700;
     cursor: pointer;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease, filter 0.2s ease;
     user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
 }
 
 .relation-chip:hover {
@@ -2672,9 +2675,96 @@ body {
 }
 
 .relation-chip.mini {
-    padding: 0.18rem 0.5rem;
-    font-size: 0.7rem;
+    padding: 0.2rem 0.55rem;
+    font-size: 0.72rem;
     opacity: 0.95;
+}
+
+.relation-chip .chip-name {
+    letter-spacing: 0.2px;
+}
+
+.relation-chip .chip-mult {
+    background-color: rgba(0, 0, 0, 0.32);
+    color: #ffffff;
+    font-size: 0.68rem;
+    font-weight: 800;
+    padding: 0.08rem 0.38rem;
+    border-radius: 8px;
+    line-height: 1.1;
+    letter-spacing: 0.2px;
+}
+
+.relation-chip .chip-mult.quad {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #facc15;
+    box-shadow: 0 0 6px rgba(250, 204, 21, 0.4);
+    font-weight: 900;
+}
+
+.relation-chip.with-note {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.3rem 0.7rem;
+}
+
+.relation-chip .chip-note {
+    font-size: 0.66rem;
+    font-weight: 500;
+    opacity: 0.92;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0.08rem 0.4rem;
+    border-radius: 6px;
+}
+
+/* Sub-grupo para relações de 4x */
+.relation-subgroup {
+    margin-top: 0.6rem;
+    padding-top: 0.5rem;
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.relation-subgroup-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #a3a3a3;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.35rem;
+}
+
+/* Chip de Dupla Tipagem (Vantagem 4x) */
+.relation-dual-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background: #171717;
+    border: 1px solid #333333;
+    border-radius: 14px;
+    padding: 0.2rem 0.45rem 0.2rem 0.25rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    user-select: none;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.relation-dual-chip:hover {
+    transform: translateY(-2px);
+    border-color: #555555;
+}
+
+.relation-dual-chip .dual-type-tag {
+    padding: 0.15rem 0.45rem;
+    border-radius: 10px;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+.relation-dual-chip .dual-slash {
+    font-size: 0.72rem;
+    color: #666;
+    font-weight: bold;
 }
 
 .empty-relation-text {
