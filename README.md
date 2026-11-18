@@ -1,75 +1,91 @@
-# 🔴 Pokédex Oficial - 1ª Geração (Kanto)
+# 🔴 Pokédex Oficial Completa - Gerações I a IX (1025 Pokémon)
 
-Uma Pokédex moderna, completa e interativa inspirada na interface e experiência oficial da [Pokémon Company](https://www.pokemon.com/br/pokedex), desenvolvida em HTML5, CSS3 e JavaScript puro utilizando a [PokéAPI](https://pokeapi.co/).
+Uma Pokédex moderna, completa e interativa inspirada na interface e experiência oficial da [Pokémon Company](https://www.pokemon.com/br/pokedex), abrangendo todos os **1.025 Pokémon** das **9 Gerações canônicas** (#0001 Bulbasaur a #1025 Pecharunt), desenvolvida em HTML5, CSS3 e JavaScript puro utilizando dados oficiais da [PokéAPI](https://pokeapi.co/), **Veekun**, **Bulbapedia**, **Serebii** e **Project Pokémon**.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![PokéAPI](https://img.shields.io/badge/PokéAPI-EF5350?style=for-the-badge&logo=pokemon&logoColor=white)
+![Pokémon](https://img.shields.io/badge/1025%20Pok%C3%A9mon-Gen%20I--IX-green?style=for-the-badge)
+
+---
+
+## 🎮 Cobertura Completa de Gerações e Jogos
+
+A Pokédex organiza os 1.025 Pokémon rigorosamente de acordo com os agrupamentos oficiais de jogos:
+
+| Geração | Região | Dex Nacional | Total | Jogos Canônicos de Referência |
+| :---: | :---: | :---: | :---: | :--- |
+| **I** | Kanto | Nº 0001 a Nº 0151 | 151 | *Red, Blue, Yellow* |
+| **II** | Johto | Nº 0152 a Nº 0251 | 100 | *Gold, Silver, Crystal* |
+| **III** | Hoenn | Nº 0252 a Nº 0386 | 135 | *Ruby, Sapphire, Emerald, FireRed, LeafGreen* |
+| **IV** | Sinnoh | Nº 0387 a Nº 0493 | 107 | *Diamond, Pearl, Platinum, HeartGold, SoulSilver* |
+| **V** | Unova | Nº 0494 a Nº 0649 | 156 | *Black, White, Black 2, White 2* |
+| **VI** | Kalos | Nº 0650 a Nº 0721 | 72 | *X, Y, Omega Ruby, Alpha Sapphire* |
+| **VII** | Alola | Nº 0722 a Nº 0809 | 88 | *Sun, Moon, Ultra Sun, Ultra Moon, Let's Go Pikachu & Eevee* |
+| **VIII** | Galar / Hisui | Nº 0810 a Nº 0905 | 96 | *Sword, Shield, Brilliant Diamond, Shining Pearl, Legends: Arceus* |
+| **IX** | Paldea | Nº 0906 a Nº 1025 | 120 | *Scarlet, Violet, Legends: Z-A* |
 
 ---
 
 ## ✨ Funcionalidades Principais
 
-### 🔍 Busca e Filtros
-- **151 Pokémon da 1ª Geração**: Carregamento rápido em lotes com cache no `localStorage` para resposta imediata.
-- **Busca em tempo real**: Pesquise instantaneamente por **nome** (ex: *Charizard*) ou pelo **número** (ex: *006* ou *6*).
-- **Filtro por Tipos**: Botões com as cores e nomes oficiais de todos os tipos Pokémon.
-- **Ordenação Flexível**:
-  - Menor número primeiro (Padrão)
-  - Maior número primeiro
-  - Nome de A a Z
-  - Nome de Z a A
-- **Surpreenda-me!**: Sorteia um Pokémon aleatório e abre sua ficha imediatamente.
-- **Limpar Filtros**: Restaura a exibição completa com um clique.
+### 🔍 Busca e Filtros Inteligentes
+- **Seletor de Gerações no Catálogo**: Filtre com um clique entre **Todas as Gerações** (1 a 1025) ou qualquer uma das 9 gerações individualmente.
+- **Busca em tempo real**: Pesquise instantaneamente por **nome** (ex: *Lucario*, *Charizard*, *Miraidon*) ou pelo **número** (ex: *448*, *006*, *1008*).
+- **Filtro por Tipos**: Os 18 tipos elementais com nomes e cores oficiais.
+- **Ordenação Dinâmica**: Menor número primeiro, Maior número primeiro, Nome A-Z e Nome Z-A.
+- **Surpreenda-me!**: Sorteia um Pokémon aleatório entre os 1025 e abre sua ficha imediatamente.
+- **Carregamento Otimizado (Infinite Scroll / Load More)**: Navegação suave e fluida sem sobrecarregar a memória do navegador.
 
 ---
 
-### Detalhes do Pokémon (Modal com 3 Abas)
-Ao clicar em qualquer Pokémon, uma ficha detalhada é aberta organizada em 3 abas temáticas:
+### 📋 Detalhes do Pokémon (Modal com 3 Abas)
 
-#### Aba 1: Visão Geral
-- **Arte Oficial**: Imagem de alta resolução (*Official Artwork*).
-- **Tipagem Oficial**: Badges estilizados com as cores oficiais.
-- **Resumo de Combate**: Fraquezas, Vantagens e Resistências simplificadas por tipo.
-- **Descrição da Pokédex**: Textos oficiais das entradas da Pokédex.
-- **Características / Perfil**: Altura, peso, categoria/espécie, habilidades traduzidas e proporção de gênero (♂ / ♀).
-- **Status Base Animados**: Barras de status proporcionais (PS, Ataque, Defesa, Atq. Especial, Def. Especial, Velocidade) e pontuação total (BST).
-- **Linha Evolutiva Interativa**: Cadeia evolutiva completa com requisitos (Nível, Pedras, Troca) e navegação direta por clique.
+Ao clicar em qualquer card, uma central de informações é aberta com navegação completa:
 
-#### Aba 2: Vantagens & Fraquezas
-- **Vantagens**: Fita horizontal deslizante com cards contendo imagem, nome, número, tipos e badge de dano (`CAUSA 2×` ou `CAUSA 4×`) de todos os Pokémon da 1ª Geração que ele vence com facilidade.
-- **Fraquezas**: Fita horizontal deslizante com cards contendo imagem, nome, número, tipos e badge de dano (`RECEBE 2×` ou `RECEBE 4×`) dos Pokémon da 1ª Geração que representam perigo.
-- **Navegação direta**: Clique em qualquer card de confronto para abrir imediatamente a ficha do Pokémon correspondente!
+#### 1. Aba: Visão Geral
+- **Arte Oficial em Alta Resolução**: Imagens oficiais (*Official Artwork*).
+- **Tipagem Primária e Secundária**: Badges estilizados com as cores oficiais.
+- **Relações Elementais**: Fraquezas (2× ou 4×), Vantagens e Resistências baseadas na tabela oficial de tipos.
+- **Descrição da Pokédex**: Textos oficiais das entradas das ROMs em Português.
+- **Características / Perfil**: Altura em metros, peso em kg, categoria/espécie traduzida, gênero (♂ / ♀) e habilidades (com identificação de habilidade oculta).
+- **Status Base Animados**: Barras de status (PS, Ataque, Defesa, Atq. Especial, Def. Especial, Velocidade) e BST total.
+- **Linha Evolutiva Completa e 100% Interativa**: Todos os estágios evolutivos são clicáveis e abrem a ficha do respectivo Pokémon.
 
-#### Aba 3: Ataques
-- **Moveset Fiel à Geração (FireRed & LeafGreen)** para todos os 151 Pokémon.
-- **Descrições em Português**: Todos os 322 golpes com descrições traduzidas em português.
-- **Seletor de Geração**: Interface preparada para expansão de gerações.
-- **Filtros por Método de Aprendizado**:
-  - **Por Nível**: Nível exato em que o golpe é desbloqueado (ex: *Nv. 10*, *Nv. 20*).
-  - **Por MT / MO**: Códigos oficiais das Máquinas Técnicas e Ocultas (ex: *MT26 Terremoto*, *MO03 Surf*, *MT35 Lança-chamas*, *MT13 Raio de Gelo*).
-  - **Por Tutor**: Localização do Tutor em Kanto (ex: *Pewter City*, *Celadon*, *Silph Co.*, *Ilha 7*).
-  - **Por Cruzamento**: Golpes herdados através de cruzamento na Ilha 4 (*Four Island*).
-- **Ficha do Golpe**:
-  - Nome em Português e em Inglês.
-  - Tipo Elemental com badge oficial.
-  - Categoria (**Físico**, **Especial** ou **Status**) de acordo com a mecânica oficial da 3ª Geração.
-  - Poder (Power), Precisão (Accuracy) e PP (Pontos de Poder).
-  - Descrição em português do efeito do golpe.
+#### 2. Aba: Vantagens & Fraquezas
+- **Vantagens**: Fita horizontal deslizante com cards reais de Pokémon contra os quais seus ataques causam dano multiplicado (`CAUSA 2×` ou `CAUSA 4×`).
+- **Fraquezas**: Fita horizontal com cards reais dos Pokémon que causam dano super-efetivo contra ele (`RECEBE 2×` ou `RECEBE 4×`).
+- **Seletor de Escopo de Confronto**: Alterne instantaneamente entre confrontos da **Mesma Geração** ou de **Todas as 9 Gerações**.
+- Clique em qualquer card da fita para abrir a ficha daquele Pokémon.
+
+#### 3. Aba: Ataques (Multi-Geração)
+- **Seletor de Geração do Ataque**: Escolha qual era dos jogos deseja inspecionar:
+  - *Geração I: Red, Blue, Yellow*
+  - *Geração II: Gold, Silver, Crystal*
+  - *Geração III: Ruby, Sapphire, Emerald, FireRed, LeafGreen*
+  - *Geração IV: Diamond, Pearl, Platinum, HeartGold, SoulSilver*
+  - *Geração V: Black, White, Black 2, White 2*
+  - *Geração VI: X, Y, Omega Ruby, Alpha Sapphire*
+  - *Geração VII: Sun, Moon, Ultra Sun, Ultra Moon, Let's Go Pikachu & Eevee*
+  - *Geração VIII: Sword, Shield, Brilliant Diamond, Shining Pearl, Legends: Arceus*
+  - *Geração IX: Scarlet, Violet, Legends: Z-A*
+- **Tratamento Inteligente de Disponibilidade**: Caso o Pokémon tenha surgido em geração posterior à selecionada, o sistema informa exatamente sua geração de origem e convida o treinador a avançar para a geração correta.
+- **Filtros por Método de Aprendizado**: Por Nível, Por MT / MO / TM, Tutor de Golpes e Ovo / Cruzamento.
+- **Ficha Completa do Golpe**: Nome em Português e Inglês, Tipo, Categoria (**Físico**, **Especial** ou **Status**), Poder, Precisão, PP e descrição completa do efeito em português.
 
 ---
 
 ## 🚀 Como Executar Localmente
 
-Como o projeto é estático (Vanilla JS), você não precisa de npm install nem compilação.
+Como o projeto é estático (Vanilla JS), não é necessária nenhuma etapa de build ou dependência pesada.
 
 ### Opção 1: Servidor Local com Python (Recomendado)
 No terminal, dentro da pasta do projeto:
 ```bash
 python3 -m http.server 8000
 ```
-Depois abra no seu navegador: **`http://localhost:8000`**
+Depois acesse: **`http://localhost:8000`**
 
 ### Opção 2: Servidor com Node.js
 ```bash
@@ -78,47 +94,19 @@ npx serve
 npx http-server
 ```
 
-### Opção 3: Abrir direto no navegador
-Você pode abrir o arquivo `index.html` com seu navegador preferido ou pelo terminal Linux:
-```bash
-xdg-open index.html
-```
+---
+
+## 🌐 Publicação no GitHub Pages
+
+O projeto já está configurado com caminhos relativos e pronto para publicação no GitHub Pages:
+1. Acesse o repositório no GitHub: `https://github.com/Amizael/js-developer-pokedex`
+2. Vá em **Settings** > **Pages**
+3. Em **Source**, selecione a branch `main` e a pasta `/ (root)`
+4. Salve para gerar a URL pública online!
 
 ---
 
-## 🌐 Como Publicar no GitHub Pages (Visualização Online Gratuita)
-
-Para que qualquer pessoa possa acessar sua Pokédex online diretamente pelo GitHub, siga estes passos:
-
-### 1. Salvar e enviar as alterações para o GitHub
-No seu terminal:
-```bash
-git add .
-git commit -m "feat: interface oficial da pokedex com filtros, fraquezas, status e evoluções"
-git push origin main
-```
-
-### 2. Ativar o GitHub Pages no repositório
-1. Acesse o seu repositório no GitHub: `https://github.com/<seu-usuario>/js-developer-pokedex`
-2. Clique na aba **Settings** (Configurações) no topo do repositório.
-3. No menu lateral esquerdo, clique em **Pages** (na seção *Code and automation*).
-4. Em **Build and deployment**:
-   - **Source**: Escolha `Deploy from a branch`.
-   - **Branch**: Selecione a branch `main` e a pasta `/(root)`.
-   - Clique em **Save** (Salvar).
-
-### 3. Acessar seu link publicado
-Em cerca de 1 a 2 minutos, o GitHub irá gerar sua URL pública, que terá o formato:
-👉 **`https://<seu-usuario>.github.io/js-developer-pokedex/`**
-
----
-
-## 🛠️ Tecnologias Utilizadas
-- **HTML5 Semântico**
-- **CSS3 Moderno** (Grid, Flexbox, Gradientes, Animações e Variáveis CSS)
-- **JavaScript ES6+** (Async/Await, Fetch API, LocalStorage Cache)
-- **PokéAPI RESTful**
-
----
-
-Desenvolvido para fins de estudo e aprimoramento no ecossistema JavaScript!
+## 📚 Fontes e Créditos
+- Dados de espécies, imagens e movimentos fornecidos pela [PokéAPI](https://pokeapi.co/) e [Veekun](https://github.com/veekun).
+- Documentação, nomes oficiais em PT-BR e mecânicas validadas em [Bulbapedia](https://bulbapedia.bulbagarden.net/), [Serebii.net](https://www.serebii.net/) e [Project Pokémon](https://projectpokemon.org/).
+- Projeto desenvolvido para fins educacionais e portfólio na trilha JS Developer.

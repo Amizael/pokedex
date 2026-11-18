@@ -1,16 +1,20 @@
-// Controle e Renderização do Modal de Detalhes da Pokédex (Estilo Oficial com 3 Abas)
+// Controle e Renderização do Modal de Detalhes da Pokédex (Estilo Oficial com 3 Abas • Gerações I a IX)
 
 let currentModalPokemonId = null;
 let currentActiveTab = 'tab-overview'; // 'tab-overview' | 'tab-matchups' | 'tab-moves'
 let currentMoveFilter = 'all';
+let currentModalMovesGen = 1;
+let currentModalMovesData = null;
+let currentMatchupScope = 'gen'; // 'gen' (geração atual) | 'all' (todas as 9 gerações)
 
 /**
  * Abre o modal de detalhes do Pokémon
  */
 async function openPokemonModal(pokemonId) {
-    if (!pokemonId || pokemonId < 1 || pokemonId > 151) return;
+    const numId = parseInt(pokemonId, 10);
+    if (!numId || numId < 1 || numId > 1025) return;
 
-    currentModalPokemonId = pokemonId;
+    currentModalPokemonId = numId;
     const modalElement = document.getElementById('pokemon-modal');
     const modalBody = document.getElementById('modal-body-content');
 
@@ -18,10 +22,12 @@ async function openPokemonModal(pokemonId) {
 
     // Exibe o modal com indicador de carregamento
     modalElement.classList.add('open');
-    document.body.style.overflow = 'hidden'; // Evita rolagem da página ao fundo
+    document.body.style.overflow = 'hidden';
 
     // Busca o Pokémon do catálogo geral
-    const pokemon = window.allPokemons?.find(p => p.id === pokemonId);
+    const pokemon = (window.allPokemons || []).find(p => p.id === numId) ||
+                    (typeof ALL_POKEMONS !== 'undefined' ? ALL_POKEMONS.find(p => p.id === numId) : null);
+
     if (!pokemon) {
         modalBody.innerHTML = `
             <div class="modal-loading">
@@ -32,15 +38,23 @@ async function openPokemonModal(pokemonId) {
         return;
     }
 
+    // Define a geração padrão dos ataques: geração do próprio Pokémon ou a geração ativa nos filtros
+    currentModalMovesGen = pokemon.generation || 1;
+    currentMoveFilter = 'all';
+
     // Renderiza a estrutura básica imediatamente
     renderModalContent(pokemon, null);
 
-    // Carrega dados adicionais de espécie e evolução
+    // Carrega ataques da geração inicial
+    loadModalMoves(numId, currentModalMovesGen);
+
+    // Carrega dados adicionais de espécie e evolução assincronamente
     try {
-        const speciesData = await POKE_API.getSpeciesAndEvolution(pokemonId);
-        // Atualiza apenas se o usuário ainda estiver visualizando este mesmo Pokémon
-        if (currentModalPokemonId === pokemonId) {
+        const speciesData = await POKE_API.getSpeciesAndEvolution(numId);
+        if (currentModalPokemonId === numId) {
             renderModalContent(pokemon, speciesData);
+            // Re-renderiza o painel de ataques com os dados já carregados
+            renderMovesPanelContent();
         }
     } catch (err) {
         console.error('Erro ao buscar dados complementares do modal:', err);
@@ -57,15 +71,16 @@ function closePokemonModal() {
     }
     document.body.style.overflow = '';
     currentModalPokemonId = null;
+    currentModalMovesData = null;
 }
 
 /**
- * Navega para o Pokémon anterior ou próximo preservando a aba ativa
+ * Navega para o Pokémon anterior ou próximo
  */
 function navigateModalPokemon(direction) {
     if (!currentModalPokemonId) return;
     const nextId = currentModalPokemonId + direction;
-    if (nextId >= 1 && nextId <= 151) {
+    if (nextId >= 1 && nextId <= 1025) {
         openPokemonModal(nextId);
     }
 }
@@ -88,6 +103,72 @@ function switchModalTab(tabId) {
 }
 
 /**
+ * Alterna o escopo de confrontos na Aba 2 (Geração Atual vs Todas as Gerações)
+ */
+function setMatchupScope(scope) {
+    currentMatchupScope = scope;
+    const pokemon = (window.allPokemons || []).find(p => p.id === currentModalPokemonId);
+    if (!pokemon) return;
+
+    const list = scope === 'gen'
+        ? (window.allPokemons || []).filter(p => p.generation === pokemon.generation)
+        : (window.allPokemons || []);
+
+    const matchups = calculatePokemonMatchups(pokemon, list);
+
+    // Atualiza fitas
+    const strongContainer = document.getElementById('matchup-strong-container');
+    const weakContainer = document.getElementById('matchup-weak-container');
+    const strongCounter = document.getElementById('matchup-strong-count');
+    const weakCounter = document.getElementById('matchup-weak-count');
+
+    if (strongContainer) {
+        strongContainer.innerHTML = renderMatchupRibbon(matchups.strongAgainst, 'strong', 'ribbon-strong');
+    }
+    if (weakContainer) {
+        weakContainer.innerHTML = renderMatchupRibbon(matchups.weakAgainst, 'weak', 'ribbon-weak');
+    }
+    if (strongCounter) strongCounter.textContent = `${matchups.strongAgainst.length} Pokémon`;
+    if (weakCounter) weakCounter.textContent = `${matchups.weakAgainst.length} Pokémon`;
+
+    // Atualiza botões de escopo
+    document.querySelectorAll('.matchup-scope-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.scope === scope);
+    });
+}
+
+/**
+ * Carrega e atualiza a lista de movimentos para a geração selecionada no modal
+ */
+async function loadModalMoves(pokemonId, generationId) {
+    currentModalMovesData = { loading: true, moves: [] };
+    renderMovesPanelContent();
+
+    try {
+        const result = await POKE_API.getPokemonMoves(pokemonId, generationId);
+        if (currentModalPokemonId === pokemonId) {
+            currentModalMovesData = result;
+            renderMovesPanelContent();
+        }
+    } catch (err) {
+        console.error('Erro ao buscar movimentos da geração:', err);
+        currentModalMovesData = { notAvailable: false, moves: [] };
+        renderMovesPanelContent();
+    }
+}
+
+/**
+ * Manipulador da troca de geração no seletor de ataques
+ */
+function onModalMovesGenChange(genId) {
+    currentModalMovesGen = parseInt(genId, 10);
+    currentMoveFilter = 'all';
+    if (currentModalPokemonId) {
+        loadModalMoves(currentModalPokemonId, currentModalMovesGen);
+    }
+}
+
+/**
  * Filtra a lista de golpes por método de aprendizado (Nível, MT/MO, Tutor, Ovo)
  */
 function filterMovesList(method) {
@@ -98,23 +179,99 @@ function filterMovesList(method) {
         pill.classList.toggle('active', pill.dataset.method === method);
     });
 
-    // Filtra linhas da tabela de golpes
-    document.querySelectorAll('.move-item-row').forEach(row => {
-        if (method === 'all' || row.dataset.method === method) {
-            row.style.display = '';
-        } else {
-            row.style.display = 'none';
-        }
+    // Atualiza visibilidade dos golpes
+    const rows = document.querySelectorAll('.move-item-row');
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+        const rowMethod = row.dataset.method;
+        const matches = (method === 'all' || rowMethod === method);
+        row.style.display = matches ? 'flex' : 'none';
+        if (matches) visibleCount++;
     });
+
+    const emptyBox = document.getElementById('empty-moves-filtered');
+    if (emptyBox) {
+        emptyBox.style.display = (visibleCount === 0 && rows.length > 0) ? 'block' : 'none';
+    }
 }
 
 /**
- * Rola a fita horizontal de Pokémon
+ * Renderiza o conteúdo dinâmico da Aba 3 (Ataques)
  */
-function scrollMatchupRibbon(containerId, direction) {
-    const el = document.getElementById(containerId);
-    if (el) {
-        el.scrollBy({ left: direction * 320, behavior: 'smooth' });
+function renderMovesPanelContent() {
+    const movesContainer = document.getElementById('moves-panel-dynamic-content');
+    if (!movesContainer) return;
+
+    if (!currentModalMovesData || currentModalMovesData.loading) {
+        movesContainer.innerHTML = `
+            <div class="modal-loading-moves">
+                <div class="pokeball-spinner small"></div>
+                <p>Consultando dados oficiais da Pokédex para esta geração...</p>
+            </div>
+        `;
+        return;
+    }
+
+    const pokemon = (window.allPokemons || []).find(p => p.id === currentModalPokemonId);
+    const genConfig = GENERATIONS_CONFIG[currentModalMovesGen] || GENERATIONS_CONFIG[1];
+
+    // Se o Pokémon não existia nesta geração
+    if (currentModalMovesData.notAvailable) {
+        const introducedInfo = GENERATIONS_CONFIG[currentModalMovesData.introducedGen] || { name: `Geração ${currentModalMovesData.introducedGen}`, roman: String(currentModalMovesData.introducedGen) };
+        movesContainer.innerHTML = `
+            <div class="empty-moves-unavailable">
+                <div class="unavailable-icon">i</div>
+                <h4>Não disponível nesta geração</h4>
+                <p><strong>${pokemon?.name || 'Este Pokémon'}</strong> foi introduzido oficialmente na <strong>${introducedInfo.roman}ª Geração (${introducedInfo.name})</strong> e não existia nos jogos da <strong>${genConfig.roman}ª Geração (${genConfig.mainGames})</strong>.</p>
+                <button type="button" class="btn-jump-gen" onclick="document.getElementById('moves-gen-select').value = '${pokemon?.generation || 1}'; onModalMovesGenChange(${pokemon?.generation || 1})">
+                    Ver ataques na ${introducedInfo.roman}ª Geração (${introducedInfo.name})
+                </button>
+            </div>
+        `;
+        return;
+    }
+
+    const allMoves = currentModalMovesData.moves || [];
+    const levelMovesCount = allMoves.filter(m => m.method === 'level-up').length;
+    const machineMovesCount = allMoves.filter(m => m.method === 'machine').length;
+    const tutorMovesCount = allMoves.filter(m => m.method === 'tutor').length;
+    const eggMovesCount = allMoves.filter(m => m.method === 'egg').length;
+
+    const movesListHtml = renderMovesList(allMoves);
+
+    movesContainer.innerHTML = `
+        <!-- Filtros de Método de Aprendizado -->
+        <div class="moves-filter-bar">
+            <button type="button" class="move-filter-pill ${currentMoveFilter === 'all' ? 'active' : ''}" data-method="all" onclick="filterMovesList('all')">
+                Todos (${allMoves.length})
+            </button>
+            <button type="button" class="move-filter-pill ${currentMoveFilter === 'level-up' ? 'active' : ''}" data-method="level-up" onclick="filterMovesList('level-up')">
+                Por Nível (${levelMovesCount})
+            </button>
+            <button type="button" class="move-filter-pill ${currentMoveFilter === 'machine' ? 'active' : ''}" data-method="machine" onclick="filterMovesList('machine')">
+                Por MT / MO (${machineMovesCount})
+            </button>
+            <button type="button" class="move-filter-pill ${currentMoveFilter === 'tutor' ? 'active' : ''}" data-method="tutor" onclick="filterMovesList('tutor')">
+                Tutor (${tutorMovesCount})
+            </button>
+            <button type="button" class="move-filter-pill ${currentMoveFilter === 'egg' ? 'active' : ''}" data-method="egg" onclick="filterMovesList('egg')">
+                Ovo (${eggMovesCount})
+            </button>
+        </div>
+
+        <!-- Lista Detalhada de Ataques -->
+        <div class="moves-list-container" id="moves-list-container">
+            ${movesListHtml}
+            <div id="empty-moves-filtered" class="empty-moves-state" style="display: none;">
+                <p>Nenhum golpe encontrado para o filtro selecionado.</p>
+            </div>
+        </div>
+    `;
+
+    // Aplica o filtro ativo
+    if (currentMoveFilter !== 'all') {
+        filterMovesList(currentMoveFilter);
     }
 }
 
@@ -125,35 +282,41 @@ function renderModalContent(pokemon, speciesData) {
     const modalBody = document.getElementById('modal-body-content');
     if (!modalBody) return;
 
-    // Cálculo das relações elementais (Fraquezas, Vantagens/Countera, Resistências)
+    // Relações elementais
     const relations = calculateTypeRelations(pokemon.types);
-
-    // Cálculo dos confrontos com outros Pokémon reais da 1ª Geração (Aba 2)
-    const matchups = calculatePokemonMatchups(pokemon, window.allPokemons || []);
 
     // Tipagens do Pokémon
     const primaryType = pokemon.types[0];
     const primaryColor = TYPE_INFO[primaryType]?.color || '#30a7d7';
 
-    // Navegação anterior / próximo
-    const prevId = pokemon.id > 1 ? pokemon.id - 1 : null;
-    const nextId = pokemon.id < 151 ? pokemon.id + 1 : null;
+    // Confrontos com base no escopo ativo (mesma geração ou todas)
+    const matchupList = currentMatchupScope === 'gen'
+        ? (window.allPokemons || []).filter(p => p.generation === pokemon.generation)
+        : (window.allPokemons || []);
+    const matchups = calculatePokemonMatchups(pokemon, matchupList);
 
-    const prevPokemon = prevId ? window.allPokemons?.find(p => p.id === prevId) : null;
-    const nextPokemon = nextId ? window.allPokemons?.find(p => p.id === nextId) : null;
+    // Navegação anterior / próximo (1 a 1025)
+    const prevId = pokemon.id > 1 ? pokemon.id - 1 : null;
+    const nextId = pokemon.id < 1025 ? pokemon.id + 1 : null;
+
+    const prevPokemon = prevId ? (window.allPokemons || []).find(p => p.id === prevId) : null;
+    const nextPokemon = nextId ? (window.allPokemons || []).find(p => p.id === nextId) : null;
+
+    // Geração do Pokémon
+    const genInfo = GENERATIONS_CONFIG[pokemon.generation] || GENERATIONS_CONFIG[1];
 
     // Dados de espécie
-    const flavorText = speciesData ? speciesData.flavorText : 'Carregando descrição oficial da Pokédex...';
-    const genus = speciesData ? speciesData.genus : 'Carregando...';
-    const genderText = speciesData ? speciesData.genderText : 'Carregando...';
+    const flavorText = speciesData?.flavorText || pokemon.description || 'Um Pokémon extraordinário registrado nos arquivos oficiais da Pokédex.';
+    const genus = speciesData?.genus || pokemon.genus || 'Pokémon';
+    const genderText = speciesData?.genderText || '50% Macho, 50% Fêmea';
 
-    // HTML dos tipos do Pokémon
+    // Tipos badges
     const typesHtml = pokemon.types.map(t => {
         const info = TYPE_INFO[t] || { namePt: t, color: '#777', textColor: '#fff' };
         return `<span class="type-badge large" style="background-color: ${info.color}; color: ${info.textColor}">${info.namePt}</span>`;
     }).join('');
 
-    // HTML de Fraquezas por Tipo (dano 2x ou 4x)
+    // Fraquezas
     const weaknessesHtml = relations.weaknesses.length > 0
         ? relations.weaknesses.map(w => {
             const info = TYPE_INFO[w.type] || { namePt: w.type, color: '#777', textColor: '#fff' };
@@ -167,7 +330,7 @@ function renderModalContent(pokemon, speciesData) {
         }).join('')
         : '<span class="empty-relation">Nenhuma fraqueza direta</span>';
 
-    // HTML de Forte contra por Tipo
+    // Vantagens
     const countersHtml = relations.counters.length > 0
         ? relations.counters.map(c => {
             const info = TYPE_INFO[c] || { namePt: c, color: '#777', textColor: '#fff' };
@@ -180,7 +343,7 @@ function renderModalContent(pokemon, speciesData) {
         }).join('')
         : '<span class="empty-relation">Nenhuma vantagem direta</span>';
 
-    // HTML de Resistências
+    // Resistências
     const resistancesHtml = relations.resistances.length > 0 || relations.immunities.length > 0
         ? [
             ...relations.resistances.map(r => {
@@ -205,28 +368,25 @@ function renderModalContent(pokemon, speciesData) {
         ].join('')
         : '<span class="empty-relation">Dano normal de todos os tipos</span>';
 
-    // Habilidades em texto
+    // Habilidades
     const abilitiesText = pokemon.abilities.map(a => `${a.name}${a.is_hidden ? ' (Oculta)' : ''}`).join(', ') || 'Nenhuma';
 
-    // Estatísticas Base
+    // Estatísticas
     const stats = pokemon.stats;
     const maxStat = 255;
 
-    // Fitas com lista real de Pokémon (Aba 2: Bom contra e Fraco contra)
+    // Fitas da Aba 2
     const strongRibbonHtml = renderMatchupRibbon(matchups.strongAgainst, 'strong', 'ribbon-strong');
     const weakRibbonHtml = renderMatchupRibbon(matchups.weakAgainst, 'weak', 'ribbon-weak');
 
-    // Aba 3: Ataques & Movimentos de FireRed & LeafGreen
-    const frlgMovesList = pokemon.frlgMoves || [];
-    const levelMovesCount = frlgMovesList.filter(m => m.method === 'level-up').length;
-    const machineMovesCount = frlgMovesList.filter(m => m.method === 'machine').length;
-    const tutorMovesCount = frlgMovesList.filter(m => m.method === 'tutor').length;
-    const eggMovesCount = frlgMovesList.filter(m => m.method === 'egg').length;
-
-    const movesListHtml = renderMovesList(frlgMovesList);
-
     // Evolução HTML
     const evolutionHtml = renderEvolutionSection(speciesData?.evolutionChain, pokemon.id);
+
+    // Opções do seletor de geração na Aba 3
+    const genOptionsHtml = Object.values(GENERATIONS_CONFIG).map(g => {
+        const isSelected = g.id === currentModalMovesGen ? 'selected' : '';
+        return `<option value="${g.id}" ${isSelected}>Geração ${g.roman} (${g.mainGames})</option>`;
+    }).join('');
 
     modalBody.innerHTML = `
         <!-- Cabeçalho do Modal com Navegação -->
@@ -236,64 +396,59 @@ function renderModalContent(pokemon, speciesData) {
                     <button type="button" class="btn-nav prev" onclick="navigateModalPokemon(-1)" title="${prevPokemon.name}">
                         <span class="nav-arrow">&larr;</span>
                         <span class="nav-num">${prevPokemon.formattedId}</span>
-                        <span class="nav-name">${prevPokemon.name}</span>
+                        <span class="nav-name">${prevPokemon.displayName || prevPokemon.name}</span>
                     </button>
                 ` : `<div class="nav-spacer"></div>`}
 
                 <div class="modal-title-box">
-                    <h2 class="pokemon-modal-name">${pokemon.name}</h2>
+                    <h2 class="pokemon-modal-name">${pokemon.displayName || pokemon.name}</h2>
                     <span class="pokemon-modal-id">${pokemon.formattedId}</span>
+                    <span class="pokemon-modal-gen">Geração ${genInfo.roman} • ${genInfo.name}</span>
                 </div>
 
                 ${nextPokemon ? `
                     <button type="button" class="btn-nav next" onclick="navigateModalPokemon(1)" title="${nextPokemon.name}">
-                        <span class="nav-name">${nextPokemon.name}</span>
+                        <span class="nav-name">${nextPokemon.displayName || nextPokemon.name}</span>
                         <span class="nav-num">${nextPokemon.formattedId}</span>
                         <span class="nav-arrow">&rarr;</span>
                     </button>
                 ` : `<div class="nav-spacer"></div>`}
             </div>
 
-            <button type="button" class="modal-close-btn" onclick="closePokemonModal()" aria-label="Fechar">&times;</button>
+            <button type="button" class="modal-close-btn" onclick="closePokemonModal()" aria-label="Fechar Modal">&times;</button>
         </header>
 
-        <!-- BARRA DE ABAS DO MODAL -->
-        <nav class="modal-tabs-nav" aria-label="Abas de Informações do Pokémon">
+        <!-- Barra de Navegação por Abas -->
+        <nav class="modal-tabs-nav" aria-label="Abas de Informação">
             <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-overview' ? 'active' : ''}" data-tab="tab-overview" onclick="switchModalTab('tab-overview')">
                 Visão Geral
             </button>
             <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-matchups' ? 'active' : ''}" data-tab="tab-matchups" onclick="switchModalTab('tab-matchups')">
                 Vantagens & Fraquezas
-                <span class="tab-badge">${matchups.strongAgainst.length + matchups.weakAgainst.length}</span>
             </button>
             <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-moves' ? 'active' : ''}" data-tab="tab-moves" onclick="switchModalTab('tab-moves')">
                 Ataques
-                <span class="tab-badge">${frlgMovesList.length}</span>
             </button>
         </nav>
 
-        <!-- ÁREA DE CONTEÚDO DAS ABAS -->
-        <div class="modal-tabs-content-area">
-
+        <!-- Conteúdo das Abas -->
+        <div class="modal-tab-container">
             <!-- ==========================================
-                 ABA 1: VISÃO GERAL, STATUS E EVOLUÇÃO
+                 ABA 1: VISÃO GERAL
                  ========================================== -->
             <div id="tab-overview" class="modal-tab-panel ${currentActiveTab === 'tab-overview' ? 'active' : ''}">
-                <div class="modal-grid">
-                    <!-- Coluna Esquerda: Imagem, Tipos e Combate Elemental -->
+                <div class="modal-grid-layout">
+                    <!-- Coluna Esquerda: Imagem, Tipos e Relações de Tipos -->
                     <div class="modal-col-left">
-                        <div class="modal-image-card" style="--pokemon-color: ${primaryColor}">
-                            <img src="${pokemon.image}" alt="${pokemon.name}" class="modal-pokemon-img" />
+                        <div class="modal-hero-artwork" style="--hero-glow: ${primaryColor}">
+                            <img src="${pokemon.image}" alt="${pokemon.displayName || pokemon.name}" class="hero-image" />
                         </div>
 
-                        <div class="modal-section-card">
-                            <h3 class="section-title">Tipagem</h3>
-                            <div class="types-row">
-                                ${typesHtml}
-                            </div>
+                        <div class="modal-types-row">
+                            ${typesHtml}
                         </div>
 
-                        <!-- Resumo Elemental -->
+                        <!-- Seção de Fraquezas -->
                         <div class="modal-section-card">
                             <h3 class="section-title">
                                 <span>Fraquezas</span>
@@ -304,6 +459,7 @@ function renderModalContent(pokemon, speciesData) {
                             </div>
                         </div>
 
+                        <!-- Seção de Vantagens -->
                         <div class="modal-section-card">
                             <h3 class="section-title">
                                 <span>Vantagens</span>
@@ -314,6 +470,7 @@ function renderModalContent(pokemon, speciesData) {
                             </div>
                         </div>
 
+                        <!-- Seção de Resistências -->
                         <div class="modal-section-card">
                             <h3 class="section-title">
                                 <span>Resistências</span>
@@ -390,6 +547,18 @@ function renderModalContent(pokemon, speciesData) {
                  ABA 2: VANTAGENS & FRAQUEZAS (CONFRONTOS)
                  ========================================== -->
             <div id="tab-matchups" class="modal-tab-panel ${currentActiveTab === 'tab-matchups' ? 'active' : ''}">
+                <div class="matchup-scope-bar">
+                    <span class="scope-label">Comparar confrontos contra:</span>
+                    <div class="scope-btn-group">
+                        <button type="button" class="matchup-scope-btn ${currentMatchupScope === 'gen' ? 'active' : ''}" data-scope="gen" onclick="setMatchupScope('gen')">
+                            Geração ${genInfo.roman} (${genInfo.name})
+                        </button>
+                        <button type="button" class="matchup-scope-btn ${currentMatchupScope === 'all' ? 'active' : ''}" data-scope="all" onclick="setMatchupScope('all')">
+                            Todas as 9 Gerações (1025 Pokémon)
+                        </button>
+                    </div>
+                </div>
+
                 <!-- Vantagens -->
                 <div class="modal-section-card matchup-section strong-matchup-section">
                     <div class="matchup-section-header">
@@ -397,9 +566,11 @@ function renderModalContent(pokemon, speciesData) {
                             <h3 class="section-title">Vantagens</h3>
                             <p class="section-desc">Causa dano multiplicado (2× ou 4×) contra estes Pokémon</p>
                         </div>
-                        <span class="matchup-count-badge strong">${matchups.strongAgainst.length} Pokémon</span>
+                        <span id="matchup-strong-count" class="matchup-count-badge strong">${matchups.strongAgainst.length} Pokémon</span>
                     </div>
-                    ${strongRibbonHtml}
+                    <div id="matchup-strong-container">
+                        ${strongRibbonHtml}
+                    </div>
                 </div>
 
                 <!-- Fraquezas -->
@@ -409,97 +580,76 @@ function renderModalContent(pokemon, speciesData) {
                             <h3 class="section-title">Fraquezas</h3>
                             <p class="section-desc">Recebe dano aumentado (2× ou 4×) contra estes Pokémon</p>
                         </div>
-                        <span class="matchup-count-badge weak">${matchups.weakAgainst.length} Pokémon</span>
+                        <span id="matchup-weak-count" class="matchup-count-badge weak">${matchups.weakAgainst.length} Pokémon</span>
                     </div>
-                    ${weakRibbonHtml}
+                    <div id="matchup-weak-container">
+                        ${weakRibbonHtml}
+                    </div>
                 </div>
             </div>
 
             <!-- ==========================================
-                 ABA 3: ATAQUES (FRLG)
+                 ABA 3: ATAQUES (MULTI-GERAÇÃO)
                  ========================================== -->
             <div id="tab-moves" class="modal-tab-panel ${currentActiveTab === 'tab-moves' ? 'active' : ''}">
                 <div class="modal-section-card moves-section">
                     <div class="moves-header-bar">
                         <div class="moves-title-group">
                             <h3 class="section-title">Ataques</h3>
-                            <p class="section-desc">Movimentos que <strong>${pokemon.name}</strong> pode aprender.</p>
+                            <p class="section-desc">Movimentos que <strong>${pokemon.displayName || pokemon.name}</strong> pode aprender.</p>
                         </div>
                         <div class="moves-gen-selector">
-                            <label for="moves-gen-select" class="gen-select-label">Geração:</label>
-                            <select id="moves-gen-select" class="moves-gen-dropdown">
-                                <option value="frlg" selected>Geração III (FireRed & LeafGreen)</option>
-                                <option value="gen1" disabled>Geração I (Red, Blue, Yellow)</option>
-                                <option value="gen2" disabled>Geração II (Gold, Silver, Crystal)</option>
-                                <option value="gen4" disabled>Geração IV (Diamond, Pearl, Pt)</option>
+                            <label for="moves-gen-select" class="gen-select-label">Geração dos Jogos:</label>
+                            <select id="moves-gen-select" class="moves-gen-dropdown" onchange="onModalMovesGenChange(this.value)">
+                                ${genOptionsHtml}
                             </select>
                         </div>
                     </div>
 
-                    <!-- Filtros de Método de Aprendizado -->
-                    <div class="moves-filter-bar">
-                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'all' ? 'active' : ''}" data-method="all" onclick="filterMovesList('all')">
-                            Todos (${frlgMovesList.length})
-                        </button>
-                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'level-up' ? 'active' : ''}" data-method="level-up" onclick="filterMovesList('level-up')">
-                            Por Nível (${levelMovesCount})
-                        </button>
-                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'machine' ? 'active' : ''}" data-method="machine" onclick="filterMovesList('machine')">
-                            Por MT / MO (${machineMovesCount})
-                        </button>
-                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'tutor' ? 'active' : ''}" data-method="tutor" onclick="filterMovesList('tutor')">
-                            Por Tutor (${tutorMovesCount})
-                        </button>
-                        ${eggMovesCount > 0 ? `
-                        <button type="button" class="move-filter-pill ${currentMoveFilter === 'egg' ? 'active' : ''}" data-method="egg" onclick="filterMovesList('egg')">
-                            Por Cruzamento (${eggMovesCount})
-                        </button>
-                        ` : ''}
-                    </div>
-
-                    <!-- Lista de Golpes -->
-                    <div class="moves-list-container">
-                        ${movesListHtml}
+                    <div id="moves-panel-dynamic-content">
+                        <!-- Carregado via renderMovesPanelContent() -->
                     </div>
                 </div>
             </div>
-
         </div>
     `;
+
+    // Renderiza os ataques logo após montar a estrutura
+    renderMovesPanelContent();
 }
 
 /**
- * Renderiza a lista de golpes com estilo de cards detalhados
+ * Renderiza a lista de cards/tabelas de ataques
  */
-function renderMovesList(frlgMovesList) {
-    if (!frlgMovesList || frlgMovesList.length === 0) {
+function renderMovesList(movesList) {
+    if (!movesList || movesList.length === 0) {
         return `
-            <div class="empty-moves-box">
-                <p>Nenhum movimento registrado para este Pokémon em FireRed & LeafGreen.</p>
+            <div class="empty-moves-state">
+                <p>Nenhum movimento registrado nos arquivos desta geração.</p>
             </div>
         `;
     }
 
-    // Ordenação: 1º Por Nível (ordenado por level), 2º MT/MO, 3º Tutor, 4º Ovo
-    const sortedMoves = [...frlgMovesList].sort((a, b) => {
-        const order = { 'level-up': 1, 'machine': 2, 'tutor': 3, 'egg': 4 };
-        const orderA = order[a.method] || 5;
-        const orderB = order[b.method] || 5;
+    // Ordenação padrão: por método (level-up primeiro ordenado por level asc, depois machine, tutor, egg)
+    const sortedMoves = [...movesList].sort((a, b) => {
+        const methodOrder = { 'level-up': 1, 'machine': 2, 'tutor': 3, 'egg': 4 };
+        const orderA = methodOrder[a.method] || 99;
+        const orderB = methodOrder[b.method] || 99;
         if (orderA !== orderB) return orderA - orderB;
-        if (a.method === 'level-up' && b.method === 'level-up') return a.level - b.level;
+        if (a.method === 'level-up') return (a.level || 0) - (b.level || 0);
         return a.name.localeCompare(b.name);
     });
 
     return sortedMoves.map(m => {
-        const details = (typeof FRLG_MOVES !== 'undefined' && FRLG_MOVES[m.name]) ? FRLG_MOVES[m.name] : {
+        const details = m.details || (typeof ALL_MOVES_DATA !== 'undefined' && ALL_MOVES_DATA[m.name]) || (typeof FRLG_MOVES !== 'undefined' && FRLG_MOVES[m.name]) || {
             name: m.name,
-            namePt: m.name.replace(/-/g, ' '),
+            namePt: m.name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
             type: 'normal',
             category: 'physical',
-            power: null,
-            accuracy: null,
+            power: '—',
+            accuracy: '—',
             pp: 20,
-            desc: 'Descrição indisponível.',
+            desc: 'Ataque oficial registrado na Pokédex.',
             tm: null,
             tutor: null
         };
@@ -524,20 +674,23 @@ function renderMovesList(frlgMovesList) {
             acquireBadge = `<span class="acquire-badge level">Nv. ${m.level || 1}</span>`;
             acquireDesc = `Ao atingir o Nível ${m.level || 1}`;
         } else if (m.method === 'machine') {
-            const tmCode = details.tm || 'MT/MO';
+            const tmCode = details.tm || 'MT/TM';
             const isHm = tmCode.startsWith('MO');
             acquireBadge = `<span class="acquire-badge machine ${isHm ? 'hm' : 'tm'}">${tmCode}</span>`;
-            acquireDesc = isHm ? 'Máquina Oculta (MO)' : 'Máquina Técnica (MT)';
+            acquireDesc = isHm ? 'Máquina Oculta (MO)' : 'Máquina Técnica (MT / TM / DT)';
         } else if (m.method === 'tutor') {
             acquireBadge = `<span class="acquire-badge tutor">Tutor</span>`;
-            acquireDesc = details.tutor ? `Local: ${details.tutor}` : 'Tutor de Golpes em Kanto';
+            acquireDesc = details.tutor ? `Local: ${details.tutor}` : 'Tutor de Golpes';
         } else if (m.method === 'egg') {
             acquireBadge = `<span class="acquire-badge egg">Ovo</span>`;
             acquireDesc = 'Cruzamento / Herança Genética';
+        } else {
+            acquireBadge = `<span class="acquire-badge special">Especial</span>`;
+            acquireDesc = 'Condição especial de aprendizado';
         }
 
         const powerVal = details.power !== null && details.power !== undefined ? details.power : '—';
-        const accVal = details.accuracy !== null && details.accuracy !== undefined ? `${details.accuracy}%` : '—';
+        const accVal = details.accuracy !== null && details.accuracy !== undefined ? (typeof details.accuracy === 'number' ? `${details.accuracy}%` : details.accuracy) : '—';
         const ppVal = details.pp || '—';
 
         return `
@@ -549,7 +702,7 @@ function renderMovesList(frlgMovesList) {
                     </div>
 
                     <div class="move-names-group">
-                        <h4 class="move-pt-name">${details.namePt}</h4>
+                        <h4 class="move-pt-name">${details.namePt || details.name}</h4>
                         <span class="move-en-name">${details.name.replace(/-/g, ' ')}</span>
                     </div>
 
@@ -583,13 +736,13 @@ function renderMovesList(frlgMovesList) {
 }
 
 /**
- * Renderiza uma fita horizontal de Pokémon para os confrontos (Bom contra / Fraco contra)
+ * Renderiza uma fita horizontal de Pokémon para os confrontos (Vantagens / Fraquezas)
  */
 function renderMatchupRibbon(list, type, containerId) {
     if (!list || list.length === 0) {
         return `
             <div class="empty-matchup">
-                <p>Nenhum Pokémon da 1ª Geração se enquadra nesta categoria para esta tipagem.</p>
+                <p>Nenhum Pokémon encontrado nesta categoria para esta tipagem.</p>
             </div>
         `;
     }
@@ -598,45 +751,55 @@ function renderMatchupRibbon(list, type, containerId) {
         const p = item.pokemon;
         const isSuper = type === 'strong' ? item.damageDealt === 4 : item.damageTaken === 4;
         const damageVal = type === 'strong' ? item.damageDealt : item.damageTaken;
-        const pillText = type === 'strong' ? `CAUSA ${damageVal}×` : `RECEBE ${damageVal}×`;
-        const pillClass = isSuper ? 'pill-super' : 'pill-standard';
+        const tagText = type === 'strong' ? `CAUSA ${damageVal}×` : `RECEBE ${damageVal}×`;
+        const tagClass = isSuper ? 'super' : 'double';
 
-        const typesMini = p.types.map(t => {
+        const typesBadges = p.types.map(t => {
             const info = TYPE_INFO[t] || { namePt: t, color: '#777', textColor: '#fff' };
-            return `<span class="type-mini-pill" style="background-color: ${info.color}; color: ${info.textColor}">${info.namePt}</span>`;
+            return `<span class="mini-type-badge" style="background-color: ${info.color}; color: ${info.textColor}">${info.namePt}</span>`;
         }).join('');
 
         return `
-            <div class="matchup-poke-card ${type}" onclick="openPokemonModal(${p.id})" title="${p.name} (${p.formattedId}) - Clique para ver detalhes">
-                <span class="matchup-mult-badge ${pillClass}">${pillText}</span>
-                <div class="matchup-thumb-box">
-                    <img src="${p.image}" alt="${p.name}" loading="lazy" />
+            <div class="matchup-card" onclick="openPokemonModal(${p.id})" tabindex="0" role="button" aria-label="Ver ${p.name}">
+                <div class="matchup-tag ${tagClass}">${tagText}</div>
+                <div class="matchup-img-wrap">
+                    <img src="${p.image}" alt="${p.displayName || p.name}" loading="lazy" />
                 </div>
-                <span class="matchup-poke-id">${p.formattedId}</span>
-                <span class="matchup-poke-name">${p.name}</span>
-                <div class="matchup-poke-types">
-                    ${typesMini}
+                <span class="matchup-id">${p.formattedId}</span>
+                <span class="matchup-name">${p.displayName || p.name}</span>
+                <div class="matchup-types">
+                    ${typesBadges}
                 </div>
             </div>
         `;
     }).join('');
 
     return `
-        <div class="matchup-ribbon-wrapper">
-            <button type="button" class="ribbon-arrow-btn prev" onclick="scrollMatchupRibbon('${containerId}', -1)" aria-label="Rolar para esquerda">&#10094;</button>
-            <div id="${containerId}" class="matchup-ribbon-track">
+        <div class="ribbon-wrapper">
+            <button type="button" class="ribbon-arrow left" onclick="scrollRibbon('${containerId}', -300)" aria-label="Rolar para a esquerda">&lsaquo;</button>
+            <div class="ribbon-track" id="${containerId}">
                 ${cardsHtml}
             </div>
-            <button type="button" class="ribbon-arrow-btn next" onclick="scrollMatchupRibbon('${containerId}', 1)" aria-label="Rolar para direita">&#10095;</button>
+            <button type="button" class="ribbon-arrow right" onclick="scrollRibbon('${containerId}', 300)" aria-label="Rolar para a direita">&rsaquo;</button>
         </div>
     `;
 }
 
 /**
- * Renderiza uma barra de status individual
+ * Rola horizontalmente a fita de cards de confronto
+ */
+function scrollRibbon(trackId, amount) {
+    const track = document.getElementById(trackId);
+    if (track) {
+        track.scrollBy({ left: amount, behavior: 'smooth' });
+    }
+}
+
+/**
+ * Renderiza uma barra individual de status base
  */
 function renderStatBar(name, value, max, color) {
-    const percent = Math.min(100, Math.round((value / 180) * 100));
+    const percent = Math.min(100, Math.round((value / max) * 100));
     return `
         <div class="stat-row">
             <span class="stat-name">${name}</span>
@@ -649,14 +812,14 @@ function renderStatBar(name, value, max, color) {
 }
 
 /**
- * Renderiza a linha de evolução com cards visuais e condições
+ * Renderiza a linha de evolução com cards visuais e condições (Todas as Gerações)
  */
 function renderEvolutionSection(chain, currentId) {
     if (!chain) {
         return `
             <div class="evolution-loading">
                 <div class="pokeball-spinner small"></div>
-                <p>Carregando linha evolutiva...</p>
+                <p>Carregando linha evolutiva oficial...</p>
             </div>
         `;
     }
@@ -664,7 +827,7 @@ function renderEvolutionSection(chain, currentId) {
     if (!chain.evolvesTo || chain.evolvesTo.length === 0) {
         return `
             <div class="no-evolution-card">
-                <p>Este Pokémon não possui evoluções conhecidas na 1ª Geração.</p>
+                <p>Este Pokémon não possui evoluções registradas na Pokédex.</p>
             </div>
         `;
     }
@@ -688,15 +851,12 @@ function renderEvolutionSection(chain, currentId) {
                     const formattedId = `Nº ${String(node.id).padStart(4, '0')}`;
                     const artworkUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${node.id}.png`;
                     const fallbackUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${node.id}.png`;
-
-                    const isGen1 = node.id <= 151;
-                    const clickAction = isGen1 ? `onclick="openPokemonModal(${node.id})"` : '';
-                    const cursorClass = isGen1 ? 'clickable' : 'non-clickable';
+                    const nodeGen = getGenerationByPokemonId(node.id);
 
                     return `
-                        <div class="evolution-card ${isCurrent ? 'current-pokemon' : ''} ${cursorClass}" ${clickAction}>
+                        <div class="evolution-card ${isCurrent ? 'current-pokemon' : ''} clickable" onclick="openPokemonModal(${node.id})">
                             ${isCurrent ? `<span class="current-badge">Atual</span>` : ''}
-                            ${!isGen1 ? `<span class="gen-badge">Gen Posterior</span>` : ''}
+                            <span class="gen-badge">Gen ${nodeGen.roman}</span>
                             <div class="evo-img-box">
                                 <img src="${artworkUrl}" onerror="this.onerror=null; this.src='${fallbackUrl}'" alt="${node.name}" />
                             </div>

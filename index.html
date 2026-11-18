@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pokédex Oficial da 1ª Geração com dados completos, filtros de busca, fraquezas, vantagens e evolução dos 151 Pokémon.">
-    <title>Pokédex Oficial - 1ª Geração (Kanto)</title>
+    <meta name="description" content="Pokédex Oficial Completa com as 9 gerações Pokémon (#0001 a #1025), estatísticas base, fraquezas, vantagens, evolução e ataques por versão dos jogos.">
+    <title>Pokédex Oficial Completa - Gerações I a IX (1025 Pokémon)</title>
 
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -24,7 +24,7 @@
     <!-- Tela de Carregamento Inicial -->
     <div id="loading-screen" class="loading-screen">
         <div class="pokeball-spinner"></div>
-        <p id="loading-progress">Carregando Pokédex da 1ª Geração...</p>
+        <p id="loading-progress">Carregando Pokédex Oficial Completa (1025 Pokémon)...</p>
     </div>
 
     <!-- Cabeçalho Principal -->
@@ -40,7 +40,7 @@
                 </svg>
                 <h1 class="brand-title">Poké<span>dex</span></h1>
             </div>
-            <span class="gen-tag">1ª Geração (Kanto) • 151 Pokémon</span>
+            <span class="gen-tag">Gerações I a IX • 1025 Pokémon</span>
         </div>
     </header>
 
@@ -50,12 +50,12 @@
         <section class="filter-panel" aria-label="Filtros da Pokédex">
             <div class="search-row">
                 <div class="search-box">
-                    <input type="text" id="search-input" class="search-input" placeholder="Pesquisar por nome ou número (ex: Pikachu ou 25)..." autocomplete="off" />
+                    <input type="text" id="search-input" class="search-input" placeholder="Pesquisar por nome ou número (ex: Pikachu, Lucario ou 25)..." autocomplete="off" />
                     <button type="button" id="search-btn" class="search-btn">Buscar</button>
                 </div>
 
                 <div class="action-buttons">
-                    <button type="button" id="btn-surprise" class="btn-surprise" title="Sorteia um Pokémon aleatório">
+                    <button type="button" id="btn-surprise" class="btn-surprise" title="Sorteia um Pokémon aleatório de 1 a 1025">
                         Surpreenda-me!
                     </button>
 
@@ -67,6 +67,17 @@
                             <option value="name-desc">Nome (Z - A)</option>
                         </select>
                     </div>
+                </div>
+            </div>
+
+            <!-- Filtros por Geração (I a IX) -->
+            <div class="generation-filter-section">
+                <div class="filter-section-header">
+                    <span class="filter-title">Filtrar por Geração</span>
+                    <span id="gen-active-badge" class="gen-active-badge">Todas as Gerações (1025)</span>
+                </div>
+                <div id="generation-filters" class="generation-filters-bar">
+                    <!-- Gerado dinamicamente via JS -->
                 </div>
             </div>
 
@@ -111,13 +122,14 @@
 
     <!-- Rodapé -->
     <footer class="site-footer">
-        <p>Pokédex 1ª Geração • Projeto desenvolvido para a trilha JS Developer • Dados fornecidos pela <a href="https://pokeapi.co/" target="_blank" rel="noopener noreferrer">PokéAPI</a></p>
+        <p>Pokédex Completa (Gerações I a IX • 1025 Pokémon) • Projeto desenvolvido para a trilha JS Developer • Dados oficiais fornecidos pela <a href="https://pokeapi.co/" target="_blank" rel="noopener noreferrer">PokéAPI</a>, Project Pokémon, Bulbapedia & Serebii</p>
     </footer>
 
     <!-- Scripts da Aplicação -->
     <script src="assets/js/generations-config.js"></script>
-    <script src="assets/js/pokemons-data.js"></script>
+    <script src="assets/js/all-moves-data.js"></script>
     <script src="assets/js/frlg-moves-data.js"></script>
+    <script src="assets/js/pokemons-data.js"></script>
     <script src="assets/js/type-data.js"></script>
     <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/modal.js"></script>

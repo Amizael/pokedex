@@ -1750,3 +1750,221 @@ body {
         border-radius: 6px;
     }
 }
+
+
+/* ==========================================================================
+   Estilos Multi-Geração (Gerações I a IX)
+   ========================================================================== */
+
+.generation-filter-section {
+    margin-bottom: 1.25rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.gen-active-badge {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #e3350d;
+    background: #ffebe8;
+    padding: 0.25rem 0.65rem;
+    border-radius: 12px;
+}
+
+.generation-filters-bar {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0.4rem 0 0.6rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+}
+
+.generation-filters-bar::-webkit-scrollbar {
+    height: 6px;
+}
+
+.generation-filters-bar::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+.gen-filter-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 90px;
+    padding: 0.45rem 0.8rem;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.gen-filter-btn:hover {
+    background: #e8e8e8;
+    border-color: #bbb;
+    transform: translateY(-1px);
+}
+
+.gen-filter-btn.active {
+    background: #e3350d;
+    border-color: #c42906;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(227, 53, 13, 0.35);
+}
+
+.gen-btn-title {
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+
+.gen-btn-sub {
+    font-size: 0.68rem;
+    opacity: 0.8;
+    margin-top: 1px;
+}
+
+.gen-btn-count {
+    font-size: 0.68rem;
+    opacity: 0.8;
+}
+
+.gen-filter-btn.active .gen-btn-title,
+.gen-filter-btn.active .gen-btn-sub,
+.gen-filter-btn.active .gen-btn-count {
+    color: #fff;
+    opacity: 1;
+}
+
+/* Badge de geração no card */
+.card-gen-pill {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 0.15rem 0.45rem;
+    background: rgba(49, 49, 49, 0.75);
+    color: #fff;
+    border-radius: 10px;
+    letter-spacing: 0.3px;
+    backdrop-filter: blur(2px);
+}
+
+/* Badge de geração no modal */
+.pokemon-modal-gen {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #616161;
+    background: #e0e0e0;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    margin-top: 0.25rem;
+}
+
+/* Barra de alternância de escopo na Aba 2 */
+.matchup-scope-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    background: #1e1e1e;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+    border: 1px solid #333;
+}
+
+.scope-label {
+    font-size: 0.85rem;
+    color: #bbb;
+    font-weight: 600;
+}
+
+.scope-btn-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.matchup-scope-btn {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background: #2a2a2a;
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.matchup-scope-btn:hover {
+    background: #333;
+    color: #fff;
+}
+
+.matchup-scope-btn.active {
+    background: #4dad5b;
+    border-color: #4dad5b;
+    color: #fff;
+}
+
+/* Mensagem de Pokémon não disponível na geração */
+.empty-moves-unavailable {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background: #fdf6e2;
+    border: 1px solid #ecd69c;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.unavailable-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #eed202;
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-bottom: 0.75rem;
+}
+
+.empty-moves-unavailable h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.15rem;
+    color: #634a00;
+}
+
+.empty-moves-unavailable p {
+    margin: 0 auto 1.25rem auto;
+    font-size: 0.95rem;
+    color: #795d08;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.btn-jump-gen {
+    padding: 0.6rem 1.25rem;
+    background: #e3350d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.btn-jump-gen:hover {
+    background: #b52a0a;
+}

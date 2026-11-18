@@ -1,5 +1,5 @@
-// Dados estáticos dos 151 Pokémon da 1ª Geração (Kanto) com moveset oficial de FireRed & LeafGreen
-const KANTO_POKEMONS = [
+// Catálogo Oficial dos 1025 Pokémon (Gerações I a IX)
+const ALL_POKEMONS = [
   {
     "id": 1,
     "name": "bulbasaur",
@@ -243,7 +243,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 46
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Bulbasaur",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 2,
@@ -448,7 +452,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 56
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Ivysaur",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 3,
@@ -673,7 +681,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 65
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Venusaur",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 4,
@@ -947,7 +959,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Charmander",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 5,
@@ -1191,7 +1207,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 55
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Charmeleon",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 6,
@@ -1476,7 +1496,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 64
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Charizard",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 7,
@@ -1755,7 +1779,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 47
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Squirtle",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 8,
@@ -1994,7 +2022,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 53
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Wartortle",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 9,
@@ -2253,7 +2285,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 68
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Blastoise",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 10,
@@ -2297,7 +2333,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Caterpie",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 11,
@@ -2331,7 +2371,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Metapod",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 12,
@@ -2541,7 +2585,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 47
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Butterfree",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 13,
@@ -2586,7 +2634,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Weedle",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 14,
@@ -2621,7 +2673,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Kakuna",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 15,
@@ -2816,7 +2872,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 45
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Beedrill",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 16,
@@ -3016,7 +3076,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 47
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Pidgey",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 17,
@@ -3196,7 +3260,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 52
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Pidgeotto",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 18,
@@ -3381,7 +3449,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 62
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Pidgeot",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 19,
@@ -3645,7 +3717,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 41
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Rattata",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 20,
@@ -3889,7 +3965,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Raticate",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 21,
@@ -4094,7 +4174,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 43
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Spearow",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 22,
@@ -4269,7 +4353,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 47
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Fearow",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 23,
@@ -4518,7 +4606,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 44
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Ekans",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 24,
@@ -4747,7 +4839,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 56
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Arbok",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 25,
@@ -4966,7 +5062,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Pikachu",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 26,
@@ -5180,7 +5280,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Raichu",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 27,
@@ -5434,7 +5538,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 53
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Sandshrew",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 28,
@@ -5668,7 +5776,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 62
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Sandslash",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 29,
@@ -5942,7 +6054,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 47
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Nidoran-f",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 30,
@@ -6186,7 +6302,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 53
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Nidorina",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 31,
@@ -6491,7 +6611,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 43
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Nidoqueen",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 32,
@@ -6760,7 +6884,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 47
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Nidoran-m",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 33,
@@ -6999,7 +7127,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 53
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Nidorino",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 34,
@@ -7304,7 +7436,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 43
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Nidoking",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 35,
@@ -7628,7 +7764,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 45
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Clefairy",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 36,
@@ -7917,7 +8057,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Clefable",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 37,
@@ -8141,7 +8285,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 41
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Vulpix",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 38,
@@ -8310,7 +8458,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 45
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Ninetales",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 39,
@@ -8595,7 +8747,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Jigglypuff",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 40,
@@ -8870,7 +9026,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Wigglytuff",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 41,
@@ -9105,7 +9265,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 46
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Zubat",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 42,
@@ -9320,7 +9484,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 56
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Golbat",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 43,
@@ -9525,7 +9693,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 39
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Oddish",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 44,
@@ -9705,7 +9877,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 44
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Gloom",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 45,
@@ -9880,7 +10056,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 44
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Vileplume",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 46,
@@ -10130,7 +10310,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Paras",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 47,
@@ -10350,7 +10534,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 59
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Parasect",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 48,
@@ -10560,7 +10748,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 41
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Venonat",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 49,
@@ -10775,7 +10967,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 52
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Venomoth",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 50,
@@ -11004,7 +11200,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Diglett",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 51,
@@ -11218,7 +11418,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 64
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Dugtrio",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 52,
@@ -11492,7 +11696,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 45
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Meowth",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 53,
@@ -11746,7 +11954,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 61
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Persian",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 54,
@@ -12045,7 +12257,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Psyduck",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 55,
@@ -12309,7 +12525,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 58
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Golduck",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 56,
@@ -12613,7 +12833,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 46
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Mankey",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 57,
@@ -12897,7 +13121,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 62
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Primeape",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 58,
@@ -13131,7 +13359,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Growlithe",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 59,
@@ -13320,7 +13552,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Arcanine",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 60,
@@ -13549,7 +13785,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 43
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Poliwag",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 61,
@@ -13793,7 +14033,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 51
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Poliwhirl",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 62,
@@ -14048,7 +14292,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 51
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Poliwrath",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 63,
@@ -14312,7 +14560,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Abra",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 64,
@@ -14586,7 +14838,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 43
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Kadabra",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 65,
@@ -14860,7 +15116,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 43
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Alakazam",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 66,
@@ -15144,7 +15404,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Machop",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 67,
@@ -15403,7 +15667,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 59
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Machoke",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 68,
@@ -15667,7 +15935,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 59
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Machamp",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 69,
@@ -15892,7 +16164,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 45
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Bellsprout",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 70,
@@ -16087,7 +16363,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 54
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Weepinbell",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 71,
@@ -16277,7 +16557,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Victreebel",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 72,
@@ -16522,7 +16806,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Tentacool",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 73,
@@ -16742,7 +17030,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 55
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Tentacruel",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 74,
@@ -16982,7 +17274,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 46
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Geodude",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 75,
@@ -17217,7 +17513,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 62
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Graveler",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 76,
@@ -17467,7 +17767,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 62
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Golem",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 77,
@@ -17681,7 +17985,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 53
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Ponyta",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 78,
@@ -17880,7 +18188,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 63
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Rapidash",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 79,
@@ -18180,7 +18492,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 47
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Slowpoke",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 80,
@@ -18495,7 +18811,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 55
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Slowbro",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 81,
@@ -18685,7 +19005,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Magnemite",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 82,
@@ -18880,7 +19204,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 62
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Magneton",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 83,
@@ -19110,7 +19438,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 46
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Farfetchd",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 84,
@@ -19320,7 +19652,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 45
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Doduo",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 85,
@@ -19515,7 +19851,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 60
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Dodrio",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 86,
@@ -19739,7 +20079,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Seel",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 87,
@@ -19939,7 +20283,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 64
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Dewgong",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 88,
@@ -20193,7 +20541,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 53
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Grimer",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 89,
@@ -20442,7 +20794,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 61
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Muk",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 90,
@@ -20646,7 +21002,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Shellder",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 91,
@@ -20826,7 +21186,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 43
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Cloyster",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 92,
@@ -21061,7 +21425,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 48
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Gastly",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 93,
@@ -21271,7 +21639,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 64
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Haunter",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 94,
@@ -21546,7 +21918,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 64
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Gengar",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 95,
@@ -21776,7 +22152,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 56
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Onix",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 96,
@@ -22080,7 +22460,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 47
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Drowzee",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 97,
@@ -22364,7 +22748,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 57
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Hypno",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 98,
@@ -22608,7 +22996,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Krabby",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 99,
@@ -22842,7 +23234,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 65
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Kingler",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 100,
@@ -23036,7 +23432,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Voltorb",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 101,
@@ -23235,7 +23635,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 59
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Electrode",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 102,
@@ -23475,7 +23879,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 43
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Exeggcute",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 103,
@@ -23675,7 +24083,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 31
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Exeggutor",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 104,
@@ -23974,7 +24386,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 45
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Cubone",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 105,
@@ -24253,7 +24669,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 61
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Marowak",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 106,
@@ -24497,7 +24917,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 51
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Hitmonlee",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 107,
@@ -24736,7 +25160,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Hitmonchan",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 108,
@@ -25085,7 +25513,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 51
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Lickitung",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 109,
@@ -25324,7 +25756,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Koffing",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 110,
@@ -25543,7 +25979,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 58
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Weezing",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 111,
@@ -25828,7 +26268,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 57
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Rhyhorn",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 112,
@@ -26128,7 +26572,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 66
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Rhydon",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 113,
@@ -26482,7 +26930,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 57
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Chansey",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 114,
@@ -26736,7 +27188,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 46
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Tangela",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 115,
@@ -27085,7 +27541,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Kangaskhan",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 116,
@@ -27304,7 +27764,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Horsea",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 117,
@@ -27493,7 +27957,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 62
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Seadra",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 118,
@@ -27712,7 +28180,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 57
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Goldeen",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 119,
@@ -27911,7 +28383,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 69
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Seaking",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 120,
@@ -28140,7 +28616,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 46
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Staryu",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 121,
@@ -28355,7 +28835,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 33
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Starmie",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 122,
@@ -28680,7 +29164,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Mr-mime",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 123,
@@ -28915,7 +29403,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 46
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Scyther",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 124,
@@ -29190,7 +29682,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 67
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Jynx",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 125,
@@ -29414,7 +29910,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 58
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Electabuzz",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 126,
@@ -29623,7 +30123,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 57
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Magmar",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 127,
@@ -29867,7 +30371,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 49
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Pinsir",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 128,
@@ -30116,7 +30624,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 53
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Tauros",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 129,
@@ -30165,7 +30677,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 30
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Magikarp",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 130,
@@ -30410,7 +30926,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 55
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Gyarados",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 131,
@@ -30690,7 +31210,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 55
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Lapras",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 132,
@@ -30729,7 +31253,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 1
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Ditto",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 133,
@@ -30938,7 +31466,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 42
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Eevee",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 134,
@@ -31167,7 +31699,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 52
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Vaporeon",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 135,
@@ -31376,7 +31912,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 52
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Jolteon",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 136,
@@ -31580,7 +32120,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 52
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Flareon",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 137,
@@ -31819,7 +32363,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 48
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Porygon",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 138,
@@ -32069,7 +32617,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 55
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Omanyte",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 139,
@@ -32304,7 +32856,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 65
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Omastar",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 140,
@@ -32569,7 +33125,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 55
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Kabuto",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 141,
@@ -32849,7 +33409,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 65
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Kabutops",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 142,
@@ -33114,7 +33678,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Aerodactyl",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 143,
@@ -33433,7 +34001,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 53
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Snorlax",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 144,
@@ -33628,7 +34200,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 85
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Articuno",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 145,
@@ -33828,7 +34404,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 85
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Zapdos",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 146,
@@ -34023,7 +34603,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 85
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Moltres",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 147,
@@ -34277,7 +34861,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 57
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Dratini",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 148,
@@ -34501,7 +35089,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 65
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Dragonair",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 149,
@@ -34801,7 +35393,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 75
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Dragonite",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 150,
@@ -35150,7 +35746,11 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 99
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Mewtwo",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
   },
   {
     "id": 151,
@@ -35559,7 +36159,36774 @@ const KANTO_POKEMONS = [
         "method": "level-up",
         "level": 50
       }
-    ]
+    ],
+    "generation": 1,
+    "displayName": "Mew",
+    "genus": "Pokémon Semente",
+    "evolutionChainId": 1
+  },
+  {
+    "id": 152,
+    "name": "chikorita",
+    "displayName": "Chikorita",
+    "formattedId": "Nº 0152",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
+    "height": "0.9",
+    "weight": "6.4",
+    "generation": 2,
+    "evolutionChainId": 79,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Folha",
+    "description": "Al luchar, Chikorita agita la hoja que tiene para mantener a raya al rival. Pero, al mismo tiempo, libera una suave fragancia que apacigua el encuentro y crea un ambiente agradable y de amistad.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 65,
+      "spAttack": 49,
+      "spDefense": 65,
+      "speed": 45,
+      "total": 318
+    }
+  },
+  {
+    "id": 153,
+    "name": "bayleef",
+    "displayName": "Bayleef",
+    "formattedId": "Nº 0153",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
+    "height": "1.2",
+    "weight": "15.8",
+    "generation": 2,
+    "evolutionChainId": 79,
+    "evolvesFrom": 152,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Folha",
+    "description": "Bayleef tiene un collar de hojas alrededor del cuello y un brote de un árbol en cada una de ellas. La fragancia que desprenden estos brotes anima a la gente.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 80,
+      "spAttack": 63,
+      "spDefense": 80,
+      "speed": 60,
+      "total": 405
+    }
+  },
+  {
+    "id": 154,
+    "name": "meganium",
+    "displayName": "Meganium",
+    "formattedId": "Nº 0154",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
+    "height": "1.8",
+    "weight": "100.5",
+    "generation": 2,
+    "evolutionChainId": 79,
+    "evolvesFrom": 153,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Erva Medicinal",
+    "description": "La fragancia de la flor de Meganium aplaca y suaviza los ánimos. Al luchar, este Pokémon libera mayor cantidad de esencia para disminuir el ánimo de combate de su oponente.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 100,
+      "spAttack": 83,
+      "spDefense": 100,
+      "speed": 80,
+      "total": 525
+    }
+  },
+  {
+    "id": 155,
+    "name": "cyndaquil",
+    "displayName": "Cyndaquil",
+    "formattedId": "Nº 0155",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png",
+    "height": "0.5",
+    "weight": "7.9",
+    "generation": 2,
+    "evolutionChainId": 80,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Rato de Fogo",
+    "description": "Cyndaquil se protege soltando llamas por el lomo. Cuando está enfadado, las llamas son fieras, pero, si está cansado, solo consigue echar algunas chispas que no llegan a cuajar en una completa combustión.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 65,
+      "total": 309
+    }
+  },
+  {
+    "id": 156,
+    "name": "quilava",
+    "displayName": "Quilava",
+    "formattedId": "Nº 0156",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/156.png",
+    "height": "0.9",
+    "weight": "19.0",
+    "generation": 2,
+    "evolutionChainId": 80,
+    "evolvesFrom": 155,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Vulcão",
+    "description": "Quilava mantiene a sus rivales a raya con la intensidad de sus llamas y las ráfagas de aire ígneo que producen. También aprovecha su espectacular agilidad para esquivar ataques a la vez que abrasa al rival con sus llamas.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "spAttack": 80,
+      "spDefense": 65,
+      "speed": 80,
+      "total": 405
+    }
+  },
+  {
+    "id": 157,
+    "name": "typhlosion",
+    "displayName": "Typhlosion",
+    "formattedId": "Nº 0157",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png",
+    "height": "1.7",
+    "weight": "79.5",
+    "generation": 2,
+    "evolutionChainId": 80,
+    "evolvesFrom": 156,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Vulcão",
+    "description": "Typhlosion se oculta tras un trémulo haz de calor que crea mediante sus intensas y sofocantes llamaradas. Este Pokémon causa explosiones de fuego que reducen todo a cenizas.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "spAttack": 109,
+      "spDefense": 85,
+      "speed": 100,
+      "total": 534
+    }
+  },
+  {
+    "id": 158,
+    "name": "totodile",
+    "displayName": "Totodile",
+    "formattedId": "Nº 0158",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
+    "height": "0.6",
+    "weight": "9.5",
+    "generation": 2,
+    "evolutionChainId": 81,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Mandíbula Grande",
+    "description": "Totodile tiene cuerpo pequeño, pero fuertes mandíbulas. A veces, piensa que solo está dando un mordisquito y hace unas heridas bastante considerables.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 64,
+      "spAttack": 44,
+      "spDefense": 48,
+      "speed": 43,
+      "total": 314
+    }
+  },
+  {
+    "id": 159,
+    "name": "croconaw",
+    "displayName": "Croconaw",
+    "formattedId": "Nº 0159",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
+    "height": "1.1",
+    "weight": "25.0",
+    "generation": 2,
+    "evolutionChainId": 81,
+    "evolvesFrom": 158,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Mandíbula Grande",
+    "description": "Una vez que Croconaw le ha clavado los colmillos a su presa, es imposible que escape porque los tiene hacia adentro como si fueran anzuelos. Cuando Croconaw hinca los dientes, no hay escapatoria.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 80,
+      "defense": 80,
+      "spAttack": 59,
+      "spDefense": 63,
+      "speed": 58,
+      "total": 405
+    }
+  },
+  {
+    "id": 160,
+    "name": "feraligatr",
+    "displayName": "Feraligatr",
+    "formattedId": "Nº 0160",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
+    "height": "2.3",
+    "weight": "88.8",
+    "generation": 2,
+    "evolutionChainId": 81,
+    "evolvesFrom": 159,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Mandíbula Grande",
+    "description": "Feraligatr intimida a sus oponentes abriendo las grandes fauces que tiene. En combate, golpea el suelo bruscamente con las gruesas y fuertes patas traseras que tiene para cargar contra su rival a una velocidad de vértigo.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 105,
+      "defense": 100,
+      "spAttack": 79,
+      "spDefense": 83,
+      "speed": 78,
+      "total": 530
+    }
+  },
+  {
+    "id": 161,
+    "name": "sentret",
+    "displayName": "Sentret",
+    "formattedId": "Nº 0161",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/161.png",
+    "height": "0.8",
+    "weight": "6.0",
+    "generation": 2,
+    "evolutionChainId": 82,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Batedor",
+    "description": "Sentret no duerme a menos que otro haga guardia. El que hace de centinela lo despertará al mínimo signo de peligro. Cuando este Pokémon se separa de su manada, es incapaz de echarse a dormir, presa del miedo.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 46,
+      "defense": 34,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 20,
+      "total": 215
+    }
+  },
+  {
+    "id": 162,
+    "name": "furret",
+    "displayName": "Furret",
+    "formattedId": "Nº 0162",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/162.png",
+    "height": "1.8",
+    "weight": "32.5",
+    "generation": 2,
+    "evolutionChainId": 82,
+    "evolvesFrom": 161,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Corpo Longo",
+    "description": "Furret es de constitución muy delgada. En combate le resulta útil porque puede escabullirse con habilidad por cualquier huequito y escapar. A pesar de que tiene patas cortas, es ágil y veloz.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 76,
+      "defense": 64,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 90,
+      "total": 415
+    }
+  },
+  {
+    "id": 163,
+    "name": "hoothoot",
+    "displayName": "Hoothoot",
+    "formattedId": "Nº 0163",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png",
+    "height": "0.7",
+    "weight": "21.2",
+    "generation": 2,
+    "evolutionChainId": 83,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Coruja",
+    "description": "Todos los días empieza a ulular a la misma hora, por lo que algunos Entrenadores lo usan a modo de reloj.",
+    "abilities": [
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "tinted-lens",
+        "name": "tinted lens",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 30,
+      "defense": 30,
+      "spAttack": 36,
+      "spDefense": 56,
+      "speed": 50,
+      "total": 262
+    }
+  },
+  {
+    "id": 164,
+    "name": "noctowl",
+    "displayName": "Noctowl",
+    "formattedId": "Nº 0164",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/164.png",
+    "height": "1.6",
+    "weight": "40.8",
+    "generation": 2,
+    "evolutionChainId": 83,
+    "evolvesFrom": 163,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Coruja",
+    "description": "Cuando necesita pensar, gira la cabeza 180° para agudizar su capacidad intelectual.",
+    "abilities": [
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "tinted-lens",
+        "name": "tinted lens",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 50,
+      "defense": 50,
+      "spAttack": 86,
+      "spDefense": 96,
+      "speed": 70,
+      "total": 452
+    }
+  },
+  {
+    "id": 165,
+    "name": "ledyba",
+    "displayName": "Ledyba",
+    "formattedId": "Nº 0165",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/165.png",
+    "height": "1.0",
+    "weight": "10.8",
+    "generation": 2,
+    "evolutionChainId": 84,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cinco Estrelas",
+    "description": "Un Pokémon bastante temeroso. Junto con sus congéneres, protege su nido usando Reflejo.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 20,
+      "defense": 30,
+      "spAttack": 40,
+      "spDefense": 80,
+      "speed": 55,
+      "total": 265
+    }
+  },
+  {
+    "id": 166,
+    "name": "ledian",
+    "displayName": "Ledian",
+    "formattedId": "Nº 0166",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/166.png",
+    "height": "1.4",
+    "weight": "35.6",
+    "generation": 2,
+    "evolutionChainId": 84,
+    "evolvesFrom": 165,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cinco Estrelas",
+    "description": "Vuela por el cielo nocturno esparciendo un polvo brillante. Dicen que entrar en contacto con este polvo trae buena suerte.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 35,
+      "defense": 50,
+      "spAttack": 55,
+      "spDefense": 110,
+      "speed": 85,
+      "total": 390
+    }
+  },
+  {
+    "id": 167,
+    "name": "spinarak",
+    "displayName": "Spinarak",
+    "formattedId": "Nº 0167",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/167.png",
+    "height": "0.5",
+    "weight": "8.5",
+    "generation": 2,
+    "evolutionChainId": 85,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cuspidor de Teia",
+    "description": "El veneno de sus colmillos no es demasiado tóxico, pero basta para mantener inmovilizadas a las presas que caen en sus redes.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 30,
+      "total": 250
+    }
+  },
+  {
+    "id": 168,
+    "name": "ariados",
+    "displayName": "Ariados",
+    "formattedId": "Nº 0168",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
+    "height": "1.1",
+    "weight": "33.5",
+    "generation": 2,
+    "evolutionChainId": 85,
+    "evolvesFrom": 167,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Long Leg Pokémon ",
+    "description": "Captura a sus presas con el hilo que segrega. Al caer la noche, abandona su tela y sale a cazar activamente.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 70,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 40,
+      "total": 400
+    }
+  },
+  {
+    "id": 169,
+    "name": "crobat",
+    "displayName": "Crobat",
+    "formattedId": "Nº 0169",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/169.png",
+    "height": "1.8",
+    "weight": "75.0",
+    "generation": 2,
+    "evolutionChainId": 17,
+    "evolvesFrom": 42,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Morcego",
+    "description": "Controla de forma independiente cada una de sus cuatro alas. Puede revolotear por cuevas estrechas sin aminorar la velocidad.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 90,
+      "defense": 80,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 130,
+      "total": 535
+    }
+  },
+  {
+    "id": 170,
+    "name": "chinchou",
+    "displayName": "Chinchou",
+    "formattedId": "Nº 0170",
+    "types": [
+      "water",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/170.png",
+    "height": "0.5",
+    "weight": "12.0",
+    "generation": 2,
+    "evolutionChainId": 86,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Tamboril",
+    "description": "En el oscuro fondo del océano, su único modo de comunicarse son las luces parpadeantes que emite por las antenas.",
+    "abilities": [
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "illuminate",
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 38,
+      "defense": 38,
+      "spAttack": 56,
+      "spDefense": 56,
+      "speed": 67,
+      "total": 330
+    }
+  },
+  {
+    "id": 171,
+    "name": "lanturn",
+    "displayName": "Lanturn",
+    "formattedId": "Nº 0171",
+    "types": [
+      "water",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/171.png",
+    "height": "1.2",
+    "weight": "22.5",
+    "generation": 2,
+    "evolutionChainId": 86,
+    "evolvesFrom": 170,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Luz",
+    "description": "Ciega a sus presas con una luz intensa. Si tiene la ocasión, les propina una descarga eléctrica.",
+    "abilities": [
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "illuminate",
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 125,
+      "attack": 58,
+      "defense": 58,
+      "spAttack": 76,
+      "spDefense": 76,
+      "speed": 67,
+      "total": 460
+    }
+  },
+  {
+    "id": 172,
+    "name": "pichu",
+    "displayName": "Pichu",
+    "formattedId": "Nº 0172",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
+    "height": "0.3",
+    "weight": "2.0",
+    "generation": 2,
+    "evolutionChainId": 10,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tiny Mouse Pokémon ",
+    "description": "Las bolsas de electricidad de sus mejillas son muy pequeñas y, a poco que se desborden, recibe una fuerte descarga.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "lightning-rod",
+        "name": "lightning rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 20,
+      "attack": 40,
+      "defense": 15,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 60,
+      "total": 205
+    }
+  },
+  {
+    "id": 173,
+    "name": "cleffa",
+    "displayName": "Cleffa",
+    "formattedId": "Nº 0173",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
+    "height": "0.3",
+    "weight": "3.0",
+    "generation": 2,
+    "evolutionChainId": 14,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Star Shape Pokémon ",
+    "description": "Por su inusual forma estrellada, la gente cree que procede de un meteorito que cayó a la tierra.",
+    "abilities": [
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-guard",
+        "name": "magic guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "friend-guard",
+        "name": "friend guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 25,
+      "defense": 28,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 15,
+      "total": 218
+    }
+  },
+  {
+    "id": 174,
+    "name": "igglybuff",
+    "displayName": "Igglybuff",
+    "formattedId": "Nº 0174",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/174.png",
+    "height": "0.3",
+    "weight": "1.0",
+    "generation": 2,
+    "evolutionChainId": 16,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Balloon Pokémon ",
+    "description": "Se desplaza dando botes con su cuerpo mullido. Cuando aumenta su temperatura corporal, se va poniendo de un color rosa cada vez más intenso.",
+    "abilities": [
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": false
+      },
+      {
+        "raw": "friend-guard",
+        "name": "friend guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 30,
+      "defense": 15,
+      "spAttack": 40,
+      "spDefense": 20,
+      "speed": 15,
+      "total": 210
+    }
+  },
+  {
+    "id": 175,
+    "name": "togepi",
+    "displayName": "Togepi",
+    "formattedId": "Nº 0175",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png",
+    "height": "0.3",
+    "weight": "1.5",
+    "generation": 2,
+    "evolutionChainId": 87,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spike Ball Pokémon ",
+    "description": "Se lo considera un símbolo de buena suerte y, según se dice, su cascarón está lleno de alegría.",
+    "abilities": [
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": false
+      },
+      {
+        "raw": "super-luck",
+        "name": "super luck",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 20,
+      "defense": 65,
+      "spAttack": 40,
+      "spDefense": 65,
+      "speed": 20,
+      "total": 245
+    }
+  },
+  {
+    "id": 176,
+    "name": "togetic",
+    "displayName": "Togetic",
+    "formattedId": "Nº 0176",
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/176.png",
+    "height": "0.6",
+    "weight": "3.2",
+    "generation": 2,
+    "evolutionChainId": 87,
+    "evolvesFrom": 175,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Happiness Pokémon ",
+    "description": "Si no está con gente amable, se entristece. Puede flotar en el aire sin mover las alas.",
+    "abilities": [
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": false
+      },
+      {
+        "raw": "super-luck",
+        "name": "super luck",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 40,
+      "defense": 85,
+      "spAttack": 80,
+      "spDefense": 105,
+      "speed": 40,
+      "total": 405
+    }
+  },
+  {
+    "id": 177,
+    "name": "natu",
+    "displayName": "Natu",
+    "formattedId": "Nº 0177",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/177.png",
+    "height": "0.2",
+    "weight": "2.0",
+    "generation": 2,
+    "evolutionChainId": 88,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Passarinho",
+    "description": "Se desplaza dando saltitos porque sus alas no han crecido lo suficiente. Siempre está mirando algo fijamente.",
+    "abilities": [
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-bounce",
+        "name": "magic bounce",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 45,
+      "spAttack": 70,
+      "spDefense": 45,
+      "speed": 70,
+      "total": 320
+    }
+  },
+  {
+    "id": 178,
+    "name": "xatu",
+    "displayName": "Xatu",
+    "formattedId": "Nº 0178",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/178.png",
+    "height": "1.5",
+    "weight": "15.0",
+    "generation": 2,
+    "evolutionChainId": 88,
+    "evolvesFrom": 177,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mystic Pokémon ",
+    "description": "Este extraño Pokémon puede ver el pasado y el futuro. Se pasa el día mirando al sol.",
+    "abilities": [
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-bounce",
+        "name": "magic bounce",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 70,
+      "spAttack": 95,
+      "spDefense": 70,
+      "speed": 95,
+      "total": 470
+    }
+  },
+  {
+    "id": 179,
+    "name": "mareep",
+    "displayName": "Mareep",
+    "formattedId": "Nº 0179",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
+    "height": "0.6",
+    "weight": "7.8",
+    "generation": 2,
+    "evolutionChainId": 89,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lã",
+    "description": "Su lana acumula electricidad estática con la fricción. Al ser tan adorable, la gente se acerca para acariciarlo y se lleva un doloroso chispazo.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "plus",
+        "name": "plus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 40,
+      "defense": 40,
+      "spAttack": 65,
+      "spDefense": 45,
+      "speed": 35,
+      "total": 280
+    }
+  },
+  {
+    "id": 180,
+    "name": "flaaffy",
+    "displayName": "Flaaffy",
+    "formattedId": "Nº 0180",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png",
+    "height": "0.8",
+    "weight": "13.3",
+    "generation": 2,
+    "evolutionChainId": 89,
+    "evolvesFrom": 179,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lã",
+    "description": "Su lana sedosa acumula tanta electricidad que algunas partes de su cuerpo se han quedado desprovistas de pelo.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "plus",
+        "name": "plus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 80,
+      "spDefense": 60,
+      "speed": 45,
+      "total": 365
+    }
+  },
+  {
+    "id": 181,
+    "name": "ampharos",
+    "displayName": "Ampharos",
+    "formattedId": "Nº 0181",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
+    "height": "1.4",
+    "weight": "61.5",
+    "generation": 2,
+    "evolutionChainId": 89,
+    "evolvesFrom": 180,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Luz",
+    "description": "Su cola emite un brillo claro e intenso. Se lo venera desde tiempos remotos como guía de los marineros.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "plus",
+        "name": "plus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 75,
+      "defense": 85,
+      "spAttack": 115,
+      "spDefense": 90,
+      "speed": 55,
+      "total": 510
+    }
+  },
+  {
+    "id": 182,
+    "name": "bellossom",
+    "displayName": "Bellossom",
+    "formattedId": "Nº 0182",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/182.png",
+    "height": "0.4",
+    "weight": "5.8",
+    "generation": 2,
+    "evolutionChainId": 18,
+    "evolvesFrom": 44,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Flor",
+    "description": "Los Bellossom se reúnen en ocasiones para ejecutar una especie de danza, considerada un ritual para invocar al sol.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "healer",
+        "name": "healer",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 95,
+      "spAttack": 90,
+      "spDefense": 100,
+      "speed": 50,
+      "total": 490
+    }
+  },
+  {
+    "id": 183,
+    "name": "marill",
+    "displayName": "Marill",
+    "formattedId": "Nº 0183",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/183.png",
+    "height": "0.4",
+    "weight": "8.5",
+    "generation": 2,
+    "evolutionChainId": 90,
+    "evolvesFrom": 298,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Aqua Mouse Pokémon ",
+    "description": "Su pelaje repele el agua, lo que evita que pase frío al salir de mares gélidos porque se seca al momento.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "huge-power",
+        "name": "huge power",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 20,
+      "defense": 50,
+      "spAttack": 20,
+      "spDefense": 50,
+      "speed": 40,
+      "total": 250
+    }
+  },
+  {
+    "id": 184,
+    "name": "azumarill",
+    "displayName": "Azumarill",
+    "formattedId": "Nº 0184",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/184.png",
+    "height": "0.8",
+    "weight": "28.5",
+    "generation": 2,
+    "evolutionChainId": 90,
+    "evolvesFrom": 183,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Aqua Rabbit Pokémon ",
+    "description": "Crea burbujas llenas de aire con las que cubre a los Azurill cuando juegan en el río.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "huge-power",
+        "name": "huge power",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 50,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 80,
+      "speed": 50,
+      "total": 420
+    }
+  },
+  {
+    "id": 185,
+    "name": "sudowoodo",
+    "displayName": "Sudowoodo",
+    "formattedId": "Nº 0185",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png",
+    "height": "1.2",
+    "weight": "38.0",
+    "generation": 2,
+    "evolutionChainId": 91,
+    "evolvesFrom": 438,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Imitation Pokémon ",
+    "description": "Finge ser un árbol para evitar que lo ataquen. Odia tanto el agua que desaparecerá si empieza a llover.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 100,
+      "defense": 115,
+      "spAttack": 30,
+      "spDefense": 65,
+      "speed": 30,
+      "total": 410
+    }
+  },
+  {
+    "id": 186,
+    "name": "politoed",
+    "displayName": "Politoed",
+    "formattedId": "Nº 0186",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/186.png",
+    "height": "1.1",
+    "weight": "33.9",
+    "generation": 2,
+    "evolutionChainId": 26,
+    "evolvesFrom": 61,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Frog Pokémon ",
+    "description": "Los machos emiten gritos muy potentes. Las hembras sienten predilección por los de voz grave e imponente.",
+    "abilities": [
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "raw": "drizzle",
+        "name": "drizzle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 75,
+      "defense": 75,
+      "spAttack": 90,
+      "spDefense": 100,
+      "speed": 70,
+      "total": 500
+    }
+  },
+  {
+    "id": 187,
+    "name": "hoppip",
+    "displayName": "Hoppip",
+    "formattedId": "Nº 0187",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/187.png",
+    "height": "0.4",
+    "weight": "0.5",
+    "generation": 2,
+    "evolutionChainId": 92,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cottonweed Pokémon ",
+    "description": "Este Pokémon flota en el aire y se deja llevar. Cuando percibe que el viento va a cambiar a fuerte, Hoppip entrelaza sus hojas con otros Hoppip para hacer resistencia y evitar salir volando por la fuerza de la corriente.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 35,
+      "defense": 40,
+      "spAttack": 35,
+      "spDefense": 55,
+      "speed": 50,
+      "total": 250
+    }
+  },
+  {
+    "id": 188,
+    "name": "skiploom",
+    "displayName": "Skiploom",
+    "formattedId": "Nº 0188",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/188.png",
+    "height": "0.6",
+    "weight": "1.0",
+    "generation": 2,
+    "evolutionChainId": 92,
+    "evolvesFrom": 187,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cottonweed Pokémon ",
+    "description": "Skiploom florece cuando la temperatura llega a 18 °C. La apertura de los pétalos varía según la temperatura que haga. Por este motivo, la gente lo usa a veces a modo de termómetro.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 45,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 65,
+      "speed": 80,
+      "total": 340
+    }
+  },
+  {
+    "id": 189,
+    "name": "jumpluff",
+    "displayName": "Jumpluff",
+    "formattedId": "Nº 0189",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/189.png",
+    "height": "0.8",
+    "weight": "3.0",
+    "generation": 2,
+    "evolutionChainId": 92,
+    "evolvesFrom": 188,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cottonweed Pokémon ",
+    "description": "Jumpluff se vale de los cálidos vientos del sur para volar a tierras lejanas. Si llega a zonas de aire frío en pleno vuelo, descenderá y tomará tierra.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 55,
+      "defense": 70,
+      "spAttack": 55,
+      "spDefense": 95,
+      "speed": 110,
+      "total": 460
+    }
+  },
+  {
+    "id": 190,
+    "name": "aipom",
+    "displayName": "Aipom",
+    "formattedId": "Nº 0190",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/190.png",
+    "height": "0.8",
+    "weight": "11.5",
+    "generation": 2,
+    "evolutionChainId": 93,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Long Tail Pokémon ",
+    "description": "Sube a las copas de los árboles para buscar presas. Si encuentra un Bounsweet, su manjar predilecto, se alboroza y se abalanza sobre él.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "skill-link",
+        "name": "skill link",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 55,
+      "spAttack": 40,
+      "spDefense": 55,
+      "speed": 85,
+      "total": 360
+    }
+  },
+  {
+    "id": 191,
+    "name": "sunkern",
+    "displayName": "Sunkern",
+    "formattedId": "Nº 0191",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/191.png",
+    "height": "0.3",
+    "weight": "1.8",
+    "generation": 2,
+    "evolutionChainId": 94,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Semente",
+    "description": "Sunkern intenta moverse lo menos posible para conservar todos los nutrientes que ha guardado en su interior y poder evolucionar. Ni come siquiera; se alimenta solo del rocío de la mañana.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "solar-power",
+        "name": "solar power",
+        "is_hidden": false
+      },
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 30,
+      "defense": 30,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 30,
+      "total": 180
+    }
+  },
+  {
+    "id": 192,
+    "name": "sunflora",
+    "displayName": "Sunflora",
+    "formattedId": "Nº 0192",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/192.png",
+    "height": "0.8",
+    "weight": "8.5",
+    "generation": 2,
+    "evolutionChainId": 94,
+    "evolvesFrom": 191,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Sol",
+    "description": "Sunflora transforma la energía solar en nutrientes. De día, cuando hace calor, está en continuo movimiento. Solo para cuando comienza a anochecer.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "solar-power",
+        "name": "solar power",
+        "is_hidden": false
+      },
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 55,
+      "spAttack": 105,
+      "spDefense": 85,
+      "speed": 30,
+      "total": 425
+    }
+  },
+  {
+    "id": 193,
+    "name": "yanma",
+    "displayName": "Yanma",
+    "formattedId": "Nº 0193",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/193.png",
+    "height": "1.2",
+    "weight": "38.0",
+    "generation": 2,
+    "evolutionChainId": 95,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Clear Wing Pokémon ",
+    "description": "Yanma tiene un ángulo de visión de 360° sin mover los ojos. Es un gran volador, experto en hacer repentinas paradas y cambios de dirección en el aire. Aprovecha la habilidad que tiene de volar para lanzarse sobre su presa.",
+    "abilities": [
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": false
+      },
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 45,
+      "spAttack": 75,
+      "spDefense": 45,
+      "speed": 95,
+      "total": 390
+    }
+  },
+  {
+    "id": 194,
+    "name": "wooper",
+    "displayName": "Wooper",
+    "formattedId": "Nº 0194",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png",
+    "height": "0.4",
+    "weight": "8.5",
+    "generation": 2,
+    "evolutionChainId": 96,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Water Fish Pokémon ",
+    "description": "Cuando se desplaza en tierra firme, cubre su cuerpo con una membrana mucosa y venenosa para mantener hidratada la piel.",
+    "abilities": [
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 45,
+      "defense": 45,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 15,
+      "total": 210
+    }
+  },
+  {
+    "id": 195,
+    "name": "quagsire",
+    "displayName": "Quagsire",
+    "formattedId": "Nº 0195",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/195.png",
+    "height": "1.4",
+    "weight": "75.0",
+    "generation": 2,
+    "evolutionChainId": 96,
+    "evolvesFrom": 194,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Water Fish Pokémon ",
+    "description": "Su cuerpo siempre resulta escurridizo al tacto. Suele chocarse contra el lecho del río al nadar, pero no le importa demasiado.",
+    "abilities": [
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 85,
+      "defense": 85,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 35,
+      "total": 430
+    }
+  },
+  {
+    "id": 196,
+    "name": "espeon",
+    "displayName": "Espeon",
+    "formattedId": "Nº 0196",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
+    "height": "0.9",
+    "weight": "26.5",
+    "generation": 2,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Sol",
+    "description": "Lucha con los poderes psíquicos que brotan de la esfera de su frente, que se oscurece cuando su energía disminuye.",
+    "abilities": [
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-bounce",
+        "name": "magic bounce",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 130,
+      "spDefense": 95,
+      "speed": 110,
+      "total": 525
+    }
+  },
+  {
+    "id": 197,
+    "name": "umbreon",
+    "displayName": "Umbreon",
+    "formattedId": "Nº 0197",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
+    "height": "1.0",
+    "weight": "27.0",
+    "generation": 2,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Luar",
+    "description": "En las noches de luna llena, o cuando se exalta, le empiezan a brillar los anillos de color dorado.",
+    "abilities": [
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 110,
+      "spAttack": 60,
+      "spDefense": 130,
+      "speed": 65,
+      "total": 525
+    }
+  },
+  {
+    "id": 198,
+    "name": "murkrow",
+    "displayName": "Murkrow",
+    "formattedId": "Nº 0198",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/198.png",
+    "height": "0.5",
+    "weight": "2.1",
+    "generation": 2,
+    "evolutionChainId": 97,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Escuridão",
+    "description": "Busca objetos brillantes para su patrón. No cuenta con muchas simpatías, pues la gente lo considera ave de mal agüero.",
+    "abilities": [
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "super-luck",
+        "name": "super luck",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 42,
+      "spAttack": 85,
+      "spDefense": 42,
+      "speed": 91,
+      "total": 405
+    }
+  },
+  {
+    "id": 199,
+    "name": "slowking",
+    "displayName": "Slowking",
+    "formattedId": "Nº 0199",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
+    "height": "2.0",
+    "weight": "79.5",
+    "generation": 2,
+    "evolutionChainId": 33,
+    "evolvesFrom": 79,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Royal Pokémon ",
+    "description": "Es capaz de dar respuesta a cualquier cuestión que se le formule, pero, por desgracia, nadie logra descifrar una sola palabra de lo que dice.",
+    "abilities": [
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 80,
+      "spAttack": 100,
+      "spDefense": 110,
+      "speed": 30,
+      "total": 490
+    }
+  },
+  {
+    "id": 200,
+    "name": "misdreavus",
+    "displayName": "Misdreavus",
+    "formattedId": "Nº 0200",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png",
+    "height": "0.7",
+    "weight": "1.0",
+    "generation": 2,
+    "evolutionChainId": 98,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Screech Pokémon ",
+    "description": "Disfruta imitando llantos humanos para asustar a la gente. Los valientes no le caen demasiado bien.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 85,
+      "spDefense": 85,
+      "speed": 85,
+      "total": 435
+    }
+  },
+  {
+    "id": 201,
+    "name": "unown",
+    "displayName": "Unown",
+    "formattedId": "Nº 0201",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
+    "height": "0.5",
+    "weight": "5.0",
+    "generation": 2,
+    "evolutionChainId": 99,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Symbol Pokémon ",
+    "description": "Estos Pokémon tienen forma de caracteres antiguos. No se sabe qué surgió primero, si la vieja escritura o los distintos Unown. Esta cuestión sigue siendo objeto de estudio, pero aún no se ha averiguado nada.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 72,
+      "defense": 48,
+      "spAttack": 72,
+      "spDefense": 48,
+      "speed": 48,
+      "total": 336
+    }
+  },
+  {
+    "id": 202,
+    "name": "wobbuffet",
+    "displayName": "Wobbuffet",
+    "formattedId": "Nº 0202",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png",
+    "height": "1.3",
+    "weight": "28.5",
+    "generation": 2,
+    "evolutionChainId": 100,
+    "evolvesFrom": 360,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Patient Pokémon ",
+    "description": "Para mantener oculta su negra cola, vive en silencio en la oscuridad. Nunca ataca primero.",
+    "abilities": [
+      {
+        "raw": "shadow-tag",
+        "name": "shadow tag",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 190,
+      "attack": 33,
+      "defense": 58,
+      "spAttack": 33,
+      "spDefense": 58,
+      "speed": 33,
+      "total": 405
+    }
+  },
+  {
+    "id": 203,
+    "name": "girafarig",
+    "displayName": "Girafarig",
+    "formattedId": "Nº 0203",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/203.png",
+    "height": "1.5",
+    "weight": "41.5",
+    "generation": 2,
+    "evolutionChainId": 101,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Long Neck Pokémon ",
+    "description": "La cabeza trasera de Girafarig tiene un cerebro muy pequeño para pensar, pero, como no le hace falta dormir, al menos puede hacer de centinela las 24 horas del día.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 65,
+      "spAttack": 90,
+      "spDefense": 65,
+      "speed": 85,
+      "total": 455
+    }
+  },
+  {
+    "id": 204,
+    "name": "pineco",
+    "displayName": "Pineco",
+    "formattedId": "Nº 0204",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/204.png",
+    "height": "0.6",
+    "weight": "7.2",
+    "generation": 2,
+    "evolutionChainId": 102,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bagworm Pokémon ",
+    "description": "Usa saliva para adherir corteza de árbol a su cuerpo y así aumentar de volumen. Con la edad puede alcanzar un tamaño gigantesco.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 90,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 15,
+      "total": 290
+    }
+  },
+  {
+    "id": 205,
+    "name": "forretress",
+    "displayName": "Forretress",
+    "formattedId": "Nº 0205",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/205.png",
+    "height": "1.2",
+    "weight": "125.8",
+    "generation": 2,
+    "evolutionChainId": 102,
+    "evolvesFrom": 204,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bagworm Pokémon ",
+    "description": "El momento en el que engulle a su presa es el único instante donde muestra su cuerpo, pero hasta ahora ningún humano lo ha visto.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 140,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 40,
+      "total": 465
+    }
+  },
+  {
+    "id": 206,
+    "name": "dunsparce",
+    "displayName": "Dunsparce",
+    "formattedId": "Nº 0206",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/206.png",
+    "height": "1.5",
+    "weight": "14.0",
+    "generation": 2,
+    "evolutionChainId": 103,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Land Snake Pokémon ",
+    "description": "Habita en madrigueras laberínticas. Gracias a su capacidad para ubicarse por el olor de la tierra que lo rodea, nunca se pierde.",
+    "abilities": [
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": false
+      },
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 70,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 45,
+      "total": 415
+    }
+  },
+  {
+    "id": 207,
+    "name": "gligar",
+    "displayName": "Gligar",
+    "formattedId": "Nº 0207",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/207.png",
+    "height": "1.1",
+    "weight": "64.8",
+    "generation": 2,
+    "evolutionChainId": 104,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fly Scorpion Pokémon ",
+    "description": "Gligar planea por el aire sin hacer ningún ruido, como si fuera patinando. Este Pokémon se agarra a la cara de su rival con las patas traseras, con forma de garra, y las pinzas de las delanteras y le inyecta veneno por el aguijón.",
+    "abilities": [
+      {
+        "raw": "hyper-cutter",
+        "name": "hyper cutter",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "immunity",
+        "name": "immunity",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 105,
+      "spAttack": 35,
+      "spDefense": 65,
+      "speed": 85,
+      "total": 430
+    }
+  },
+  {
+    "id": 208,
+    "name": "steelix",
+    "displayName": "Steelix",
+    "formattedId": "Nº 0208",
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
+    "height": "9.2",
+    "weight": "400.0",
+    "generation": 2,
+    "evolutionChainId": 41,
+    "evolvesFrom": 95,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Iron Snake Pokémon ",
+    "description": "Se cree que su cuerpo se ha ido transformando por el hierro acumulado en la tierra que ha ingerido.",
+    "abilities": [
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 85,
+      "defense": 200,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 30,
+      "total": 510
+    }
+  },
+  {
+    "id": 209,
+    "name": "snubbull",
+    "displayName": "Snubbull",
+    "formattedId": "Nº 0209",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/209.png",
+    "height": "0.6",
+    "weight": "7.8",
+    "generation": 2,
+    "evolutionChainId": 105,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Fada",
+    "description": "A pesar de su aspecto, es muy tímido y afable. A menudo es objeto de burla cuando se junta con Pokémon Perrito.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 30,
+      "total": 300
+    }
+  },
+  {
+    "id": 210,
+    "name": "granbull",
+    "displayName": "Granbull",
+    "formattedId": "Nº 0210",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/210.png",
+    "height": "1.4",
+    "weight": "48.7",
+    "generation": 2,
+    "evolutionChainId": 105,
+    "evolvesFrom": 209,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Fada",
+    "description": "Es muy popular entre la gente joven, pero su personalidad afable y algo miedosa hacen de él un pésimo guardián.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "quick-feet",
+        "name": "quick feet",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 75,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 45,
+      "total": 450
+    }
+  },
+  {
+    "id": 211,
+    "name": "qwilfish",
+    "displayName": "Qwilfish",
+    "formattedId": "Nº 0211",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png",
+    "height": "0.5",
+    "weight": "3.9",
+    "generation": 2,
+    "evolutionChainId": 106,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Balloon Pokémon ",
+    "description": "Las pequeñas púas que cubren su cuerpo eran escamas. Inyectan una toxina que hace perder el conocimiento.",
+    "abilities": [
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 85,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 85,
+      "total": 440
+    }
+  },
+  {
+    "id": 212,
+    "name": "scizor",
+    "displayName": "Scizor",
+    "formattedId": "Nº 0212",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
+    "height": "1.8",
+    "weight": "118.0",
+    "generation": 2,
+    "evolutionChainId": 58,
+    "evolvesFrom": 123,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Pinça",
+    "description": "Su potencia de ataque, que asombra dada su delgadez, se debe a que sus músculos están hechos de metal.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "raw": "light-metal",
+        "name": "light metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 100,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 65,
+      "total": 500
+    }
+  },
+  {
+    "id": 213,
+    "name": "shuckle",
+    "displayName": "Shuckle",
+    "formattedId": "Nº 0213",
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/213.png",
+    "height": "0.6",
+    "weight": "20.5",
+    "generation": 2,
+    "evolutionChainId": 107,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mold Pokémon ",
+    "description": "Las bayas que almacena en su caparazón con forma de vasija se convierten al final en un espeso zumo.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 230,
+      "spAttack": 10,
+      "spDefense": 230,
+      "speed": 5,
+      "total": 505
+    }
+  },
+  {
+    "id": 214,
+    "name": "heracross",
+    "displayName": "Heracross",
+    "formattedId": "Nº 0214",
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
+    "height": "1.5",
+    "weight": "54.0",
+    "generation": 2,
+    "evolutionChainId": 108,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Single Horn Pokémon ",
+    "description": "Este Pokémon muestra una fuerza hercúlea, que le permite levantar cien veces su propio peso sin inmutarse.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 125,
+      "defense": 75,
+      "spAttack": 40,
+      "spDefense": 95,
+      "speed": 85,
+      "total": 500
+    }
+  },
+  {
+    "id": 215,
+    "name": "sneasel",
+    "displayName": "Sneasel",
+    "formattedId": "Nº 0215",
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
+    "height": "0.9",
+    "weight": "28.0",
+    "generation": 2,
+    "evolutionChainId": 109,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sharp Claw Pokémon ",
+    "description": "Es un Pokémon de naturaleza astuta y fiera. Se cuela en los nidos de otros Pokémon cuando no están y roba sus huevos.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 55,
+      "spAttack": 35,
+      "spDefense": 75,
+      "speed": 115,
+      "total": 430
+    }
+  },
+  {
+    "id": 216,
+    "name": "teddiursa",
+    "displayName": "Teddiursa",
+    "formattedId": "Nº 0216",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/216.png",
+    "height": "0.6",
+    "weight": "8.8",
+    "generation": 2,
+    "evolutionChainId": 110,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Little Bear Pokémon ",
+    "description": "A Teddiursa le encanta chuparse las palmas impregnadas de dulce miel. Este Pokémon fabrica su propia miel mezclando frutos y el polen que recoge Beedrill.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "quick-feet",
+        "name": "quick feet",
+        "is_hidden": false
+      },
+      {
+        "raw": "honey-gather",
+        "name": "honey gather",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 40,
+      "total": 330
+    }
+  },
+  {
+    "id": 217,
+    "name": "ursaring",
+    "displayName": "Ursaring",
+    "formattedId": "Nº 0217",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/217.png",
+    "height": "1.8",
+    "weight": "125.8",
+    "generation": 2,
+    "evolutionChainId": 110,
+    "evolvesFrom": 216,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hibernator Pokémon ",
+    "description": "En los bosques habitados por Ursaring, dicen que abundan los arroyos y árboles gigantes en los que guardan su alimento. Este Pokémon se dedica todos los días a pasear por el bosque para buscar comida y guardarla.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "quick-feet",
+        "name": "quick feet",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 75,
+      "spAttack": 75,
+      "spDefense": 75,
+      "speed": 55,
+      "total": 500
+    }
+  },
+  {
+    "id": 218,
+    "name": "slugma",
+    "displayName": "Slugma",
+    "formattedId": "Nº 0218",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png",
+    "height": "0.7",
+    "weight": "35.0",
+    "generation": 2,
+    "evolutionChainId": 111,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Lava Pokémon ",
+    "description": "Slugma no tiene sangre en su organismo, sino ardiente magma que hace circular por todo el cuerpo los nutrientes y el oxígeno que necesitan sus órganos.",
+    "abilities": [
+      {
+        "raw": "magma-armor",
+        "name": "magma armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 40,
+      "spAttack": 70,
+      "spDefense": 40,
+      "speed": 20,
+      "total": 250
+    }
+  },
+  {
+    "id": 219,
+    "name": "magcargo",
+    "displayName": "Magcargo",
+    "formattedId": "Nº 0219",
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/219.png",
+    "height": "0.8",
+    "weight": "55.0",
+    "generation": 2,
+    "evolutionChainId": 111,
+    "evolvesFrom": 218,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Lava Pokémon ",
+    "description": "Magcargo tiene una temperatura corporal de 1000 °C aproximadamente. El agua se evapora al contacto con él. Si llueve, las gotas que le rozan se transforman en vapor al instante y crean una densa niebla.",
+    "abilities": [
+      {
+        "raw": "magma-armor",
+        "name": "magma armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 120,
+      "spAttack": 90,
+      "spDefense": 80,
+      "speed": 30,
+      "total": 430
+    }
+  },
+  {
+    "id": 220,
+    "name": "swinub",
+    "displayName": "Swinub",
+    "formattedId": "Nº 0220",
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/220.png",
+    "height": "0.4",
+    "weight": "6.5",
+    "generation": 2,
+    "evolutionChainId": 112,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pig Pokémon ",
+    "description": "Si percibe un aroma tentador, se lanza de cabeza sin pensárselo dos veces para hallar su origen.",
+    "abilities": [
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 40,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 50,
+      "total": 250
+    }
+  },
+  {
+    "id": 221,
+    "name": "piloswine",
+    "displayName": "Piloswine",
+    "formattedId": "Nº 0221",
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/221.png",
+    "height": "1.1",
+    "weight": "55.8",
+    "generation": 2,
+    "evolutionChainId": 112,
+    "evolvesFrom": 220,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Swine Pokémon ",
+    "description": "Aunque tiene las patas cortas, sus fuertes pezuñas le permiten caminar por la nieve sin resbalar.",
+    "abilities": [
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 50,
+      "total": 450
+    }
+  },
+  {
+    "id": 222,
+    "name": "corsola",
+    "displayName": "Corsola",
+    "formattedId": "Nº 0222",
+    "types": [
+      "water",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/222.png",
+    "height": "0.6",
+    "weight": "5.0",
+    "generation": 2,
+    "evolutionChainId": 113,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Coral Pokémon ",
+    "description": "Habita en mares cálidos. Antiguamente vivían en las aguas costeras de Galar un gran número de ejemplares.",
+    "abilities": [
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 95,
+      "spAttack": 65,
+      "spDefense": 95,
+      "speed": 35,
+      "total": 410
+    }
+  },
+  {
+    "id": 223,
+    "name": "remoraid",
+    "displayName": "Remoraid",
+    "formattedId": "Nº 0223",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/223.png",
+    "height": "0.6",
+    "weight": "12.0",
+    "generation": 2,
+    "evolutionChainId": 114,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Jet Pokémon ",
+    "description": "Usa su aleta dorsal a modo de ventosa para aferrarse a un Mantine en busca de restos de comida.",
+    "abilities": [
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "raw": "moody",
+        "name": "moody",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 65,
+      "defense": 35,
+      "spAttack": 65,
+      "spDefense": 35,
+      "speed": 65,
+      "total": 300
+    }
+  },
+  {
+    "id": 224,
+    "name": "octillery",
+    "displayName": "Octillery",
+    "formattedId": "Nº 0224",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/224.png",
+    "height": "0.9",
+    "weight": "28.5",
+    "generation": 2,
+    "evolutionChainId": 114,
+    "evolvesFrom": 223,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Jet Pokémon ",
+    "description": "Atrapa a sus enemigos con los tentáculos y después los golpea con su dura cabeza.",
+    "abilities": [
+      {
+        "raw": "suction-cups",
+        "name": "suction cups",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "raw": "moody",
+        "name": "moody",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 105,
+      "defense": 75,
+      "spAttack": 105,
+      "spDefense": 75,
+      "speed": 45,
+      "total": 480
+    }
+  },
+  {
+    "id": 225,
+    "name": "delibird",
+    "displayName": "Delibird",
+    "formattedId": "Nº 0225",
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png",
+    "height": "0.9",
+    "weight": "16.0",
+    "generation": 2,
+    "evolutionChainId": 115,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Delivery Pokémon ",
+    "description": "Tiene la costumbre de compartir su comida con todo el mundo, sea humano o Pokémon, por lo que está constantemente en busca de alimento.",
+    "abilities": [
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": false
+      },
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 55,
+      "defense": 45,
+      "spAttack": 65,
+      "spDefense": 45,
+      "speed": 75,
+      "total": 330
+    }
+  },
+  {
+    "id": 226,
+    "name": "mantine",
+    "displayName": "Mantine",
+    "formattedId": "Nº 0226",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/226.png",
+    "height": "2.1",
+    "weight": "220.0",
+    "generation": 2,
+    "evolutionChainId": 116,
+    "evolvesFrom": 458,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Kite Pokémon ",
+    "description": "Mientras nada plácidamente, no le importa que los Remoraid se aferren a él para comerse sus sobras.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 40,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 140,
+      "speed": 70,
+      "total": 485
+    }
+  },
+  {
+    "id": 227,
+    "name": "skarmory",
+    "displayName": "Skarmory",
+    "formattedId": "Nº 0227",
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
+    "height": "1.7",
+    "weight": "50.5",
+    "generation": 2,
+    "evolutionChainId": 117,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Armor Bird Pokémon ",
+    "description": "Aparece a menudo en escudos heráldicos, pues se pueden forjar espadas a partir de las plumas que pierde.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 80,
+      "defense": 140,
+      "spAttack": 40,
+      "spDefense": 70,
+      "speed": 70,
+      "total": 465
+    }
+  },
+  {
+    "id": 228,
+    "name": "houndour",
+    "displayName": "Houndour",
+    "formattedId": "Nº 0228",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
+    "height": "0.6",
+    "weight": "10.8",
+    "generation": 2,
+    "evolutionChainId": 118,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Dark Pokémon ",
+    "description": "Los escalofriantes aullidos que profiere justo antes del alba son para señalar la presencia de su manada.",
+    "abilities": [
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 60,
+      "defense": 30,
+      "spAttack": 80,
+      "spDefense": 50,
+      "speed": 65,
+      "total": 330
+    }
+  },
+  {
+    "id": 229,
+    "name": "houndoom",
+    "displayName": "Houndoom",
+    "formattedId": "Nº 0229",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
+    "height": "1.4",
+    "weight": "35.0",
+    "generation": 2,
+    "evolutionChainId": 118,
+    "evolvesFrom": 228,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Dark Pokémon ",
+    "description": "Su rasgo distintivo son los escalofriantes aullidos que profiere. Antiguamente, era temido y considerado un emisario del inframundo.",
+    "abilities": [
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 50,
+      "spAttack": 110,
+      "spDefense": 80,
+      "speed": 95,
+      "total": 500
+    }
+  },
+  {
+    "id": 230,
+    "name": "kingdra",
+    "displayName": "Kingdra",
+    "formattedId": "Nº 0230",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/230.png",
+    "height": "1.8",
+    "weight": "152.0",
+    "generation": 2,
+    "evolutionChainId": 54,
+    "evolvesFrom": 117,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Dragão",
+    "description": "Las escamas que se le desprenden poseen una calidad tan excelsa y un resplandor tan intenso que han sido ofrecidas a la realeza como regalos.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 95,
+      "spAttack": 95,
+      "spDefense": 95,
+      "speed": 85,
+      "total": 540
+    }
+  },
+  {
+    "id": 231,
+    "name": "phanpy",
+    "displayName": "Phanpy",
+    "formattedId": "Nº 0231",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/231.png",
+    "height": "0.5",
+    "weight": "33.5",
+    "generation": 2,
+    "evolutionChainId": 119,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Long Nose Pokémon ",
+    "description": "Phanpy se vale de la trompa para ducharse. Cuando varios se agrupan, se dedican a echarse agua unos a otros. Es muy fácil ver a estos Pokémon secándose cerca del agua.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 40,
+      "total": 330
+    }
+  },
+  {
+    "id": 232,
+    "name": "donphan",
+    "displayName": "Donphan",
+    "formattedId": "Nº 0232",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/232.png",
+    "height": "1.1",
+    "weight": "120.0",
+    "generation": 2,
+    "evolutionChainId": 119,
+    "evolvesFrom": 231,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Armor Pokémon ",
+    "description": "Si Donphan tuviera que dar un golpe con todo el cuerpo, con lo robusto que es echaría abajo hasta una casa. Estos Pokémon usan su fuerza para ayudar a despejar pasos de montaña cuando hay piedras o lodo.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 120,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 50,
+      "total": 500
+    }
+  },
+  {
+    "id": 233,
+    "name": "porygon2",
+    "displayName": "Porygon2",
+    "formattedId": "Nº 0233",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/233.png",
+    "height": "0.6",
+    "weight": "32.5",
+    "generation": 2,
+    "evolutionChainId": 68,
+    "evolvesFrom": 137,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Virtual",
+    "description": "Al dotarlo de inteligencia artificial, desarrolló un misterioso lenguaje que solo los miembros de su especie son capaces de comprender.",
+    "abilities": [
+      {
+        "raw": "trace",
+        "name": "trace",
+        "is_hidden": false
+      },
+      {
+        "raw": "download",
+        "name": "download",
+        "is_hidden": false
+      },
+      {
+        "raw": "analytic",
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 90,
+      "spAttack": 105,
+      "spDefense": 95,
+      "speed": 60,
+      "total": 515
+    }
+  },
+  {
+    "id": 234,
+    "name": "stantler",
+    "displayName": "Stantler",
+    "formattedId": "Nº 0234",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/234.png",
+    "height": "1.4",
+    "weight": "71.2",
+    "generation": 2,
+    "evolutionChainId": 120,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big Horn Pokémon ",
+    "description": "Hace tiempo, se comerciaba con la magnífica cornamenta de Stantler. Se vendía como obra de arte a alto precio. Los interesados en cornamentas de valor incalculable empezaron a cazarlos y casi provocan su extinción.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 95,
+      "defense": 62,
+      "spAttack": 85,
+      "spDefense": 65,
+      "speed": 85,
+      "total": 465
+    }
+  },
+  {
+    "id": 235,
+    "name": "smeargle",
+    "displayName": "Smeargle",
+    "formattedId": "Nº 0235",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
+    "height": "1.2",
+    "weight": "58.0",
+    "generation": 2,
+    "evolutionChainId": 121,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Painter Pokémon ",
+    "description": "Dibuja marcas con el líquido que secreta por la cola. Algunos de sus admiradores han llegado a pagar auténticas fortunas por ellas.",
+    "abilities": [
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "raw": "moody",
+        "name": "moody",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 20,
+      "defense": 35,
+      "spAttack": 20,
+      "spDefense": 45,
+      "speed": 75,
+      "total": 250
+    }
+  },
+  {
+    "id": 236,
+    "name": "tyrogue",
+    "displayName": "Tyrogue",
+    "formattedId": "Nº 0236",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/236.png",
+    "height": "0.7",
+    "weight": "21.0",
+    "generation": 2,
+    "evolutionChainId": 47,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scuffle Pokémon ",
+    "description": "Su pequeño tamaño no debe ser motivo para subestimarlo, ya que se liará de inmediato a golpes con cualquier rival que estime oportuno.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "steadfast",
+        "name": "steadfast",
+        "is_hidden": false
+      },
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 35,
+      "defense": 35,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 35,
+      "total": 210
+    }
+  },
+  {
+    "id": 237,
+    "name": "hitmontop",
+    "displayName": "Hitmontop",
+    "formattedId": "Nº 0237",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/237.png",
+    "height": "1.4",
+    "weight": "48.0",
+    "generation": 2,
+    "evolutionChainId": 47,
+    "evolvesFrom": 236,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Handstand Pokémon ",
+    "description": "Tras hacer el pino para desconcertar a su rival, comienza a propinar sus espectaculares patadas.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "raw": "steadfast",
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 95,
+      "spAttack": 35,
+      "spDefense": 110,
+      "speed": 70,
+      "total": 455
+    }
+  },
+  {
+    "id": 238,
+    "name": "smoochum",
+    "displayName": "Smoochum",
+    "formattedId": "Nº 0238",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/238.png",
+    "height": "0.4",
+    "weight": "6.0",
+    "generation": 2,
+    "evolutionChainId": 59,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Kiss Pokémon ",
+    "description": "Este Pokémon rebosante de curiosidad lo toca todo con los labios para determinar qué cosas le gustan y cuáles no.",
+    "abilities": [
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "forewarn",
+        "name": "forewarn",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 15,
+      "spAttack": 85,
+      "spDefense": 65,
+      "speed": 65,
+      "total": 305
+    }
+  },
+  {
+    "id": 239,
+    "name": "elekid",
+    "displayName": "Elekid",
+    "formattedId": "Nº 0239",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/239.png",
+    "height": "0.6",
+    "weight": "23.5",
+    "generation": 2,
+    "evolutionChainId": 60,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Elétrico",
+    "description": "No se le da bien acumular electricidad, por lo que se cuela en las casas en busca de enchufes para alimentarse.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 63,
+      "defense": 37,
+      "spAttack": 65,
+      "spDefense": 55,
+      "speed": 95,
+      "total": 360
+    }
+  },
+  {
+    "id": 240,
+    "name": "magby",
+    "displayName": "Magby",
+    "formattedId": "Nº 0240",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/240.png",
+    "height": "0.7",
+    "weight": "21.4",
+    "generation": 2,
+    "evolutionChainId": 61,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Live Coal Pokémon ",
+    "description": "Vive en los alrededores de los volcanes. Al final del día, se baña en magma para aliviar el cansancio.",
+    "abilities": [
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 75,
+      "defense": 37,
+      "spAttack": 70,
+      "spDefense": 55,
+      "speed": 83,
+      "total": 365
+    }
+  },
+  {
+    "id": 241,
+    "name": "miltank",
+    "displayName": "Miltank",
+    "formattedId": "Nº 0241",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/241.png",
+    "height": "1.2",
+    "weight": "75.5",
+    "generation": 2,
+    "evolutionChainId": 122,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Milk Cow Pokémon ",
+    "description": "Si no se ordeña a Miltank a diario, enferma. El sabor de la leche que produce cambia según la época del año.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 80,
+      "defense": 105,
+      "spAttack": 40,
+      "spDefense": 70,
+      "speed": 100,
+      "total": 490
+    }
+  },
+  {
+    "id": 242,
+    "name": "blissey",
+    "displayName": "Blissey",
+    "formattedId": "Nº 0242",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/242.png",
+    "height": "1.5",
+    "weight": "46.8",
+    "generation": 2,
+    "evolutionChainId": 51,
+    "evolvesFrom": 113,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Happiness Pokémon ",
+    "description": "Pone unos extraños huevos llenos de felicidad. Dicen que aquellos que los prueban se vuelven amables con todo el mundo.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": false
+      },
+      {
+        "raw": "healer",
+        "name": "healer",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 255,
+      "attack": 10,
+      "defense": 10,
+      "spAttack": 75,
+      "spDefense": 135,
+      "speed": 55,
+      "total": 540
+    }
+  },
+  {
+    "id": 243,
+    "name": "raikou",
+    "displayName": "Raikou",
+    "formattedId": "Nº 0243",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/243.png",
+    "height": "1.9",
+    "weight": "178.0",
+    "generation": 2,
+    "evolutionChainId": 123,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Thunder Pokémon ",
+    "description": "Raikou tiene la velocidad del rayo. Los rugidos de este Pokémon emiten ondas de choque que se esparcen vibrando por el aire y sacuden el suelo como si fueran auténticas descargas de rayo.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 75,
+      "spAttack": 115,
+      "spDefense": 100,
+      "speed": 115,
+      "total": 580
+    }
+  },
+  {
+    "id": 244,
+    "name": "entei",
+    "displayName": "Entei",
+    "formattedId": "Nº 0244",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/244.png",
+    "height": "2.1",
+    "weight": "198.0",
+    "generation": 2,
+    "evolutionChainId": 124,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Vulcão",
+    "description": "Entei contiene el fulgor del magma en su interior. Se cree que este Pokémon nació de la erupción de un volcán. Escupe numerosas ráfagas de fuego que devoran y reducen a cenizas todo lo que tocan.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 115,
+      "defense": 85,
+      "spAttack": 90,
+      "spDefense": 75,
+      "speed": 100,
+      "total": 580
+    }
+  },
+  {
+    "id": 245,
+    "name": "suicune",
+    "displayName": "Suicune",
+    "formattedId": "Nº 0245",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/245.png",
+    "height": "2.0",
+    "weight": "187.0",
+    "generation": 2,
+    "evolutionChainId": 125,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Aurora Pokémon ",
+    "description": "Suicune emana la pureza de los manantiales. Suele corretear por el campo con gran elegancia. Este Pokémon tiene el poder de purificar el agua contaminada.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 75,
+      "defense": 115,
+      "spAttack": 90,
+      "spDefense": 115,
+      "speed": 85,
+      "total": 580
+    }
+  },
+  {
+    "id": 246,
+    "name": "larvitar",
+    "displayName": "Larvitar",
+    "formattedId": "Nº 0246",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png",
+    "height": "0.6",
+    "weight": "72.0",
+    "generation": 2,
+    "evolutionChainId": 126,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rock Skin Pokémon ",
+    "description": "Se alimenta de tierra. Después de devorar el equivalente a una montaña, se duerme y empieza a crecer.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 64,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 50,
+      "speed": 41,
+      "total": 300
+    }
+  },
+  {
+    "id": 247,
+    "name": "pupitar",
+    "displayName": "Pupitar",
+    "formattedId": "Nº 0247",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png",
+    "height": "1.2",
+    "weight": "152.0",
+    "generation": 2,
+    "evolutionChainId": 126,
+    "evolvesFrom": 246,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hard Shell Pokémon ",
+    "description": "No se está quieto ni aun siendo una pupa. Sus extremidades ya se han formado bajo su robusta coraza.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 84,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 51,
+      "total": 410
+    }
+  },
+  {
+    "id": 248,
+    "name": "tyranitar",
+    "displayName": "Tyranitar",
+    "formattedId": "Nº 0248",
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
+    "height": "2.0",
+    "weight": "202.0",
+    "generation": 2,
+    "evolutionChainId": 126,
+    "evolvesFrom": 247,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Armor Pokémon ",
+    "description": "Sus estrepitosos pasos derrumban montañas y hacen que el terreno a su alrededor cambie drásticamente.",
+    "abilities": [
+      {
+        "raw": "sand-stream",
+        "name": "sand stream",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "spAttack": 95,
+      "spDefense": 100,
+      "speed": 61,
+      "total": 600
+    }
+  },
+  {
+    "id": 249,
+    "name": "lugia",
+    "displayName": "Lugia",
+    "formattedId": "Nº 0249",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png",
+    "height": "5.2",
+    "weight": "216.0",
+    "generation": 2,
+    "evolutionChainId": 127,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Diving Pokémon ",
+    "description": "La fuerza que tiene Lugia en las alas es devastadora; con nada que las bata es capaz de derribar edificios enteros. Por eso mismo, prefiere vivir donde no haya nadie, en lo más profundo del mar.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "multiscale",
+        "name": "multiscale",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 106,
+      "attack": 90,
+      "defense": 130,
+      "spAttack": 90,
+      "spDefense": 154,
+      "speed": 110,
+      "total": 680
+    }
+  },
+  {
+    "id": 250,
+    "name": "ho-oh",
+    "displayName": "Ho-Oh",
+    "formattedId": "Nº 0250",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/250.png",
+    "height": "3.8",
+    "weight": "199.0",
+    "generation": 2,
+    "evolutionChainId": 128,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Rainbow Pokémon ",
+    "description": "El plumaje de Ho-Oh contiene siete colores que pueden apreciarse según el ángulo desde el que les dé la luz. Dicen que sus plumas dan felicidad a quienes las llevan y, también, que este Pokémon vive a los pies del arco iris.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 106,
+      "attack": 130,
+      "defense": 90,
+      "spAttack": 110,
+      "spDefense": 154,
+      "speed": 90,
+      "total": 680
+    }
+  },
+  {
+    "id": 251,
+    "name": "celebi",
+    "displayName": "Celebi",
+    "formattedId": "Nº 0251",
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/251.png",
+    "height": "0.6",
+    "weight": "5.0",
+    "generation": 2,
+    "evolutionChainId": 129,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Pokémon Viagem no Tempo",
+    "description": "Vino del futuro haciendo un viaje en el tiempo. Además de curar las heridas, posee la capacidad de revitalizar la hierba y los árboles.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 100,
+      "total": 600
+    }
+  },
+  {
+    "id": 252,
+    "name": "treecko",
+    "displayName": "Treecko",
+    "formattedId": "Nº 0252",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png",
+    "height": "0.5",
+    "weight": "5.0",
+    "generation": 3,
+    "evolutionChainId": 130,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lagartixa da Madeira",
+    "description": "Treecko es tranquilo y tiene gran capacidad de autocontrol; no pierde la calma en ninguna situación. Si algún rival se le queda mirando fijamente, le devolverá la mirada sin ceder ni lo más mínimo de su territorio.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "spAttack": 65,
+      "spDefense": 55,
+      "speed": 70,
+      "total": 310
+    }
+  },
+  {
+    "id": 253,
+    "name": "grovyle",
+    "displayName": "Grovyle",
+    "formattedId": "Nº 0253",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/253.png",
+    "height": "0.9",
+    "weight": "21.6",
+    "generation": 3,
+    "evolutionChainId": 130,
+    "evolvesFrom": 252,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lagartixa da Madeira",
+    "description": "Este Pokémon revolotea de rama en rama con maestría. Cuando Grovyle va volando por el bosque, no hay quien lo alcance por muy rápido que sea.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 45,
+      "spAttack": 85,
+      "spDefense": 65,
+      "speed": 95,
+      "total": 405
+    }
+  },
+  {
+    "id": 254,
+    "name": "sceptile",
+    "displayName": "Sceptile",
+    "formattedId": "Nº 0254",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/254.png",
+    "height": "1.7",
+    "weight": "52.2",
+    "generation": 3,
+    "evolutionChainId": 130,
+    "evolvesFrom": 253,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Floresta",
+    "description": "A Sceptile le crecen en la espalda unas semillas llenas de nutrientes que sirven para revitalizar los árboles. De hecho, se dedica a cuidarlos con mimo para que crezcan bien.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "spAttack": 105,
+      "spDefense": 85,
+      "speed": 120,
+      "total": 530
+    }
+  },
+  {
+    "id": 255,
+    "name": "torchic",
+    "displayName": "Torchic",
+    "formattedId": "Nº 0255",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png",
+    "height": "0.4",
+    "weight": "2.5",
+    "generation": 3,
+    "evolutionChainId": 131,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Pintinho",
+    "description": "Torchic tiene un lugar en el interior de su organismo en el que guarda la llama que posee. Si le das un abrazo, arderá encantado. Este Pokémon está recubierto totalmente de sedoso plumón.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 60,
+      "defense": 40,
+      "spAttack": 70,
+      "spDefense": 50,
+      "speed": 45,
+      "total": 310
+    }
+  },
+  {
+    "id": 256,
+    "name": "combusken",
+    "displayName": "Combusken",
+    "formattedId": "Nº 0256",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/256.png",
+    "height": "0.9",
+    "weight": "19.5",
+    "generation": 3,
+    "evolutionChainId": 131,
+    "evolvesFrom": 255,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Galo Jovem",
+    "description": "Combusken lucha haciendo uso de las abrasadoras llamas que expulsa por el pico y de unas patadas fulminantes. Este Pokémon emite un sonido muy fuerte y molesto.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 60,
+      "spAttack": 85,
+      "spDefense": 60,
+      "speed": 55,
+      "total": 405
+    }
+  },
+  {
+    "id": 257,
+    "name": "blaziken",
+    "displayName": "Blaziken",
+    "formattedId": "Nº 0257",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png",
+    "height": "1.9",
+    "weight": "52.0",
+    "generation": 3,
+    "evolutionChainId": 131,
+    "evolvesFrom": 256,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Labareda",
+    "description": "Blaziken tiene unas piernas tan fuertes que puede saltar por encima de un edificio de 30 pisos con facilidad. Además, da unos puñetazos fulminantes que dejan al oponente chamuscado y lleno de tizne.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 70,
+      "spAttack": 110,
+      "spDefense": 70,
+      "speed": 80,
+      "total": 530
+    }
+  },
+  {
+    "id": 258,
+    "name": "mudkip",
+    "displayName": "Mudkip",
+    "formattedId": "Nº 0258",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png",
+    "height": "0.4",
+    "weight": "7.6",
+    "generation": 3,
+    "evolutionChainId": 132,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Peixe da Lama",
+    "description": "En el agua, Mudkip usa las branquias que tiene en los mofletes para respirar. Cuando tiene que enfrentarse a una situación delicada en combate, desata una fuerza asombrosa con la que puede destruir rocas incluso mayores que él.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 40,
+      "total": 310
+    }
+  },
+  {
+    "id": 259,
+    "name": "marshtomp",
+    "displayName": "Marshtomp",
+    "formattedId": "Nº 0259",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/259.png",
+    "height": "0.7",
+    "weight": "28.0",
+    "generation": 3,
+    "evolutionChainId": 132,
+    "evolvesFrom": 258,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Peixe da Lama",
+    "description": "Marshtomp se desplaza más rápido por el lodo que por el agua. Los cuartos traseros de este Pokémon muestran un desarrollo más que evidente, lo que le permite andar solo sobre las patas traseras.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 50,
+      "total": 405
+    }
+  },
+  {
+    "id": 260,
+    "name": "swampert",
+    "displayName": "Swampert",
+    "formattedId": "Nº 0260",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/260.png",
+    "height": "1.5",
+    "weight": "81.9",
+    "generation": 3,
+    "evolutionChainId": 132,
+    "evolvesFrom": 259,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Peixe da Lama",
+    "description": "Swampert puede predecir tormentas al percibir con las aletas los sutiles cambios que producen las olas y las corrientes. Si está a punto de estallar una tormenta, empezará a apilar piedras para resguardarse.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 110,
+      "defense": 90,
+      "spAttack": 85,
+      "spDefense": 90,
+      "speed": 60,
+      "total": 535
+    }
+  },
+  {
+    "id": 261,
+    "name": "poochyena",
+    "displayName": "Poochyena",
+    "formattedId": "Nº 0261",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/261.png",
+    "height": "0.5",
+    "weight": "13.6",
+    "generation": 3,
+    "evolutionChainId": 133,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bite Pokémon ",
+    "description": "Poochyena es un Pokémon omnívoro. Se come lo que sea. Le caracteriza el gran tamaño de sus colmillos respecto al resto del cuerpo. Este Pokémon hace que se le erice la cola para intentar intimidar a su rival.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "quick-feet",
+        "name": "quick feet",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 35,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 35,
+      "total": 220
+    }
+  },
+  {
+    "id": 262,
+    "name": "mightyena",
+    "displayName": "Mightyena",
+    "formattedId": "Nº 0262",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/262.png",
+    "height": "1.0",
+    "weight": "37.0",
+    "generation": 3,
+    "evolutionChainId": 133,
+    "evolvesFrom": 261,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bite Pokémon ",
+    "description": "Mightyena se desplaza y vive con su jauría en estado salvaje. Por eso, acostumbrado a esta libertad, obedece al Entrenador al que considere realmente dotado de habilidades superiores al resto.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "quick-feet",
+        "name": "quick feet",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 70,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 70,
+      "total": 420
+    }
+  },
+  {
+    "id": 263,
+    "name": "zigzagoon",
+    "displayName": "Zigzagoon",
+    "formattedId": "Nº 0263",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png",
+    "height": "0.4",
+    "weight": "17.5",
+    "generation": 3,
+    "evolutionChainId": 134,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tiny Raccoon Pokémon ",
+    "description": "El Zigzagoon de Galar desarrolló este aspecto tras adaptarse a otras regiones. Muestra una gran habilidad a la hora de encontrar cosas.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "quick-feet",
+        "name": "quick feet",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 30,
+      "defense": 41,
+      "spAttack": 30,
+      "spDefense": 41,
+      "speed": 60,
+      "total": 240
+    }
+  },
+  {
+    "id": 264,
+    "name": "linoone",
+    "displayName": "Linoone",
+    "formattedId": "Nº 0264",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/264.png",
+    "height": "0.5",
+    "weight": "32.5",
+    "generation": 3,
+    "evolutionChainId": 134,
+    "evolvesFrom": 263,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rushing Pokémon ",
+    "description": "Abate a sus presas con su vertiginosa velocidad y sus afiladas garras. Los trayectos sinuosos merman notablemente su capacidad para correr.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "quick-feet",
+        "name": "quick feet",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 70,
+      "defense": 61,
+      "spAttack": 50,
+      "spDefense": 61,
+      "speed": 100,
+      "total": 420
+    }
+  },
+  {
+    "id": 265,
+    "name": "wurmple",
+    "displayName": "Wurmple",
+    "formattedId": "Nº 0265",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+    "height": "0.3",
+    "weight": "3.6",
+    "generation": 3,
+    "evolutionChainId": 135,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lagarta",
+    "description": "Wurmple es la presa preferida de Swellow. La forma que tiene de intentar defenderse es apuntar con las púas del lomo al amenazante enemigo y debilitarlo inyectándole veneno.",
+    "abilities": [
+      {
+        "raw": "shield-dust",
+        "name": "shield dust",
+        "is_hidden": false
+      },
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 45,
+      "defense": 35,
+      "spAttack": 20,
+      "spDefense": 30,
+      "speed": 20,
+      "total": 195
+    }
+  },
+  {
+    "id": 266,
+    "name": "silcoon",
+    "displayName": "Silcoon",
+    "formattedId": "Nº 0266",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/266.png",
+    "height": "0.6",
+    "weight": "10.0",
+    "generation": 3,
+    "evolutionChainId": 135,
+    "evolvesFrom": 265,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Casulo",
+    "description": "Se pensaba que Silcoon podía aguantar el hambre y no consumir nada antes de evolucionar. Sin embargo, ahora se cree que sacia su sed bebiendo el agua de la lluvia que se le queda sobre la seda del capullo.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 35,
+      "defense": 55,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 15,
+      "total": 205
+    }
+  },
+  {
+    "id": 267,
+    "name": "beautifly",
+    "displayName": "Beautifly",
+    "formattedId": "Nº 0267",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png",
+    "height": "1.0",
+    "weight": "28.4",
+    "generation": 3,
+    "evolutionChainId": 135,
+    "evolvesFrom": 266,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Borboleta",
+    "description": "Beautifly tiene una boca enorme en espiral que parece una aguja y le resulta muy útil para recolectar polen. Este Pokémon va revoloteando de flor en flor para recogerlo.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 70,
+      "defense": 50,
+      "spAttack": 100,
+      "spDefense": 50,
+      "speed": 65,
+      "total": 395
+    }
+  },
+  {
+    "id": 268,
+    "name": "cascoon",
+    "displayName": "Cascoon",
+    "formattedId": "Nº 0268",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/268.png",
+    "height": "0.7",
+    "weight": "11.5",
+    "generation": 3,
+    "evolutionChainId": 135,
+    "evolvesFrom": 265,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Casulo",
+    "description": "Si atacan a Cascoon, se queda inmóvil aunque le hayan hecho mucho daño, puesto que, si se moviera, perdería fuerzas para evolucionar. Nunca olvida el daño que le han hecho.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 35,
+      "defense": 55,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 15,
+      "total": 205
+    }
+  },
+  {
+    "id": 269,
+    "name": "dustox",
+    "displayName": "Dustox",
+    "formattedId": "Nº 0269",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/269.png",
+    "height": "1.2",
+    "weight": "31.6",
+    "generation": 3,
+    "evolutionChainId": 135,
+    "evolvesFrom": 268,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Mariposa Venenosa",
+    "description": "Cuando Dustox bate las alas, libera un polvillo fino que en realidad es un peligroso veneno que puede resultar dañino hasta al más fuerte de los fuertes. Las antenas le sirven de radar para buscar comida.",
+    "abilities": [
+      {
+        "raw": "shield-dust",
+        "name": "shield dust",
+        "is_hidden": false
+      },
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "spAttack": 50,
+      "spDefense": 90,
+      "speed": 65,
+      "total": 385
+    }
+  },
+  {
+    "id": 270,
+    "name": "lotad",
+    "displayName": "Lotad",
+    "formattedId": "Nº 0270",
+    "types": [
+      "water",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/270.png",
+    "height": "0.5",
+    "weight": "2.6",
+    "generation": 3,
+    "evolutionChainId": 136,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Water Weed Pokémon ",
+    "description": "El excesivo tamaño y peso de la hoja que tiene en la cabeza ha propiciado que viva flotando en el agua.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "rain-dish",
+        "name": "rain dish",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 30,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 30,
+      "total": 220
+    }
+  },
+  {
+    "id": 271,
+    "name": "lombre",
+    "displayName": "Lombre",
+    "formattedId": "Nº 0271",
+    "types": [
+      "water",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/271.png",
+    "height": "1.2",
+    "weight": "32.5",
+    "generation": 3,
+    "evolutionChainId": 136,
+    "evolvesFrom": 270,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Jolly Pokémon ",
+    "description": "Vive en las riberas bañadas por el sol. De día duerme sobre un lecho de plantas acuáticas y de noche entra en acción.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "rain-dish",
+        "name": "rain dish",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 50,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 50,
+      "total": 340
+    }
+  },
+  {
+    "id": 272,
+    "name": "ludicolo",
+    "displayName": "Ludicolo",
+    "formattedId": "Nº 0272",
+    "types": [
+      "water",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/272.png",
+    "height": "1.5",
+    "weight": "55.0",
+    "generation": 3,
+    "evolutionChainId": 136,
+    "evolvesFrom": 271,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Carefree Pokémon ",
+    "description": "Mover su cuerpo al ritmo de música festiva puede hacer que aumente su fuerza.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "rain-dish",
+        "name": "rain dish",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 70,
+      "spAttack": 90,
+      "spDefense": 100,
+      "speed": 70,
+      "total": 480
+    }
+  },
+  {
+    "id": 273,
+    "name": "seedot",
+    "displayName": "Seedot",
+    "formattedId": "Nº 0273",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/273.png",
+    "height": "0.5",
+    "weight": "4.0",
+    "generation": 3,
+    "evolutionChainId": 137,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Acorn Pokémon ",
+    "description": "Se cuelga de las ramas con el extremo de la cabeza. A veces se cae cuando soplan vientos fuertes.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 50,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 30,
+      "total": 220
+    }
+  },
+  {
+    "id": 274,
+    "name": "nuzleaf",
+    "displayName": "Nuzleaf",
+    "formattedId": "Nº 0274",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/274.png",
+    "height": "1.0",
+    "weight": "28.0",
+    "generation": 3,
+    "evolutionChainId": 137,
+    "evolvesFrom": 273,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Wily Pokémon ",
+    "description": "Vive en las oquedades de los árboles grandes. El sonido que emite al usar la hoja de la cabeza como flauta asusta a quienes lo escuchan.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 40,
+      "spAttack": 60,
+      "spDefense": 40,
+      "speed": 60,
+      "total": 340
+    }
+  },
+  {
+    "id": 275,
+    "name": "shiftry",
+    "displayName": "Shiftry",
+    "formattedId": "Nº 0275",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/275.png",
+    "height": "1.3",
+    "weight": "59.6",
+    "generation": 3,
+    "evolutionChainId": 137,
+    "evolvesFrom": 274,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Wicked Pokémon ",
+    "description": "Vive sigiloso en lo más profundo del bosque. Se dice que con sus abanicos puede generar vientos gélidos.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "wind-rider",
+        "name": "wind rider",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 60,
+      "spAttack": 90,
+      "spDefense": 60,
+      "speed": 80,
+      "total": 480
+    }
+  },
+  {
+    "id": 276,
+    "name": "taillow",
+    "displayName": "Taillow",
+    "formattedId": "Nº 0276",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/276.png",
+    "height": "0.3",
+    "weight": "2.3",
+    "generation": 3,
+    "evolutionChainId": 138,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tiny Swallow Pokémon ",
+    "description": "Taillow es pequeño, está recién salido del nido. Por eso, se siente solo con frecuencia y se pone a piar. Este Pokémon se alimenta de los Wurmple que hay por el bosque.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 30,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 85,
+      "total": 270
+    }
+  },
+  {
+    "id": 277,
+    "name": "swellow",
+    "displayName": "Swellow",
+    "formattedId": "Nº 0277",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/277.png",
+    "height": "0.7",
+    "weight": "19.8",
+    "generation": 3,
+    "evolutionChainId": 138,
+    "evolvesFrom": 276,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Swallow Pokémon ",
+    "description": "Swellow se preocupa a conciencia del mantenimiento de sus lustrosas alas. Cuando hay dos juntos, el uno se ocupa de limpiarle las alas al otro.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 60,
+      "spAttack": 75,
+      "spDefense": 50,
+      "speed": 125,
+      "total": 455
+    }
+  },
+  {
+    "id": 278,
+    "name": "wingull",
+    "displayName": "Wingull",
+    "formattedId": "Nº 0278",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/278.png",
+    "height": "0.6",
+    "weight": "9.5",
+    "generation": 3,
+    "evolutionChainId": 139,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Seagull Pokémon ",
+    "description": "Aprovecha las corrientes de aire para ganar altura sin necesidad de batir las alas. Anida en acantilados costeros.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "raw": "rain-dish",
+        "name": "rain dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 30,
+      "spAttack": 55,
+      "spDefense": 30,
+      "speed": 85,
+      "total": 270
+    }
+  },
+  {
+    "id": 279,
+    "name": "pelipper",
+    "displayName": "Pelipper",
+    "formattedId": "Nº 0279",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/279.png",
+    "height": "1.2",
+    "weight": "28.0",
+    "generation": 3,
+    "evolutionChainId": 139,
+    "evolvesFrom": 278,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Water Bird Pokémon ",
+    "description": "Vuela a ras de la superficie marina para llenar su inmenso pico de agua y comida, que se lleva consigo.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "drizzle",
+        "name": "drizzle",
+        "is_hidden": false
+      },
+      {
+        "raw": "rain-dish",
+        "name": "rain dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 100,
+      "spAttack": 95,
+      "spDefense": 70,
+      "speed": 65,
+      "total": 440
+    }
+  },
+  {
+    "id": 280,
+    "name": "ralts",
+    "displayName": "Ralts",
+    "formattedId": "Nº 0280",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png",
+    "height": "0.4",
+    "weight": "6.6",
+    "generation": 3,
+    "evolutionChainId": 140,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Feeling Pokémon ",
+    "description": "Si sus cuernos perciben emociones positivas de personas o Pokémon, su cuerpo se calienta un poco.",
+    "abilities": [
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "trace",
+        "name": "trace",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 28,
+      "attack": 25,
+      "defense": 25,
+      "spAttack": 45,
+      "spDefense": 35,
+      "speed": 40,
+      "total": 198
+    }
+  },
+  {
+    "id": 281,
+    "name": "kirlia",
+    "displayName": "Kirlia",
+    "formattedId": "Nº 0281",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png",
+    "height": "0.8",
+    "weight": "20.2",
+    "generation": 3,
+    "evolutionChainId": 140,
+    "evolvesFrom": 280,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Emotion Pokémon ",
+    "description": "Con sus poderes psíquicos puede deformar el espacio a su alrededor y predecir el futuro.",
+    "abilities": [
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "trace",
+        "name": "trace",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 35,
+      "defense": 35,
+      "spAttack": 65,
+      "spDefense": 55,
+      "speed": 50,
+      "total": 278
+    }
+  },
+  {
+    "id": 282,
+    "name": "gardevoir",
+    "displayName": "Gardevoir",
+    "formattedId": "Nº 0282",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
+    "height": "1.6",
+    "weight": "48.4",
+    "generation": 3,
+    "evolutionChainId": 140,
+    "evolvesFrom": 281,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Embrace Pokémon ",
+    "description": "Para proteger a su Entrenador, emplea todo su poder psíquico en crear un pequeño agujero negro.",
+    "abilities": [
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "trace",
+        "name": "trace",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 125,
+      "spDefense": 115,
+      "speed": 80,
+      "total": 518
+    }
+  },
+  {
+    "id": 283,
+    "name": "surskit",
+    "displayName": "Surskit",
+    "formattedId": "Nº 0283",
+    "types": [
+      "bug",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/283.png",
+    "height": "0.5",
+    "weight": "1.7",
+    "generation": 3,
+    "evolutionChainId": 141,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pond Skater Pokémon ",
+    "description": "Vive en estanques y pantanales donde abunde la flora acuática y compite fieramente con los Dewpider por el territorio y el sustento.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "rain-dish",
+        "name": "rain dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 32,
+      "spAttack": 50,
+      "spDefense": 52,
+      "speed": 65,
+      "total": 269
+    }
+  },
+  {
+    "id": 284,
+    "name": "masquerain",
+    "displayName": "Masquerain",
+    "formattedId": "Nº 0284",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/284.png",
+    "height": "0.8",
+    "weight": "3.6",
+    "generation": 3,
+    "evolutionChainId": 141,
+    "evolvesFrom": 283,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Eyeball Pokémon ",
+    "description": "Sus grandes antenas en forma de ojos tienden a absorber humedad. Los días de lluvia, se refugia en cavidades de los árboles y espera paciente.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 62,
+      "spAttack": 100,
+      "spDefense": 82,
+      "speed": 80,
+      "total": 454
+    }
+  },
+  {
+    "id": 285,
+    "name": "shroomish",
+    "displayName": "Shroomish",
+    "formattedId": "Nº 0285",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/285.png",
+    "height": "0.4",
+    "weight": "4.5",
+    "generation": 3,
+    "evolutionChainId": 142,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cogumelo",
+    "description": "Si Shroomish siente peligro, agita el cuerpo y libera esporas venenosas por la cabeza. Estas esporas son tan tóxicas que pueden hacer que se marchiten los árboles y hasta las malas hierbas.",
+    "abilities": [
+      {
+        "raw": "effect-spore",
+        "name": "effect spore",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-heal",
+        "name": "poison heal",
+        "is_hidden": false
+      },
+      {
+        "raw": "quick-feet",
+        "name": "quick feet",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 60,
+      "speed": 35,
+      "total": 295
+    }
+  },
+  {
+    "id": 286,
+    "name": "breloom",
+    "displayName": "Breloom",
+    "formattedId": "Nº 0286",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/286.png",
+    "height": "1.2",
+    "weight": "39.2",
+    "generation": 3,
+    "evolutionChainId": 142,
+    "evolvesFrom": 285,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cogumelo",
+    "description": "Las semillas que Breloom tiene prendidas de la cola están formadas por sólidas esporas tóxicas. Comérselas puede resultar fatal. Hasta el más mínimo bocado puede hacerte polvo el estómago.",
+    "abilities": [
+      {
+        "raw": "effect-spore",
+        "name": "effect spore",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-heal",
+        "name": "poison heal",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 130,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 70,
+      "total": 460
+    }
+  },
+  {
+    "id": 287,
+    "name": "slakoth",
+    "displayName": "Slakoth",
+    "formattedId": "Nº 0287",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/287.png",
+    "height": "0.8",
+    "weight": "24.0",
+    "generation": 3,
+    "evolutionChainId": 143,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Slacker Pokémon ",
+    "description": "A Slakoth le late el corazón una vez por minuto. Ya puede pasar lo que pase, que este Pokémon no mueve un dedo. Está todo el día holgazaneando. Es muy raro verlo en movimiento.",
+    "abilities": [
+      {
+        "raw": "truant",
+        "name": "truant",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 30,
+      "total": 280
+    }
+  },
+  {
+    "id": 288,
+    "name": "vigoroth",
+    "displayName": "Vigoroth",
+    "formattedId": "Nº 0288",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/288.png",
+    "height": "1.4",
+    "weight": "46.5",
+    "generation": 3,
+    "evolutionChainId": 143,
+    "evolvesFrom": 287,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Wild Monkey Pokémon ",
+    "description": "A Vigoroth le resulta totalmente imposible estarse quieto. Cuando intenta dormir, la sangre le fluye a velocidad de vértigo y se pone a correr por el bosque de un lado a otro hasta que se calma.",
+    "abilities": [
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 90,
+      "total": 440
+    }
+  },
+  {
+    "id": 289,
+    "name": "slaking",
+    "displayName": "Slaking",
+    "formattedId": "Nº 0289",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/289.png",
+    "height": "2.0",
+    "weight": "130.5",
+    "generation": 3,
+    "evolutionChainId": 143,
+    "evolvesFrom": 288,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Lazy Pokémon ",
+    "description": "Cuando Slaking se instala a vivir en una zona, aparecen círculos de un metro de radio de terreno baldío, pues se come todo el césped que pilla mientras está tumbado boca abajo.",
+    "abilities": [
+      {
+        "raw": "truant",
+        "name": "truant",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 150,
+      "attack": 160,
+      "defense": 100,
+      "spAttack": 95,
+      "spDefense": 65,
+      "speed": 100,
+      "total": 670
+    }
+  },
+  {
+    "id": 290,
+    "name": "nincada",
+    "displayName": "Nincada",
+    "formattedId": "Nº 0290",
+    "types": [
+      "bug",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/290.png",
+    "height": "0.5",
+    "weight": "5.5",
+    "generation": 3,
+    "evolutionChainId": 144,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Trainee Pokémon ",
+    "description": "Pueden pasar más de diez años bajo tierra. Absorben nutrientes de las raíces de los árboles.",
+    "abilities": [
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": false
+      },
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 31,
+      "attack": 45,
+      "defense": 90,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 40,
+      "total": 266
+    }
+  },
+  {
+    "id": 291,
+    "name": "ninjask",
+    "displayName": "Ninjask",
+    "formattedId": "Nº 0291",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/291.png",
+    "height": "0.8",
+    "weight": "12.0",
+    "generation": 3,
+    "evolutionChainId": 144,
+    "evolvesFrom": 290,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Ninja",
+    "description": "Este Pokémon es tan rápido que, según dicen, puede esquivar cualquier ataque. Le encanta alimentarse de la dulce savia de los árboles.",
+    "abilities": [
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 90,
+      "defense": 45,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 160,
+      "total": 456
+    }
+  },
+  {
+    "id": 292,
+    "name": "shedinja",
+    "displayName": "Shedinja",
+    "formattedId": "Nº 0292",
+    "types": [
+      "bug",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/292.png",
+    "height": "0.8",
+    "weight": "1.2",
+    "generation": 3,
+    "evolutionChainId": 144,
+    "evolvesFrom": 290,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Shed Pokémon ",
+    "description": "Es un Pokémon muy peculiar: revolotea sin batir las alas, no respira y su cuerpo está hueco por dentro.",
+    "abilities": [
+      {
+        "raw": "wonder-guard",
+        "name": "wonder guard",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 1,
+      "attack": 90,
+      "defense": 45,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 40,
+      "total": 236
+    }
+  },
+  {
+    "id": 293,
+    "name": "whismur",
+    "displayName": "Whismur",
+    "formattedId": "Nº 0293",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/293.png",
+    "height": "0.6",
+    "weight": "16.3",
+    "generation": 3,
+    "evolutionChainId": 145,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Whisper Pokémon ",
+    "description": "Al chillar, se asusta con su propia voz, lo cual le lleva a gritar más fuerte todavía. Cuando se cansa, se echa a dormir.",
+    "abilities": [
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 64,
+      "attack": 51,
+      "defense": 23,
+      "spAttack": 51,
+      "spDefense": 23,
+      "speed": 28,
+      "total": 240
+    }
+  },
+  {
+    "id": 294,
+    "name": "loudred",
+    "displayName": "Loudred",
+    "formattedId": "Nº 0294",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/294.png",
+    "height": "1.0",
+    "weight": "40.5",
+    "generation": 3,
+    "evolutionChainId": 145,
+    "evolvesFrom": 293,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big Voice Pokémon ",
+    "description": "Su voz no afecta solo al oído. Sus ondas sonoras provocan variaciones de presión en el aire que hacen que sus enemigos salgan despedidos.",
+    "abilities": [
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 84,
+      "attack": 71,
+      "defense": 43,
+      "spAttack": 71,
+      "spDefense": 43,
+      "speed": 48,
+      "total": 360
+    }
+  },
+  {
+    "id": 295,
+    "name": "exploud",
+    "displayName": "Exploud",
+    "formattedId": "Nº 0295",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/295.png",
+    "height": "1.5",
+    "weight": "84.0",
+    "generation": 3,
+    "evolutionChainId": 145,
+    "evolvesFrom": 294,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Loud Noise Pokémon ",
+    "description": "Además de sus bramidos, es capaz de emitir distintos tonos por los tubos de su cuerpo, que le permiten comunicarse con sus semejantes.",
+    "abilities": [
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 104,
+      "attack": 91,
+      "defense": 63,
+      "spAttack": 91,
+      "spDefense": 73,
+      "speed": 68,
+      "total": 490
+    }
+  },
+  {
+    "id": 296,
+    "name": "makuhita",
+    "displayName": "Makuhita",
+    "formattedId": "Nº 0296",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/296.png",
+    "height": "1.0",
+    "weight": "86.4",
+    "generation": 3,
+    "evolutionChainId": 146,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Guts Pokémon ",
+    "description": "Dicen que los Entrenadores dan de comer a sus Makuhita un guiso tradicional para que se hagan más fuertes todavía.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 60,
+      "defense": 30,
+      "spAttack": 20,
+      "spDefense": 30,
+      "speed": 25,
+      "total": 237
+    }
+  },
+  {
+    "id": 297,
+    "name": "hariyama",
+    "displayName": "Hariyama",
+    "formattedId": "Nº 0297",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/297.png",
+    "height": "2.3",
+    "weight": "253.8",
+    "generation": 3,
+    "evolutionChainId": 146,
+    "evolvesFrom": 296,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Arm Thrust Pokémon ",
+    "description": "No todos los Hariyama son grandotes, recios y fuertes. También los hay de menor tamaño pero mayor agilidad y precisión en los movimientos.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 144,
+      "attack": 120,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 60,
+      "speed": 50,
+      "total": 474
+    }
+  },
+  {
+    "id": 298,
+    "name": "azurill",
+    "displayName": "Azurill",
+    "formattedId": "Nº 0298",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/298.png",
+    "height": "0.2",
+    "weight": "2.0",
+    "generation": 3,
+    "evolutionChainId": 90,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Polka Dot Pokémon ",
+    "description": "Es un Pokémon tranquilo, pero, si se le hace enfadar, atacará utilizando la enorme bola que tiene en la cola.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "huge-power",
+        "name": "huge power",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 40,
+      "spAttack": 20,
+      "spDefense": 40,
+      "speed": 20,
+      "total": 190
+    }
+  },
+  {
+    "id": 299,
+    "name": "nosepass",
+    "displayName": "Nosepass",
+    "formattedId": "Nº 0299",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/299.png",
+    "height": "1.0",
+    "weight": "97.0",
+    "generation": 3,
+    "evolutionChainId": 147,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Compass Pokémon ",
+    "description": "Su potente fuerza magnética le permite atraer a sus presas sin necesidad de moverse, aunque a veces también atrae a sus enemigos naturales.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "magnet-pull",
+        "name": "magnet pull",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 135,
+      "spAttack": 45,
+      "spDefense": 90,
+      "speed": 30,
+      "total": 375
+    }
+  },
+  {
+    "id": 300,
+    "name": "skitty",
+    "displayName": "Skitty",
+    "formattedId": "Nº 0300",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png",
+    "height": "0.6",
+    "weight": "11.0",
+    "generation": 3,
+    "evolutionChainId": 148,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Kitten Pokémon ",
+    "description": "Skitty es conocido por la costumbre que tiene de juguetear y de intentar pillarse la cola. En estado salvaje, habita en las cavidades de los troncos de los árboles del bosque. Es la mascota de muchos por lo dulce que parece.",
+    "abilities": [
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": false
+      },
+      {
+        "raw": "normalize",
+        "name": "normalize",
+        "is_hidden": false
+      },
+      {
+        "raw": "wonder-skin",
+        "name": "wonder skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 45,
+      "defense": 45,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 50,
+      "total": 260
+    }
+  },
+  {
+    "id": 301,
+    "name": "delcatty",
+    "displayName": "Delcatty",
+    "formattedId": "Nº 0301",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/301.png",
+    "height": "1.1",
+    "weight": "32.6",
+    "generation": 3,
+    "evolutionChainId": 148,
+    "evolvesFrom": 300,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Prim Pokémon ",
+    "description": "Delcatty duerme en cualquier lugar sin tener que mantener el nido en un mismo sitio. Si otro Pokémon se le acerca mientras duerme, no se pondrá a luchar con él; simplemente se irá a otro sitio.",
+    "abilities": [
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": false
+      },
+      {
+        "raw": "normalize",
+        "name": "normalize",
+        "is_hidden": false
+      },
+      {
+        "raw": "wonder-skin",
+        "name": "wonder skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 90,
+      "total": 400
+    }
+  },
+  {
+    "id": 302,
+    "name": "sableye",
+    "displayName": "Sableye",
+    "formattedId": "Nº 0302",
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
+    "height": "0.5",
+    "weight": "11.0",
+    "generation": 3,
+    "evolutionChainId": 149,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Escuridão",
+    "description": "Se alimenta de gemas. En la oscuridad, los ojos le brillan con el destello de las piedras preciosas.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "stall",
+        "name": "stall",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 75,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 50,
+      "total": 380
+    }
+  },
+  {
+    "id": 303,
+    "name": "mawile",
+    "displayName": "Mawile",
+    "formattedId": "Nº 0303",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
+    "height": "0.6",
+    "weight": "11.5",
+    "generation": 3,
+    "evolutionChainId": 150,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Deceiver Pokémon ",
+    "description": "Sus otrora cuernos de acero se han transformado en grandes fauces con las que muerde a sus enemigos.",
+    "abilities": [
+      {
+        "raw": "hyper-cutter",
+        "name": "hyper cutter",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 85,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 50,
+      "total": 380
+    }
+  },
+  {
+    "id": 304,
+    "name": "aron",
+    "displayName": "Aron",
+    "formattedId": "Nº 0304",
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/304.png",
+    "height": "0.4",
+    "weight": "60.0",
+    "generation": 3,
+    "evolutionChainId": 151,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Armadura de Ferro",
+    "description": "Antiguamente se recogía la coraza de acero que este Pokémon desprende al evolucionar y se empleaba para distintos usos.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": false
+      },
+      {
+        "raw": "heavy-metal",
+        "name": "heavy metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 100,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 30,
+      "total": 330
+    }
+  },
+  {
+    "id": 305,
+    "name": "lairon",
+    "displayName": "Lairon",
+    "formattedId": "Nº 0305",
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/305.png",
+    "height": "0.9",
+    "weight": "120.0",
+    "generation": 3,
+    "evolutionChainId": 151,
+    "evolvesFrom": 304,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Armadura de Ferro",
+    "description": "Resuelven sus disputas territoriales embistiendo y golpeando con el cuerpo. En sus corazas de acero se pueden apreciar hendiduras y rasguños.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": false
+      },
+      {
+        "raw": "heavy-metal",
+        "name": "heavy metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 140,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 40,
+      "total": 430
+    }
+  },
+  {
+    "id": 306,
+    "name": "aggron",
+    "displayName": "Aggron",
+    "formattedId": "Nº 0306",
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
+    "height": "2.1",
+    "weight": "360.0",
+    "generation": 3,
+    "evolutionChainId": 151,
+    "evolvesFrom": 305,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Armadura de Ferro",
+    "description": "En la antigüedad, hubo un monarca que llevaba un casco hecho a imagen de Aggron para que le otorgase fuerza.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": false
+      },
+      {
+        "raw": "heavy-metal",
+        "name": "heavy metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 180,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 50,
+      "total": 530
+    }
+  },
+  {
+    "id": 307,
+    "name": "meditite",
+    "displayName": "Meditite",
+    "formattedId": "Nº 0307",
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
+    "height": "0.6",
+    "weight": "11.2",
+    "generation": 3,
+    "evolutionChainId": 152,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Meditate Pokémon ",
+    "description": "Meditite aumenta su energía interior mediante meditación. Para subsistir le basta con una baya al día. El comer poco entra dentro de su entrenamiento.",
+    "abilities": [
+      {
+        "raw": "pure-power",
+        "name": "pure power",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 55,
+      "spAttack": 40,
+      "spDefense": 55,
+      "speed": 60,
+      "total": 280
+    }
+  },
+  {
+    "id": 308,
+    "name": "medicham",
+    "displayName": "Medicham",
+    "formattedId": "Nº 0308",
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
+    "height": "1.3",
+    "weight": "31.5",
+    "generation": 3,
+    "evolutionChainId": 152,
+    "evolvesFrom": 307,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Meditate Pokémon ",
+    "description": "A través de la meditación, Medicham desarrolló su sexto sentido y aprendió a usar poderes psicoquinéticos. Se sabe que este Pokémon puede pasarse un mes meditando y sin comer.",
+    "abilities": [
+      {
+        "raw": "pure-power",
+        "name": "pure power",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 75,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 80,
+      "total": 410
+    }
+  },
+  {
+    "id": 309,
+    "name": "electrike",
+    "displayName": "Electrike",
+    "formattedId": "Nº 0309",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png",
+    "height": "0.6",
+    "weight": "15.2",
+    "generation": 3,
+    "evolutionChainId": 153,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Relâmpago",
+    "description": "Almacena electricidad estática en su pelaje. En estaciones secas, suelta chispas por todo el cuerpo.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "lightning-rod",
+        "name": "lightning rod",
+        "is_hidden": false
+      },
+      {
+        "raw": "minus",
+        "name": "minus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 65,
+      "spDefense": 40,
+      "speed": 65,
+      "total": 295
+    }
+  },
+  {
+    "id": 310,
+    "name": "manectric",
+    "displayName": "Manectric",
+    "formattedId": "Nº 0310",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
+    "height": "1.5",
+    "weight": "40.2",
+    "generation": 3,
+    "evolutionChainId": 153,
+    "evolvesFrom": 309,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Discharge Pokémon ",
+    "description": "Rara vez aparece ante la gente. Dicen que suele colocar su madriguera donde caen rayos.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "lightning-rod",
+        "name": "lightning rod",
+        "is_hidden": false
+      },
+      {
+        "raw": "minus",
+        "name": "minus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 60,
+      "spAttack": 105,
+      "spDefense": 60,
+      "speed": 105,
+      "total": 475
+    }
+  },
+  {
+    "id": 311,
+    "name": "plusle",
+    "displayName": "Plusle",
+    "formattedId": "Nº 0311",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/311.png",
+    "height": "0.4",
+    "weight": "4.2",
+    "generation": 3,
+    "evolutionChainId": 154,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cheering Pokémon ",
+    "description": "Cuando Plusle está animando a su compañero, resplandece y provoca un chisporroteo que le rodea todo el cuerpo. Si su compañero pierde, se pone a chillar a voz en grito.",
+    "abilities": [
+      {
+        "raw": "plus",
+        "name": "plus",
+        "is_hidden": false
+      },
+      {
+        "raw": "lightning-rod",
+        "name": "lightning rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 40,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 95,
+      "total": 405
+    }
+  },
+  {
+    "id": 312,
+    "name": "minun",
+    "displayName": "Minun",
+    "formattedId": "Nº 0312",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/312.png",
+    "height": "0.4",
+    "weight": "4.2",
+    "generation": 3,
+    "evolutionChainId": 155,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cheering Pokémon ",
+    "description": "Minun empieza a echar chispas cuando está animando a su compañero en pleno combate. Si su compañero está en peligro, el chisporroteo aumenta su intensidad por momentos.",
+    "abilities": [
+      {
+        "raw": "minus",
+        "name": "minus",
+        "is_hidden": false
+      },
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 50,
+      "spAttack": 75,
+      "spDefense": 85,
+      "speed": 95,
+      "total": 405
+    }
+  },
+  {
+    "id": 313,
+    "name": "volbeat",
+    "displayName": "Volbeat",
+    "formattedId": "Nº 0313",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/313.png",
+    "height": "0.7",
+    "weight": "17.7",
+    "generation": 3,
+    "evolutionChainId": 156,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Firefly Pokémon ",
+    "description": "La cola de Volbeat brilla como una bombilla. Ante otro de su grupo, la usa para dibujar formas geométricas en la oscuridad del cielo por la noche. Este Pokémon adora el dulce aroma que desprende Illumise.",
+    "abilities": [
+      {
+        "raw": "illuminate",
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 73,
+      "defense": 75,
+      "spAttack": 47,
+      "spDefense": 85,
+      "speed": 85,
+      "total": 430
+    }
+  },
+  {
+    "id": 314,
+    "name": "illumise",
+    "displayName": "Illumise",
+    "formattedId": "Nº 0314",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/314.png",
+    "height": "0.6",
+    "weight": "17.7",
+    "generation": 3,
+    "evolutionChainId": 157,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Firefly Pokémon ",
+    "description": "Illumise guía en el vuelo a un grupo de iluminados Volbeat para que hagan dibujos en el oscuro cielo. Según dicen, cuanto más complejos sean los dibujos, más le respetan los miembros de su grupo.",
+    "abilities": [
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "tinted-lens",
+        "name": "tinted lens",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 47,
+      "defense": 75,
+      "spAttack": 73,
+      "spDefense": 85,
+      "speed": 85,
+      "total": 430
+    }
+  },
+  {
+    "id": 315,
+    "name": "roselia",
+    "displayName": "Roselia",
+    "formattedId": "Nº 0315",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
+    "height": "0.3",
+    "weight": "2.0",
+    "generation": 3,
+    "evolutionChainId": 158,
+    "evolvesFrom": 406,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Thorn Pokémon ",
+    "description": "Ataca con sus manos, cada una de las cuales contiene un tipo de veneno diferente. Cuanto más intenso es su aroma, mejor salud tiene.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 45,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 65,
+      "total": 400
+    }
+  },
+  {
+    "id": 316,
+    "name": "gulpin",
+    "displayName": "Gulpin",
+    "formattedId": "Nº 0316",
+    "types": [
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/316.png",
+    "height": "0.4",
+    "weight": "10.3",
+    "generation": 3,
+    "evolutionChainId": 159,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Stomach Pokémon ",
+    "description": "La mayor parte del cuerpo de Gulpin está ocupado por su estómago. En comparación, el corazón y el cerebro son muy pequeños. Este Pokémon tiene enzimas especiales en el estómago capaces de corroerlo todo.",
+    "abilities": [
+      {
+        "raw": "liquid-ooze",
+        "name": "liquid ooze",
+        "is_hidden": false
+      },
+      {
+        "raw": "sticky-hold",
+        "name": "sticky hold",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 43,
+      "defense": 53,
+      "spAttack": 43,
+      "spDefense": 53,
+      "speed": 40,
+      "total": 302
+    }
+  },
+  {
+    "id": 317,
+    "name": "swalot",
+    "displayName": "Swalot",
+    "formattedId": "Nº 0317",
+    "types": [
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/317.png",
+    "height": "1.7",
+    "weight": "80.0",
+    "generation": 3,
+    "evolutionChainId": 159,
+    "evolvesFrom": 316,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Poison Bag Pokémon ",
+    "description": "Swalot no tiene dientes, así que lo que come se lo traga de una vez; da igual lo que sea. A este Pokémon le cabría un neumático en la boca sin problema.",
+    "abilities": [
+      {
+        "raw": "liquid-ooze",
+        "name": "liquid ooze",
+        "is_hidden": false
+      },
+      {
+        "raw": "sticky-hold",
+        "name": "sticky hold",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 73,
+      "defense": 83,
+      "spAttack": 73,
+      "spDefense": 83,
+      "speed": 55,
+      "total": 467
+    }
+  },
+  {
+    "id": 318,
+    "name": "carvanha",
+    "displayName": "Carvanha",
+    "formattedId": "Nº 0318",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png",
+    "height": "0.8",
+    "weight": "20.8",
+    "generation": 3,
+    "evolutionChainId": 160,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Savage Pokémon ",
+    "description": "Los marineros evitan por completo las zonas donde habita este Pokémon de afilados colmillos y fuertes mandíbulas.",
+    "abilities": [
+      {
+        "raw": "rough-skin",
+        "name": "rough skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 90,
+      "defense": 20,
+      "spAttack": 65,
+      "spDefense": 20,
+      "speed": 65,
+      "total": 305
+    }
+  },
+  {
+    "id": 319,
+    "name": "sharpedo",
+    "displayName": "Sharpedo",
+    "formattedId": "Nº 0319",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
+    "height": "1.8",
+    "weight": "88.8",
+    "generation": 3,
+    "evolutionChainId": 160,
+    "evolvesFrom": 318,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Brutal Pokémon ",
+    "description": "Conocido como el Terror de los Mares, ataca sin excepción a todo barco que ose adentrarse en su territorio oceánico.",
+    "abilities": [
+      {
+        "raw": "rough-skin",
+        "name": "rough skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 40,
+      "spAttack": 95,
+      "spDefense": 40,
+      "speed": 95,
+      "total": 460
+    }
+  },
+  {
+    "id": 320,
+    "name": "wailmer",
+    "displayName": "Wailmer",
+    "formattedId": "Nº 0320",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/320.png",
+    "height": "2.0",
+    "weight": "130.0",
+    "generation": 3,
+    "evolutionChainId": 161,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ball Whale Pokémon ",
+    "description": "Cuando traga una gran cantidad de agua marina, se hincha hasta parecer una pelota. Necesita una tonelada de alimento al día.",
+    "abilities": [
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 70,
+      "defense": 35,
+      "spAttack": 70,
+      "spDefense": 35,
+      "speed": 60,
+      "total": 400
+    }
+  },
+  {
+    "id": 321,
+    "name": "wailord",
+    "displayName": "Wailord",
+    "formattedId": "Nº 0321",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/321.png",
+    "height": "14.5",
+    "weight": "398.0",
+    "generation": 3,
+    "evolutionChainId": 161,
+    "evolvesFrom": 320,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Float Whale Pokémon ",
+    "description": "Su descomunal tamaño lo convierte en un Pokémon muy popular. Los enclaves turísticos donde se avistan Wailord son todo un éxito.",
+    "abilities": [
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 170,
+      "attack": 90,
+      "defense": 45,
+      "spAttack": 90,
+      "spDefense": 45,
+      "speed": 60,
+      "total": 500
+    }
+  },
+  {
+    "id": 322,
+    "name": "numel",
+    "displayName": "Numel",
+    "formattedId": "Nº 0322",
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png",
+    "height": "0.7",
+    "weight": "24.0",
+    "generation": 3,
+    "evolutionChainId": 162,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Numb Pokémon ",
+    "description": "Numel acumula en su interior un magma de 1200 °C. Si se moja, el magma se enfría y se solidifica. Cuando esto ocurre, aumenta su tamaño y se vuelve pesado y lento en sus movimientos.",
+    "abilities": [
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "simple",
+        "name": "simple",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 40,
+      "spAttack": 65,
+      "spDefense": 45,
+      "speed": 35,
+      "total": 305
+    }
+  },
+  {
+    "id": 323,
+    "name": "camerupt",
+    "displayName": "Camerupt",
+    "formattedId": "Nº 0323",
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
+    "height": "1.9",
+    "weight": "220.0",
+    "generation": 3,
+    "evolutionChainId": 162,
+    "evolvesFrom": 322,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Eruption Pokémon ",
+    "description": "Las jorobas de Camerupt se originaron por una deformación de los huesos. A veces escupen magma líquido, sobre todo cuando el Pokémon se enfada.",
+    "abilities": [
+      {
+        "raw": "magma-armor",
+        "name": "magma armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "solid-rock",
+        "name": "solid rock",
+        "is_hidden": false
+      },
+      {
+        "raw": "anger-point",
+        "name": "anger point",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 105,
+      "spDefense": 75,
+      "speed": 40,
+      "total": 460
+    }
+  },
+  {
+    "id": 324,
+    "name": "torkoal",
+    "displayName": "Torkoal",
+    "formattedId": "Nº 0324",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/324.png",
+    "height": "0.5",
+    "weight": "80.4",
+    "generation": 3,
+    "evolutionChainId": 163,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Coal Pokémon ",
+    "description": "Se junta con numerosos congéneres para establecer su morada en minas abandonadas, donde se afanan en localizar y extraer carbón.",
+    "abilities": [
+      {
+        "raw": "white-smoke",
+        "name": "white smoke",
+        "is_hidden": false
+      },
+      {
+        "raw": "drought",
+        "name": "drought",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 140,
+      "spAttack": 85,
+      "spDefense": 70,
+      "speed": 20,
+      "total": 470
+    }
+  },
+  {
+    "id": 325,
+    "name": "spoink",
+    "displayName": "Spoink",
+    "formattedId": "Nº 0325",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/325.png",
+    "height": "0.7",
+    "weight": "30.6",
+    "generation": 3,
+    "evolutionChainId": 164,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bounce Pokémon ",
+    "description": "Spoink lleva una perla en la cabeza, que sirve para amplificar los poderes psicoquinéticos que tiene. Por eso, está continuamente buscando una perla mayor.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 25,
+      "defense": 35,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 60,
+      "total": 330
+    }
+  },
+  {
+    "id": 326,
+    "name": "grumpig",
+    "displayName": "Grumpig",
+    "formattedId": "Nº 0326",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/326.png",
+    "height": "0.9",
+    "weight": "71.5",
+    "generation": 3,
+    "evolutionChainId": 164,
+    "evolvesFrom": 325,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Manipulate Pokémon ",
+    "description": "Grumpig utiliza las perlas negras que tiene para usar fantásticos poderes mientras baila de forma muy extraña. Las perlas de este Pokémon están consideradas como valiosas obras de arte.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 45,
+      "defense": 65,
+      "spAttack": 90,
+      "spDefense": 110,
+      "speed": 80,
+      "total": 470
+    }
+  },
+  {
+    "id": 327,
+    "name": "spinda",
+    "displayName": "Spinda",
+    "formattedId": "Nº 0327",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/327.png",
+    "height": "1.1",
+    "weight": "5.0",
+    "generation": 3,
+    "evolutionChainId": 165,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spot Panda Pokémon ",
+    "description": "Los dibujos en el pelaje de cada Spinda son diferentes. Esquiva de forma asombrosa los ataques de los rivales gracias a sus tambaleos.",
+    "abilities": [
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "tangled-feet",
+        "name": "tangled feet",
+        "is_hidden": false
+      },
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 60,
+      "total": 360
+    }
+  },
+  {
+    "id": 328,
+    "name": "trapinch",
+    "displayName": "Trapinch",
+    "formattedId": "Nº 0328",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/328.png",
+    "height": "0.7",
+    "weight": "15.0",
+    "generation": 3,
+    "evolutionChainId": 166,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ant Pit Pokémon ",
+    "description": "Excava fosas cóncavas, de las cuales resulta imposible escapar, y espera a que una presa caiga en su interior.",
+    "abilities": [
+      {
+        "raw": "hyper-cutter",
+        "name": "hyper cutter",
+        "is_hidden": false
+      },
+      {
+        "raw": "arena-trap",
+        "name": "arena trap",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 100,
+      "defense": 45,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 10,
+      "total": 290
+    }
+  },
+  {
+    "id": 329,
+    "name": "vibrava",
+    "displayName": "Vibrava",
+    "formattedId": "Nº 0329",
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/329.png",
+    "height": "1.1",
+    "weight": "15.3",
+    "generation": 3,
+    "evolutionChainId": 166,
+    "evolvesFrom": 328,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Vibration Pokémon ",
+    "description": "Para terminar de desarrollar sus alas, se nutre a diario de un gran número de presas, a las que disuelve con ácido antes de devorarlas.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 70,
+      "total": 340
+    }
+  },
+  {
+    "id": 330,
+    "name": "flygon",
+    "displayName": "Flygon",
+    "formattedId": "Nº 0330",
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/330.png",
+    "height": "2.0",
+    "weight": "82.0",
+    "generation": 3,
+    "evolutionChainId": 166,
+    "evolvesFrom": 329,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mystic Pokémon ",
+    "description": "El batir de sus alas suena como un bello canto de mujer. Se lo conoce como el Alma del Desierto.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 80,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 100,
+      "total": 520
+    }
+  },
+  {
+    "id": 331,
+    "name": "cacnea",
+    "displayName": "Cacnea",
+    "formattedId": "Nº 0331",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/331.png",
+    "height": "0.4",
+    "weight": "51.3",
+    "generation": 3,
+    "evolutionChainId": 167,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cactus Pokémon ",
+    "description": "Cuanto más árido y hostil sea el hábitat de Cacnea, más bonita y aromática será la flor que le crece. Este Pokémon lucha agitando violentamente los brazos cargados de pinchos que tiene.",
+    "abilities": [
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 40,
+      "spAttack": 85,
+      "spDefense": 40,
+      "speed": 35,
+      "total": 335
+    }
+  },
+  {
+    "id": 332,
+    "name": "cacturne",
+    "displayName": "Cacturne",
+    "formattedId": "Nº 0332",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/332.png",
+    "height": "1.3",
+    "weight": "77.4",
+    "generation": 3,
+    "evolutionChainId": 167,
+    "evolvesFrom": 331,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scarecrow Pokémon ",
+    "description": "Cuando alguien se adentra en un desierto por la noche, Cacturne le sigue junto con varios de los suyos. Este Pokémon espera pacientemente a que el viajero se fatigue y no pueda continuar más, vencido por el cansancio.",
+    "abilities": [
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 115,
+      "defense": 60,
+      "spAttack": 115,
+      "spDefense": 60,
+      "speed": 55,
+      "total": 475
+    }
+  },
+  {
+    "id": 333,
+    "name": "swablu",
+    "displayName": "Swablu",
+    "formattedId": "Nº 0333",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png",
+    "height": "0.4",
+    "weight": "1.2",
+    "generation": 3,
+    "evolutionChainId": 168,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cotton Bird Pokémon ",
+    "description": "Sus alas parecen nubes algodonadas y lo ocultan de sus rivales. Se cree que se volvieron blancas con el paso de las generaciones.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "cloud-nine",
+        "name": "cloud nine",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 40,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 75,
+      "speed": 50,
+      "total": 310
+    }
+  },
+  {
+    "id": 334,
+    "name": "altaria",
+    "displayName": "Altaria",
+    "formattedId": "Nº 0334",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
+    "height": "1.1",
+    "weight": "20.6",
+    "generation": 3,
+    "evolutionChainId": 168,
+    "evolvesFrom": 333,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Humming Pokémon ",
+    "description": "Es de carácter amable, pero, si monta en cólera, intimidará al oponente con estridentes chillidos y atacará sin piedad.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "cloud-nine",
+        "name": "cloud nine",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 70,
+      "defense": 90,
+      "spAttack": 70,
+      "spDefense": 105,
+      "speed": 80,
+      "total": 490
+    }
+  },
+  {
+    "id": 335,
+    "name": "zangoose",
+    "displayName": "Zangoose",
+    "formattedId": "Nº 0335",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/335.png",
+    "height": "1.3",
+    "weight": "40.3",
+    "generation": 3,
+    "evolutionChainId": 169,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cat Ferret Pokémon ",
+    "description": "Zangoose suele caminar a cuatro patas, pero cuando se enfada se pone de pie sobre las traseras y saca las zarpas. Este Pokémon tiene desde hace varias generaciones una áspera rivalidad con Seviper.",
+    "abilities": [
+      {
+        "raw": "immunity",
+        "name": "immunity",
+        "is_hidden": false
+      },
+      {
+        "raw": "toxic-boost",
+        "name": "toxic boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 115,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 90,
+      "total": 458
+    }
+  },
+  {
+    "id": 336,
+    "name": "seviper",
+    "displayName": "Seviper",
+    "formattedId": "Nº 0336",
+    "types": [
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/336.png",
+    "height": "2.7",
+    "weight": "52.5",
+    "generation": 3,
+    "evolutionChainId": 170,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fang Snake Pokémon ",
+    "description": "Seviper tiene una cola que parece una espada y le sirve para dar un sablazo al enemigo y para envenenarlo. Este Pokémon se mantiene firme en la enemistad que siente hacia Zangoose.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 100,
+      "defense": 60,
+      "spAttack": 100,
+      "spDefense": 60,
+      "speed": 65,
+      "total": 458
+    }
+  },
+  {
+    "id": 337,
+    "name": "lunatone",
+    "displayName": "Lunatone",
+    "formattedId": "Nº 0337",
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/337.png",
+    "height": "1.0",
+    "weight": "168.0",
+    "generation": 3,
+    "evolutionChainId": 171,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Meteorite Pokémon ",
+    "description": "Fue descubierto hace 40 años en el lugar donde había caído un meteorito. Le basta fulminar a sus enemigos con la mirada para dormirlos.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 65,
+      "spAttack": 95,
+      "spDefense": 85,
+      "speed": 70,
+      "total": 460
+    }
+  },
+  {
+    "id": 338,
+    "name": "solrock",
+    "displayName": "Solrock",
+    "formattedId": "Nº 0338",
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/338.png",
+    "height": "1.2",
+    "weight": "154.0",
+    "generation": 3,
+    "evolutionChainId": 172,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Meteorite Pokémon ",
+    "description": "Usa el sol como fuente de energía, por lo que es más poderoso de día. Brilla al rotar.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 85,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 70,
+      "total": 460
+    }
+  },
+  {
+    "id": 339,
+    "name": "barboach",
+    "displayName": "Barboach",
+    "formattedId": "Nº 0339",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/339.png",
+    "height": "0.4",
+    "weight": "1.9",
+    "generation": 3,
+    "evolutionChainId": 173,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Whiskers Pokémon ",
+    "description": "Examina los lechos lodosos de los ríos con los largos bigotes que tiene. Está protegido por una capa viscosa.",
+    "abilities": [
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 48,
+      "defense": 43,
+      "spAttack": 46,
+      "spDefense": 41,
+      "speed": 60,
+      "total": 288
+    }
+  },
+  {
+    "id": 340,
+    "name": "whiscash",
+    "displayName": "Whiscash",
+    "formattedId": "Nº 0340",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/340.png",
+    "height": "0.9",
+    "weight": "23.6",
+    "generation": 3,
+    "evolutionChainId": 173,
+    "evolvesFrom": 339,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Whiskers Pokémon ",
+    "description": "Habita en grandes pantanos. Si se acerca un enemigo, monta en cólera y causa temblores monumentales.",
+    "abilities": [
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 78,
+      "defense": 73,
+      "spAttack": 76,
+      "spDefense": 71,
+      "speed": 60,
+      "total": 468
+    }
+  },
+  {
+    "id": 341,
+    "name": "corphish",
+    "displayName": "Corphish",
+    "formattedId": "Nº 0341",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/341.png",
+    "height": "0.6",
+    "weight": "11.5",
+    "generation": 3,
+    "evolutionChainId": 174,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ruffian Pokémon ",
+    "description": "Si bien procede del extranjero, ahora se halla en estado salvaje. Puede vivir hasta en los ríos más sucios.",
+    "abilities": [
+      {
+        "raw": "hyper-cutter",
+        "name": "hyper cutter",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 43,
+      "attack": 80,
+      "defense": 65,
+      "spAttack": 50,
+      "spDefense": 35,
+      "speed": 35,
+      "total": 308
+    }
+  },
+  {
+    "id": 342,
+    "name": "crawdaunt",
+    "displayName": "Crawdaunt",
+    "formattedId": "Nº 0342",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/342.png",
+    "height": "1.1",
+    "weight": "32.8",
+    "generation": 3,
+    "evolutionChainId": 174,
+    "evolvesFrom": 341,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rogue Pokémon ",
+    "description": "Le encanta pelear, debido a su naturaleza. Si alguien se acerca a su madriguera, le propinará una paliza sin ningún tipo de miramiento.",
+    "abilities": [
+      {
+        "raw": "hyper-cutter",
+        "name": "hyper cutter",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 63,
+      "attack": 120,
+      "defense": 85,
+      "spAttack": 90,
+      "spDefense": 55,
+      "speed": 55,
+      "total": 468
+    }
+  },
+  {
+    "id": 343,
+    "name": "baltoy",
+    "displayName": "Baltoy",
+    "formattedId": "Nº 0343",
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/343.png",
+    "height": "0.5",
+    "weight": "21.5",
+    "generation": 3,
+    "evolutionChainId": 175,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Clay Doll Pokémon ",
+    "description": "Fue hallado en unas ruinas antiguas. Se desplaza girando sobre sí mismo y se mantiene sobre una extremidad incluso cuando duerme.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 55,
+      "spAttack": 40,
+      "spDefense": 70,
+      "speed": 55,
+      "total": 300
+    }
+  },
+  {
+    "id": 344,
+    "name": "claydol",
+    "displayName": "Claydol",
+    "formattedId": "Nº 0344",
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/344.png",
+    "height": "1.5",
+    "weight": "108.0",
+    "generation": 3,
+    "evolutionChainId": 175,
+    "evolvesFrom": 343,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Clay Doll Pokémon ",
+    "description": "Dicen que surgió de una figurilla de barro hecha por una antigua civilización. Usa telequinesia para levitar y moverse.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 70,
+      "defense": 105,
+      "spAttack": 70,
+      "spDefense": 120,
+      "speed": 75,
+      "total": 500
+    }
+  },
+  {
+    "id": 345,
+    "name": "lileep",
+    "displayName": "Lileep",
+    "formattedId": "Nº 0345",
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/345.png",
+    "height": "1.0",
+    "weight": "23.8",
+    "generation": 3,
+    "evolutionChainId": 176,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sea Lily Pokémon ",
+    "description": "Se ancla a una roca en el lecho marino y atrapa a las presas que se le acercan con sus tentáculos en forma de pétalos.",
+    "abilities": [
+      {
+        "raw": "suction-cups",
+        "name": "suction cups",
+        "is_hidden": false
+      },
+      {
+        "raw": "storm-drain",
+        "name": "storm drain",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 66,
+      "attack": 41,
+      "defense": 77,
+      "spAttack": 61,
+      "spDefense": 87,
+      "speed": 23,
+      "total": 355
+    }
+  },
+  {
+    "id": 346,
+    "name": "cradily",
+    "displayName": "Cradily",
+    "formattedId": "Nº 0346",
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/346.png",
+    "height": "1.5",
+    "weight": "60.4",
+    "generation": 3,
+    "evolutionChainId": 176,
+    "evolvesFrom": 345,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Barnacle Pokémon ",
+    "description": "Atrapa a sus presas con los tentáculos y enseguida las disuelve con sus jugos gástricos para absorber los nutrientes.",
+    "abilities": [
+      {
+        "raw": "suction-cups",
+        "name": "suction cups",
+        "is_hidden": false
+      },
+      {
+        "raw": "storm-drain",
+        "name": "storm drain",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 81,
+      "defense": 97,
+      "spAttack": 81,
+      "spDefense": 107,
+      "speed": 43,
+      "total": 495
+    }
+  },
+  {
+    "id": 347,
+    "name": "anorith",
+    "displayName": "Anorith",
+    "formattedId": "Nº 0347",
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/347.png",
+    "height": "0.7",
+    "weight": "12.5",
+    "generation": 3,
+    "evolutionChainId": 177,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Old Shrimp Pokémon ",
+    "description": "Puede nadar rápidamente gracias a sus ocho alas que usa a modo de remo. Es uno de los antepasados de los Pokémon insecto.",
+    "abilities": [
+      {
+        "raw": "battle-armor",
+        "name": "battle armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 95,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 75,
+      "total": 355
+    }
+  },
+  {
+    "id": 348,
+    "name": "armaldo",
+    "displayName": "Armaldo",
+    "formattedId": "Nº 0348",
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/348.png",
+    "height": "1.5",
+    "weight": "68.2",
+    "generation": 3,
+    "evolutionChainId": 177,
+    "evolvesFrom": 347,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Plate Pokémon ",
+    "description": "Vive en tierra firme, pero es un hábil nadador. Se zambulle en el agua en busca de presas y las atrapa con sus afiladas pinzas.",
+    "abilities": [
+      {
+        "raw": "battle-armor",
+        "name": "battle armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 100,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 45,
+      "total": 495
+    }
+  },
+  {
+    "id": 349,
+    "name": "feebas",
+    "displayName": "Feebas",
+    "formattedId": "Nº 0349",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/349.png",
+    "height": "0.6",
+    "weight": "7.4",
+    "generation": 3,
+    "evolutionChainId": 178,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Peixe",
+    "description": "Su apariencia deja bastante que desear, pero es muy resistente y puede sobrevivir con poca agua.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 20,
+      "attack": 15,
+      "defense": 20,
+      "spAttack": 10,
+      "spDefense": 55,
+      "speed": 80,
+      "total": 200
+    }
+  },
+  {
+    "id": 350,
+    "name": "milotic",
+    "displayName": "Milotic",
+    "formattedId": "Nº 0350",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
+    "height": "6.2",
+    "weight": "162.0",
+    "generation": 3,
+    "evolutionChainId": 178,
+    "evolvesFrom": 349,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tender Pokémon ",
+    "description": "Se dice que su hermosa figura puede apaciguar el corazón de aquellos que tengan el ánimo alterado.",
+    "abilities": [
+      {
+        "raw": "marvel-scale",
+        "name": "marvel scale",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": false
+      },
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 60,
+      "defense": 79,
+      "spAttack": 100,
+      "spDefense": 125,
+      "speed": 81,
+      "total": 540
+    }
+  },
+  {
+    "id": 351,
+    "name": "castform",
+    "displayName": "Castform",
+    "formattedId": "Nº 0351",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png",
+    "height": "0.3",
+    "weight": "0.8",
+    "generation": 3,
+    "evolutionChainId": 179,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Weather Pokémon ",
+    "description": "El tiempo atmosférico cambia tanto su aspecto como su estado de ánimo. Cuanto más arrecia, más agresivo se vuelve.",
+    "abilities": [
+      {
+        "raw": "forecast",
+        "name": "forecast",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 70,
+      "total": 420
+    }
+  },
+  {
+    "id": 352,
+    "name": "kecleon",
+    "displayName": "Kecleon",
+    "formattedId": "Nº 0352",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/352.png",
+    "height": "1.0",
+    "weight": "22.0",
+    "generation": 3,
+    "evolutionChainId": 180,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Color Swap Pokémon ",
+    "description": "Incluso cuando no se está mimetizando, el color de su cuerpo cambia según cómo se encuentre. Un color más intenso indica mayor vitalidad.",
+    "abilities": [
+      {
+        "raw": "color-change",
+        "name": "color change",
+        "is_hidden": false
+      },
+      {
+        "raw": "protean",
+        "name": "protean",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 70,
+      "spAttack": 60,
+      "spDefense": 120,
+      "speed": 40,
+      "total": 440
+    }
+  },
+  {
+    "id": 353,
+    "name": "shuppet",
+    "displayName": "Shuppet",
+    "formattedId": "Nº 0353",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/353.png",
+    "height": "0.6",
+    "weight": "2.3",
+    "generation": 3,
+    "evolutionChainId": 181,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Puppet Pokémon ",
+    "description": "Según un viejo proverbio, conviene mantenerse alejado de aquellas casas a las que se arrime una multitud de Shuppet cuando cae la noche.",
+    "abilities": [
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 44,
+      "attack": 75,
+      "defense": 35,
+      "spAttack": 63,
+      "spDefense": 33,
+      "speed": 45,
+      "total": 295
+    }
+  },
+  {
+    "id": 354,
+    "name": "banette",
+    "displayName": "Banette",
+    "formattedId": "Nº 0354",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
+    "height": "1.1",
+    "weight": "12.5",
+    "generation": 3,
+    "evolutionChainId": 181,
+    "evolvesFrom": 353,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Marionette Pokémon ",
+    "description": "El rencor de haber sido tirado a la basura fue lo que le dio vida. Se dice que puede convertirse de nuevo en muñeco si se le trata con cariño.",
+    "abilities": [
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 64,
+      "attack": 115,
+      "defense": 65,
+      "spAttack": 83,
+      "spDefense": 63,
+      "speed": 65,
+      "total": 455
+    }
+  },
+  {
+    "id": 355,
+    "name": "duskull",
+    "displayName": "Duskull",
+    "formattedId": "Nº 0355",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/355.png",
+    "height": "0.8",
+    "weight": "15.0",
+    "generation": 3,
+    "evolutionChainId": 182,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Requiem Pokémon ",
+    "description": "Se vuelve invisible para acercarse sigilosamente a su presa. Es capaz de atravesar anchos muros.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 20,
+      "attack": 40,
+      "defense": 90,
+      "spAttack": 30,
+      "spDefense": 90,
+      "speed": 25,
+      "total": 295
+    }
+  },
+  {
+    "id": 356,
+    "name": "dusclops",
+    "displayName": "Dusclops",
+    "formattedId": "Nº 0356",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/356.png",
+    "height": "1.6",
+    "weight": "30.6",
+    "generation": 3,
+    "evolutionChainId": 182,
+    "evolvesFrom": 355,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Beckon Pokémon ",
+    "description": "Busca fuegos fatuos y los absorbe en su cuerpo hueco. Lo que pasa dentro luego es un misterio.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 70,
+      "defense": 130,
+      "spAttack": 60,
+      "spDefense": 130,
+      "speed": 25,
+      "total": 455
+    }
+  },
+  {
+    "id": 357,
+    "name": "tropius",
+    "displayName": "Tropius",
+    "formattedId": "Nº 0357",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/357.png",
+    "height": "2.0",
+    "weight": "100.0",
+    "generation": 3,
+    "evolutionChainId": 183,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fruit Pokémon ",
+    "description": "A la gente le encanta la deliciosa fruta de sus racimos. En las regiones cálidas abundan las granjas que se dedican a criar Tropius.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "solar-power",
+        "name": "solar power",
+        "is_hidden": false
+      },
+      {
+        "raw": "harvest",
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 99,
+      "attack": 68,
+      "defense": 83,
+      "spAttack": 72,
+      "spDefense": 87,
+      "speed": 51,
+      "total": 460
+    }
+  },
+  {
+    "id": 358,
+    "name": "chimecho",
+    "displayName": "Chimecho",
+    "formattedId": "Nº 0358",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
+    "height": "0.6",
+    "weight": "1.0",
+    "generation": 3,
+    "evolutionChainId": 184,
+    "evolvesFrom": 433,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Wind Chime Pokémon ",
+    "description": "Cuando hay viento fuerte, Chimecho chilla colgado de la rama de un árbol o de los aleros de un edificio por la ventosa que tiene en la cabeza. Este Pokémon usa la larga cola que tiene para agarrar bayas y comérselas.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 50,
+      "defense": 80,
+      "spAttack": 95,
+      "spDefense": 90,
+      "speed": 65,
+      "total": 455
+    }
+  },
+  {
+    "id": 359,
+    "name": "absol",
+    "displayName": "Absol",
+    "formattedId": "Nº 0359",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
+    "height": "1.2",
+    "weight": "47.0",
+    "generation": 3,
+    "evolutionChainId": 185,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Disaster Pokémon ",
+    "description": "Debido a su capacidad para predecir desastres, se lo ha considerado desacertadamente un Pokémon portador de desgracias.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "super-luck",
+        "name": "super luck",
+        "is_hidden": false
+      },
+      {
+        "raw": "justified",
+        "name": "justified",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "spAttack": 75,
+      "spDefense": 60,
+      "speed": 75,
+      "total": 465
+    }
+  },
+  {
+    "id": 360,
+    "name": "wynaut",
+    "displayName": "Wynaut",
+    "formattedId": "Nº 0360",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/360.png",
+    "height": "0.6",
+    "weight": "14.0",
+    "generation": 3,
+    "evolutionChainId": 100,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bright Pokémon ",
+    "description": "Suelen ir en grupo y, a la hora de dormir, se pegan unos a otros para descansar resguardados en cuevas.",
+    "abilities": [
+      {
+        "raw": "shadow-tag",
+        "name": "shadow tag",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 23,
+      "defense": 48,
+      "spAttack": 23,
+      "spDefense": 48,
+      "speed": 23,
+      "total": 260
+    }
+  },
+  {
+    "id": 361,
+    "name": "snorunt",
+    "displayName": "Snorunt",
+    "formattedId": "Nº 0361",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
+    "height": "0.7",
+    "weight": "16.8",
+    "generation": 3,
+    "evolutionChainId": 186,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Snow Hat Pokémon ",
+    "description": "Las regiones frías son su hábitat natural. Se encuentra a sus anchas incluso en lugares donde la temperatura alcanza los -100 °C.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "moody",
+        "name": "moody",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 50,
+      "total": 300
+    }
+  },
+  {
+    "id": 362,
+    "name": "glalie",
+    "displayName": "Glalie",
+    "formattedId": "Nº 0362",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
+    "height": "1.5",
+    "weight": "256.5",
+    "generation": 3,
+    "evolutionChainId": 186,
+    "evolvesFrom": 361,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Face Pokémon ",
+    "description": "Congela a sus presas helando en un momento la humedad contenida en el aire que lo rodea.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "moody",
+        "name": "moody",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 80,
+      "total": 480
+    }
+  },
+  {
+    "id": 363,
+    "name": "spheal",
+    "displayName": "Spheal",
+    "formattedId": "Nº 0363",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/363.png",
+    "height": "0.8",
+    "weight": "39.5",
+    "generation": 3,
+    "evolutionChainId": 187,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Clap Pokémon ",
+    "description": "Flota entre las olas para examinar el océano. Si encuentra una presa, avisa enseguida a los Walrein de su manada.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 40,
+      "defense": 50,
+      "spAttack": 55,
+      "spDefense": 50,
+      "speed": 25,
+      "total": 290
+    }
+  },
+  {
+    "id": 364,
+    "name": "sealeo",
+    "displayName": "Sealeo",
+    "formattedId": "Nº 0364",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/364.png",
+    "height": "1.1",
+    "weight": "87.6",
+    "generation": 3,
+    "evolutionChainId": 187,
+    "evolvesFrom": 363,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ball Roll Pokémon ",
+    "description": "Tiene la costumbre de hacer girar en la punta del morro cualquier objeto redondeado, ya sea una Poké Ball o un Spheal.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 60,
+      "defense": 70,
+      "spAttack": 75,
+      "spDefense": 70,
+      "speed": 45,
+      "total": 410
+    }
+  },
+  {
+    "id": 365,
+    "name": "walrein",
+    "displayName": "Walrein",
+    "formattedId": "Nº 0365",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/365.png",
+    "height": "1.4",
+    "weight": "150.6",
+    "generation": 3,
+    "evolutionChainId": 187,
+    "evolvesFrom": 364,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ice Break Pokémon ",
+    "description": "Sus colmillos nunca dejan de crecer. Aunque los pierda en un combate, al cabo de un año ya los habrá regenerado por completo.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 80,
+      "defense": 90,
+      "spAttack": 95,
+      "spDefense": 90,
+      "speed": 65,
+      "total": 530
+    }
+  },
+  {
+    "id": 366,
+    "name": "clamperl",
+    "displayName": "Clamperl",
+    "formattedId": "Nº 0366",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/366.png",
+    "height": "0.4",
+    "weight": "52.5",
+    "generation": 3,
+    "evolutionChainId": 188,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bivalve Pokémon ",
+    "description": "La perla que contiene vale un potosí. De hecho, su precio puede llegar a ser incluso más de diez veces superior al de la perla de Shellder.",
+    "abilities": [
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 64,
+      "defense": 85,
+      "spAttack": 74,
+      "spDefense": 55,
+      "speed": 32,
+      "total": 345
+    }
+  },
+  {
+    "id": 367,
+    "name": "huntail",
+    "displayName": "Huntail",
+    "formattedId": "Nº 0367",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/367.png",
+    "height": "1.7",
+    "weight": "27.0",
+    "generation": 3,
+    "evolutionChainId": 188,
+    "evolvesFrom": 366,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Deep Sea Pokémon ",
+    "description": "Vive en los fondos marinos. Según una leyenda, que un Huntail aparezca varado en la playa es señal de mal augurio.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 104,
+      "defense": 105,
+      "spAttack": 94,
+      "spDefense": 75,
+      "speed": 52,
+      "total": 485
+    }
+  },
+  {
+    "id": 368,
+    "name": "gorebyss",
+    "displayName": "Gorebyss",
+    "formattedId": "Nº 0368",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/368.png",
+    "height": "1.8",
+    "weight": "22.6",
+    "generation": 3,
+    "evolutionChainId": 188,
+    "evolvesFrom": 366,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "South Sea Pokémon ",
+    "description": "Absorbe los fluidos corporales de su presa. Los restos que deja caen hasta el lecho marino y se convierten en alimento para otros Pokémon.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 84,
+      "defense": 105,
+      "spAttack": 114,
+      "spDefense": 75,
+      "speed": 52,
+      "total": 485
+    }
+  },
+  {
+    "id": 369,
+    "name": "relicanth",
+    "displayName": "Relicanth",
+    "formattedId": "Nº 0369",
+    "types": [
+      "water",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/369.png",
+    "height": "1.0",
+    "weight": "23.4",
+    "generation": 3,
+    "evolutionChainId": 189,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Longevity Pokémon ",
+    "description": "Fue descubierto durante una expedición marina. Se lo considera un fósil viviente, pues no ha cambiado en cien millones de años.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 90,
+      "defense": 130,
+      "spAttack": 45,
+      "spDefense": 65,
+      "speed": 55,
+      "total": 485
+    }
+  },
+  {
+    "id": 370,
+    "name": "luvdisc",
+    "displayName": "Luvdisc",
+    "formattedId": "Nº 0370",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/370.png",
+    "height": "0.6",
+    "weight": "8.7",
+    "generation": 3,
+    "evolutionChainId": 190,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rendezvous Pokémon ",
+    "description": "Vive en los arrecifes de coral de mares cálidos. Dormir entre las ramas de los Corsola es algo por lo que siente una especial predilección.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 43,
+      "attack": 30,
+      "defense": 55,
+      "spAttack": 40,
+      "spDefense": 65,
+      "speed": 97,
+      "total": 330
+    }
+  },
+  {
+    "id": 371,
+    "name": "bagon",
+    "displayName": "Bagon",
+    "formattedId": "Nº 0371",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png",
+    "height": "0.6",
+    "weight": "42.1",
+    "generation": 3,
+    "evolutionChainId": 191,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rock Head Pokémon ",
+    "description": "Vive en solitario, sin formar manadas, y posee una cabeza dura como la piedra que le permite hacer añicos rocas enormes de un solo golpe.",
+    "abilities": [
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 75,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 30,
+      "speed": 50,
+      "total": 300
+    }
+  },
+  {
+    "id": 372,
+    "name": "shelgon",
+    "displayName": "Shelgon",
+    "formattedId": "Nº 0372",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png",
+    "height": "1.1",
+    "weight": "110.5",
+    "generation": 3,
+    "evolutionChainId": 191,
+    "evolvesFrom": 371,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Endurance Pokémon ",
+    "description": "Aguanta el hambre sin comer nada. Al parecer, inicia el proceso evolutivo cuando se agota toda la energía que tenía acumulada.",
+    "abilities": [
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 100,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 50,
+      "total": 420
+    }
+  },
+  {
+    "id": 373,
+    "name": "salamence",
+    "displayName": "Salamence",
+    "formattedId": "Nº 0373",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
+    "height": "1.5",
+    "weight": "102.6",
+    "generation": 3,
+    "evolutionChainId": 191,
+    "evolvesFrom": 372,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Dragão",
+    "description": "Feliz de ver cumplido su deseo, surca los cielos con buen ánimo, pero, si se enfada, se vuelve violento e incontrolable.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 135,
+      "defense": 80,
+      "spAttack": 110,
+      "spDefense": 80,
+      "speed": 100,
+      "total": 600
+    }
+  },
+  {
+    "id": 374,
+    "name": "beldum",
+    "displayName": "Beldum",
+    "formattedId": "Nº 0374",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png",
+    "height": "0.6",
+    "weight": "95.2",
+    "generation": 3,
+    "evolutionChainId": 192,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Iron Ball Pokémon ",
+    "description": "Las células de su cuerpo están hechas de imanes. En lugar de sangre, una fuerza magnética recorre su cuerpo.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "light-metal",
+        "name": "light metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 80,
+      "spAttack": 35,
+      "spDefense": 60,
+      "speed": 30,
+      "total": 300
+    }
+  },
+  {
+    "id": 375,
+    "name": "metang",
+    "displayName": "Metang",
+    "formattedId": "Nº 0375",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png",
+    "height": "1.2",
+    "weight": "202.5",
+    "generation": 3,
+    "evolutionChainId": 192,
+    "evolvesFrom": 374,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Iron Claw Pokémon ",
+    "description": "Levita gracias al magnetismo. Es capaz de sortear escarpadas montañas mientras vuela a altas velocidades en pos de su presa.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "light-metal",
+        "name": "light metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 100,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 50,
+      "total": 420
+    }
+  },
+  {
+    "id": 376,
+    "name": "metagross",
+    "displayName": "Metagross",
+    "formattedId": "Nº 0376",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
+    "height": "1.6",
+    "weight": "550.0",
+    "generation": 3,
+    "evolutionChainId": 192,
+    "evolvesFrom": 375,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Iron Leg Pokémon ",
+    "description": "Formado a partir de la unión de dos Metang. Emplea su inteligencia, comparable a la de un superordenador, para derrotar a sus rivales.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "light-metal",
+        "name": "light metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 135,
+      "defense": 130,
+      "spAttack": 95,
+      "spDefense": 90,
+      "speed": 70,
+      "total": 600
+    }
+  },
+  {
+    "id": 377,
+    "name": "regirock",
+    "displayName": "Regirock",
+    "formattedId": "Nº 0377",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/377.png",
+    "height": "1.7",
+    "weight": "230.0",
+    "generation": 3,
+    "evolutionChainId": 193,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Rock Peak Pokémon ",
+    "description": "Su cuerpo rocoso ha sido examinado con las técnicas científicas más avanzadas, pero no se han encontrado ni su cerebro ni su corazón.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 200,
+      "spAttack": 50,
+      "spDefense": 100,
+      "speed": 50,
+      "total": 580
+    }
+  },
+  {
+    "id": 378,
+    "name": "regice",
+    "displayName": "Regice",
+    "formattedId": "Nº 0378",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/378.png",
+    "height": "1.8",
+    "weight": "175.0",
+    "generation": 3,
+    "evolutionChainId": 194,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Iceberg Pokémon ",
+    "description": "Todo su cuerpo está compuesto de hielo. Se dice que surgió bajo una gruesa placa de hielo durante alguna glaciación.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 50,
+      "defense": 100,
+      "spAttack": 100,
+      "spDefense": 200,
+      "speed": 50,
+      "total": 580
+    }
+  },
+  {
+    "id": 379,
+    "name": "registeel",
+    "displayName": "Registeel",
+    "formattedId": "Nº 0379",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/379.png",
+    "height": "1.9",
+    "weight": "205.0",
+    "generation": 3,
+    "evolutionChainId": 195,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Iron Pokémon ",
+    "description": "Dicen que se formó en el manto terrestre y ascendió a la superficie hace aproximadamente diez mil años.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "light-metal",
+        "name": "light metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 75,
+      "defense": 150,
+      "spAttack": 75,
+      "spDefense": 150,
+      "speed": 50,
+      "total": 580
+    }
+  },
+  {
+    "id": 380,
+    "name": "latias",
+    "displayName": "Latias",
+    "formattedId": "Nº 0380",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/380.png",
+    "height": "1.4",
+    "weight": "40.0",
+    "generation": 3,
+    "evolutionChainId": 196,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Eon Pokémon ",
+    "description": "Latias tiene un nivel de inteligencia tan alto que es capaz de entender el lenguaje humano. Este Pokémon usa el plumón cristalizado del que está cubierto como peto para refractar la luz y cambiar de aspecto.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 90,
+      "spAttack": 110,
+      "spDefense": 130,
+      "speed": 110,
+      "total": 600
+    }
+  },
+  {
+    "id": 381,
+    "name": "latios",
+    "displayName": "Latios",
+    "formattedId": "Nº 0381",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/381.png",
+    "height": "2.0",
+    "weight": "60.0",
+    "generation": 3,
+    "evolutionChainId": 197,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Eon Pokémon ",
+    "description": "Latios solo le abre el corazón a los Entrenadores compasivos. A la hora de volar, este Pokémon pliega las patas delanteras para minimizar la resistencia al aire y supera en velocidad a un avión a reacción.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 90,
+      "defense": 80,
+      "spAttack": 130,
+      "spDefense": 110,
+      "speed": 110,
+      "total": 600
+    }
+  },
+  {
+    "id": 382,
+    "name": "kyogre",
+    "displayName": "Kyogre",
+    "formattedId": "Nº 0382",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png",
+    "height": "4.5",
+    "weight": "352.0",
+    "generation": 3,
+    "evolutionChainId": 198,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Sea Basin Pokémon ",
+    "description": "A Kyogre siempre se le ha descrito como el Pokémon que expandió los océanos. Varias leyendas cuentan que libró combates contra Groudon en repetidas ocasiones para tener el control de la energía de la naturaleza.",
+    "abilities": [
+      {
+        "raw": "drizzle",
+        "name": "drizzle",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 90,
+      "spAttack": 150,
+      "spDefense": 140,
+      "speed": 90,
+      "total": 670
+    }
+  },
+  {
+    "id": 383,
+    "name": "groudon",
+    "displayName": "Groudon",
+    "formattedId": "Nº 0383",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png",
+    "height": "3.5",
+    "weight": "950.0",
+    "generation": 3,
+    "evolutionChainId": 199,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Continente",
+    "description": "Groudon se sirve de la energía de la naturaleza para realizar su Regresión Primigenia y recobrar su apariencia primitiva. Con tal poder, puede crear magma para expandir los continentes.",
+    "abilities": [
+      {
+        "raw": "drought",
+        "name": "drought",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 140,
+      "spAttack": 100,
+      "spDefense": 90,
+      "speed": 90,
+      "total": 670
+    }
+  },
+  {
+    "id": 384,
+    "name": "rayquaza",
+    "displayName": "Rayquaza",
+    "formattedId": "Nº 0384",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png",
+    "height": "7.0",
+    "weight": "206.5",
+    "generation": 3,
+    "evolutionChainId": 200,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Céu Alto",
+    "description": "Rayquaza ha vivido en la capa de ozono durante millones de años, alimentándose de meteoritos. La energía de estos meteoritos se acumula en su cuerpo y le permite megaevolucionar.",
+    "abilities": [
+      {
+        "raw": "air-lock",
+        "name": "air lock",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 150,
+      "defense": 90,
+      "spAttack": 150,
+      "spDefense": 90,
+      "speed": 95,
+      "total": 680
+    }
+  },
+  {
+    "id": 385,
+    "name": "jirachi",
+    "displayName": "Jirachi",
+    "formattedId": "Nº 0385",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/385.png",
+    "height": "0.3",
+    "weight": "1.1",
+    "generation": 3,
+    "evolutionChainId": 201,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Wish Pokémon ",
+    "description": "Se dice que concederá los deseos escritos en las notas de su cabeza cuando se despierte de su sueño milenario.",
+    "abilities": [
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 100,
+      "total": 600
+    }
+  },
+  {
+    "id": 386,
+    "name": "deoxys-normal",
+    "displayName": "Deoxys",
+    "formattedId": "Nº 0386",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/386.png",
+    "height": "1.7",
+    "weight": "60.8",
+    "generation": 3,
+    "evolutionChainId": 202,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "DNA Pokémon ",
+    "description": "Deoxys surgió a partir de un virus espacial. Tiene un alto nivel intelectual y poderes psicoquinéticos. Este Pokémon dispara rayos láser por el órgano cristalino que tiene en el torso.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 150,
+      "defense": 50,
+      "spAttack": 150,
+      "spDefense": 50,
+      "speed": 150,
+      "total": 600
+    }
+  },
+  {
+    "id": 387,
+    "name": "turtwig",
+    "displayName": "Turtwig",
+    "formattedId": "Nº 0387",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/387.png",
+    "height": "0.4",
+    "weight": "10.2",
+    "generation": 4,
+    "evolutionChainId": 203,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tiny Leaf Pokémon ",
+    "description": "Realiza la fotosíntesis para obtener oxígeno. Si tiene sed, las hojas de la cabeza se marchitan.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 68,
+      "defense": 64,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 31,
+      "total": 318
+    }
+  },
+  {
+    "id": 388,
+    "name": "grotle",
+    "displayName": "Grotle",
+    "formattedId": "Nº 0388",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/388.png",
+    "height": "1.1",
+    "weight": "97.0",
+    "generation": 4,
+    "evolutionChainId": 203,
+    "evolvesFrom": 387,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Grove Pokémon ",
+    "description": "Sabe dónde encontrar manantiales de agua pura y lleva a los Pokémon amigos hasta allí en su lomo.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 89,
+      "defense": 85,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 36,
+      "total": 405
+    }
+  },
+  {
+    "id": 389,
+    "name": "torterra",
+    "displayName": "Torterra",
+    "formattedId": "Nº 0389",
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/389.png",
+    "height": "2.2",
+    "weight": "310.0",
+    "generation": 4,
+    "evolutionChainId": 203,
+    "evolvesFrom": 388,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Continente",
+    "description": "Algunos Pokémon pequeños se juntan en su espalda para hacer sus nidos.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 109,
+      "defense": 105,
+      "spAttack": 75,
+      "spDefense": 85,
+      "speed": 56,
+      "total": 525
+    }
+  },
+  {
+    "id": 390,
+    "name": "chimchar",
+    "displayName": "Chimchar",
+    "formattedId": "Nº 0390",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png",
+    "height": "0.5",
+    "weight": "6.2",
+    "generation": 4,
+    "evolutionChainId": 204,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Chimpanzé",
+    "description": "El fuego que arde en su cola lo generan los gases de su estómago y disminuye cuando está débil.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 44,
+      "attack": 58,
+      "defense": 44,
+      "spAttack": 58,
+      "spDefense": 44,
+      "speed": 61,
+      "total": 309
+    }
+  },
+  {
+    "id": 391,
+    "name": "monferno",
+    "displayName": "Monferno",
+    "formattedId": "Nº 0391",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/391.png",
+    "height": "0.9",
+    "weight": "22.0",
+    "generation": 4,
+    "evolutionChainId": 204,
+    "evolvesFrom": 390,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Brincalhão",
+    "description": "Utiliza techos y paredes para lanzar ataques aéreos. También emplea su cola ígnea como arma.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 64,
+      "attack": 78,
+      "defense": 52,
+      "spAttack": 78,
+      "spDefense": 52,
+      "speed": 81,
+      "total": 405
+    }
+  },
+  {
+    "id": 392,
+    "name": "infernape",
+    "displayName": "Infernape",
+    "formattedId": "Nº 0392",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/392.png",
+    "height": "1.2",
+    "weight": "55.0",
+    "generation": 4,
+    "evolutionChainId": 204,
+    "evolvesFrom": 391,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Chama",
+    "description": "Maneja a sus rivales con tremenda agilidad. En su especial forma de luchar usa todos sus miembros.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 76,
+      "attack": 104,
+      "defense": 71,
+      "spAttack": 104,
+      "spDefense": 71,
+      "speed": 108,
+      "total": 534
+    }
+  },
+  {
+    "id": 393,
+    "name": "piplup",
+    "displayName": "Piplup",
+    "formattedId": "Nº 0393",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png",
+    "height": "0.4",
+    "weight": "5.2",
+    "generation": 4,
+    "evolutionChainId": 205,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Penguin Pokémon ",
+    "description": "Es muy orgulloso, por lo que odia aceptar comida de la gente. Su grueso plumón lo protege del frío.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 53,
+      "attack": 51,
+      "defense": 53,
+      "spAttack": 61,
+      "spDefense": 56,
+      "speed": 40,
+      "total": 314
+    }
+  },
+  {
+    "id": 394,
+    "name": "prinplup",
+    "displayName": "Prinplup",
+    "formattedId": "Nº 0394",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/394.png",
+    "height": "0.8",
+    "weight": "23.0",
+    "generation": 4,
+    "evolutionChainId": 205,
+    "evolvesFrom": 393,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Penguin Pokémon ",
+    "description": "No hace amigos. Puede partir en dos un árbol gigantesco de un fuerte aletazo.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 64,
+      "attack": 66,
+      "defense": 68,
+      "spAttack": 81,
+      "spDefense": 76,
+      "speed": 50,
+      "total": 405
+    }
+  },
+  {
+    "id": 395,
+    "name": "empoleon",
+    "displayName": "Empoleon",
+    "formattedId": "Nº 0395",
+    "types": [
+      "water",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/395.png",
+    "height": "1.7",
+    "weight": "84.5",
+    "generation": 4,
+    "evolutionChainId": 205,
+    "evolvesFrom": 394,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Emperor Pokémon ",
+    "description": "Los tres cuernos de su pico son muestra de su fuerza. El líder tiene los cuernos más grandes.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 84,
+      "attack": 86,
+      "defense": 88,
+      "spAttack": 111,
+      "spDefense": 101,
+      "speed": 60,
+      "total": 530
+    }
+  },
+  {
+    "id": 396,
+    "name": "starly",
+    "displayName": "Starly",
+    "formattedId": "Nº 0396",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/396.png",
+    "height": "0.3",
+    "weight": "2.0",
+    "generation": 4,
+    "evolutionChainId": 206,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Starling Pokémon ",
+    "description": "Sobrevuela los campos buscando Pokémon de tipo Bicho. Chilla de forma muy estridente.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 30,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 60,
+      "total": 245
+    }
+  },
+  {
+    "id": 397,
+    "name": "staravia",
+    "displayName": "Staravia",
+    "formattedId": "Nº 0397",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/397.png",
+    "height": "0.6",
+    "weight": "15.5",
+    "generation": 4,
+    "evolutionChainId": 206,
+    "evolvesFrom": 396,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Starling Pokémon ",
+    "description": "Vive en bosques y campos. Si dos bandadas se encuentran, pelean por el territorio.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 75,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 80,
+      "total": 340
+    }
+  },
+  {
+    "id": 398,
+    "name": "staraptor",
+    "displayName": "Staraptor",
+    "formattedId": "Nº 0398",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/398.png",
+    "height": "1.2",
+    "weight": "24.9",
+    "generation": 4,
+    "evolutionChainId": 206,
+    "evolvesFrom": 397,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Predator Pokémon ",
+    "description": "Al evolucionar a Staraptor deja su bandada y pasa a vivir en soledad. Sus alas son inmensas.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 120,
+      "defense": 70,
+      "spAttack": 50,
+      "spDefense": 60,
+      "speed": 100,
+      "total": 485
+    }
+  },
+  {
+    "id": 399,
+    "name": "bidoof",
+    "displayName": "Bidoof",
+    "formattedId": "Nº 0399",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/399.png",
+    "height": "0.5",
+    "weight": "20.0",
+    "generation": 4,
+    "evolutionChainId": 207,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Plump Mouse Pokémon ",
+    "description": "Roe constantemente los troncos y las rocas para limarse los dientes. Anida cerca del agua.",
+    "abilities": [
+      {
+        "raw": "simple",
+        "name": "simple",
+        "is_hidden": false
+      },
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": false
+      },
+      {
+        "raw": "moody",
+        "name": "moody",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 59,
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 35,
+      "spDefense": 40,
+      "speed": 31,
+      "total": 250
+    }
+  },
+  {
+    "id": 400,
+    "name": "bibarel",
+    "displayName": "Bibarel",
+    "formattedId": "Nº 0400",
+    "types": [
+      "normal",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/400.png",
+    "height": "1.0",
+    "weight": "31.5",
+    "generation": 4,
+    "evolutionChainId": 207,
+    "evolvesFrom": 399,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Beaver Pokémon ",
+    "description": "Para anidar, crea presas en los ríos con maderas y barro. Tiene fama de trabajador.",
+    "abilities": [
+      {
+        "raw": "simple",
+        "name": "simple",
+        "is_hidden": false
+      },
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": false
+      },
+      {
+        "raw": "moody",
+        "name": "moody",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 85,
+      "defense": 60,
+      "spAttack": 55,
+      "spDefense": 60,
+      "speed": 71,
+      "total": 410
+    }
+  },
+  {
+    "id": 401,
+    "name": "kricketot",
+    "displayName": "Kricketot",
+    "formattedId": "Nº 0401",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/401.png",
+    "height": "0.3",
+    "weight": "2.2",
+    "generation": 4,
+    "evolutionChainId": 208,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cricket Pokémon ",
+    "description": "Si choca sus antenas, emite un sonido similar al de un xilófono.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 37,
+      "attack": 25,
+      "defense": 41,
+      "spAttack": 25,
+      "spDefense": 41,
+      "speed": 25,
+      "total": 194
+    }
+  },
+  {
+    "id": 402,
+    "name": "kricketune",
+    "displayName": "Kricketune",
+    "formattedId": "Nº 0402",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/402.png",
+    "height": "1.0",
+    "weight": "25.5",
+    "generation": 4,
+    "evolutionChainId": 208,
+    "evolvesFrom": 401,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cricket Pokémon ",
+    "description": "Los científicos tratan de estudiar sus melodías, que son reflejo de sus emociones.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 77,
+      "attack": 85,
+      "defense": 51,
+      "spAttack": 55,
+      "spDefense": 51,
+      "speed": 65,
+      "total": 384
+    }
+  },
+  {
+    "id": 403,
+    "name": "shinx",
+    "displayName": "Shinx",
+    "formattedId": "Nº 0403",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/403.png",
+    "height": "0.5",
+    "weight": "9.5",
+    "generation": 4,
+    "evolutionChainId": 209,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Flash Pokémon ",
+    "description": "Su pelaje brilla gracias a la electricidad. Envía señales a sus semejantes agitando la punta luminosa de la cola.",
+    "abilities": [
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 65,
+      "defense": 34,
+      "spAttack": 40,
+      "spDefense": 34,
+      "speed": 45,
+      "total": 263
+    }
+  },
+  {
+    "id": 404,
+    "name": "luxio",
+    "displayName": "Luxio",
+    "formattedId": "Nº 0404",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/404.png",
+    "height": "0.9",
+    "weight": "30.5",
+    "generation": 4,
+    "evolutionChainId": 209,
+    "evolvesFrom": 403,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spark Pokémon ",
+    "description": "Cuando encuentra a un adversario, se prepara para combatir sacando las garras, que emiten una corriente eléctrica de un millón de voltios.",
+    "abilities": [
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 49,
+      "spAttack": 60,
+      "spDefense": 49,
+      "speed": 60,
+      "total": 363
+    }
+  },
+  {
+    "id": 405,
+    "name": "luxray",
+    "displayName": "Luxray",
+    "formattedId": "Nº 0405",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/405.png",
+    "height": "1.4",
+    "weight": "42.0",
+    "generation": 4,
+    "evolutionChainId": 209,
+    "evolvesFrom": 404,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Gleam Eyes Pokémon ",
+    "description": "Duerme durante largos períodos para recuperar la enorme cantidad de electricidad que consume al usar su capacidad para ver a través de objetos.",
+    "abilities": [
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 79,
+      "spAttack": 95,
+      "spDefense": 79,
+      "speed": 70,
+      "total": 523
+    }
+  },
+  {
+    "id": 406,
+    "name": "budew",
+    "displayName": "Budew",
+    "formattedId": "Nº 0406",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/406.png",
+    "height": "0.2",
+    "weight": "1.2",
+    "generation": 4,
+    "evolutionChainId": 158,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bud Pokémon ",
+    "description": "Es muy sensible a los cambios de temperatura. Anuncia la llegada inminente de la primavera cuando florece.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 35,
+      "spAttack": 50,
+      "spDefense": 70,
+      "speed": 55,
+      "total": 280
+    }
+  },
+  {
+    "id": 407,
+    "name": "roserade",
+    "displayName": "Roserade",
+    "formattedId": "Nº 0407",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png",
+    "height": "0.9",
+    "weight": "14.5",
+    "generation": 4,
+    "evolutionChainId": 158,
+    "evolvesFrom": 315,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bouquet Pokémon ",
+    "description": "Las toxinas de la mano derecha son de efecto inmediato, y las de la izquierda, retardado. No obstante, ambas pueden ser letales.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 70,
+      "defense": 65,
+      "spAttack": 125,
+      "spDefense": 105,
+      "speed": 90,
+      "total": 515
+    }
+  },
+  {
+    "id": 408,
+    "name": "cranidos",
+    "displayName": "Cranidos",
+    "formattedId": "Nº 0408",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/408.png",
+    "height": "0.9",
+    "weight": "31.5",
+    "generation": 4,
+    "evolutionChainId": 211,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Head Butt Pokémon ",
+    "description": "Se caracteriza por la dureza de su cráneo. Derribaba árboles a cabezazos para comerse las bayas maduras que colgaban de ellos.",
+    "abilities": [
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 67,
+      "attack": 125,
+      "defense": 40,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 58,
+      "total": 350
+    }
+  },
+  {
+    "id": 409,
+    "name": "rampardos",
+    "displayName": "Rampardos",
+    "formattedId": "Nº 0409",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/409.png",
+    "height": "1.6",
+    "weight": "102.5",
+    "generation": 4,
+    "evolutionChainId": 211,
+    "evolvesFrom": 408,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Head Butt Pokémon ",
+    "description": "Pokémon prehistórico especializado en dar cabezazos. Una teoría atribuye su extinción a su cerebro pequeño y a su poca inteligencia.",
+    "abilities": [
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 165,
+      "defense": 60,
+      "spAttack": 65,
+      "spDefense": 50,
+      "speed": 58,
+      "total": 495
+    }
+  },
+  {
+    "id": 410,
+    "name": "shieldon",
+    "displayName": "Shieldon",
+    "formattedId": "Nº 0410",
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/410.png",
+    "height": "0.5",
+    "weight": "57.0",
+    "generation": 4,
+    "evolutionChainId": 212,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Shield Pokémon ",
+    "description": "Los fósiles que se han encontrado hasta ahora en estratos prehistóricos pertenecen solo a su cara.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 42,
+      "defense": 118,
+      "spAttack": 42,
+      "spDefense": 88,
+      "speed": 30,
+      "total": 350
+    }
+  },
+  {
+    "id": 411,
+    "name": "bastiodon",
+    "displayName": "Bastiodon",
+    "formattedId": "Nº 0411",
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png",
+    "height": "1.3",
+    "weight": "149.5",
+    "generation": 4,
+    "evolutionChainId": 212,
+    "evolvesFrom": 410,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Shield Pokémon ",
+    "description": "Un Pokémon con una antigüedad de unos cien millones de años. Su rostro posee una dureza impresionante, superior incluso a la del acero.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 52,
+      "defense": 168,
+      "spAttack": 47,
+      "spDefense": 138,
+      "speed": 30,
+      "total": 495
+    }
+  },
+  {
+    "id": 412,
+    "name": "burmy",
+    "displayName": "Burmy",
+    "formattedId": "Nº 0412",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
+    "height": "0.2",
+    "weight": "3.4",
+    "generation": 4,
+    "evolutionChainId": 213,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bagworm Pokémon ",
+    "description": "Si su caparazón se rompe en combate, lo rehace rápidamente con lo que tenga a mano.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 29,
+      "defense": 45,
+      "spAttack": 29,
+      "spDefense": 45,
+      "speed": 36,
+      "total": 224
+    }
+  },
+  {
+    "id": 413,
+    "name": "wormadam-plant",
+    "displayName": "Wormadam",
+    "formattedId": "Nº 0413",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/413.png",
+    "height": "0.5",
+    "weight": "6.5",
+    "generation": 4,
+    "evolutionChainId": 213,
+    "evolvesFrom": 412,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bagworm Pokémon ",
+    "description": "Cuando Burmy evolucionó, su caparazón pasó a formar parte de este Pokémon.",
+    "abilities": [
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 59,
+      "defense": 85,
+      "spAttack": 79,
+      "spDefense": 105,
+      "speed": 36,
+      "total": 424
+    }
+  },
+  {
+    "id": 414,
+    "name": "mothim",
+    "displayName": "Mothim",
+    "formattedId": "Nº 0414",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/414.png",
+    "height": "0.9",
+    "weight": "23.3",
+    "generation": 4,
+    "evolutionChainId": 213,
+    "evolvesFrom": 412,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Moth Pokémon ",
+    "description": "Hace vida nocturna. Revolotea y roba la miel de las colmenas de Combee cuando duermen.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "tinted-lens",
+        "name": "tinted lens",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 94,
+      "defense": 50,
+      "spAttack": 94,
+      "spDefense": 50,
+      "speed": 66,
+      "total": 424
+    }
+  },
+  {
+    "id": 415,
+    "name": "combee",
+    "displayName": "Combee",
+    "formattedId": "Nº 0415",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/415.png",
+    "height": "0.3",
+    "weight": "5.5",
+    "generation": 4,
+    "evolutionChainId": 214,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tiny Bee Pokémon ",
+    "description": "Recolecta néctar de sol a sol para entregarlo a la colonia y a Vespiquen.",
+    "abilities": [
+      {
+        "raw": "honey-gather",
+        "name": "honey gather",
+        "is_hidden": false
+      },
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 30,
+      "defense": 42,
+      "spAttack": 30,
+      "spDefense": 42,
+      "speed": 70,
+      "total": 244
+    }
+  },
+  {
+    "id": 416,
+    "name": "vespiquen",
+    "displayName": "Vespiquen",
+    "formattedId": "Nº 0416",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/416.png",
+    "height": "1.2",
+    "weight": "38.5",
+    "generation": 4,
+    "evolutionChainId": 214,
+    "evolvesFrom": 415,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Beehive Pokémon ",
+    "description": "Cuanto mayor sea la cantidad de feromonas que segregue, mayor será el número de Combee que pueda controlar.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 102,
+      "spAttack": 80,
+      "spDefense": 102,
+      "speed": 40,
+      "total": 474
+    }
+  },
+  {
+    "id": 417,
+    "name": "pachirisu",
+    "displayName": "Pachirisu",
+    "formattedId": "Nº 0417",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/417.png",
+    "height": "0.4",
+    "weight": "3.9",
+    "generation": 4,
+    "evolutionChainId": 215,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "EleSquirrel Pokémon ",
+    "description": "A veces se ve a dos frotándose las bolsas de las mejillas para compartir electricidad almacenada.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 70,
+      "spAttack": 45,
+      "spDefense": 90,
+      "speed": 95,
+      "total": 405
+    }
+  },
+  {
+    "id": 418,
+    "name": "buizel",
+    "displayName": "Buizel",
+    "formattedId": "Nº 0418",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/418.png",
+    "height": "0.7",
+    "weight": "29.5",
+    "generation": 4,
+    "evolutionChainId": 216,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sea Weasel Pokémon ",
+    "description": "Hincha el flotador de su cuello para flotar y saca la cabeza de la superficie del agua para explorar sus alrededores.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 35,
+      "spAttack": 60,
+      "spDefense": 30,
+      "speed": 85,
+      "total": 330
+    }
+  },
+  {
+    "id": 419,
+    "name": "floatzel",
+    "displayName": "Floatzel",
+    "formattedId": "Nº 0419",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/419.png",
+    "height": "1.1",
+    "weight": "33.5",
+    "generation": 4,
+    "evolutionChainId": 216,
+    "evolvesFrom": 418,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sea Weasel Pokémon ",
+    "description": "Su flotador se desarrolló a raíz de perseguir presas acuáticas. También sirve como balsa.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 105,
+      "defense": 55,
+      "spAttack": 85,
+      "spDefense": 50,
+      "speed": 115,
+      "total": 495
+    }
+  },
+  {
+    "id": 420,
+    "name": "cherubi",
+    "displayName": "Cherubi",
+    "formattedId": "Nº 0420",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/420.png",
+    "height": "0.4",
+    "weight": "3.3",
+    "generation": 4,
+    "evolutionChainId": 217,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cherry Pokémon ",
+    "description": "Cuanto más rojo sea su cuerpo, más dulce y deliciosa será su pequeña esfera repleta de nutrientes.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 35,
+      "defense": 45,
+      "spAttack": 62,
+      "spDefense": 53,
+      "speed": 35,
+      "total": 275
+    }
+  },
+  {
+    "id": 421,
+    "name": "cherrim",
+    "displayName": "Cherrim",
+    "formattedId": "Nº 0421",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/421.png",
+    "height": "0.5",
+    "weight": "9.3",
+    "generation": 4,
+    "evolutionChainId": 217,
+    "evolvesFrom": 420,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Blossom Pokémon ",
+    "description": "Al cerrarse, sus pétalos son tan duros que resultan inmunes a los picotazos de los Pokémon pájaro.",
+    "abilities": [
+      {
+        "raw": "flower-gift",
+        "name": "flower gift",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 70,
+      "spAttack": 87,
+      "spDefense": 78,
+      "speed": 85,
+      "total": 450
+    }
+  },
+  {
+    "id": 422,
+    "name": "shellos",
+    "displayName": "Shellos",
+    "formattedId": "Nº 0422",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png",
+    "height": "0.3",
+    "weight": "6.3",
+    "generation": 4,
+    "evolutionChainId": 218,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sea Slug Pokémon ",
+    "description": "Si se le aprieta muy fuerte, secreta un misterioso fluido morado que, aunque inofensivo, resulta desagradable por su viscosidad.",
+    "abilities": [
+      {
+        "raw": "sticky-hold",
+        "name": "sticky hold",
+        "is_hidden": false
+      },
+      {
+        "raw": "storm-drain",
+        "name": "storm drain",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 76,
+      "attack": 48,
+      "defense": 48,
+      "spAttack": 57,
+      "spDefense": 62,
+      "speed": 34,
+      "total": 325
+    }
+  },
+  {
+    "id": 423,
+    "name": "gastrodon",
+    "displayName": "Gastrodon",
+    "formattedId": "Nº 0423",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/423.png",
+    "height": "0.9",
+    "weight": "29.9",
+    "generation": 4,
+    "evolutionChainId": 218,
+    "evolvesFrom": 422,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sea Slug Pokémon ",
+    "description": "Aunque blando, su cuerpo es tremendamente resistente, ya que dispersa cualquier impacto que recibe dada su flexibilidad.",
+    "abilities": [
+      {
+        "raw": "sticky-hold",
+        "name": "sticky hold",
+        "is_hidden": false
+      },
+      {
+        "raw": "storm-drain",
+        "name": "storm drain",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "spAttack": 92,
+      "spDefense": 82,
+      "speed": 39,
+      "total": 475
+    }
+  },
+  {
+    "id": 424,
+    "name": "ambipom",
+    "displayName": "Ambipom",
+    "formattedId": "Nº 0424",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/424.png",
+    "height": "1.2",
+    "weight": "20.3",
+    "generation": 4,
+    "evolutionChainId": 93,
+    "evolvesFrom": 190,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Long Tail Pokémon ",
+    "description": "Utiliza las dos colas para todo. Cuando abraza a alguien con ellas significa que esa persona se ha ganado por completo su confianza.",
+    "abilities": [
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "skill-link",
+        "name": "skill link",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 66,
+      "spAttack": 60,
+      "spDefense": 66,
+      "speed": 115,
+      "total": 482
+    }
+  },
+  {
+    "id": 425,
+    "name": "drifloon",
+    "displayName": "Drifloon",
+    "formattedId": "Nº 0425",
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/425.png",
+    "height": "0.4",
+    "weight": "1.2",
+    "generation": 4,
+    "evolutionChainId": 219,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Balloon Pokémon ",
+    "description": "Está formado por una aglomeración de espíritus. Suele aparecer en grandes números durante las estaciones húmedas.",
+    "abilities": [
+      {
+        "raw": "aftermath",
+        "name": "aftermath",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "flare-boost",
+        "name": "flare boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 50,
+      "defense": 34,
+      "spAttack": 60,
+      "spDefense": 44,
+      "speed": 70,
+      "total": 348
+    }
+  },
+  {
+    "id": 426,
+    "name": "drifblim",
+    "displayName": "Drifblim",
+    "formattedId": "Nº 0426",
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/426.png",
+    "height": "1.2",
+    "weight": "15.0",
+    "generation": 4,
+    "evolutionChainId": 219,
+    "evolvesFrom": 425,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Blimp Pokémon ",
+    "description": "Agarra a gente y a Pokémon para llevárselos a algún sitio, aunque nadie sabe exactamente adónde.",
+    "abilities": [
+      {
+        "raw": "aftermath",
+        "name": "aftermath",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "flare-boost",
+        "name": "flare boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 150,
+      "attack": 80,
+      "defense": 44,
+      "spAttack": 90,
+      "spDefense": 54,
+      "speed": 80,
+      "total": 498
+    }
+  },
+  {
+    "id": 427,
+    "name": "buneary",
+    "displayName": "Buneary",
+    "formattedId": "Nº 0427",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png",
+    "height": "0.4",
+    "weight": "5.5",
+    "generation": 4,
+    "evolutionChainId": 220,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Coelho",
+    "description": "Ataca estirando con un fuerte impulso las orejas enrolladas. Cuanto más entrena esta técnica, con más potencia la ejecuta.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": false
+      },
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 66,
+      "defense": 44,
+      "spAttack": 44,
+      "spDefense": 56,
+      "speed": 85,
+      "total": 350
+    }
+  },
+  {
+    "id": 428,
+    "name": "lopunny",
+    "displayName": "Lopunny",
+    "formattedId": "Nº 0428",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
+    "height": "1.2",
+    "weight": "33.3",
+    "generation": 4,
+    "evolutionChainId": 220,
+    "evolvesFrom": 427,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Coelho",
+    "description": "Cuando acaba la estación más tórrida, le crece un nuevo pelaje muy mullido que lo prepara para el frío.",
+    "abilities": [
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": false
+      },
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 76,
+      "defense": 84,
+      "spAttack": 54,
+      "spDefense": 96,
+      "speed": 105,
+      "total": 480
+    }
+  },
+  {
+    "id": 429,
+    "name": "mismagius",
+    "displayName": "Mismagius",
+    "formattedId": "Nº 0429",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/429.png",
+    "height": "0.9",
+    "weight": "4.4",
+    "generation": 4,
+    "evolutionChainId": 98,
+    "evolvesFrom": 200,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Magical Pokémon ",
+    "description": "Murmura conjuros para atormentar al enemigo y provocarle dolores de cabeza insoportables o visiones terroríficas.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 105,
+      "spDefense": 105,
+      "speed": 105,
+      "total": 495
+    }
+  },
+  {
+    "id": 430,
+    "name": "honchkrow",
+    "displayName": "Honchkrow",
+    "formattedId": "Nº 0430",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/430.png",
+    "height": "0.9",
+    "weight": "27.3",
+    "generation": 4,
+    "evolutionChainId": 97,
+    "evolvesFrom": 198,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big Boss Pokémon ",
+    "description": "Delega el combate en sus leales súbditos y solo se involucra cuando llega la hora de asestarle el golpe de gracia al enemigo.",
+    "abilities": [
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "super-luck",
+        "name": "super luck",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 125,
+      "defense": 52,
+      "spAttack": 105,
+      "spDefense": 52,
+      "speed": 71,
+      "total": 505
+    }
+  },
+  {
+    "id": 431,
+    "name": "glameow",
+    "displayName": "Glameow",
+    "formattedId": "Nº 0431",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/431.png",
+    "height": "0.5",
+    "weight": "3.9",
+    "generation": 4,
+    "evolutionChainId": 221,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Catty Pokémon ",
+    "description": "Dependiendo de su humor, mueve grácilmente su cola, que se asemeja a un lazo de gimnasia rítmica.",
+    "abilities": [
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 49,
+      "attack": 55,
+      "defense": 42,
+      "spAttack": 42,
+      "spDefense": 37,
+      "speed": 85,
+      "total": 310
+    }
+  },
+  {
+    "id": 432,
+    "name": "purugly",
+    "displayName": "Purugly",
+    "formattedId": "Nº 0432",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/432.png",
+    "height": "1.0",
+    "weight": "43.8",
+    "generation": 4,
+    "evolutionChainId": 221,
+    "evolvesFrom": 431,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tiger Cat Pokémon ",
+    "description": "Para intimidar y parecer más corpulento, se aprieta la cintura con su cola bífida.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 82,
+      "defense": 64,
+      "spAttack": 64,
+      "spDefense": 59,
+      "speed": 112,
+      "total": 452
+    }
+  },
+  {
+    "id": 433,
+    "name": "chingling",
+    "displayName": "Chingling",
+    "formattedId": "Nº 0433",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/433.png",
+    "height": "0.2",
+    "weight": "0.6",
+    "generation": 4,
+    "evolutionChainId": 184,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bell Pokémon ",
+    "description": "Tiene una esfera en la boca. Cuando salta, la esfera rebota y emite un tintineo.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 50,
+      "spAttack": 65,
+      "spDefense": 50,
+      "speed": 45,
+      "total": 285
+    }
+  },
+  {
+    "id": 434,
+    "name": "stunky",
+    "displayName": "Stunky",
+    "formattedId": "Nº 0434",
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/434.png",
+    "height": "0.4",
+    "weight": "19.2",
+    "generation": 4,
+    "evolutionChainId": 223,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Skunk Pokémon ",
+    "description": "Si levanta la cola y apunta los cuartos traseros, es señal de que se dispone a expulsar un líquido cuyo hedor llega a provocar desmayos.",
+    "abilities": [
+      {
+        "raw": "stench",
+        "name": "stench",
+        "is_hidden": false
+      },
+      {
+        "raw": "aftermath",
+        "name": "aftermath",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 63,
+      "attack": 63,
+      "defense": 47,
+      "spAttack": 41,
+      "spDefense": 41,
+      "speed": 74,
+      "total": 329
+    }
+  },
+  {
+    "id": 435,
+    "name": "skuntank",
+    "displayName": "Skuntank",
+    "formattedId": "Nº 0435",
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/435.png",
+    "height": "1.0",
+    "weight": "38.0",
+    "generation": 4,
+    "evolutionChainId": 223,
+    "evolvesFrom": 434,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Skunk Pokémon ",
+    "description": "El fluido que expulsa por la punta de la cola emana una hediondez insoportable. Construye sus madrigueras cavando hoyos en la tierra.",
+    "abilities": [
+      {
+        "raw": "stench",
+        "name": "stench",
+        "is_hidden": false
+      },
+      {
+        "raw": "aftermath",
+        "name": "aftermath",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 103,
+      "attack": 93,
+      "defense": 67,
+      "spAttack": 71,
+      "spDefense": 61,
+      "speed": 84,
+      "total": 479
+    }
+  },
+  {
+    "id": 436,
+    "name": "bronzor",
+    "displayName": "Bronzor",
+    "formattedId": "Nº 0436",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/436.png",
+    "height": "0.5",
+    "weight": "60.5",
+    "generation": 4,
+    "evolutionChainId": 224,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bronze Pokémon ",
+    "description": "Se dice que brilla y refleja la verdad al pulirlo, aunque es algo que detesta.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      },
+      {
+        "raw": "heatproof",
+        "name": "heatproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "heavy-metal",
+        "name": "heavy metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 57,
+      "attack": 24,
+      "defense": 86,
+      "spAttack": 24,
+      "spDefense": 86,
+      "speed": 23,
+      "total": 300
+    }
+  },
+  {
+    "id": 437,
+    "name": "bronzong",
+    "displayName": "Bronzong",
+    "formattedId": "Nº 0437",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/437.png",
+    "height": "1.3",
+    "weight": "187.0",
+    "generation": 4,
+    "evolutionChainId": 224,
+    "evolvesFrom": 436,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bronze Bell Pokémon ",
+    "description": "Basándose en los motivos de su cuerpo, muchos eruditos creen que este Pokémon no es originario de Galar.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      },
+      {
+        "raw": "heatproof",
+        "name": "heatproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "heavy-metal",
+        "name": "heavy metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 67,
+      "attack": 89,
+      "defense": 116,
+      "spAttack": 79,
+      "spDefense": 116,
+      "speed": 33,
+      "total": 500
+    }
+  },
+  {
+    "id": 438,
+    "name": "bonsly",
+    "displayName": "Bonsly",
+    "formattedId": "Nº 0438",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/438.png",
+    "height": "0.5",
+    "weight": "15.0",
+    "generation": 4,
+    "evolutionChainId": 91,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bonsai Pokémon ",
+    "description": "Vive en entornos áridos y pedregosos. Cuanto más se secan sus esferas verdes, más destaca su sutil lustre.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 80,
+      "defense": 95,
+      "spAttack": 10,
+      "spDefense": 45,
+      "speed": 10,
+      "total": 290
+    }
+  },
+  {
+    "id": 439,
+    "name": "mime-jr",
+    "displayName": "Mime Jr.",
+    "formattedId": "Nº 0439",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/439.png",
+    "height": "0.6",
+    "weight": "13.0",
+    "generation": 4,
+    "evolutionChainId": 57,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mime Pokémon ",
+    "description": "Su admiración por Mr. Rime, un consumado danzarín, lo lleva a seguirlo para aprender de él e imitar con esmero sus pasos de baile.",
+    "abilities": [
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "filter",
+        "name": "filter",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 20,
+      "attack": 25,
+      "defense": 45,
+      "spAttack": 70,
+      "spDefense": 90,
+      "speed": 60,
+      "total": 310
+    }
+  },
+  {
+    "id": 440,
+    "name": "happiny",
+    "displayName": "Happiny",
+    "formattedId": "Nº 0440",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/440.png",
+    "height": "0.6",
+    "weight": "24.4",
+    "generation": 4,
+    "evolutionChainId": 51,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Playhouse Pokémon ",
+    "description": "Les deja su preciada roca redonda a aquellos con los que se lleva bien. Si no se la devuelven, se echa a llorar, presa de una rabieta.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": false
+      },
+      {
+        "raw": "friend-guard",
+        "name": "friend guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 5,
+      "defense": 5,
+      "spAttack": 15,
+      "spDefense": 65,
+      "speed": 30,
+      "total": 220
+    }
+  },
+  {
+    "id": 441,
+    "name": "chatot",
+    "displayName": "Chatot",
+    "formattedId": "Nº 0441",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/441.png",
+    "height": "0.5",
+    "weight": "1.9",
+    "generation": 4,
+    "evolutionChainId": 228,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Music Note Pokémon ",
+    "description": "Puede imitar el lenguaje humano. Si se juntan varios, todos aprenden las mismas palabras.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "tangled-feet",
+        "name": "tangled feet",
+        "is_hidden": false
+      },
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 76,
+      "attack": 65,
+      "defense": 45,
+      "spAttack": 92,
+      "spDefense": 42,
+      "speed": 91,
+      "total": 411
+    }
+  },
+  {
+    "id": 442,
+    "name": "spiritomb",
+    "displayName": "Spiritomb",
+    "formattedId": "Nº 0442",
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/442.png",
+    "height": "1.0",
+    "weight": "108.0",
+    "generation": 4,
+    "evolutionChainId": 229,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Forbidden Pokémon ",
+    "description": "Un viajero utilizó un misterioso hechizo para unirlo a una Piedra Espíritu por sus constantes fechorías.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 92,
+      "defense": 108,
+      "spAttack": 92,
+      "spDefense": 108,
+      "speed": 35,
+      "total": 485
+    }
+  },
+  {
+    "id": 443,
+    "name": "gible",
+    "displayName": "Gible",
+    "formattedId": "Nº 0443",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png",
+    "height": "0.7",
+    "weight": "20.5",
+    "generation": 4,
+    "evolutionChainId": 230,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Land Shark Pokémon ",
+    "description": "Ataca indiscriminadamente a cualquier cosa que se mueva y la arrastra a su agujero. Pese a tener una boca enorme, su estómago es pequeño.",
+    "abilities": [
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "rough-skin",
+        "name": "rough skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 70,
+      "defense": 45,
+      "spAttack": 40,
+      "spDefense": 45,
+      "speed": 42,
+      "total": 300
+    }
+  },
+  {
+    "id": 444,
+    "name": "gabite",
+    "displayName": "Gabite",
+    "formattedId": "Nº 0444",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png",
+    "height": "1.4",
+    "weight": "56.0",
+    "generation": 4,
+    "evolutionChainId": 230,
+    "evolvesFrom": 443,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cave Pokémon ",
+    "description": "Entierra gemas en la cueva que le sirve de nido y hace trizas con sus garras y colmillos a cualquier intruso.",
+    "abilities": [
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "rough-skin",
+        "name": "rough skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 90,
+      "defense": 65,
+      "spAttack": 50,
+      "spDefense": 55,
+      "speed": 82,
+      "total": 410
+    }
+  },
+  {
+    "id": 445,
+    "name": "garchomp",
+    "displayName": "Garchomp",
+    "formattedId": "Nº 0445",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
+    "height": "1.9",
+    "weight": "95.0",
+    "generation": 4,
+    "evolutionChainId": 230,
+    "evolvesFrom": 444,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mach Pokémon ",
+    "description": "Se mueve a gran velocidad incluso por tierra. Es capaz de cazar una presa en una montaña nevada y volver a su guarida sin llegar a pasar frío.",
+    "abilities": [
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "rough-skin",
+        "name": "rough skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "spAttack": 80,
+      "spDefense": 85,
+      "speed": 102,
+      "total": 600
+    }
+  },
+  {
+    "id": 446,
+    "name": "munchlax",
+    "displayName": "Munchlax",
+    "formattedId": "Nº 0446",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/446.png",
+    "height": "0.6",
+    "weight": "105.0",
+    "generation": 4,
+    "evolutionChainId": 72,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big Eater Pokémon ",
+    "description": "Guarda alimentos bajo el pelaje. Compartirá un pequeño bocado de vez en cuando con quien logre ganarse su confianza.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 135,
+      "attack": 85,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 85,
+      "speed": 5,
+      "total": 390
+    }
+  },
+  {
+    "id": 447,
+    "name": "riolu",
+    "displayName": "Riolu",
+    "formattedId": "Nº 0447",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png",
+    "height": "0.7",
+    "weight": "20.2",
+    "generation": 4,
+    "evolutionChainId": 232,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Emanation Pokémon ",
+    "description": "Percibe los sentimientos de quienes lo rodean, así como las condiciones del entorno, mediante unas ondas conocidas como auras.",
+    "abilities": [
+      {
+        "raw": "steadfast",
+        "name": "steadfast",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 70,
+      "defense": 40,
+      "spAttack": 35,
+      "spDefense": 40,
+      "speed": 60,
+      "total": 285
+    }
+  },
+  {
+    "id": 448,
+    "name": "lucario",
+    "displayName": "Lucario",
+    "formattedId": "Nº 0448",
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
+    "height": "1.2",
+    "weight": "54.0",
+    "generation": 4,
+    "evolutionChainId": 232,
+    "evolvesFrom": 447,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Aura",
+    "description": "Puede leer los pensamientos de la gente, por lo que establece lazos afectivos únicamente con Entrenadores de corazón noble.",
+    "abilities": [
+      {
+        "raw": "steadfast",
+        "name": "steadfast",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "justified",
+        "name": "justified",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 70,
+      "spAttack": 115,
+      "spDefense": 70,
+      "speed": 90,
+      "total": 525
+    }
+  },
+  {
+    "id": 449,
+    "name": "hippopotas",
+    "displayName": "Hippopotas",
+    "formattedId": "Nº 0449",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/449.png",
+    "height": "0.8",
+    "weight": "49.5",
+    "generation": 4,
+    "evolutionChainId": 233,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hippo Pokémon ",
+    "description": "Este Pokémon de hábitos diurnos se entierra en la arena para dormir cuando la temperatura en el desierto se desploma al caer la noche.",
+    "abilities": [
+      {
+        "raw": "sand-stream",
+        "name": "sand stream",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 72,
+      "defense": 78,
+      "spAttack": 38,
+      "spDefense": 42,
+      "speed": 32,
+      "total": 330
+    }
+  },
+  {
+    "id": 450,
+    "name": "hippowdon",
+    "displayName": "Hippowdon",
+    "formattedId": "Nº 0450",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png",
+    "height": "2.0",
+    "weight": "300.0",
+    "generation": 4,
+    "evolutionChainId": 233,
+    "evolvesFrom": 449,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Heavyweight Pokémon ",
+    "description": "Puede ser muy agresivo cuando se enfada. Provoca auténticas tempestades de arena al expeler la que ha tragado.",
+    "abilities": [
+      {
+        "raw": "sand-stream",
+        "name": "sand stream",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 108,
+      "attack": 112,
+      "defense": 118,
+      "spAttack": 68,
+      "spDefense": 72,
+      "speed": 47,
+      "total": 525
+    }
+  },
+  {
+    "id": 451,
+    "name": "skorupi",
+    "displayName": "Skorupi",
+    "formattedId": "Nº 0451",
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/451.png",
+    "height": "0.8",
+    "weight": "12.0",
+    "generation": 4,
+    "evolutionChainId": 234,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scorpion Pokémon ",
+    "description": "Ataca con las pinzas venenosas de la cola. Tras clavarlas, inyecta una toxina que inmoviliza a la presa.",
+    "abilities": [
+      {
+        "raw": "battle-armor",
+        "name": "battle armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 90,
+      "spAttack": 30,
+      "spDefense": 55,
+      "speed": 65,
+      "total": 330
+    }
+  },
+  {
+    "id": 452,
+    "name": "drapion",
+    "displayName": "Drapion",
+    "formattedId": "Nº 0452",
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/452.png",
+    "height": "1.3",
+    "weight": "61.5",
+    "generation": 4,
+    "evolutionChainId": 234,
+    "evolvesFrom": 451,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ogre Scorpion Pokémon ",
+    "description": "Su ferocidad le ha granjeado el sobrenombre del Diablo de la Arena, pero en presencia de los Hippowdon se muestra dócil y pacífico.",
+    "abilities": [
+      {
+        "raw": "battle-armor",
+        "name": "battle armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 110,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 95,
+      "total": 500
+    }
+  },
+  {
+    "id": 453,
+    "name": "croagunk",
+    "displayName": "Croagunk",
+    "formattedId": "Nº 0453",
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/453.png",
+    "height": "0.7",
+    "weight": "23.0",
+    "generation": 4,
+    "evolutionChainId": 235,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Toxic Mouth Pokémon ",
+    "description": "Su veneno posee propiedades medicinales si se diluye. Se ha vuelto muy popular desde que una empresa farmacéutica lo adoptó como mascota.",
+    "abilities": [
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": false
+      },
+      {
+        "raw": "dry-skin",
+        "name": "dry skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-touch",
+        "name": "poison touch",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 61,
+      "defense": 40,
+      "spAttack": 61,
+      "spDefense": 40,
+      "speed": 50,
+      "total": 300
+    }
+  },
+  {
+    "id": 454,
+    "name": "toxicroak",
+    "displayName": "Toxicroak",
+    "formattedId": "Nº 0454",
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/454.png",
+    "height": "1.3",
+    "weight": "44.4",
+    "generation": 4,
+    "evolutionChainId": 235,
+    "evolvesFrom": 453,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Toxic Mouth Pokémon ",
+    "description": "Cuando abate una presa, emite un croar de victoria a pleno pulmón. Está emparentado con los Seismitoad.",
+    "abilities": [
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": false
+      },
+      {
+        "raw": "dry-skin",
+        "name": "dry skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-touch",
+        "name": "poison touch",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 106,
+      "defense": 65,
+      "spAttack": 86,
+      "spDefense": 65,
+      "speed": 85,
+      "total": 490
+    }
+  },
+  {
+    "id": 455,
+    "name": "carnivine",
+    "displayName": "Carnivine",
+    "formattedId": "Nº 0455",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/455.png",
+    "height": "1.4",
+    "weight": "27.0",
+    "generation": 4,
+    "evolutionChainId": 236,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bug Catcher Pokémon ",
+    "description": "Se cuelga de los árboles en los pantanos. Atrae a sus presas con su dulce olor y las engulle.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 100,
+      "defense": 72,
+      "spAttack": 90,
+      "spDefense": 72,
+      "speed": 46,
+      "total": 454
+    }
+  },
+  {
+    "id": 456,
+    "name": "finneon",
+    "displayName": "Finneon",
+    "formattedId": "Nº 0456",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/456.png",
+    "height": "0.4",
+    "weight": "7.0",
+    "generation": 4,
+    "evolutionChainId": 237,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Wing Fish Pokémon ",
+    "description": "Por el día permanece cerca de la superficie y se retira a las profundidades por la noche. Atrae a las presas con sus brillantes aletas caudales.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "storm-drain",
+        "name": "storm drain",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 49,
+      "attack": 49,
+      "defense": 56,
+      "spAttack": 49,
+      "spDefense": 61,
+      "speed": 66,
+      "total": 330
+    }
+  },
+  {
+    "id": 457,
+    "name": "lumineon",
+    "displayName": "Lumineon",
+    "formattedId": "Nº 0457",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/457.png",
+    "height": "1.2",
+    "weight": "24.0",
+    "generation": 4,
+    "evolutionChainId": 237,
+    "evolvesFrom": 456,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Neon Pokémon ",
+    "description": "Nada arrastrándose por el lecho marino. Sus espléndidas aletas brillan como las estrellas del firmamento.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "storm-drain",
+        "name": "storm drain",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 69,
+      "attack": 69,
+      "defense": 76,
+      "spAttack": 69,
+      "spDefense": 86,
+      "speed": 91,
+      "total": 460
+    }
+  },
+  {
+    "id": 458,
+    "name": "mantyke",
+    "displayName": "Mantyke",
+    "formattedId": "Nº 0458",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/458.png",
+    "height": "1.0",
+    "weight": "65.0",
+    "generation": 4,
+    "evolutionChainId": 116,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Kite Pokémon ",
+    "description": "Nada con los bancos de Remoraid y lucha junto a ellos cuando los ataca un enemigo.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 20,
+      "defense": 50,
+      "spAttack": 60,
+      "spDefense": 120,
+      "speed": 50,
+      "total": 345
+    }
+  },
+  {
+    "id": 459,
+    "name": "snover",
+    "displayName": "Snover",
+    "formattedId": "Nº 0459",
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/459.png",
+    "height": "1.0",
+    "weight": "50.5",
+    "generation": 4,
+    "evolutionChainId": 239,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Frost Tree Pokémon ",
+    "description": "Las bayas con aspecto de helado que le crecen alrededor de la barriga son la comida favorita de los Darumaka que habitan en Galar.",
+    "abilities": [
+      {
+        "raw": "snow-warning",
+        "name": "snow warning",
+        "is_hidden": false
+      },
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 50,
+      "spAttack": 62,
+      "spDefense": 60,
+      "speed": 40,
+      "total": 334
+    }
+  },
+  {
+    "id": 460,
+    "name": "abomasnow",
+    "displayName": "Abomasnow",
+    "formattedId": "Nº 0460",
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
+    "height": "2.2",
+    "weight": "135.5",
+    "generation": 4,
+    "evolutionChainId": 239,
+    "evolvesFrom": 459,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Frost Tree Pokémon ",
+    "description": "Posee la capacidad de generar ventiscas. Si agita su enorme cuerpo, el terreno circundante queda inmediatamente cubierto de nieve.",
+    "abilities": [
+      {
+        "raw": "snow-warning",
+        "name": "snow warning",
+        "is_hidden": false
+      },
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 75,
+      "spAttack": 92,
+      "spDefense": 85,
+      "speed": 60,
+      "total": 494
+    }
+  },
+  {
+    "id": 461,
+    "name": "weavile",
+    "displayName": "Weavile",
+    "formattedId": "Nº 0461",
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/461.png",
+    "height": "1.1",
+    "weight": "34.0",
+    "generation": 4,
+    "evolutionChainId": 109,
+    "evolvesFrom": 215,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sharp Claw Pokémon ",
+    "description": "Se comunican mediante marcas que tallan con sus garras. Se cree que tienen un repertorio de más de 500.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 65,
+      "spAttack": 45,
+      "spDefense": 85,
+      "speed": 125,
+      "total": 510
+    }
+  },
+  {
+    "id": 462,
+    "name": "magnezone",
+    "displayName": "Magnezone",
+    "formattedId": "Nº 0462",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/462.png",
+    "height": "1.2",
+    "weight": "180.0",
+    "generation": 4,
+    "evolutionChainId": 34,
+    "evolvesFrom": 82,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Magnet Area Pokémon ",
+    "description": "Se piensa que estuvo expuesto a un campo magnético especial que alteró su estructura molecular e hizo que evolucionara.",
+    "abilities": [
+      {
+        "raw": "magnet-pull",
+        "name": "magnet pull",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "analytic",
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 115,
+      "spAttack": 130,
+      "spDefense": 90,
+      "speed": 60,
+      "total": 535
+    }
+  },
+  {
+    "id": 463,
+    "name": "lickilicky",
+    "displayName": "Lickilicky",
+    "formattedId": "Nº 0463",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/463.png",
+    "height": "1.7",
+    "weight": "140.0",
+    "generation": 4,
+    "evolutionChainId": 48,
+    "evolvesFrom": 108,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lambedor",
+    "description": "Es tan diestro con la lengua como un ser humano con las manos. Por el contrario, muestra escasa maña con los dedos.",
+    "abilities": [
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "cloud-nine",
+        "name": "cloud nine",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 85,
+      "defense": 95,
+      "spAttack": 80,
+      "spDefense": 95,
+      "speed": 50,
+      "total": 515
+    }
+  },
+  {
+    "id": 464,
+    "name": "rhyperior",
+    "displayName": "Rhyperior",
+    "formattedId": "Nº 0464",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/464.png",
+    "height": "2.4",
+    "weight": "282.8",
+    "generation": 4,
+    "evolutionChainId": 50,
+    "evolvesFrom": 112,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Furadeira",
+    "description": "Repele los ataques usando un Protector y aprovecha el momento en que el rival baja la guardia para perforarlo con su taladro.",
+    "abilities": [
+      {
+        "raw": "lightning-rod",
+        "name": "lightning rod",
+        "is_hidden": false
+      },
+      {
+        "raw": "solid-rock",
+        "name": "solid rock",
+        "is_hidden": false
+      },
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 140,
+      "defense": 130,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 40,
+      "total": 535
+    }
+  },
+  {
+    "id": 465,
+    "name": "tangrowth",
+    "displayName": "Tangrowth",
+    "formattedId": "Nº 0465",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/465.png",
+    "height": "2.0",
+    "weight": "128.6",
+    "generation": 4,
+    "evolutionChainId": 52,
+    "evolvesFrom": 114,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cipó",
+    "description": "Las lianas le crecen más rápidamente si vive en regiones cálidas. Cuando alcanzan cierta longitud, se las corta.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 125,
+      "spAttack": 110,
+      "spDefense": 50,
+      "speed": 50,
+      "total": 535
+    }
+  },
+  {
+    "id": 466,
+    "name": "electivire",
+    "displayName": "Electivire",
+    "formattedId": "Nº 0466",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/466.png",
+    "height": "1.8",
+    "weight": "138.6",
+    "generation": 4,
+    "evolutionChainId": 60,
+    "evolvesFrom": 125,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Thunderbolt Pokémon ",
+    "description": "Es de los Pokémon de tipo Eléctrico que más electricidad producen. Genera una corriente de alta tensión desde las puntas de las colas.",
+    "abilities": [
+      {
+        "raw": "motor-drive",
+        "name": "motor drive",
+        "is_hidden": false
+      },
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 123,
+      "defense": 67,
+      "spAttack": 95,
+      "spDefense": 85,
+      "speed": 95,
+      "total": 540
+    }
+  },
+  {
+    "id": 467,
+    "name": "magmortar",
+    "displayName": "Magmortar",
+    "formattedId": "Nº 0467",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/467.png",
+    "height": "1.6",
+    "weight": "68.0",
+    "generation": 4,
+    "evolutionChainId": 61,
+    "evolvesFrom": 126,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Blast Pokémon ",
+    "description": "Al vivir en un cráter, su cuerpo ha adquirido un aspecto similar al de un volcán y ha desarrollado un órgano parecido a una cámara magmática.",
+    "abilities": [
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 67,
+      "spAttack": 125,
+      "spDefense": 95,
+      "speed": 83,
+      "total": 540
+    }
+  },
+  {
+    "id": 468,
+    "name": "togekiss",
+    "displayName": "Togekiss",
+    "formattedId": "Nº 0468",
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/468.png",
+    "height": "1.5",
+    "weight": "38.0",
+    "generation": 4,
+    "evolutionChainId": 87,
+    "evolvesFrom": 176,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Jubilee Pokémon ",
+    "description": "Se dice que es portador de buena suerte. Por ello, su imagen aparece representada en talismanes y amuletos desde la antigüedad.",
+    "abilities": [
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": false
+      },
+      {
+        "raw": "super-luck",
+        "name": "super luck",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 50,
+      "defense": 95,
+      "spAttack": 120,
+      "spDefense": 115,
+      "speed": 80,
+      "total": 545
+    }
+  },
+  {
+    "id": 469,
+    "name": "yanmega",
+    "displayName": "Yanmega",
+    "formattedId": "Nº 0469",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/469.png",
+    "height": "1.9",
+    "weight": "51.5",
+    "generation": 4,
+    "evolutionChainId": 95,
+    "evolvesFrom": 193,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ogre Darner Pokémon ",
+    "description": "Con sus seis patas puede llevar a un adulto y volar con comodidad. Se equilibra con las alas de su cola.",
+    "abilities": [
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": false
+      },
+      {
+        "raw": "tinted-lens",
+        "name": "tinted lens",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 76,
+      "defense": 86,
+      "spAttack": 116,
+      "spDefense": 56,
+      "speed": 95,
+      "total": 515
+    }
+  },
+  {
+    "id": 470,
+    "name": "leafeon",
+    "displayName": "Leafeon",
+    "formattedId": "Nº 0470",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png",
+    "height": "1.0",
+    "weight": "25.5",
+    "generation": 4,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Verdant Pokémon ",
+    "description": "Se siente muy orgulloso de su cola afilada como una espada, con la que es capaz de cortar en dos el tronco de un árbol grueso.",
+    "abilities": [
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 110,
+      "defense": 130,
+      "spAttack": 60,
+      "spDefense": 65,
+      "speed": 95,
+      "total": 525
+    }
+  },
+  {
+    "id": 471,
+    "name": "glaceon",
+    "displayName": "Glaceon",
+    "formattedId": "Nº 0471",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png",
+    "height": "0.8",
+    "weight": "25.9",
+    "generation": 4,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fresh Snow Pokémon ",
+    "description": "El aire gélido que exhala crea una suerte de cristales de hielo que lo hace muy demandado en las estaciones de esquí.",
+    "abilities": [
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 110,
+      "spAttack": 130,
+      "spDefense": 95,
+      "speed": 65,
+      "total": 525
+    }
+  },
+  {
+    "id": 472,
+    "name": "gliscor",
+    "displayName": "Gliscor",
+    "formattedId": "Nº 0472",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/472.png",
+    "height": "2.0",
+    "weight": "42.5",
+    "generation": 4,
+    "evolutionChainId": 104,
+    "evolvesFrom": 207,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fang Scorpion Pokémon ",
+    "description": "Vuela sin hacer nada de ruido. Con su larga cola captura a sus presas y las muerde con sus colmillos.",
+    "abilities": [
+      {
+        "raw": "hyper-cutter",
+        "name": "hyper cutter",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-heal",
+        "name": "poison heal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 125,
+      "spAttack": 45,
+      "spDefense": 75,
+      "speed": 95,
+      "total": 510
+    }
+  },
+  {
+    "id": 473,
+    "name": "mamoswine",
+    "displayName": "Mamoswine",
+    "formattedId": "Nº 0473",
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/473.png",
+    "height": "2.5",
+    "weight": "291.0",
+    "generation": 4,
+    "evolutionChainId": 112,
+    "evolvesFrom": 221,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Twin Tusk Pokémon ",
+    "description": "Es tan fuerte como parece. Cuanto más frío hace, más gruesos, largos e imponentes se vuelven sus colmillos de hielo.",
+    "abilities": [
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 130,
+      "defense": 80,
+      "spAttack": 70,
+      "spDefense": 60,
+      "speed": 80,
+      "total": 530
+    }
+  },
+  {
+    "id": 474,
+    "name": "porygon-z",
+    "displayName": "Porygon-Z",
+    "formattedId": "Nº 0474",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/474.png",
+    "height": "0.9",
+    "weight": "34.0",
+    "generation": 4,
+    "evolutionChainId": 68,
+    "evolvesFrom": 233,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Virtual",
+    "description": "Se dice que evolucionó con la instalación de un nuevo software, pero la comunidad científica está dividida respecto a si es o no una evolución.",
+    "abilities": [
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": false
+      },
+      {
+        "raw": "download",
+        "name": "download",
+        "is_hidden": false
+      },
+      {
+        "raw": "analytic",
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 70,
+      "spAttack": 135,
+      "spDefense": 75,
+      "speed": 90,
+      "total": 535
+    }
+  },
+  {
+    "id": 475,
+    "name": "gallade",
+    "displayName": "Gallade",
+    "formattedId": "Nº 0475",
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
+    "height": "1.6",
+    "weight": "52.0",
+    "generation": 4,
+    "evolutionChainId": 140,
+    "evolvesFrom": 281,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Blade Pokémon ",
+    "description": "Es capaz de percibir al instante cuando alguien está en un aprieto y corre raudo a su lado para prestarle ayuda.",
+    "abilities": [
+      {
+        "raw": "steadfast",
+        "name": "steadfast",
+        "is_hidden": false
+      },
+      {
+        "raw": "sharpness",
+        "name": "sharpness",
+        "is_hidden": false
+      },
+      {
+        "raw": "justified",
+        "name": "justified",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 125,
+      "defense": 65,
+      "spAttack": 65,
+      "spDefense": 115,
+      "speed": 80,
+      "total": 518
+    }
+  },
+  {
+    "id": 476,
+    "name": "probopass",
+    "displayName": "Probopass",
+    "formattedId": "Nº 0476",
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/476.png",
+    "height": "1.4",
+    "weight": "340.0",
+    "generation": 4,
+    "evolutionChainId": 147,
+    "evolvesFrom": 299,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Compass Pokémon ",
+    "description": "Usa sus tres pequeñas unidades para capturar presas o combatir, mientras que el resto de su cuerpo se dedica casi solo a impartir órdenes.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "magnet-pull",
+        "name": "magnet pull",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 145,
+      "spAttack": 75,
+      "spDefense": 150,
+      "speed": 40,
+      "total": 525
+    }
+  },
+  {
+    "id": 477,
+    "name": "dusknoir",
+    "displayName": "Dusknoir",
+    "formattedId": "Nº 0477",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/477.png",
+    "height": "2.2",
+    "weight": "106.6",
+    "generation": 4,
+    "evolutionChainId": 182,
+    "evolvesFrom": 356,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Gripper Pokémon ",
+    "description": "Engulle a los rivales con la boca del estómago y, tras haber devorado el alma, escupe el cuerpo.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 100,
+      "defense": 135,
+      "spAttack": 65,
+      "spDefense": 135,
+      "speed": 45,
+      "total": 525
+    }
+  },
+  {
+    "id": 478,
+    "name": "froslass",
+    "displayName": "Froslass",
+    "formattedId": "Nº 0478",
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
+    "height": "1.3",
+    "weight": "26.6",
+    "generation": 4,
+    "evolutionChainId": 186,
+    "evolvesFrom": 361,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Snow Land Pokémon ",
+    "description": "Expulsa un vaho gélido a -50 °C con el que congela a sus presas para luego llevarlas a su morada y colocarlas como adorno.",
+    "abilities": [
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 70,
+      "speed": 110,
+      "total": 480
+    }
+  },
+  {
+    "id": 479,
+    "name": "rotom",
+    "displayName": "Rotom",
+    "formattedId": "Nº 0479",
+    "types": [
+      "electric",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/479.png",
+    "height": "0.3",
+    "weight": "0.3",
+    "generation": 4,
+    "evolutionChainId": 240,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Plasma Pokémon ",
+    "description": "Su cuerpo de plasma le permite infiltrarse en toda clase de dispositivos electrónicos. Adora sobresaltar a la gente.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 77,
+      "spAttack": 95,
+      "spDefense": 77,
+      "speed": 91,
+      "total": 440
+    }
+  },
+  {
+    "id": 480,
+    "name": "uxie",
+    "displayName": "Uxie",
+    "formattedId": "Nº 0480",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/480.png",
+    "height": "0.3",
+    "weight": "0.3",
+    "generation": 4,
+    "evolutionChainId": 241,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Knowledge Pokémon ",
+    "description": "Se dice que su aparición otorgó a los humanos la inteligencia para mejorar sus vidas.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 130,
+      "spAttack": 75,
+      "spDefense": 130,
+      "speed": 95,
+      "total": 580
+    }
+  },
+  {
+    "id": 481,
+    "name": "mesprit",
+    "displayName": "Mesprit",
+    "formattedId": "Nº 0481",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/481.png",
+    "height": "0.3",
+    "weight": "0.3",
+    "generation": 4,
+    "evolutionChainId": 242,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Emotion Pokémon ",
+    "description": "Duerme en el fondo de un lago. Se dice que su espíritu deja el cuerpo para volar sobre el agua.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 105,
+      "spAttack": 105,
+      "spDefense": 105,
+      "speed": 80,
+      "total": 580
+    }
+  },
+  {
+    "id": 482,
+    "name": "azelf",
+    "displayName": "Azelf",
+    "formattedId": "Nº 0482",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/482.png",
+    "height": "0.3",
+    "weight": "0.3",
+    "generation": 4,
+    "evolutionChainId": 243,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Willpower Pokémon ",
+    "description": "Se cree que Uxie, Mesprit y Azelf provienen del mismo huevo.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 70,
+      "spAttack": 125,
+      "spDefense": 70,
+      "speed": 115,
+      "total": 580
+    }
+  },
+  {
+    "id": 483,
+    "name": "dialga",
+    "displayName": "Dialga",
+    "formattedId": "Nº 0483",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/483.png",
+    "height": "5.4",
+    "weight": "683.0",
+    "generation": 4,
+    "evolutionChainId": 244,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Temporal",
+    "description": "Tiene el poder de controlar el tiempo. Aparece en los mitos de Sinnoh como una vieja deidad.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 120,
+      "defense": 120,
+      "spAttack": 150,
+      "spDefense": 100,
+      "speed": 90,
+      "total": 680
+    }
+  },
+  {
+    "id": 484,
+    "name": "palkia",
+    "displayName": "Palkia",
+    "formattedId": "Nº 0484",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/484.png",
+    "height": "4.2",
+    "weight": "336.0",
+    "generation": 4,
+    "evolutionChainId": 245,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Espacial",
+    "description": "Tiene la habilidad de distorsionar el espacio. La mitología de Sinnoh lo describe como una deidad.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 100,
+      "spAttack": 150,
+      "spDefense": 120,
+      "speed": 100,
+      "total": 680
+    }
+  },
+  {
+    "id": 485,
+    "name": "heatran",
+    "displayName": "Heatran",
+    "formattedId": "Nº 0485",
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/485.png",
+    "height": "1.7",
+    "weight": "430.0",
+    "generation": 4,
+    "evolutionChainId": 246,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Lava Dome Pokémon ",
+    "description": "Su sangre fluye ardiendo como si fuera magma. Vive en cráteres de volcanes.",
+    "abilities": [
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 90,
+      "defense": 106,
+      "spAttack": 130,
+      "spDefense": 106,
+      "speed": 77,
+      "total": 600
+    }
+  },
+  {
+    "id": 486,
+    "name": "regigigas",
+    "displayName": "Regigigas",
+    "formattedId": "Nº 0486",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/486.png",
+    "height": "3.7",
+    "weight": "420.0",
+    "generation": 4,
+    "evolutionChainId": 247,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Colossal Pokémon ",
+    "description": "Dicen que creó a otros Pokémon a partir de distintos materiales y que, después, colocó los continentes en su posición actual.",
+    "abilities": [
+      {
+        "raw": "slow-start",
+        "name": "slow start",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 160,
+      "defense": 110,
+      "spAttack": 80,
+      "spDefense": 110,
+      "speed": 100,
+      "total": 670
+    }
+  },
+  {
+    "id": 487,
+    "name": "giratina-altered",
+    "displayName": "Giratina",
+    "formattedId": "Nº 0487",
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/487.png",
+    "height": "4.5",
+    "weight": "750.0",
+    "generation": 4,
+    "evolutionChainId": 248,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Renegado",
+    "description": "Fue desterrado por su violencia. Observa el mundo en silencio desde el Mundo Distorsión.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 150,
+      "attack": 100,
+      "defense": 120,
+      "spAttack": 100,
+      "spDefense": 120,
+      "speed": 90,
+      "total": 680
+    }
+  },
+  {
+    "id": 488,
+    "name": "cresselia",
+    "displayName": "Cresselia",
+    "formattedId": "Nº 0488",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/488.png",
+    "height": "1.5",
+    "weight": "85.6",
+    "generation": 4,
+    "evolutionChainId": 249,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Lunar Pokémon ",
+    "description": "Si alguien se duerme con una pluma suya, tendrá sueños maravillosos. Encarna el creciente lunar.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 70,
+      "defense": 110,
+      "spAttack": 75,
+      "spDefense": 120,
+      "speed": 85,
+      "total": 580
+    }
+  },
+  {
+    "id": 489,
+    "name": "phione",
+    "displayName": "Phione",
+    "formattedId": "Nº 0489",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/489.png",
+    "height": "0.4",
+    "weight": "3.1",
+    "generation": 4,
+    "evolutionChainId": 250,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Sea Drifter Pokémon ",
+    "description": "Va a la deriva por mares cálidos. Siempre vuelve a donde nació, por mucho que se haya alejado.",
+    "abilities": [
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 80,
+      "total": 480
+    }
+  },
+  {
+    "id": 490,
+    "name": "manaphy",
+    "displayName": "Manaphy",
+    "formattedId": "Nº 0490",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/490.png",
+    "height": "0.3",
+    "weight": "1.4",
+    "generation": 4,
+    "evolutionChainId": 250,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Seafaring Pokémon ",
+    "description": "Posee un poder singular que hace que entable amistad con casi cualquier Pokémon.",
+    "abilities": [
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 100,
+      "total": 600
+    }
+  },
+  {
+    "id": 491,
+    "name": "darkrai",
+    "displayName": "Darkrai",
+    "formattedId": "Nº 0491",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/491.png",
+    "height": "1.5",
+    "weight": "50.5",
+    "generation": 4,
+    "evolutionChainId": 252,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Pitch-Black Pokémon ",
+    "description": "Puede adormecer a la gente y hacerles soñar. Está activo en las noches de luna nueva.",
+    "abilities": [
+      {
+        "raw": "bad-dreams",
+        "name": "bad dreams",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 90,
+      "spAttack": 135,
+      "spDefense": 90,
+      "speed": 125,
+      "total": 600
+    }
+  },
+  {
+    "id": 492,
+    "name": "shaymin-land",
+    "displayName": "Shaymin",
+    "formattedId": "Nº 0492",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/492.png",
+    "height": "0.2",
+    "weight": "2.1",
+    "generation": 4,
+    "evolutionChainId": 253,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Gratitude Pokémon ",
+    "description": "Se dice que, cuando florecen las Gracídeas, Shaymin alza el vuelo para mostrar su gratitud.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 100,
+      "total": 600
+    }
+  },
+  {
+    "id": 493,
+    "name": "arceus",
+    "displayName": "Arceus",
+    "formattedId": "Nº 0493",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/493.png",
+    "height": "3.2",
+    "weight": "320.0",
+    "generation": 4,
+    "evolutionChainId": 254,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Pokémon Alfa",
+    "description": "La mitología cuenta que este Pokémon nació antes de que el Universo existiera.",
+    "abilities": [
+      {
+        "raw": "multitype",
+        "name": "multitype",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 120,
+      "defense": 120,
+      "spAttack": 120,
+      "spDefense": 120,
+      "speed": 120,
+      "total": 720
+    }
+  },
+  {
+    "id": 494,
+    "name": "victini",
+    "displayName": "Victini",
+    "formattedId": "Nº 0494",
+    "types": [
+      "psychic",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/494.png",
+    "height": "0.4",
+    "weight": "4.0",
+    "generation": 5,
+    "evolutionChainId": 255,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Victory Pokémon ",
+    "description": "Cuando Victini comparte su energía ilimitada, esa persona o Pokémon irradia abundante poder.",
+    "abilities": [
+      {
+        "raw": "victory-star",
+        "name": "victory star",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 100,
+      "total": 600
+    }
+  },
+  {
+    "id": 495,
+    "name": "snivy",
+    "displayName": "Snivy",
+    "formattedId": "Nº 0495",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/495.png",
+    "height": "0.6",
+    "weight": "8.1",
+    "generation": 5,
+    "evolutionChainId": 256,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Serpente de Grama",
+    "description": "Sintetiza la luz del sol que recoge con su cola. Esta se le queda abatida cuando le fallan las energías.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 45,
+      "defense": 55,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 63,
+      "total": 308
+    }
+  },
+  {
+    "id": 496,
+    "name": "servine",
+    "displayName": "Servine",
+    "formattedId": "Nº 0496",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/496.png",
+    "height": "0.8",
+    "weight": "16.0",
+    "generation": 5,
+    "evolutionChainId": 256,
+    "evolvesFrom": 495,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Serpente de Grama",
+    "description": "Cuando su cuerpo está sucio, no puede realizar la fotosíntesis con sus hojas, así que cuida mucho su higiene personal.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 75,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 83,
+      "total": 413
+    }
+  },
+  {
+    "id": 497,
+    "name": "serperior",
+    "displayName": "Serperior",
+    "formattedId": "Nº 0497",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/497.png",
+    "height": "3.3",
+    "weight": "63.0",
+    "generation": 5,
+    "evolutionChainId": 256,
+    "evolvesFrom": 496,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Real",
+    "description": "Detiene los movimientos del rival con una sola mirada. Expande la energía solar dentro de su cuerpo.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 95,
+      "spAttack": 75,
+      "spDefense": 95,
+      "speed": 113,
+      "total": 528
+    }
+  },
+  {
+    "id": 498,
+    "name": "tepig",
+    "displayName": "Tepig",
+    "formattedId": "Nº 0498",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/498.png",
+    "height": "0.5",
+    "weight": "9.9",
+    "generation": 5,
+    "evolutionChainId": 257,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Porco de Fogo",
+    "description": "Le encanta comer bayas tostadas, pero a veces se emociona demasiado y termina churruscándolas.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 63,
+      "defense": 45,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 45,
+      "total": 308
+    }
+  },
+  {
+    "id": 499,
+    "name": "pignite",
+    "displayName": "Pignite",
+    "formattedId": "Nº 0499",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/499.png",
+    "height": "1.0",
+    "weight": "55.5",
+    "generation": 5,
+    "evolutionChainId": 257,
+    "evolvesFrom": 498,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Porco de Fogo",
+    "description": "Cuando las llamas de su interior se avivan, aumenta su velocidad y agilidad. Emite humo si está en peligro.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 93,
+      "defense": 55,
+      "spAttack": 70,
+      "spDefense": 55,
+      "speed": 55,
+      "total": 418
+    }
+  },
+  {
+    "id": 500,
+    "name": "emboar",
+    "displayName": "Emboar",
+    "formattedId": "Nº 0500",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
+    "height": "1.6",
+    "weight": "150.0",
+    "generation": 5,
+    "evolutionChainId": 257,
+    "evolvesFrom": 499,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Mega Porco de Fogo",
+    "description": "Posee una tupida barba fogosa. Es tanto rápido como poderoso, y su principal baza es la lucha cuerpo a cuerpo.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 123,
+      "defense": 65,
+      "spAttack": 100,
+      "spDefense": 65,
+      "speed": 65,
+      "total": 528
+    }
+  },
+  {
+    "id": 501,
+    "name": "oshawott",
+    "displayName": "Oshawott",
+    "formattedId": "Nº 0501",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/501.png",
+    "height": "0.5",
+    "weight": "5.9",
+    "generation": 5,
+    "evolutionChainId": 258,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lontra Marinha",
+    "description": "Ataca con la vieira de su ombligo. En cuanto para un ataque, pasa al contraataque sin dilación.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 45,
+      "spAttack": 63,
+      "spDefense": 45,
+      "speed": 45,
+      "total": 308
+    }
+  },
+  {
+    "id": 502,
+    "name": "dewott",
+    "displayName": "Dewott",
+    "formattedId": "Nº 0502",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/502.png",
+    "height": "0.8",
+    "weight": "24.5",
+    "generation": 5,
+    "evolutionChainId": 258,
+    "evolvesFrom": 501,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Discipline Pokémon ",
+    "description": "Tras un exhaustivo entrenamiento, Dewott puede dominar diversas técnicas para usar con sus vieiras.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 60,
+      "spAttack": 83,
+      "spDefense": 60,
+      "speed": 60,
+      "total": 413
+    }
+  },
+  {
+    "id": 503,
+    "name": "samurott",
+    "displayName": "Samurott",
+    "formattedId": "Nº 0503",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png",
+    "height": "1.5",
+    "weight": "94.6",
+    "generation": 5,
+    "evolutionChainId": 258,
+    "evolvesFrom": 502,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Formidável",
+    "description": "Derriba a su rival con un solo tajo del sable que lleva en su coraza. Acalla al enemigo con una simple mirada.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 100,
+      "defense": 85,
+      "spAttack": 108,
+      "spDefense": 70,
+      "speed": 70,
+      "total": 528
+    }
+  },
+  {
+    "id": 504,
+    "name": "patrat",
+    "displayName": "Patrat",
+    "formattedId": "Nº 0504",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/504.png",
+    "height": "0.5",
+    "weight": "11.6",
+    "generation": 5,
+    "evolutionChainId": 259,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Batedor",
+    "description": "Aunque es un Pokémon muy precavido y siempre hay uno montando guardia, si se acercan por detrás, no se dará cuenta.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "analytic",
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 55,
+      "defense": 39,
+      "spAttack": 35,
+      "spDefense": 39,
+      "speed": 42,
+      "total": 255
+    }
+  },
+  {
+    "id": 505,
+    "name": "watchog",
+    "displayName": "Watchog",
+    "formattedId": "Nº 0505",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png",
+    "height": "1.1",
+    "weight": "27.0",
+    "generation": 5,
+    "evolutionChainId": 259,
+    "evolvesFrom": 504,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Lookout Pokémon ",
+    "description": "Ataca lanzando las semillas de las bayas que acumula en sus mofletes. Su cola se tensa al avistar a un enemigo.",
+    "abilities": [
+      {
+        "raw": "illuminate",
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "analytic",
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 69,
+      "spAttack": 60,
+      "spDefense": 69,
+      "speed": 77,
+      "total": 420
+    }
+  },
+  {
+    "id": 506,
+    "name": "lillipup",
+    "displayName": "Lillipup",
+    "formattedId": "Nº 0506",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/506.png",
+    "height": "0.4",
+    "weight": "4.1",
+    "generation": 5,
+    "evolutionChainId": 260,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cachorrinho",
+    "description": "Muestra una inteligencia muy superior a la media de los niños humanos. No olvida ni el amor ni los malos tratos que recibe.",
+    "abilities": [
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 60,
+      "defense": 45,
+      "spAttack": 25,
+      "spDefense": 45,
+      "speed": 55,
+      "total": 275
+    }
+  },
+  {
+    "id": 507,
+    "name": "herdier",
+    "displayName": "Herdier",
+    "formattedId": "Nº 0507",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/507.png",
+    "height": "0.9",
+    "weight": "14.7",
+    "generation": 5,
+    "evolutionChainId": 260,
+    "evolvesFrom": 506,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Loyal Dog Pokémon ",
+    "description": "El pelaje negro que lo recubre es tan denso y elástico que puede repeler incluso los colmillos más afilados.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-rush",
+        "name": "sand rush",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 80,
+      "defense": 65,
+      "spAttack": 35,
+      "spDefense": 65,
+      "speed": 60,
+      "total": 370
+    }
+  },
+  {
+    "id": 508,
+    "name": "stoutland",
+    "displayName": "Stoutland",
+    "formattedId": "Nº 0508",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/508.png",
+    "height": "1.2",
+    "weight": "61.0",
+    "generation": 5,
+    "evolutionChainId": 260,
+    "evolvesFrom": 507,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big-Hearted Pokémon ",
+    "description": "Sus impresionantes bigotes son su orgullo. Entre los de su especie se establece una jerarquía según su longitud.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-rush",
+        "name": "sand rush",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 110,
+      "defense": 90,
+      "spAttack": 45,
+      "spDefense": 90,
+      "speed": 80,
+      "total": 500
+    }
+  },
+  {
+    "id": 509,
+    "name": "purrloin",
+    "displayName": "Purrloin",
+    "formattedId": "Nº 0509",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/509.png",
+    "height": "0.4",
+    "weight": "10.1",
+    "generation": 5,
+    "evolutionChainId": 261,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Devious Pokémon ",
+    "description": "Una vez que ha logrado distraer al rival mediante sus gestos adorables, lo araña de improviso con las garras mientras muestra un semblante risueño.",
+    "abilities": [
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 41,
+      "attack": 50,
+      "defense": 37,
+      "spAttack": 50,
+      "spDefense": 37,
+      "speed": 66,
+      "total": 281
+    }
+  },
+  {
+    "id": 510,
+    "name": "liepard",
+    "displayName": "Liepard",
+    "formattedId": "Nº 0510",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/510.png",
+    "height": "1.1",
+    "weight": "37.5",
+    "generation": 5,
+    "evolutionChainId": 261,
+    "evolvesFrom": 509,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cruel Pokémon ",
+    "description": "Libra disputas territoriales con los Thievul. Se acerca a sus rivales por la espalda sin hacer el menor ruido.",
+    "abilities": [
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 64,
+      "attack": 88,
+      "defense": 50,
+      "spAttack": 88,
+      "spDefense": 50,
+      "speed": 106,
+      "total": 446
+    }
+  },
+  {
+    "id": 511,
+    "name": "pansage",
+    "displayName": "Pansage",
+    "formattedId": "Nº 0511",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/511.png",
+    "height": "0.6",
+    "weight": "10.5",
+    "generation": 5,
+    "evolutionChainId": 262,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Grass Monkey Pokémon ",
+    "description": "Es todo un experto en la búsqueda de bayas y es tan gentil que las comparte con todos sus compañeros.",
+    "abilities": [
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 53,
+      "defense": 48,
+      "spAttack": 53,
+      "spDefense": 48,
+      "speed": 64,
+      "total": 316
+    }
+  },
+  {
+    "id": 512,
+    "name": "simisage",
+    "displayName": "Simisage",
+    "formattedId": "Nº 0512",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png",
+    "height": "1.1",
+    "weight": "30.5",
+    "generation": 5,
+    "evolutionChainId": 262,
+    "evolvesFrom": 511,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Thorn Monkey Pokémon ",
+    "description": "Pokémon muy temperamental que lucha con su cola revestida de púas. Las hojas de su cabeza están muy amargas.",
+    "abilities": [
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 98,
+      "defense": 63,
+      "spAttack": 98,
+      "spDefense": 63,
+      "speed": 101,
+      "total": 498
+    }
+  },
+  {
+    "id": 513,
+    "name": "pansear",
+    "displayName": "Pansear",
+    "formattedId": "Nº 0513",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/513.png",
+    "height": "0.6",
+    "weight": "11.0",
+    "generation": 5,
+    "evolutionChainId": 263,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "High Temp Pokémon ",
+    "description": "Vive en cuevas volcánicas. El interior de su mata de pelo arde, llegando a alcanzar hasta 300 °C.",
+    "abilities": [
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 53,
+      "defense": 48,
+      "spAttack": 53,
+      "spDefense": 48,
+      "speed": 64,
+      "total": 316
+    }
+  },
+  {
+    "id": 514,
+    "name": "simisear",
+    "displayName": "Simisear",
+    "formattedId": "Nº 0514",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png",
+    "height": "1.0",
+    "weight": "28.0",
+    "generation": 5,
+    "evolutionChainId": 263,
+    "evolvesFrom": 513,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ember Pokémon ",
+    "description": "Cuando se emociona, echa chispas por la cola y la cabeza, y calienta su cuerpo. Por alguna razón le encantan los dulces.",
+    "abilities": [
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 98,
+      "defense": 63,
+      "spAttack": 98,
+      "spDefense": 63,
+      "speed": 101,
+      "total": 498
+    }
+  },
+  {
+    "id": 515,
+    "name": "panpour",
+    "displayName": "Panpour",
+    "formattedId": "Nº 0515",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/515.png",
+    "height": "0.6",
+    "weight": "13.5",
+    "generation": 5,
+    "evolutionChainId": 264,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spray Pokémon ",
+    "description": "La acuosidad que acumula en su mata de pelo es rica en nutrientes, ideal para regar plantas y que crezcan mucho.",
+    "abilities": [
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 53,
+      "defense": 48,
+      "spAttack": 53,
+      "spDefense": 48,
+      "speed": 64,
+      "total": 316
+    }
+  },
+  {
+    "id": 516,
+    "name": "simipour",
+    "displayName": "Simipour",
+    "formattedId": "Nº 0516",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/516.png",
+    "height": "1.0",
+    "weight": "29.0",
+    "generation": 5,
+    "evolutionChainId": 264,
+    "evolvesFrom": 515,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Geyser Pokémon ",
+    "description": "Le encantan los lugares con agua limpia. Cuando desciende el nivel de agua de su pelo, se abastece a través de su cola.",
+    "abilities": [
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 98,
+      "defense": 63,
+      "spAttack": 98,
+      "spDefense": 63,
+      "speed": 101,
+      "total": 498
+    }
+  },
+  {
+    "id": 517,
+    "name": "munna",
+    "displayName": "Munna",
+    "formattedId": "Nº 0517",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/517.png",
+    "height": "0.6",
+    "weight": "23.3",
+    "generation": 5,
+    "evolutionChainId": 265,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Dream Eater Pokémon ",
+    "description": "El humo que despide cambia de color en función del sueño que haya consumido. Si es alegre, será rosa, o negruzco en el caso de una pesadilla.",
+    "abilities": [
+      {
+        "raw": "forewarn",
+        "name": "forewarn",
+        "is_hidden": false
+      },
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 76,
+      "attack": 25,
+      "defense": 45,
+      "spAttack": 67,
+      "spDefense": 55,
+      "speed": 24,
+      "total": 292
+    }
+  },
+  {
+    "id": 518,
+    "name": "musharna",
+    "displayName": "Musharna",
+    "formattedId": "Nº 0518",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/518.png",
+    "height": "1.1",
+    "weight": "60.5",
+    "generation": 5,
+    "evolutionChainId": 265,
+    "evolvesFrom": 517,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Drowsing Pokémon ",
+    "description": "Siempre está soñando o adormecido. Se pone de muy mal humor al despertar, por lo que es mejor no perturbarlo.",
+    "abilities": [
+      {
+        "raw": "forewarn",
+        "name": "forewarn",
+        "is_hidden": false
+      },
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 116,
+      "attack": 55,
+      "defense": 85,
+      "spAttack": 107,
+      "spDefense": 95,
+      "speed": 29,
+      "total": 487
+    }
+  },
+  {
+    "id": 519,
+    "name": "pidove",
+    "displayName": "Pidove",
+    "formattedId": "Nº 0519",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/519.png",
+    "height": "0.3",
+    "weight": "2.1",
+    "generation": 5,
+    "evolutionChainId": 266,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tiny Pigeon Pokémon ",
+    "description": "Es muy olvidadizo y no demasiado avispado, pero muchos Entrenadores le tienen simpatía por su carácter afable y sincero.",
+    "abilities": [
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": false
+      },
+      {
+        "raw": "super-luck",
+        "name": "super luck",
+        "is_hidden": false
+      },
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 55,
+      "defense": 50,
+      "spAttack": 36,
+      "spDefense": 30,
+      "speed": 43,
+      "total": 264
+    }
+  },
+  {
+    "id": 520,
+    "name": "tranquill",
+    "displayName": "Tranquill",
+    "formattedId": "Nº 0520",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/520.png",
+    "height": "0.6",
+    "weight": "15.0",
+    "generation": 5,
+    "evolutionChainId": 266,
+    "evolvesFrom": 519,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Wild Pigeon Pokémon ",
+    "description": "Posee una mente ágil y muy buena memoria. Tal vez por eso muchos repartidores lo eligen como compañero.",
+    "abilities": [
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": false
+      },
+      {
+        "raw": "super-luck",
+        "name": "super luck",
+        "is_hidden": false
+      },
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 62,
+      "attack": 77,
+      "defense": 62,
+      "spAttack": 50,
+      "spDefense": 42,
+      "speed": 65,
+      "total": 358
+    }
+  },
+  {
+    "id": 521,
+    "name": "unfezant",
+    "displayName": "Unfezant",
+    "formattedId": "Nº 0521",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/521.png",
+    "height": "1.2",
+    "weight": "29.0",
+    "generation": 5,
+    "evolutionChainId": 266,
+    "evolvesFrom": 520,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Proud Pokémon ",
+    "description": "Es un Pokémon muy inteligente y orgulloso. Se tiene en alta estima a aquellos que se convierten en sus Entrenadores.",
+    "abilities": [
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": false
+      },
+      {
+        "raw": "super-luck",
+        "name": "super luck",
+        "is_hidden": false
+      },
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 115,
+      "defense": 80,
+      "spAttack": 65,
+      "spDefense": 55,
+      "speed": 93,
+      "total": 488
+    }
+  },
+  {
+    "id": 522,
+    "name": "blitzle",
+    "displayName": "Blitzle",
+    "formattedId": "Nº 0522",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/522.png",
+    "height": "0.8",
+    "weight": "29.8",
+    "generation": 5,
+    "evolutionChainId": 267,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Electrified Pokémon ",
+    "description": "Su crin brilla cuando emite una descarga eléctrica. Se comunica con los suyos mediante el ritmo y el número de brillos.",
+    "abilities": [
+      {
+        "raw": "lightning-rod",
+        "name": "lightning rod",
+        "is_hidden": false
+      },
+      {
+        "raw": "motor-drive",
+        "name": "motor drive",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 60,
+      "defense": 32,
+      "spAttack": 50,
+      "spDefense": 32,
+      "speed": 76,
+      "total": 295
+    }
+  },
+  {
+    "id": 523,
+    "name": "zebstrika",
+    "displayName": "Zebstrika",
+    "formattedId": "Nº 0523",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/523.png",
+    "height": "1.6",
+    "weight": "79.5",
+    "generation": 5,
+    "evolutionChainId": 267,
+    "evolvesFrom": 522,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Thunderbolt Pokémon ",
+    "description": "Su velocidad se asemeja a la de un rayo. Si corre al máximo, se dejan oír truenos por doquier.",
+    "abilities": [
+      {
+        "raw": "lightning-rod",
+        "name": "lightning rod",
+        "is_hidden": false
+      },
+      {
+        "raw": "motor-drive",
+        "name": "motor drive",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 63,
+      "spAttack": 80,
+      "spDefense": 63,
+      "speed": 116,
+      "total": 497
+    }
+  },
+  {
+    "id": 524,
+    "name": "roggenrola",
+    "displayName": "Roggenrola",
+    "formattedId": "Nº 0524",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/524.png",
+    "height": "0.4",
+    "weight": "18.0",
+    "generation": 5,
+    "evolutionChainId": 268,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mantle Pokémon ",
+    "description": "Se dirige hacia cualquier sonido que perciba. Es ligeramente cálido al tacto, debido al efecto de su núcleo energético.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 75,
+      "defense": 85,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 15,
+      "total": 280
+    }
+  },
+  {
+    "id": 525,
+    "name": "boldore",
+    "displayName": "Boldore",
+    "formattedId": "Nº 0525",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/525.png",
+    "height": "0.9",
+    "weight": "102.0",
+    "generation": 5,
+    "evolutionChainId": 268,
+    "evolvesFrom": 524,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ore Pokémon ",
+    "description": "Se vale del sonido para percibir el entorno. Si alguien despierta su ira, lo perseguirá sin cambiar la orientación del cuerpo.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 105,
+      "defense": 105,
+      "spAttack": 50,
+      "spDefense": 40,
+      "speed": 20,
+      "total": 390
+    }
+  },
+  {
+    "id": 526,
+    "name": "gigalith",
+    "displayName": "Gigalith",
+    "formattedId": "Nº 0526",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/526.png",
+    "height": "1.7",
+    "weight": "260.0",
+    "generation": 5,
+    "evolutionChainId": 268,
+    "evolvesFrom": 525,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Compressed Pokémon ",
+    "description": "Las bolas de energía que lanza solo en días soleados son tan potentes que pueden hacer saltar un camión por los aires.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-stream",
+        "name": "sand stream",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 135,
+      "defense": 130,
+      "spAttack": 60,
+      "spDefense": 80,
+      "speed": 25,
+      "total": 515
+    }
+  },
+  {
+    "id": 527,
+    "name": "woobat",
+    "displayName": "Woobat",
+    "formattedId": "Nº 0527",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/527.png",
+    "height": "0.4",
+    "weight": "2.1",
+    "generation": 5,
+    "evolutionChainId": 269,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Morcego",
+    "description": "Emite ultrasonidos mientras revolotea en busca de los Pokémon insecto con los que se sustenta.",
+    "abilities": [
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": false
+      },
+      {
+        "raw": "simple",
+        "name": "simple",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 45,
+      "defense": 43,
+      "spAttack": 55,
+      "spDefense": 43,
+      "speed": 72,
+      "total": 323
+    }
+  },
+  {
+    "id": 528,
+    "name": "swoobat",
+    "displayName": "Swoobat",
+    "formattedId": "Nº 0528",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/528.png",
+    "height": "0.9",
+    "weight": "10.5",
+    "generation": 5,
+    "evolutionChainId": 269,
+    "evolvesFrom": 527,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Courting Pokémon ",
+    "description": "En algunas regiones se venera a este Pokémon, ya que consideran la forma de su nariz como un símbolo de felicidad.",
+    "abilities": [
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": false
+      },
+      {
+        "raw": "simple",
+        "name": "simple",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 67,
+      "attack": 57,
+      "defense": 55,
+      "spAttack": 77,
+      "spDefense": 55,
+      "speed": 114,
+      "total": 425
+    }
+  },
+  {
+    "id": 529,
+    "name": "drilbur",
+    "displayName": "Drilbur",
+    "formattedId": "Nº 0529",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/529.png",
+    "height": "0.3",
+    "weight": "8.5",
+    "generation": 5,
+    "evolutionChainId": 270,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Toupeira",
+    "description": "Su costumbre de horadar túneles bajo tierra le ha granjeado la antipatía de los agricultores, ya que puede echar a perder cosechas enteras.",
+    "abilities": [
+      {
+        "raw": "sand-rush",
+        "name": "sand rush",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 40,
+      "spAttack": 30,
+      "spDefense": 45,
+      "speed": 68,
+      "total": 328
+    }
+  },
+  {
+    "id": 530,
+    "name": "excadrill",
+    "displayName": "Excadrill",
+    "formattedId": "Nº 0530",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
+    "height": "0.7",
+    "weight": "40.4",
+    "generation": 5,
+    "evolutionChainId": 270,
+    "evolvesFrom": 529,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Subterrene Pokémon ",
+    "description": "Se lo conoce como el Rey del Taladro. Puede horadar túneles bajo tierra a una velocidad de 150 km/h.",
+    "abilities": [
+      {
+        "raw": "sand-rush",
+        "name": "sand rush",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 135,
+      "defense": 60,
+      "spAttack": 50,
+      "spDefense": 65,
+      "speed": 88,
+      "total": 508
+    }
+  },
+  {
+    "id": 531,
+    "name": "audino",
+    "displayName": "Audino",
+    "formattedId": "Nº 0531",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png",
+    "height": "1.1",
+    "weight": "31.0",
+    "generation": 5,
+    "evolutionChainId": 271,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hearing Pokémon ",
+    "description": "Un Pokémon gentil que es capaz de comprender los sentimientos y averiguar el estado de salud de todo aquel que toque con sus antenas.",
+    "abilities": [
+      {
+        "raw": "healer",
+        "name": "healer",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 103,
+      "attack": 60,
+      "defense": 86,
+      "spAttack": 60,
+      "spDefense": 86,
+      "speed": 50,
+      "total": 445
+    }
+  },
+  {
+    "id": 532,
+    "name": "timburr",
+    "displayName": "Timburr",
+    "formattedId": "Nº 0532",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/532.png",
+    "height": "0.6",
+    "weight": "12.5",
+    "generation": 5,
+    "evolutionChainId": 272,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Muscular Pokémon ",
+    "description": "Cuando logra transportar una viga de madera que triplica su altura y peso, es señal de que va a evolucionar.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 55,
+      "spAttack": 25,
+      "spDefense": 35,
+      "speed": 35,
+      "total": 305
+    }
+  },
+  {
+    "id": 533,
+    "name": "gurdurr",
+    "displayName": "Gurdurr",
+    "formattedId": "Nº 0533",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/533.png",
+    "height": "1.2",
+    "weight": "40.0",
+    "generation": 5,
+    "evolutionChainId": 272,
+    "evolvesFrom": 532,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Muscular Pokémon ",
+    "description": "Blande vigas de acero con gran destreza, pero la construcción no se le da muy bien; de hecho, su especialidad es la demolición.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 105,
+      "defense": 85,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 40,
+      "total": 405
+    }
+  },
+  {
+    "id": 534,
+    "name": "conkeldurr",
+    "displayName": "Conkeldurr",
+    "formattedId": "Nº 0534",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/534.png",
+    "height": "1.4",
+    "weight": "87.0",
+    "generation": 5,
+    "evolutionChainId": 272,
+    "evolvesFrom": 533,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Muscular Pokémon ",
+    "description": "Cuando decide ponerse en serio, suelta sus pilares de hormigón y se abalanza sobre el rival con solo un puño como arma.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 140,
+      "defense": 95,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 45,
+      "total": 505
+    }
+  },
+  {
+    "id": 535,
+    "name": "tympole",
+    "displayName": "Tympole",
+    "formattedId": "Nº 0535",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/535.png",
+    "height": "0.5",
+    "weight": "4.5",
+    "generation": 5,
+    "evolutionChainId": 273,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Girino",
+    "description": "Se comunica con los suyos mediante ondas sonoras. Su grito de alerta es imperceptible para los humanos y el resto de los Pokémon.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 40,
+      "speed": 64,
+      "total": 294
+    }
+  },
+  {
+    "id": 536,
+    "name": "palpitoad",
+    "displayName": "Palpitoad",
+    "formattedId": "Nº 0536",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/536.png",
+    "height": "0.8",
+    "weight": "17.0",
+    "generation": 5,
+    "evolutionChainId": 273,
+    "evolvesFrom": 535,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Vibration Pokémon ",
+    "description": "A veces emiten un bello canto. Cuanto mayores son las protuberancias del cuerpo, más extenso es su registro vocal.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 65,
+      "defense": 55,
+      "spAttack": 65,
+      "spDefense": 55,
+      "speed": 69,
+      "total": 384
+    }
+  },
+  {
+    "id": 537,
+    "name": "seismitoad",
+    "displayName": "Seismitoad",
+    "formattedId": "Nº 0537",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/537.png",
+    "height": "1.5",
+    "weight": "62.0",
+    "generation": 5,
+    "evolutionChainId": 273,
+    "evolvesFrom": 536,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Vibration Pokémon ",
+    "description": "Las vibraciones de sus bultos resultan perfectas para dar masajes, lo que lo ha hecho muy popular entre la tercera edad.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-touch",
+        "name": "poison touch",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 75,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 74,
+      "total": 509
+    }
+  },
+  {
+    "id": 538,
+    "name": "throh",
+    "displayName": "Throh",
+    "formattedId": "Nº 0538",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/538.png",
+    "height": "1.3",
+    "weight": "55.5",
+    "generation": 5,
+    "evolutionChainId": 274,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Judo Pokémon ",
+    "description": "Entrenan en grupos de cinco individuos. Si alguno es incapaz de seguir el ritmo, arroja el cinturón y abandona la cuadrilla.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 100,
+      "defense": 85,
+      "spAttack": 30,
+      "spDefense": 85,
+      "speed": 45,
+      "total": 465
+    }
+  },
+  {
+    "id": 539,
+    "name": "sawk",
+    "displayName": "Sawk",
+    "formattedId": "Nº 0539",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/539.png",
+    "height": "1.4",
+    "weight": "51.0",
+    "generation": 5,
+    "evolutionChainId": 275,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Karate Pokémon ",
+    "description": "Cuando un Sawk ha entrenado duro, es capaz de separar las aguas del océano con la potencia de sus técnicas de kárate.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 75,
+      "spAttack": 30,
+      "spDefense": 75,
+      "speed": 85,
+      "total": 465
+    }
+  },
+  {
+    "id": 540,
+    "name": "sewaddle",
+    "displayName": "Sewaddle",
+    "formattedId": "Nº 0540",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/540.png",
+    "height": "0.3",
+    "weight": "2.5",
+    "generation": 5,
+    "evolutionChainId": 276,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sewing Pokémon ",
+    "description": "Usa hojas como material para fabricar su propia ropa, por lo que los diseñadores más famosos los tienen como mascota.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 53,
+      "defense": 70,
+      "spAttack": 40,
+      "spDefense": 60,
+      "speed": 42,
+      "total": 310
+    }
+  },
+  {
+    "id": 541,
+    "name": "swadloon",
+    "displayName": "Swadloon",
+    "formattedId": "Nº 0541",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/541.png",
+    "height": "0.5",
+    "weight": "7.3",
+    "generation": 5,
+    "evolutionChainId": 276,
+    "evolvesFrom": 540,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Leaf-Wrapped Pokémon ",
+    "description": "Se guarece del frío envolviéndose en hojas. Se desplaza por el bosque comiendo a su paso las hojas caídas.",
+    "abilities": [
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 63,
+      "defense": 90,
+      "spAttack": 50,
+      "spDefense": 80,
+      "speed": 42,
+      "total": 380
+    }
+  },
+  {
+    "id": 542,
+    "name": "leavanny",
+    "displayName": "Leavanny",
+    "formattedId": "Nº 0542",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/542.png",
+    "height": "1.2",
+    "weight": "20.5",
+    "generation": 5,
+    "evolutionChainId": 276,
+    "evolvesFrom": 541,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Nurturing Pokémon ",
+    "description": "Calienta sus huevos con el calor desprendido por el humus. Hace mantillas con las hojas para Sewaddle.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 103,
+      "defense": 80,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 92,
+      "total": 500
+    }
+  },
+  {
+    "id": 543,
+    "name": "venipede",
+    "displayName": "Venipede",
+    "formattedId": "Nº 0543",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png",
+    "height": "0.4",
+    "weight": "5.3",
+    "generation": 5,
+    "evolutionChainId": 277,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Centipede Pokémon ",
+    "description": "Sus colmillos contienen un veneno letal. Si encuentra una presa que parece comestible, se abalanza sobre ella sin pensárselo dos veces.",
+    "abilities": [
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 59,
+      "spAttack": 30,
+      "spDefense": 39,
+      "speed": 57,
+      "total": 260
+    }
+  },
+  {
+    "id": 544,
+    "name": "whirlipede",
+    "displayName": "Whirlipede",
+    "formattedId": "Nº 0544",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/544.png",
+    "height": "1.2",
+    "weight": "58.5",
+    "generation": 5,
+    "evolutionChainId": 277,
+    "evolvesFrom": 543,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Curlipede Pokémon ",
+    "description": "Se defiende con su duro caparazón y sus púas venenosas mientras acumula la energía necesaria para evolucionar.",
+    "abilities": [
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 99,
+      "spAttack": 40,
+      "spDefense": 79,
+      "speed": 47,
+      "total": 360
+    }
+  },
+  {
+    "id": 545,
+    "name": "scolipede",
+    "displayName": "Scolipede",
+    "formattedId": "Nº 0545",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
+    "height": "2.5",
+    "weight": "200.5",
+    "generation": 5,
+    "evolutionChainId": 277,
+    "evolvesFrom": 544,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Megapede Pokémon ",
+    "description": "Las disputas territoriales con Centiskorch son extremadamente violentas. El perdedor se convierte en la presa del ganador.",
+    "abilities": [
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 89,
+      "spAttack": 55,
+      "spDefense": 69,
+      "speed": 112,
+      "total": 485
+    }
+  },
+  {
+    "id": 546,
+    "name": "cottonee",
+    "displayName": "Cottonee",
+    "formattedId": "Nº 0546",
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/546.png",
+    "height": "0.3",
+    "weight": "0.6",
+    "generation": 5,
+    "evolutionChainId": 278,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cotton Puff Pokémon ",
+    "description": "Combinando los algodones de los Cottonee y Eldegoss se obtiene una tela exquisita, que usan las marcas más exclusivas.",
+    "abilities": [
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": false
+      },
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 27,
+      "defense": 60,
+      "spAttack": 37,
+      "spDefense": 50,
+      "speed": 66,
+      "total": 280
+    }
+  },
+  {
+    "id": 547,
+    "name": "whimsicott",
+    "displayName": "Whimsicott",
+    "formattedId": "Nº 0547",
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png",
+    "height": "0.7",
+    "weight": "6.6",
+    "generation": 5,
+    "evolutionChainId": 278,
+    "evolvesFrom": 546,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Windveiled Pokémon ",
+    "description": "Su algodón se expande cuando recibe los rayos del sol, pero acaba desprendiéndose si se vuelve demasiado voluminoso.",
+    "abilities": [
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": false
+      },
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 67,
+      "defense": 85,
+      "spAttack": 77,
+      "spDefense": 75,
+      "speed": 116,
+      "total": 480
+    }
+  },
+  {
+    "id": 548,
+    "name": "petilil",
+    "displayName": "Petilil",
+    "formattedId": "Nº 0548",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/548.png",
+    "height": "0.5",
+    "weight": "6.6",
+    "generation": 5,
+    "evolutionChainId": 279,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bulb Pokémon ",
+    "description": "Cuanto más sano está este Pokémon, más intenso se vuelve el color de sus hojas. A veces se asienta en huertos o jardines de flores bien cuidados.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 35,
+      "defense": 50,
+      "spAttack": 70,
+      "spDefense": 50,
+      "speed": 30,
+      "total": 280
+    }
+  },
+  {
+    "id": 549,
+    "name": "lilligant",
+    "displayName": "Lilligant",
+    "formattedId": "Nº 0549",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png",
+    "height": "1.1",
+    "weight": "16.3",
+    "generation": 5,
+    "evolutionChainId": 279,
+    "evolvesFrom": 548,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Flowering Pokémon ",
+    "description": "El aceite esencial que se extrae de su flor emana un aroma sublime, aunque su precio resulta desorbitado.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 75,
+      "spAttack": 110,
+      "spDefense": 75,
+      "speed": 90,
+      "total": 480
+    }
+  },
+  {
+    "id": 550,
+    "name": "basculin-red-striped",
+    "displayName": "Basculin",
+    "formattedId": "Nº 0550",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/550.png",
+    "height": "1.0",
+    "weight": "18.0",
+    "generation": 5,
+    "evolutionChainId": 280,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hostile Pokémon ",
+    "description": "Un alimento básico de la dieta de antaño. A los jóvenes se les daba Basculin de raya roja por su alto contenido en ácidos grasos.",
+    "abilities": [
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": false
+      },
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 92,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 55,
+      "speed": 98,
+      "total": 460
+    }
+  },
+  {
+    "id": 551,
+    "name": "sandile",
+    "displayName": "Sandile",
+    "formattedId": "Nº 0551",
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/551.png",
+    "height": "0.7",
+    "weight": "15.2",
+    "generation": 5,
+    "evolutionChainId": 281,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Desert Croc Pokémon ",
+    "description": "Es pequeño, pero cuenta con un tren inferior fuerte. Se desplaza por el desierto abriéndose paso entre la arena, como si nadase.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": false
+      },
+      {
+        "raw": "anger-point",
+        "name": "anger point",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 72,
+      "defense": 35,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 65,
+      "total": 292
+    }
+  },
+  {
+    "id": 552,
+    "name": "krokorok",
+    "displayName": "Krokorok",
+    "formattedId": "Nº 0552",
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/552.png",
+    "height": "1.0",
+    "weight": "33.4",
+    "generation": 5,
+    "evolutionChainId": 281,
+    "evolvesFrom": 551,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Desert Croc Pokémon ",
+    "description": "Tiene unos ojos especiales que le permiten ver en la oscuridad, pero suele permanecer inmóvil en las frías noches del desierto.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": false
+      },
+      {
+        "raw": "anger-point",
+        "name": "anger point",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 82,
+      "defense": 45,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 74,
+      "total": 351
+    }
+  },
+  {
+    "id": 553,
+    "name": "krookodile",
+    "displayName": "Krookodile",
+    "formattedId": "Nº 0553",
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png",
+    "height": "1.5",
+    "weight": "96.3",
+    "generation": 5,
+    "evolutionChainId": 281,
+    "evolvesFrom": 552,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Intimidation Pokémon ",
+    "description": "Es de naturaleza violenta, pero también tiene la paciencia necesaria para esperar a su presa oculto en la arena durante varios días.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": false
+      },
+      {
+        "raw": "anger-point",
+        "name": "anger point",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 117,
+      "defense": 80,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 92,
+      "total": 519
+    }
+  },
+  {
+    "id": 554,
+    "name": "darumaka",
+    "displayName": "Darumaka",
+    "formattedId": "Nº 0554",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/554.png",
+    "height": "0.6",
+    "weight": "37.5",
+    "generation": 5,
+    "evolutionChainId": 282,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Zen Charm Pokémon ",
+    "description": "Cuando duerme es imposible tumbarlo por más que lo zarandeen. Es muy popular como amuleto de la suerte.",
+    "abilities": [
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 45,
+      "spAttack": 15,
+      "spDefense": 45,
+      "speed": 50,
+      "total": 315
+    }
+  },
+  {
+    "id": 555,
+    "name": "darmanitan-standard",
+    "displayName": "Darmanitan",
+    "formattedId": "Nº 0555",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png",
+    "height": "1.3",
+    "weight": "92.9",
+    "generation": 5,
+    "evolutionChainId": 282,
+    "evolvesFrom": 554,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Blazing Pokémon ",
+    "description": "Su fuerza aumenta cuanto más se aviva su fuego interior, que puede alcanzar temperaturas superiores a los 1400 °C.",
+    "abilities": [
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "zen-mode",
+        "name": "zen mode",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 140,
+      "defense": 55,
+      "spAttack": 30,
+      "spDefense": 55,
+      "speed": 95,
+      "total": 480
+    }
+  },
+  {
+    "id": 556,
+    "name": "maractus",
+    "displayName": "Maractus",
+    "formattedId": "Nº 0556",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/556.png",
+    "height": "1.0",
+    "weight": "28.0",
+    "generation": 5,
+    "evolutionChainId": 283,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cactus Pokémon ",
+    "description": "Una vez al año, esparce sus semillas, cuyo alto valor nutritivo las convierte en una inestimable fuente de alimento en el desierto.",
+    "abilities": [
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "storm-drain",
+        "name": "storm drain",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 86,
+      "defense": 67,
+      "spAttack": 106,
+      "spDefense": 67,
+      "speed": 60,
+      "total": 461
+    }
+  },
+  {
+    "id": 557,
+    "name": "dwebble",
+    "displayName": "Dwebble",
+    "formattedId": "Nº 0557",
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/557.png",
+    "height": "0.3",
+    "weight": "14.5",
+    "generation": 5,
+    "evolutionChainId": 284,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rock Inn Pokémon ",
+    "description": "Si no encuentra una piedra que sea idónea como morada, se instala en los orificios de algún Hippowdon.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 85,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 55,
+      "total": 325
+    }
+  },
+  {
+    "id": 558,
+    "name": "crustle",
+    "displayName": "Crustle",
+    "formattedId": "Nº 0558",
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/558.png",
+    "height": "1.4",
+    "weight": "200.0",
+    "generation": 5,
+    "evolutionChainId": 284,
+    "evolvesFrom": 557,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Stone Home Pokémon ",
+    "description": "Su arma más potente son sus gruesas pinzas, tan duras que pueden abrir una brecha incluso en el Protector de Rhyperior.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 105,
+      "defense": 125,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 45,
+      "total": 485
+    }
+  },
+  {
+    "id": 559,
+    "name": "scraggy",
+    "displayName": "Scraggy",
+    "formattedId": "Nº 0559",
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/559.png",
+    "height": "0.6",
+    "weight": "11.8",
+    "generation": 5,
+    "evolutionChainId": 285,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Shedding Pokémon ",
+    "description": "Su robusta piel le sirve de protección. Cuando ya no puede estirarse más, es señal de que va a evolucionar pronto.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 70,
+      "spAttack": 35,
+      "spDefense": 70,
+      "speed": 48,
+      "total": 348
+    }
+  },
+  {
+    "id": 560,
+    "name": "scrafty",
+    "displayName": "Scrafty",
+    "formattedId": "Nº 0560",
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png",
+    "height": "1.1",
+    "weight": "30.0",
+    "generation": 5,
+    "evolutionChainId": 285,
+    "evolvesFrom": 559,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hoodlum Pokémon ",
+    "description": "A pesar de su carácter agresivo, se muestra muy protector con sus allegados y su territorio.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 115,
+      "spAttack": 45,
+      "spDefense": 115,
+      "speed": 58,
+      "total": 488
+    }
+  },
+  {
+    "id": 561,
+    "name": "sigilyph",
+    "displayName": "Sigilyph",
+    "formattedId": "Nº 0561",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/561.png",
+    "height": "1.4",
+    "weight": "14.0",
+    "generation": 5,
+    "evolutionChainId": 286,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Avianoid Pokémon ",
+    "description": "Explorando la zona desértica que sobrevuela, se han descubierto los vestigios de lo que parece ser una antigua ciudad.",
+    "abilities": [
+      {
+        "raw": "wonder-skin",
+        "name": "wonder skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-guard",
+        "name": "magic guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "tinted-lens",
+        "name": "tinted lens",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 58,
+      "defense": 80,
+      "spAttack": 103,
+      "spDefense": 80,
+      "speed": 97,
+      "total": 490
+    }
+  },
+  {
+    "id": 562,
+    "name": "yamask",
+    "displayName": "Yamask",
+    "formattedId": "Nº 0562",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/562.png",
+    "height": "0.5",
+    "weight": "1.5",
+    "generation": 5,
+    "evolutionChainId": 287,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spirit Pokémon ",
+    "description": "Surgió del alma de una persona que vivió en tiempos remotos. Merodea por las ruinas en busca de alguien que reconozca su rostro.",
+    "abilities": [
+      {
+        "raw": "mummy",
+        "name": "mummy",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 30,
+      "defense": 85,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 30,
+      "total": 303
+    }
+  },
+  {
+    "id": 563,
+    "name": "cofagrigus",
+    "displayName": "Cofagrigus",
+    "formattedId": "Nº 0563",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/563.png",
+    "height": "1.7",
+    "weight": "76.5",
+    "generation": 5,
+    "evolutionChainId": 287,
+    "evolvesFrom": 562,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Coffin Pokémon ",
+    "description": "Aparece representado en los muros de antiguas sepulturas como símbolo de riqueza de reyes de antaño.",
+    "abilities": [
+      {
+        "raw": "mummy",
+        "name": "mummy",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 50,
+      "defense": 145,
+      "spAttack": 95,
+      "spDefense": 105,
+      "speed": 30,
+      "total": 483
+    }
+  },
+  {
+    "id": 564,
+    "name": "tirtouga",
+    "displayName": "Tirtouga",
+    "formattedId": "Nº 0564",
+    "types": [
+      "water",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/564.png",
+    "height": "0.7",
+    "weight": "16.5",
+    "generation": 5,
+    "evolutionChainId": 288,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Prototurtle Pokémon ",
+    "description": "Se piensa que es el antepasado de numerosos Pokémon tortuga. Fue regenerado a partir de un fósil.",
+    "abilities": [
+      {
+        "raw": "solid-rock",
+        "name": "solid rock",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 78,
+      "defense": 103,
+      "spAttack": 53,
+      "spDefense": 45,
+      "speed": 22,
+      "total": 355
+    }
+  },
+  {
+    "id": 565,
+    "name": "carracosta",
+    "displayName": "Carracosta",
+    "formattedId": "Nº 0565",
+    "types": [
+      "water",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/565.png",
+    "height": "1.2",
+    "weight": "81.0",
+    "generation": 5,
+    "evolutionChainId": 288,
+    "evolvesFrom": 564,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Prototurtle Pokémon ",
+    "description": "Aunque se mueva con mayor lentitud sobre la superficie terrestre que en el agua, emerge a tierra en busca de presas.",
+    "abilities": [
+      {
+        "raw": "solid-rock",
+        "name": "solid rock",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 108,
+      "defense": 133,
+      "spAttack": 83,
+      "spDefense": 65,
+      "speed": 32,
+      "total": 495
+    }
+  },
+  {
+    "id": 566,
+    "name": "archen",
+    "displayName": "Archen",
+    "formattedId": "Nº 0566",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/566.png",
+    "height": "0.5",
+    "weight": "9.5",
+    "generation": 5,
+    "evolutionChainId": 289,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "First Bird Pokémon ",
+    "description": "Se dice que es el antepasado de los Pokémon pájaro. Vivía en las copas de los árboles y se alimentaba de bayas y Pokémon insecto.",
+    "abilities": [
+      {
+        "raw": "defeatist",
+        "name": "defeatist",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 112,
+      "defense": 45,
+      "spAttack": 74,
+      "spDefense": 45,
+      "speed": 70,
+      "total": 401
+    }
+  },
+  {
+    "id": 567,
+    "name": "archeops",
+    "displayName": "Archeops",
+    "formattedId": "Nº 0567",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/567.png",
+    "height": "1.4",
+    "weight": "32.0",
+    "generation": 5,
+    "evolutionChainId": 289,
+    "evolvesFrom": 566,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "First Bird Pokémon ",
+    "description": "Si bien era capaz de volar, parece ser que se le daba mucho mejor cazar presas en tierra firme que en el aire.",
+    "abilities": [
+      {
+        "raw": "defeatist",
+        "name": "defeatist",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 140,
+      "defense": 65,
+      "spAttack": 112,
+      "spDefense": 65,
+      "speed": 110,
+      "total": 567
+    }
+  },
+  {
+    "id": 568,
+    "name": "trubbish",
+    "displayName": "Trubbish",
+    "formattedId": "Nº 0568",
+    "types": [
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/568.png",
+    "height": "0.6",
+    "weight": "31.0",
+    "generation": 5,
+    "evolutionChainId": 290,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Trash Bag Pokémon ",
+    "description": "Nació a partir de una rebosante bolsa de basura. Los gases nocivos que eructa son un manjar para los Weezing de Galar.",
+    "abilities": [
+      {
+        "raw": "stench",
+        "name": "stench",
+        "is_hidden": false
+      },
+      {
+        "raw": "sticky-hold",
+        "name": "sticky hold",
+        "is_hidden": false
+      },
+      {
+        "raw": "aftermath",
+        "name": "aftermath",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 62,
+      "spAttack": 40,
+      "spDefense": 62,
+      "speed": 65,
+      "total": 329
+    }
+  },
+  {
+    "id": 569,
+    "name": "garbodor",
+    "displayName": "Garbodor",
+    "formattedId": "Nº 0569",
+    "types": [
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png",
+    "height": "1.9",
+    "weight": "107.3",
+    "generation": 5,
+    "evolutionChainId": 290,
+    "evolvesFrom": 568,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Trash Heap Pokémon ",
+    "description": "El veneno líquido que brota de su brazo derecho es tan nocivo que puede acabar con una criatura ya débil al menor contacto.",
+    "abilities": [
+      {
+        "raw": "stench",
+        "name": "stench",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "aftermath",
+        "name": "aftermath",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 95,
+      "defense": 82,
+      "spAttack": 60,
+      "spDefense": 82,
+      "speed": 75,
+      "total": 474
+    }
+  },
+  {
+    "id": 570,
+    "name": "zorua",
+    "displayName": "Zorua",
+    "formattedId": "Nº 0570",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/570.png",
+    "height": "0.7",
+    "weight": "12.5",
+    "generation": 5,
+    "evolutionChainId": 291,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tricky Fox Pokémon ",
+    "description": "Suele transformarse en personas, sobre todo en niños, y se adentra en pueblos buscando comida.",
+    "abilities": [
+      {
+        "raw": "illusion",
+        "name": "illusion",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 40,
+      "spAttack": 80,
+      "spDefense": 40,
+      "speed": 65,
+      "total": 330
+    }
+  },
+  {
+    "id": 571,
+    "name": "zoroark",
+    "displayName": "Zoroark",
+    "formattedId": "Nº 0571",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/571.png",
+    "height": "1.6",
+    "weight": "81.1",
+    "generation": 5,
+    "evolutionChainId": 291,
+    "evolvesFrom": 570,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Illusion Fox Pokémon ",
+    "description": "Los Entrenadores solitarios le piden a Zoroark que les muestre ilusiones con las que combatir la desazón de la soledad.",
+    "abilities": [
+      {
+        "raw": "illusion",
+        "name": "illusion",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 105,
+      "defense": 60,
+      "spAttack": 120,
+      "spDefense": 60,
+      "speed": 105,
+      "total": 510
+    }
+  },
+  {
+    "id": 572,
+    "name": "minccino",
+    "displayName": "Minccino",
+    "formattedId": "Nº 0572",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/572.png",
+    "height": "0.4",
+    "weight": "5.8",
+    "generation": 5,
+    "evolutionChainId": 292,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Chinchilla Pokémon ",
+    "description": "Se saludan entre sí frotándose la cola. Cuanto más voluminosa es, más orgullosos se muestran.",
+    "abilities": [
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "raw": "skill-link",
+        "name": "skill link",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 75,
+      "total": 300
+    }
+  },
+  {
+    "id": 573,
+    "name": "cinccino",
+    "displayName": "Cinccino",
+    "formattedId": "Nº 0573",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/573.png",
+    "height": "0.5",
+    "weight": "7.5",
+    "generation": 5,
+    "evolutionChainId": 292,
+    "evolvesFrom": 572,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scarf Pokémon ",
+    "description": "Su pelaje está recubierto por una grasa especial que repele los ataques enemigos y por la que se llegan a pagar auténticas fortunas.",
+    "abilities": [
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "raw": "skill-link",
+        "name": "skill link",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 60,
+      "spAttack": 65,
+      "spDefense": 60,
+      "speed": 115,
+      "total": 470
+    }
+  },
+  {
+    "id": 574,
+    "name": "gothita",
+    "displayName": "Gothita",
+    "formattedId": "Nº 0574",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/574.png",
+    "height": "0.4",
+    "weight": "5.8",
+    "generation": 5,
+    "evolutionChainId": 293,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fixation Pokémon ",
+    "description": "A veces susurra aunque no haya nadie alrededor. Por eso se cree que tal vez hable con alguien o algo imperceptible para los demás.",
+    "abilities": [
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": false
+      },
+      {
+        "raw": "shadow-tag",
+        "name": "shadow tag",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 50,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 45,
+      "total": 290
+    }
+  },
+  {
+    "id": 575,
+    "name": "gothorita",
+    "displayName": "Gothorita",
+    "formattedId": "Nº 0575",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/575.png",
+    "height": "0.7",
+    "weight": "18.0",
+    "generation": 5,
+    "evolutionChainId": 293,
+    "evolvesFrom": 574,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Manipulate Pokémon ",
+    "description": "Sus poderes psíquicos alcanzan su apogeo en las noches estrelladas, aunque su posible vínculo con el espacio está envuelto en misterio.",
+    "abilities": [
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": false
+      },
+      {
+        "raw": "shadow-tag",
+        "name": "shadow tag",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 70,
+      "spAttack": 75,
+      "spDefense": 85,
+      "speed": 55,
+      "total": 390
+    }
+  },
+  {
+    "id": 576,
+    "name": "gothitelle",
+    "displayName": "Gothitelle",
+    "formattedId": "Nº 0576",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/576.png",
+    "height": "1.5",
+    "weight": "44.0",
+    "generation": 5,
+    "evolutionChainId": 293,
+    "evolvesFrom": 575,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Astral Body Pokémon ",
+    "description": "Los malhechores a los que revela sus últimos momentos pierden la vida el mismo día.",
+    "abilities": [
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": false
+      },
+      {
+        "raw": "shadow-tag",
+        "name": "shadow tag",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 95,
+      "spAttack": 95,
+      "spDefense": 110,
+      "speed": 65,
+      "total": 490
+    }
+  },
+  {
+    "id": 577,
+    "name": "solosis",
+    "displayName": "Solosis",
+    "formattedId": "Nº 0577",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/577.png",
+    "height": "0.3",
+    "weight": "1.0",
+    "generation": 5,
+    "evolutionChainId": 294,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cell Pokémon ",
+    "description": "Se cree que la sustancia viscosa que lo envuelve le permite sobrevivir en el espacio exterior.",
+    "abilities": [
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-guard",
+        "name": "magic guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 40,
+      "spAttack": 105,
+      "spDefense": 50,
+      "speed": 20,
+      "total": 290
+    }
+  },
+  {
+    "id": 578,
+    "name": "duosion",
+    "displayName": "Duosion",
+    "formattedId": "Nº 0578",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/578.png",
+    "height": "0.6",
+    "weight": "8.0",
+    "generation": 5,
+    "evolutionChainId": 294,
+    "evolvesFrom": 577,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mitosis Pokémon ",
+    "description": "Las dos partes de su cerebro casi nunca piensan lo mismo, por lo que es imposible predecir sus intenciones.",
+    "abilities": [
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-guard",
+        "name": "magic guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 40,
+      "defense": 50,
+      "spAttack": 125,
+      "spDefense": 60,
+      "speed": 30,
+      "total": 370
+    }
+  },
+  {
+    "id": 579,
+    "name": "reuniclus",
+    "displayName": "Reuniclus",
+    "formattedId": "Nº 0579",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/579.png",
+    "height": "1.0",
+    "weight": "20.1",
+    "generation": 5,
+    "evolutionChainId": 294,
+    "evolvesFrom": 578,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Multiplying Pokémon ",
+    "description": "Al parecer, beber su líquido especial otorga un intelecto sin par, pero resulta muy venenoso, excepto para los propios Reuniclus.",
+    "abilities": [
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-guard",
+        "name": "magic guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 65,
+      "defense": 75,
+      "spAttack": 125,
+      "spDefense": 85,
+      "speed": 30,
+      "total": 490
+    }
+  },
+  {
+    "id": 580,
+    "name": "ducklett",
+    "displayName": "Ducklett",
+    "formattedId": "Nº 0580",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/580.png",
+    "height": "0.5",
+    "weight": "5.5",
+    "generation": 5,
+    "evolutionChainId": 295,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Water Bird Pokémon ",
+    "description": "Nada a mayor velocidad de la que puede volar. Se sumerge en el agua para buscar musgo acuático, su comida favorita.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 62,
+      "attack": 44,
+      "defense": 50,
+      "spAttack": 44,
+      "spDefense": 50,
+      "speed": 55,
+      "total": 305
+    }
+  },
+  {
+    "id": 581,
+    "name": "swanna",
+    "displayName": "Swanna",
+    "formattedId": "Nº 0581",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/581.png",
+    "height": "1.3",
+    "weight": "24.2",
+    "generation": 5,
+    "evolutionChainId": 295,
+    "evolvesFrom": 580,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "White Bird Pokémon ",
+    "description": "Comienzan a danzar al amanecer. El líder de la bandada se sitúa en el centro.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 87,
+      "defense": 63,
+      "spAttack": 87,
+      "spDefense": 63,
+      "speed": 98,
+      "total": 473
+    }
+  },
+  {
+    "id": 582,
+    "name": "vanillite",
+    "displayName": "Vanillite",
+    "formattedId": "Nº 0582",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/582.png",
+    "height": "0.4",
+    "weight": "5.7",
+    "generation": 5,
+    "evolutionChainId": 296,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fresh Snow Pokémon ",
+    "description": "Este Pokémon nació a partir de un carámbano. Exhala un vaho a -50 °C con el que congela el ambiente para adaptarlo a sus necesidades.",
+    "abilities": [
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 36,
+      "attack": 50,
+      "defense": 50,
+      "spAttack": 65,
+      "spDefense": 60,
+      "speed": 44,
+      "total": 305
+    }
+  },
+  {
+    "id": 583,
+    "name": "vanillish",
+    "displayName": "Vanillish",
+    "formattedId": "Nº 0583",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/583.png",
+    "height": "1.1",
+    "weight": "41.0",
+    "generation": 5,
+    "evolutionChainId": 296,
+    "evolvesFrom": 582,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Icy Snow Pokémon ",
+    "description": "Congela a sus enemigos con un vaho a -100 °C, pero no llega a arrebatarles la vida debido a su carácter benévolo.",
+    "abilities": [
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 51,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 75,
+      "speed": 59,
+      "total": 395
+    }
+  },
+  {
+    "id": 584,
+    "name": "vanilluxe",
+    "displayName": "Vanilluxe",
+    "formattedId": "Nº 0584",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png",
+    "height": "1.3",
+    "weight": "57.5",
+    "generation": 5,
+    "evolutionChainId": 296,
+    "evolvesFrom": 583,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Snowstorm Pokémon ",
+    "description": "Su temperatura corporal ronda los -6 °C. Se dice que nace de la fusión de dos Vanillish.",
+    "abilities": [
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "snow-warning",
+        "name": "snow warning",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 95,
+      "defense": 85,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 79,
+      "total": 535
+    }
+  },
+  {
+    "id": 585,
+    "name": "deerling",
+    "displayName": "Deerling",
+    "formattedId": "Nº 0585",
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
+    "height": "0.6",
+    "weight": "19.5",
+    "generation": 5,
+    "evolutionChainId": 297,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Season Pokémon ",
+    "description": "Durante los cambios de estación, su pelaje y olor cambian. Esto anuncia el comienzo de una estación.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": false
+      },
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 75,
+      "total": 335
+    }
+  },
+  {
+    "id": 586,
+    "name": "sawsbuck",
+    "displayName": "Sawsbuck",
+    "formattedId": "Nº 0586",
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
+    "height": "1.9",
+    "weight": "92.5",
+    "generation": 5,
+    "evolutionChainId": 297,
+    "evolvesFrom": 585,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Season Pokémon ",
+    "description": "Migra con el cambio de estación, por lo que hay quien considera a Sawsbuck el heraldo de la primavera.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": false
+      },
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 95,
+      "total": 475
+    }
+  },
+  {
+    "id": 587,
+    "name": "emolga",
+    "displayName": "Emolga",
+    "formattedId": "Nº 0587",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/587.png",
+    "height": "0.4",
+    "weight": "5.0",
+    "generation": 5,
+    "evolutionChainId": 298,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sky Squirrel Pokémon ",
+    "description": "Le encantan las bayas dulces. A veces almacena tanta comida en los carrillos que no puede volar bien.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "motor-drive",
+        "name": "motor drive",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 75,
+      "defense": 60,
+      "spAttack": 75,
+      "spDefense": 60,
+      "speed": 103,
+      "total": 428
+    }
+  },
+  {
+    "id": 588,
+    "name": "karrablast",
+    "displayName": "Karrablast",
+    "formattedId": "Nº 0588",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/588.png",
+    "height": "0.5",
+    "weight": "5.9",
+    "generation": 5,
+    "evolutionChainId": 299,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Clamping Pokémon ",
+    "description": "Escupe un líquido corrosivo con el que disuelve el caparazón de los Shelmet para luego devorar el contenido.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "no-guard",
+        "name": "no guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 45,
+      "spAttack": 40,
+      "spDefense": 45,
+      "speed": 60,
+      "total": 315
+    }
+  },
+  {
+    "id": 589,
+    "name": "escavalier",
+    "displayName": "Escavalier",
+    "formattedId": "Nº 0589",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/589.png",
+    "height": "1.0",
+    "weight": "33.0",
+    "generation": 5,
+    "evolutionChainId": 299,
+    "evolvesFrom": 588,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cavalry Pokémon ",
+    "description": "Ataca a los enemigos con sus lanzas. Aparece representado en pleno duelo contra un Sirfetch’d en un famoso cuadro.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 135,
+      "defense": 105,
+      "spAttack": 60,
+      "spDefense": 105,
+      "speed": 20,
+      "total": 495
+    }
+  },
+  {
+    "id": 590,
+    "name": "foongus",
+    "displayName": "Foongus",
+    "formattedId": "Nº 0590",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/590.png",
+    "height": "0.2",
+    "weight": "1.0",
+    "generation": 5,
+    "evolutionChainId": 300,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cogumelo",
+    "description": "Las esporas que expulsa por las extremidades son altamente tóxicas, pero, si se secan bien, sirven como remedio estomacal.",
+    "abilities": [
+      {
+        "raw": "effect-spore",
+        "name": "effect spore",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 69,
+      "attack": 55,
+      "defense": 45,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 15,
+      "total": 294
+    }
+  },
+  {
+    "id": 591,
+    "name": "amoonguss",
+    "displayName": "Amoonguss",
+    "formattedId": "Nº 0591",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/591.png",
+    "height": "0.6",
+    "weight": "10.5",
+    "generation": 5,
+    "evolutionChainId": 300,
+    "evolvesFrom": 590,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cogumelo",
+    "description": "Por lo general no se mueve demasiado. Suele permanecer quieto al lado de Poké Balls que haya por el suelo.",
+    "abilities": [
+      {
+        "raw": "effect-spore",
+        "name": "effect spore",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 114,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 85,
+      "spDefense": 80,
+      "speed": 30,
+      "total": 464
+    }
+  },
+  {
+    "id": 592,
+    "name": "frillish-male",
+    "displayName": "Frillish",
+    "formattedId": "Nº 0592",
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/592.png",
+    "height": "1.2",
+    "weight": "33.0",
+    "generation": 5,
+    "evolutionChainId": 301,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Floating Pokémon ",
+    "description": "Cuenta la leyenda que los Frillish son en realidad los habitantes de una antigua ciudad sumergida convertidos en Pokémon.",
+    "abilities": [
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": false
+      },
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 40,
+      "defense": 50,
+      "spAttack": 65,
+      "spDefense": 85,
+      "speed": 40,
+      "total": 335
+    }
+  },
+  {
+    "id": 593,
+    "name": "jellicent-male",
+    "displayName": "Jellicent",
+    "formattedId": "Nº 0593",
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/593.png",
+    "height": "2.2",
+    "weight": "135.0",
+    "generation": 5,
+    "evolutionChainId": 301,
+    "evolvesFrom": 592,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Floating Pokémon ",
+    "description": "Las noches de luna llena, bancos enteros de Jellicent emergen a la superficie y aguardan la llegada de alguna presa incauta.",
+    "abilities": [
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": false
+      },
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 60,
+      "defense": 70,
+      "spAttack": 85,
+      "spDefense": 105,
+      "speed": 60,
+      "total": 480
+    }
+  },
+  {
+    "id": 594,
+    "name": "alomomola",
+    "displayName": "Alomomola",
+    "formattedId": "Nº 0594",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/594.png",
+    "height": "1.2",
+    "weight": "31.6",
+    "generation": 5,
+    "evolutionChainId": 302,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Caring Pokémon ",
+    "description": "Se cree que ayuda a los Pokémon heridos y debilitados de forma que los depredadores naturales de estos no le ataquen a él también.",
+    "abilities": [
+      {
+        "raw": "healer",
+        "name": "healer",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 165,
+      "attack": 75,
+      "defense": 80,
+      "spAttack": 40,
+      "spDefense": 45,
+      "speed": 65,
+      "total": 470
+    }
+  },
+  {
+    "id": 595,
+    "name": "joltik",
+    "displayName": "Joltik",
+    "formattedId": "Nº 0595",
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/595.png",
+    "height": "0.1",
+    "weight": "0.6",
+    "generation": 5,
+    "evolutionChainId": 303,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Attaching Pokémon ",
+    "description": "Se agarra a otros Pokémon para absorber su electricidad estática. Es muy común verlo aferrado a las posaderas de un Yamper.",
+    "abilities": [
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": false
+      },
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 47,
+      "defense": 50,
+      "spAttack": 57,
+      "spDefense": 50,
+      "speed": 65,
+      "total": 319
+    }
+  },
+  {
+    "id": 596,
+    "name": "galvantula",
+    "displayName": "Galvantula",
+    "formattedId": "Nº 0596",
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/596.png",
+    "height": "0.8",
+    "weight": "14.3",
+    "generation": 5,
+    "evolutionChainId": 303,
+    "evolvesFrom": 595,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "EleSpider Pokémon ",
+    "description": "Teje una tela con hilo electrificado junto a los nidos de Pokémon pájaro para atrapar a los polluelos que aún no saben volar bien.",
+    "abilities": [
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": false
+      },
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 77,
+      "defense": 60,
+      "spAttack": 97,
+      "spDefense": 60,
+      "speed": 108,
+      "total": 472
+    }
+  },
+  {
+    "id": 597,
+    "name": "ferroseed",
+    "displayName": "Ferroseed",
+    "formattedId": "Nº 0597",
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/597.png",
+    "height": "0.6",
+    "weight": "18.8",
+    "generation": 5,
+    "evolutionChainId": 304,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Thorn Seed Pokémon ",
+    "description": "Prefiere las cuevas de paredes musgosas, ya que las enzimas contenidas en el musgo le permiten desarrollar unas púas grandes y robustas.",
+    "abilities": [
+      {
+        "raw": "iron-barbs",
+        "name": "iron barbs",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 44,
+      "attack": 50,
+      "defense": 91,
+      "spAttack": 24,
+      "spDefense": 86,
+      "speed": 10,
+      "total": 305
+    }
+  },
+  {
+    "id": 598,
+    "name": "ferrothorn",
+    "displayName": "Ferrothorn",
+    "formattedId": "Nº 0598",
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/598.png",
+    "height": "1.0",
+    "weight": "110.0",
+    "generation": 5,
+    "evolutionChainId": 304,
+    "evolvesFrom": 597,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Thorn Pod Pokémon ",
+    "description": "Sus púas son más duras que el acero. Se aferra y desplaza por paredes rocosas usando las que tiene en los tentáculos como ganchos.",
+    "abilities": [
+      {
+        "raw": "iron-barbs",
+        "name": "iron barbs",
+        "is_hidden": false
+      },
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 94,
+      "defense": 131,
+      "spAttack": 54,
+      "spDefense": 116,
+      "speed": 20,
+      "total": 489
+    }
+  },
+  {
+    "id": 599,
+    "name": "klink",
+    "displayName": "Klink",
+    "formattedId": "Nº 0599",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/599.png",
+    "height": "0.3",
+    "weight": "21.0",
+    "generation": 5,
+    "evolutionChainId": 305,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Gear Pokémon ",
+    "description": "Se dice que en tiempos remotos los seres humanos se inspiraron en este Pokémon para inventar el mecanismo de engranaje.",
+    "abilities": [
+      {
+        "raw": "plus",
+        "name": "plus",
+        "is_hidden": false
+      },
+      {
+        "raw": "minus",
+        "name": "minus",
+        "is_hidden": false
+      },
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 70,
+      "spAttack": 45,
+      "spDefense": 60,
+      "speed": 30,
+      "total": 300
+    }
+  },
+  {
+    "id": 600,
+    "name": "klang",
+    "displayName": "Klang",
+    "formattedId": "Nº 0600",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/600.png",
+    "height": "0.6",
+    "weight": "51.0",
+    "generation": 5,
+    "evolutionChainId": 305,
+    "evolvesFrom": 599,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Gear Pokémon ",
+    "description": "Muchas empresas de Galar usan su imagen en sus logotipos como símbolo de tecnología industrial.",
+    "abilities": [
+      {
+        "raw": "plus",
+        "name": "plus",
+        "is_hidden": false
+      },
+      {
+        "raw": "minus",
+        "name": "minus",
+        "is_hidden": false
+      },
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 95,
+      "spAttack": 70,
+      "spDefense": 85,
+      "speed": 50,
+      "total": 440
+    }
+  },
+  {
+    "id": 601,
+    "name": "klinklang",
+    "displayName": "Klinklang",
+    "formattedId": "Nº 0601",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/601.png",
+    "height": "0.6",
+    "weight": "81.0",
+    "generation": 5,
+    "evolutionChainId": 305,
+    "evolvesFrom": 600,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Gear Pokémon ",
+    "description": "Las tres ruedas dentadas giran a gran velocidad. El aro metálico dotado de púas no es materia viva.",
+    "abilities": [
+      {
+        "raw": "plus",
+        "name": "plus",
+        "is_hidden": false
+      },
+      {
+        "raw": "minus",
+        "name": "minus",
+        "is_hidden": false
+      },
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 115,
+      "spAttack": 70,
+      "spDefense": 85,
+      "speed": 90,
+      "total": 520
+    }
+  },
+  {
+    "id": 602,
+    "name": "tynamo",
+    "displayName": "Tynamo",
+    "formattedId": "Nº 0602",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png",
+    "height": "0.2",
+    "weight": "0.3",
+    "generation": 5,
+    "evolutionChainId": 306,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "EleFish Pokémon ",
+    "description": "Apenas puede generar energía por sí mismo, pero un banco de Tynamo puede crear violentas descargas eléctricas.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "spAttack": 45,
+      "spDefense": 40,
+      "speed": 60,
+      "total": 275
+    }
+  },
+  {
+    "id": 603,
+    "name": "eelektrik",
+    "displayName": "Eelektrik",
+    "formattedId": "Nº 0603",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/603.png",
+    "height": "1.2",
+    "weight": "22.0",
+    "generation": 5,
+    "evolutionChainId": 306,
+    "evolvesFrom": 602,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "EleFish Pokémon ",
+    "description": "Pokémon de apetito voraz. En cuanto encuentra una presa, la paraliza con electricidad y la engulle.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 75,
+      "spDefense": 70,
+      "speed": 40,
+      "total": 405
+    }
+  },
+  {
+    "id": 604,
+    "name": "eelektross",
+    "displayName": "Eelektross",
+    "formattedId": "Nº 0604",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
+    "height": "2.1",
+    "weight": "80.5",
+    "generation": 5,
+    "evolutionChainId": 306,
+    "evolvesFrom": 603,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "EleFish Pokémon ",
+    "description": "Sale del mar con la fuerza de sus brazos y ataca a sus presas en la costa. Luego se las lleva de vuelta al mar.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 80,
+      "spAttack": 105,
+      "spDefense": 80,
+      "speed": 50,
+      "total": 515
+    }
+  },
+  {
+    "id": 605,
+    "name": "elgyem",
+    "displayName": "Elgyem",
+    "formattedId": "Nº 0605",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/605.png",
+    "height": "0.5",
+    "weight": "9.0",
+    "generation": 5,
+    "evolutionChainId": 307,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cerebral Pokémon ",
+    "description": "Fue descubierto hace aproximadamente 50 años. Posee un cerebro muy desarrollado que le otorga poderes psíquicos.",
+    "abilities": [
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": false
+      },
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "analytic",
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 85,
+      "spDefense": 55,
+      "speed": 30,
+      "total": 335
+    }
+  },
+  {
+    "id": 606,
+    "name": "beheeyem",
+    "displayName": "Beheeyem",
+    "formattedId": "Nº 0606",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/606.png",
+    "height": "1.0",
+    "weight": "34.5",
+    "generation": 5,
+    "evolutionChainId": 307,
+    "evolvesFrom": 605,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cerebral Pokémon ",
+    "description": "Es capaz de manipular los recuerdos del rival. Se lo avista en ocasiones vagando por campos de trigo.",
+    "abilities": [
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": false
+      },
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "analytic",
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 75,
+      "spAttack": 125,
+      "spDefense": 95,
+      "speed": 40,
+      "total": 485
+    }
+  },
+  {
+    "id": 607,
+    "name": "litwick",
+    "displayName": "Litwick",
+    "formattedId": "Nº 0607",
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/607.png",
+    "height": "0.3",
+    "weight": "3.1",
+    "generation": 5,
+    "evolutionChainId": 308,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Candle Pokémon ",
+    "description": "Cuanto más joven sea la energía vital que ha absorbido, mayor tamaño tendrá la llama de la cabeza y más siniestro será su brillo.",
+    "abilities": [
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 30,
+      "defense": 55,
+      "spAttack": 65,
+      "spDefense": 55,
+      "speed": 20,
+      "total": 275
+    }
+  },
+  {
+    "id": 608,
+    "name": "lampent",
+    "displayName": "Lampent",
+    "formattedId": "Nº 0608",
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/608.png",
+    "height": "0.6",
+    "weight": "13.0",
+    "generation": 5,
+    "evolutionChainId": 308,
+    "evolvesFrom": 607,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Lamp Pokémon ",
+    "description": "Se oculta en entornos urbanos haciéndose pasar por una lámpara corriente. Si se topa con alguien moribundo, lo sigue en silencio.",
+    "abilities": [
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 60,
+      "spAttack": 95,
+      "spDefense": 60,
+      "speed": 55,
+      "total": 370
+    }
+  },
+  {
+    "id": 609,
+    "name": "chandelure",
+    "displayName": "Chandelure",
+    "formattedId": "Nº 0609",
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
+    "height": "1.0",
+    "weight": "34.3",
+    "generation": 5,
+    "evolutionChainId": 308,
+    "evolvesFrom": 608,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Luring Pokémon ",
+    "description": "Cuentan que, en las mansiones donde se usaba para la iluminación, los funerales se sucedían de forma incesante.",
+    "abilities": [
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 90,
+      "spAttack": 145,
+      "spDefense": 90,
+      "speed": 80,
+      "total": 520
+    }
+  },
+  {
+    "id": 610,
+    "name": "axew",
+    "displayName": "Axew",
+    "formattedId": "Nº 0610",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/610.png",
+    "height": "0.6",
+    "weight": "18.0",
+    "generation": 5,
+    "evolutionChainId": 309,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tusk Pokémon ",
+    "description": "Juega con sus congéneres chocando sus enormes colmillos con la tranquilidad de saber que, si se le rompen, se regenerarán enseguida.",
+    "abilities": [
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 46,
+      "attack": 87,
+      "defense": 60,
+      "spAttack": 30,
+      "spDefense": 40,
+      "speed": 57,
+      "total": 320
+    }
+  },
+  {
+    "id": 611,
+    "name": "fraxure",
+    "displayName": "Fraxure",
+    "formattedId": "Nº 0611",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/611.png",
+    "height": "1.0",
+    "weight": "36.0",
+    "generation": 5,
+    "evolutionChainId": 309,
+    "evolvesFrom": 610,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Axe Jaw Pokémon ",
+    "description": "Su piel es dura como una coraza. Su técnica predilecta consiste en embestir al rival para hincarle los colmillos.",
+    "abilities": [
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 66,
+      "attack": 117,
+      "defense": 70,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 67,
+      "total": 410
+    }
+  },
+  {
+    "id": 612,
+    "name": "haxorus",
+    "displayName": "Haxorus",
+    "formattedId": "Nº 0612",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/612.png",
+    "height": "1.8",
+    "weight": "105.5",
+    "generation": 5,
+    "evolutionChainId": 309,
+    "evolvesFrom": 611,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Axe Jaw Pokémon ",
+    "description": "Amable por naturaleza, infunde auténtico pavor al enfadarse. Su mayor baza son los colmillos, con los que puede cortar un armazón de acero.",
+    "abilities": [
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 76,
+      "attack": 147,
+      "defense": 90,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 97,
+      "total": 540
+    }
+  },
+  {
+    "id": 613,
+    "name": "cubchoo",
+    "displayName": "Cubchoo",
+    "formattedId": "Nº 0613",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/613.png",
+    "height": "0.5",
+    "weight": "8.5",
+    "generation": 5,
+    "evolutionChainId": 310,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Chill Pokémon ",
+    "description": "Antes de ejecutar un movimiento, se sorbe los mocos. El frío intenso de estos constituye la base de sus movimientos de tipo Hielo.",
+    "abilities": [
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "slush-rush",
+        "name": "slush rush",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 40,
+      "spAttack": 60,
+      "spDefense": 40,
+      "speed": 40,
+      "total": 305
+    }
+  },
+  {
+    "id": 614,
+    "name": "beartic",
+    "displayName": "Beartic",
+    "formattedId": "Nº 0614",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/614.png",
+    "height": "2.6",
+    "weight": "260.0",
+    "generation": 5,
+    "evolutionChainId": 310,
+    "evolvesFrom": 613,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Freezing Pokémon ",
+    "description": "Nada plácidamente en mares fríos. Cuando se cansa, congela el agua con su aliento y reposa sobre el hielo.",
+    "abilities": [
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "slush-rush",
+        "name": "slush rush",
+        "is_hidden": false
+      },
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 130,
+      "defense": 80,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 50,
+      "total": 505
+    }
+  },
+  {
+    "id": 615,
+    "name": "cryogonal",
+    "displayName": "Cryogonal",
+    "formattedId": "Nº 0615",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/615.png",
+    "height": "1.1",
+    "weight": "148.0",
+    "generation": 5,
+    "evolutionChainId": 311,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Crystallizing Pokémon ",
+    "description": "Cuando aumenta su temperatura corporal, se convierte en vapor, por lo que es muy difícil de avistar durante el verano.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 50,
+      "defense": 50,
+      "spAttack": 95,
+      "spDefense": 135,
+      "speed": 105,
+      "total": 515
+    }
+  },
+  {
+    "id": 616,
+    "name": "shelmet",
+    "displayName": "Shelmet",
+    "formattedId": "Nº 0616",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/616.png",
+    "height": "0.4",
+    "weight": "7.7",
+    "generation": 5,
+    "evolutionChainId": 312,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Snail Pokémon ",
+    "description": "Debido a su peculiar constitución, reacciona ante la energía eléctrica. Por alguna misteriosa razón, evoluciona en presencia de Karrablast.",
+    "abilities": [
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 40,
+      "defense": 85,
+      "spAttack": 40,
+      "spDefense": 65,
+      "speed": 25,
+      "total": 305
+    }
+  },
+  {
+    "id": 617,
+    "name": "accelgor",
+    "displayName": "Accelgor",
+    "formattedId": "Nº 0617",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/617.png",
+    "height": "0.8",
+    "weight": "25.3",
+    "generation": 5,
+    "evolutionChainId": 312,
+    "evolvesFrom": 616,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Shell Out Pokémon ",
+    "description": "Tras deshacerse del caparazón, su agilidad ha aumentado. Las membranas que le recubren el cuerpo evitan que se deshidrate.",
+    "abilities": [
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "raw": "sticky-hold",
+        "name": "sticky hold",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 40,
+      "spAttack": 100,
+      "spDefense": 60,
+      "speed": 145,
+      "total": 495
+    }
+  },
+  {
+    "id": 618,
+    "name": "stunfisk",
+    "displayName": "Stunfisk",
+    "formattedId": "Nº 0618",
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
+    "height": "0.7",
+    "weight": "11.0",
+    "generation": 5,
+    "evolutionChainId": 313,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Trap Pokémon ",
+    "description": "Se desconoce la razón, pero esboza una leve sonrisa al liberar potentes descargas eléctricas a través de las zonas amarillentas de su cuerpo.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 109,
+      "attack": 66,
+      "defense": 84,
+      "spAttack": 81,
+      "spDefense": 99,
+      "speed": 32,
+      "total": 471
+    }
+  },
+  {
+    "id": 619,
+    "name": "mienfoo",
+    "displayName": "Mienfoo",
+    "formattedId": "Nº 0619",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/619.png",
+    "height": "0.9",
+    "weight": "20.0",
+    "generation": 5,
+    "evolutionChainId": 314,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Martial Arts Pokémon ",
+    "description": "Su apariencia menuda contrasta con su carácter poco afable. Abruma a los rivales que se acercan a él con gráciles oleadas de ataques sucesivos.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": false
+      },
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 85,
+      "defense": 50,
+      "spAttack": 55,
+      "spDefense": 50,
+      "speed": 65,
+      "total": 350
+    }
+  },
+  {
+    "id": 620,
+    "name": "mienshao",
+    "displayName": "Mienshao",
+    "formattedId": "Nº 0620",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/620.png",
+    "height": "1.4",
+    "weight": "35.5",
+    "generation": 5,
+    "evolutionChainId": 314,
+    "evolvesFrom": 619,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Martial Arts Pokémon ",
+    "description": "Sus veloces patadas, que escapan al ojo humano, son capaces de reducir a escombros incluso rocas de gran tamaño.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": false
+      },
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 60,
+      "spAttack": 95,
+      "spDefense": 60,
+      "speed": 105,
+      "total": 510
+    }
+  },
+  {
+    "id": 621,
+    "name": "druddigon",
+    "displayName": "Druddigon",
+    "formattedId": "Nº 0621",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/621.png",
+    "height": "1.6",
+    "weight": "139.0",
+    "generation": 5,
+    "evolutionChainId": 315,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cave Pokémon ",
+    "description": "Posee una personalidad despiadada y ladina. Se apropia de los túneles excavados por otros Pokémon y los habita.",
+    "abilities": [
+      {
+        "raw": "rough-skin",
+        "name": "rough skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 77,
+      "attack": 120,
+      "defense": 90,
+      "spAttack": 60,
+      "spDefense": 90,
+      "speed": 48,
+      "total": 485
+    }
+  },
+  {
+    "id": 622,
+    "name": "golett",
+    "displayName": "Golett",
+    "formattedId": "Nº 0622",
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/622.png",
+    "height": "1.0",
+    "weight": "92.0",
+    "generation": 5,
+    "evolutionChainId": 316,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Automaton Pokémon ",
+    "description": "Fue creado a partir del barro para emplearlo como sirviente. Todavía acata las órdenes que le dio su amo hace milenios.",
+    "abilities": [
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": false
+      },
+      {
+        "raw": "no-guard",
+        "name": "no guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 59,
+      "attack": 74,
+      "defense": 50,
+      "spAttack": 35,
+      "spDefense": 50,
+      "speed": 35,
+      "total": 303
+    }
+  },
+  {
+    "id": 623,
+    "name": "golurk",
+    "displayName": "Golurk",
+    "formattedId": "Nº 0623",
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/623.png",
+    "height": "2.8",
+    "weight": "330.0",
+    "generation": 5,
+    "evolutionChainId": 316,
+    "evolvesFrom": 622,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Automaton Pokémon ",
+    "description": "Se dice que su cuerpo alberga un móvil perpetuo que genera energía, pero no se ha constatado la veracidad de tamaña afirmación.",
+    "abilities": [
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": false
+      },
+      {
+        "raw": "no-guard",
+        "name": "no guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 89,
+      "attack": 124,
+      "defense": 80,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 55,
+      "total": 483
+    }
+  },
+  {
+    "id": 624,
+    "name": "pawniard",
+    "displayName": "Pawniard",
+    "formattedId": "Nº 0624",
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/624.png",
+    "height": "0.5",
+    "weight": "10.2",
+    "generation": 5,
+    "evolutionChainId": 317,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sharp Blade Pokémon ",
+    "description": "Forman grupos encabezados por un Bisharp. Se entrenan a diario soñando con llegar a liderar el grupo algún día.",
+    "abilities": [
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 60,
+      "total": 340
+    }
+  },
+  {
+    "id": 625,
+    "name": "bisharp",
+    "displayName": "Bisharp",
+    "formattedId": "Nº 0625",
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/625.png",
+    "height": "1.6",
+    "weight": "70.0",
+    "generation": 5,
+    "evolutionChainId": 317,
+    "evolvesFrom": 624,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sword Blade Pokémon ",
+    "description": "Libra encarnizados combates con los Fraxure por el control de los emplazamientos donde se hallan las piedras con las que afila sus cuchillas.",
+    "abilities": [
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 70,
+      "total": 490
+    }
+  },
+  {
+    "id": 626,
+    "name": "bouffalant",
+    "displayName": "Bouffalant",
+    "formattedId": "Nº 0626",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/626.png",
+    "height": "1.6",
+    "weight": "94.6",
+    "generation": 5,
+    "evolutionChainId": 318,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bash Buffalo Pokémon ",
+    "description": "Forman manadas de unos veinte individuos. Se desconoce el motivo, pero los que traicionan la confianza del grupo pierden la melena.",
+    "abilities": [
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": false
+      },
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 110,
+      "defense": 95,
+      "spAttack": 40,
+      "spDefense": 95,
+      "speed": 55,
+      "total": 490
+    }
+  },
+  {
+    "id": 627,
+    "name": "rufflet",
+    "displayName": "Rufflet",
+    "formattedId": "Nº 0627",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/627.png",
+    "height": "0.5",
+    "weight": "10.5",
+    "generation": 5,
+    "evolutionChainId": 319,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Eaglet Pokémon ",
+    "description": "Es capaz de partir hasta la baya más dura gracias a la fuerza de sus extremidades. Belicoso por naturaleza, planta cara a cualquiera.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 83,
+      "defense": 50,
+      "spAttack": 37,
+      "spDefense": 50,
+      "speed": 60,
+      "total": 350
+    }
+  },
+  {
+    "id": 628,
+    "name": "braviary",
+    "displayName": "Braviary",
+    "formattedId": "Nº 0628",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/628.png",
+    "height": "1.5",
+    "weight": "41.0",
+    "generation": 5,
+    "evolutionChainId": 319,
+    "evolvesFrom": 627,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Valiant Pokémon ",
+    "description": "Su carácter agresivo e irascible le ha hecho perder su puesto como transportista en Galar en favor de los Corviknight.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 123,
+      "defense": 75,
+      "spAttack": 57,
+      "spDefense": 75,
+      "speed": 80,
+      "total": 510
+    }
+  },
+  {
+    "id": 629,
+    "name": "vullaby",
+    "displayName": "Vullaby",
+    "formattedId": "Nº 0629",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/629.png",
+    "height": "0.5",
+    "weight": "9.0",
+    "generation": 5,
+    "evolutionChainId": 320,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Diapered Pokémon ",
+    "description": "Deja en el nido las calaveras que va descartando a medida que crece con celeridad para que las reutilicen futuras generaciones.",
+    "abilities": [
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 75,
+      "spAttack": 45,
+      "spDefense": 65,
+      "speed": 60,
+      "total": 370
+    }
+  },
+  {
+    "id": 630,
+    "name": "mandibuzz",
+    "displayName": "Mandibuzz",
+    "formattedId": "Nº 0630",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/630.png",
+    "height": "1.2",
+    "weight": "39.5",
+    "generation": 5,
+    "evolutionChainId": 320,
+    "evolvesFrom": 629,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bone Vulture Pokémon ",
+    "description": "Se engalana con los huesos que va recogiendo. Al parecer, la elección no es casual, sino que obedece a los dictados de la moda.",
+    "abilities": [
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 65,
+      "defense": 105,
+      "spAttack": 55,
+      "spDefense": 95,
+      "speed": 80,
+      "total": 510
+    }
+  },
+  {
+    "id": 631,
+    "name": "heatmor",
+    "displayName": "Heatmor",
+    "formattedId": "Nº 0631",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/631.png",
+    "height": "1.4",
+    "weight": "58.0",
+    "generation": 5,
+    "evolutionChainId": 321,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Anteater Pokémon ",
+    "description": "Usa llamas a modo de lengua para derretir el duro exoesqueleto de los Durant antes de devorarlos.",
+    "abilities": [
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "white-smoke",
+        "name": "white smoke",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 97,
+      "defense": 66,
+      "spAttack": 105,
+      "spDefense": 66,
+      "speed": 65,
+      "total": 484
+    }
+  },
+  {
+    "id": 632,
+    "name": "durant",
+    "displayName": "Durant",
+    "formattedId": "Nº 0632",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/632.png",
+    "height": "0.3",
+    "weight": "33.0",
+    "generation": 5,
+    "evolutionChainId": 322,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Iron Ant Pokémon ",
+    "description": "Con sus grandes mandíbulas puede destrozar incluso rocas. Lucha en grupo para proteger sus larvas del ataque de los Sandaconda.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "truant",
+        "name": "truant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 109,
+      "defense": 112,
+      "spAttack": 48,
+      "spDefense": 48,
+      "speed": 109,
+      "total": 484
+    }
+  },
+  {
+    "id": 633,
+    "name": "deino",
+    "displayName": "Deino",
+    "formattedId": "Nº 0633",
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/633.png",
+    "height": "0.8",
+    "weight": "17.3",
+    "generation": 5,
+    "evolutionChainId": 323,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Irate Pokémon ",
+    "description": "Al no poder ver, su forma de orientarse y percibir el entorno consiste en chocarse a diestro y siniestro, mordiendo todo lo que se encuentra.",
+    "abilities": [
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 52,
+      "attack": 65,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 50,
+      "speed": 38,
+      "total": 300
+    }
+  },
+  {
+    "id": 634,
+    "name": "zweilous",
+    "displayName": "Zweilous",
+    "formattedId": "Nº 0634",
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/634.png",
+    "height": "1.4",
+    "weight": "50.0",
+    "generation": 5,
+    "evolutionChainId": 323,
+    "evolvesFrom": 633,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hostile Pokémon ",
+    "description": "Las dos cabezas se disputan la comida con brutalidad. Por eso siempre está cubierto de heridas, aunque no haya combatido contra nadie.",
+    "abilities": [
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 58,
+      "total": 420
+    }
+  },
+  {
+    "id": 635,
+    "name": "hydreigon",
+    "displayName": "Hydreigon",
+    "formattedId": "Nº 0635",
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/635.png",
+    "height": "1.8",
+    "weight": "160.0",
+    "generation": 5,
+    "evolutionChainId": 323,
+    "evolvesFrom": 634,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Brutal Pokémon ",
+    "description": "Sus tres cabezas se alternan para dar mordiscos y no cejarán en su ataque hasta que el rival haya caído redondo.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 92,
+      "attack": 105,
+      "defense": 90,
+      "spAttack": 125,
+      "spDefense": 90,
+      "speed": 98,
+      "total": 600
+    }
+  },
+  {
+    "id": 636,
+    "name": "larvesta",
+    "displayName": "Larvesta",
+    "formattedId": "Nº 0636",
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/636.png",
+    "height": "1.1",
+    "weight": "28.8",
+    "generation": 5,
+    "evolutionChainId": 324,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Torch Pokémon ",
+    "description": "Su cuerpo es cálido. Expulsa llamaradas por los cuernos con el fin de intimidar a sus enemigos y presas.",
+    "abilities": [
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 85,
+      "defense": 55,
+      "spAttack": 50,
+      "spDefense": 55,
+      "speed": 60,
+      "total": 360
+    }
+  },
+  {
+    "id": 637,
+    "name": "volcarona",
+    "displayName": "Volcarona",
+    "formattedId": "Nº 0637",
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/637.png",
+    "height": "1.6",
+    "weight": "46.0",
+    "generation": 5,
+    "evolutionChainId": 324,
+    "evolvesFrom": 636,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Sol",
+    "description": "Nace de una pupa envuelta en llamas. En algunas pinturas rupestres aparece representado como una deidad del fuego.",
+    "abilities": [
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 60,
+      "defense": 65,
+      "spAttack": 135,
+      "spDefense": 105,
+      "speed": 100,
+      "total": 550
+    }
+  },
+  {
+    "id": 638,
+    "name": "cobalion",
+    "displayName": "Cobalion",
+    "formattedId": "Nº 0638",
+    "types": [
+      "steel",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/638.png",
+    "height": "2.1",
+    "weight": "250.0",
+    "generation": 5,
+    "evolutionChainId": 325,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Iron Will Pokémon ",
+    "description": "Un líder nato. Incluso los Pokémon más agresivos se muestran dóciles en su presencia.",
+    "abilities": [
+      {
+        "raw": "justified",
+        "name": "justified",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 90,
+      "defense": 129,
+      "spAttack": 90,
+      "spDefense": 72,
+      "speed": 108,
+      "total": 580
+    }
+  },
+  {
+    "id": 639,
+    "name": "terrakion",
+    "displayName": "Terrakion",
+    "formattedId": "Nº 0639",
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/639.png",
+    "height": "1.9",
+    "weight": "260.0",
+    "generation": 5,
+    "evolutionChainId": 326,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Cavern Pokémon ",
+    "description": "Las leyendas de Teselia narran la lucha que libró contra los humanos para proteger a los Pokémon.",
+    "abilities": [
+      {
+        "raw": "justified",
+        "name": "justified",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 129,
+      "defense": 90,
+      "spAttack": 72,
+      "spDefense": 90,
+      "speed": 108,
+      "total": 580
+    }
+  },
+  {
+    "id": 640,
+    "name": "virizion",
+    "displayName": "Virizion",
+    "formattedId": "Nº 0640",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/640.png",
+    "height": "2.0",
+    "weight": "200.0",
+    "generation": 5,
+    "evolutionChainId": 327,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Grassland Pokémon ",
+    "description": "Confunde a los enemigos con sus movimientos relampagueantes y luego los rebana sin piedad con sus afilados cuernos.",
+    "abilities": [
+      {
+        "raw": "justified",
+        "name": "justified",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 90,
+      "defense": 72,
+      "spAttack": 90,
+      "spDefense": 129,
+      "speed": 108,
+      "total": 580
+    }
+  },
+  {
+    "id": 641,
+    "name": "tornadus-incarnate",
+    "displayName": "Tornadus",
+    "formattedId": "Nº 0641",
+    "types": [
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png",
+    "height": "1.5",
+    "weight": "63.0",
+    "generation": 5,
+    "evolutionChainId": 328,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Cyclone Pokémon ",
+    "description": "La energía que desprende de su cola genera violentas tempestades capaces de echar abajo casas.",
+    "abilities": [
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": false
+      },
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 115,
+      "defense": 70,
+      "spAttack": 125,
+      "spDefense": 80,
+      "speed": 111,
+      "total": 580
+    }
+  },
+  {
+    "id": 642,
+    "name": "thundurus-incarnate",
+    "displayName": "Thundurus",
+    "formattedId": "Nº 0642",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/642.png",
+    "height": "1.5",
+    "weight": "61.0",
+    "generation": 5,
+    "evolutionChainId": 329,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Bolt Strike Pokémon ",
+    "description": "Su gusto por surcar el cielo lanzando rayos y provocando incendios forestales le ha granjeado pocas simpatías.",
+    "abilities": [
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": false
+      },
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 115,
+      "defense": 70,
+      "spAttack": 125,
+      "spDefense": 80,
+      "speed": 111,
+      "total": 580
+    }
+  },
+  {
+    "id": 643,
+    "name": "reshiram",
+    "displayName": "Reshiram",
+    "formattedId": "Nº 0643",
+    "types": [
+      "dragon",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/643.png",
+    "height": "3.2",
+    "weight": "330.0",
+    "generation": 5,
+    "evolutionChainId": 330,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Branco Vasto",
+    "description": "Cuenta la leyenda que sus llamas reducirán a cenizas todo país cuyas gentes desprecien la verdad y estén mancilladas por la codicia.",
+    "abilities": [
+      {
+        "raw": "turboblaze",
+        "name": "turboblaze",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 120,
+      "defense": 100,
+      "spAttack": 150,
+      "spDefense": 120,
+      "speed": 90,
+      "total": 680
+    }
+  },
+  {
+    "id": 644,
+    "name": "zekrom",
+    "displayName": "Zekrom",
+    "formattedId": "Nº 0644",
+    "types": [
+      "dragon",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/644.png",
+    "height": "2.9",
+    "weight": "345.0",
+    "generation": 5,
+    "evolutionChainId": 331,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Preto Profundo",
+    "description": "Según las leyendas, la furia de sus rayos fulminará todo país cuyas gentes hayan perdido el sentido de la justicia.",
+    "abilities": [
+      {
+        "raw": "teravolt",
+        "name": "teravolt",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 120,
+      "spAttack": 120,
+      "spDefense": 100,
+      "speed": 90,
+      "total": 680
+    }
+  },
+  {
+    "id": 645,
+    "name": "landorus-incarnate",
+    "displayName": "Landorus",
+    "formattedId": "Nº 0645",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/645.png",
+    "height": "1.5",
+    "weight": "68.0",
+    "generation": 5,
+    "evolutionChainId": 332,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Abundance Pokémon ",
+    "description": "Utiliza energía que obtiene del viento y del relámpago para nutrir el suelo y generar abundantes cosechas.",
+    "abilities": [
+      {
+        "raw": "sand-force",
+        "name": "sand force",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 89,
+      "attack": 125,
+      "defense": 90,
+      "spAttack": 115,
+      "spDefense": 80,
+      "speed": 101,
+      "total": 600
+    }
+  },
+  {
+    "id": 646,
+    "name": "kyurem",
+    "displayName": "Kyurem",
+    "formattedId": "Nº 0646",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/646.png",
+    "height": "3.0",
+    "weight": "325.0",
+    "generation": 5,
+    "evolutionChainId": 333,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Fronteira",
+    "description": "Mantiene su cuerpo congelado con la intensa energía gélida que él mismo produce para estabilizar su estructura celular.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 125,
+      "attack": 130,
+      "defense": 90,
+      "spAttack": 130,
+      "spDefense": 90,
+      "speed": 95,
+      "total": 660
+    }
+  },
+  {
+    "id": 647,
+    "name": "keldeo-ordinary",
+    "displayName": "Keldeo",
+    "formattedId": "Nº 0647",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/647.png",
+    "height": "1.4",
+    "weight": "48.5",
+    "generation": 5,
+    "evolutionChainId": 334,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Colt Pokémon ",
+    "description": "A base de superar encarnizados combates, su cuerno se fortalece y, entonces, despierta su verdadero poder.",
+    "abilities": [
+      {
+        "raw": "justified",
+        "name": "justified",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 72,
+      "defense": 90,
+      "spAttack": 129,
+      "spDefense": 90,
+      "speed": 108,
+      "total": 580
+    }
+  },
+  {
+    "id": 648,
+    "name": "meloetta-aria",
+    "displayName": "Meloetta",
+    "formattedId": "Nº 0648",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/648.png",
+    "height": "0.6",
+    "weight": "6.5",
+    "generation": 5,
+    "evolutionChainId": 335,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Melody Pokémon ",
+    "description": "Controla los sentimientos de los que escuchan las melodías que emite con su singular vocalización.",
+    "abilities": [
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 77,
+      "defense": 77,
+      "spAttack": 128,
+      "spDefense": 128,
+      "speed": 90,
+      "total": 600
+    }
+  },
+  {
+    "id": 649,
+    "name": "genesect",
+    "displayName": "Genesect",
+    "formattedId": "Nº 0649",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/649.png",
+    "height": "1.5",
+    "weight": "82.5",
+    "generation": 5,
+    "evolutionChainId": 336,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Paleozoic Pokémon ",
+    "description": "Un Pokémon de hace 300 millones de años y alterado por el Equipo Plasma, quienes le han equipado con un cañón en el lomo.",
+    "abilities": [
+      {
+        "raw": "download",
+        "name": "download",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 120,
+      "defense": 95,
+      "spAttack": 120,
+      "spDefense": 95,
+      "speed": 99,
+      "total": 600
+    }
+  },
+  {
+    "id": 650,
+    "name": "chespin",
+    "displayName": "Chespin",
+    "formattedId": "Nº 0650",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png",
+    "height": "0.4",
+    "weight": "9.0",
+    "generation": 6,
+    "evolutionChainId": 337,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spiny Nut Pokémon ",
+    "description": "La robusta coraza que le recubre la cabeza y la espalda lo protege de tal manera que podría chocar contra un camión y permanecer impasible.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 56,
+      "attack": 61,
+      "defense": 65,
+      "spAttack": 48,
+      "spDefense": 45,
+      "speed": 38,
+      "total": 313
+    }
+  },
+  {
+    "id": 651,
+    "name": "quilladin",
+    "displayName": "Quilladin",
+    "formattedId": "Nº 0651",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/651.png",
+    "height": "0.7",
+    "weight": "29.0",
+    "generation": 6,
+    "evolutionChainId": 337,
+    "evolvesFrom": 650,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spiny Armor Pokémon ",
+    "description": "Chocan contra sus congéneres para fortalecer sus piernas. Debido a su carácter afable, nunca son los que provocan un combate.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 78,
+      "defense": 95,
+      "spAttack": 56,
+      "spDefense": 58,
+      "speed": 57,
+      "total": 405
+    }
+  },
+  {
+    "id": 652,
+    "name": "chesnaught",
+    "displayName": "Chesnaught",
+    "formattedId": "Nº 0652",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
+    "height": "1.6",
+    "weight": "90.0",
+    "generation": 6,
+    "evolutionChainId": 337,
+    "evolvesFrom": 651,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spiny Armor Pokémon ",
+    "description": "Cuando adopta una postura defensiva juntando ambos puños delante de la cara, es capaz de resistir incluso el impacto directo de una bomba.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 107,
+      "defense": 122,
+      "spAttack": 74,
+      "spDefense": 75,
+      "speed": 64,
+      "total": 530
+    }
+  },
+  {
+    "id": 653,
+    "name": "fennekin",
+    "displayName": "Fennekin",
+    "formattedId": "Nº 0653",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
+    "height": "0.4",
+    "weight": "9.4",
+    "generation": 6,
+    "evolutionChainId": 338,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Raposa",
+    "description": "Mordisquea una ramita mientras camina, como si de un aperitivo se tratase. Intimida a su enemigo expulsando aire caliente por las orejas.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "magician",
+        "name": "magician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 62,
+      "spDefense": 60,
+      "speed": 60,
+      "total": 307
+    }
+  },
+  {
+    "id": 654,
+    "name": "braixen",
+    "displayName": "Braixen",
+    "formattedId": "Nº 0654",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/654.png",
+    "height": "1.0",
+    "weight": "14.5",
+    "generation": 6,
+    "evolutionChainId": 338,
+    "evolvesFrom": 653,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Raposa",
+    "description": "Al extraer la rama que tiene en la cola, esta prende debido a la fricción. Usa esa rama candente para enviar señales a sus compañeros.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "magician",
+        "name": "magician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 59,
+      "attack": 59,
+      "defense": 58,
+      "spAttack": 90,
+      "spDefense": 70,
+      "speed": 73,
+      "total": 409
+    }
+  },
+  {
+    "id": 655,
+    "name": "delphox",
+    "displayName": "Delphox",
+    "formattedId": "Nº 0655",
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+    "height": "1.5",
+    "weight": "39.0",
+    "generation": 6,
+    "evolutionChainId": 338,
+    "evolvesFrom": 654,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Raposa",
+    "description": "Sus poderes psíquicos le permiten controlar vórtices de fuego a 3000 °C que envuelven y calcinan a sus enemigos.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "magician",
+        "name": "magician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 69,
+      "defense": 72,
+      "spAttack": 114,
+      "spDefense": 100,
+      "speed": 104,
+      "total": 534
+    }
+  },
+  {
+    "id": 656,
+    "name": "froakie",
+    "displayName": "Froakie",
+    "formattedId": "Nº 0656",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png",
+    "height": "0.3",
+    "weight": "7.0",
+    "generation": 6,
+    "evolutionChainId": 339,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bubble Frog Pokémon ",
+    "description": "Protege su piel cubriendo el cuerpo con una fina capa de burbujas. Aunque parezca despreocupado, no deja de vigilar con astucia lo que le rodea.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "protean",
+        "name": "protean",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 41,
+      "attack": 56,
+      "defense": 40,
+      "spAttack": 62,
+      "spDefense": 44,
+      "speed": 71,
+      "total": 314
+    }
+  },
+  {
+    "id": 657,
+    "name": "frogadier",
+    "displayName": "Frogadier",
+    "formattedId": "Nº 0657",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png",
+    "height": "0.6",
+    "weight": "10.9",
+    "generation": 6,
+    "evolutionChainId": 339,
+    "evolvesFrom": 656,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bubble Frog Pokémon ",
+    "description": "Su agilidad no tiene parangón. De hecho, es capaz de escalar una torre de más de 600 metros en tan solo un minuto.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "protean",
+        "name": "protean",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 63,
+      "defense": 52,
+      "spAttack": 83,
+      "spDefense": 56,
+      "speed": 97,
+      "total": 405
+    }
+  },
+  {
+    "id": 658,
+    "name": "greninja",
+    "displayName": "Greninja",
+    "formattedId": "Nº 0658",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
+    "height": "1.5",
+    "weight": "40.0",
+    "generation": 6,
+    "evolutionChainId": 339,
+    "evolvesFrom": 657,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Ninja",
+    "description": "Aparece y desaparece de improvisto, cual ninja. Marea al oponente con su soberbia agilidad y lo hace trizas con sus Shuriken de Agua.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "protean",
+        "name": "protean",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 95,
+      "defense": 67,
+      "spAttack": 103,
+      "spDefense": 71,
+      "speed": 122,
+      "total": 530
+    }
+  },
+  {
+    "id": 659,
+    "name": "bunnelby",
+    "displayName": "Bunnelby",
+    "formattedId": "Nº 0659",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/659.png",
+    "height": "0.4",
+    "weight": "5.0",
+    "generation": 6,
+    "evolutionChainId": 340,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Digging Pokémon ",
+    "description": "Está en alerta permanente. En cuanto oye el batir de alas de un Corviknight, cava un agujero y se oculta bajo tierra.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "cheek-pouch",
+        "name": "cheek pouch",
+        "is_hidden": false
+      },
+      {
+        "raw": "huge-power",
+        "name": "huge power",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 36,
+      "defense": 38,
+      "spAttack": 32,
+      "spDefense": 36,
+      "speed": 57,
+      "total": 237
+    }
+  },
+  {
+    "id": 660,
+    "name": "diggersby",
+    "displayName": "Diggersby",
+    "formattedId": "Nº 0660",
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png",
+    "height": "1.0",
+    "weight": "42.4",
+    "generation": 6,
+    "evolutionChainId": 340,
+    "evolvesFrom": 659,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Digging Pokémon ",
+    "description": "El pelaje de su abdomen es un aislante térmico excelente, tanto que antaño se usaba el que mudaba para confeccionar prendas de abrigo.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "cheek-pouch",
+        "name": "cheek pouch",
+        "is_hidden": false
+      },
+      {
+        "raw": "huge-power",
+        "name": "huge power",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 56,
+      "defense": 77,
+      "spAttack": 50,
+      "spDefense": 77,
+      "speed": 78,
+      "total": 423
+    }
+  },
+  {
+    "id": 661,
+    "name": "fletchling",
+    "displayName": "Fletchling",
+    "formattedId": "Nº 0661",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/661.png",
+    "height": "0.3",
+    "weight": "1.7",
+    "generation": 6,
+    "evolutionChainId": 341,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tiny Robin Pokémon ",
+    "description": "Su temperatura corporal aumenta de repente cuando se exalta y puede causar quemaduras al contacto con la piel.",
+    "abilities": [
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": false
+      },
+      {
+        "raw": "gale-wings",
+        "name": "gale wings",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 43,
+      "spAttack": 40,
+      "spDefense": 38,
+      "speed": 62,
+      "total": 278
+    }
+  },
+  {
+    "id": 662,
+    "name": "fletchinder",
+    "displayName": "Fletchinder",
+    "formattedId": "Nº 0662",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png",
+    "height": "0.7",
+    "weight": "16.0",
+    "generation": 6,
+    "evolutionChainId": 341,
+    "evolvesFrom": 661,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ember Pokémon ",
+    "description": "Defienden su territorio con suma agresividad. Se pelean entre sí por el control de las áreas de caza.",
+    "abilities": [
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "gale-wings",
+        "name": "gale wings",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 62,
+      "attack": 73,
+      "defense": 55,
+      "spAttack": 56,
+      "spDefense": 52,
+      "speed": 84,
+      "total": 382
+    }
+  },
+  {
+    "id": 663,
+    "name": "talonflame",
+    "displayName": "Talonflame",
+    "formattedId": "Nº 0663",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png",
+    "height": "1.2",
+    "weight": "24.5",
+    "generation": 6,
+    "evolutionChainId": 341,
+    "evolvesFrom": 662,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scorching Pokémon ",
+    "description": "Arremete contra sus presas a una velocidad de 500 km/h y les asesta el golpe de gracia con una patada muy potente, sin dejarles escapatoria.",
+    "abilities": [
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "gale-wings",
+        "name": "gale wings",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 81,
+      "defense": 71,
+      "spAttack": 74,
+      "spDefense": 69,
+      "speed": 126,
+      "total": 499
+    }
+  },
+  {
+    "id": 664,
+    "name": "scatterbug",
+    "displayName": "Scatterbug",
+    "formattedId": "Nº 0664",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
+    "height": "0.3",
+    "weight": "2.5",
+    "generation": 6,
+    "evolutionChainId": 342,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scatterdust Pokémon ",
+    "description": "Gracias al polvo de escamas que lo recubre y regula su temperatura, puede vivir en cualquier región, sin importar las características del terreno o el clima.",
+    "abilities": [
+      {
+        "raw": "shield-dust",
+        "name": "shield dust",
+        "is_hidden": false
+      },
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": false
+      },
+      {
+        "raw": "friend-guard",
+        "name": "friend guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 35,
+      "defense": 40,
+      "spAttack": 27,
+      "spDefense": 25,
+      "speed": 35,
+      "total": 200
+    }
+  },
+  {
+    "id": 665,
+    "name": "spewpa",
+    "displayName": "Spewpa",
+    "formattedId": "Nº 0665",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
+    "height": "0.3",
+    "weight": "8.4",
+    "generation": 6,
+    "evolutionChainId": 342,
+    "evolvesFrom": 664,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scatterdust Pokémon ",
+    "description": "Su cuerpo es tan duro que ni siquiera los Pokémon pájaro pueden hacerle el menor rasguño con sus picos. Esparce polvo de escamas para defenderse.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "friend-guard",
+        "name": "friend guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 22,
+      "defense": 60,
+      "spAttack": 27,
+      "spDefense": 30,
+      "speed": 29,
+      "total": 213
+    }
+  },
+  {
+    "id": 666,
+    "name": "vivillon",
+    "displayName": "Vivillon",
+    "formattedId": "Nº 0666",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
+    "height": "1.2",
+    "weight": "17.0",
+    "generation": 6,
+    "evolutionChainId": 342,
+    "evolvesFrom": 665,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scale Pokémon ",
+    "description": "Las alas cambian de motivo según el clima y las características naturales del terreno que habite. Esparce escamas de lo más coloridas.",
+    "abilities": [
+      {
+        "raw": "shield-dust",
+        "name": "shield dust",
+        "is_hidden": false
+      },
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": false
+      },
+      {
+        "raw": "friend-guard",
+        "name": "friend guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 52,
+      "defense": 50,
+      "spAttack": 90,
+      "spDefense": 50,
+      "speed": 89,
+      "total": 411
+    }
+  },
+  {
+    "id": 667,
+    "name": "litleo",
+    "displayName": "Litleo",
+    "formattedId": "Nº 0667",
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png",
+    "height": "0.6",
+    "weight": "13.5",
+    "generation": 6,
+    "evolutionChainId": 343,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Lion Cub Pokémon ",
+    "description": "Este enérgico Pokémon es de naturaleza curiosa e inquieta y, tanto al comienzo de un combate como cuando se enoja, su crin prende fuego.",
+    "abilities": [
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 62,
+      "attack": 50,
+      "defense": 58,
+      "spAttack": 73,
+      "spDefense": 54,
+      "speed": 72,
+      "total": 369
+    }
+  },
+  {
+    "id": 668,
+    "name": "pyroar-male",
+    "displayName": "Pyroar",
+    "formattedId": "Nº 0668",
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
+    "height": "1.5",
+    "weight": "81.5",
+    "generation": 6,
+    "evolutionChainId": 343,
+    "evolvesFrom": 667,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Royal Pokémon ",
+    "description": "Su aliento alcanza temperaturas de 6000 ºC, aunque no lo emplea contra sus presas, ya que prefiere la carne más bien cruda.",
+    "abilities": [
+      {
+        "raw": "rivalry",
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 68,
+      "defense": 72,
+      "spAttack": 109,
+      "spDefense": 66,
+      "speed": 106,
+      "total": 507
+    }
+  },
+  {
+    "id": 669,
+    "name": "flabebe",
+    "displayName": "Flabébé",
+    "formattedId": "Nº 0669",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png",
+    "height": "0.1",
+    "weight": "0.1",
+    "generation": 6,
+    "evolutionChainId": 344,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Single Bloom Pokémon ",
+    "description": "Acumula el polen de las flores para confeccionar la tiara que lleva en la cabeza, que cuenta con propiedades curativas.",
+    "abilities": [
+      {
+        "raw": "flower-veil",
+        "name": "flower veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "symbiosis",
+        "name": "symbiosis",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 44,
+      "attack": 38,
+      "defense": 39,
+      "spAttack": 61,
+      "spDefense": 79,
+      "speed": 42,
+      "total": 303
+    }
+  },
+  {
+    "id": 670,
+    "name": "floette",
+    "displayName": "Floette",
+    "formattedId": "Nº 0670",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png",
+    "height": "0.2",
+    "weight": "0.9",
+    "generation": 6,
+    "evolutionChainId": 344,
+    "evolvesFrom": 669,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Single Bloom Pokémon ",
+    "description": "Confiere su poder a las flores y cuida de ellas con mucho esmero; no perdona que destruyan los campos donde estas crecen.",
+    "abilities": [
+      {
+        "raw": "flower-veil",
+        "name": "flower veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "symbiosis",
+        "name": "symbiosis",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 45,
+      "defense": 47,
+      "spAttack": 75,
+      "spDefense": 98,
+      "speed": 52,
+      "total": 371
+    }
+  },
+  {
+    "id": 671,
+    "name": "florges",
+    "displayName": "Florges",
+    "formattedId": "Nº 0671",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
+    "height": "1.1",
+    "weight": "10.0",
+    "generation": 6,
+    "evolutionChainId": 344,
+    "evolvesFrom": 670,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Garden Pokémon ",
+    "description": "Su esperanza de vida asciende a varios siglos y dedica toda su dilatada existencia al cuidado de los jardines.",
+    "abilities": [
+      {
+        "raw": "flower-veil",
+        "name": "flower veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "symbiosis",
+        "name": "symbiosis",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 65,
+      "defense": 68,
+      "spAttack": 112,
+      "spDefense": 154,
+      "speed": 75,
+      "total": 552
+    }
+  },
+  {
+    "id": 672,
+    "name": "skiddo",
+    "displayName": "Skiddo",
+    "formattedId": "Nº 0672",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/672.png",
+    "height": "0.9",
+    "weight": "31.0",
+    "generation": 6,
+    "evolutionChainId": 345,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mount Pokémon ",
+    "description": "Puede generar energía con las hojas que tiene en la espalda disponiendo tan solo de agua y luz solar. Gracias a ello puede sobrevivir sin comer.",
+    "abilities": [
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": false
+      },
+      {
+        "raw": "grass-pelt",
+        "name": "grass pelt",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 66,
+      "attack": 65,
+      "defense": 48,
+      "spAttack": 62,
+      "spDefense": 57,
+      "speed": 52,
+      "total": 350
+    }
+  },
+  {
+    "id": 673,
+    "name": "gogoat",
+    "displayName": "Gogoat",
+    "formattedId": "Nº 0673",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png",
+    "height": "1.7",
+    "weight": "91.0",
+    "generation": 6,
+    "evolutionChainId": 345,
+    "evolvesFrom": 672,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mount Pokémon ",
+    "description": "Habita en regiones montañosas. El líder de la manada se decide en una demostración de fuerza en la que los contendientes luchan con los cuernos.",
+    "abilities": [
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": false
+      },
+      {
+        "raw": "grass-pelt",
+        "name": "grass pelt",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 123,
+      "attack": 100,
+      "defense": 62,
+      "spAttack": 97,
+      "spDefense": 81,
+      "speed": 68,
+      "total": 531
+    }
+  },
+  {
+    "id": 674,
+    "name": "pancham",
+    "displayName": "Pancham",
+    "formattedId": "Nº 0674",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/674.png",
+    "height": "0.6",
+    "weight": "8.0",
+    "generation": 6,
+    "evolutionChainId": 346,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Brincalhão",
+    "description": "Siempre lanza una mirada fulminante al rival para que no lo menosprecie, pero en cuanto se relaja esboza sin querer una sonrisa.",
+    "abilities": [
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 67,
+      "attack": 82,
+      "defense": 62,
+      "spAttack": 46,
+      "spDefense": 48,
+      "speed": 43,
+      "total": 348
+    }
+  },
+  {
+    "id": 675,
+    "name": "pangoro",
+    "displayName": "Pangoro",
+    "formattedId": "Nº 0675",
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png",
+    "height": "2.1",
+    "weight": "136.0",
+    "generation": 6,
+    "evolutionChainId": 346,
+    "evolvesFrom": 674,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Daunting Pokémon ",
+    "description": "La hoja que lleva en la boca le permite predecir los movimientos del rival. Puede reducir un camión a chatarra de un solo puñetazo.",
+    "abilities": [
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 124,
+      "defense": 78,
+      "spAttack": 69,
+      "spDefense": 71,
+      "speed": 58,
+      "total": 495
+    }
+  },
+  {
+    "id": 676,
+    "name": "furfrou",
+    "displayName": "Furfrou",
+    "formattedId": "Nº 0676",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
+    "height": "1.2",
+    "weight": "28.0",
+    "generation": 6,
+    "evolutionChainId": 347,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Poodle Pokémon ",
+    "description": "El pelo le crece sin cesar, pero solo deja que se lo corten aquellos de quienes se fía plenamente.",
+    "abilities": [
+      {
+        "raw": "fur-coat",
+        "name": "fur coat",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 60,
+      "spAttack": 65,
+      "spDefense": 90,
+      "speed": 102,
+      "total": 472
+    }
+  },
+  {
+    "id": 677,
+    "name": "espurr",
+    "displayName": "Espurr",
+    "formattedId": "Nº 0677",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/677.png",
+    "height": "0.3",
+    "weight": "3.5",
+    "generation": 6,
+    "evolutionChainId": 348,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Restraint Pokémon ",
+    "description": "Es capaz de mandar por los aires a un luchador profesional gracias a sus poderes psíquicos, pero tiene serios problemas para controlarlos.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 62,
+      "attack": 48,
+      "defense": 54,
+      "spAttack": 63,
+      "spDefense": 60,
+      "speed": 68,
+      "total": 355
+    }
+  },
+  {
+    "id": 678,
+    "name": "meowstic-male",
+    "displayName": "Meowstic",
+    "formattedId": "Nº 0678",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/678.png",
+    "height": "0.6",
+    "weight": "8.5",
+    "generation": 6,
+    "evolutionChainId": 348,
+    "evolvesFrom": 677,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Constraint Pokémon ",
+    "description": "El fuerte instinto protector de los machos los lleva a liberar todo su poder cuando se trata de defenderse a sí mismos o a su Entrenador.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "spAttack": 83,
+      "spDefense": 81,
+      "speed": 104,
+      "total": 466
+    }
+  },
+  {
+    "id": 679,
+    "name": "honedge",
+    "displayName": "Honedge",
+    "formattedId": "Nº 0679",
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png",
+    "height": "0.8",
+    "weight": "2.0",
+    "generation": 6,
+    "evolutionChainId": 349,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sword Pokémon ",
+    "description": "El ojo azul de la empuñadura es su verdadero cuerpo. Absorbe la energía vital de las personas con su paño de aspecto andrajoso.",
+    "abilities": [
+      {
+        "raw": "no-guard",
+        "name": "no guard",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 80,
+      "defense": 100,
+      "spAttack": 35,
+      "spDefense": 37,
+      "speed": 28,
+      "total": 325
+    }
+  },
+  {
+    "id": 680,
+    "name": "doublade",
+    "displayName": "Doublade",
+    "formattedId": "Nº 0680",
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/680.png",
+    "height": "0.8",
+    "weight": "4.5",
+    "generation": 6,
+    "evolutionChainId": 349,
+    "evolvesFrom": 679,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sword Pokémon ",
+    "description": "Su táctica para abatir a las presas consiste en alternar ataque y defensa de forma frenética entre ambas espadas.",
+    "abilities": [
+      {
+        "raw": "no-guard",
+        "name": "no guard",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 59,
+      "attack": 110,
+      "defense": 150,
+      "spAttack": 45,
+      "spDefense": 49,
+      "speed": 35,
+      "total": 448
+    }
+  },
+  {
+    "id": 681,
+    "name": "aegislash-shield",
+    "displayName": "Aegislash",
+    "formattedId": "Nº 0681",
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png",
+    "height": "1.7",
+    "weight": "53.0",
+    "generation": 6,
+    "evolutionChainId": 349,
+    "evolvesFrom": 680,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Royal Sword Pokémon ",
+    "description": "Mediante el control ejercido con su inmenso poder espectral, logró que humanos y Pokémon le forjaran un país a medida de sus necesidades.",
+    "abilities": [
+      {
+        "raw": "stance-change",
+        "name": "stance change",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 140,
+      "spAttack": 50,
+      "spDefense": 140,
+      "speed": 60,
+      "total": 500
+    }
+  },
+  {
+    "id": 682,
+    "name": "spritzee",
+    "displayName": "Spritzee",
+    "formattedId": "Nº 0682",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/682.png",
+    "height": "0.2",
+    "weight": "0.5",
+    "generation": 6,
+    "evolutionChainId": 350,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Perfume Pokémon ",
+    "description": "Su cuerpo emana una fragancia que embelesa a quien la huele. Llegó a ser muy apreciado entre las damas de la nobleza.",
+    "abilities": [
+      {
+        "raw": "healer",
+        "name": "healer",
+        "is_hidden": false
+      },
+      {
+        "raw": "aroma-veil",
+        "name": "aroma veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 52,
+      "defense": 60,
+      "spAttack": 63,
+      "spDefense": 65,
+      "speed": 23,
+      "total": 341
+    }
+  },
+  {
+    "id": 683,
+    "name": "aromatisse",
+    "displayName": "Aromatisse",
+    "formattedId": "Nº 0683",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
+    "height": "0.8",
+    "weight": "15.5",
+    "generation": 6,
+    "evolutionChainId": 350,
+    "evolvesFrom": 682,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fragrance Pokémon ",
+    "description": "Puede emanar tanto un olor desagradable para desmotivar al rival como un dulce aroma para reconfortar a los aliados en combate.",
+    "abilities": [
+      {
+        "raw": "healer",
+        "name": "healer",
+        "is_hidden": false
+      },
+      {
+        "raw": "aroma-veil",
+        "name": "aroma veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 101,
+      "attack": 72,
+      "defense": 72,
+      "spAttack": 99,
+      "spDefense": 89,
+      "speed": 29,
+      "total": 462
+    }
+  },
+  {
+    "id": 684,
+    "name": "swirlix",
+    "displayName": "Swirlix",
+    "formattedId": "Nº 0684",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/684.png",
+    "height": "0.4",
+    "weight": "3.5",
+    "generation": 6,
+    "evolutionChainId": 351,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cotton Candy Pokémon ",
+    "description": "Su esponjoso pelaje desprende un olor dulzón como el del algodón de azúcar. Escupe hebras pegajosas con las que envuelve a sus enemigos.",
+    "abilities": [
+      {
+        "raw": "sweet-veil",
+        "name": "sweet veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 62,
+      "attack": 48,
+      "defense": 66,
+      "spAttack": 59,
+      "spDefense": 57,
+      "speed": 49,
+      "total": 341
+    }
+  },
+  {
+    "id": 685,
+    "name": "slurpuff",
+    "displayName": "Slurpuff",
+    "formattedId": "Nº 0685",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png",
+    "height": "0.8",
+    "weight": "5.0",
+    "generation": 6,
+    "evolutionChainId": 351,
+    "evolvesFrom": 684,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Meringue Pokémon ",
+    "description": "La gran cantidad de aire acumulada en su pelaje le confiere un tacto aterciopelado y un peso muy inferior al que aparenta.",
+    "abilities": [
+      {
+        "raw": "sweet-veil",
+        "name": "sweet veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 82,
+      "attack": 80,
+      "defense": 86,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 72,
+      "total": 480
+    }
+  },
+  {
+    "id": 686,
+    "name": "inkay",
+    "displayName": "Inkay",
+    "formattedId": "Nº 0686",
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png",
+    "height": "0.4",
+    "weight": "3.5",
+    "generation": 6,
+    "evolutionChainId": 352,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Revolving Pokémon ",
+    "description": "Los destellos de luz intermitente que emite aplacan el ánimo de lucha del enemigo, tras lo que aprovecha para esconderse.",
+    "abilities": [
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": false
+      },
+      {
+        "raw": "suction-cups",
+        "name": "suction cups",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 53,
+      "attack": 54,
+      "defense": 53,
+      "spAttack": 37,
+      "spDefense": 46,
+      "speed": 45,
+      "total": 288
+    }
+  },
+  {
+    "id": 687,
+    "name": "malamar",
+    "displayName": "Malamar",
+    "formattedId": "Nº 0687",
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
+    "height": "1.5",
+    "weight": "47.0",
+    "generation": 6,
+    "evolutionChainId": 352,
+    "evolvesFrom": 686,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Overturning Pokémon ",
+    "description": "Se dice que sus poderes hipnóticos han influido en grandes acontecimientos que han cambiado el curso de la historia.",
+    "abilities": [
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": false
+      },
+      {
+        "raw": "suction-cups",
+        "name": "suction cups",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 92,
+      "defense": 88,
+      "spAttack": 68,
+      "spDefense": 75,
+      "speed": 73,
+      "total": 482
+    }
+  },
+  {
+    "id": 688,
+    "name": "binacle",
+    "displayName": "Binacle",
+    "formattedId": "Nº 0688",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/688.png",
+    "height": "0.5",
+    "weight": "31.0",
+    "generation": 6,
+    "evolutionChainId": 353,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Two-Handed Pokémon ",
+    "description": "Si no se llevan bien, no consiguen ni atacar ni defenderse de forma eficaz y sus probabilidades de supervivencia se reducen.",
+    "abilities": [
+      {
+        "raw": "tough-claws",
+        "name": "tough claws",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 52,
+      "defense": 67,
+      "spAttack": 39,
+      "spDefense": 56,
+      "speed": 50,
+      "total": 306
+    }
+  },
+  {
+    "id": 689,
+    "name": "barbaracle",
+    "displayName": "Barbaracle",
+    "formattedId": "Nº 0689",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
+    "height": "1.3",
+    "weight": "96.0",
+    "generation": 6,
+    "evolutionChainId": 353,
+    "evolvesFrom": 688,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Collective Pokémon ",
+    "description": "Los ojos de las manos le permiten ver en todas direcciones. En caso de apuro, sus extremidades se mueven solas para derribar al enemigo.",
+    "abilities": [
+      {
+        "raw": "tough-claws",
+        "name": "tough claws",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 105,
+      "defense": 115,
+      "spAttack": 54,
+      "spDefense": 86,
+      "speed": 68,
+      "total": 500
+    }
+  },
+  {
+    "id": 690,
+    "name": "skrelp",
+    "displayName": "Skrelp",
+    "formattedId": "Nº 0690",
+    "types": [
+      "poison",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/690.png",
+    "height": "0.5",
+    "weight": "7.3",
+    "generation": 6,
+    "evolutionChainId": 354,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mock Kelp Pokémon ",
+    "description": "Su aspecto de alga podrida le permite ocultarse entre los restos que flotan a la deriva y pasar desapercibido ante sus enemigos.",
+    "abilities": [
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-touch",
+        "name": "poison touch",
+        "is_hidden": false
+      },
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 30,
+      "total": 320
+    }
+  },
+  {
+    "id": 691,
+    "name": "dragalge",
+    "displayName": "Dragalge",
+    "formattedId": "Nº 0691",
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
+    "height": "1.8",
+    "weight": "81.5",
+    "generation": 6,
+    "evolutionChainId": 354,
+    "evolvesFrom": 690,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mock Kelp Pokémon ",
+    "description": "Asoma la cresta de la cabeza sobre la superficie del agua y transforma la luz que absorbe del sol en energía dragón.",
+    "abilities": [
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-touch",
+        "name": "poison touch",
+        "is_hidden": false
+      },
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 90,
+      "spAttack": 97,
+      "spDefense": 123,
+      "speed": 44,
+      "total": 494
+    }
+  },
+  {
+    "id": 692,
+    "name": "clauncher",
+    "displayName": "Clauncher",
+    "formattedId": "Nº 0692",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/692.png",
+    "height": "0.5",
+    "weight": "8.3",
+    "generation": 6,
+    "evolutionChainId": 355,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Water Gun Pokémon ",
+    "description": "Acalla a sus enemigos con balas de agua que dispara haciendo explotar el gas de su pinza derecha.",
+    "abilities": [
+      {
+        "raw": "mega-launcher",
+        "name": "mega launcher",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 53,
+      "defense": 62,
+      "spAttack": 58,
+      "spDefense": 63,
+      "speed": 44,
+      "total": 330
+    }
+  },
+  {
+    "id": 693,
+    "name": "clawitzer",
+    "displayName": "Clawitzer",
+    "formattedId": "Nº 0693",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
+    "height": "1.3",
+    "weight": "35.3",
+    "generation": 6,
+    "evolutionChainId": 355,
+    "evolvesFrom": 692,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Howitzer Pokémon ",
+    "description": "Con el cañón de su brazo derecho dispara proyectiles de agua marina con tanta potencia que son capaces de hundir un petrolero.",
+    "abilities": [
+      {
+        "raw": "mega-launcher",
+        "name": "mega launcher",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 73,
+      "defense": 88,
+      "spAttack": 120,
+      "spDefense": 89,
+      "speed": 59,
+      "total": 500
+    }
+  },
+  {
+    "id": 694,
+    "name": "helioptile",
+    "displayName": "Helioptile",
+    "formattedId": "Nº 0694",
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/694.png",
+    "height": "0.5",
+    "weight": "6.0",
+    "generation": 6,
+    "evolutionChainId": 356,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Generator Pokémon ",
+    "description": "Es capaz de generar electricidad a partir de la luz del sol. Si lo interrumpen en pleno proceso, se pone nervioso y pierde las fuerzas.",
+    "abilities": [
+      {
+        "raw": "dry-skin",
+        "name": "dry skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "solar-power",
+        "name": "solar power",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 44,
+      "attack": 38,
+      "defense": 33,
+      "spAttack": 61,
+      "spDefense": 43,
+      "speed": 70,
+      "total": 289
+    }
+  },
+  {
+    "id": 695,
+    "name": "heliolisk",
+    "displayName": "Heliolisk",
+    "formattedId": "Nº 0695",
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png",
+    "height": "1.0",
+    "weight": "21.0",
+    "generation": 6,
+    "evolutionChainId": 356,
+    "evolvesFrom": 694,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Generator Pokémon ",
+    "description": "Al extender su gorguera y exponerse a la luz solar, genera la energía eléctrica suficiente para cubrir el consumo de una metrópoli entera.",
+    "abilities": [
+      {
+        "raw": "dry-skin",
+        "name": "dry skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "solar-power",
+        "name": "solar power",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 62,
+      "attack": 55,
+      "defense": 52,
+      "spAttack": 109,
+      "spDefense": 94,
+      "speed": 109,
+      "total": 481
+    }
+  },
+  {
+    "id": 696,
+    "name": "tyrunt",
+    "displayName": "Tyrunt",
+    "formattedId": "Nº 0696",
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/696.png",
+    "height": "0.8",
+    "weight": "26.0",
+    "generation": 6,
+    "evolutionChainId": 357,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Royal Heir Pokémon ",
+    "description": "Un Pokémon un tanto egoísta y malcriado. Puede ocasionar graves lesiones a su Entrenador incluso jugando.",
+    "abilities": [
+      {
+        "raw": "strong-jaw",
+        "name": "strong jaw",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 89,
+      "defense": 77,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 48,
+      "total": 362
+    }
+  },
+  {
+    "id": 697,
+    "name": "tyrantrum",
+    "displayName": "Tyrantrum",
+    "formattedId": "Nº 0697",
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/697.png",
+    "height": "2.5",
+    "weight": "270.0",
+    "generation": 6,
+    "evolutionChainId": 357,
+    "evolvesFrom": 696,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Despot Pokémon ",
+    "description": "Puede hacer trizas un coche de un solo mordisco gracias a sus potentes mandíbulas. Antaño era considerado un rey.",
+    "abilities": [
+      {
+        "raw": "strong-jaw",
+        "name": "strong jaw",
+        "is_hidden": false
+      },
+      {
+        "raw": "rock-head",
+        "name": "rock head",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 82,
+      "attack": 121,
+      "defense": 119,
+      "spAttack": 69,
+      "spDefense": 59,
+      "speed": 71,
+      "total": 521
+    }
+  },
+  {
+    "id": 698,
+    "name": "amaura",
+    "displayName": "Amaura",
+    "formattedId": "Nº 0698",
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/698.png",
+    "height": "1.3",
+    "weight": "25.2",
+    "generation": 6,
+    "evolutionChainId": 358,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tundra Pokémon ",
+    "description": "Un Pokémon prehistórico extinto. Se han hallado algunos ejemplares conservados bajo el hielo.",
+    "abilities": [
+      {
+        "raw": "refrigerate",
+        "name": "refrigerate",
+        "is_hidden": false
+      },
+      {
+        "raw": "snow-warning",
+        "name": "snow warning",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 77,
+      "attack": 59,
+      "defense": 50,
+      "spAttack": 67,
+      "spDefense": 63,
+      "speed": 46,
+      "total": 362
+    }
+  },
+  {
+    "id": 699,
+    "name": "aurorus",
+    "displayName": "Aurorus",
+    "formattedId": "Nº 0699",
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png",
+    "height": "2.7",
+    "weight": "225.0",
+    "generation": 6,
+    "evolutionChainId": 358,
+    "evolvesFrom": 698,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tundra Pokémon ",
+    "description": "Cuando se deja llevar por la ira, emite un vaho extremadamente gélido que lo congela todo a su alrededor.",
+    "abilities": [
+      {
+        "raw": "refrigerate",
+        "name": "refrigerate",
+        "is_hidden": false
+      },
+      {
+        "raw": "snow-warning",
+        "name": "snow warning",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 123,
+      "attack": 77,
+      "defense": 72,
+      "spAttack": 99,
+      "spDefense": 92,
+      "speed": 58,
+      "total": 521
+    }
+  },
+  {
+    "id": 700,
+    "name": "sylveon",
+    "displayName": "Sylveon",
+    "formattedId": "Nº 0700",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
+    "height": "1.0",
+    "weight": "23.5",
+    "generation": 6,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Intertwining Pokémon ",
+    "description": "En un cuento infantil de Galar se narra la victoria de un Sylveon de extraordinaria belleza sobre un temible Pokémon de tipo Dragón.",
+    "abilities": [
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": false
+      },
+      {
+        "raw": "pixilate",
+        "name": "pixilate",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 110,
+      "spDefense": 130,
+      "speed": 60,
+      "total": 525
+    }
+  },
+  {
+    "id": 701,
+    "name": "hawlucha",
+    "displayName": "Hawlucha",
+    "formattedId": "Nº 0701",
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
+    "height": "0.8",
+    "weight": "21.5",
+    "generation": 6,
+    "evolutionChainId": 359,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Wrestling Pokémon ",
+    "description": "Siempre se exhibe con alguna pose justo antes de propinar el golpe de gracia, momento que algunos rivales aprovechan para contraatacar.",
+    "abilities": [
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 92,
+      "defense": 75,
+      "spAttack": 74,
+      "spDefense": 63,
+      "speed": 118,
+      "total": 500
+    }
+  },
+  {
+    "id": 702,
+    "name": "dedenne",
+    "displayName": "Dedenne",
+    "formattedId": "Nº 0702",
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/702.png",
+    "height": "0.2",
+    "weight": "2.2",
+    "generation": 6,
+    "evolutionChainId": 360,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Antenna Pokémon ",
+    "description": "Su capacidad para producir electricidad es muy limitada, de modo que tiene que robarla de las tomas de corriente o de otros Pokémon.",
+    "abilities": [
+      {
+        "raw": "cheek-pouch",
+        "name": "cheek pouch",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "plus",
+        "name": "plus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 67,
+      "attack": 58,
+      "defense": 57,
+      "spAttack": 81,
+      "spDefense": 67,
+      "speed": 101,
+      "total": 431
+    }
+  },
+  {
+    "id": 703,
+    "name": "carbink",
+    "displayName": "Carbink",
+    "formattedId": "Nº 0703",
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/703.png",
+    "height": "0.3",
+    "weight": "5.7",
+    "generation": 6,
+    "evolutionChainId": 361,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Jewel Pokémon ",
+    "description": "Se cree que en algún lugar de este mundo existe un filón rebosante de Carbink que viven bajo las órdenes de una reina.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 150,
+      "spAttack": 50,
+      "spDefense": 150,
+      "speed": 50,
+      "total": 500
+    }
+  },
+  {
+    "id": 704,
+    "name": "goomy",
+    "displayName": "Goomy",
+    "formattedId": "Nº 0704",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/704.png",
+    "height": "0.3",
+    "weight": "2.8",
+    "generation": 6,
+    "evolutionChainId": 362,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Soft Tissue Pokémon ",
+    "description": "Sus antenas son órganos sensoriales sumamente desarrollados. Poder esconderse nada más detectar enemigos le ha permitido sobrevivir.",
+    "abilities": [
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "raw": "gooey",
+        "name": "gooey",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 35,
+      "spAttack": 55,
+      "spDefense": 75,
+      "speed": 40,
+      "total": 300
+    }
+  },
+  {
+    "id": 705,
+    "name": "sliggoo",
+    "displayName": "Sliggoo",
+    "formattedId": "Nº 0705",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/705.png",
+    "height": "0.8",
+    "weight": "17.5",
+    "generation": 6,
+    "evolutionChainId": 362,
+    "evolvesFrom": 704,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Soft Tissue Pokémon ",
+    "description": "La protuberancia del lomo contiene su pequeño cerebro, que solo piensa en buscar comida y huir de los enemigos.",
+    "abilities": [
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "raw": "gooey",
+        "name": "gooey",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 75,
+      "defense": 53,
+      "spAttack": 83,
+      "spDefense": 113,
+      "speed": 60,
+      "total": 452
+    }
+  },
+  {
+    "id": 706,
+    "name": "goodra",
+    "displayName": "Goodra",
+    "formattedId": "Nº 0706",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/706.png",
+    "height": "2.0",
+    "weight": "150.5",
+    "generation": 6,
+    "evolutionChainId": 362,
+    "evolvesFrom": 705,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Dragão",
+    "description": "Ataca extendiendo sus largas antenas. La fuerza que despliega es 100 veces superior a la del puñetazo de un boxeador de peso pesado.",
+    "abilities": [
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": false
+      },
+      {
+        "raw": "hydration",
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "raw": "gooey",
+        "name": "gooey",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 110,
+      "spDefense": 150,
+      "speed": 80,
+      "total": 600
+    }
+  },
+  {
+    "id": 707,
+    "name": "klefki",
+    "displayName": "Klefki",
+    "formattedId": "Nº 0707",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png",
+    "height": "0.2",
+    "weight": "3.0",
+    "generation": 6,
+    "evolutionChainId": 363,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Key Ring Pokémon ",
+    "description": "Según parece, absorbe iones metálicos por el apéndice de la cabeza para adoptar una forma similar a la de sus amadas llaves.",
+    "abilities": [
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": false
+      },
+      {
+        "raw": "magician",
+        "name": "magician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 57,
+      "attack": 80,
+      "defense": 91,
+      "spAttack": 80,
+      "spDefense": 87,
+      "speed": 75,
+      "total": 470
+    }
+  },
+  {
+    "id": 708,
+    "name": "phantump",
+    "displayName": "Phantump",
+    "formattedId": "Nº 0708",
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/708.png",
+    "height": "0.4",
+    "weight": "7.0",
+    "generation": 6,
+    "evolutionChainId": 364,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Stump Pokémon ",
+    "description": "Imita el llanto de un niño con la intención de que algún adulto se adentre y se pierda en lo más profundo del bosque.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "harvest",
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 43,
+      "attack": 70,
+      "defense": 48,
+      "spAttack": 50,
+      "spDefense": 60,
+      "speed": 38,
+      "total": 309
+    }
+  },
+  {
+    "id": 709,
+    "name": "trevenant",
+    "displayName": "Trevenant",
+    "formattedId": "Nº 0709",
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png",
+    "height": "1.5",
+    "weight": "71.0",
+    "generation": 6,
+    "evolutionChainId": 364,
+    "evolvesFrom": 708,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Elder Tree Pokémon ",
+    "description": "Puede extender las finas raíces que le brotan de las extremidades inferiores para conectarse con el resto de los árboles y controlarlos a voluntad.",
+    "abilities": [
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "harvest",
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 110,
+      "defense": 76,
+      "spAttack": 65,
+      "spDefense": 82,
+      "speed": 56,
+      "total": 474
+    }
+  },
+  {
+    "id": 710,
+    "name": "pumpkaboo-average",
+    "displayName": "Pumpkaboo",
+    "formattedId": "Nº 0710",
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png",
+    "height": "0.4",
+    "weight": "5.0",
+    "generation": 6,
+    "evolutionChainId": 365,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pumpkin Pokémon ",
+    "description": "La luz que emite por los orificios de la calabaza hipnotiza a humanos y Pokémon y los deja bajo su control.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 49,
+      "attack": 66,
+      "defense": 70,
+      "spAttack": 44,
+      "spDefense": 55,
+      "speed": 51,
+      "total": 335
+    }
+  },
+  {
+    "id": 711,
+    "name": "gourgeist-average",
+    "displayName": "Gourgeist",
+    "formattedId": "Nº 0711",
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+    "height": "0.9",
+    "weight": "12.5",
+    "generation": 6,
+    "evolutionChainId": 365,
+    "evolvesFrom": 710,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pumpkin Pokémon ",
+    "description": "Las noches de luna nueva llama a la puerta de las casas y se lleva al otro mundo a quien abra.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 122,
+      "spAttack": 58,
+      "spDefense": 75,
+      "speed": 84,
+      "total": 494
+    }
+  },
+  {
+    "id": 712,
+    "name": "bergmite",
+    "displayName": "Bergmite",
+    "formattedId": "Nº 0712",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png",
+    "height": "1.0",
+    "weight": "99.5",
+    "generation": 6,
+    "evolutionChainId": 366,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ice Chunk Pokémon ",
+    "description": "Vive en regiones sumamente frías. Se aferra al lomo de los Avalugg congelando sus propias extremidades.",
+    "abilities": [
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 69,
+      "defense": 85,
+      "spAttack": 32,
+      "spDefense": 35,
+      "speed": 28,
+      "total": 304
+    }
+  },
+  {
+    "id": 713,
+    "name": "avalugg",
+    "displayName": "Avalugg",
+    "formattedId": "Nº 0713",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
+    "height": "2.0",
+    "weight": "505.0",
+    "generation": 6,
+    "evolutionChainId": 366,
+    "evolvesFrom": 712,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Iceberg Pokémon ",
+    "description": "Las fisuras de su cuerpo se agrandan durante el día, pero por la noche vuelven a cerrarse.",
+    "abilities": [
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 117,
+      "defense": 184,
+      "spAttack": 44,
+      "spDefense": 46,
+      "speed": 28,
+      "total": 514
+    }
+  },
+  {
+    "id": 714,
+    "name": "noibat",
+    "displayName": "Noibat",
+    "formattedId": "Nº 0714",
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png",
+    "height": "0.5",
+    "weight": "8.0",
+    "generation": 6,
+    "evolutionChainId": 367,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sound Wave Pokémon ",
+    "description": "Su registro vocal cubre todo el espectro de frecuencias. Ni los Pokémon más grandes soportan las ondas ultrasónicas que emite.",
+    "abilities": [
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 35,
+      "spAttack": 45,
+      "spDefense": 40,
+      "speed": 55,
+      "total": 245
+    }
+  },
+  {
+    "id": 715,
+    "name": "noivern",
+    "displayName": "Noivern",
+    "formattedId": "Nº 0715",
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
+    "height": "1.5",
+    "weight": "85.0",
+    "generation": 6,
+    "evolutionChainId": 367,
+    "evolvesFrom": 714,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sound Wave Pokémon ",
+    "description": "Vuela en la oscuridad atormentando al enemigo con ondas ultrasónicas capaces de partir rocas antes de rematarlo con sus afilados colmillos.",
+    "abilities": [
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 70,
+      "defense": 80,
+      "spAttack": 97,
+      "spDefense": 80,
+      "speed": 123,
+      "total": 535
+    }
+  },
+  {
+    "id": 716,
+    "name": "xerneas",
+    "displayName": "Xerneas",
+    "formattedId": "Nº 0716",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/716.png",
+    "height": "3.0",
+    "weight": "215.0",
+    "generation": 6,
+    "evolutionChainId": 368,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Vida",
+    "description": "Cuando los cuernos de su cabeza brillan en siete colores, se dice que comparte el don de la vida eterna.",
+    "abilities": [
+      {
+        "raw": "fairy-aura",
+        "name": "fairy aura",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 126,
+      "attack": 131,
+      "defense": 95,
+      "spAttack": 131,
+      "spDefense": 98,
+      "speed": 99,
+      "total": 680
+    }
+  },
+  {
+    "id": 717,
+    "name": "yveltal",
+    "displayName": "Yveltal",
+    "formattedId": "Nº 0717",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/717.png",
+    "height": "5.8",
+    "weight": "203.0",
+    "generation": 6,
+    "evolutionChainId": 369,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Destruição",
+    "description": "Cuando su vida se extingue, absorbe la vitalidad de todos los seres vivos y regresa a su forma de crisálida.",
+    "abilities": [
+      {
+        "raw": "dark-aura",
+        "name": "dark aura",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 126,
+      "attack": 131,
+      "defense": 95,
+      "spAttack": 131,
+      "spDefense": 98,
+      "speed": 99,
+      "total": 680
+    }
+  },
+  {
+    "id": 718,
+    "name": "zygarde-50",
+    "displayName": "Zygarde",
+    "formattedId": "Nº 0718",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
+    "height": "5.0",
+    "weight": "305.0",
+    "generation": 6,
+    "evolutionChainId": 370,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Ordem",
+    "description": "Según los rumores, puede adoptar una forma aún más poderosa cuando se enfrenta a quienquiera que amenace el ecosistema.",
+    "abilities": [
+      {
+        "raw": "aura-break",
+        "name": "aura break",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 108,
+      "attack": 100,
+      "defense": 121,
+      "spAttack": 81,
+      "spDefense": 95,
+      "speed": 95,
+      "total": 600
+    }
+  },
+  {
+    "id": 719,
+    "name": "diancie",
+    "displayName": "Diancie",
+    "formattedId": "Nº 0719",
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png",
+    "height": "0.7",
+    "weight": "8.8",
+    "generation": 6,
+    "evolutionChainId": 371,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Jewel Pokémon ",
+    "description": "Puede crear una gran cantidad de diamantes en un instante comprimiendo con las manos el carbono que flota en el aire.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 100,
+      "defense": 150,
+      "spAttack": 100,
+      "spDefense": 150,
+      "speed": 50,
+      "total": 600
+    }
+  },
+  {
+    "id": 720,
+    "name": "hoopa",
+    "displayName": "Hoopa",
+    "formattedId": "Nº 0720",
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/720.png",
+    "height": "0.5",
+    "weight": "9.0",
+    "generation": 6,
+    "evolutionChainId": 372,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Mischief Pokémon ",
+    "description": "Dicen que gracias a sus seis anillos y seis enormes brazos puede robar todo lo que se le antoja. Adquirió una forma reducida cuando alguien selló su poder.",
+    "abilities": [
+      {
+        "raw": "magician",
+        "name": "magician",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 110,
+      "defense": 60,
+      "spAttack": 150,
+      "spDefense": 130,
+      "speed": 70,
+      "total": 600
+    }
+  },
+  {
+    "id": 721,
+    "name": "volcanion",
+    "displayName": "Volcanion",
+    "formattedId": "Nº 0721",
+    "types": [
+      "fire",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/721.png",
+    "height": "1.7",
+    "weight": "195.0",
+    "generation": 6,
+    "evolutionChainId": 373,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Steam Pokémon ",
+    "description": "Expulsa vapor de agua por los brazos que tiene en la espalda. Sale a tal potencia que sería capaz de arrasar una montaña entera.",
+    "abilities": [
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 110,
+      "defense": 120,
+      "spAttack": 130,
+      "spDefense": 90,
+      "speed": 70,
+      "total": 600
+    }
+  },
+  {
+    "id": 722,
+    "name": "rowlet",
+    "displayName": "Rowlet",
+    "formattedId": "Nº 0722",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png",
+    "height": "0.3",
+    "weight": "1.5",
+    "generation": 7,
+    "evolutionChainId": 374,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Grass Quill Pokémon ",
+    "description": "Durante el día acumula energía mediante la fotosíntesis y, al caer la noche, vuela sin hacer ruido en busca de presas.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "long-reach",
+        "name": "long reach",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 42,
+      "total": 320
+    }
+  },
+  {
+    "id": 723,
+    "name": "dartrix",
+    "displayName": "Dartrix",
+    "formattedId": "Nº 0723",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/723.png",
+    "height": "0.7",
+    "weight": "16.0",
+    "generation": 7,
+    "evolutionChainId": 374,
+    "evolvesFrom": 722,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Blade Quill Pokémon ",
+    "description": "Jamás desatiende el cuidado de sus alas, no solo por mera cuestión estética, sino también para mantener las plumas perfectamente afiladas.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "long-reach",
+        "name": "long reach",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 75,
+      "defense": 75,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 52,
+      "total": 420
+    }
+  },
+  {
+    "id": 724,
+    "name": "decidueye",
+    "displayName": "Decidueye",
+    "formattedId": "Nº 0724",
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/724.png",
+    "height": "1.6",
+    "weight": "36.6",
+    "generation": 7,
+    "evolutionChainId": 374,
+    "evolvesFrom": 723,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Arrow Quill Pokémon ",
+    "description": "Tan solo le lleva una décima de segundo sacar una pluma y disparar al rival, a quien acierta en un punto vital antes de que pueda darse cuenta.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "long-reach",
+        "name": "long reach",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 107,
+      "defense": 75,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 70,
+      "total": 530
+    }
+  },
+  {
+    "id": 725,
+    "name": "litten",
+    "displayName": "Litten",
+    "formattedId": "Nº 0725",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/725.png",
+    "height": "0.4",
+    "weight": "4.3",
+    "generation": 7,
+    "evolutionChainId": 375,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fire Cat Pokémon ",
+    "description": "Quien trate de acariciarlo antes de ganarse su plena confianza se arriesga a comprobar de primera mano lo afiladas que están sus garras.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 65,
+      "defense": 40,
+      "spAttack": 60,
+      "spDefense": 40,
+      "speed": 70,
+      "total": 320
+    }
+  },
+  {
+    "id": 726,
+    "name": "torracat",
+    "displayName": "Torracat",
+    "formattedId": "Nº 0726",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/726.png",
+    "height": "0.7",
+    "weight": "25.0",
+    "generation": 7,
+    "evolutionChainId": 375,
+    "evolvesFrom": 725,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fire Cat Pokémon ",
+    "description": "Enfrentarse a un adversario formidable aviva tanto su espíritu combativo como la energía térmica de su cascabel.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 85,
+      "defense": 50,
+      "spAttack": 80,
+      "spDefense": 50,
+      "speed": 90,
+      "total": 420
+    }
+  },
+  {
+    "id": 727,
+    "name": "incineroar",
+    "displayName": "Incineroar",
+    "formattedId": "Nº 0727",
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/727.png",
+    "height": "1.8",
+    "weight": "83.0",
+    "generation": 7,
+    "evolutionChainId": 375,
+    "evolvesFrom": 726,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Heel Pokémon ",
+    "description": "A pesar de que a menudo se comporta de forma violenta, tiene un lado amable que se manifiesta cuando ayuda a Pokémon más pequeños.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 115,
+      "defense": 90,
+      "spAttack": 80,
+      "spDefense": 90,
+      "speed": 60,
+      "total": 530
+    }
+  },
+  {
+    "id": 728,
+    "name": "popplio",
+    "displayName": "Popplio",
+    "formattedId": "Nº 0728",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/728.png",
+    "height": "0.4",
+    "weight": "7.5",
+    "generation": 7,
+    "evolutionChainId": 376,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Leão-Marinho",
+    "description": "Entrena con ahínco a diario hasta que por fin es capaz de crear globos de un tamaño y eficacia adecuados.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "liquid-voice",
+        "name": "liquid voice",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 54,
+      "defense": 54,
+      "spAttack": 66,
+      "spDefense": 56,
+      "speed": 40,
+      "total": 320
+    }
+  },
+  {
+    "id": 729,
+    "name": "brionne",
+    "displayName": "Brionne",
+    "formattedId": "Nº 0729",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/729.png",
+    "height": "0.6",
+    "weight": "17.5",
+    "generation": 7,
+    "evolutionChainId": 376,
+    "evolvesFrom": 728,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pop Star Pokémon ",
+    "description": "Las noches en las que el mar está en calma, baila junto a sus congéneres al compás del canto de su líder, Primarina.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "liquid-voice",
+        "name": "liquid voice",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 69,
+      "defense": 69,
+      "spAttack": 91,
+      "spDefense": 81,
+      "speed": 50,
+      "total": 420
+    }
+  },
+  {
+    "id": 730,
+    "name": "primarina",
+    "displayName": "Primarina",
+    "formattedId": "Nº 0730",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/730.png",
+    "height": "1.8",
+    "weight": "44.0",
+    "generation": 7,
+    "evolutionChainId": 376,
+    "evolvesFrom": 729,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Soloist Pokémon ",
+    "description": "Considera el terreno de combate un escenario desde el que encandilar al público con su canto y la coreografía de sus globos.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "liquid-voice",
+        "name": "liquid voice",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 74,
+      "defense": 74,
+      "spAttack": 126,
+      "spDefense": 116,
+      "speed": 60,
+      "total": 530
+    }
+  },
+  {
+    "id": 731,
+    "name": "pikipek",
+    "displayName": "Pikipek",
+    "formattedId": "Nº 0731",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/731.png",
+    "height": "0.3",
+    "weight": "1.2",
+    "generation": 7,
+    "evolutionChainId": 377,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Woodpecker Pokémon ",
+    "description": "Pese a su fino aspecto, tiene la musculatura del cuello muy desarrollada: agujerea los árboles a una velocidad de 16 picotazos por segundo.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "skill-link",
+        "name": "skill link",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 75,
+      "defense": 30,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 65,
+      "total": 265
+    }
+  },
+  {
+    "id": 732,
+    "name": "trumbeak",
+    "displayName": "Trumbeak",
+    "formattedId": "Nº 0732",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/732.png",
+    "height": "0.6",
+    "weight": "14.8",
+    "generation": 7,
+    "evolutionChainId": 377,
+    "evolvesFrom": 731,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bugle Beak Pokémon ",
+    "description": "Dispara por el pico las semillas de las bayas ingeridas. Al dispersarse por el suelo, de ellas acaban germinando nuevas plantas.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "skill-link",
+        "name": "skill link",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 85,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 75,
+      "total": 355
+    }
+  },
+  {
+    "id": 733,
+    "name": "toucannon",
+    "displayName": "Toucannon",
+    "formattedId": "Nº 0733",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/733.png",
+    "height": "1.1",
+    "weight": "26.0",
+    "generation": 7,
+    "evolutionChainId": 377,
+    "evolvesFrom": 732,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cannon Pokémon ",
+    "description": "Las parejas de Toucannon son famosas por la armonía que reina entre ellas. Por eso se llevan a las bodas como portadores de buena fortuna.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "skill-link",
+        "name": "skill link",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 75,
+      "spAttack": 75,
+      "spDefense": 75,
+      "speed": 60,
+      "total": 485
+    }
+  },
+  {
+    "id": 734,
+    "name": "yungoos",
+    "displayName": "Yungoos",
+    "formattedId": "Nº 0734",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/734.png",
+    "height": "0.4",
+    "weight": "6.0",
+    "generation": 7,
+    "evolutionChainId": 378,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Loitering Pokémon ",
+    "description": "Pese a ser omnívoro, siente predilección por los alimentos frescos o incluso seres vivos. Por eso marcha por los caminos en busca de presas.",
+    "abilities": [
+      {
+        "raw": "stakeout",
+        "name": "stakeout",
+        "is_hidden": false
+      },
+      {
+        "raw": "strong-jaw",
+        "name": "strong jaw",
+        "is_hidden": false
+      },
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 70,
+      "defense": 30,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 45,
+      "total": 253
+    }
+  },
+  {
+    "id": 735,
+    "name": "gumshoos",
+    "displayName": "Gumshoos",
+    "formattedId": "Nº 0735",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/735.png",
+    "height": "0.7",
+    "weight": "14.2",
+    "generation": 7,
+    "evolutionChainId": 378,
+    "evolvesFrom": 734,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Stakeout Pokémon ",
+    "description": "Tiene un carácter muy paciente, pero en cuanto avista un Rattata, su manjar predilecto, pierde el control y se lanza sobre él como un poseso.",
+    "abilities": [
+      {
+        "raw": "stakeout",
+        "name": "stakeout",
+        "is_hidden": false
+      },
+      {
+        "raw": "strong-jaw",
+        "name": "strong jaw",
+        "is_hidden": false
+      },
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 110,
+      "defense": 60,
+      "spAttack": 55,
+      "spDefense": 60,
+      "speed": 45,
+      "total": 418
+    }
+  },
+  {
+    "id": 736,
+    "name": "grubbin",
+    "displayName": "Grubbin",
+    "formattedId": "Nº 0736",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/736.png",
+    "height": "0.4",
+    "weight": "4.4",
+    "generation": 7,
+    "evolutionChainId": 379,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Larva Pokémon ",
+    "description": "Cava su madriguera en el lecho boscoso con sus grandes mandíbulas. Le encanta la savia dulce de los árboles.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 47,
+      "attack": 62,
+      "defense": 45,
+      "spAttack": 55,
+      "spDefense": 45,
+      "speed": 46,
+      "total": 300
+    }
+  },
+  {
+    "id": 737,
+    "name": "charjabug",
+    "displayName": "Charjabug",
+    "formattedId": "Nº 0737",
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/737.png",
+    "height": "0.5",
+    "weight": "10.5",
+    "generation": 7,
+    "evolutionChainId": 379,
+    "evolvesFrom": 736,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Battery Pokémon ",
+    "description": "Al digerir la hojarasca de la que se alimenta, genera energía eléctrica que almacena en la bolsa que posee para tal efecto.",
+    "abilities": [
+      {
+        "raw": "battery",
+        "name": "battery",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 57,
+      "attack": 82,
+      "defense": 95,
+      "spAttack": 55,
+      "spDefense": 75,
+      "speed": 36,
+      "total": 400
+    }
+  },
+  {
+    "id": 738,
+    "name": "vikavolt",
+    "displayName": "Vikavolt",
+    "formattedId": "Nº 0738",
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/738.png",
+    "height": "1.5",
+    "weight": "45.0",
+    "generation": 7,
+    "evolutionChainId": 379,
+    "evolvesFrom": 737,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Besouro Chifrudo",
+    "description": "Cuando vuela llevando consigo un Charjabug a modo de batería adicional, puede liberar potentes descargas electromagnéticas.",
+    "abilities": [
+      {
+        "raw": "levitate",
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 77,
+      "attack": 70,
+      "defense": 90,
+      "spAttack": 145,
+      "spDefense": 75,
+      "speed": 43,
+      "total": 500
+    }
+  },
+  {
+    "id": 739,
+    "name": "crabrawler",
+    "displayName": "Crabrawler",
+    "formattedId": "Nº 0739",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/739.png",
+    "height": "0.6",
+    "weight": "7.0",
+    "generation": 7,
+    "evolutionChainId": 380,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Boxing Pokémon ",
+    "description": "A veces trepa por Exeggutor al confundirlo con una palmera de verdad. Este, presa de la ira, se desembaraza de él a sacudidas y lo pisotea.",
+    "abilities": [
+      {
+        "raw": "hyper-cutter",
+        "name": "hyper cutter",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": false
+      },
+      {
+        "raw": "anger-point",
+        "name": "anger point",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 47,
+      "attack": 82,
+      "defense": 57,
+      "spAttack": 42,
+      "spDefense": 47,
+      "speed": 63,
+      "total": 338
+    }
+  },
+  {
+    "id": 740,
+    "name": "crabominable",
+    "displayName": "Crabominable",
+    "formattedId": "Nº 0740",
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/740.png",
+    "height": "1.7",
+    "weight": "180.0",
+    "generation": 7,
+    "evolutionChainId": 380,
+    "evolvesFrom": 739,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Woolly Crab Pokémon ",
+    "description": "No se lo piensa dos veces a la hora de zurrar. Se tiene constancia de que sus puñetazos frenéticos han llegado a detener aludes.",
+    "abilities": [
+      {
+        "raw": "hyper-cutter",
+        "name": "hyper cutter",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": false
+      },
+      {
+        "raw": "anger-point",
+        "name": "anger point",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 132,
+      "defense": 77,
+      "spAttack": 62,
+      "spDefense": 67,
+      "speed": 43,
+      "total": 478
+    }
+  },
+  {
+    "id": 741,
+    "name": "oricorio-baile",
+    "displayName": "Oricorio",
+    "formattedId": "Nº 0741",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/741.png",
+    "height": "0.6",
+    "weight": "3.4",
+    "generation": 7,
+    "evolutionChainId": 381,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Dancing Pokémon ",
+    "description": "Forma que toma Oricorio al libar Néctar Rojo. Su vehemencia le lleva a ponerse hecho una furia si el Entrenador le imparte la orden equivocada.",
+    "abilities": [
+      {
+        "raw": "dancer",
+        "name": "dancer",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 70,
+      "defense": 70,
+      "spAttack": 98,
+      "spDefense": 70,
+      "speed": 93,
+      "total": 476
+    }
+  },
+  {
+    "id": 742,
+    "name": "cutiefly",
+    "displayName": "Cutiefly",
+    "formattedId": "Nº 0742",
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/742.png",
+    "height": "0.1",
+    "weight": "0.2",
+    "generation": 7,
+    "evolutionChainId": 382,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bee Fly Pokémon ",
+    "description": "Al percibir el aura del rival, puede predecir sus movimientos y esquivarlos sin problema mientras lanza su contraataque.",
+    "abilities": [
+      {
+        "raw": "honey-gather",
+        "name": "honey gather",
+        "is_hidden": false
+      },
+      {
+        "raw": "shield-dust",
+        "name": "shield dust",
+        "is_hidden": false
+      },
+      {
+        "raw": "sweet-veil",
+        "name": "sweet veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 55,
+      "spDefense": 40,
+      "speed": 84,
+      "total": 304
+    }
+  },
+  {
+    "id": 743,
+    "name": "ribombee",
+    "displayName": "Ribombee",
+    "formattedId": "Nº 0743",
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/743.png",
+    "height": "0.2",
+    "weight": "0.5",
+    "generation": 7,
+    "evolutionChainId": 382,
+    "evolvesFrom": 742,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bee Fly Pokémon ",
+    "description": "Detesta verse empapado por la lluvia, por lo que rara vez se deja ver en la nubosa región de Galar.",
+    "abilities": [
+      {
+        "raw": "honey-gather",
+        "name": "honey gather",
+        "is_hidden": false
+      },
+      {
+        "raw": "shield-dust",
+        "name": "shield dust",
+        "is_hidden": false
+      },
+      {
+        "raw": "sweet-veil",
+        "name": "sweet veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 60,
+      "spAttack": 95,
+      "spDefense": 70,
+      "speed": 124,
+      "total": 464
+    }
+  },
+  {
+    "id": 744,
+    "name": "rockruff",
+    "displayName": "Rockruff",
+    "formattedId": "Nº 0744",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/744.png",
+    "height": "0.5",
+    "weight": "9.2",
+    "generation": 7,
+    "evolutionChainId": 383,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cachorrinho",
+    "description": "Intimida a los rivales golpeando contra el suelo las rocas que tiene en el cuello y, tan pronto como retroceden, se abalanza sobre ellos.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": false
+      },
+      {
+        "raw": "steadfast",
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 65,
+      "defense": 40,
+      "spAttack": 30,
+      "spDefense": 40,
+      "speed": 60,
+      "total": 280
+    }
+  },
+  {
+    "id": 745,
+    "name": "lycanroc-midday",
+    "displayName": "Lycanroc",
+    "formattedId": "Nº 0745",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png",
+    "height": "0.8",
+    "weight": "25.0",
+    "generation": 7,
+    "evolutionChainId": 383,
+    "evolvesFrom": 744,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Wolf Pokémon ",
+    "description": "Va acorralando pacientemente a su presa con movimientos raudos para finalmente clavarle los colmillos en sus puntos vitales.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-rush",
+        "name": "sand rush",
+        "is_hidden": false
+      },
+      {
+        "raw": "steadfast",
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 115,
+      "defense": 65,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 112,
+      "total": 487
+    }
+  },
+  {
+    "id": 746,
+    "name": "wishiwashi-solo",
+    "displayName": "Wishiwashi",
+    "formattedId": "Nº 0746",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/746.png",
+    "height": "0.2",
+    "weight": "0.3",
+    "generation": 7,
+    "evolutionChainId": 384,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Small Fry Pokémon ",
+    "description": "Al sentirse amenazado, le lloran los ojos. La luz que se refleja en sus lágrimas sirve de señal a sus congéneres para agruparse en gran número.",
+    "abilities": [
+      {
+        "raw": "schooling",
+        "name": "schooling",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 20,
+      "defense": 20,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 40,
+      "total": 175
+    }
+  },
+  {
+    "id": 747,
+    "name": "mareanie",
+    "displayName": "Mareanie",
+    "formattedId": "Nº 0747",
+    "types": [
+      "poison",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/747.png",
+    "height": "0.4",
+    "weight": "8.0",
+    "generation": 7,
+    "evolutionChainId": 385,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Brutal Star Pokémon ",
+    "description": "A diferencia de sus congéneres de Alola, los ejemplares de Galar aún no saben lo deliciosas que están las ramas de Corsola.",
+    "abilities": [
+      {
+        "raw": "merciless",
+        "name": "merciless",
+        "is_hidden": false
+      },
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 53,
+      "defense": 62,
+      "spAttack": 43,
+      "spDefense": 52,
+      "speed": 45,
+      "total": 305
+    }
+  },
+  {
+    "id": 748,
+    "name": "toxapex",
+    "displayName": "Toxapex",
+    "formattedId": "Nº 0748",
+    "types": [
+      "poison",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/748.png",
+    "height": "0.7",
+    "weight": "14.5",
+    "generation": 7,
+    "evolutionChainId": 385,
+    "evolvesFrom": 747,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Brutal Star Pokémon ",
+    "description": "La bolsa de veneno en el interior de su cuerpo contiene toxinas tan potentes que provocarían tres días de dolores intensos hasta a un Wailord.",
+    "abilities": [
+      {
+        "raw": "merciless",
+        "name": "merciless",
+        "is_hidden": false
+      },
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 63,
+      "defense": 152,
+      "spAttack": 53,
+      "spDefense": 142,
+      "speed": 35,
+      "total": 495
+    }
+  },
+  {
+    "id": 749,
+    "name": "mudbray",
+    "displayName": "Mudbray",
+    "formattedId": "Nº 0749",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/749.png",
+    "height": "1.0",
+    "weight": "110.0",
+    "generation": 7,
+    "evolutionChainId": 386,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Donkey Pokémon ",
+    "description": "Tras recubrir sus patas con el lodo que crea masticando tierra, puede recorrer los peores caminos sin temor a resbalar.",
+    "abilities": [
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "stamina",
+        "name": "stamina",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 45,
+      "total": 385
+    }
+  },
+  {
+    "id": 750,
+    "name": "mudsdale",
+    "displayName": "Mudsdale",
+    "formattedId": "Nº 0750",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/750.png",
+    "height": "2.5",
+    "weight": "920.0",
+    "generation": 7,
+    "evolutionChainId": 386,
+    "evolvesFrom": 749,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Draft Horse Pokémon ",
+    "description": "Su resistencia le permitiría recorrer Galar de punta a punta sin un solo descanso portando cargas de más de diez toneladas.",
+    "abilities": [
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "stamina",
+        "name": "stamina",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 125,
+      "defense": 100,
+      "spAttack": 55,
+      "spDefense": 85,
+      "speed": 35,
+      "total": 500
+    }
+  },
+  {
+    "id": 751,
+    "name": "dewpider",
+    "displayName": "Dewpider",
+    "formattedId": "Nº 0751",
+    "types": [
+      "water",
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/751.png",
+    "height": "0.3",
+    "weight": "4.0",
+    "generation": 7,
+    "evolutionChainId": 387,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Water Bubble Pokémon ",
+    "description": "Vive bajo el agua y, cuando emerge a tierra firme en busca de presas, se recubre la cabeza con una burbuja.",
+    "abilities": [
+      {
+        "raw": "water-bubble",
+        "name": "water bubble",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 40,
+      "defense": 52,
+      "spAttack": 40,
+      "spDefense": 72,
+      "speed": 27,
+      "total": 269
+    }
+  },
+  {
+    "id": 752,
+    "name": "araquanid",
+    "displayName": "Araquanid",
+    "formattedId": "Nº 0752",
+    "types": [
+      "water",
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/752.png",
+    "height": "1.8",
+    "weight": "82.0",
+    "generation": 7,
+    "evolutionChainId": 387,
+    "evolvesFrom": 751,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Water Bubble Pokémon ",
+    "description": "Cuida de pequeños Dewpider acogiéndolos en su burbuja de agua y dejando que se alimenten de los restos de las presas que ha ingerido.",
+    "abilities": [
+      {
+        "raw": "water-bubble",
+        "name": "water bubble",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 70,
+      "defense": 92,
+      "spAttack": 50,
+      "spDefense": 132,
+      "speed": 42,
+      "total": 454
+    }
+  },
+  {
+    "id": 753,
+    "name": "fomantis",
+    "displayName": "Fomantis",
+    "formattedId": "Nº 0753",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/753.png",
+    "height": "0.3",
+    "weight": "1.5",
+    "generation": 7,
+    "evolutionChainId": 388,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sickle Grass Pokémon ",
+    "description": "De día duerme tranquilamente a la luz del sol y, al ocaso, despierta e inicia su actividad nocturna.",
+    "abilities": [
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 35,
+      "spAttack": 50,
+      "spDefense": 35,
+      "speed": 35,
+      "total": 250
+    }
+  },
+  {
+    "id": 754,
+    "name": "lurantis",
+    "displayName": "Lurantis",
+    "formattedId": "Nº 0754",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/754.png",
+    "height": "0.9",
+    "weight": "18.5",
+    "generation": 7,
+    "evolutionChainId": 388,
+    "evolvesFrom": 753,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bloom Sickle Pokémon ",
+    "description": "Los pétalos de sus brazos son finos y afilados. Absorbe la luz solar y la concentra para lanzar poderosos rayos.",
+    "abilities": [
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 105,
+      "defense": 90,
+      "spAttack": 80,
+      "spDefense": 90,
+      "speed": 45,
+      "total": 480
+    }
+  },
+  {
+    "id": 755,
+    "name": "morelull",
+    "displayName": "Morelull",
+    "formattedId": "Nº 0755",
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/755.png",
+    "height": "0.2",
+    "weight": "1.5",
+    "generation": 7,
+    "evolutionChainId": 389,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Illuminating Pokémon ",
+    "description": "Vive en bosques umbríos. Esparce a su alrededor esporas titilantes que adormecen a sus enemigos.",
+    "abilities": [
+      {
+        "raw": "illuminate",
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "raw": "effect-spore",
+        "name": "effect spore",
+        "is_hidden": false
+      },
+      {
+        "raw": "rain-dish",
+        "name": "rain dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 55,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 15,
+      "total": 285
+    }
+  },
+  {
+    "id": 756,
+    "name": "shiinotic",
+    "displayName": "Shiinotic",
+    "formattedId": "Nº 0756",
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/756.png",
+    "height": "1.0",
+    "weight": "11.5",
+    "generation": 7,
+    "evolutionChainId": 389,
+    "evolvesFrom": 755,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Illuminating Pokémon ",
+    "description": "Conviene no acercarse si se avistan luces en la espesura del bosque en plena noche, ya que podrían ser las esporas soporíferas de Shiinotic.",
+    "abilities": [
+      {
+        "raw": "illuminate",
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "raw": "effect-spore",
+        "name": "effect spore",
+        "is_hidden": false
+      },
+      {
+        "raw": "rain-dish",
+        "name": "rain dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 80,
+      "spAttack": 90,
+      "spDefense": 100,
+      "speed": 30,
+      "total": 405
+    }
+  },
+  {
+    "id": 757,
+    "name": "salandit",
+    "displayName": "Salandit",
+    "formattedId": "Nº 0757",
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/757.png",
+    "height": "0.6",
+    "weight": "4.8",
+    "generation": 7,
+    "evolutionChainId": 390,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Toxic Lizard Pokémon ",
+    "description": "Se aproxima a su presa por la espalda y, antes de que pueda advertirlo, la inmoviliza con un gas venenoso.",
+    "abilities": [
+      {
+        "raw": "corrosion",
+        "name": "corrosion",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 44,
+      "defense": 40,
+      "spAttack": 71,
+      "spDefense": 40,
+      "speed": 77,
+      "total": 320
+    }
+  },
+  {
+    "id": 758,
+    "name": "salazzle",
+    "displayName": "Salazzle",
+    "formattedId": "Nº 0758",
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/758.png",
+    "height": "1.2",
+    "weight": "22.2",
+    "generation": 7,
+    "evolutionChainId": 390,
+    "evolvesFrom": 757,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Toxic Lizard Pokémon ",
+    "description": "Libran disputas con sus congéneres cuyo resultado, al parecer, se inclina por quien tenga un séquito de Salandit machos más numeroso.",
+    "abilities": [
+      {
+        "raw": "corrosion",
+        "name": "corrosion",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 64,
+      "defense": 60,
+      "spAttack": 111,
+      "spDefense": 60,
+      "speed": 117,
+      "total": 480
+    }
+  },
+  {
+    "id": 759,
+    "name": "stufful",
+    "displayName": "Stufful",
+    "formattedId": "Nº 0759",
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/759.png",
+    "height": "0.5",
+    "weight": "6.8",
+    "generation": 7,
+    "evolutionChainId": 391,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Flailing Pokémon ",
+    "description": "Cuando patalea para tratar de defenderse resulta adorable, pero conviene no fiarse, ya que su fuerza sería capaz de derribar un árbol.",
+    "abilities": [
+      {
+        "raw": "fluffy",
+        "name": "fluffy",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": false
+      },
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 50,
+      "speed": 50,
+      "total": 340
+    }
+  },
+  {
+    "id": 760,
+    "name": "bewear",
+    "displayName": "Bewear",
+    "formattedId": "Nº 0760",
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/760.png",
+    "height": "2.1",
+    "weight": "135.0",
+    "generation": 7,
+    "evolutionChainId": 391,
+    "evolvesFrom": 759,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Strong Arm Pokémon ",
+    "description": "Después de abatir a su presa con movimientos que harían palidecer a un luchador profesional, la carga en brazos y se la lleva a su madriguera.",
+    "abilities": [
+      {
+        "raw": "fluffy",
+        "name": "fluffy",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 125,
+      "defense": 80,
+      "spAttack": 55,
+      "spDefense": 60,
+      "speed": 60,
+      "total": 500
+    }
+  },
+  {
+    "id": 761,
+    "name": "bounsweet",
+    "displayName": "Bounsweet",
+    "formattedId": "Nº 0761",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/761.png",
+    "height": "0.3",
+    "weight": "3.2",
+    "generation": 7,
+    "evolutionChainId": 392,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fruit Pokémon ",
+    "description": "Cuando lo atacan, produce un sudor dulce y delicioso cuyo aroma atrae a más enemigos.",
+    "abilities": [
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "sweet-veil",
+        "name": "sweet veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 30,
+      "defense": 38,
+      "spAttack": 30,
+      "spDefense": 38,
+      "speed": 32,
+      "total": 210
+    }
+  },
+  {
+    "id": 762,
+    "name": "steenee",
+    "displayName": "Steenee",
+    "formattedId": "Nº 0762",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/762.png",
+    "height": "0.7",
+    "weight": "8.2",
+    "generation": 7,
+    "evolutionChainId": 392,
+    "evolvesFrom": 761,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fruit Pokémon ",
+    "description": "Si un Corvisquire viene a picotearlo, se defiende golpeándolo con el cáliz de la cabeza y con fuertes patadas.",
+    "abilities": [
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "sweet-veil",
+        "name": "sweet veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 52,
+      "attack": 40,
+      "defense": 48,
+      "spAttack": 40,
+      "spDefense": 48,
+      "speed": 62,
+      "total": 290
+    }
+  },
+  {
+    "id": 763,
+    "name": "tsareena",
+    "displayName": "Tsareena",
+    "formattedId": "Nº 0763",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/763.png",
+    "height": "1.2",
+    "weight": "21.4",
+    "generation": 7,
+    "evolutionChainId": 392,
+    "evolvesFrom": 762,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fruit Pokémon ",
+    "description": "Propina patadas con sus duras y puntiagudas piernas, con las que deja heridas indelebles en el cuerpo y el corazón del adversario.",
+    "abilities": [
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "queenly-majesty",
+        "name": "queenly majesty",
+        "is_hidden": false
+      },
+      {
+        "raw": "sweet-veil",
+        "name": "sweet veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 120,
+      "defense": 98,
+      "spAttack": 50,
+      "spDefense": 98,
+      "speed": 72,
+      "total": 510
+    }
+  },
+  {
+    "id": 764,
+    "name": "comfey",
+    "displayName": "Comfey",
+    "formattedId": "Nº 0764",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/764.png",
+    "height": "0.1",
+    "weight": "0.3",
+    "generation": 7,
+    "evolutionChainId": 393,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Posy Picker Pokémon ",
+    "description": "Este Pokémon libera una agradable fragancia, que varía de individuo a individuo debido a que cada uno se engalana con flores diferentes.",
+    "abilities": [
+      {
+        "raw": "flower-veil",
+        "name": "flower veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "triage",
+        "name": "triage",
+        "is_hidden": false
+      },
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 51,
+      "attack": 52,
+      "defense": 90,
+      "spAttack": 82,
+      "spDefense": 110,
+      "speed": 100,
+      "total": 485
+    }
+  },
+  {
+    "id": 765,
+    "name": "oranguru",
+    "displayName": "Oranguru",
+    "formattedId": "Nº 0765",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/765.png",
+    "height": "1.5",
+    "weight": "76.0",
+    "generation": 7,
+    "evolutionChainId": 394,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sage Pokémon ",
+    "description": "Conoce hasta el último rincón del bosque y, si encuentra un Pokémon herido, va en busca de hierbas medicinales para curarlo.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": false
+      },
+      {
+        "raw": "symbiosis",
+        "name": "symbiosis",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 60,
+      "defense": 80,
+      "spAttack": 90,
+      "spDefense": 110,
+      "speed": 60,
+      "total": 490
+    }
+  },
+  {
+    "id": 766,
+    "name": "passimian",
+    "displayName": "Passimian",
+    "formattedId": "Nº 0766",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/766.png",
+    "height": "2.0",
+    "weight": "82.8",
+    "generation": 7,
+    "evolutionChainId": 395,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Teamwork Pokémon ",
+    "description": "Viven en grupos de unos veinte ejemplares. Cada individuo tiene un rol definido, lo que les permite sobrevivir en entornos hostiles.",
+    "abilities": [
+      {
+        "raw": "receiver",
+        "name": "receiver",
+        "is_hidden": false
+      },
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 120,
+      "defense": 90,
+      "spAttack": 40,
+      "spDefense": 60,
+      "speed": 80,
+      "total": 490
+    }
+  },
+  {
+    "id": 767,
+    "name": "wimpod",
+    "displayName": "Wimpod",
+    "formattedId": "Nº 0767",
+    "types": [
+      "bug",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/767.png",
+    "height": "0.5",
+    "weight": "12.0",
+    "generation": 7,
+    "evolutionChainId": 396,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Turn Tail Pokémon ",
+    "description": "Forman colonias y permanecen siempre alerta. En cuanto perciben a un enemigo, salen huyendo en todas direcciones.",
+    "abilities": [
+      {
+        "raw": "wimp-out",
+        "name": "wimp out",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 40,
+      "spAttack": 20,
+      "spDefense": 30,
+      "speed": 80,
+      "total": 230
+    }
+  },
+  {
+    "id": 768,
+    "name": "golisopod",
+    "displayName": "Golisopod",
+    "formattedId": "Nº 0768",
+    "types": [
+      "bug",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/768.png",
+    "height": "2.0",
+    "weight": "108.0",
+    "generation": 7,
+    "evolutionChainId": 396,
+    "evolvesFrom": 767,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hard Scale Pokémon ",
+    "description": "Vive en cavernas del fondo marino o en barcos hundidos. Lucha contra los Grapploct y el que pierde se convierte en una suculenta presa.",
+    "abilities": [
+      {
+        "raw": "emergency-exit",
+        "name": "emergency exit",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 140,
+      "spAttack": 60,
+      "spDefense": 90,
+      "speed": 40,
+      "total": 530
+    }
+  },
+  {
+    "id": 769,
+    "name": "sandygast",
+    "displayName": "Sandygast",
+    "formattedId": "Nº 0769",
+    "types": [
+      "ghost",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/769.png",
+    "height": "0.5",
+    "weight": "70.0",
+    "generation": 7,
+    "evolutionChainId": 397,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sand Heap Pokémon ",
+    "description": "Suele habitar en playas. Aumenta de tamaño al tomar control de todo aquel que se atreva a introducir la mano en su boca.",
+    "abilities": [
+      {
+        "raw": "water-compaction",
+        "name": "water compaction",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 80,
+      "spAttack": 70,
+      "spDefense": 45,
+      "speed": 15,
+      "total": 320
+    }
+  },
+  {
+    "id": 770,
+    "name": "palossand",
+    "displayName": "Palossand",
+    "formattedId": "Nº 0770",
+    "types": [
+      "ghost",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/770.png",
+    "height": "1.3",
+    "weight": "250.0",
+    "generation": 7,
+    "evolutionChainId": 397,
+    "evolvesFrom": 769,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sand Castle Pokémon ",
+    "description": "Habita en las playas, aunque odia el agua. Cuando caen fuertes lluvias, no es capaz de preservar su forma de castillo.",
+    "abilities": [
+      {
+        "raw": "water-compaction",
+        "name": "water compaction",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 75,
+      "defense": 110,
+      "spAttack": 100,
+      "spDefense": 75,
+      "speed": 35,
+      "total": 480
+    }
+  },
+  {
+    "id": 771,
+    "name": "pyukumuku",
+    "displayName": "Pyukumuku",
+    "formattedId": "Nº 0771",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/771.png",
+    "height": "0.3",
+    "weight": "1.2",
+    "generation": 7,
+    "evolutionChainId": 398,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sea Cucumber Pokémon ",
+    "description": "La formidable mucosidad que envuelve su piel lo mantiene hidratado y le permite permanecer en tierra firme varios días sin secarse.",
+    "abilities": [
+      {
+        "raw": "innards-out",
+        "name": "innards out",
+        "is_hidden": false
+      },
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 60,
+      "defense": 130,
+      "spAttack": 30,
+      "spDefense": 130,
+      "speed": 5,
+      "total": 410
+    }
+  },
+  {
+    "id": 772,
+    "name": "type-null",
+    "displayName": "Type: Null",
+    "formattedId": "Nº 0772",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/772.png",
+    "height": "1.9",
+    "weight": "120.5",
+    "generation": 7,
+    "evolutionChainId": 399,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Synthetic Pokémon ",
+    "description": "Fue creado a imagen de un Pokémon mitológico. Lleva una máscara de contención para evitar que su poder se descontrole.",
+    "abilities": [
+      {
+        "raw": "battle-armor",
+        "name": "battle armor",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 95,
+      "spAttack": 95,
+      "spDefense": 95,
+      "speed": 59,
+      "total": 534
+    }
+  },
+  {
+    "id": 773,
+    "name": "silvally",
+    "displayName": "Silvally",
+    "formattedId": "Nº 0773",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
+    "height": "2.3",
+    "weight": "100.5",
+    "generation": 7,
+    "evolutionChainId": 399,
+    "evolvesFrom": 772,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Synthetic Pokémon ",
+    "description": "El factor decisivo que le ha permitido liberar toda su fuerza ha sido el estrecho vínculo y la confianza que profesa a su Entrenador.",
+    "abilities": [
+      {
+        "raw": "rks-system",
+        "name": "rks system",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 95,
+      "spAttack": 95,
+      "spDefense": 95,
+      "speed": 95,
+      "total": 570
+    }
+  },
+  {
+    "id": 774,
+    "name": "minior-red-meteor",
+    "displayName": "Minior",
+    "formattedId": "Nº 0774",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/774.png",
+    "height": "0.3",
+    "weight": "40.0",
+    "generation": 7,
+    "evolutionChainId": 400,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Meteor Pokémon ",
+    "description": "Lo recubre un duro caparazón que se quiebra en pedazos al impactar con la superficie de la tierra.",
+    "abilities": [
+      {
+        "raw": "shields-down",
+        "name": "shields down",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 100,
+      "spAttack": 60,
+      "spDefense": 100,
+      "speed": 60,
+      "total": 440
+    }
+  },
+  {
+    "id": 775,
+    "name": "komala",
+    "displayName": "Komala",
+    "formattedId": "Nº 0775",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/775.png",
+    "height": "0.4",
+    "weight": "19.9",
+    "generation": 7,
+    "evolutionChainId": 401,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Drowsing Pokémon ",
+    "description": "El motivo de su letargo vitalicio es la sustancia somnífera que contienen las hojas de las que se alimenta.",
+    "abilities": [
+      {
+        "raw": "comatose",
+        "name": "comatose",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 115,
+      "defense": 65,
+      "spAttack": 75,
+      "spDefense": 95,
+      "speed": 65,
+      "total": 480
+    }
+  },
+  {
+    "id": 776,
+    "name": "turtonator",
+    "displayName": "Turtonator",
+    "formattedId": "Nº 0776",
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/776.png",
+    "height": "2.0",
+    "weight": "212.0",
+    "generation": 7,
+    "evolutionChainId": 402,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Blast Turtle Pokémon ",
+    "description": "El material explosivo de su caparazón está compuesto por el azufre del que se alimenta. Sus excrementos explosivos son muy peligrosos.",
+    "abilities": [
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 78,
+      "defense": 135,
+      "spAttack": 91,
+      "spDefense": 85,
+      "speed": 36,
+      "total": 485
+    }
+  },
+  {
+    "id": 777,
+    "name": "togedemaru",
+    "displayName": "Togedemaru",
+    "formattedId": "Nº 0777",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/777.png",
+    "height": "0.3",
+    "weight": "3.3",
+    "generation": 7,
+    "evolutionChainId": 403,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Roly-Poly Pokémon ",
+    "description": "Cuando se encuentra en peligro, se hace una bola, eriza las púas del lomo y propina descargas eléctricas a diestro y siniestro.",
+    "abilities": [
+      {
+        "raw": "iron-barbs",
+        "name": "iron barbs",
+        "is_hidden": false
+      },
+      {
+        "raw": "lightning-rod",
+        "name": "lightning rod",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 98,
+      "defense": 63,
+      "spAttack": 40,
+      "spDefense": 73,
+      "speed": 96,
+      "total": 435
+    }
+  },
+  {
+    "id": 778,
+    "name": "mimikyu-disguised",
+    "displayName": "Mimikyu",
+    "formattedId": "Nº 0778",
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png",
+    "height": "0.2",
+    "weight": "0.7",
+    "generation": 7,
+    "evolutionChainId": 404,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Disguise Pokémon ",
+    "description": "Un investigador que miró dentro del saco para estudiar a este Pokémon perdió la vida a causa de una misteriosa enfermedad.",
+    "abilities": [
+      {
+        "raw": "disguise",
+        "name": "disguise",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 90,
+      "defense": 80,
+      "spAttack": 50,
+      "spDefense": 105,
+      "speed": 96,
+      "total": 476
+    }
+  },
+  {
+    "id": 779,
+    "name": "bruxish",
+    "displayName": "Bruxish",
+    "formattedId": "Nº 0779",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/779.png",
+    "height": "0.9",
+    "weight": "19.0",
+    "generation": 7,
+    "evolutionChainId": 405,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Gnash Teeth Pokémon ",
+    "description": "Su piel es tan gruesa que ni las espinas de Mareanie pueden perforarla. Con su fuerte dentadura tritura y engulle dichas espinas.",
+    "abilities": [
+      {
+        "raw": "dazzling",
+        "name": "dazzling",
+        "is_hidden": false
+      },
+      {
+        "raw": "strong-jaw",
+        "name": "strong jaw",
+        "is_hidden": false
+      },
+      {
+        "raw": "wonder-skin",
+        "name": "wonder skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 105,
+      "defense": 70,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 92,
+      "total": 475
+    }
+  },
+  {
+    "id": 780,
+    "name": "drampa",
+    "displayName": "Drampa",
+    "formattedId": "Nº 0780",
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
+    "height": "3.0",
+    "weight": "185.0",
+    "generation": 7,
+    "evolutionChainId": 406,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Placid Pokémon ",
+    "description": "Es de naturaleza mansa y amable, pero, si se enfurece, puede desatar fuertes vientos capaces de llevarse cualquier cosa por delante.",
+    "abilities": [
+      {
+        "raw": "berserk",
+        "name": "berserk",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": false
+      },
+      {
+        "raw": "cloud-nine",
+        "name": "cloud nine",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 60,
+      "defense": 85,
+      "spAttack": 135,
+      "spDefense": 91,
+      "speed": 36,
+      "total": 485
+    }
+  },
+  {
+    "id": 781,
+    "name": "dhelmise",
+    "displayName": "Dhelmise",
+    "formattedId": "Nº 0781",
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/781.png",
+    "height": "3.9",
+    "weight": "210.0",
+    "generation": 7,
+    "evolutionChainId": 407,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sea Creeper Pokémon ",
+    "description": "Acecha a su presa hundiendo el ancla en el mar. Es capaz de drenar la vitalidad incluso de presas del tamaño de un Wailord.",
+    "abilities": [
+      {
+        "raw": "steelworker",
+        "name": "steelworker",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 131,
+      "defense": 100,
+      "spAttack": 86,
+      "spDefense": 90,
+      "speed": 40,
+      "total": 517
+    }
+  },
+  {
+    "id": 782,
+    "name": "jangmo-o",
+    "displayName": "Jangmo-o",
+    "formattedId": "Nº 0782",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/782.png",
+    "height": "0.6",
+    "weight": "29.7",
+    "generation": 7,
+    "evolutionChainId": 408,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scaly Pokémon ",
+    "description": "Se comunica con sus congéneres mediante los sonidos que produce al golpear sus escamas, duras como el acero.",
+    "abilities": [
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 55,
+      "defense": 65,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 45,
+      "total": 300
+    }
+  },
+  {
+    "id": 783,
+    "name": "hakamo-o",
+    "displayName": "Hakamo-o",
+    "formattedId": "Nº 0783",
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/783.png",
+    "height": "1.2",
+    "weight": "47.0",
+    "generation": 7,
+    "evolutionChainId": 408,
+    "evolvesFrom": 782,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scaly Pokémon ",
+    "description": "Tras hacer sonar sus escamas y proferir su grito de guerra, carga contra el enemigo y lo hace trizas con sus afiladas garras.",
+    "abilities": [
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 75,
+      "defense": 90,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 65,
+      "total": 420
+    }
+  },
+  {
+    "id": 784,
+    "name": "kommo-o",
+    "displayName": "Kommo-o",
+    "formattedId": "Nº 0784",
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/784.png",
+    "height": "1.6",
+    "weight": "78.2",
+    "generation": 7,
+    "evolutionChainId": 408,
+    "evolvesFrom": 783,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Scaly Pokémon ",
+    "description": "Se han descubierto antiguas representaciones pictóricas de guerreros que lucían armaduras confeccionadas con escamas de Kommo-o.",
+    "abilities": [
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "soundproof",
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 125,
+      "spAttack": 100,
+      "spDefense": 105,
+      "speed": 85,
+      "total": 600
+    }
+  },
+  {
+    "id": 785,
+    "name": "tapu-koko",
+    "displayName": "Tapu Koko",
+    "formattedId": "Nº 0785",
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png",
+    "height": "1.8",
+    "weight": "20.5",
+    "generation": 7,
+    "evolutionChainId": 409,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Land Spirit Pokémon ",
+    "description": "El espíritu guardián de Melemele, capaz de blandir el rayo. Su eterna curiosidad le lleva a veces a mostrarse ante las personas.",
+    "abilities": [
+      {
+        "raw": "electric-surge",
+        "name": "electric surge",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 115,
+      "defense": 85,
+      "spAttack": 95,
+      "spDefense": 75,
+      "speed": 130,
+      "total": 570
+    }
+  },
+  {
+    "id": 786,
+    "name": "tapu-lele",
+    "displayName": "Tapu Lele",
+    "formattedId": "Nº 0786",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png",
+    "height": "1.2",
+    "weight": "18.6",
+    "generation": 7,
+    "evolutionChainId": 410,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Land Spirit Pokémon ",
+    "description": "Este espíritu guardián es tan candoroso como despiadado, por lo que se podría decir que es la encarnación de la naturaleza misma.",
+    "abilities": [
+      {
+        "raw": "psychic-surge",
+        "name": "psychic surge",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 75,
+      "spAttack": 130,
+      "spDefense": 115,
+      "speed": 95,
+      "total": 570
+    }
+  },
+  {
+    "id": 787,
+    "name": "tapu-bulu",
+    "displayName": "Tapu Bulu",
+    "formattedId": "Nº 0787",
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/787.png",
+    "height": "1.9",
+    "weight": "45.5",
+    "generation": 7,
+    "evolutionChainId": 411,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Land Spirit Pokémon ",
+    "description": "El espíritu guardián de Ula-Ula, que gobierna la flora. Hace repicar su cola para alertar de su presencia y prevenir riñas sin sentido.",
+    "abilities": [
+      {
+        "raw": "grassy-surge",
+        "name": "grassy surge",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 115,
+      "spAttack": 85,
+      "spDefense": 95,
+      "speed": 75,
+      "total": 570
+    }
+  },
+  {
+    "id": 788,
+    "name": "tapu-fini",
+    "displayName": "Tapu Fini",
+    "formattedId": "Nº 0788",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/788.png",
+    "height": "1.3",
+    "weight": "21.2",
+    "generation": 7,
+    "evolutionChainId": 412,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Land Spirit Pokémon ",
+    "description": "A pesar de ser un espíritu guardián, trae desgracias a aquellos que se le acercan sin la debida cortesía.",
+    "abilities": [
+      {
+        "raw": "misty-surge",
+        "name": "misty surge",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 115,
+      "spAttack": 95,
+      "spDefense": 130,
+      "speed": 85,
+      "total": 570
+    }
+  },
+  {
+    "id": 789,
+    "name": "cosmog",
+    "displayName": "Cosmog",
+    "formattedId": "Nº 0789",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png",
+    "height": "0.2",
+    "weight": "0.1",
+    "generation": 7,
+    "evolutionChainId": 413,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Nebula Pokémon ",
+    "description": "Su escasa prudencia y gran curiosidad lo llevan a menudo a ponerse en peligro. En caso de apuro, se teletransporta para huir.",
+    "abilities": [
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 43,
+      "attack": 29,
+      "defense": 31,
+      "spAttack": 29,
+      "spDefense": 31,
+      "speed": 37,
+      "total": 200
+    }
+  },
+  {
+    "id": 790,
+    "name": "cosmoem",
+    "displayName": "Cosmoem",
+    "formattedId": "Nº 0790",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png",
+    "height": "0.1",
+    "weight": "999.9",
+    "generation": 7,
+    "evolutionChainId": 413,
+    "evolvesFrom": 789,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Protostar Pokémon ",
+    "description": "Absorbe impetuoso polvo de la atmósfera y pone todo su empeño en crear en su núcleo la energía necesaria para evolucionar.",
+    "abilities": [
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 43,
+      "attack": 29,
+      "defense": 131,
+      "spAttack": 29,
+      "spDefense": 131,
+      "speed": 37,
+      "total": 400
+    }
+  },
+  {
+    "id": 791,
+    "name": "solgaleo",
+    "displayName": "Solgaleo",
+    "formattedId": "Nº 0791",
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png",
+    "height": "3.4",
+    "weight": "230.0",
+    "generation": 7,
+    "evolutionChainId": 413,
+    "evolvesFrom": 790,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Solar",
+    "description": "Antiguamente era conocido como la Criatura que se Nutre del Sol. Emite sin cesar una energía luminosa.",
+    "abilities": [
+      {
+        "raw": "full-metal-body",
+        "name": "full metal body",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 137,
+      "attack": 137,
+      "defense": 107,
+      "spAttack": 113,
+      "spDefense": 89,
+      "speed": 97,
+      "total": 680
+    }
+  },
+  {
+    "id": 792,
+    "name": "lunala",
+    "displayName": "Lunala",
+    "formattedId": "Nº 0792",
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png",
+    "height": "4.0",
+    "weight": "120.0",
+    "generation": 7,
+    "evolutionChainId": 413,
+    "evolvesFrom": 790,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Lunar",
+    "description": "Devora toda la luz que haya a su alrededor y adopta la forma de una luna llena que ilumina la oscura noche.",
+    "abilities": [
+      {
+        "raw": "shadow-shield",
+        "name": "shadow shield",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 137,
+      "attack": 113,
+      "defense": 89,
+      "spAttack": 137,
+      "spDefense": 107,
+      "speed": 97,
+      "total": 680
+    }
+  },
+  {
+    "id": 793,
+    "name": "nihilego",
+    "displayName": "Nihilego",
+    "formattedId": "Nº 0793",
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/793.png",
+    "height": "1.2",
+    "weight": "55.5",
+    "generation": 7,
+    "evolutionChainId": 414,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Parasite Pokémon ",
+    "description": "Llegó a este mundo a través de un Ultraumbral. Es un parásito que se aprovecha de Pokémon y personas.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 109,
+      "attack": 53,
+      "defense": 47,
+      "spAttack": 127,
+      "spDefense": 131,
+      "speed": 103,
+      "total": 570
+    }
+  },
+  {
+    "id": 794,
+    "name": "buzzwole",
+    "displayName": "Buzzwole",
+    "formattedId": "Nº 0794",
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/794.png",
+    "height": "2.4",
+    "weight": "333.6",
+    "generation": 7,
+    "evolutionChainId": 415,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Swollen Pokémon ",
+    "description": "Uno de los Ultraentes. Posee una musculatura excesivamente desarrollada.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 107,
+      "attack": 139,
+      "defense": 139,
+      "spAttack": 53,
+      "spDefense": 53,
+      "speed": 79,
+      "total": 570
+    }
+  },
+  {
+    "id": 795,
+    "name": "pheromosa",
+    "displayName": "Pheromosa",
+    "formattedId": "Nº 0795",
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/795.png",
+    "height": "1.8",
+    "weight": "25.0",
+    "generation": 7,
+    "evolutionChainId": 416,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Lissome Pokémon ",
+    "description": "Para los seres de este mundo resulta extraño y peligroso, pero en el mundo del que procede es una criatura muy común.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 137,
+      "defense": 37,
+      "spAttack": 137,
+      "spDefense": 37,
+      "speed": 151,
+      "total": 570
+    }
+  },
+  {
+    "id": 796,
+    "name": "xurkitree",
+    "displayName": "Xurkitree",
+    "formattedId": "Nº 0796",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/796.png",
+    "height": "3.8",
+    "weight": "100.0",
+    "generation": 7,
+    "evolutionChainId": 417,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Glowing Pokémon ",
+    "description": "Uno de los llamados Ultraentes. Algunos ejemplares plantan sus extremidades en el suelo como si fueran árboles y permanecen inmóviles.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 89,
+      "defense": 71,
+      "spAttack": 173,
+      "spDefense": 71,
+      "speed": 83,
+      "total": 570
+    }
+  },
+  {
+    "id": 797,
+    "name": "celesteela",
+    "displayName": "Celesteela",
+    "formattedId": "Nº 0797",
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/797.png",
+    "height": "9.2",
+    "weight": "999.9",
+    "generation": 7,
+    "evolutionChainId": 418,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Launch Pokémon ",
+    "description": "Para los seres de este mundo resulta extraño y peligroso, pero en el mundo del que procede es una criatura muy común.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 101,
+      "defense": 103,
+      "spAttack": 107,
+      "spDefense": 101,
+      "speed": 61,
+      "total": 570
+    }
+  },
+  {
+    "id": 798,
+    "name": "kartana",
+    "displayName": "Kartana",
+    "formattedId": "Nº 0798",
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/798.png",
+    "height": "0.3",
+    "weight": "0.1",
+    "generation": 7,
+    "evolutionChainId": 419,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Drawn Sword Pokémon ",
+    "description": "Para los seres de este mundo resulta extraño y peligroso, pero en el mundo del que procede es una criatura muy común.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 59,
+      "attack": 181,
+      "defense": 131,
+      "spAttack": 59,
+      "spDefense": 31,
+      "speed": 109,
+      "total": 570
+    }
+  },
+  {
+    "id": 799,
+    "name": "guzzlord",
+    "displayName": "Guzzlord",
+    "formattedId": "Nº 0799",
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/799.png",
+    "height": "5.5",
+    "weight": "888.0",
+    "generation": 7,
+    "evolutionChainId": 420,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Junkivore Pokémon ",
+    "description": "Uno de los extraños Ultraentes. Siempre está comiendo algo, como poseído de un hambre insaciable.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 223,
+      "attack": 101,
+      "defense": 53,
+      "spAttack": 97,
+      "spDefense": 53,
+      "speed": 43,
+      "total": 570
+    }
+  },
+  {
+    "id": 800,
+    "name": "necrozma",
+    "displayName": "Necrozma",
+    "formattedId": "Nº 0800",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/800.png",
+    "height": "2.4",
+    "weight": "230.0",
+    "generation": 7,
+    "evolutionChainId": 421,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Prisma",
+    "description": "Con sus rayos láser destruye todo a su paso en busca de luz para sustentarse.",
+    "abilities": [
+      {
+        "raw": "prism-armor",
+        "name": "prism armor",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 107,
+      "defense": 101,
+      "spAttack": 127,
+      "spDefense": 89,
+      "speed": 79,
+      "total": 600
+    }
+  },
+  {
+    "id": 801,
+    "name": "magearna",
+    "displayName": "Magearna",
+    "formattedId": "Nº 0801",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/801.png",
+    "height": "1.0",
+    "weight": "80.5",
+    "generation": 7,
+    "evolutionChainId": 422,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Artificial Pokémon ",
+    "description": "Pokémon artificial creado por científicos hace unos 500 años. Su verdadera esencia es una pieza llamada Coránima.",
+    "abilities": [
+      {
+        "raw": "soul-heart",
+        "name": "soul heart",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 95,
+      "defense": 115,
+      "spAttack": 130,
+      "spDefense": 115,
+      "speed": 65,
+      "total": 600
+    }
+  },
+  {
+    "id": 802,
+    "name": "marshadow",
+    "displayName": "Marshadow",
+    "formattedId": "Nº 0802",
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/802.png",
+    "height": "0.7",
+    "weight": "22.2",
+    "generation": 7,
+    "evolutionChainId": 423,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Gloomdweller Pokémon ",
+    "description": "Posee la extraordinaria capacidad de infiltrarse en cualquier sombra, por lo que nadie lo había visto en mucho tiempo.",
+    "abilities": [
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 125,
+      "defense": 80,
+      "spAttack": 90,
+      "spDefense": 90,
+      "speed": 125,
+      "total": 600
+    }
+  },
+  {
+    "id": 803,
+    "name": "poipole",
+    "displayName": "Poipole",
+    "formattedId": "Nº 0803",
+    "types": [
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/803.png",
+    "height": "0.6",
+    "weight": "1.8",
+    "generation": 7,
+    "evolutionChainId": 424,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Agulha Venenosa",
+    "description": "Un Ultraente originario de otro mundo. Se burla del oponente mientras lo rocía de veneno con el aguijón que tiene en la cabeza.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 67,
+      "attack": 73,
+      "defense": 67,
+      "spAttack": 73,
+      "spDefense": 67,
+      "speed": 73,
+      "total": 420
+    }
+  },
+  {
+    "id": 804,
+    "name": "naganadel",
+    "displayName": "Naganadel",
+    "formattedId": "Nº 0804",
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/804.png",
+    "height": "3.6",
+    "weight": "150.0",
+    "generation": 7,
+    "evolutionChainId": 424,
+    "evolvesFrom": 803,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Agulha Venenosa",
+    "description": "Uno de los Ultraentes. Su aguijón segrega un líquido tóxico cuya viscosidad le da una apariencia brillante.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 73,
+      "defense": 73,
+      "spAttack": 127,
+      "spDefense": 73,
+      "speed": 121,
+      "total": 540
+    }
+  },
+  {
+    "id": 805,
+    "name": "stakataka",
+    "displayName": "Stakataka",
+    "formattedId": "Nº 0805",
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/805.png",
+    "height": "5.5",
+    "weight": "820.0",
+    "generation": 7,
+    "evolutionChainId": 425,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rampart Pokémon ",
+    "description": "Extraña criatura que podría ser un Ultraente. Parece un muro rocoso hasta que se mueve de repente y ataca.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 131,
+      "defense": 211,
+      "spAttack": 53,
+      "spDefense": 101,
+      "speed": 13,
+      "total": 570
+    }
+  },
+  {
+    "id": 806,
+    "name": "blacephalon",
+    "displayName": "Blacephalon",
+    "formattedId": "Nº 0806",
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/806.png",
+    "height": "1.8",
+    "weight": "13.0",
+    "generation": 7,
+    "evolutionChainId": 426,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fireworks Pokémon ",
+    "description": "Un Ultraente surgido de un Ultraumbral. Crea una explosión para sorprender al oponente y aprovecha para absorber su energía vital.",
+    "abilities": [
+      {
+        "raw": "beast-boost",
+        "name": "beast boost",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 53,
+      "attack": 127,
+      "defense": 53,
+      "spAttack": 151,
+      "spDefense": 79,
+      "speed": 107,
+      "total": 570
+    }
+  },
+  {
+    "id": 807,
+    "name": "zeraora",
+    "displayName": "Zeraora",
+    "formattedId": "Nº 0807",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/807.png",
+    "height": "1.5",
+    "weight": "44.5",
+    "generation": 7,
+    "evolutionChainId": 427,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Thunderclap Pokémon ",
+    "description": "Las almohadillas de sus patas desprenden descargas eléctricas. Cuando corre, hace que caigan rayos y reverberen los truenos.",
+    "abilities": [
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 112,
+      "defense": 75,
+      "spAttack": 102,
+      "spDefense": 80,
+      "speed": 143,
+      "total": 600
+    }
+  },
+  {
+    "id": 808,
+    "name": "meltan",
+    "displayName": "Meltan",
+    "formattedId": "Nº 0808",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/808.png",
+    "height": "0.2",
+    "weight": "8.0",
+    "generation": 7,
+    "evolutionChainId": 428,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Hex Nut Pokémon ",
+    "description": "Viven en grupos, pero, llegado el momento, el ejemplar más fuerte absorbe a sus camaradas y evoluciona.",
+    "abilities": [
+      {
+        "raw": "magnet-pull",
+        "name": "magnet pull",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 46,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 55,
+      "spDefense": 35,
+      "speed": 34,
+      "total": 300
+    }
+  },
+  {
+    "id": 809,
+    "name": "melmetal",
+    "displayName": "Melmetal",
+    "formattedId": "Nº 0809",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/809.png",
+    "height": "2.5",
+    "weight": "800.0",
+    "generation": 7,
+    "evolutionChainId": 428,
+    "evolvesFrom": 808,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Hex Nut Pokémon ",
+    "description": "Gracias a la inercia y la fuerza centrífuga, los puñetazos que propina con sus pesadas tuercas son los más potentes del mundo Pokémon.",
+    "abilities": [
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 135,
+      "attack": 143,
+      "defense": 143,
+      "spAttack": 80,
+      "spDefense": 65,
+      "speed": 34,
+      "total": 600
+    }
+  },
+  {
+    "id": 810,
+    "name": "grookey",
+    "displayName": "Grookey",
+    "formattedId": "Nº 0810",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/810.png",
+    "height": "0.3",
+    "weight": "5.0",
+    "generation": 8,
+    "evolutionChainId": 430,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Chimpanzé",
+    "description": "Ataca golpeando sin cesar con su baqueta, con un entusiasmo que crece a medida que acelera el ritmo.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "grassy-surge",
+        "name": "grassy surge",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 65,
+      "total": 310
+    }
+  },
+  {
+    "id": 811,
+    "name": "thwackey",
+    "displayName": "Thwackey",
+    "formattedId": "Nº 0811",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/811.png",
+    "height": "0.7",
+    "weight": "14.0",
+    "generation": 8,
+    "evolutionChainId": 430,
+    "evolvesFrom": 810,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Beat Pokémon ",
+    "description": "Se concentra tanto en marcar el ritmo que, cuando su rival se debilita en combate, no se da ni cuenta.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "grassy-surge",
+        "name": "grassy surge",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 55,
+      "spDefense": 60,
+      "speed": 80,
+      "total": 420
+    }
+  },
+  {
+    "id": 812,
+    "name": "rillaboom",
+    "displayName": "Rillaboom",
+    "formattedId": "Nº 0812",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/812.png",
+    "height": "2.1",
+    "weight": "90.0",
+    "generation": 8,
+    "evolutionChainId": 430,
+    "evolvesFrom": 811,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Drummer Pokémon ",
+    "description": "El percusionista con la técnica más depurada se convierte en líder. Son de carácter tranquilo y dan mucha importancia a la armonía del grupo.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "grassy-surge",
+        "name": "grassy surge",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 125,
+      "defense": 90,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 85,
+      "total": 530
+    }
+  },
+  {
+    "id": 813,
+    "name": "scorbunny",
+    "displayName": "Scorbunny",
+    "formattedId": "Nº 0813",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/813.png",
+    "height": "0.3",
+    "weight": "4.5",
+    "generation": 8,
+    "evolutionChainId": 431,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Coelho",
+    "description": "Cuando se prepara para combatir, irradia calor por la punta de la nariz y el pelo que le recubre las patas.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "libero",
+        "name": "libero",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 71,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 69,
+      "total": 310
+    }
+  },
+  {
+    "id": 814,
+    "name": "raboot",
+    "displayName": "Raboot",
+    "formattedId": "Nº 0814",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/814.png",
+    "height": "0.6",
+    "weight": "9.0",
+    "generation": 8,
+    "evolutionChainId": 431,
+    "evolvesFrom": 813,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Coelho",
+    "description": "Para mejorar su habilidad con los pies, toma bayas de las ramas de los árboles sin usar las manos y juega a darles toques.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "libero",
+        "name": "libero",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 86,
+      "defense": 60,
+      "spAttack": 55,
+      "spDefense": 60,
+      "speed": 94,
+      "total": 420
+    }
+  },
+  {
+    "id": 815,
+    "name": "cinderace",
+    "displayName": "Cinderace",
+    "formattedId": "Nº 0815",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png",
+    "height": "1.4",
+    "weight": "33.0",
+    "generation": 8,
+    "evolutionChainId": 431,
+    "evolvesFrom": 814,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Atacante",
+    "description": "Destaca tanto en ataque como en defensa. Se crece cuando recibe una ovación, pero a veces se luce tanto que termina viéndose en apuros.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "libero",
+        "name": "libero",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 116,
+      "defense": 75,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 119,
+      "total": 530
+    }
+  },
+  {
+    "id": 816,
+    "name": "sobble",
+    "displayName": "Sobble",
+    "formattedId": "Nº 0816",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/816.png",
+    "height": "0.3",
+    "weight": "4.0",
+    "generation": 8,
+    "evolutionChainId": 432,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lagarto d'Água",
+    "description": "Al mojarse, su piel cambia de color y pasa a ser invisible, como si se hubiese camuflado.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 40,
+      "defense": 40,
+      "spAttack": 70,
+      "spDefense": 40,
+      "speed": 70,
+      "total": 310
+    }
+  },
+  {
+    "id": 817,
+    "name": "drizzile",
+    "displayName": "Drizzile",
+    "formattedId": "Nº 0817",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/817.png",
+    "height": "0.7",
+    "weight": "11.5",
+    "generation": 8,
+    "evolutionChainId": 432,
+    "evolvesFrom": 816,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lagarto d'Água",
+    "description": "Es inteligente, pero no muestra especial interés por nada. Distribuye trampas por su territorio para mantener alejados a sus enemigos.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 55,
+      "spAttack": 95,
+      "spDefense": 55,
+      "speed": 90,
+      "total": 420
+    }
+  },
+  {
+    "id": 818,
+    "name": "inteleon",
+    "displayName": "Inteleon",
+    "formattedId": "Nº 0818",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/818.png",
+    "height": "1.9",
+    "weight": "45.2",
+    "generation": 8,
+    "evolutionChainId": 432,
+    "evolvesFrom": 817,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Agente Secreto",
+    "description": "Dispara chorros de agua por la punta de los dedos a 3 mach de velocidad. Con su membrana nictitante puede ver los puntos débiles del rival.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "sniper",
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "spAttack": 125,
+      "spDefense": 65,
+      "speed": 120,
+      "total": 530
+    }
+  },
+  {
+    "id": 819,
+    "name": "skwovet",
+    "displayName": "Skwovet",
+    "formattedId": "Nº 0819",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/819.png",
+    "height": "0.3",
+    "weight": "2.5",
+    "generation": 8,
+    "evolutionChainId": 433,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cheeky Pokémon ",
+    "description": "Siempre están comiendo bayas, por lo que son más robustos de lo que aparentan. Frecuentan los huertos en busca de su preciado manjar.",
+    "abilities": [
+      {
+        "raw": "cheek-pouch",
+        "name": "cheek pouch",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 25,
+      "total": 275
+    }
+  },
+  {
+    "id": 820,
+    "name": "greedent",
+    "displayName": "Greedent",
+    "formattedId": "Nº 0820",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/820.png",
+    "height": "0.6",
+    "weight": "6.0",
+    "generation": 8,
+    "evolutionChainId": 433,
+    "evolvesFrom": 819,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Greedy Pokémon ",
+    "description": "Sus incisivos, de fuerza y dureza extraordinarias, le permiten mordisquear incluso las bayas más duras. Es un Pokémon muy común en Galar.",
+    "abilities": [
+      {
+        "raw": "cheek-pouch",
+        "name": "cheek pouch",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 95,
+      "defense": 95,
+      "spAttack": 55,
+      "spDefense": 75,
+      "speed": 20,
+      "total": 460
+    }
+  },
+  {
+    "id": 821,
+    "name": "rookidee",
+    "displayName": "Rookidee",
+    "formattedId": "Nº 0821",
+    "types": [
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/821.png",
+    "height": "0.2",
+    "weight": "1.8",
+    "generation": 8,
+    "evolutionChainId": 434,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Passarinho",
+    "description": "Su pequeño cuerpo le permite volar a gran velocidad para golpear los puntos débiles de rivales mucho más grandes que él.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": false
+      },
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 47,
+      "defense": 35,
+      "spAttack": 33,
+      "spDefense": 35,
+      "speed": 57,
+      "total": 245
+    }
+  },
+  {
+    "id": 822,
+    "name": "corvisquire",
+    "displayName": "Corvisquire",
+    "formattedId": "Nº 0822",
+    "types": [
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/822.png",
+    "height": "0.8",
+    "weight": "16.0",
+    "generation": 8,
+    "evolutionChainId": 434,
+    "evolvesFrom": 821,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Raven Pokémon ",
+    "description": "Tras haber librado combates muy duros, ha desarrollado la habilidad de determinar con precisión la fuerza de su adversario.",
+    "abilities": [
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": false
+      },
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 67,
+      "defense": 55,
+      "spAttack": 43,
+      "spDefense": 55,
+      "speed": 77,
+      "total": 365
+    }
+  },
+  {
+    "id": 823,
+    "name": "corviknight",
+    "displayName": "Corviknight",
+    "formattedId": "Nº 0823",
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png",
+    "height": "2.2",
+    "weight": "75.0",
+    "generation": 8,
+    "evolutionChainId": 434,
+    "evolvesFrom": 822,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Raven Pokémon ",
+    "description": "Debido a su excelente capacidad de vuelo y a su gran inteligencia, ejerce de taxi volador en Galar.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": false
+      },
+      {
+        "raw": "mirror-armor",
+        "name": "mirror armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 98,
+      "attack": 87,
+      "defense": 105,
+      "spAttack": 53,
+      "spDefense": 85,
+      "speed": 67,
+      "total": 495
+    }
+  },
+  {
+    "id": 824,
+    "name": "blipbug",
+    "displayName": "Blipbug",
+    "formattedId": "Nº 0824",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/824.png",
+    "height": "0.4",
+    "weight": "8.0",
+    "generation": 8,
+    "evolutionChainId": 435,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Larva Pokémon ",
+    "description": "Es habitual verlo en el campo. Los pelos que tiene son sensores con los que percibe lo que ocurre a su alrededor.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 20,
+      "spAttack": 25,
+      "spDefense": 45,
+      "speed": 45,
+      "total": 180
+    }
+  },
+  {
+    "id": 825,
+    "name": "dottler",
+    "displayName": "Dottler",
+    "formattedId": "Nº 0825",
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/825.png",
+    "height": "0.4",
+    "weight": "19.5",
+    "generation": 8,
+    "evolutionChainId": 435,
+    "evolvesFrom": 824,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Radome Pokémon ",
+    "description": "Está en constante crecimiento dentro del caparazón. Mientras se prepara para evolucionar, examina el exterior con sus poderes psíquicos.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 35,
+      "defense": 80,
+      "spAttack": 50,
+      "spDefense": 90,
+      "speed": 30,
+      "total": 335
+    }
+  },
+  {
+    "id": 826,
+    "name": "orbeetle",
+    "displayName": "Orbeetle",
+    "formattedId": "Nº 0826",
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png",
+    "height": "0.4",
+    "weight": "40.8",
+    "generation": 8,
+    "evolutionChainId": 435,
+    "evolvesFrom": 825,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Seven Spot Pokémon ",
+    "description": "Se sirve de sus poderes psíquicos, con los que es capaz de percibir lo que ocurre en un radio de 10 km, para examinar sus alrededores.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 110,
+      "spAttack": 80,
+      "spDefense": 120,
+      "speed": 90,
+      "total": 505
+    }
+  },
+  {
+    "id": 827,
+    "name": "nickit",
+    "displayName": "Nickit",
+    "formattedId": "Nº 0827",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/827.png",
+    "height": "0.6",
+    "weight": "8.9",
+    "generation": 8,
+    "evolutionChainId": 436,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Raposa",
+    "description": "Prudente y astuto, borra con la cola las huellas que deja al huir tras robarle el alimento a otro Pokémon.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "stakeout",
+        "name": "stakeout",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 28,
+      "defense": 28,
+      "spAttack": 47,
+      "spDefense": 52,
+      "speed": 50,
+      "total": 245
+    }
+  },
+  {
+    "id": 828,
+    "name": "thievul",
+    "displayName": "Thievul",
+    "formattedId": "Nº 0828",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/828.png",
+    "height": "1.2",
+    "weight": "19.9",
+    "generation": 8,
+    "evolutionChainId": 436,
+    "evolvesFrom": 827,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Raposa",
+    "description": "Un Pokémon ágil y de afiladas garras que se alimenta de huevos y comida robados. Los Boltund son su enemigo natural.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "stakeout",
+        "name": "stakeout",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 58,
+      "defense": 58,
+      "spAttack": 87,
+      "spDefense": 92,
+      "speed": 90,
+      "total": 455
+    }
+  },
+  {
+    "id": 829,
+    "name": "gossifleur",
+    "displayName": "Gossifleur",
+    "formattedId": "Nº 0829",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/829.png",
+    "height": "0.4",
+    "weight": "2.2",
+    "generation": 8,
+    "evolutionChainId": 437,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Flowering Pokémon ",
+    "description": "Muchos los crían tras quedar prendados de lo adorables que resultan cuando cantan dando vueltas empujados por la brisa.",
+    "abilities": [
+      {
+        "raw": "cotton-down",
+        "name": "cotton down",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": false
+      },
+      {
+        "raw": "effect-spore",
+        "name": "effect spore",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 60,
+      "speed": 10,
+      "total": 250
+    }
+  },
+  {
+    "id": 830,
+    "name": "eldegoss",
+    "displayName": "Eldegoss",
+    "formattedId": "Nº 0830",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/830.png",
+    "height": "0.5",
+    "weight": "2.5",
+    "generation": 8,
+    "evolutionChainId": 437,
+    "evolvesFrom": 829,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cotton Bloom Pokémon ",
+    "description": "El hilo fabricado a partir de su algodón es muy bello y brillante; uno de los productos estrella de la región de Galar.",
+    "abilities": [
+      {
+        "raw": "cotton-down",
+        "name": "cotton down",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": false
+      },
+      {
+        "raw": "effect-spore",
+        "name": "effect spore",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 90,
+      "spAttack": 80,
+      "spDefense": 120,
+      "speed": 60,
+      "total": 460
+    }
+  },
+  {
+    "id": 831,
+    "name": "wooloo",
+    "displayName": "Wooloo",
+    "formattedId": "Nº 0831",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/831.png",
+    "height": "0.6",
+    "weight": "6.0",
+    "generation": 8,
+    "evolutionChainId": 438,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sheep Pokémon ",
+    "description": "Si le crece el pelo demasiado, no puede moverse. Las telas confeccionadas con lana de Wooloo son sorprendentemente resistentes.",
+    "abilities": [
+      {
+        "raw": "fluffy",
+        "name": "fluffy",
+        "is_hidden": false
+      },
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 40,
+      "defense": 55,
+      "spAttack": 40,
+      "spDefense": 45,
+      "speed": 48,
+      "total": 270
+    }
+  },
+  {
+    "id": 832,
+    "name": "dubwool",
+    "displayName": "Dubwool",
+    "formattedId": "Nº 0832",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/832.png",
+    "height": "1.3",
+    "weight": "43.0",
+    "generation": 8,
+    "evolutionChainId": 438,
+    "evolvesFrom": 831,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sheep Pokémon ",
+    "description": "Sus espléndidos cuernos sirven de reclamo para atraer al sexo opuesto. No los utiliza como arma.",
+    "abilities": [
+      {
+        "raw": "fluffy",
+        "name": "fluffy",
+        "is_hidden": false
+      },
+      {
+        "raw": "steadfast",
+        "name": "steadfast",
+        "is_hidden": false
+      },
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 80,
+      "defense": 100,
+      "spAttack": 60,
+      "spDefense": 90,
+      "speed": 88,
+      "total": 490
+    }
+  },
+  {
+    "id": 833,
+    "name": "chewtle",
+    "displayName": "Chewtle",
+    "formattedId": "Nº 0833",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/833.png",
+    "height": "0.3",
+    "weight": "8.5",
+    "generation": 8,
+    "evolutionChainId": 439,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Snapping Pokémon ",
+    "description": "El cuerno que tiene en la cabeza es duro como una roca. Lo usa para atacar al rival y, cuando este baja la guardia, lo muerde y no lo suelta.",
+    "abilities": [
+      {
+        "raw": "strong-jaw",
+        "name": "strong jaw",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 64,
+      "defense": 50,
+      "spAttack": 38,
+      "spDefense": 38,
+      "speed": 44,
+      "total": 284
+    }
+  },
+  {
+    "id": 834,
+    "name": "drednaw",
+    "displayName": "Drednaw",
+    "formattedId": "Nº 0834",
+    "types": [
+      "water",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/834.png",
+    "height": "1.0",
+    "weight": "115.5",
+    "generation": 8,
+    "evolutionChainId": 439,
+    "evolvesFrom": 833,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bite Pokémon ",
+    "description": "Su cuello extensible le permite alcanzar a los rivales a distancia. Hundiendo sus afilados dientes, les da el golpe de gracia.",
+    "abilities": [
+      {
+        "raw": "strong-jaw",
+        "name": "strong jaw",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 115,
+      "defense": 90,
+      "spAttack": 48,
+      "spDefense": 68,
+      "speed": 74,
+      "total": 485
+    }
+  },
+  {
+    "id": 835,
+    "name": "yamper",
+    "displayName": "Yamper",
+    "formattedId": "Nº 0835",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/835.png",
+    "height": "0.3",
+    "weight": "13.5",
+    "generation": 8,
+    "evolutionChainId": 440,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cachorrinho",
+    "description": "Son muy glotones, por lo que ayudan a la gente a cambio de comida. Echan chispas al correr.",
+    "abilities": [
+      {
+        "raw": "ball-fetch",
+        "name": "ball fetch",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 59,
+      "attack": 45,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 26,
+      "total": 270
+    }
+  },
+  {
+    "id": 836,
+    "name": "boltund",
+    "displayName": "Boltund",
+    "formattedId": "Nº 0836",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/836.png",
+    "height": "1.0",
+    "weight": "34.0",
+    "generation": 8,
+    "evolutionChainId": 440,
+    "evolvesFrom": 835,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Dog Pokémon ",
+    "description": "La electricidad le confiere una enorme fuerza en las patas. Su velocidad punta puede superar los 90 km/h sin problema.",
+    "abilities": [
+      {
+        "raw": "strong-jaw",
+        "name": "strong jaw",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 69,
+      "attack": 90,
+      "defense": 60,
+      "spAttack": 90,
+      "spDefense": 60,
+      "speed": 121,
+      "total": 490
+    }
+  },
+  {
+    "id": 837,
+    "name": "rolycoly",
+    "displayName": "Rolycoly",
+    "formattedId": "Nº 0837",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/837.png",
+    "height": "0.3",
+    "weight": "12.0",
+    "generation": 8,
+    "evolutionChainId": 441,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Coal Pokémon ",
+    "description": "Recorre incluso los caminos más impracticables y pedregosos como si de un monociclo se tratase. La combustión de carbón es su fuente vital.",
+    "abilities": [
+      {
+        "raw": "steam-engine",
+        "name": "steam engine",
+        "is_hidden": false
+      },
+      {
+        "raw": "heatproof",
+        "name": "heatproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 30,
+      "total": 240
+    }
+  },
+  {
+    "id": 838,
+    "name": "carkol",
+    "displayName": "Carkol",
+    "formattedId": "Nº 0838",
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/838.png",
+    "height": "1.1",
+    "weight": "78.0",
+    "generation": 8,
+    "evolutionChainId": 441,
+    "evolvesFrom": 837,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Coal Pokémon ",
+    "description": "Gira las patas a gran velocidad para correr a unos 30 km/h. Emite llamas a una temperatura de 1000 °C.",
+    "abilities": [
+      {
+        "raw": "steam-engine",
+        "name": "steam engine",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 60,
+      "defense": 90,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 50,
+      "total": 410
+    }
+  },
+  {
+    "id": 839,
+    "name": "coalossal",
+    "displayName": "Coalossal",
+    "formattedId": "Nº 0839",
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/839.png",
+    "height": "2.8",
+    "weight": "310.5",
+    "generation": 8,
+    "evolutionChainId": 441,
+    "evolvesFrom": 838,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Coal Pokémon ",
+    "description": "Cuando se enzarza en un combate, la montaña de carbón arde al rojo vivo y esparce chispas que calcinan todo lo que le rodea.",
+    "abilities": [
+      {
+        "raw": "steam-engine",
+        "name": "steam engine",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": false
+      },
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 80,
+      "defense": 120,
+      "spAttack": 80,
+      "spDefense": 90,
+      "speed": 30,
+      "total": 510
+    }
+  },
+  {
+    "id": 840,
+    "name": "applin",
+    "displayName": "Applin",
+    "formattedId": "Nº 0840",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+    "height": "0.2",
+    "weight": "0.5",
+    "generation": 8,
+    "evolutionChainId": 442,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Apple Core Pokémon ",
+    "description": "Nada más nacer se refugia en una manzana, cuyo interior va devorando a medida que crece. El sabor de la fruta determina la evolución.",
+    "abilities": [
+      {
+        "raw": "ripen",
+        "name": "ripen",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 80,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 20,
+      "total": 260
+    }
+  },
+  {
+    "id": 841,
+    "name": "flapple",
+    "displayName": "Flapple",
+    "formattedId": "Nº 0841",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png",
+    "height": "0.3",
+    "weight": "1.0",
+    "generation": 8,
+    "evolutionChainId": 442,
+    "evolvesFrom": 840,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Apple Wing Pokémon ",
+    "description": "Escupe una saliva sumamente ácida y vuela con sus alas compuestas por piel de manzana, cuyo aspecto es capaz de adoptar.",
+    "abilities": [
+      {
+        "raw": "ripen",
+        "name": "ripen",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "spAttack": 95,
+      "spDefense": 60,
+      "speed": 70,
+      "total": 485
+    }
+  },
+  {
+    "id": 842,
+    "name": "appletun",
+    "displayName": "Appletun",
+    "formattedId": "Nº 0842",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png",
+    "height": "0.4",
+    "weight": "13.0",
+    "generation": 8,
+    "evolutionChainId": 442,
+    "evolvesFrom": 840,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Apple Nectar Pokémon ",
+    "description": "Su cuerpo está recubierto de néctar. La piel de la espalda es tan dulce que los niños de antaño solían tomarla como merienda.",
+    "abilities": [
+      {
+        "raw": "ripen",
+        "name": "ripen",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 85,
+      "defense": 80,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 30,
+      "total": 485
+    }
+  },
+  {
+    "id": 843,
+    "name": "silicobra",
+    "displayName": "Silicobra",
+    "formattedId": "Nº 0843",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/843.png",
+    "height": "2.2",
+    "weight": "7.6",
+    "generation": 8,
+    "evolutionChainId": 443,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sand Snake Pokémon ",
+    "description": "Expulsa arena por los orificios nasales. Una vez que aturde al enemigo, aprovecha la ocasión para ocultarse bajo tierra.",
+    "abilities": [
+      {
+        "raw": "sand-spit",
+        "name": "sand spit",
+        "is_hidden": false
+      },
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 52,
+      "attack": 57,
+      "defense": 75,
+      "spAttack": 35,
+      "spDefense": 50,
+      "speed": 46,
+      "total": 315
+    }
+  },
+  {
+    "id": 844,
+    "name": "sandaconda",
+    "displayName": "Sandaconda",
+    "formattedId": "Nº 0844",
+    "types": [
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/844.png",
+    "height": "3.8",
+    "weight": "65.5",
+    "generation": 8,
+    "evolutionChainId": 443,
+    "evolvesFrom": 843,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sand Snake Pokémon ",
+    "description": "La manera tan particular que tiene de enrollarse sobre sí mismo le permite expulsar con mayor eficacia la arena que almacena en la bolsa.",
+    "abilities": [
+      {
+        "raw": "sand-spit",
+        "name": "sand spit",
+        "is_hidden": false
+      },
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 107,
+      "defense": 125,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 71,
+      "total": 510
+    }
+  },
+  {
+    "id": 845,
+    "name": "cramorant",
+    "displayName": "Cramorant",
+    "formattedId": "Nº 0845",
+    "types": [
+      "flying",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/845.png",
+    "height": "0.8",
+    "weight": "18.0",
+    "generation": 8,
+    "evolutionChainId": 444,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Gulp Pokémon ",
+    "description": "Traga Arrokuda enteros debido a su glotonería, tan notable que en ocasiones ingiere hasta otros Pokémon sin querer.",
+    "abilities": [
+      {
+        "raw": "gulp-missile",
+        "name": "gulp missile",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 55,
+      "spAttack": 85,
+      "spDefense": 95,
+      "speed": 85,
+      "total": 475
+    }
+  },
+  {
+    "id": 846,
+    "name": "arrokuda",
+    "displayName": "Arrokuda",
+    "formattedId": "Nº 0846",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/846.png",
+    "height": "0.5",
+    "weight": "1.0",
+    "generation": 8,
+    "evolutionChainId": 445,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rush Pokémon ",
+    "description": "Cuando tiene el estómago lleno, le cuesta moverse y corre el riesgo de ser engullido por algún Cramorant.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "propeller-tail",
+        "name": "propeller tail",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 41,
+      "attack": 63,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 30,
+      "speed": 66,
+      "total": 280
+    }
+  },
+  {
+    "id": 847,
+    "name": "barraskewda",
+    "displayName": "Barraskewda",
+    "formattedId": "Nº 0847",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/847.png",
+    "height": "1.3",
+    "weight": "30.0",
+    "generation": 8,
+    "evolutionChainId": 445,
+    "evolvesFrom": 846,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Skewer Pokémon ",
+    "description": "Hace girar su aleta caudal para impulsarse y arremeter contra la presa, a la que ensarta a una velocidad que supera los 100 nudos.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "propeller-tail",
+        "name": "propeller tail",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 123,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 136,
+      "total": 490
+    }
+  },
+  {
+    "id": 848,
+    "name": "toxel",
+    "displayName": "Toxel",
+    "formattedId": "Nº 0848",
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/848.png",
+    "height": "0.4",
+    "weight": "11.0",
+    "generation": 8,
+    "evolutionChainId": 446,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Baby Pokémon ",
+    "description": "Provoca una reacción química para generar energía eléctrica con sus toxinas. Aunque de bajo voltaje, puede causar entumecimiento.",
+    "abilities": [
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": false
+      },
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 38,
+      "defense": 35,
+      "spAttack": 54,
+      "spDefense": 35,
+      "speed": 40,
+      "total": 242
+    }
+  },
+  {
+    "id": 849,
+    "name": "toxtricity-amped",
+    "displayName": "Toxtricity",
+    "formattedId": "Nº 0849",
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/849.png",
+    "height": "1.6",
+    "weight": "40.0",
+    "generation": 8,
+    "evolutionChainId": 446,
+    "evolvesFrom": 848,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Punk Pokémon ",
+    "description": "Posee un carácter belicoso e irascible. Bebe una gran cantidad de agua estancada para absorber sus toxinas.",
+    "abilities": [
+      {
+        "raw": "punk-rock",
+        "name": "punk rock",
+        "is_hidden": false
+      },
+      {
+        "raw": "plus",
+        "name": "plus",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 98,
+      "defense": 70,
+      "spAttack": 114,
+      "spDefense": 70,
+      "speed": 75,
+      "total": 502
+    }
+  },
+  {
+    "id": 850,
+    "name": "sizzlipede",
+    "displayName": "Sizzlipede",
+    "formattedId": "Nº 0850",
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/850.png",
+    "height": "0.7",
+    "weight": "1.0",
+    "generation": 8,
+    "evolutionChainId": 447,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Radiator Pokémon ",
+    "description": "Oprime a sus presas con su cuerpo candente. Una vez bien tostadas, las devora con fruición.",
+    "abilities": [
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "white-smoke",
+        "name": "white smoke",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 45,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 45,
+      "total": 305
+    }
+  },
+  {
+    "id": 851,
+    "name": "centiskorch",
+    "displayName": "Centiskorch",
+    "formattedId": "Nº 0851",
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/851.png",
+    "height": "3.0",
+    "weight": "120.0",
+    "generation": 8,
+    "evolutionChainId": 447,
+    "evolvesFrom": 850,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Radiator Pokémon ",
+    "description": "Posee una naturaleza agresiva. El peligro que entraña su cuerpo candente es considerable, aunque sus afilados colmillos no le van a la zaga.",
+    "abilities": [
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "white-smoke",
+        "name": "white smoke",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 115,
+      "defense": 65,
+      "spAttack": 90,
+      "spDefense": 90,
+      "speed": 65,
+      "total": 525
+    }
+  },
+  {
+    "id": 852,
+    "name": "clobbopus",
+    "displayName": "Clobbopus",
+    "formattedId": "Nº 0852",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/852.png",
+    "height": "0.6",
+    "weight": "4.0",
+    "generation": 8,
+    "evolutionChainId": 448,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tantrum Pokémon ",
+    "description": "Su inteligencia es similar a la de un niño de tres años. Sus tentáculos se desprenden a menudo, pero ni se inmuta, ya que se regeneran solos.",
+    "abilities": [
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 68,
+      "defense": 60,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 32,
+      "total": 310
+    }
+  },
+  {
+    "id": 853,
+    "name": "grapploct",
+    "displayName": "Grapploct",
+    "formattedId": "Nº 0853",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/853.png",
+    "height": "1.6",
+    "weight": "39.0",
+    "generation": 8,
+    "evolutionChainId": 448,
+    "evolvesFrom": 852,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Jujitsu Pokémon ",
+    "description": "Se aventura en tierra firme para buscar rivales contra los que luchar para medir su valía. Tras terminar el combate, regresa al mar.",
+    "abilities": [
+      {
+        "raw": "limber",
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 118,
+      "defense": 90,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 42,
+      "total": 480
+    }
+  },
+  {
+    "id": 854,
+    "name": "sinistea",
+    "displayName": "Sinistea",
+    "formattedId": "Nº 0854",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/854.png",
+    "height": "0.1",
+    "weight": "0.2",
+    "generation": 8,
+    "evolutionChainId": 449,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Black Tea Pokémon ",
+    "description": "La taza de té donde se hospeda forma parte de una antigua y valiosa vajilla, de la que circulan numerosas falsificaciones.",
+    "abilities": [
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 45,
+      "spAttack": 74,
+      "spDefense": 54,
+      "speed": 50,
+      "total": 308
+    }
+  },
+  {
+    "id": 855,
+    "name": "polteageist",
+    "displayName": "Polteageist",
+    "formattedId": "Nº 0855",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/855.png",
+    "height": "0.2",
+    "weight": "0.4",
+    "generation": 8,
+    "evolutionChainId": 449,
+    "evolvesFrom": 854,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Black Tea Pokémon ",
+    "description": "Si avista una taza de té abandonada a su suerte, la rellena vertiendo parte de su propio cuerpo para generar otro Polteageist.",
+    "abilities": [
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 134,
+      "spDefense": 114,
+      "speed": 70,
+      "total": 508
+    }
+  },
+  {
+    "id": 856,
+    "name": "hatenna",
+    "displayName": "Hatenna",
+    "formattedId": "Nº 0856",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/856.png",
+    "height": "0.4",
+    "weight": "3.4",
+    "generation": 8,
+    "evolutionChainId": 450,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Calm Pokémon ",
+    "description": "Siente predilección por los lugares despoblados. Si percibe una emoción intensa, emprende la huida a toda prisa.",
+    "abilities": [
+      {
+        "raw": "healer",
+        "name": "healer",
+        "is_hidden": false
+      },
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-bounce",
+        "name": "magic bounce",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 42,
+      "attack": 30,
+      "defense": 45,
+      "spAttack": 56,
+      "spDefense": 53,
+      "speed": 39,
+      "total": 265
+    }
+  },
+  {
+    "id": 857,
+    "name": "hattrem",
+    "displayName": "Hattrem",
+    "formattedId": "Nº 0857",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/857.png",
+    "height": "0.6",
+    "weight": "4.8",
+    "generation": 8,
+    "evolutionChainId": 450,
+    "evolvesFrom": 856,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Serene Pokémon ",
+    "description": "Silencia al objetivo atizándole con los mechones. Despliega una potencia devastadora capaz de noquear a un boxeador profesional.",
+    "abilities": [
+      {
+        "raw": "healer",
+        "name": "healer",
+        "is_hidden": false
+      },
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-bounce",
+        "name": "magic bounce",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 57,
+      "attack": 40,
+      "defense": 65,
+      "spAttack": 86,
+      "spDefense": 73,
+      "speed": 49,
+      "total": 370
+    }
+  },
+  {
+    "id": 858,
+    "name": "hatterene",
+    "displayName": "Hatterene",
+    "formattedId": "Nº 0858",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/858.png",
+    "height": "2.1",
+    "weight": "5.1",
+    "generation": 8,
+    "evolutionChainId": 450,
+    "evolvesFrom": 857,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Silent Pokémon ",
+    "description": "Recibe el apodo de Hechicera del Bosque. Quienes arman demasiado barullo se exponen a ser despedazados por las garras de su tentáculo.",
+    "abilities": [
+      {
+        "raw": "healer",
+        "name": "healer",
+        "is_hidden": false
+      },
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": false
+      },
+      {
+        "raw": "magic-bounce",
+        "name": "magic bounce",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 57,
+      "attack": 90,
+      "defense": 95,
+      "spAttack": 136,
+      "spDefense": 103,
+      "speed": 29,
+      "total": 510
+    }
+  },
+  {
+    "id": 859,
+    "name": "impidimp",
+    "displayName": "Impidimp",
+    "formattedId": "Nº 0859",
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/859.png",
+    "height": "0.4",
+    "weight": "5.5",
+    "generation": 8,
+    "evolutionChainId": 451,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Wily Pokémon ",
+    "description": "Se infiltra en las casas para hurtar a sus anchas y, por si fuera poco, nutrirse de la energía negativa que liberan sus contrariados habitantes.",
+    "abilities": [
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 45,
+      "defense": 30,
+      "spAttack": 55,
+      "spDefense": 40,
+      "speed": 50,
+      "total": 265
+    }
+  },
+  {
+    "id": 860,
+    "name": "morgrem",
+    "displayName": "Morgrem",
+    "formattedId": "Nº 0860",
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/860.png",
+    "height": "0.8",
+    "weight": "12.5",
+    "generation": 8,
+    "evolutionChainId": 451,
+    "evolvesFrom": 859,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Devious Pokémon ",
+    "description": "De noche, atrae con astucia a su objetivo hasta el bosque. Al parecer, tiene la capacidad de hacer crecer productos agrícolas.",
+    "abilities": [
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 45,
+      "spAttack": 75,
+      "spDefense": 55,
+      "speed": 70,
+      "total": 370
+    }
+  },
+  {
+    "id": 861,
+    "name": "grimmsnarl",
+    "displayName": "Grimmsnarl",
+    "formattedId": "Nº 0861",
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/861.png",
+    "height": "1.5",
+    "weight": "61.0",
+    "generation": 8,
+    "evolutionChainId": 451,
+    "evolvesFrom": 860,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Bulk Up Pokémon ",
+    "description": "Su cabello desempeña una función similar a la de fibras musculares. Al soltárselo, su movimiento tentacular le permite reducir a su objetivo.",
+    "abilities": [
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 120,
+      "defense": 65,
+      "spAttack": 95,
+      "spDefense": 75,
+      "speed": 60,
+      "total": 510
+    }
+  },
+  {
+    "id": 862,
+    "name": "obstagoon",
+    "displayName": "Obstagoon",
+    "formattedId": "Nº 0862",
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/862.png",
+    "height": "1.6",
+    "weight": "46.0",
+    "generation": 8,
+    "evolutionChainId": 134,
+    "evolvesFrom": 264,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Blocking Pokémon ",
+    "description": "Evoluciona tras haber librado numerosas peleas. El grito de guerra que profiere mientras pone los brazos en cruz atemoriza a cualquier rival.",
+    "abilities": [
+      {
+        "raw": "reckless",
+        "name": "reckless",
+        "is_hidden": false
+      },
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 93,
+      "attack": 90,
+      "defense": 101,
+      "spAttack": 60,
+      "spDefense": 81,
+      "speed": 95,
+      "total": 520
+    }
+  },
+  {
+    "id": 863,
+    "name": "perrserker",
+    "displayName": "Perrserker",
+    "formattedId": "Nº 0863",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/863.png",
+    "height": "0.8",
+    "weight": "28.0",
+    "generation": 8,
+    "evolutionChainId": 22,
+    "evolvesFrom": 52,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Viking Pokémon ",
+    "description": "Su devoción por la lucha ha propiciado que evolucionara y le ha conferido unas peligrosas garras que se convierten en dagas al extenderse.",
+    "abilities": [
+      {
+        "raw": "battle-armor",
+        "name": "battle armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "tough-claws",
+        "name": "tough claws",
+        "is_hidden": false
+      },
+      {
+        "raw": "steely-spirit",
+        "name": "steely spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 100,
+      "spAttack": 50,
+      "spDefense": 60,
+      "speed": 50,
+      "total": 440
+    }
+  },
+  {
+    "id": 864,
+    "name": "cursola",
+    "displayName": "Cursola",
+    "formattedId": "Nº 0864",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/864.png",
+    "height": "1.0",
+    "weight": "0.4",
+    "generation": 8,
+    "evolutionChainId": 113,
+    "evolvesFrom": 222,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Coral Pokémon ",
+    "description": "Conviene tener cuidado con el cuerpo espectral que recubre su alma, pues quien lo toque podría acabar inerte como una piedra.",
+    "abilities": [
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "perish-body",
+        "name": "perish body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 50,
+      "spAttack": 145,
+      "spDefense": 130,
+      "speed": 30,
+      "total": 510
+    }
+  },
+  {
+    "id": 865,
+    "name": "sirfetchd",
+    "displayName": "Sirfetch’d",
+    "formattedId": "Nº 0865",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/865.png",
+    "height": "0.8",
+    "weight": "117.0",
+    "generation": 8,
+    "evolutionChainId": 35,
+    "evolvesFrom": 83,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Pato Selvagem",
+    "description": "Repele ataques con las hojas de su duro puerro y contraataca con su tallo afilado. El puerro que le sirve de armamento sigue siendo comestible.",
+    "abilities": [
+      {
+        "raw": "steadfast",
+        "name": "steadfast",
+        "is_hidden": false
+      },
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 62,
+      "attack": 135,
+      "defense": 95,
+      "spAttack": 68,
+      "spDefense": 82,
+      "speed": 65,
+      "total": 507
+    }
+  },
+  {
+    "id": 866,
+    "name": "mr-rime",
+    "displayName": "Mr. Rime",
+    "formattedId": "Nº 0866",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/866.png",
+    "height": "1.5",
+    "weight": "58.2",
+    "generation": 8,
+    "evolutionChainId": 57,
+    "evolvesFrom": 122,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Comedian Pokémon ",
+    "description": "Se ha granjeado la simpatía de todo el mundo por sus cómicos movimientos. Emite poderes psíquicos por el motivo de su barriga.",
+    "abilities": [
+      {
+        "raw": "tangled-feet",
+        "name": "tangled feet",
+        "is_hidden": false
+      },
+      {
+        "raw": "screen-cleaner",
+        "name": "screen cleaner",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 75,
+      "spAttack": 110,
+      "spDefense": 100,
+      "speed": 70,
+      "total": 520
+    }
+  },
+  {
+    "id": 867,
+    "name": "runerigus",
+    "displayName": "Runerigus",
+    "formattedId": "Nº 0867",
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/867.png",
+    "height": "1.6",
+    "weight": "66.6",
+    "generation": 8,
+    "evolutionChainId": 287,
+    "evolvesFrom": 562,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Grudge Pokémon ",
+    "description": "Su cuerpo, similar a una sombra, no debe tocarse bajo ningún concepto o se visualizarán los horribles recuerdos impregnados en la imagen.",
+    "abilities": [
+      {
+        "raw": "wandering-spirit",
+        "name": "wandering spirit",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 95,
+      "defense": 145,
+      "spAttack": 50,
+      "spDefense": 105,
+      "speed": 30,
+      "total": 483
+    }
+  },
+  {
+    "id": 868,
+    "name": "milcery",
+    "displayName": "Milcery",
+    "formattedId": "Nº 0868",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/868.png",
+    "height": "0.2",
+    "weight": "0.3",
+    "generation": 8,
+    "evolutionChainId": 452,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cream Pokémon ",
+    "description": "Se dice que las pastelerías donde ha aparecido Milcery tienen casi todas las papeletas para saborear las mieles del éxito.",
+    "abilities": [
+      {
+        "raw": "sweet-veil",
+        "name": "sweet veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "aroma-veil",
+        "name": "aroma veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 40,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 61,
+      "speed": 34,
+      "total": 270
+    }
+  },
+  {
+    "id": 869,
+    "name": "alcremie",
+    "displayName": "Alcremie",
+    "formattedId": "Nº 0869",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/869.png",
+    "height": "0.3",
+    "weight": "0.5",
+    "generation": 8,
+    "evolutionChainId": 452,
+    "evolvesFrom": 868,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Cream Pokémon ",
+    "description": "La nata que le brota de las manos es más dulce y sustanciosa cuando está feliz.",
+    "abilities": [
+      {
+        "raw": "sweet-veil",
+        "name": "sweet veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "aroma-veil",
+        "name": "aroma veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 75,
+      "spAttack": 110,
+      "spDefense": 121,
+      "speed": 64,
+      "total": 495
+    }
+  },
+  {
+    "id": 870,
+    "name": "falinks",
+    "displayName": "Falinks",
+    "formattedId": "Nº 0870",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png",
+    "height": "3.0",
+    "weight": "62.0",
+    "generation": 8,
+    "evolutionChainId": 453,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Formation Pokémon ",
+    "description": "Este Pokémon está formado por seis individuos que cambian de formación al luchar, haciendo gala de un notable espíritu de equipo.",
+    "abilities": [
+      {
+        "raw": "battle-armor",
+        "name": "battle armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 100,
+      "spAttack": 70,
+      "spDefense": 60,
+      "speed": 75,
+      "total": 470
+    }
+  },
+  {
+    "id": 871,
+    "name": "pincurchin",
+    "displayName": "Pincurchin",
+    "formattedId": "Nº 0871",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/871.png",
+    "height": "0.3",
+    "weight": "1.0",
+    "generation": 8,
+    "evolutionChainId": 454,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Sea Urchin Pokémon ",
+    "description": "Acumula electricidad en cada una de sus púas. Aunque estas se rompan, son capaces de seguir descargando energía durante 3 h.",
+    "abilities": [
+      {
+        "raw": "lightning-rod",
+        "name": "lightning rod",
+        "is_hidden": false
+      },
+      {
+        "raw": "electric-surge",
+        "name": "electric surge",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 101,
+      "defense": 95,
+      "spAttack": 91,
+      "spDefense": 85,
+      "speed": 15,
+      "total": 435
+    }
+  },
+  {
+    "id": 872,
+    "name": "snom",
+    "displayName": "Snom",
+    "formattedId": "Nº 0872",
+    "types": [
+      "ice",
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/872.png",
+    "height": "0.3",
+    "weight": "3.8",
+    "generation": 8,
+    "evolutionChainId": 455,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Lagarta",
+    "description": "Se nutre de la nieve acumulada en el terreno. Cuanta más ingiere, más imponentes se vuelven las púas que presenta en el lomo.",
+    "abilities": [
+      {
+        "raw": "shield-dust",
+        "name": "shield dust",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-scales",
+        "name": "ice scales",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 25,
+      "defense": 35,
+      "spAttack": 45,
+      "spDefense": 30,
+      "speed": 20,
+      "total": 185
+    }
+  },
+  {
+    "id": 873,
+    "name": "frosmoth",
+    "displayName": "Frosmoth",
+    "formattedId": "Nº 0873",
+    "types": [
+      "ice",
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/873.png",
+    "height": "1.3",
+    "weight": "42.0",
+    "generation": 8,
+    "evolutionChainId": 455,
+    "evolvesFrom": 872,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Frost Moth Pokémon ",
+    "description": "No muestra la menor compasión con quien asole el campo: lo escarmienta batiendo sus gélidas alas para provocar una ventisca.",
+    "abilities": [
+      {
+        "raw": "shield-dust",
+        "name": "shield dust",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-scales",
+        "name": "ice scales",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 125,
+      "spDefense": 90,
+      "speed": 65,
+      "total": 475
+    }
+  },
+  {
+    "id": 874,
+    "name": "stonjourner",
+    "displayName": "Stonjourner",
+    "formattedId": "Nº 0874",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/874.png",
+    "height": "2.5",
+    "weight": "520.0",
+    "generation": 8,
+    "evolutionChainId": 456,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big Rock Pokémon ",
+    "description": "Una vez al año y en una fecha concreta, tienen la costumbre de aparecer de la nada para reunirse y formar un círculo.",
+    "abilities": [
+      {
+        "raw": "power-spot",
+        "name": "power spot",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 125,
+      "defense": 135,
+      "spAttack": 20,
+      "spDefense": 20,
+      "speed": 70,
+      "total": 470
+    }
+  },
+  {
+    "id": 875,
+    "name": "eiscue-ice",
+    "displayName": "Eiscue",
+    "formattedId": "Nº 0875",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/875.png",
+    "height": "1.4",
+    "weight": "89.0",
+    "generation": 8,
+    "evolutionChainId": 457,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Penguin Pokémon ",
+    "description": "Se enfría constantemente la cara con hielo por su escasa resistencia al calor. Utiliza el pelo de la cabeza para pescar en el mar.",
+    "abilities": [
+      {
+        "raw": "ice-face",
+        "name": "ice face",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 110,
+      "spAttack": 65,
+      "spDefense": 90,
+      "speed": 50,
+      "total": 470
+    }
+  },
+  {
+    "id": 876,
+    "name": "indeedee-male",
+    "displayName": "Indeedee",
+    "formattedId": "Nº 0876",
+    "types": [
+      "psychic",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/876.png",
+    "height": "0.9",
+    "weight": "28.0",
+    "generation": 8,
+    "evolutionChainId": 458,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Emotion Pokémon ",
+    "description": "Con sus cuernos percibe las emociones de los seres vivos que se hallen cerca. Los sentimientos positivos constituyen su fuente de energía.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "psychic-surge",
+        "name": "psychic surge",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 55,
+      "spAttack": 105,
+      "spDefense": 95,
+      "speed": 95,
+      "total": 475
+    }
+  },
+  {
+    "id": 877,
+    "name": "morpeko-full-belly",
+    "displayName": "Morpeko",
+    "formattedId": "Nº 0877",
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/877.png",
+    "height": "0.3",
+    "weight": "3.0",
+    "generation": 8,
+    "evolutionChainId": 459,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Two-Sided Pokémon ",
+    "description": "Siempre tiene apetito, sin importar lo mucho que coma. Lleva con sumo cuidado las semillas que ha tostado con su propia electricidad.",
+    "abilities": [
+      {
+        "raw": "hunger-switch",
+        "name": "hunger switch",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 95,
+      "defense": 58,
+      "spAttack": 70,
+      "spDefense": 58,
+      "speed": 97,
+      "total": 436
+    }
+  },
+  {
+    "id": 878,
+    "name": "cufant",
+    "displayName": "Cufant",
+    "formattedId": "Nº 0878",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/878.png",
+    "height": "1.2",
+    "weight": "100.0",
+    "generation": 8,
+    "evolutionChainId": 460,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Copperderm Pokémon ",
+    "description": "Realiza tareas que requieren de esfuerzo físico, es su fuerte. Con la lluvia, su cuerpo de cobre se oxida y adquiere una tonalidad verde intensa.",
+    "abilities": [
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "heavy-metal",
+        "name": "heavy metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 80,
+      "defense": 49,
+      "spAttack": 40,
+      "spDefense": 49,
+      "speed": 40,
+      "total": 330
+    }
+  },
+  {
+    "id": 879,
+    "name": "copperajah",
+    "displayName": "Copperajah",
+    "formattedId": "Nº 0879",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/879.png",
+    "height": "3.0",
+    "weight": "650.0",
+    "generation": 8,
+    "evolutionChainId": 460,
+    "evolvesFrom": 878,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Copperderm Pokémon ",
+    "description": "Viven en manadas. La fuerza prensil de su trompa es tan extraordinaria que le permite hacer añicos incluso grandes rocas.",
+    "abilities": [
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "heavy-metal",
+        "name": "heavy metal",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 122,
+      "attack": 130,
+      "defense": 69,
+      "spAttack": 80,
+      "spDefense": 69,
+      "speed": 30,
+      "total": 500
+    }
+  },
+  {
+    "id": 880,
+    "name": "dracozolt",
+    "displayName": "Dracozolt",
+    "formattedId": "Nº 0880",
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/880.png",
+    "height": "1.8",
+    "weight": "190.0",
+    "generation": 8,
+    "evolutionChainId": 461,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Fóssil",
+    "description": "Produce electricidad con la robusta musculatura de la cola. El tamaño de la parte superior del cuerpo palidece en comparación con la inferior.",
+    "abilities": [
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-rush",
+        "name": "sand rush",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "spAttack": 80,
+      "spDefense": 70,
+      "speed": 75,
+      "total": 505
+    }
+  },
+  {
+    "id": 881,
+    "name": "arctozolt",
+    "displayName": "Arctozolt",
+    "formattedId": "Nº 0881",
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/881.png",
+    "height": "2.3",
+    "weight": "150.0",
+    "generation": 8,
+    "evolutionChainId": 462,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Fóssil",
+    "description": "Antiguamente vivía en el mar y usaba el hielo del cuerpo para conservar los alimentos. Su extrema lentitud, sin embargo, lo condenó a la extinción.",
+    "abilities": [
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "slush-rush",
+        "name": "slush rush",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "spAttack": 90,
+      "spDefense": 80,
+      "speed": 55,
+      "total": 505
+    }
+  },
+  {
+    "id": 882,
+    "name": "dracovish",
+    "displayName": "Dracovish",
+    "formattedId": "Nº 0882",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/882.png",
+    "height": "2.3",
+    "weight": "215.0",
+    "generation": 8,
+    "evolutionChainId": 463,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Fóssil",
+    "description": "Exhibe con orgullo su inmensa capacidad motriz, que le permite superar los 60 km/h, pero solo puede respirar bajo el agua.",
+    "abilities": [
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "strong-jaw",
+        "name": "strong jaw",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-rush",
+        "name": "sand rush",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 100,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 75,
+      "total": 505
+    }
+  },
+  {
+    "id": 883,
+    "name": "arctovish",
+    "displayName": "Arctovish",
+    "formattedId": "Nº 0883",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/883.png",
+    "height": "2.0",
+    "weight": "175.0",
+    "generation": 8,
+    "evolutionChainId": 464,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Fóssil",
+    "description": "Aunque la piel de su rostro era capaz de resistir cualquier ataque, su dificultad para respirar acabó provocando su extinción.",
+    "abilities": [
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": false
+      },
+      {
+        "raw": "slush-rush",
+        "name": "slush rush",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 100,
+      "spAttack": 80,
+      "spDefense": 90,
+      "speed": 55,
+      "total": 505
+    }
+  },
+  {
+    "id": 884,
+    "name": "duraludon",
+    "displayName": "Duraludon",
+    "formattedId": "Nº 0884",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/884.png",
+    "height": "1.8",
+    "weight": "40.0",
+    "generation": 8,
+    "evolutionChainId": 465,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Alloy Pokémon ",
+    "description": "Hace gala de una agilidad extraordinaria, ya que su cuerpo está compuesto de un metal especial. Detesta la lluvia, por lo que habita en cuevas.",
+    "abilities": [
+      {
+        "raw": "light-metal",
+        "name": "light metal",
+        "is_hidden": false
+      },
+      {
+        "raw": "heavy-metal",
+        "name": "heavy metal",
+        "is_hidden": false
+      },
+      {
+        "raw": "stalwart",
+        "name": "stalwart",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 95,
+      "defense": 115,
+      "spAttack": 120,
+      "spDefense": 50,
+      "speed": 85,
+      "total": 535
+    }
+  },
+  {
+    "id": 885,
+    "name": "dreepy",
+    "displayName": "Dreepy",
+    "formattedId": "Nº 0885",
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/885.png",
+    "height": "0.5",
+    "weight": "2.0",
+    "generation": 8,
+    "evolutionChainId": 466,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Lingering Pokémon ",
+    "description": "En solitario es tan débil que no sería rival ni para un niño, pero, al entrenarse con sus congéneres, evoluciona y se vuelve más fuerte.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 28,
+      "attack": 60,
+      "defense": 30,
+      "spAttack": 40,
+      "spDefense": 30,
+      "speed": 82,
+      "total": 270
+    }
+  },
+  {
+    "id": 886,
+    "name": "drakloak",
+    "displayName": "Drakloak",
+    "formattedId": "Nº 0886",
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/886.png",
+    "height": "1.4",
+    "weight": "11.0",
+    "generation": 8,
+    "evolutionChainId": 466,
+    "evolvesFrom": 885,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Caretaker Pokémon ",
+    "description": "Si no lleva un Dreepy del que cuidar encima de la cabeza, se intranquiliza y trata de sustituirlo con otro Pokémon.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 102,
+      "total": 410
+    }
+  },
+  {
+    "id": 887,
+    "name": "dragapult",
+    "displayName": "Dragapult",
+    "formattedId": "Nº 0887",
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/887.png",
+    "height": "3.0",
+    "weight": "50.0",
+    "generation": 8,
+    "evolutionChainId": 466,
+    "evolvesFrom": 886,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Stealth Pokémon ",
+    "description": "Al parecer, los Dreepy que residen en sus cuernos esperan con ilusión el momento de ser propulsados a velocidad supersónica.",
+    "abilities": [
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": false
+      },
+      {
+        "raw": "cursed-body",
+        "name": "cursed body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 120,
+      "defense": 75,
+      "spAttack": 100,
+      "spDefense": 75,
+      "speed": 142,
+      "total": 600
+    }
+  },
+  {
+    "id": 888,
+    "name": "zacian",
+    "displayName": "Zacian",
+    "formattedId": "Nº 0888",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/888.png",
+    "height": "2.8",
+    "weight": "110.0",
+    "generation": 8,
+    "evolutionChainId": 467,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Guerreiro",
+    "description": "Hay quien lo considera una suerte de figura fraterna a la par que rival de Zamazenta, un Pokémon sumido en un profundo letargo.",
+    "abilities": [
+      {
+        "raw": "intrepid-sword",
+        "name": "intrepid sword",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 92,
+      "attack": 120,
+      "defense": 115,
+      "spAttack": 80,
+      "spDefense": 115,
+      "speed": 138,
+      "total": 660
+    }
+  },
+  {
+    "id": 889,
+    "name": "zamazenta",
+    "displayName": "Zamazenta",
+    "formattedId": "Nº 0889",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/889.png",
+    "height": "2.9",
+    "weight": "210.0",
+    "generation": 8,
+    "evolutionChainId": 468,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Guerreiro",
+    "description": "Con la apariencia de una estatua de piedra, este Pokémon se sumió en un letargo tan profundo que acabó cayendo en el olvido.",
+    "abilities": [
+      {
+        "raw": "dauntless-shield",
+        "name": "dauntless shield",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 92,
+      "attack": 120,
+      "defense": 115,
+      "spAttack": 80,
+      "spDefense": 115,
+      "speed": 138,
+      "total": 660
+    }
+  },
+  {
+    "id": 890,
+    "name": "eternatus",
+    "displayName": "Eternatus",
+    "formattedId": "Nº 0890",
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/890.png",
+    "height": "20.0",
+    "weight": "950.0",
+    "generation": 8,
+    "evolutionChainId": 469,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Gigantic Pokémon ",
+    "description": "Fue hallado en el interior de un meteorito caído hace 20 000 años. Por lo visto, está relacionado con el misterio que rodea al fenómeno Dinamax.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 140,
+      "attack": 85,
+      "defense": 95,
+      "spAttack": 145,
+      "spDefense": 95,
+      "speed": 130,
+      "total": 690
+    }
+  },
+  {
+    "id": 891,
+    "name": "kubfu",
+    "displayName": "Kubfu",
+    "formattedId": "Nº 0891",
+    "types": [
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/891.png",
+    "height": "0.6",
+    "weight": "12.0",
+    "generation": 8,
+    "evolutionChainId": 470,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Wushu Pokémon ",
+    "description": "Al tirar de los mechones blancos de la cabeza, acrecienta su espíritu luchador y empieza a acumular fuerza en el órgano de su bajo vientre.",
+    "abilities": [
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 60,
+      "spAttack": 53,
+      "spDefense": 50,
+      "speed": 72,
+      "total": 385
+    }
+  },
+  {
+    "id": 892,
+    "name": "urshifu-single-strike",
+    "displayName": "Urshifu",
+    "formattedId": "Nº 0892",
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/892.png",
+    "height": "1.9",
+    "weight": "105.0",
+    "generation": 8,
+    "evolutionChainId": 470,
+    "evolvesFrom": 891,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Wushu Pokémon ",
+    "description": "Vive en zonas montañosas en áreas recónditas, donde entrena corriendo por escarpados riscos para fortalecer sus piernas y refinar su técnica.",
+    "abilities": [
+      {
+        "raw": "unseen-fist",
+        "name": "unseen fist",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 130,
+      "defense": 100,
+      "spAttack": 63,
+      "spDefense": 60,
+      "speed": 97,
+      "total": 550
+    }
+  },
+  {
+    "id": 893,
+    "name": "zarude",
+    "displayName": "Zarude",
+    "formattedId": "Nº 0893",
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/893.png",
+    "height": "1.8",
+    "weight": "70.0",
+    "generation": 8,
+    "evolutionChainId": 471,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Rogue Monkey Pokémon ",
+    "description": "Las lianas que le brotan del cuerpo nutren y fertilizan el mantillo del bosque cuando se le desprenden.",
+    "abilities": [
+      {
+        "raw": "leaf-guard",
+        "name": "leaf guard",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 120,
+      "defense": 105,
+      "spAttack": 70,
+      "spDefense": 95,
+      "speed": 105,
+      "total": 600
+    }
+  },
+  {
+    "id": 894,
+    "name": "regieleki",
+    "displayName": "Regieleki",
+    "formattedId": "Nº 0894",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/894.png",
+    "height": "1.2",
+    "weight": "145.0",
+    "generation": 8,
+    "evolutionChainId": 472,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Electron Pokémon ",
+    "description": "Todo su cuerpo es un órgano electrógeno, cuya potencia sería suficiente para abastecer la región de Galar por completo.",
+    "abilities": [
+      {
+        "raw": "transistor",
+        "name": "transistor",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 50,
+      "spAttack": 100,
+      "spDefense": 50,
+      "speed": 200,
+      "total": 580
+    }
+  },
+  {
+    "id": 895,
+    "name": "regidrago",
+    "displayName": "Regidrago",
+    "formattedId": "Nº 0895",
+    "types": [
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/895.png",
+    "height": "2.1",
+    "weight": "200.0",
+    "generation": 8,
+    "evolutionChainId": 473,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Dragon Orb Pokémon ",
+    "description": "Todo su cuerpo es una gema de energía dragón cristalizada. Se cree que posee los poderes de todos los Pokémon dragón.",
+    "abilities": [
+      {
+        "raw": "dragons-maw",
+        "name": "dragons maw",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 200,
+      "attack": 100,
+      "defense": 50,
+      "spAttack": 100,
+      "spDefense": 50,
+      "speed": 80,
+      "total": 580
+    }
+  },
+  {
+    "id": 896,
+    "name": "glastrier",
+    "displayName": "Glastrier",
+    "formattedId": "Nº 0896",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/896.png",
+    "height": "2.2",
+    "weight": "800.0",
+    "generation": 8,
+    "evolutionChainId": 474,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Wild Horse Pokémon ",
+    "description": "Cuenta con una fuerza física sobrecogedora. La máscara de hielo que le cubre el rostro es cien veces más dura que el diamante.",
+    "abilities": [
+      {
+        "raw": "chilling-neigh",
+        "name": "chilling neigh",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 145,
+      "defense": 130,
+      "spAttack": 65,
+      "spDefense": 110,
+      "speed": 30,
+      "total": 580
+    }
+  },
+  {
+    "id": 897,
+    "name": "spectrier",
+    "displayName": "Spectrier",
+    "formattedId": "Nº 0897",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/897.png",
+    "height": "2.0",
+    "weight": "44.5",
+    "generation": 8,
+    "evolutionChainId": 475,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Swift Horse Pokémon ",
+    "description": "Amante de la quietud y la soledad, galopa por las tinieblas nocturnas absorbiendo la energía vital de toda criatura que esté durmiendo.",
+    "abilities": [
+      {
+        "raw": "grim-neigh",
+        "name": "grim neigh",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 145,
+      "spDefense": 80,
+      "speed": 130,
+      "total": 580
+    }
+  },
+  {
+    "id": 898,
+    "name": "calyrex",
+    "displayName": "Calyrex",
+    "formattedId": "Nº 0898",
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/898.png",
+    "height": "1.1",
+    "weight": "7.7",
+    "generation": 8,
+    "evolutionChainId": 476,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "King Pokémon ",
+    "description": "Legendario monarca del antiguo Galar. Posee el poder de sanar el espíritu y de hacer brotar la vegetación.",
+    "abilities": [
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 80,
+      "defense": 80,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 80,
+      "total": 500
+    }
+  },
+  {
+    "id": 899,
+    "name": "wyrdeer",
+    "displayName": "Wyrdeer",
+    "formattedId": "Nº 0899",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/899.png",
+    "height": "1.8",
+    "weight": "95.1",
+    "generation": 8,
+    "evolutionChainId": 120,
+    "evolvesFrom": 234,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big Horn Pokémon ",
+    "description": "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 103,
+      "attack": 105,
+      "defense": 72,
+      "spAttack": 105,
+      "spDefense": 75,
+      "speed": 65,
+      "total": 525
+    }
+  },
+  {
+    "id": 900,
+    "name": "kleavor",
+    "displayName": "Kleavor",
+    "formattedId": "Nº 0900",
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/900.png",
+    "height": "1.8",
+    "weight": "89.0",
+    "generation": 8,
+    "evolutionChainId": 58,
+    "evolvesFrom": 123,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Axe Pokémon ",
+    "description": "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": false
+      },
+      {
+        "raw": "sharpness",
+        "name": "sharpness",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 135,
+      "defense": 95,
+      "spAttack": 45,
+      "spDefense": 70,
+      "speed": 85,
+      "total": 500
+    }
+  },
+  {
+    "id": 901,
+    "name": "ursaluna",
+    "displayName": "Ursaluna",
+    "formattedId": "Nº 0901",
+    "types": [
+      "ground",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/901.png",
+    "height": "2.4",
+    "weight": "290.0",
+    "generation": 8,
+    "evolutionChainId": 110,
+    "evolvesFrom": 217,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Peat Pokémon ",
+    "description": "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
+    "abilities": [
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "raw": "bulletproof",
+        "name": "bulletproof",
+        "is_hidden": false
+      },
+      {
+        "raw": "unnerve",
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 140,
+      "defense": 105,
+      "spAttack": 45,
+      "spDefense": 80,
+      "speed": 50,
+      "total": 550
+    }
+  },
+  {
+    "id": 902,
+    "name": "basculegion-male",
+    "displayName": "Basculegion",
+    "formattedId": "Nº 0902",
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/902.png",
+    "height": "3.0",
+    "weight": "110.0",
+    "generation": 8,
+    "evolutionChainId": 280,
+    "evolvesFrom": 550,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big Fish Pokémon ",
+    "description": "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
+    "abilities": [
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "adaptability",
+        "name": "adaptability",
+        "is_hidden": false
+      },
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 112,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 75,
+      "speed": 78,
+      "total": 530
+    }
+  },
+  {
+    "id": 903,
+    "name": "sneasler",
+    "displayName": "Sneasler",
+    "formattedId": "Nº 0903",
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/903.png",
+    "height": "1.3",
+    "weight": "43.0",
+    "generation": 8,
+    "evolutionChainId": 109,
+    "evolvesFrom": 215,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Free Climb Pokémon ",
+    "description": "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
+    "abilities": [
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-touch",
+        "name": "poison touch",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 130,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 80,
+      "speed": 120,
+      "total": 510
+    }
+  },
+  {
+    "id": 904,
+    "name": "overqwil",
+    "displayName": "Overqwil",
+    "formattedId": "Nº 0904",
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/904.png",
+    "height": "2.5",
+    "weight": "60.5",
+    "generation": 8,
+    "evolutionChainId": 106,
+    "evolvesFrom": 211,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pin Cluster Pokémon ",
+    "description": "Its lancelike spikes and savage temperament have earned it the nickname ”sea fiend.” It slurps up poison to nourish itself.",
+    "abilities": [
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "swift-swim",
+        "name": "swift swim",
+        "is_hidden": false
+      },
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 95,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 85,
+      "total": 510
+    }
+  },
+  {
+    "id": 905,
+    "name": "enamorus-incarnate",
+    "displayName": "Enamorus",
+    "formattedId": "Nº 0905",
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/905.png",
+    "height": "1.6",
+    "weight": "48.0",
+    "generation": 8,
+    "evolutionChainId": 477,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Love-Hate Pokémon ",
+    "description": "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
+    "abilities": [
+      {
+        "raw": "cute-charm",
+        "name": "cute charm",
+        "is_hidden": false
+      },
+      {
+        "raw": "contrary",
+        "name": "contrary",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 115,
+      "defense": 70,
+      "spAttack": 135,
+      "spDefense": 80,
+      "speed": 106,
+      "total": 580
+    }
+  },
+  {
+    "id": 906,
+    "name": "sprigatito",
+    "displayName": "Sprigatito",
+    "formattedId": "Nº 0906",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/906.png",
+    "height": "0.4",
+    "weight": "4.1",
+    "generation": 9,
+    "evolutionChainId": 478,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Grass Cat Pokémon ",
+    "description": "The sweet scent its body gives off mesmerizes those around it. The scent grows stronger when this Pokémon is in the sun.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "protean",
+        "name": "protean",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 61,
+      "defense": 54,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 65,
+      "total": 310
+    }
+  },
+  {
+    "id": 907,
+    "name": "floragato",
+    "displayName": "Floragato",
+    "formattedId": "Nº 0907",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/907.png",
+    "height": "0.9",
+    "weight": "12.2",
+    "generation": 9,
+    "evolutionChainId": 478,
+    "evolvesFrom": 906,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Grass Cat Pokémon ",
+    "description": "The hardness of Floragato’s fur depends on the Pokémon’s mood. When Floragato is prepared to battle, its fur becomes pointed and needle sharp.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "protean",
+        "name": "protean",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 80,
+      "defense": 63,
+      "spAttack": 60,
+      "spDefense": 63,
+      "speed": 83,
+      "total": 410
+    }
+  },
+  {
+    "id": 908,
+    "name": "meowscarada",
+    "displayName": "Meowscarada",
+    "formattedId": "Nº 0908",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/908.png",
+    "height": "1.5",
+    "weight": "31.2",
+    "generation": 9,
+    "evolutionChainId": 478,
+    "evolvesFrom": 907,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Magician Pokémon ",
+    "description": "With skillful misdirection, it rigs foes with pollen-packed flower bombs. Meowscarada sets off the bombs before its foes realize what’s going on.",
+    "abilities": [
+      {
+        "raw": "overgrow",
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "raw": "protean",
+        "name": "protean",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 76,
+      "attack": 110,
+      "defense": 70,
+      "spAttack": 81,
+      "spDefense": 70,
+      "speed": 123,
+      "total": 530
+    }
+  },
+  {
+    "id": 909,
+    "name": "fuecoco",
+    "displayName": "Fuecoco",
+    "formattedId": "Nº 0909",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/909.png",
+    "height": "0.4",
+    "weight": "9.8",
+    "generation": 9,
+    "evolutionChainId": 479,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fire Croc Pokémon ",
+    "description": "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco’s head and flickers to and fro.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 67,
+      "attack": 45,
+      "defense": 59,
+      "spAttack": 63,
+      "spDefense": 40,
+      "speed": 36,
+      "total": 310
+    }
+  },
+  {
+    "id": 910,
+    "name": "crocalor",
+    "displayName": "Crocalor",
+    "formattedId": "Nº 0910",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/910.png",
+    "height": "1.0",
+    "weight": "30.7",
+    "generation": 9,
+    "evolutionChainId": 479,
+    "evolvesFrom": 909,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fire Croc Pokémon ",
+    "description": "The valve in Crocalor’s flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 81,
+      "attack": 55,
+      "defense": 78,
+      "spAttack": 90,
+      "spDefense": 58,
+      "speed": 49,
+      "total": 411
+    }
+  },
+  {
+    "id": 911,
+    "name": "skeledirge",
+    "displayName": "Skeledirge",
+    "formattedId": "Nº 0911",
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/911.png",
+    "height": "1.6",
+    "weight": "326.5",
+    "generation": 9,
+    "evolutionChainId": 479,
+    "evolvesFrom": 910,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Singer Pokémon ",
+    "description": "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
+    "abilities": [
+      {
+        "raw": "blaze",
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 104,
+      "attack": 75,
+      "defense": 100,
+      "spAttack": 110,
+      "spDefense": 75,
+      "speed": 66,
+      "total": 530
+    }
+  },
+  {
+    "id": 912,
+    "name": "quaxly",
+    "displayName": "Quaxly",
+    "formattedId": "Nº 0912",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/912.png",
+    "height": "0.5",
+    "weight": "6.1",
+    "generation": 9,
+    "evolutionChainId": 480,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Duckling Pokémon ",
+    "description": "Its strong legs let it easily swim around in even fast-flowing rivers. It likes to keep things tidy and is prone to overthinking things.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 45,
+      "spAttack": 50,
+      "spDefense": 45,
+      "speed": 50,
+      "total": 310
+    }
+  },
+  {
+    "id": 913,
+    "name": "quaxwell",
+    "displayName": "Quaxwell",
+    "formattedId": "Nº 0913",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/913.png",
+    "height": "1.2",
+    "weight": "21.5",
+    "generation": 9,
+    "evolutionChainId": 480,
+    "evolvesFrom": 912,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Practicing Pokémon ",
+    "description": "The hardworking Quaxwell observes people and Pokémon from various regions and incorporates their movements into its own dance routines.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "spAttack": 65,
+      "spDefense": 60,
+      "speed": 65,
+      "total": 410
+    }
+  },
+  {
+    "id": 914,
+    "name": "quaquaval",
+    "displayName": "Quaquaval",
+    "formattedId": "Nº 0914",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/914.png",
+    "height": "1.8",
+    "weight": "61.9",
+    "generation": 9,
+    "evolutionChainId": 480,
+    "evolvesFrom": 913,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Dancer Pokémon ",
+    "description": "Dancing in ways that evoke far-away places, this Pokémon mesmerizes all that see it. Flourishes of its decorative water feathers slice into its foes.",
+    "abilities": [
+      {
+        "raw": "torrent",
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "raw": "moxie",
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 120,
+      "defense": 80,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 85,
+      "total": 530
+    }
+  },
+  {
+    "id": 915,
+    "name": "lechonk",
+    "displayName": "Lechonk",
+    "formattedId": "Nº 0915",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/915.png",
+    "height": "0.5",
+    "weight": "10.2",
+    "generation": 9,
+    "evolutionChainId": 481,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hog Pokémon ",
+    "description": "This Pokémon spurns all but the finest of foods. Its body gives off an herblike scent that bug Pokémon detest.",
+    "abilities": [
+      {
+        "raw": "aroma-veil",
+        "name": "aroma veil",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 35,
+      "total": 254
+    }
+  },
+  {
+    "id": 916,
+    "name": "oinkologne-male",
+    "displayName": "Oinkologne",
+    "formattedId": "Nº 0916",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/916.png",
+    "height": "1.0",
+    "weight": "120.0",
+    "generation": 9,
+    "evolutionChainId": 481,
+    "evolvesFrom": 915,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hog Pokémon ",
+    "description": "It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.",
+    "abilities": [
+      {
+        "raw": "lingering-aroma",
+        "name": "lingering aroma",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 100,
+      "defense": 75,
+      "spAttack": 59,
+      "spDefense": 80,
+      "speed": 65,
+      "total": 489
+    }
+  },
+  {
+    "id": 917,
+    "name": "tarountula",
+    "displayName": "Tarountula",
+    "formattedId": "Nº 0917",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/917.png",
+    "height": "0.3",
+    "weight": "4.0",
+    "generation": 9,
+    "evolutionChainId": 482,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "String Ball Pokémon ",
+    "description": "The thread it secretes from its rear is as strong as wire. The secret behind the thread’s strength is the topic of ongoing research.",
+    "abilities": [
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "stakeout",
+        "name": "stakeout",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 41,
+      "defense": 45,
+      "spAttack": 29,
+      "spDefense": 40,
+      "speed": 20,
+      "total": 210
+    }
+  },
+  {
+    "id": 918,
+    "name": "spidops",
+    "displayName": "Spidops",
+    "formattedId": "Nº 0918",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/918.png",
+    "height": "1.0",
+    "weight": "16.5",
+    "generation": 9,
+    "evolutionChainId": 482,
+    "evolvesFrom": 917,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Trap Pokémon ",
+    "description": "Spidops covers its territory in tough, sticky threads to set up traps for intruders.",
+    "abilities": [
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "stakeout",
+        "name": "stakeout",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 79,
+      "defense": 92,
+      "spAttack": 52,
+      "spDefense": 86,
+      "speed": 35,
+      "total": 404
+    }
+  },
+  {
+    "id": 919,
+    "name": "nymble",
+    "displayName": "Nymble",
+    "formattedId": "Nº 0919",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/919.png",
+    "height": "0.2",
+    "weight": "1.0",
+    "generation": 9,
+    "evolutionChainId": 483,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Grasshopper Pokémon ",
+    "description": "It’s highly skilled at a fighting style in which it uses its jumping capabilities to dodge incoming attacks while also dealing damage to opponents.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "tinted-lens",
+        "name": "tinted lens",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 33,
+      "attack": 46,
+      "defense": 40,
+      "spAttack": 21,
+      "spDefense": 25,
+      "speed": 45,
+      "total": 210
+    }
+  },
+  {
+    "id": 920,
+    "name": "lokix",
+    "displayName": "Lokix",
+    "formattedId": "Nº 0920",
+    "types": [
+      "bug",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/920.png",
+    "height": "1.0",
+    "weight": "17.5",
+    "generation": 9,
+    "evolutionChainId": 483,
+    "evolvesFrom": 919,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Grasshopper Pokémon ",
+    "description": "It uses its normally folded third set of legs when in Showdown Mode. This places a huge burden on its body, so it can’t stay in this mode for long.",
+    "abilities": [
+      {
+        "raw": "swarm",
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "raw": "tinted-lens",
+        "name": "tinted lens",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 102,
+      "defense": 78,
+      "spAttack": 52,
+      "spDefense": 55,
+      "speed": 92,
+      "total": 450
+    }
+  },
+  {
+    "id": 921,
+    "name": "pawmi",
+    "displayName": "Pawmi",
+    "formattedId": "Nº 0921",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/921.png",
+    "height": "0.3",
+    "weight": "2.5",
+    "generation": 9,
+    "evolutionChainId": 484,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Rato",
+    "description": "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
+    "abilities": [
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 20,
+      "spAttack": 40,
+      "spDefense": 25,
+      "speed": 60,
+      "total": 240
+    }
+  },
+  {
+    "id": 922,
+    "name": "pawmo",
+    "displayName": "Pawmo",
+    "formattedId": "Nº 0922",
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/922.png",
+    "height": "0.4",
+    "weight": "6.5",
+    "generation": 9,
+    "evolutionChainId": 484,
+    "evolvesFrom": 921,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Rato",
+    "description": "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
+    "abilities": [
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 40,
+      "speed": 85,
+      "total": 350
+    }
+  },
+  {
+    "id": 923,
+    "name": "pawmot",
+    "displayName": "Pawmot",
+    "formattedId": "Nº 0923",
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/923.png",
+    "height": "0.9",
+    "weight": "41.0",
+    "generation": 9,
+    "evolutionChainId": 484,
+    "evolvesFrom": 922,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hands-On Pokémon ",
+    "description": "Pawmot’s fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+    "abilities": [
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "natural-cure",
+        "name": "natural cure",
+        "is_hidden": false
+      },
+      {
+        "raw": "iron-fist",
+        "name": "iron fist",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 115,
+      "defense": 70,
+      "spAttack": 70,
+      "spDefense": 60,
+      "speed": 105,
+      "total": 490
+    }
+  },
+  {
+    "id": 924,
+    "name": "tandemaus",
+    "displayName": "Tandemaus",
+    "formattedId": "Nº 0924",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/924.png",
+    "height": "0.3",
+    "weight": "1.8",
+    "generation": 9,
+    "evolutionChainId": 485,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Couple Pokémon ",
+    "description": "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
+    "abilities": [
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 45,
+      "spAttack": 40,
+      "spDefense": 45,
+      "speed": 75,
+      "total": 305
+    }
+  },
+  {
+    "id": 925,
+    "name": "maushold-family-of-four",
+    "displayName": "Maushold",
+    "formattedId": "Nº 0925",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/925.png",
+    "height": "0.3",
+    "weight": "2.8",
+    "generation": 9,
+    "evolutionChainId": 485,
+    "evolvesFrom": 924,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Family Pokémon ",
+    "description": "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+    "abilities": [
+      {
+        "raw": "friend-guard",
+        "name": "friend guard",
+        "is_hidden": false
+      },
+      {
+        "raw": "cheek-pouch",
+        "name": "cheek pouch",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 75,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 111,
+      "total": 470
+    }
+  },
+  {
+    "id": 926,
+    "name": "fidough",
+    "displayName": "Fidough",
+    "formattedId": "Nº 0926",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/926.png",
+    "height": "0.3",
+    "weight": "10.9",
+    "generation": 9,
+    "evolutionChainId": 486,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Cachorrinho",
+    "description": "The yeast in Fidough’s breath is useful for cooking, so this Pokémon has been protected by people since long ago.",
+    "abilities": [
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 37,
+      "attack": 55,
+      "defense": 70,
+      "spAttack": 30,
+      "spDefense": 55,
+      "speed": 65,
+      "total": 312
+    }
+  },
+  {
+    "id": 927,
+    "name": "dachsbun",
+    "displayName": "Dachsbun",
+    "formattedId": "Nº 0927",
+    "types": [
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/927.png",
+    "height": "0.5",
+    "weight": "14.9",
+    "generation": 9,
+    "evolutionChainId": 486,
+    "evolvesFrom": 926,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Dog Pokémon ",
+    "description": "The surface of this Pokémon’s skin hardens when exposed to intense heat, and its body has an appetizing aroma.",
+    "abilities": [
+      {
+        "raw": "well-baked-body",
+        "name": "well baked body",
+        "is_hidden": false
+      },
+      {
+        "raw": "aroma-veil",
+        "name": "aroma veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 57,
+      "attack": 80,
+      "defense": 115,
+      "spAttack": 50,
+      "spDefense": 80,
+      "speed": 95,
+      "total": 477
+    }
+  },
+  {
+    "id": 928,
+    "name": "smoliv",
+    "displayName": "Smoliv",
+    "formattedId": "Nº 0928",
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/928.png",
+    "height": "0.3",
+    "weight": "6.5",
+    "generation": 9,
+    "evolutionChainId": 487,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Olive Pokémon ",
+    "description": "This Pokémon converts nutrients into oil, which it stores in the fruit on its head. It can easily go a whole week without eating or drinking.",
+    "abilities": [
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "harvest",
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 41,
+      "attack": 35,
+      "defense": 45,
+      "spAttack": 58,
+      "spDefense": 51,
+      "speed": 30,
+      "total": 260
+    }
+  },
+  {
+    "id": 929,
+    "name": "dolliv",
+    "displayName": "Dolliv",
+    "formattedId": "Nº 0929",
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/929.png",
+    "height": "0.6",
+    "weight": "11.9",
+    "generation": 9,
+    "evolutionChainId": 487,
+    "evolvesFrom": 928,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Olive Pokémon ",
+    "description": "It basks in the sun to its heart’s content until the fruits on its head ripen. After that, Dolliv departs from human settlements and goes on a journey.",
+    "abilities": [
+      {
+        "raw": "early-bird",
+        "name": "early bird",
+        "is_hidden": false
+      },
+      {
+        "raw": "harvest",
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 52,
+      "attack": 53,
+      "defense": 60,
+      "spAttack": 78,
+      "spDefense": 78,
+      "speed": 33,
+      "total": 354
+    }
+  },
+  {
+    "id": 930,
+    "name": "arboliva",
+    "displayName": "Arboliva",
+    "formattedId": "Nº 0930",
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/930.png",
+    "height": "1.4",
+    "weight": "48.2",
+    "generation": 9,
+    "evolutionChainId": 487,
+    "evolvesFrom": 929,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Olive Pokémon ",
+    "description": "This Pokémon drives back enemies by launching its rich, aromatic oil at them with enough force to smash a boulder.",
+    "abilities": [
+      {
+        "raw": "seed-sower",
+        "name": "seed sower",
+        "is_hidden": false
+      },
+      {
+        "raw": "harvest",
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 69,
+      "defense": 90,
+      "spAttack": 125,
+      "spDefense": 109,
+      "speed": 39,
+      "total": 510
+    }
+  },
+  {
+    "id": 931,
+    "name": "squawkabilly-green-plumage",
+    "displayName": "Squawkabilly",
+    "formattedId": "Nº 0931",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png",
+    "height": "0.6",
+    "weight": "2.4",
+    "generation": 9,
+    "evolutionChainId": 488,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Parrot Pokémon ",
+    "description": "Green-feathered flocks hold the most sway. When they’re out searching for food in the mornings and evenings, it gets very noisy.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "hustle",
+        "name": "hustle",
+        "is_hidden": false
+      },
+      {
+        "raw": "guts",
+        "name": "guts",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 82,
+      "attack": 96,
+      "defense": 51,
+      "spAttack": 45,
+      "spDefense": 51,
+      "speed": 92,
+      "total": 417
+    }
+  },
+  {
+    "id": 932,
+    "name": "nacli",
+    "displayName": "Nacli",
+    "formattedId": "Nº 0932",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/932.png",
+    "height": "0.4",
+    "weight": "16.0",
+    "generation": 9,
+    "evolutionChainId": 489,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rock Salt Pokémon ",
+    "description": "The ground scrapes its body as it travels, causing it to leave salt behind. Salt is constantly being created and replenished inside Nacli’s body.",
+    "abilities": [
+      {
+        "raw": "purifying-salt",
+        "name": "purifying salt",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 75,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 25,
+      "total": 280
+    }
+  },
+  {
+    "id": 933,
+    "name": "naclstack",
+    "displayName": "Naclstack",
+    "formattedId": "Nº 0933",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/933.png",
+    "height": "0.6",
+    "weight": "105.0",
+    "generation": 9,
+    "evolutionChainId": 489,
+    "evolvesFrom": 932,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rock Salt Pokémon ",
+    "description": "It compresses rock salt inside its body and shoots out hardened salt pellets with enough force to perforate an iron sheet.",
+    "abilities": [
+      {
+        "raw": "purifying-salt",
+        "name": "purifying salt",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 100,
+      "spAttack": 35,
+      "spDefense": 65,
+      "speed": 35,
+      "total": 355
+    }
+  },
+  {
+    "id": 934,
+    "name": "garganacl",
+    "displayName": "Garganacl",
+    "formattedId": "Nº 0934",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/934.png",
+    "height": "2.3",
+    "weight": "240.0",
+    "generation": 9,
+    "evolutionChainId": 489,
+    "evolvesFrom": 933,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rock Salt Pokémon ",
+    "description": "Many Pokémon gather around Garganacl, hoping to lick at its mineral-rich salt.",
+    "abilities": [
+      {
+        "raw": "purifying-salt",
+        "name": "purifying salt",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "clear-body",
+        "name": "clear body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 130,
+      "spAttack": 45,
+      "spDefense": 90,
+      "speed": 35,
+      "total": 500
+    }
+  },
+  {
+    "id": 935,
+    "name": "charcadet",
+    "displayName": "Charcadet",
+    "formattedId": "Nº 0935",
+    "types": [
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/935.png",
+    "height": "0.6",
+    "weight": "10.5",
+    "generation": 9,
+    "evolutionChainId": 490,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fire Child Pokémon ",
+    "description": "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat.",
+    "abilities": [
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "flame-body",
+        "name": "flame body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 40,
+      "speed": 35,
+      "total": 255
+    }
+  },
+  {
+    "id": 936,
+    "name": "armarouge",
+    "displayName": "Armarouge",
+    "formattedId": "Nº 0936",
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/936.png",
+    "height": "1.5",
+    "weight": "85.0",
+    "generation": 9,
+    "evolutionChainId": 490,
+    "evolvesFrom": 935,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fire Warrior Pokémon ",
+    "description": "This Pokémon clads itself in armor that has been fortified by psychic and fire energy, and it shoots blazing fireballs.",
+    "abilities": [
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 60,
+      "defense": 100,
+      "spAttack": 125,
+      "spDefense": 80,
+      "speed": 75,
+      "total": 525
+    }
+  },
+  {
+    "id": 937,
+    "name": "ceruledge",
+    "displayName": "Ceruledge",
+    "formattedId": "Nº 0937",
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/937.png",
+    "height": "1.6",
+    "weight": "62.0",
+    "generation": 9,
+    "evolutionChainId": 490,
+    "evolvesFrom": 935,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Fire Blades Pokémon ",
+    "description": "An old set of armor steeped in grudges caused this Pokémon’s evolution. Ceruledge cuts its enemies to pieces without mercy.",
+    "abilities": [
+      {
+        "raw": "flash-fire",
+        "name": "flash fire",
+        "is_hidden": false
+      },
+      {
+        "raw": "weak-armor",
+        "name": "weak armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 100,
+      "speed": 85,
+      "total": 525
+    }
+  },
+  {
+    "id": 938,
+    "name": "tadbulb",
+    "displayName": "Tadbulb",
+    "formattedId": "Nº 0938",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/938.png",
+    "height": "0.3",
+    "weight": "0.4",
+    "generation": 9,
+    "evolutionChainId": 491,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "EleTadpole Pokémon ",
+    "description": "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
+    "abilities": [
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 31,
+      "defense": 41,
+      "spAttack": 59,
+      "spDefense": 35,
+      "speed": 45,
+      "total": 272
+    }
+  },
+  {
+    "id": 939,
+    "name": "bellibolt",
+    "displayName": "Bellibolt",
+    "formattedId": "Nº 0939",
+    "types": [
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/939.png",
+    "height": "1.2",
+    "weight": "113.0",
+    "generation": 9,
+    "evolutionChainId": 491,
+    "evolvesFrom": 938,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "EleFrog Pokémon ",
+    "description": "What appear to be eyeballs are actually organs for discharging the electricity generated by Bellibolt’s belly-button dynamo.",
+    "abilities": [
+      {
+        "raw": "electromorphosis",
+        "name": "electromorphosis",
+        "is_hidden": false
+      },
+      {
+        "raw": "static",
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "raw": "damp",
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 109,
+      "attack": 64,
+      "defense": 91,
+      "spAttack": 103,
+      "spDefense": 83,
+      "speed": 45,
+      "total": 495
+    }
+  },
+  {
+    "id": 940,
+    "name": "wattrel",
+    "displayName": "Wattrel",
+    "formattedId": "Nº 0940",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/940.png",
+    "height": "0.4",
+    "weight": "3.6",
+    "generation": 9,
+    "evolutionChainId": 492,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Storm Petrel Pokémon ",
+    "description": "These Pokémon make their nests on coastal cliffs. The nests have a strange, crackling texture, and they’re a popular delicacy.",
+    "abilities": [
+      {
+        "raw": "wind-power",
+        "name": "wind power",
+        "is_hidden": false
+      },
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "spAttack": 55,
+      "spDefense": 40,
+      "speed": 70,
+      "total": 280
+    }
+  },
+  {
+    "id": 941,
+    "name": "kilowattrel",
+    "displayName": "Kilowattrel",
+    "formattedId": "Nº 0941",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/941.png",
+    "height": "1.4",
+    "weight": "38.6",
+    "generation": 9,
+    "evolutionChainId": 492,
+    "evolvesFrom": 940,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Frigatebird Pokémon ",
+    "description": "It uses its throat sac to store electricity generated by its wings. There’s hardly any oil in its feathers, so it is a poor swimmer.",
+    "abilities": [
+      {
+        "raw": "wind-power",
+        "name": "wind power",
+        "is_hidden": false
+      },
+      {
+        "raw": "volt-absorb",
+        "name": "volt absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "competitive",
+        "name": "competitive",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 60,
+      "spAttack": 105,
+      "spDefense": 60,
+      "speed": 125,
+      "total": 490
+    }
+  },
+  {
+    "id": 942,
+    "name": "maschiff",
+    "displayName": "Maschiff",
+    "formattedId": "Nº 0942",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/942.png",
+    "height": "0.5",
+    "weight": "16.0",
+    "generation": 9,
+    "evolutionChainId": 493,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rascal Pokémon ",
+    "description": "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "stakeout",
+        "name": "stakeout",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 78,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 51,
+      "speed": 51,
+      "total": 340
+    }
+  },
+  {
+    "id": 943,
+    "name": "mabosstiff",
+    "displayName": "Mabosstiff",
+    "formattedId": "Nº 0943",
+    "types": [
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/943.png",
+    "height": "1.1",
+    "weight": "61.0",
+    "generation": 9,
+    "evolutionChainId": 493,
+    "evolvesFrom": 942,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Boss Pokémon ",
+    "description": "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
+    "abilities": [
+      {
+        "raw": "intimidate",
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "raw": "guard-dog",
+        "name": "guard dog",
+        "is_hidden": false
+      },
+      {
+        "raw": "stakeout",
+        "name": "stakeout",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 90,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 85,
+      "total": 505
+    }
+  },
+  {
+    "id": 944,
+    "name": "shroodle",
+    "displayName": "Shroodle",
+    "formattedId": "Nº 0944",
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/944.png",
+    "height": "0.2",
+    "weight": "0.7",
+    "generation": 9,
+    "evolutionChainId": 494,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Toxic Mouse Pokémon ",
+    "description": "To keep enemies away from its territory, it paints markings around its nest using a poisonous liquid that has an acrid odor.",
+    "abilities": [
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 35,
+      "spAttack": 40,
+      "spDefense": 35,
+      "speed": 75,
+      "total": 290
+    }
+  },
+  {
+    "id": 945,
+    "name": "grafaiai",
+    "displayName": "Grafaiai",
+    "formattedId": "Nº 0945",
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/945.png",
+    "height": "0.7",
+    "weight": "27.2",
+    "generation": 9,
+    "evolutionChainId": 494,
+    "evolvesFrom": 944,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Toxic Monkey Pokémon ",
+    "description": "Each Grafaiai paints its own individual pattern, and it will paint that same pattern over and over again throughout its life.",
+    "abilities": [
+      {
+        "raw": "unburden",
+        "name": "unburden",
+        "is_hidden": false
+      },
+      {
+        "raw": "poison-touch",
+        "name": "poison touch",
+        "is_hidden": false
+      },
+      {
+        "raw": "prankster",
+        "name": "prankster",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 63,
+      "attack": 95,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 72,
+      "speed": 110,
+      "total": 485
+    }
+  },
+  {
+    "id": 946,
+    "name": "bramblin",
+    "displayName": "Bramblin",
+    "formattedId": "Nº 0946",
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/946.png",
+    "height": "0.6",
+    "weight": "0.6",
+    "generation": 9,
+    "evolutionChainId": 495,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tumbleweed Pokémon ",
+    "description": "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
+    "abilities": [
+      {
+        "raw": "wind-rider",
+        "name": "wind rider",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 30,
+      "spAttack": 45,
+      "spDefense": 35,
+      "speed": 60,
+      "total": 275
+    }
+  },
+  {
+    "id": 947,
+    "name": "brambleghast",
+    "displayName": "Brambleghast",
+    "formattedId": "Nº 0947",
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/947.png",
+    "height": "1.2",
+    "weight": "6.0",
+    "generation": 9,
+    "evolutionChainId": 495,
+    "evolvesFrom": 946,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Tumbleweed Pokémon ",
+    "description": "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
+    "abilities": [
+      {
+        "raw": "wind-rider",
+        "name": "wind rider",
+        "is_hidden": false
+      },
+      {
+        "raw": "infiltrator",
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 115,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 70,
+      "speed": 90,
+      "total": 480
+    }
+  },
+  {
+    "id": 948,
+    "name": "toedscool",
+    "displayName": "Toedscool",
+    "formattedId": "Nº 0948",
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/948.png",
+    "height": "0.9",
+    "weight": "33.0",
+    "generation": 9,
+    "evolutionChainId": 496,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Woodear Pokémon ",
+    "description": "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
+    "abilities": [
+      {
+        "raw": "mycelium-might",
+        "name": "mycelium might",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "spAttack": 50,
+      "spDefense": 100,
+      "speed": 70,
+      "total": 335
+    }
+  },
+  {
+    "id": 949,
+    "name": "toedscruel",
+    "displayName": "Toedscruel",
+    "formattedId": "Nº 0949",
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/949.png",
+    "height": "1.9",
+    "weight": "58.0",
+    "generation": 9,
+    "evolutionChainId": 496,
+    "evolvesFrom": 948,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Woodear Pokémon ",
+    "description": "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
+    "abilities": [
+      {
+        "raw": "mycelium-might",
+        "name": "mycelium might",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 120,
+      "speed": 100,
+      "total": 515
+    }
+  },
+  {
+    "id": 950,
+    "name": "klawf",
+    "displayName": "Klawf",
+    "formattedId": "Nº 0950",
+    "types": [
+      "rock"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/950.png",
+    "height": "1.3",
+    "weight": "79.0",
+    "generation": 9,
+    "evolutionChainId": 497,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ambush Pokémon ",
+    "description": "This Pokémon lives on sheer cliffs. It sidesteps opponents’ attacks, then lunges for their weak spots with its claws.",
+    "abilities": [
+      {
+        "raw": "anger-shell",
+        "name": "anger shell",
+        "is_hidden": false
+      },
+      {
+        "raw": "shell-armor",
+        "name": "shell armor",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 100,
+      "defense": 115,
+      "spAttack": 35,
+      "spDefense": 55,
+      "speed": 75,
+      "total": 450
+    }
+  },
+  {
+    "id": 951,
+    "name": "capsakid",
+    "displayName": "Capsakid",
+    "formattedId": "Nº 0951",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/951.png",
+    "height": "0.3",
+    "weight": "3.0",
+    "generation": 9,
+    "evolutionChainId": 498,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spicy Pepper Pokémon ",
+    "description": "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "klutz",
+        "name": "klutz",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 62,
+      "defense": 40,
+      "spAttack": 62,
+      "spDefense": 40,
+      "speed": 50,
+      "total": 304
+    }
+  },
+  {
+    "id": 952,
+    "name": "scovillain",
+    "displayName": "Scovillain",
+    "formattedId": "Nº 0952",
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/952.png",
+    "height": "0.9",
+    "weight": "15.0",
+    "generation": 9,
+    "evolutionChainId": 498,
+    "evolvesFrom": 951,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spicy Pepper Pokémon ",
+    "description": "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",
+    "abilities": [
+      {
+        "raw": "chlorophyll",
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "raw": "insomnia",
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "raw": "moody",
+        "name": "moody",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 108,
+      "defense": 65,
+      "spAttack": 108,
+      "spDefense": 65,
+      "speed": 75,
+      "total": 486
+    }
+  },
+  {
+    "id": 953,
+    "name": "rellor",
+    "displayName": "Rellor",
+    "formattedId": "Nº 0953",
+    "types": [
+      "bug"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/953.png",
+    "height": "0.2",
+    "weight": "1.0",
+    "generation": 9,
+    "evolutionChainId": 499,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rolling Pokémon ",
+    "description": "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve.",
+    "abilities": [
+      {
+        "raw": "compound-eyes",
+        "name": "compound eyes",
+        "is_hidden": false
+      },
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 41,
+      "attack": 50,
+      "defense": 60,
+      "spAttack": 31,
+      "spDefense": 58,
+      "speed": 30,
+      "total": 270
+    }
+  },
+  {
+    "id": 954,
+    "name": "rabsca",
+    "displayName": "Rabsca",
+    "formattedId": "Nº 0954",
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/954.png",
+    "height": "0.3",
+    "weight": "3.5",
+    "generation": 9,
+    "evolutionChainId": 499,
+    "evolvesFrom": 953,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rolling Pokémon ",
+    "description": "An infant sleeps inside the ball. Rabsca rolls the ball soothingly with its legs to ensure the infant sleeps comfortably.",
+    "abilities": [
+      {
+        "raw": "synchronize",
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "raw": "telepathy",
+        "name": "telepathy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 50,
+      "defense": 85,
+      "spAttack": 115,
+      "spDefense": 100,
+      "speed": 45,
+      "total": 470
+    }
+  },
+  {
+    "id": 955,
+    "name": "flittle",
+    "displayName": "Flittle",
+    "formattedId": "Nº 0955",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/955.png",
+    "height": "0.2",
+    "weight": "1.5",
+    "generation": 9,
+    "evolutionChainId": 500,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Frill Pokémon ",
+    "description": "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
+    "abilities": [
+      {
+        "raw": "anticipation",
+        "name": "anticipation",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "spAttack": 55,
+      "spDefense": 30,
+      "speed": 75,
+      "total": 255
+    }
+  },
+  {
+    "id": 956,
+    "name": "espathra",
+    "displayName": "Espathra",
+    "formattedId": "Nº 0956",
+    "types": [
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/956.png",
+    "height": "1.9",
+    "weight": "90.0",
+    "generation": 9,
+    "evolutionChainId": 500,
+    "evolvesFrom": 955,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ostrich Pokémon ",
+    "description": "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
+    "abilities": [
+      {
+        "raw": "opportunist",
+        "name": "opportunist",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": false
+      },
+      {
+        "raw": "speed-boost",
+        "name": "speed boost",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 101,
+      "spDefense": 60,
+      "speed": 105,
+      "total": 481
+    }
+  },
+  {
+    "id": 957,
+    "name": "tinkatink",
+    "displayName": "Tinkatink",
+    "formattedId": "Nº 0957",
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/957.png",
+    "height": "0.4",
+    "weight": "8.9",
+    "generation": 9,
+    "evolutionChainId": 501,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Metalsmith Pokémon ",
+    "description": "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it’s satisfied with the result.",
+    "abilities": [
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 45,
+      "defense": 45,
+      "spAttack": 35,
+      "spDefense": 64,
+      "speed": 58,
+      "total": 297
+    }
+  },
+  {
+    "id": 958,
+    "name": "tinkatuff",
+    "displayName": "Tinkatuff",
+    "formattedId": "Nº 0958",
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/958.png",
+    "height": "0.7",
+    "weight": "59.1",
+    "generation": 9,
+    "evolutionChainId": 501,
+    "evolvesFrom": 957,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hammer Pokémon ",
+    "description": "These Pokémon make their homes in piles of scrap metal. They test the strength of each other’s hammers by smashing them together.",
+    "abilities": [
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 45,
+      "spDefense": 82,
+      "speed": 78,
+      "total": 380
+    }
+  },
+  {
+    "id": 959,
+    "name": "tinkaton",
+    "displayName": "Tinkaton",
+    "formattedId": "Nº 0959",
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/959.png",
+    "height": "0.7",
+    "weight": "112.8",
+    "generation": 9,
+    "evolutionChainId": 501,
+    "evolvesFrom": 958,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Hammer Pokémon ",
+    "description": "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",
+    "abilities": [
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "own-tempo",
+        "name": "own tempo",
+        "is_hidden": false
+      },
+      {
+        "raw": "pickpocket",
+        "name": "pickpocket",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 75,
+      "defense": 77,
+      "spAttack": 70,
+      "spDefense": 105,
+      "speed": 94,
+      "total": 506
+    }
+  },
+  {
+    "id": 960,
+    "name": "wiglett",
+    "displayName": "Wiglett",
+    "formattedId": "Nº 0960",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/960.png",
+    "height": "1.2",
+    "weight": "1.8",
+    "generation": 9,
+    "evolutionChainId": 502,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Garden Eel Pokémon ",
+    "description": "Though it looks like Diglett, Wiglett is an entirely different species. The resemblance seems to be a coincidental result of environmental adaptation.",
+    "abilities": [
+      {
+        "raw": "gooey",
+        "name": "gooey",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "spAttack": 35,
+      "spDefense": 25,
+      "speed": 95,
+      "total": 245
+    }
+  },
+  {
+    "id": 961,
+    "name": "wugtrio",
+    "displayName": "Wugtrio",
+    "formattedId": "Nº 0961",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/961.png",
+    "height": "1.2",
+    "weight": "5.4",
+    "generation": 9,
+    "evolutionChainId": 502,
+    "evolvesFrom": 960,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Garden Eel Pokémon ",
+    "description": "A variety of fish Pokémon, Wugtrio was once considered to be a regional form of Dugtrio.",
+    "abilities": [
+      {
+        "raw": "gooey",
+        "name": "gooey",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 70,
+      "speed": 120,
+      "total": 425
+    }
+  },
+  {
+    "id": 962,
+    "name": "bombirdier",
+    "displayName": "Bombirdier",
+    "formattedId": "Nº 0962",
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/962.png",
+    "height": "1.5",
+    "weight": "42.9",
+    "generation": 9,
+    "evolutionChainId": 503,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Item Drop Pokémon ",
+    "description": "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises.",
+    "abilities": [
+      {
+        "raw": "big-pecks",
+        "name": "big pecks",
+        "is_hidden": false
+      },
+      {
+        "raw": "keen-eye",
+        "name": "keen eye",
+        "is_hidden": false
+      },
+      {
+        "raw": "rocky-payload",
+        "name": "rocky payload",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 103,
+      "defense": 85,
+      "spAttack": 60,
+      "spDefense": 85,
+      "speed": 82,
+      "total": 485
+    }
+  },
+  {
+    "id": 963,
+    "name": "finizen",
+    "displayName": "Finizen",
+    "formattedId": "Nº 0963",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/963.png",
+    "height": "1.3",
+    "weight": "60.2",
+    "generation": 9,
+    "evolutionChainId": 504,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Dolphin Pokémon ",
+    "description": "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole.",
+    "abilities": [
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 45,
+      "spDefense": 40,
+      "speed": 75,
+      "total": 315
+    }
+  },
+  {
+    "id": 964,
+    "name": "palafin-zero",
+    "displayName": "Palafin",
+    "formattedId": "Nº 0964",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/964.png",
+    "height": "1.3",
+    "weight": "60.2",
+    "generation": 9,
+    "evolutionChainId": 504,
+    "evolvesFrom": 963,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Dolphin Pokémon ",
+    "description": "Its physical capabilities are no different than a Finizen’s, but when its allies are in danger, it transforms and powers itself up.",
+    "abilities": [
+      {
+        "raw": "zero-to-hero",
+        "name": "zero to hero",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 70,
+      "defense": 72,
+      "spAttack": 53,
+      "spDefense": 62,
+      "speed": 100,
+      "total": 457
+    }
+  },
+  {
+    "id": 965,
+    "name": "varoom",
+    "displayName": "Varoom",
+    "formattedId": "Nº 0965",
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/965.png",
+    "height": "1.0",
+    "weight": "35.0",
+    "generation": 9,
+    "evolutionChainId": 505,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Single-Cyl Pokémon ",
+    "description": "The steel section is Varoom’s actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
+    "abilities": [
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": false
+      },
+      {
+        "raw": "slow-start",
+        "name": "slow start",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 70,
+      "defense": 63,
+      "spAttack": 30,
+      "spDefense": 45,
+      "speed": 47,
+      "total": 300
+    }
+  },
+  {
+    "id": 966,
+    "name": "revavroom",
+    "displayName": "Revavroom",
+    "formattedId": "Nº 0966",
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/966.png",
+    "height": "1.8",
+    "weight": "120.0",
+    "generation": 9,
+    "evolutionChainId": 505,
+    "evolvesFrom": 965,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Multi-Cyl Pokémon ",
+    "description": "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",
+    "abilities": [
+      {
+        "raw": "overcoat",
+        "name": "overcoat",
+        "is_hidden": false
+      },
+      {
+        "raw": "filter",
+        "name": "filter",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 119,
+      "defense": 90,
+      "spAttack": 54,
+      "spDefense": 67,
+      "speed": 90,
+      "total": 500
+    }
+  },
+  {
+    "id": 967,
+    "name": "cyclizar",
+    "displayName": "Cyclizar",
+    "formattedId": "Nº 0967",
+    "types": [
+      "dragon",
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/967.png",
+    "height": "1.6",
+    "weight": "63.0",
+    "generation": 9,
+    "evolutionChainId": 506,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mount Pokémon ",
+    "description": "It can sprint at over 70 mph while carrying a human. The rider’s body heat warms Cyclizar’s back and lifts the Pokémon’s spirit.",
+    "abilities": [
+      {
+        "raw": "shed-skin",
+        "name": "shed skin",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 95,
+      "defense": 65,
+      "spAttack": 85,
+      "spDefense": 65,
+      "speed": 121,
+      "total": 501
+    }
+  },
+  {
+    "id": 968,
+    "name": "orthworm",
+    "displayName": "Orthworm",
+    "formattedId": "Nº 0968",
+    "types": [
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/968.png",
+    "height": "2.5",
+    "weight": "310.0",
+    "generation": 9,
+    "evolutionChainId": 507,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Earthworm Pokémon ",
+    "description": "This Pokémon lives in arid deserts. It maintains its metal body by consuming iron from the soil.",
+    "abilities": [
+      {
+        "raw": "earth-eater",
+        "name": "earth eater",
+        "is_hidden": false
+      },
+      {
+        "raw": "sand-veil",
+        "name": "sand veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 145,
+      "spAttack": 60,
+      "spDefense": 55,
+      "speed": 65,
+      "total": 480
+    }
+  },
+  {
+    "id": 969,
+    "name": "glimmet",
+    "displayName": "Glimmet",
+    "formattedId": "Nº 0969",
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/969.png",
+    "height": "0.7",
+    "weight": "8.0",
+    "generation": 9,
+    "evolutionChainId": 508,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ore Pokémon ",
+    "description": "Glimmet’s toxic mineral crystals look just like flower petals. This Pokémon scatters poisonous powder like pollen to protect itself.",
+    "abilities": [
+      {
+        "raw": "toxic-debris",
+        "name": "toxic debris",
+        "is_hidden": false
+      },
+      {
+        "raw": "corrosion",
+        "name": "corrosion",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 35,
+      "defense": 42,
+      "spAttack": 105,
+      "spDefense": 60,
+      "speed": 60,
+      "total": 350
+    }
+  },
+  {
+    "id": 970,
+    "name": "glimmora",
+    "displayName": "Glimmora",
+    "formattedId": "Nº 0970",
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/970.png",
+    "height": "1.5",
+    "weight": "45.0",
+    "generation": 9,
+    "evolutionChainId": 508,
+    "evolvesFrom": 969,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ore Pokémon ",
+    "description": "Glimmora’s petals are made of crystallized poison energy. It has recently become evident that these petals resemble Tera Jewels.",
+    "abilities": [
+      {
+        "raw": "toxic-debris",
+        "name": "toxic debris",
+        "is_hidden": false
+      },
+      {
+        "raw": "corrosion",
+        "name": "corrosion",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 55,
+      "defense": 90,
+      "spAttack": 130,
+      "spDefense": 81,
+      "speed": 86,
+      "total": 525
+    }
+  },
+  {
+    "id": 971,
+    "name": "greavard",
+    "displayName": "Greavard",
+    "formattedId": "Nº 0971",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/971.png",
+    "height": "0.6",
+    "weight": "35.0",
+    "generation": 9,
+    "evolutionChainId": 509,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ghost Dog Pokémon ",
+    "description": "This friendly Pokémon doesn’t like being alone. Pay it even the slightest bit of attention, and it will follow you forever.",
+    "abilities": [
+      {
+        "raw": "pickup",
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "raw": "fluffy",
+        "name": "fluffy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 61,
+      "defense": 60,
+      "spAttack": 30,
+      "spDefense": 55,
+      "speed": 34,
+      "total": 290
+    }
+  },
+  {
+    "id": 972,
+    "name": "houndstone",
+    "displayName": "Houndstone",
+    "formattedId": "Nº 0972",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/972.png",
+    "height": "2.0",
+    "weight": "15.0",
+    "generation": 9,
+    "evolutionChainId": 509,
+    "evolvesFrom": 971,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ghost Dog Pokémon ",
+    "description": "A lovingly mourned Pokémon was reborn as Houndstone. It doesn’t like anyone touching the protuberance atop its head.",
+    "abilities": [
+      {
+        "raw": "sand-rush",
+        "name": "sand rush",
+        "is_hidden": false
+      },
+      {
+        "raw": "fluffy",
+        "name": "fluffy",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 101,
+      "defense": 100,
+      "spAttack": 50,
+      "spDefense": 97,
+      "speed": 68,
+      "total": 488
+    }
+  },
+  {
+    "id": 973,
+    "name": "flamigo",
+    "displayName": "Flamigo",
+    "formattedId": "Nº 0973",
+    "types": [
+      "flying",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/973.png",
+    "height": "1.6",
+    "weight": "37.0",
+    "generation": 9,
+    "evolutionChainId": 510,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Synchronize Pokémon ",
+    "description": "Thanks to a behavior of theirs known as “synchronizing,” an entire flock of these Pokémon can attack simultaneously in perfect harmony.",
+    "abilities": [
+      {
+        "raw": "scrappy",
+        "name": "scrappy",
+        "is_hidden": false
+      },
+      {
+        "raw": "tangled-feet",
+        "name": "tangled feet",
+        "is_hidden": false
+      },
+      {
+        "raw": "costar",
+        "name": "costar",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 82,
+      "attack": 115,
+      "defense": 74,
+      "spAttack": 75,
+      "spDefense": 64,
+      "speed": 90,
+      "total": 500
+    }
+  },
+  {
+    "id": 974,
+    "name": "cetoddle",
+    "displayName": "Cetoddle",
+    "formattedId": "Nº 0974",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/974.png",
+    "height": "1.2",
+    "weight": "45.0",
+    "generation": 9,
+    "evolutionChainId": 511,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Terra Whale Pokémon ",
+    "description": "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "snow-cloak",
+        "name": "snow cloak",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 108,
+      "attack": 68,
+      "defense": 45,
+      "spAttack": 30,
+      "spDefense": 40,
+      "speed": 43,
+      "total": 334
+    }
+  },
+  {
+    "id": 975,
+    "name": "cetitan",
+    "displayName": "Cetitan",
+    "formattedId": "Nº 0975",
+    "types": [
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/975.png",
+    "height": "4.5",
+    "weight": "700.0",
+    "generation": 9,
+    "evolutionChainId": 511,
+    "evolvesFrom": 974,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Terra Whale Pokémon ",
+    "description": "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",
+    "abilities": [
+      {
+        "raw": "thick-fat",
+        "name": "thick fat",
+        "is_hidden": false
+      },
+      {
+        "raw": "slush-rush",
+        "name": "slush rush",
+        "is_hidden": false
+      },
+      {
+        "raw": "sheer-force",
+        "name": "sheer force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 170,
+      "attack": 113,
+      "defense": 65,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 73,
+      "total": 521
+    }
+  },
+  {
+    "id": 976,
+    "name": "veluza",
+    "displayName": "Veluza",
+    "formattedId": "Nº 0976",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/976.png",
+    "height": "2.5",
+    "weight": "90.0",
+    "generation": 9,
+    "evolutionChainId": 512,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Jettison Pokémon ",
+    "description": "Veluza has excellent regenerative capabilities. It sheds spare flesh from its body to boost its agility, then charges at its prey.",
+    "abilities": [
+      {
+        "raw": "mold-breaker",
+        "name": "mold breaker",
+        "is_hidden": false
+      },
+      {
+        "raw": "sharpness",
+        "name": "sharpness",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 102,
+      "defense": 73,
+      "spAttack": 78,
+      "spDefense": 65,
+      "speed": 70,
+      "total": 478
+    }
+  },
+  {
+    "id": 977,
+    "name": "dondozo",
+    "displayName": "Dondozo",
+    "formattedId": "Nº 0977",
+    "types": [
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/977.png",
+    "height": "12.0",
+    "weight": "220.0",
+    "generation": 9,
+    "evolutionChainId": 513,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big Catfish Pokémon ",
+    "description": "It treats Tatsugiri like its boss and follows it loyally. Though powerful, Dondozo is apparently not very smart.",
+    "abilities": [
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": false
+      },
+      {
+        "raw": "oblivious",
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-veil",
+        "name": "water veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 150,
+      "attack": 100,
+      "defense": 115,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 35,
+      "total": 530
+    }
+  },
+  {
+    "id": 978,
+    "name": "tatsugiri-curly",
+    "displayName": "Tatsugiri",
+    "formattedId": "Nº 0978",
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/978.png",
+    "height": "0.3",
+    "weight": "8.0",
+    "generation": 9,
+    "evolutionChainId": 514,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Mimicry Pokémon ",
+    "description": "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
+    "abilities": [
+      {
+        "raw": "commander",
+        "name": "commander",
+        "is_hidden": false
+      },
+      {
+        "raw": "storm-drain",
+        "name": "storm drain",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 50,
+      "defense": 60,
+      "spAttack": 120,
+      "spDefense": 95,
+      "speed": 82,
+      "total": 475
+    }
+  },
+  {
+    "id": 979,
+    "name": "annihilape",
+    "displayName": "Annihilape",
+    "formattedId": "Nº 0979",
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/979.png",
+    "height": "1.2",
+    "weight": "56.0",
+    "generation": 9,
+    "evolutionChainId": 24,
+    "evolvesFrom": 57,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Rage Monkey Pokémon ",
+    "description": "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
+    "abilities": [
+      {
+        "raw": "vital-spirit",
+        "name": "vital spirit",
+        "is_hidden": false
+      },
+      {
+        "raw": "inner-focus",
+        "name": "inner focus",
+        "is_hidden": false
+      },
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 115,
+      "defense": 80,
+      "spAttack": 50,
+      "spDefense": 90,
+      "speed": 90,
+      "total": 535
+    }
+  },
+  {
+    "id": 980,
+    "name": "clodsire",
+    "displayName": "Clodsire",
+    "formattedId": "Nº 0980",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/980.png",
+    "height": "1.8",
+    "weight": "223.0",
+    "generation": 9,
+    "evolutionChainId": 96,
+    "evolvesFrom": 194,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Spiny Fish Pokémon ",
+    "description": "It lives at the bottom of ponds and swamps. It will carry Wooper on its back and ferry them across water from one shore to the other.",
+    "abilities": [
+      {
+        "raw": "poison-point",
+        "name": "poison point",
+        "is_hidden": false
+      },
+      {
+        "raw": "water-absorb",
+        "name": "water absorb",
+        "is_hidden": false
+      },
+      {
+        "raw": "unaware",
+        "name": "unaware",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 75,
+      "defense": 60,
+      "spAttack": 45,
+      "spDefense": 100,
+      "speed": 20,
+      "total": 430
+    }
+  },
+  {
+    "id": 981,
+    "name": "farigiraf",
+    "displayName": "Farigiraf",
+    "formattedId": "Nº 0981",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/981.png",
+    "height": "3.2",
+    "weight": "160.0",
+    "generation": 9,
+    "evolutionChainId": 101,
+    "evolvesFrom": 203,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Long Neck Pokémon ",
+    "description": "The hardened head from the tail protects the head of the main body as Farigiraf whips its long neck around to headbutt enemies.",
+    "abilities": [
+      {
+        "raw": "cud-chew",
+        "name": "cud chew",
+        "is_hidden": false
+      },
+      {
+        "raw": "armor-tail",
+        "name": "armor tail",
+        "is_hidden": false
+      },
+      {
+        "raw": "sap-sipper",
+        "name": "sap sipper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 90,
+      "defense": 70,
+      "spAttack": 110,
+      "spDefense": 70,
+      "speed": 60,
+      "total": 520
+    }
+  },
+  {
+    "id": 982,
+    "name": "dudunsparce-two-segment",
+    "displayName": "Dudunsparce",
+    "formattedId": "Nº 0982",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/982.png",
+    "height": "3.6",
+    "weight": "39.2",
+    "generation": 9,
+    "evolutionChainId": 103,
+    "evolvesFrom": 206,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Land Snake Pokémon ",
+    "description": "It drives enemies out of its nest by sucking in enough air to fill its long, narrow lungs, then releasing the air in an intense blast.",
+    "abilities": [
+      {
+        "raw": "serene-grace",
+        "name": "serene grace",
+        "is_hidden": false
+      },
+      {
+        "raw": "run-away",
+        "name": "run away",
+        "is_hidden": false
+      },
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 125,
+      "attack": 100,
+      "defense": 80,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 55,
+      "total": 520
+    }
+  },
+  {
+    "id": 983,
+    "name": "kingambit",
+    "displayName": "Kingambit",
+    "formattedId": "Nº 0983",
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/983.png",
+    "height": "2.0",
+    "weight": "120.0",
+    "generation": 9,
+    "evolutionChainId": 317,
+    "evolvesFrom": 625,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Big Blade Pokémon ",
+    "description": "Though it commands a massive army in battle, it’s not skilled at devising complex strategies. It just uses brute strength to keep pushing.",
+    "abilities": [
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": false
+      },
+      {
+        "raw": "supreme-overlord",
+        "name": "supreme overlord",
+        "is_hidden": false
+      },
+      {
+        "raw": "pressure",
+        "name": "pressure",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 135,
+      "defense": 120,
+      "spAttack": 60,
+      "spDefense": 85,
+      "speed": 50,
+      "total": 550
+    }
+  },
+  {
+    "id": 984,
+    "name": "great-tusk",
+    "displayName": "Great Tusk",
+    "formattedId": "Nº 0984",
+    "types": [
+      "ground",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/984.png",
+    "height": "2.2",
+    "weight": "320.0",
+    "generation": 9,
+    "evolutionChainId": 515,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "This creature resembles a mysterious Pokémon that, according to a paranormal magazine, has lived since ancient times.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 131,
+      "defense": 131,
+      "spAttack": 53,
+      "spDefense": 53,
+      "speed": 87,
+      "total": 570
+    }
+  },
+  {
+    "id": 985,
+    "name": "scream-tail",
+    "displayName": "Scream Tail",
+    "formattedId": "Nº 0985",
+    "types": [
+      "fairy",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/985.png",
+    "height": "1.2",
+    "weight": "8.0",
+    "generation": 9,
+    "evolutionChainId": 516,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It resembles a mysterious Pokémon described in a paranormal magazine as a Jigglypuff from one billion years ago.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 65,
+      "defense": 99,
+      "spAttack": 65,
+      "spDefense": 115,
+      "speed": 111,
+      "total": 570
+    }
+  },
+  {
+    "id": 986,
+    "name": "brute-bonnet",
+    "displayName": "Brute Bonnet",
+    "formattedId": "Nº 0986",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/986.png",
+    "height": "1.2",
+    "weight": "21.0",
+    "generation": 9,
+    "evolutionChainId": 517,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It bears a slight resemblance to a Pokémon described in a dubious magazine as a cross between a dinosaur and a mushroom.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 111,
+      "attack": 127,
+      "defense": 99,
+      "spAttack": 79,
+      "spDefense": 99,
+      "speed": 55,
+      "total": 570
+    }
+  },
+  {
+    "id": 987,
+    "name": "flutter-mane",
+    "displayName": "Flutter Mane",
+    "formattedId": "Nº 0987",
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/987.png",
+    "height": "1.4",
+    "weight": "4.0",
+    "generation": 9,
+    "evolutionChainId": 518,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It has similar features to a ghostly pterosaur that was covered in a paranormal magazine, but the two have little else in common.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 135,
+      "spDefense": 135,
+      "speed": 135,
+      "total": 570
+    }
+  },
+  {
+    "id": 988,
+    "name": "slither-wing",
+    "displayName": "Slither Wing",
+    "formattedId": "Nº 0988",
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/988.png",
+    "height": "3.2",
+    "weight": "92.0",
+    "generation": 9,
+    "evolutionChainId": 519,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "This Pokémon somewhat resembles an ancient form of Volcarona that was introduced in a dubious magazine.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 135,
+      "defense": 79,
+      "spAttack": 85,
+      "spDefense": 105,
+      "speed": 81,
+      "total": 570
+    }
+  },
+  {
+    "id": 989,
+    "name": "sandy-shocks",
+    "displayName": "Sandy Shocks",
+    "formattedId": "Nº 0989",
+    "types": [
+      "electric",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/989.png",
+    "height": "2.3",
+    "weight": "60.0",
+    "generation": 9,
+    "evolutionChainId": 520,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It slightly resembles a Magneton that lived for 10,000 years and was featured in an article in a paranormal magazine.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 81,
+      "defense": 97,
+      "spAttack": 121,
+      "spDefense": 85,
+      "speed": 101,
+      "total": 570
+    }
+  },
+  {
+    "id": 990,
+    "name": "iron-treads",
+    "displayName": "Iron Treads",
+    "formattedId": "Nº 0990",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/990.png",
+    "height": "0.9",
+    "weight": "240.0",
+    "generation": 9,
+    "evolutionChainId": 521,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "Sightings of this Pokémon have occurred in recent years. It resembles a mysterious object described in an old expedition journal.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 112,
+      "defense": 120,
+      "spAttack": 72,
+      "spDefense": 70,
+      "speed": 106,
+      "total": 570
+    }
+  },
+  {
+    "id": 991,
+    "name": "iron-bundle",
+    "displayName": "Iron Bundle",
+    "formattedId": "Nº 0991",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/991.png",
+    "height": "0.6",
+    "weight": "11.0",
+    "generation": 9,
+    "evolutionChainId": 522,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It resembles a mysterious object mentioned in an old book. There are only two reported sightings of this Pokémon.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 56,
+      "attack": 80,
+      "defense": 114,
+      "spAttack": 124,
+      "spDefense": 60,
+      "speed": 136,
+      "total": 570
+    }
+  },
+  {
+    "id": 992,
+    "name": "iron-hands",
+    "displayName": "Iron Hands",
+    "formattedId": "Nº 0992",
+    "types": [
+      "fighting",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/992.png",
+    "height": "1.8",
+    "weight": "380.7",
+    "generation": 9,
+    "evolutionChainId": 523,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "This Pokémon shares many similarities with Iron Hands, an object mentioned in a certain expedition journal.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 154,
+      "attack": 140,
+      "defense": 108,
+      "spAttack": 50,
+      "spDefense": 68,
+      "speed": 50,
+      "total": 570
+    }
+  },
+  {
+    "id": 993,
+    "name": "iron-jugulis",
+    "displayName": "Iron Jugulis",
+    "formattedId": "Nº 0993",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/993.png",
+    "height": "1.3",
+    "weight": "111.0",
+    "generation": 9,
+    "evolutionChainId": 524,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It’s possible that Iron Jugulis, an object described in an old book, may actually be this Pokémon.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 94,
+      "attack": 80,
+      "defense": 86,
+      "spAttack": 122,
+      "spDefense": 80,
+      "speed": 108,
+      "total": 570
+    }
+  },
+  {
+    "id": 994,
+    "name": "iron-moth",
+    "displayName": "Iron Moth",
+    "formattedId": "Nº 0994",
+    "types": [
+      "fire",
+      "poison"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/994.png",
+    "height": "1.2",
+    "weight": "36.0",
+    "generation": 9,
+    "evolutionChainId": 525,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "No records exist of this species being caught. Data is lacking, but the Pokémon’s traits match up with an object described in an old book.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 60,
+      "spAttack": 140,
+      "spDefense": 110,
+      "speed": 110,
+      "total": 570
+    }
+  },
+  {
+    "id": 995,
+    "name": "iron-thorns",
+    "displayName": "Iron Thorns",
+    "formattedId": "Nº 0995",
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/995.png",
+    "height": "1.6",
+    "weight": "303.0",
+    "generation": 9,
+    "evolutionChainId": 526,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "spAttack": 70,
+      "spDefense": 84,
+      "speed": 72,
+      "total": 570
+    }
+  },
+  {
+    "id": 996,
+    "name": "frigibax",
+    "displayName": "Frigibax",
+    "formattedId": "Nº 0996",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/996.png",
+    "height": "0.5",
+    "weight": "17.0",
+    "generation": 9,
+    "evolutionChainId": 527,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ice Fin Pokémon ",
+    "description": "This Pokémon lives in forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator.",
+    "abilities": [
+      {
+        "raw": "thermal-exchange",
+        "name": "thermal exchange",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 45,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 55,
+      "total": 320
+    }
+  },
+  {
+    "id": 997,
+    "name": "arctibax",
+    "displayName": "Arctibax",
+    "formattedId": "Nº 0997",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/997.png",
+    "height": "0.8",
+    "weight": "30.0",
+    "generation": 9,
+    "evolutionChainId": 527,
+    "evolvesFrom": 996,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ice Fin Pokémon ",
+    "description": "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique.",
+    "abilities": [
+      {
+        "raw": "thermal-exchange",
+        "name": "thermal exchange",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 66,
+      "spAttack": 45,
+      "spDefense": 65,
+      "speed": 62,
+      "total": 423
+    }
+  },
+  {
+    "id": 998,
+    "name": "baxcalibur",
+    "displayName": "Baxcalibur",
+    "formattedId": "Nº 0998",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/998.png",
+    "height": "2.1",
+    "weight": "210.0",
+    "generation": 9,
+    "evolutionChainId": 527,
+    "evolvesFrom": 997,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Ice Dragon Pokémon ",
+    "description": "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade.",
+    "abilities": [
+      {
+        "raw": "thermal-exchange",
+        "name": "thermal exchange",
+        "is_hidden": false
+      },
+      {
+        "raw": "ice-body",
+        "name": "ice body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 145,
+      "defense": 92,
+      "spAttack": 75,
+      "spDefense": 86,
+      "speed": 87,
+      "total": 600
+    }
+  },
+  {
+    "id": 999,
+    "name": "gimmighoul",
+    "displayName": "Gimmighoul",
+    "formattedId": "Nº 0999",
+    "types": [
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/999.png",
+    "height": "0.3",
+    "weight": "5.0",
+    "generation": 9,
+    "evolutionChainId": 528,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Coin Chest Pokémon ",
+    "description": "It lives inside an old treasure chest. Sometimes it gets left in shop corners since no one realizes it’s actually a Pokémon.",
+    "abilities": [
+      {
+        "raw": "rattled",
+        "name": "rattled",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 70,
+      "spAttack": 75,
+      "spDefense": 70,
+      "speed": 10,
+      "total": 300
+    }
+  },
+  {
+    "id": 1000,
+    "name": "gholdengo",
+    "displayName": "Gholdengo",
+    "formattedId": "Nº 1000",
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1000.png",
+    "height": "1.2",
+    "weight": "30.0",
+    "generation": 9,
+    "evolutionChainId": 528,
+    "evolvesFrom": 999,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Coin Entity Pokémon ",
+    "description": "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession.",
+    "abilities": [
+      {
+        "raw": "good-as-gold",
+        "name": "good as gold",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 87,
+      "attack": 60,
+      "defense": 95,
+      "spAttack": 133,
+      "spDefense": 91,
+      "speed": 84,
+      "total": 550
+    }
+  },
+  {
+    "id": 1001,
+    "name": "wo-chien",
+    "displayName": "Wo-Chien",
+    "formattedId": "Nº 1001",
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1001.png",
+    "height": "1.5",
+    "weight": "74.2",
+    "generation": 9,
+    "evolutionChainId": 529,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Ruinous Pokémon ",
+    "description": "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
+    "abilities": [
+      {
+        "raw": "tablets-of-ruin",
+        "name": "tablets of ruin",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 85,
+      "defense": 100,
+      "spAttack": 95,
+      "spDefense": 135,
+      "speed": 70,
+      "total": 570
+    }
+  },
+  {
+    "id": 1002,
+    "name": "chien-pao",
+    "displayName": "Chien-Pao",
+    "formattedId": "Nº 1002",
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1002.png",
+    "height": "1.9",
+    "weight": "152.2",
+    "generation": 9,
+    "evolutionChainId": 530,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Ruinous Pokémon ",
+    "description": "The hatred of those who perished by the sword long ago has clad itself in snow and become a Pokémon.",
+    "abilities": [
+      {
+        "raw": "sword-of-ruin",
+        "name": "sword of ruin",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 80,
+      "spAttack": 90,
+      "spDefense": 65,
+      "speed": 135,
+      "total": 570
+    }
+  },
+  {
+    "id": 1003,
+    "name": "ting-lu",
+    "displayName": "Ting-Lu",
+    "formattedId": "Nº 1003",
+    "types": [
+      "dark",
+      "ground"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1003.png",
+    "height": "2.7",
+    "weight": "699.7",
+    "generation": 9,
+    "evolutionChainId": 531,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Ruinous Pokémon ",
+    "description": "It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over 160 feet deep.",
+    "abilities": [
+      {
+        "raw": "vessel-of-ruin",
+        "name": "vessel of ruin",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 155,
+      "attack": 110,
+      "defense": 125,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 45,
+      "total": 570
+    }
+  },
+  {
+    "id": 1004,
+    "name": "chi-yu",
+    "displayName": "Chi-Yu",
+    "formattedId": "Nº 1004",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1004.png",
+    "height": "0.4",
+    "weight": "4.9",
+    "generation": 9,
+    "evolutionChainId": 532,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Ruinous Pokémon ",
+    "description": "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
+    "abilities": [
+      {
+        "raw": "beads-of-ruin",
+        "name": "beads of ruin",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 80,
+      "defense": 80,
+      "spAttack": 135,
+      "spDefense": 120,
+      "speed": 100,
+      "total": 570
+    }
+  },
+  {
+    "id": 1005,
+    "name": "roaring-moon",
+    "displayName": "Roaring Moon",
+    "formattedId": "Nº 1005",
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1005.png",
+    "height": "2.0",
+    "weight": "380.0",
+    "generation": 9,
+    "evolutionChainId": 533,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "According to an article in a dubious magazine, this Pokémon has some connection to a phenomenon that occurs in a certain region.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 139,
+      "defense": 71,
+      "spAttack": 55,
+      "spDefense": 101,
+      "speed": 119,
+      "total": 590
+    }
+  },
+  {
+    "id": 1006,
+    "name": "iron-valiant",
+    "displayName": "Iron Valiant",
+    "formattedId": "Nº 1006",
+    "types": [
+      "fairy",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1006.png",
+    "height": "1.4",
+    "weight": "35.0",
+    "generation": 9,
+    "evolutionChainId": 534,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It’s possible that this is the object listed as Iron Valiant in a certain expedition journal.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 130,
+      "defense": 90,
+      "spAttack": 120,
+      "spDefense": 60,
+      "speed": 116,
+      "total": 590
+    }
+  },
+  {
+    "id": 1007,
+    "name": "koraidon",
+    "displayName": "Koraidon",
+    "formattedId": "Nº 1007",
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1007.png",
+    "height": "2.5",
+    "weight": "303.0",
+    "generation": 9,
+    "evolutionChainId": 535,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "This Pokémon resembles Cyclizar, but it is far burlier and more ferocious. Nothing is known about its ecology or other features.",
+    "abilities": [
+      {
+        "raw": "orichalcum-pulse",
+        "name": "orichalcum pulse",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 135,
+      "defense": 115,
+      "spAttack": 85,
+      "spDefense": 100,
+      "speed": 135,
+      "total": 670
+    }
+  },
+  {
+    "id": 1008,
+    "name": "miraidon",
+    "displayName": "Miraidon",
+    "formattedId": "Nº 1008",
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1008.png",
+    "height": "3.5",
+    "weight": "240.0",
+    "generation": 9,
+    "evolutionChainId": 536,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
+    "abilities": [
+      {
+        "raw": "hadron-engine",
+        "name": "hadron engine",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 85,
+      "defense": 100,
+      "spAttack": 135,
+      "spDefense": 115,
+      "speed": 135,
+      "total": 670
+    }
+  },
+  {
+    "id": 1009,
+    "name": "walking-wake",
+    "displayName": "Walking Wake",
+    "formattedId": "Nº 1009",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1009.png",
+    "height": "3.5",
+    "weight": "280.0",
+    "generation": 9,
+    "evolutionChainId": 537,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It resembles an illustration published in a paranormal magazine, said to be a depiction of a super-ancient Suicune.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 99,
+      "attack": 83,
+      "defense": 91,
+      "spAttack": 125,
+      "spDefense": 83,
+      "speed": 109,
+      "total": 590
+    }
+  },
+  {
+    "id": 1010,
+    "name": "iron-leaves",
+    "displayName": "Iron Leaves",
+    "formattedId": "Nº 1010",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1010.png",
+    "height": "1.5",
+    "weight": "125.0",
+    "generation": 9,
+    "evolutionChainId": 538,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "According to the few eyewitness accounts that exist, it used its shining blades to julienne large trees and boulders.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 88,
+      "spAttack": 70,
+      "spDefense": 108,
+      "speed": 104,
+      "total": 590
+    }
+  },
+  {
+    "id": 1011,
+    "name": "dipplin",
+    "displayName": "Dipplin",
+    "formattedId": "Nº 1011",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1011.png",
+    "height": "0.4",
+    "weight": "4.4",
+    "generation": 9,
+    "evolutionChainId": 442,
+    "evolvesFrom": 840,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Candy Apple Pokémon ",
+    "description": "The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.",
+    "abilities": [
+      {
+        "raw": "supersweet-syrup",
+        "name": "supersweet syrup",
+        "is_hidden": false
+      },
+      {
+        "raw": "gluttony",
+        "name": "gluttony",
+        "is_hidden": false
+      },
+      {
+        "raw": "sticky-hold",
+        "name": "sticky hold",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 110,
+      "spAttack": 95,
+      "spDefense": 80,
+      "speed": 40,
+      "total": 485
+    }
+  },
+  {
+    "id": 1012,
+    "name": "poltchageist",
+    "displayName": "Poltchageist",
+    "formattedId": "Nº 1012",
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1012.png",
+    "height": "0.1",
+    "weight": "1.1",
+    "generation": 9,
+    "evolutionChainId": 539,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Matcha Pokémon ",
+    "description": "Poltchageist looks like a regional form of Sinistea, but it was recently discovered that the two Pokémon are entirely unrelated.",
+    "abilities": [
+      {
+        "raw": "hospitality",
+        "name": "hospitality",
+        "is_hidden": false
+      },
+      {
+        "raw": "heatproof",
+        "name": "heatproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 45,
+      "spAttack": 74,
+      "spDefense": 54,
+      "speed": 50,
+      "total": 308
+    }
+  },
+  {
+    "id": 1013,
+    "name": "sinistcha",
+    "displayName": "Sinistcha",
+    "formattedId": "Nº 1013",
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1013.png",
+    "height": "0.2",
+    "weight": "2.2",
+    "generation": 9,
+    "evolutionChainId": 539,
+    "evolvesFrom": 1012,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Matcha Pokémon ",
+    "description": "It prefers cool, dark places, such as the back of a shelf or the space beneath a home's floorboards. It wanders in search of prey after sunset.",
+    "abilities": [
+      {
+        "raw": "hospitality",
+        "name": "hospitality",
+        "is_hidden": false
+      },
+      {
+        "raw": "heatproof",
+        "name": "heatproof",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 60,
+      "defense": 106,
+      "spAttack": 121,
+      "spDefense": 80,
+      "speed": 70,
+      "total": 508
+    }
+  },
+  {
+    "id": 1014,
+    "name": "okidogi",
+    "displayName": "Okidogi",
+    "formattedId": "Nº 1014",
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1014.png",
+    "height": "1.8",
+    "weight": "92.2",
+    "generation": 9,
+    "evolutionChainId": 540,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Retainer Pokémon ",
+    "description": "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
+    "abilities": [
+      {
+        "raw": "toxic-chain",
+        "name": "toxic chain",
+        "is_hidden": false
+      },
+      {
+        "raw": "guard-dog",
+        "name": "guard dog",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 128,
+      "defense": 115,
+      "spAttack": 58,
+      "spDefense": 86,
+      "speed": 80,
+      "total": 555
+    }
+  },
+  {
+    "id": 1015,
+    "name": "munkidori",
+    "displayName": "Munkidori",
+    "formattedId": "Nº 1015",
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1015.png",
+    "height": "1.0",
+    "weight": "12.2",
+    "generation": 9,
+    "evolutionChainId": 541,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Retainer Pokémon ",
+    "description": "Munkidori keeps itself somewhere safe while it toys with its foes, using psychokinesis to induce intense dizziness.",
+    "abilities": [
+      {
+        "raw": "toxic-chain",
+        "name": "toxic chain",
+        "is_hidden": false
+      },
+      {
+        "raw": "frisk",
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 75,
+      "defense": 66,
+      "spAttack": 130,
+      "spDefense": 90,
+      "speed": 106,
+      "total": 555
+    }
+  },
+  {
+    "id": 1016,
+    "name": "fezandipiti",
+    "displayName": "Fezandipiti",
+    "formattedId": "Nº 1016",
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1016.png",
+    "height": "1.4",
+    "weight": "30.1",
+    "generation": 9,
+    "evolutionChainId": 542,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Retainer Pokémon ",
+    "description": "Fezandipiti beats its glossy wings to scatter pheromones that captivate people and Pokémon.",
+    "abilities": [
+      {
+        "raw": "toxic-chain",
+        "name": "toxic chain",
+        "is_hidden": false
+      },
+      {
+        "raw": "technician",
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 91,
+      "defense": 82,
+      "spAttack": 70,
+      "spDefense": 125,
+      "speed": 99,
+      "total": 555
+    }
+  },
+  {
+    "id": 1017,
+    "name": "ogerpon",
+    "displayName": "Ogerpon",
+    "formattedId": "Nº 1017",
+    "types": [
+      "grass"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1017.png",
+    "height": "1.2",
+    "weight": "39.8",
+    "generation": 9,
+    "evolutionChainId": 543,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Mask Pokémon ",
+    "description": "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
+    "abilities": [
+      {
+        "raw": "defiant",
+        "name": "defiant",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 84,
+      "spAttack": 60,
+      "spDefense": 96,
+      "speed": 110,
+      "total": 550
+    }
+  },
+  {
+    "id": 1018,
+    "name": "archaludon",
+    "displayName": "Archaludon",
+    "formattedId": "Nº 1018",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1018.png",
+    "height": "2.0",
+    "weight": "60.0",
+    "generation": 9,
+    "evolutionChainId": 465,
+    "evolvesFrom": 884,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Alloy Pokémon ",
+    "description": "It digs holes on mountains, searching for food. It’s so durable that being caught in a cave-in won’t faze it.",
+    "abilities": [
+      {
+        "raw": "stamina",
+        "name": "stamina",
+        "is_hidden": false
+      },
+      {
+        "raw": "sturdy",
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "raw": "stalwart",
+        "name": "stalwart",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 105,
+      "defense": 130,
+      "spAttack": 125,
+      "spDefense": 65,
+      "speed": 85,
+      "total": 600
+    }
+  },
+  {
+    "id": 1019,
+    "name": "hydrapple",
+    "displayName": "Hydrapple",
+    "formattedId": "Nº 1019",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1019.png",
+    "height": "1.8",
+    "weight": "93.0",
+    "generation": 9,
+    "evolutionChainId": 442,
+    "evolvesFrom": 1011,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Apple Hydra Pokémon ",
+    "description": "These capricious syrpents have banded together. On the rare occasion that their moods align, their true power is unleashed.",
+    "abilities": [
+      {
+        "raw": "supersweet-syrup",
+        "name": "supersweet syrup",
+        "is_hidden": false
+      },
+      {
+        "raw": "regenerator",
+        "name": "regenerator",
+        "is_hidden": false
+      },
+      {
+        "raw": "sticky-hold",
+        "name": "sticky hold",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 106,
+      "attack": 80,
+      "defense": 110,
+      "spAttack": 120,
+      "spDefense": 80,
+      "speed": 44,
+      "total": 540
+    }
+  },
+  {
+    "id": 1020,
+    "name": "gouging-fire",
+    "displayName": "Gouging Fire",
+    "formattedId": "Nº 1020",
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1020.png",
+    "height": "3.5",
+    "weight": "590.0",
+    "generation": 9,
+    "evolutionChainId": 544,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It resembles an eerie Pokémon once shown in a paranormal magazine. That Pokémon was said to be an Entei regenerated from a fossil.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 115,
+      "defense": 121,
+      "spAttack": 65,
+      "spDefense": 93,
+      "speed": 91,
+      "total": 590
+    }
+  },
+  {
+    "id": 1021,
+    "name": "raging-bolt",
+    "displayName": "Raging Bolt",
+    "formattedId": "Nº 1021",
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1021.png",
+    "height": "5.2",
+    "weight": "480.0",
+    "generation": 9,
+    "evolutionChainId": 545,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It bears resemblance to a Pokémon that became a hot topic for a short while after a paranormal magazine touted it as Raikou's ancestor.",
+    "abilities": [
+      {
+        "raw": "protosynthesis",
+        "name": "protosynthesis",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 125,
+      "attack": 73,
+      "defense": 91,
+      "spAttack": 137,
+      "spDefense": 89,
+      "speed": 75,
+      "total": 590
+    }
+  },
+  {
+    "id": 1022,
+    "name": "iron-boulder",
+    "displayName": "Iron Boulder",
+    "formattedId": "Nº 1022",
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1022.png",
+    "height": "1.5",
+    "weight": "162.5",
+    "generation": 9,
+    "evolutionChainId": 547,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "It was named after a mysterious object recorded in an old book. Its body seems to be metallic.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 80,
+      "spAttack": 68,
+      "spDefense": 108,
+      "speed": 124,
+      "total": 590
+    }
+  },
+  {
+    "id": 1023,
+    "name": "iron-crown",
+    "displayName": "Iron Crown",
+    "formattedId": "Nº 1023",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1023.png",
+    "height": "1.6",
+    "weight": "156.0",
+    "generation": 9,
+    "evolutionChainId": 546,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "genus": "Pokémon Paradoxo",
+    "description": "There was supposedly an incident in which it launched shining blades to cut everything around it to pieces. Little else is known about it.",
+    "abilities": [
+      {
+        "raw": "quark-drive",
+        "name": "quark drive",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 72,
+      "defense": 100,
+      "spAttack": 122,
+      "spDefense": 108,
+      "speed": 98,
+      "total": 590
+    }
+  },
+  {
+    "id": 1024,
+    "name": "terapagos",
+    "displayName": "Terapagos",
+    "formattedId": "Nº 1024",
+    "types": [
+      "normal"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1024.png",
+    "height": "0.2",
+    "weight": "6.5",
+    "generation": 9,
+    "evolutionChainId": 548,
+    "evolvesFrom": null,
+    "isLegendary": true,
+    "isMythical": false,
+    "genus": "Tera Pokémon ",
+    "description": "It’s thought that this Pokémon lived in ancient Paldea until it got caught in seismic shifts and went extinct.",
+    "abilities": [
+      {
+        "raw": "tera-shift",
+        "name": "tera shift",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 85,
+      "spAttack": 65,
+      "spDefense": 85,
+      "speed": 60,
+      "total": 450
+    }
+  },
+  {
+    "id": 1025,
+    "name": "pecharunt",
+    "displayName": "Pecharunt",
+    "formattedId": "Nº 1025",
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1025.png",
+    "height": "0.3",
+    "weight": "0.3",
+    "generation": 9,
+    "evolutionChainId": 549,
+    "evolvesFrom": null,
+    "isLegendary": false,
+    "isMythical": true,
+    "genus": "Pokémon Subjugação",
+    "description": "Its peach-shaped shell serves as storage for a potent poison. It makes poisonous mochi and serves them to people and Pokémon.",
+    "abilities": [
+      {
+        "raw": "poison-puppeteer",
+        "name": "poison puppeteer",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 88,
+      "defense": 160,
+      "spAttack": 88,
+      "spDefense": 88,
+      "speed": 88,
+      "total": 600
+    }
   }
 ];
-if (typeof module !== "undefined") module.exports = { KANTO_POKEMONS };
+const KANTO_POKEMONS = ALL_POKEMONS.slice(0, 151);
+
+if (typeof module !== 'undefined') {
+    module.exports = { ALL_POKEMONS, KANTO_POKEMONS };
+}

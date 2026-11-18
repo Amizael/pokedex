@@ -1,173 +1,222 @@
-// Gerenciamento e requisições da PokéAPI
+// Gerenciamento e requisições da PokéAPI (Gerações I a IX)
 const POKE_API = {
     baseUrl: 'https://pokeapi.co/api/v2',
+    cdnUrl: 'https://raw.githubusercontent.com/PokeAPI/api-data/master/data/api/v2',
+    totalPokemons: 1025,
     totalGen1: 151,
-    cacheKey: 'pokedex_kanto_151_v3',
     speciesCache: new Map(),
+    pokemonDetailsCache: new Map(),
 
     /**
-     * Carrega todos os 151 Pokémon da 1ª Geração (com cache no localStorage)
+     * Carrega todos os 1025 Pokémon (Gerações I a IX) instantaneamente da base estática
      */
-    async loadGen1Pokemons(onProgress = null) {
-        // Se já temos a base de dados compilada de FireRed & LeafGreen, carrega instantaneamente
-        if (typeof KANTO_POKEMONS !== 'undefined' && Array.isArray(KANTO_POKEMONS) && KANTO_POKEMONS.length === this.totalGen1) {
-            if (onProgress) onProgress(151, 151);
+    async loadAllPokemons(onProgress = null) {
+        if (typeof ALL_POKEMONS !== 'undefined' && Array.isArray(ALL_POKEMONS) && ALL_POKEMONS.length >= 1025) {
+            if (onProgress) onProgress(1025, 1025);
+            return ALL_POKEMONS;
+        }
+
+        // Se por ventura ALL_POKEMONS não estiver disponível, tenta KANTO_POKEMONS
+        if (typeof KANTO_POKEMONS !== 'undefined' && Array.isArray(KANTO_POKEMONS)) {
+            if (onProgress) onProgress(KANTO_POKEMONS.length, KANTO_POKEMONS.length);
             return KANTO_POKEMONS;
         }
 
-        // Tenta obter do cache local para carregamento instantâneo
-        try {
-            const cached = localStorage.getItem(this.cacheKey);
-            if (cached) {
-                const parsed = JSON.parse(cached);
-                if (Array.isArray(parsed) && parsed.length === this.totalGen1) {
-                    if (onProgress) onProgress(151, 151);
-                    return parsed;
-                }
-            }
-        } catch (e) {
-            console.warn('Erro ao ler cache local do Pokédex:', e);
-        }
-
-        // Caso não esteja em cache, busca os dados da PokéAPI em lotes paralelos
-        const pokemons = [];
-        const batchSize = 25;
-
-        for (let i = 1; i <= this.totalGen1; i += batchSize) {
-            const batchPromises = [];
-            const end = Math.min(i + batchSize - 1, this.totalGen1);
-
-            for (let id = i; id <= end; id++) {
-                batchPromises.push(
-                    fetch(`${this.baseUrl}/pokemon/${id}`)
-                        .then(res => {
-                            if (!res.ok) throw new Error(`Falha ao buscar pokemon ${id}`);
-                            return res.json();
-                        })
-                        .then(data => this.formatPokemonData(data))
-                );
-            }
-
-            const batchResults = await Promise.all(batchPromises);
-            pokemons.push(...batchResults);
-
-            if (onProgress) {
-                onProgress(pokemons.length, this.totalGen1);
-            }
-        }
-
-        // Ordena por ID garantindo ordem correta
-        pokemons.sort((a, b) => a.id - b.id);
-
-        // Salva no localStorage para carregamento imediato nas próximas vezes
-        try {
-            localStorage.setItem(this.cacheKey, JSON.stringify(pokemons));
-        } catch (e) {
-            console.warn('Não foi possível salvar cache no localStorage:', e);
-        }
-
-        return pokemons;
+        return [];
     },
 
     /**
-     * Formata os dados essenciais de um Pokémon para uso no catálogo e nos filtros
+     * Carrega Pokémon da 1ª Geração (compatibilidade retroativa)
      */
-    formatPokemonData(data) {
-        const id = data.id;
-        const formattedId = `Nº ${String(id).padStart(4, '0')}`;
-        const types = data.types.map(t => t.type.name);
+    async loadGen1Pokemons(onProgress = null) {
+        const all = await this.loadAllPokemons(onProgress);
+        return all.filter(p => p.generation === 1 || p.id <= 151);
+    },
 
-        // Imagem oficial de alta definição (Official Artwork)
-        const officialArtwork = data.sprites?.other?.['official-artwork']?.front_default;
-        const dreamWorld = data.sprites?.other?.dream_world?.front_default;
-        const fallbackSprite = data.sprites?.front_default;
-        const image = officialArtwork || dreamWorld || fallbackSprite || '';
+    /**
+     * Busca os movimentos de um Pokémon para uma determinada geração
+     */
+    async getPokemonMoves(pokemonId, generationId = 1) {
+        const genConfig = GENERATIONS_CONFIG[generationId] || GENERATIONS_CONFIG[1];
+        const numId = parseInt(pokemonId, 10);
+        const pokemon = (window.allPokemons || []).find(p => p.id === numId) || 
+                        (typeof ALL_POKEMONS !== 'undefined' ? ALL_POKEMONS.find(p => p.id === numId) : null);
 
-        // Habilidades com tradução
-        const abilities = data.abilities.map(a => {
-            const rawName = a.ability.name;
-            const ptName = ABILITY_TRANSLATIONS[rawName] || rawName.replace(/-/g, ' ');
+        // Se o Pokémon foi introduzido em uma geração POSTERIOR à solicitada
+        if (pokemon && pokemon.generation > genConfig.id) {
             return {
-                raw: rawName,
-                name: ptName,
-                is_hidden: a.is_hidden
+                notAvailable: true,
+                introducedGen: pokemon.generation,
+                generationName: GENERATIONS_CONFIG[pokemon.generation]?.name || `Geração ${pokemon.generation}`,
+                moves: []
             };
-        });
+        }
 
-        // Estatísticas base
-        const statsMap = {};
-        let statsTotal = 0;
-        data.stats.forEach(s => {
-            statsMap[s.stat.name] = s.base_stat;
-            statsTotal += s.base_stat;
-        });
+        // Se for Gen 1 ou Gen 3 (FRLG) e já temos moves compilados em pokemon.frlgMoves
+        if ((generationId === 1 || generationId === 3) && pokemon?.frlgMoves && pokemon.frlgMoves.length > 0) {
+            const mappedMoves = pokemon.frlgMoves.map(m => {
+                const info = (typeof ALL_MOVES_DATA !== 'undefined' && ALL_MOVES_DATA[m.name]) || 
+                             (typeof FRLG_MOVES !== 'undefined' && FRLG_MOVES[m.name]) || {};
+                return {
+                    name: m.name,
+                    method: m.method || 'level-up',
+                    level: m.level || 0,
+                    details: {
+                        name: m.name,
+                        namePt: info.namePt || m.name,
+                        type: info.type || 'normal',
+                        category: info.category || 'physical',
+                        power: info.power ?? '—',
+                        accuracy: info.accuracy ?? '—',
+                        pp: info.pp || 20,
+                        desc: info.desc || 'Ataque oficial registrado na Pokédex.',
+                        tm: info.tm || null,
+                        tutor: info.tutor || null
+                    }
+                };
+            });
+            return { notAvailable: false, moves: mappedMoves };
+        }
 
-        return {
-            id,
-            name: data.name,
-            formattedId,
-            types,
-            image,
-            height: (data.height / 10).toFixed(1), // Em metros
-            weight: (data.weight / 10).toFixed(1), // Em kg
-            abilities,
-            stats: {
-                hp: statsMap['hp'] || 0,
-                attack: statsMap['attack'] || 0,
-                defense: statsMap['defense'] || 0,
-                spAttack: statsMap['special-attack'] || 0,
-                spDefense: statsMap['special-defense'] || 0,
-                speed: statsMap['speed'] || 0,
-                total: statsTotal
+        // Busca os dados completos do Pokémon do cache ou via CDN/PokeAPI
+        let rawData = this.pokemonDetailsCache.get(numId);
+        if (!rawData) {
+            try {
+                // Tenta primeiro o CDN do api-data (sem limite de taxa)
+                const res = await fetch(`${this.cdnUrl}/pokemon/${numId}/index.json`);
+                if (res.ok) {
+                    rawData = await res.json();
+                    this.pokemonDetailsCache.set(numId, rawData);
+                } else {
+                    // Fallback para pokeapi.co
+                    const apiRes = await fetch(`${this.baseUrl}/pokemon/${numId}`);
+                    if (apiRes.ok) {
+                        rawData = await apiRes.json();
+                        this.pokemonDetailsCache.set(numId, rawData);
+                    }
+                }
+            } catch (err) {
+                console.warn(`Erro ao buscar moves do Pokémon #${numId}:`, err);
             }
-        };
+        }
+
+        if (!rawData || !rawData.moves) {
+            return { notAvailable: false, moves: [] };
+        }
+
+        // Filtra os movimentos para os grupos de versões da geração selecionada
+        const targetVGs = genConfig.versionGroups || [];
+        const resultMoves = [];
+        const seenMoveMethods = new Set();
+
+        rawData.moves.forEach(m => {
+            const moveName = m.move.name;
+            // Procura se tem detalhes para a versão alvo
+            const matchingDetails = m.version_group_details.filter(vg => targetVGs.includes(vg.version_group.name));
+            
+            if (matchingDetails.length > 0) {
+                // Pega a versão mais representativa dentro do grupo
+                const detail = matchingDetails[matchingDetails.length - 1];
+                const method = detail.move_learn_method.name;
+                const level = detail.level_learned_at || 0;
+                const uniqueKey = `${moveName}-${method}-${level}`;
+
+                if (!seenMoveMethods.has(uniqueKey)) {
+                    seenMoveMethods.add(uniqueKey);
+                    const info = (typeof ALL_MOVES_DATA !== 'undefined' && ALL_MOVES_DATA[moveName]) || 
+                                 (typeof FRLG_MOVES !== 'undefined' && FRLG_MOVES[moveName]) || {};
+
+                    resultMoves.push({
+                        name: moveName,
+                        method: method,
+                        level: level,
+                        details: {
+                            name: moveName,
+                            namePt: info.namePt || moveName.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
+                            type: info.type || 'normal',
+                            category: info.category || 'physical',
+                            power: info.power !== null && info.power !== undefined ? info.power : '—',
+                            accuracy: info.accuracy !== null && info.accuracy !== undefined ? info.accuracy : '—',
+                            pp: info.pp || 20,
+                            desc: info.desc || 'Movimento registrado nos dados oficiais da Pokédex.',
+                            tm: null,
+                            tutor: null
+                        }
+                    });
+                }
+            }
+        });
+
+        return { notAvailable: false, moves: resultMoves };
     },
 
     /**
      * Busca dados adicionais de espécie (descrição, categoria, cadeia de evolução)
      */
     async getSpeciesAndEvolution(pokemonId) {
-        if (this.speciesCache.has(pokemonId)) {
-            return this.speciesCache.get(pokemonId);
+        const numId = parseInt(pokemonId, 10);
+        if (this.speciesCache.has(numId)) {
+            return this.speciesCache.get(numId);
         }
 
+        // Dados base do Pokémon
+        const pokemon = (window.allPokemons || []).find(p => p.id === numId) || 
+                        (typeof ALL_POKEMONS !== 'undefined' ? ALL_POKEMONS.find(p => p.id === numId) : null);
+
+        let defaultDesc = pokemon?.description || 'Um Pokémon extraordinário registrado nos arquivos oficiais da Pokédex.';
+        let defaultGenus = pokemon?.genus || 'Pokémon';
+        let defaultGender = '50% Macho, 50% Fêmea';
+
         try {
-            const speciesRes = await fetch(`${this.baseUrl}/pokemon-species/${pokemonId}`);
-            if (!speciesRes.ok) throw new Error('Falha ao obter espécie');
-            const species = await speciesRes.json();
+            // Tenta obter do CDN da PokéAPI ou da API principal
+            let species = null;
+            try {
+                const cdnRes = await fetch(`${this.cdnUrl}/pokemon-species/${numId}/index.json`);
+                if (cdnRes.ok) species = await cdnRes.json();
+            } catch (_) {}
+
+            if (!species) {
+                const speciesRes = await fetch(`${this.baseUrl}/pokemon-species/${numId}`);
+                if (speciesRes.ok) species = await speciesRes.json();
+            }
+
+            if (!species) {
+                return {
+                    flavorText: defaultDesc,
+                    genus: defaultGenus,
+                    genderText: defaultGender,
+                    evolutionChain: null
+                };
+            }
 
             // Descrição da Pokédex (preferência: pt/pt-BR > es > en)
-            let flavorText = '';
-            const ptEntry = species.flavor_text_entries.find(e => e.language.name === 'pt' || e.language.name === 'pt-BR');
-            const esEntry = species.flavor_text_entries.find(e => e.language.name === 'es');
-            const enEntry = species.flavor_text_entries.find(e => e.language.name === 'en');
-
-            const chosenEntry = ptEntry || esEntry || enEntry;
-            if (chosenEntry) {
-                // Remove quebras de linha duras comuns das ROMs do Game Boy
-                flavorText = chosenEntry.flavor_text.replace(/[\n\f\r]/g, ' ').replace(/\u00ad/g, '').trim();
-            } else {
-                flavorText = 'Nenhuma descrição encontrada nos arquivos oficiais da Pokédex.';
+            let flavorText = defaultDesc;
+            if (species.flavor_text_entries && species.flavor_text_entries.length > 0) {
+                const ptEntry = species.flavor_text_entries.find(e => e.language.name === 'pt' || e.language.name === 'pt-BR');
+                const esEntry = species.flavor_text_entries.find(e => e.language.name === 'es');
+                const enEntry = species.flavor_text_entries.find(e => e.language.name === 'en');
+                const chosen = ptEntry || esEntry || enEntry;
+                if (chosen) {
+                    flavorText = chosen.flavor_text.replace(/[\n\f\r]/g, ' ').replace(/\u00ad/g, '').trim();
+                }
             }
 
             // Categoria / Espécie (Gênero)
-            let genus = '';
+            let genus = defaultGenus;
             const ptGenus = species.genera?.find(g => g.language.name === 'pt' || g.language.name === 'pt-BR');
             const enGenus = species.genera?.find(g => g.language.name === 'en');
             if (ptGenus) {
                 genus = ptGenus.genus;
-            } else if (enGenus) {
-                genus = GENUS_TRANSLATIONS[enGenus.genus] || enGenus.genus;
-            } else {
-                genus = 'Pokémon';
+            } else if (enGenus && typeof GENUS_TRANSLATIONS !== 'undefined' && GENUS_TRANSLATIONS[enGenus.genus]) {
+                genus = GENUS_TRANSLATIONS[enGenus.genus];
             }
 
-            // Gênero (proporção macho/fêmea)
-            let genderRate = species.gender_rate; // -1 = sem gênero, senão oitavos femininos
+            // Gênero
+            let genderRate = species.gender_rate;
             let genderText = '50% Macho, 50% Fêmea';
             if (genderRate === -1) {
                 genderText = 'Sem Gênero';
-            } else {
+            } else if (genderRate !== undefined && genderRate !== null) {
                 const femalePercent = (genderRate / 8) * 100;
                 const malePercent = 100 - femalePercent;
                 genderText = `${malePercent}% ♂ / ${femalePercent}% ♀`;
@@ -176,10 +225,26 @@ const POKE_API = {
             // Cadeia evolutiva
             let evolutionChain = null;
             if (species.evolution_chain?.url) {
-                const evoRes = await fetch(species.evolution_chain.url);
-                if (evoRes.ok) {
-                    const evoData = await evoRes.json();
-                    evolutionChain = this.parseEvolutionChain(evoData.chain);
+                let evoUrl = species.evolution_chain.url;
+                const chainId = evoUrl.split('/').filter(Boolean).pop();
+                
+                // Tenta carregar primeiro pelo CDN do api-data
+                try {
+                    const cdnEvoRes = await fetch(`${this.cdnUrl}/evolution-chain/${chainId}/index.json`);
+                    if (cdnEvoRes.ok) {
+                        const evoData = await cdnEvoRes.json();
+                        evolutionChain = this.parseEvolutionChain(evoData.chain);
+                    }
+                } catch (_) {}
+
+                // Fallback para pokeapi.co
+                if (!evolutionChain) {
+                    const fullEvoUrl = evoUrl.startsWith('http') ? evoUrl : `https://pokeapi.co${evoUrl.startsWith('/') ? '' : '/'}${evoUrl}`;
+                    const evoRes = await fetch(fullEvoUrl);
+                    if (evoRes.ok) {
+                        const evoData = await evoRes.json();
+                        evolutionChain = this.parseEvolutionChain(evoData.chain);
+                    }
                 }
             }
 
@@ -190,14 +255,14 @@ const POKE_API = {
                 evolutionChain
             };
 
-            this.speciesCache.set(pokemonId, result);
+            this.speciesCache.set(numId, result);
             return result;
         } catch (error) {
-            console.error(`Erro ao buscar detalhes da espécie ${pokemonId}:`, error);
+            console.warn(`Erro ao buscar dados complementares de #${numId}:`, error);
             return {
-                flavorText: 'Dados de espécie indisponíveis no momento.',
-                genus: 'Pokémon',
-                genderText: 'Desconhecido',
+                flavorText: defaultDesc,
+                genus: defaultGenus,
+                genderText: defaultGender,
                 evolutionChain: null
             };
         }
@@ -209,7 +274,7 @@ const POKE_API = {
     parseEvolutionChain(node) {
         if (!node) return null;
 
-        const id = parseInt(node.species.url.split('/').filter(Boolean).pop());
+        const id = parseInt(node.species.url.split('/').filter(Boolean).pop(), 10);
         const details = node.evolution_details?.[0] || {};
 
         let condition = '';
@@ -217,11 +282,11 @@ const POKE_API = {
             condition = `Nível ${details.min_level}`;
         } else if (details.item) {
             const rawItem = details.item.name;
-            condition = EVOLUTION_TRANSLATIONS[rawItem] || rawItem.replace(/-/g, ' ');
+            condition = (typeof EVOLUTION_TRANSLATIONS !== 'undefined' && EVOLUTION_TRANSLATIONS[rawItem]) || rawItem.replace(/-/g, ' ');
         } else if (details.trigger?.name === 'trade') {
             condition = 'Troca';
         } else if (details.trigger?.name) {
-            condition = EVOLUTION_TRANSLATIONS[details.trigger.name] || details.trigger.name;
+            condition = (typeof EVOLUTION_TRANSLATIONS !== 'undefined' && EVOLUTION_TRANSLATIONS[details.trigger.name]) || details.trigger.name;
         }
 
         return {
@@ -232,3 +297,7 @@ const POKE_API = {
         };
     }
 };
+
+if (typeof module !== 'undefined') {
+    module.exports = { POKE_API };
+}

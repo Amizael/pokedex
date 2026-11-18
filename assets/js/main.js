@@ -1,12 +1,13 @@
-// Aplicação Principal da Pokédex (Kanto - 1ª Geração)
+// Aplicação Principal da Pokédex (Gerações I a IX • 1025 Pokémon)
 
 // Estado da Aplicação
 window.allPokemons = [];
 let filteredPokemons = [];
 let searchTerm = '';
+let selectedGeneration = 'all'; // 'all' | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
 let selectedType = 'all';
 let selectedSort = 'id-asc';
-const ITEMS_PER_PAGE = 24;
+const ITEMS_PER_PAGE = 30;
 let displayedLimit = ITEMS_PER_PAGE;
 
 // Elementos do DOM
@@ -14,6 +15,8 @@ const cardsContainer = document.getElementById('cards-pokemons');
 const searchInput = document.getElementById('search-input');
 const searchBtn = document.getElementById('search-btn');
 const sortSelect = document.getElementById('sort-select');
+const generationFiltersContainer = document.getElementById('generation-filters');
+const genActiveBadge = document.getElementById('gen-active-badge');
 const typeFiltersContainer = document.getElementById('type-filters');
 const btnSurpriseMe = document.getElementById('btn-surprise');
 const btnClearFilters = document.getElementById('btn-clear-filters');
@@ -26,20 +29,21 @@ const loadingProgress = document.getElementById('loading-progress');
  * Inicialização da Aplicação
  */
 document.addEventListener('DOMContentLoaded', async () => {
+    renderGenerationFilterButtons();
     renderTypeFilterButtons();
     setupEventListeners();
     await loadPokemons();
 });
 
 /**
- * Carrega os dados dos 151 Pokémon da 1ª Geração
+ * Carrega os dados dos 1025 Pokémon das 9 Gerações
  */
 async function loadPokemons() {
     try {
-        window.allPokemons = await POKE_API.loadGen1Pokemons((current, total) => {
+        window.allPokemons = await POKE_API.loadAllPokemons((current, total) => {
             if (loadingProgress) {
                 const percent = Math.round((current / total) * 100);
-                loadingProgress.textContent = `Carregando Pokédex... ${percent}% (${current}/${total})`;
+                loadingProgress.textContent = `Carregando Pokédex Completa... ${percent}% (${current}/${total})`;
             }
         });
 
@@ -55,9 +59,35 @@ async function loadPokemons() {
     } catch (error) {
         console.error('Erro ao inicializar Pokédex:', error);
         if (loadingProgress) {
-            loadingProgress.textContent = 'Erro ao conectar com a PokéAPI. Atualize a página para tentar novamente.';
+            loadingProgress.textContent = 'Erro ao inicializar base de dados. Atualize a página para tentar novamente.';
         }
     }
+}
+
+/**
+ * Renderiza os botões de filtro de geração
+ */
+function renderGenerationFilterButtons() {
+    if (!generationFiltersContainer) return;
+
+    let html = `
+        <button type="button" class="gen-filter-btn active" data-gen="all">
+            <span class="gen-btn-title">Todas</span>
+            <span class="gen-btn-count">1025</span>
+        </button>
+    `;
+
+    const gens = getAllGenerationsList();
+    gens.forEach(g => {
+        html += `
+            <button type="button" class="gen-filter-btn" data-gen="${g.id}">
+                <span class="gen-btn-title">Gen ${g.roman}</span>
+                <span class="gen-btn-sub">${g.name}</span>
+            </button>
+        `;
+    });
+
+    generationFiltersContainer.innerHTML = html;
 }
 
 /**
@@ -118,6 +148,32 @@ function setupEventListeners() {
         });
     }
 
+    // Filtros de Geração
+    if (generationFiltersContainer) {
+        generationFiltersContainer.addEventListener('click', (e) => {
+            const btn = e.target.closest('.gen-filter-btn');
+            if (!btn) return;
+
+            document.querySelectorAll('.gen-filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            selectedGeneration = btn.dataset.gen;
+            displayedLimit = ITEMS_PER_PAGE;
+
+            // Atualiza badge de geração ativa
+            if (genActiveBadge) {
+                if (selectedGeneration === 'all') {
+                    genActiveBadge.textContent = 'Todas as Gerações (1025)';
+                } else {
+                    const g = GENERATIONS_CONFIG[selectedGeneration];
+                    genActiveBadge.textContent = `Geração ${g.roman} (${g.name} • ${g.total} Pokémon)`;
+                }
+            }
+
+            applyFiltersAndRender();
+        });
+    }
+
     // Filtros de Tipo
     if (typeFiltersContainer) {
         typeFiltersContainer.addEventListener('click', (e) => {
@@ -133,10 +189,11 @@ function setupEventListeners() {
         });
     }
 
-    // Botão Surpreenda-me (Sorteia um Pokémon de 1 a 151 e abre)
+    // Botão Surpreenda-me (Sorteia um Pokémon aleatório de 1 a 1025 e abre)
     if (btnSurpriseMe) {
         btnSurpriseMe.addEventListener('click', () => {
-            const randomId = Math.floor(Math.random() * 151) + 1;
+            const total = window.allPokemons?.length || 1025;
+            const randomId = Math.floor(Math.random() * total) + 1;
             openPokemonModal(randomId);
         });
     }
@@ -146,9 +203,15 @@ function setupEventListeners() {
         btnClearFilters.addEventListener('click', () => {
             if (searchInput) searchInput.value = '';
             searchTerm = '';
+            selectedGeneration = 'all';
             selectedType = 'all';
             selectedSort = 'id-asc';
             if (sortSelect) sortSelect.value = 'id-asc';
+
+            document.querySelectorAll('.gen-filter-btn').forEach(b => {
+                b.classList.toggle('active', b.dataset.gen === 'all');
+            });
+            if (genActiveBadge) genActiveBadge.textContent = 'Todas as Gerações (1025)';
 
             document.querySelectorAll('.type-filter-btn').forEach(b => {
                 b.classList.toggle('active', b.dataset.type === 'all');
@@ -179,16 +242,22 @@ function setupEventListeners() {
 }
 
 /**
- * Aplica os filtros de busca, tipo e ordenação e atualiza a interface
+ * Aplica os filtros de busca, geração, tipo e ordenação e atualiza a interface
  */
 function applyFiltersAndRender() {
-    let result = [...window.allPokemons];
+    let result = [...(window.allPokemons || [])];
+
+    // Filtro por Geração
+    if (selectedGeneration && selectedGeneration !== 'all') {
+        const genNum = parseInt(selectedGeneration, 10);
+        result = result.filter(p => p.generation === genNum);
+    }
 
     // Filtro por Texto (Nome ou Número)
     if (searchTerm) {
         result = result.filter(p => {
             const cleanQuery = searchTerm.replace(/[^a-z0-9]/gi, '');
-            const matchName = p.name.toLowerCase().includes(searchTerm);
+            const matchName = p.name.toLowerCase().includes(searchTerm) || (p.displayName && p.displayName.toLowerCase().includes(searchTerm));
             const matchId = String(p.id) === cleanQuery || p.formattedId.toLowerCase().includes(searchTerm);
             return matchName || matchId;
         });
@@ -205,10 +274,10 @@ function applyFiltersAndRender() {
             result.sort((a, b) => b.id - a.id);
             break;
         case 'name-asc':
-            result.sort((a, b) => a.name.localeCompare(b.name));
+            result.sort((a, b) => (a.displayName || a.name).localeCompare(b.displayName || b.name));
             break;
         case 'name-desc':
-            result.sort((a, b) => b.name.localeCompare(a.name));
+            result.sort((a, b) => (b.displayName || b.name).localeCompare(a.displayName || a.name));
             break;
         case 'id-asc':
         default:
@@ -228,16 +297,23 @@ function renderCards() {
 
     // Atualiza contador de resultados
     if (resultsCounter) {
-        const total = window.allPokemons.length;
         const matching = filteredPokemons.length;
-        resultsCounter.textContent = `Exibindo ${Math.min(displayedLimit, matching)} de ${matching} Pokémon ${selectedType !== 'all' || searchTerm ? '(Filtrado)' : '(1ª Geração)'}`;
+        let contextLabel = 'todas as 9 Gerações';
+        if (selectedGeneration !== 'all') {
+            const g = GENERATIONS_CONFIG[selectedGeneration];
+            contextLabel = `${g.roman}ª Geração (${g.name} • ${g.mainGames})`;
+        }
+        if (selectedType !== 'all' || searchTerm) {
+            contextLabel += ' (Filtrado)';
+        }
+        resultsCounter.textContent = `Exibindo ${Math.min(displayedLimit, matching)} de ${matching} Pokémon • ${contextLabel}`;
     }
 
     if (filteredPokemons.length === 0) {
         cardsContainer.innerHTML = `
             <div class="empty-state">
                 <h3>Nenhum Pokémon encontrado</h3>
-                <p>Nenhum resultado corresponde aos seus filtros de busca.</p>
+                <p>Nenhum resultado corresponde aos filtros selecionados.</p>
                 <button type="button" class="btn-clear" onclick="document.getElementById('btn-clear-filters').click()">
                     Limpar Filtros
                 </button>
@@ -261,15 +337,18 @@ function renderCards() {
 
         const primaryType = p.types[0];
         const primaryColor = TYPE_INFO[primaryType]?.color || '#999';
+        const displayName = p.displayName || p.name.charAt(0).toUpperCase() + p.name.slice(1);
+        const gen = GENERATIONS_CONFIG[p.generation];
 
         return `
-            <article class="pokemon-card" onclick="openPokemonModal(${p.id})" tabindex="0" role="button" aria-label="Ver detalhes de ${p.name}">
+            <article class="pokemon-card" onclick="openPokemonModal(${p.id})" tabindex="0" role="button" aria-label="Ver detalhes de ${displayName}">
                 <div class="card-img-box" style="--accent-color: ${primaryColor}">
-                    <img src="${p.image}" alt="${p.name}" loading="lazy" class="pokemon-card-img" />
+                    <img src="${p.image}" alt="${displayName}" loading="lazy" class="pokemon-card-img" />
+                    <span class="card-gen-pill">Gen ${gen ? gen.roman : p.generation}</span>
                 </div>
                 <div class="card-info">
                     <span class="pokemon-id">${p.formattedId}</span>
-                    <h2 class="pokemon-name">${p.name}</h2>
+                    <h2 class="pokemon-name">${displayName}</h2>
                     <div class="pokemon-types">
                         ${typesHtml}
                     </div>
