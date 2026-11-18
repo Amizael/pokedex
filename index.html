@@ -2,54 +2,123 @@
 <html lang="pt-br">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pokédex Oficial da 1ª Geração com dados completos, filtros de busca, fraquezas, vantagens e evolução dos 151 Pokémon.">
+    <title>Pokédex Oficial - 1ª Geração (Kanto)</title>
 
-	<!-- Normalize -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-		integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-	<!-- Estilo -->
-	<link rel="stylesheet" href="assets/css/style.css">
-	<title> Página </title>
+    <!-- Google Fonts & Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+
+    <!-- Estilos Customizados -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23e3350d' stroke='%23333' stroke-width='4'/><path d='M2 50 A48 48 0 0 0 98 50 Z' fill='%23fff' stroke='%23333' stroke-width='4'/><circle cx='50' cy='50' r='16' fill='%23fff' stroke='%23333' stroke-width='6'/><circle cx='50' cy='50' r='7' fill='%23333'/></svg>">
 </head>
 
 <body>
+    <!-- Tela de Carregamento Inicial -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="pokeball-spinner"></div>
+        <p id="loading-progress">Carregando Pokédex da 1ª Geração...</p>
+    </div>
 
-	<!---------- INÍCIO MAIN ---------->
-	<main>
-		<section class="content"> <!-- Início section -->
+    <!-- Cabeçalho Principal -->
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand-container">
+                <svg class="header-pokeball" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="48" fill="#e3350d" stroke="#333" stroke-width="4"/>
+                    <path d="M2 50 A48 48 0 0 0 98 50 Z" fill="#ffffff" stroke="#333" stroke-width="4"/>
+                    <line x1="2" y1="50" x2="98" y2="50" stroke="#333" stroke-width="8"/>
+                    <circle cx="50" cy="50" r="16" fill="#ffffff" stroke="#333" stroke-width="6"/>
+                    <circle cx="50" cy="50" r="7" fill="#333"/>
+                </svg>
+                <h1 class="brand-title">Poké<span>dex</span></h1>
+            </div>
+            <span class="gen-tag">1ª Geração (Kanto) • 151 Pokémon</span>
+        </div>
+    </header>
 
-			<h1>
-				Pokedex
-			</h1>
+    <!-- Conteúdo Principal -->
+    <main class="main-wrapper">
+        <!-- Painel de Busca e Filtros -->
+        <section class="filter-panel" aria-label="Filtros da Pokédex">
+            <div class="search-row">
+                <div class="search-box">
+                    <input type="text" id="search-input" class="search-input" placeholder="Pesquisar por nome ou número (ex: Pikachu ou 25)..." autocomplete="off" />
+                    <button type="button" id="search-btn" class="search-btn">Buscar</button>
+                </div>
 
-			<div id="cards-pokemons" class="pokemons"> <!-- início Pokemons // -->
-				<!-- Aqui vai ficar os cards dos pokemons-->
+                <div class="action-buttons">
+                    <button type="button" id="btn-surprise" class="btn-surprise" title="Sorteia um Pokémon aleatório">
+                        <span>&#127922;</span> Surpreenda-me!
+                    </button>
 
+                    <div class="sort-box">
+                        <select id="sort-select" class="sort-select" aria-label="Ordenar Pokémon">
+                            <option value="id-asc">Menor número primeiro</option>
+                            <option value="id-desc">Maior número primeiro</option>
+                            <option value="name-asc">Nome (A - Z)</option>
+                            <option value="name-desc">Nome (Z - A)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
-			</div><!-- fim Pokemons // -->
+            <!-- Filtros por Tipo -->
+            <div class="type-filter-section">
+                <div class="filter-section-header">
+                    <span class="filter-title">Filtrar por Tipo</span>
+                    <button type="button" id="btn-clear-filters" class="btn-clear-filters">Limpar Filtros</button>
+                </div>
+                <div id="type-filters" class="type-filters-grid">
+                    <!-- Gerado dinamicamente via JS -->
+                </div>
+            </div>
+        </section>
 
+        <!-- Informações de Resultados -->
+        <div class="results-info-bar">
+            <span id="results-counter" class="results-counter">Carregando Pokédex...</span>
+        </div>
 
-			<div class="paginacao"><!-- Início botão -->
-				<button id="btnPaginacao" type="button">
-					Mostrar +
-				</button>
-			</div><!-- Fim botão -->
+        <!-- Grade de Cards dos Pokémon -->
+        <section id="cards-pokemons" class="pokemon-grid" aria-label="Lista de Pokémon">
+            <!-- Cards injetados via JavaScript -->
+        </section>
 
-		</section><!-- fim section -->
+        <!-- Botão Carregar Mais -->
+        <div class="load-more-container" style="display: none;">
+            <button id="btnLoadMore" type="button" class="btn-load-more">
+                Carregar mais Pokémon
+            </button>
+        </div>
+    </main>
 
+    <!-- Modal de Detalhes do Pokémon (Estilo Oficial) -->
+    <div id="pokemon-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-dialog">
+            <div id="modal-body-content" class="modal-content-scroll">
+                <!-- Conteúdo do modal injetado dinamicamente -->
+            </div>
+        </div>
+    </div>
 
-		<section id="modal" style="display: none;" >
-			
-		</section>
-	</main>
-	<!---------- FIM MAIN ---------->
+    <!-- Rodapé -->
+    <footer class="site-footer">
+        <p>Pokédex 1ª Geração • Projeto desenvolvido para a trilha JS Developer • Dados fornecidos pela <a href="https://pokeapi.co/" target="_blank" rel="noopener noreferrer">PokéAPI</a></p>
+    </footer>
 
-	<script src="assets/js/poke-api.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/modal.js"></script>
+    <!-- Scripts da Aplicação -->
+    <script src="assets/js/type-data.js"></script>
+    <script src="assets/js/poke-api.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
