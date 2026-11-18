@@ -101,25 +101,22 @@
                     </div>
                 </div>
 
-                <!-- RODA CIRCULAR DE TIPAGENS COM RELAÇÕES DE COMBATE -->
-                <div class="type-wheel-section">
-                    <div class="filter-section-header">
-                        <span class="filter-title">Filtro Interativo de Tipos (Relações de Combate)</span>
-                        <button type="button" class="btn-clear-wheel" onclick="resetTypeWheel()">Limpar Tipagem</button>
+                <!-- PAINEL COMBINADO: FILTRO INTERATIVO (RODA) + DETALHES SOBRE O CAMPO SELECIONADO -->
+                <div class="type-combat-dashboard">
+                    <!-- Coluna Esquerda: Filtro Interativo (Roda de Tipagens) -->
+                    <div class="type-wheel-card">
+                        <div class="filter-section-header">
+                            <span class="filter-title">Filtro Interativo (Relações de Combate)</span>
+                            <button type="button" class="btn-clear-wheel" onclick="resetTypeWheel()">Limpar Tipagem</button>
+                        </div>
+                        <div id="type-wheel-container">
+                            <!-- Renderizado via type-wheel.js -->
+                        </div>
                     </div>
-                    <div id="type-wheel-container">
-                        <!-- Renderizado via type-wheel.js -->
-                    </div>
-                </div>
 
-                <!-- Filtros por Tipo (Botões Rápidos) -->
-                <div class="type-filter-section">
-                    <div class="filter-section-header">
-                        <span class="filter-title">Seleção Rápida por Tipo</span>
-                        <button type="button" id="btn-clear-filters" class="btn-clear-filters">Limpar Todos os Filtros</button>
-                    </div>
-                    <div id="type-filters" class="type-filters-grid">
-                        <!-- Gerado dinamicamente via JS -->
+                    <!-- Coluna Direita: Detalhes sobre o Campo Selecionado -->
+                    <div class="type-details-card" id="type-details-card">
+                        <!-- Renderizado via type-wheel.js -->
                     </div>
                 </div>
             </section>
