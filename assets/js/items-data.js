@@ -1477,7 +1477,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Leek",
     "category": "Itens Segurados",
     "cost": 1000,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leek.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stick.png",
     "desc": "O talo vegetal característico de Farfetch'd e Sirfetch'd que amplia sua taxa de acertos críticos em +2 estágios."
   },
   {
@@ -1817,7 +1817,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Abomasnowite",
     "category": "Mega Pedras (Mega Evolução)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/abomasnowite.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/abomasite.png",
     "desc": "Permite a Abomasnow megaevoluir para Mega Abomasnow durante o combate."
   },
   {
@@ -1917,7 +1917,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Normalium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/normalium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/normalium-z--bag.png",
     "desc": "Converte movimentos do tipo Normal no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -1927,7 +1927,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Firium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/firium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/firium-z--bag.png",
     "desc": "Converte movimentos do tipo Fogo no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -1937,7 +1937,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Waterium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/waterium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/waterium-z--bag.png",
     "desc": "Converte movimentos do tipo Água no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -1947,7 +1947,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Electrium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electrium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electrium-z--bag.png",
     "desc": "Converte movimentos do tipo Elétrico no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -1957,7 +1957,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Grassium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grassium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grassium-z--bag.png",
     "desc": "Converte movimentos do tipo Planta no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -1967,7 +1967,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Icium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/icium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/icium-z--bag.png",
     "desc": "Converte movimentos do tipo Gelo no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -1977,7 +1977,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Fightinium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fightinium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fightinium-z--bag.png",
     "desc": "Converte movimentos do tipo Lutador no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -1987,7 +1987,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Poisonium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poisonium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poisonium-z--bag.png",
     "desc": "Converte movimentos do tipo Veneno no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -1997,7 +1997,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Groundium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/groundium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/groundium-z--bag.png",
     "desc": "Converte movimentos do tipo Terrestre no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2007,7 +2007,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Flyinium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flyinium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flyinium-z--bag.png",
     "desc": "Converte movimentos do tipo Voador no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2017,7 +2017,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Psychium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/psychium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/psychium-z--bag.png",
     "desc": "Converte movimentos do tipo Psíquico no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2027,7 +2027,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Buginium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/buginium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/buginium-z--bag.png",
     "desc": "Converte movimentos do tipo Inseto no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2037,7 +2037,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Rockium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rockium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rockium-z--bag.png",
     "desc": "Converte movimentos do tipo Pedra no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2047,7 +2047,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Ghostium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ghostium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ghostium-z--bag.png",
     "desc": "Converte movimentos do tipo Fantasma no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2057,7 +2057,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Dragonium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragonium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragonium-z--bag.png",
     "desc": "Converte movimentos do tipo Dragão no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2067,7 +2067,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Darkinium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/darkinium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/darkinium-z--bag.png",
     "desc": "Converte movimentos do tipo Sombrio no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2077,7 +2077,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Steelium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/steelium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/steelium-z--bag.png",
     "desc": "Converte movimentos do tipo Aço no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2087,7 +2087,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Fairium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fairium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fairium-z--bag.png",
     "desc": "Converte movimentos do tipo Fada no poderoso Movimento Z elemental correspondente."
   },
   {
@@ -2097,7 +2097,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Pikanium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pikanium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pikanium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Pikachu (Choque Catastrófico) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2107,7 +2107,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Pikashunium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pikashunium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pikashunium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Pikachu de Boné (Raio de 10.000.000 de Volts) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2117,7 +2117,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Aloraichium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aloraichium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aloraichium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Raichu de Alola (Surfe Elétrico Energizado) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2127,7 +2127,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Eevium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eevium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eevium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Eevee (Poder de Eevium) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2137,7 +2137,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Snorlium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/snorlium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/snorlium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Snorlax (Panqueca Esmagadora) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2147,7 +2147,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Mewnium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mewnium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mewnium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Mew (Supernova Gênesis) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2157,7 +2157,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Decidium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/decidium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/decidium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Decidueye (Chuva de Flechas Sinistras) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2167,7 +2167,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Incinium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/incinium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/incinium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Incineroar (Salto Mortal Malicioso) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2177,7 +2177,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Primarium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/primarium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/primarium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Primarina (Sinfonia Oceânica) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2187,7 +2187,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Lycanium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lycanium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lycanium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Lycanroc (Tempestade de Presas Radiais) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2197,7 +2197,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Mimikium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mimikium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mimikium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Mimikyu (Abraço Amigável Acolhedor) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2207,7 +2207,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Kommonium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kommonium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kommonium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Kommo-o (Estrondo Trovejante de Clangor) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2217,7 +2217,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Tapunium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tapunium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tapunium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Guardiões Tapu (Fúria de Alola) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2227,7 +2227,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Solganium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/solganium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/solganium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Solgaleo / Necrozma (Açoite Solar Fulgurante) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2237,7 +2237,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Lunalium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lunalium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lunalium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Lunala / Necrozma (Raio Menesgênico Lunar) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2247,7 +2247,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Ultranecrozium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultranecrozium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultranecrozium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Necrozma (Luz que Extingue o Céu) desferir seu Movimento Z de assinatura."
   },
   {
@@ -2257,7 +2257,7 @@ const ITEMS_DATABASE = [
     "nameEn": "Marshadium Z",
     "category": "Cristais Z (Movimentos Z)",
     "cost": 0,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/marshadium-z.png",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/marshadium-z--bag.png",
     "desc": "Cristal Z exclusivo que permite a Marshadow (Golpe dos Sete Estrelas Sombrias) desferir seu Movimento Z de assinatura."
   },
   {
