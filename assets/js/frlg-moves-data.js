@@ -1,4 +1,4 @@
-// Dicionário de Movimentos e Ataques de Pokémon FireRed & LeafGreen (3ª Geração - Kanto)
+// Banco de Movimentos de Kanto e FRLG com Métodos de Obtenção e Tradução PT-BR
 const FRLG_MOVES = {
   "swords-dance": {
     "name": "swords-dance",
@@ -878,7 +878,7 @@ const FRLG_MOVES = {
   },
   "dragon-dance": {
     "name": "dragon-dance",
-    "namePt": "Dragon Dance",
+    "namePt": "Dança do Dragão",
     "type": "dragon",
     "category": "status",
     "power": null,
@@ -998,7 +998,7 @@ const FRLG_MOVES = {
   },
   "surf": {
     "name": "surf",
-    "namePt": "Surf",
+    "namePt": "Surfar",
     "type": "water",
     "category": "special",
     "power": 90,
@@ -1718,7 +1718,7 @@ const FRLG_MOVES = {
   },
   "shock-wave": {
     "name": "shock-wave",
-    "namePt": "Shock Wave",
+    "namePt": "Onda de Choque",
     "type": "electric",
     "category": "special",
     "power": 60,
@@ -2318,7 +2318,7 @@ const FRLG_MOVES = {
   },
   "calm-mind": {
     "name": "calm-mind",
-    "namePt": "Calm Mind",
+    "namePt": "Mente Calma",
     "type": "psychic",
     "category": "status",
     "power": null,
@@ -2642,13 +2642,13 @@ const FRLG_MOVES = {
   },
   "water-sport": {
     "name": "water-sport",
-    "namePt": "Water Sport",
+    "namePt": "Esporte Aquático",
     "type": "water",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Weakens FIRE-type attacks while the user is in the battle.",
+    "desc": "Espalha água pelo campo de combate, reduzindo o dano de ataques do tipo Fogo.",
     "tm": null,
     "tutor": null
   },
@@ -3038,7 +3038,7 @@ const FRLG_MOVES = {
   },
   "rock-blast": {
     "name": "rock-blast",
-    "namePt": "Rock Blast",
+    "namePt": "Rajada de Pedras",
     "type": "rock",
     "category": "physical",
     "power": 25,
@@ -3865,4 +3865,7 @@ const FRLG_MOVES = {
     "tutor": null
   }
 };
-if (typeof module !== "undefined") module.exports = { FRLG_MOVES };
+
+if (typeof module !== 'undefined') {
+    module.exports = { FRLG_MOVES };
+}

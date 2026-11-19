@@ -1,4 +1,3 @@
-// Catálogo Completo de Movimentos Pokémon (Gerações I a IX)
 const ALL_MOVES_DATA = {
   "swords-dance": {
     "name": "swords-dance",
@@ -878,7 +877,7 @@ const ALL_MOVES_DATA = {
   },
   "dragon-dance": {
     "name": "dragon-dance",
-    "namePt": "Dragon Dance",
+    "namePt": "Dança do Dragão",
     "type": "dragon",
     "category": "status",
     "power": null,
@@ -998,7 +997,7 @@ const ALL_MOVES_DATA = {
   },
   "surf": {
     "name": "surf",
-    "namePt": "Surf",
+    "namePt": "Surfar",
     "type": "water",
     "category": "special",
     "power": 90,
@@ -1718,7 +1717,7 @@ const ALL_MOVES_DATA = {
   },
   "shock-wave": {
     "name": "shock-wave",
-    "namePt": "Shock Wave",
+    "namePt": "Onda de Choque",
     "type": "electric",
     "category": "special",
     "power": 60,
@@ -2318,7 +2317,7 @@ const ALL_MOVES_DATA = {
   },
   "calm-mind": {
     "name": "calm-mind",
-    "namePt": "Calm Mind",
+    "namePt": "Mente Calma",
     "type": "psychic",
     "category": "status",
     "power": null,
@@ -2642,13 +2641,13 @@ const ALL_MOVES_DATA = {
   },
   "water-sport": {
     "name": "water-sport",
-    "namePt": "Water Sport",
+    "namePt": "Esporte Aquático",
     "type": "water",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Weakens FIRE-type attacks while the user is in the battle.",
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex.",
     "tm": null,
     "tutor": null
   },
@@ -3038,7 +3037,7 @@ const ALL_MOVES_DATA = {
   },
   "rock-blast": {
     "name": "rock-blast",
-    "namePt": "Rock Blast",
+    "namePt": "Rajada de Pedras",
     "type": "rock",
     "category": "physical",
     "power": 25,
@@ -3867,18 +3866,18 @@ const ALL_MOVES_DATA = {
   "bide": {
     "id": 117,
     "name": "bide",
-    "namePt": "Bide",
+    "namePt": "Paciência",
     "type": "normal",
     "category": "physical",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "\"User waits for two turns"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "struggle": {
     "id": 165,
     "name": "struggle",
-    "namePt": "Struggle",
+    "namePt": "Debater",
     "type": "normal",
     "category": "physical",
     "power": 50,
@@ -3889,18 +3888,18 @@ const ALL_MOVES_DATA = {
   "sketch": {
     "id": 166,
     "name": "sketch",
-    "namePt": "Sketch",
+    "namePt": "Esboço",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 1,
-    "desc": "This move enables the user to permanently learn the move last used by the target. Once used, Sketch disappears."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "triple-kick": {
     "id": 167,
     "name": "triple-kick",
-    "namePt": "Triple Kick",
+    "namePt": "Chute Triplo",
     "type": "fighting",
     "category": "physical",
     "power": 10,
@@ -3911,18 +3910,18 @@ const ALL_MOVES_DATA = {
   "spider-web": {
     "id": 169,
     "name": "spider-web",
-    "namePt": "Spider Web",
+    "namePt": "Teia de Aranha",
     "type": "bug",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Prevents the target from leaving battle."
+    "desc": "Impede que o Pokémon adversário fuja ou seja trocado de batalha."
   },
   "aeroblast": {
     "id": 177,
     "name": "aeroblast",
-    "namePt": "Aeroblast",
+    "namePt": "Aeroexplosão",
     "type": "flying",
     "category": "special",
     "power": 100,
@@ -3933,260 +3932,260 @@ const ALL_MOVES_DATA = {
   "cotton-spore": {
     "id": 178,
     "name": "cotton-spore",
-    "namePt": "Cotton Spore",
+    "namePt": "Esporo de Algodão",
     "type": "grass",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 40,
-    "desc": "The user releases cotton-like spores that cling to opposing Pokémon, which harshly lowers their Speed stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "sweet-kiss": {
     "id": 186,
     "name": "sweet-kiss",
-    "namePt": "Sweet Kiss",
+    "namePt": "Beijo Doce",
     "type": "fairy",
     "category": "status",
     "power": null,
     "accuracy": 75,
     "pp": 10,
-    "desc": "The user kisses the target with a sweet, angelic cuteness that causes confusion."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "milk-drink": {
     "id": 208,
     "name": "milk-drink",
-    "namePt": "Milk Drink",
+    "namePt": "Bebida de Leite",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "Heals the user by half its max HP."
+    "desc": "Restaura até metade do PS máximo do usuário."
   },
   "sacred-fire": {
     "id": 221,
     "name": "sacred-fire",
-    "namePt": "Sacred Fire",
+    "namePt": "Fogo Sagrado",
     "type": "fire",
     "category": "physical",
     "power": 100,
     "accuracy": 95,
     "pp": 5,
-    "desc": "Has a chance to burn the target.  Lets frozen Pokémon thaw themselves."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "morning-sun": {
     "id": 234,
     "name": "morning-sun",
-    "namePt": "Morning Sun",
+    "namePt": "Sol da Manhã",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "Heals the user by half its max HP.  Affected by weather."
+    "desc": "Heals o usuário by half its PS máximo.  Affected by weather."
   },
   "whirlpool": {
     "id": 250,
     "name": "whirlpool",
-    "namePt": "Whirlpool",
+    "namePt": "Redemoinho",
     "type": "water",
     "category": "special",
     "power": 35,
     "accuracy": 85,
     "pp": 15,
-    "desc": "The user summons a violent, swirling whirlpool to surround targets. Opponents within the whirlpool will take continual damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "magic-coat": {
     "id": 277,
     "name": "magic-coat",
-    "namePt": "Magic Coat",
+    "namePt": "Capa Mágica",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Reflects back the first effect move used on the user this turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "eruption": {
     "id": 284,
     "name": "eruption",
-    "namePt": "Eruption",
+    "namePt": "Erupção",
     "type": "fire",
     "category": "special",
     "power": 150,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "arm-thrust": {
     "id": 292,
     "name": "arm-thrust",
-    "namePt": "Arm Thrust",
+    "namePt": "Golpe de Braço",
     "type": "fighting",
     "category": "physical",
     "power": 15,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Hits 2-5 times in one turn."
+    "desc": "Atinge o oponente de 2 a 5 vezes consecutivas no mesmo turno."
   },
   "tail-glow": {
     "id": 294,
     "name": "tail-glow",
-    "namePt": "Tail Glow",
+    "namePt": "Brilho na Cauda",
     "type": "bug",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user stares at flashing lights to focus its mind, drastically boosting its Sp. Atk stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "luster-purge": {
     "id": 295,
     "name": "luster-purge",
-    "namePt": "Luster Purge",
+    "namePt": "Expurgo Lustroso",
     "type": "psychic",
     "category": "special",
     "power": 95,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Has a chance to lower the target’s Special Defense by one stage."
+    "desc": "Possui chance de reduzir a Defesa Especial do alvo em um estágio."
   },
   "mist-ball": {
     "id": 296,
     "name": "mist-ball",
-    "namePt": "Mist Ball",
+    "namePt": "Esfera de Névoa",
     "type": "psychic",
     "category": "special",
     "power": 95,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Has a chance to lower the target’s Special Attack by one stage."
+    "desc": "Possui chance de reduzir o Ataque Especial do alvo em um estágio."
   },
   "teeter-dance": {
     "id": 298,
     "name": "teeter-dance",
-    "namePt": "Teeter Dance",
+    "namePt": "Dança Cambaleante",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Confuses the target."
+    "desc": "Confuses o alvo."
   },
   "blaze-kick": {
     "id": 299,
     "name": "blaze-kick",
-    "namePt": "Blaze Kick",
+    "namePt": "Chute de Labareda",
     "type": "fire",
     "category": "physical",
     "power": 85,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Has an increased chance for a critical hit and a chance to burn the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "needle-arm": {
     "id": 302,
     "name": "needle-arm",
-    "namePt": "Needle Arm",
+    "namePt": "Braço de Agulha",
     "type": "grass",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "slack-off": {
     "id": 303,
     "name": "slack-off",
-    "namePt": "Slack Off",
+    "namePt": "Vadiar",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The user slacks off, restoring its own HP by up to half its max HP."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "weather-ball": {
     "id": 311,
     "name": "weather-ball",
-    "namePt": "Weather Ball",
+    "namePt": "Esfera Climática",
     "type": "normal",
     "category": "special",
     "power": 50,
     "accuracy": 100,
     "pp": 10,
-    "desc": "If there be weather, this move has doubled power and the weather’s type."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "water-spout": {
     "id": 323,
     "name": "water-spout",
-    "namePt": "Water Spout",
+    "namePt": "Tromba d'Água",
     "type": "water",
     "category": "special",
     "power": 150,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user spouts water to damage opposing Pokémon. The lower the user’s HP, the lower the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "extrasensory": {
     "id": 326,
     "name": "extrasensory",
-    "namePt": "Extrasensory",
+    "namePt": "Extrassensorial",
     "type": "psychic",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The user attacks with an odd, unseeable power. This may also make the target flinch."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "muddy-water": {
     "id": 330,
     "name": "muddy-water",
-    "namePt": "Muddy Water",
+    "namePt": "Água Barrenta",
     "type": "water",
     "category": "special",
     "power": 90,
     "accuracy": 85,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s accuracy by one stage."
+    "desc": "Possui chance de reduzir a precisão do alvo em um estágio."
   },
   "iron-defense": {
     "id": 334,
     "name": "iron-defense",
-    "namePt": "Iron Defense",
+    "namePt": "Defesa de Ferro",
     "type": "steel",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "The user hardens its body’s surface like iron, sharply boosting its Defense stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "poison-tail": {
     "id": 342,
     "name": "poison-tail",
-    "namePt": "Poison Tail",
+    "namePt": "Cauda Venenosa",
     "type": "poison",
     "category": "physical",
     "power": 50,
     "accuracy": 100,
     "pp": 25,
-    "desc": "Has an increased chance for a critical hit and a chance to poison the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "volt-tackle": {
     "id": 344,
     "name": "volt-tackle",
-    "namePt": "Volt Tackle",
+    "namePt": "Investida do Trovão",
     "type": "electric",
     "category": "physical",
     "power": 120,
     "accuracy": 100,
     "pp": 15,
-    "desc": "User takes 1/3 the damage inflicted in recoil.  Has a chance to paralyze the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "leaf-blade": {
     "id": 348,
     "name": "leaf-blade",
-    "namePt": "Leaf Blade",
+    "namePt": "Lâmina de Folha",
     "type": "grass",
     "category": "physical",
     "power": 90,
@@ -4197,24 +4196,24 @@ const ALL_MOVES_DATA = {
   "doom-desire": {
     "id": 353,
     "name": "doom-desire",
-    "namePt": "Doom Desire",
+    "namePt": "Desejo da Perdição",
     "type": "steel",
     "category": "special",
     "power": 140,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Two turns after this move is used, a concentrated bundle of light blasts the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "psycho-boost": {
     "id": 354,
     "name": "psycho-boost",
-    "namePt": "Psycho Boost",
+    "namePt": "Impulso Psíquico",
     "type": "psychic",
     "category": "special",
     "power": 140,
     "accuracy": 90,
     "pp": 5,
-    "desc": "Lowers the user’s Special Attack by two stages after inflicting damage."
+    "desc": "Reduz o Ataque Especial do usuário em dois estágios após infligir dano."
   },
   "roost": {
     "id": 355,
@@ -4225,100 +4224,100 @@ const ALL_MOVES_DATA = {
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "Heals the user by half its max HP."
+    "desc": "Restaura até metade do PS máximo do usuário."
   },
   "gravity": {
     "id": 356,
     "name": "gravity",
-    "namePt": "Gravity",
+    "namePt": "Gravidade",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "Disables moves and immunities that involve flying or levitating for five turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "miracle-eye": {
     "id": 357,
     "name": "miracle-eye",
-    "namePt": "Miracle Eye",
+    "namePt": "Olho do Milagre",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "desc": "\"Forces the target to have no evasion"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "wake-up-slap": {
     "id": 358,
     "name": "wake-up-slap",
-    "namePt": "Wake Up Slap",
+    "namePt": "Tapa Despertador",
     "type": "fighting",
     "category": "physical",
     "power": 70,
     "accuracy": 100,
     "pp": 10,
-    "desc": "If the target is asleep, has double power and wakes it up."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "hammer-arm": {
     "id": 359,
     "name": "hammer-arm",
-    "namePt": "Hammer Arm",
+    "namePt": "Braço de Martelo",
     "type": "fighting",
     "category": "physical",
     "power": 100,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user’s Speed stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "gyro-ball": {
     "id": 360,
     "name": "gyro-ball",
-    "namePt": "Gyro Ball",
+    "namePt": "Girobola",
     "type": "steel",
     "category": "physical",
     "power": null,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user tackles the target with a high-speed spin. The slower the user is than the target, the greater the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "healing-wish": {
     "id": 361,
     "name": "healing-wish",
-    "namePt": "Healing Wish",
+    "namePt": "Desejo de Cura",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "brine": {
     "id": 362,
     "name": "brine",
-    "namePt": "Brine",
+    "namePt": "Salmoura",
     "type": "water",
     "category": "special",
     "power": 65,
     "accuracy": 100,
     "pp": 10,
-    "desc": "If the target’s HP is half or less, this attack will hit with double the power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "natural-gift": {
     "id": 363,
     "name": "natural-gift",
-    "namePt": "Natural Gift",
+    "namePt": "Dom Natural",
     "type": "normal",
     "category": "physical",
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Power and type depend on the held berry."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "feint": {
     "id": 364,
     "name": "feint",
-    "namePt": "Feint",
+    "namePt": "Finta",
     "type": "normal",
     "category": "physical",
     "power": 30,
@@ -4329,90 +4328,90 @@ const ALL_MOVES_DATA = {
   "pluck": {
     "id": 365,
     "name": "pluck",
-    "namePt": "Pluck",
+    "namePt": "Bicar",
     "type": "flying",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 20,
-    "desc": "O usuário ataca pecking the target. If the target is holding a Berry, the user eats it and gains its effect."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "tailwind": {
     "id": 366,
     "name": "tailwind",
-    "namePt": "Tailwind",
+    "namePt": "Vento de Cauda",
     "type": "flying",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "For three turns, friendly Pokémon have doubled Speed."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "acupressure": {
     "id": 367,
     "name": "acupressure",
-    "namePt": "Acupressure",
+    "namePt": "Acupressão",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "metal-burst": {
     "id": 368,
     "name": "metal-burst",
-    "namePt": "Metal Burst",
+    "namePt": "Explosão de Metal",
     "type": "steel",
     "category": "physical",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Strikes back at the last Pokémon to hit the user this turn with 1.5× the damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "u-turn": {
     "id": 369,
     "name": "u-turn",
-    "namePt": "U Turn",
+    "namePt": "Ida e Volta",
     "type": "bug",
     "category": "physical",
     "power": 70,
     "accuracy": 100,
     "pp": 20,
-    "desc": "O usuário ataca dishing out a quick blow, then rushes back to its Trainer with incredible speed."
+    "desc": "Desfere um golpe rápido no oponente e retorna imediatamente para o Treinador em alta velocidade, trocando de Pokémon."
   },
   "close-combat": {
     "id": 370,
     "name": "close-combat",
-    "namePt": "Combate Corpo a Corpo",
+    "namePt": "Corpo a Corpo",
     "type": "fighting",
     "category": "physical",
     "power": 120,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user fights the target up close, inflicting damage without guarding itself. This also lowers the user’s Defense and Sp. Def stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "payback": {
     "id": 371,
     "name": "payback",
-    "namePt": "Payback",
+    "namePt": "Retaliação",
     "type": "dark",
     "category": "physical",
     "power": 50,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user stores power, then attacks. This move’s power is doubled if the user moves after the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "assurance": {
     "id": 372,
     "name": "assurance",
-    "namePt": "Assurance",
+    "namePt": "Garantia",
     "type": "dark",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 10,
-    "desc": "If the target has already taken some damage in the same turn, this attack’s power is doubled."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "embargo": {
     "id": 373,
@@ -4428,183 +4427,183 @@ const ALL_MOVES_DATA = {
   "fling": {
     "id": 374,
     "name": "fling",
-    "namePt": "Fling",
+    "namePt": "Arremesso",
     "type": "dark",
     "category": "physical",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Throws held item at the target; power depends on the item."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "psycho-shift": {
     "id": 375,
     "name": "psycho-shift",
-    "namePt": "Psycho Shift",
+    "namePt": "Troca Psíquica",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Using its psychic power of suggestion, the user transfers its status conditions to the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "trump-card": {
     "id": 376,
     "name": "trump-card",
-    "namePt": "Trump Card",
+    "namePt": "Trunfo",
     "type": "normal",
     "category": "special",
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The fewer PP this move has, the greater its power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "heal-block": {
     "id": 377,
     "name": "heal-block",
-    "namePt": "Heal Block",
+    "namePt": "Bloqueio de Cura",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Prevents target from restoring its HP for five turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "wring-out": {
     "id": 378,
     "name": "wring-out",
-    "namePt": "Wring Out",
+    "namePt": "Espremer",
     "type": "normal",
     "category": "special",
     "power": null,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Power increases against targets with more HP remaining, up to a maximum of 121 power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "power-trick": {
     "id": 379,
     "name": "power-trick",
-    "namePt": "Power Trick",
+    "namePt": "Truque de Força",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "User swaps Attack and Defense."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "gastro-acid": {
     "id": 380,
     "name": "gastro-acid",
-    "namePt": "Gastro Acid",
+    "namePt": "Suco Gástrico",
     "type": "poison",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Nullifies target’s ability until it leaves battle."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "lucky-chant": {
     "id": 381,
     "name": "lucky-chant",
-    "namePt": "Lucky Chant",
+    "namePt": "Cântico da Sorte",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "Prevents the target from scoring critical hits for five turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "me-first": {
     "id": 382,
     "name": "me-first",
-    "namePt": "Me First",
+    "namePt": "Eu Primeiro",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "\"Uses the target’s move against it before it attacks"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "copycat": {
     "id": 383,
     "name": "copycat",
-    "namePt": "Copycat",
+    "namePt": "Copiador",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Uses the target’s last used move."
+    "desc": "Uses o alvo’s last used move."
   },
   "power-swap": {
     "id": 384,
     "name": "power-swap",
-    "namePt": "Power Swap",
+    "namePt": "Troca de Força",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "User swaps Attack and Special Attack changes with the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "guard-swap": {
     "id": 385,
     "name": "guard-swap",
-    "namePt": "Guard Swap",
+    "namePt": "Troca de Guarda",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "User swaps Defense and Special Defense changes with the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "punishment": {
     "id": 386,
     "name": "punishment",
-    "namePt": "Punishment",
+    "namePt": "Punição",
     "type": "dark",
     "category": "physical",
     "power": null,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Power increases against targets with more raised stats, up to a maximum of 200."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "last-resort": {
     "id": 387,
     "name": "last-resort",
-    "namePt": "Last Resort",
+    "namePt": "Último Recurso",
     "type": "normal",
     "category": "physical",
     "power": 140,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Can only be used after all of the user’s other moves have been used."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "worry-seed": {
     "id": 388,
     "name": "worry-seed",
-    "namePt": "Worry Seed",
+    "namePt": "Semente da Preocupação",
     "type": "grass",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Changes the target’s ability to Insomnia."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "sucker-punch": {
     "id": 389,
     "name": "sucker-punch",
-    "namePt": "Sucker Punch",
+    "namePt": "Golpe Baixo",
     "type": "dark",
     "category": "physical",
     "power": 70,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Only works if the target is about to use a damaging move."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "toxic-spikes": {
     "id": 390,
     "name": "toxic-spikes",
-    "namePt": "Toxic Spikes",
+    "namePt": "Espinhos Tóxicos",
     "type": "poison",
     "category": "status",
     "power": null,
@@ -4615,57 +4614,57 @@ const ALL_MOVES_DATA = {
   "heart-swap": {
     "id": 391,
     "name": "heart-swap",
-    "namePt": "Heart Swap",
+    "namePt": "Troca de Coração",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "User and target swap stat changes."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "aqua-ring": {
     "id": 392,
     "name": "aqua-ring",
-    "namePt": "Aqua Ring",
+    "namePt": "Anel de Água",
     "type": "water",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Restores 1/16 of the user’s max HP each turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "magnet-rise": {
     "id": 393,
     "name": "magnet-rise",
-    "namePt": "Magnet Rise",
+    "namePt": "Elevação Magnética",
     "type": "electric",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "User is immune to Ground moves and effects for five turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "flare-blitz": {
     "id": 394,
     "name": "flare-blitz",
-    "namePt": "Golpe de Chamas",
+    "namePt": "Carga de Chamas",
     "type": "fire",
     "category": "physical",
     "power": 120,
     "accuracy": 100,
     "pp": 15,
-    "desc": "User takes 1/3 the damage inflicted in recoil.  Has a chance to burn the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "force-palm": {
     "id": 395,
     "name": "force-palm",
-    "namePt": "Force Palm",
+    "namePt": "Palma de Força",
     "type": "fighting",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to paralyze the target."
+    "desc": "Possui chance de paralisar o alvo."
   },
   "aura-sphere": {
     "id": 396,
@@ -4681,24 +4680,24 @@ const ALL_MOVES_DATA = {
   "rock-polish": {
     "id": 397,
     "name": "rock-polish",
-    "namePt": "Rock Polish",
+    "namePt": "Polimento de Rocha",
     "type": "rock",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Raises the user’s Speed by two stages."
+    "desc": "Aumenta a Velocidade do usuário em dois estágios (+2)."
   },
   "poison-jab": {
     "id": 398,
     "name": "poison-jab",
-    "namePt": "Poison Jab",
+    "namePt": "Golpe Venenoso",
     "type": "poison",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 20,
-    "desc": "O usuário ataca stabbing targets with a poison- soaked tentacle, arm, or the like. This may also leave targets poisoned."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "dark-pulse": {
     "id": 399,
@@ -4709,12 +4708,12 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "night-slash": {
     "id": 400,
     "name": "night-slash",
-    "namePt": "Night Slash",
+    "namePt": "Talho Noturno",
     "type": "dark",
     "category": "physical",
     "power": 70,
@@ -4725,7 +4724,7 @@ const ALL_MOVES_DATA = {
   "aqua-tail": {
     "id": 401,
     "name": "aqua-tail",
-    "namePt": "Aqua Tail",
+    "namePt": "Cauda d'Água",
     "type": "water",
     "category": "physical",
     "power": 90,
@@ -4736,13 +4735,13 @@ const ALL_MOVES_DATA = {
   "seed-bomb": {
     "id": 402,
     "name": "seed-bomb",
-    "namePt": "Seed Bomb",
+    "namePt": "Bomba de Sementes",
     "type": "grass",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "O usuário ataca slamming a barrage of large, hard- shelled seeds down on targets from above."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "air-slash": {
     "id": 403,
@@ -4753,7 +4752,7 @@ const ALL_MOVES_DATA = {
     "power": 75,
     "accuracy": 95,
     "pp": 15,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "x-scissor": {
     "id": 404,
@@ -4764,7 +4763,7 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user attacks using scythes, claws, or the like as if they were a pair of scissors."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "bug-buzz": {
     "id": 405,
@@ -4775,7 +4774,7 @@ const ALL_MOVES_DATA = {
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s Special Defense by one stage."
+    "desc": "Possui chance de reduzir a Defesa Especial do alvo em um estágio."
   },
   "dragon-pulse": {
     "id": 406,
@@ -4791,18 +4790,18 @@ const ALL_MOVES_DATA = {
   "dragon-rush": {
     "id": 407,
     "name": "dragon-rush",
-    "namePt": "Dragon Rush",
+    "namePt": "Investida do Dragão",
     "type": "dragon",
     "category": "physical",
     "power": 100,
     "accuracy": 75,
     "pp": 10,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "power-gem": {
     "id": 408,
     "name": "power-gem",
-    "namePt": "Power Gem",
+    "namePt": "Gema de Poder",
     "type": "rock",
     "category": "special",
     "power": 80,
@@ -4813,18 +4812,18 @@ const ALL_MOVES_DATA = {
   "drain-punch": {
     "id": 409,
     "name": "drain-punch",
-    "namePt": "Drain Punch",
+    "namePt": "Soco Dreno",
     "type": "fighting",
     "category": "physical",
     "power": 75,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Drains half the damage inflicted to heal the user."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "vacuum-wave": {
     "id": 410,
     "name": "vacuum-wave",
-    "namePt": "Vacuum Wave",
+    "namePt": "Onda de Vácuo",
     "type": "fighting",
     "category": "special",
     "power": 40,
@@ -4835,24 +4834,24 @@ const ALL_MOVES_DATA = {
   "focus-blast": {
     "id": 411,
     "name": "focus-blast",
-    "namePt": "Explosão de Foco",
+    "namePt": "Explosão Focalizada",
     "type": "fighting",
     "category": "special",
     "power": 120,
     "accuracy": 70,
     "pp": 5,
-    "desc": "Has a chance to lower the target’s Special Defense by one stage."
+    "desc": "Possui chance de reduzir a Defesa Especial do alvo em um estágio."
   },
   "energy-ball": {
     "id": 412,
     "name": "energy-ball",
-    "namePt": "Bola de Energia",
+    "namePt": "Esfera de Energia",
     "type": "grass",
     "category": "special",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s Special Defense by one stage."
+    "desc": "Possui chance de reduzir a Defesa Especial do alvo em um estágio."
   },
   "brave-bird": {
     "id": 413,
@@ -4863,7 +4862,7 @@ const ALL_MOVES_DATA = {
     "power": 120,
     "accuracy": 100,
     "pp": 15,
-    "desc": "User receives 1/3 the damage inflicted in recoil."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "earth-power": {
     "id": 414,
@@ -4874,40 +4873,40 @@ const ALL_MOVES_DATA = {
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s Special Defense by one stage."
+    "desc": "Possui chance de reduzir a Defesa Especial do alvo em um estágio."
   },
   "switcheroo": {
     "id": 415,
     "name": "switcheroo",
-    "namePt": "Switcheroo",
+    "namePt": "Trapaça",
     "type": "dark",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "User and target swap items."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "giga-impact": {
     "id": 416,
     "name": "giga-impact",
-    "namePt": "Giga Impact",
+    "namePt": "Giga Impacto",
     "type": "normal",
     "category": "physical",
     "power": 150,
     "accuracy": 90,
     "pp": 5,
-    "desc": "User foregoes its next turn to recharge."
+    "desc": "O usuário precisa descansar no turno seguinte para recarregar as energias."
   },
   "nasty-plot": {
     "id": 417,
     "name": "nasty-plot",
-    "namePt": "Plano Maldoso",
+    "namePt": "Trama Perversa",
     "type": "dark",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user stimulates its brain by thinking bad thoughts, raising the user’s offensive stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "bullet-punch": {
     "id": 418,
@@ -4929,12 +4928,12 @@ const ALL_MOVES_DATA = {
     "power": 60,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Inflicts double damage if the user takes damage before attacking this turn."
+    "desc": "Causa o dobro de dano se o usuário tiver sofrido dano do adversário antes de atacar neste turno."
   },
   "ice-shard": {
     "id": 420,
     "name": "ice-shard",
-    "namePt": "Caco de Gelo",
+    "namePt": "Fragmento de Gelo",
     "type": "ice",
     "category": "physical",
     "power": 40,
@@ -4945,7 +4944,7 @@ const ALL_MOVES_DATA = {
   "shadow-claw": {
     "id": 421,
     "name": "shadow-claw",
-    "namePt": "Shadow Claw",
+    "namePt": "Garra Sombria",
     "type": "ghost",
     "category": "physical",
     "power": 70,
@@ -4956,35 +4955,35 @@ const ALL_MOVES_DATA = {
   "thunder-fang": {
     "id": 422,
     "name": "thunder-fang",
-    "namePt": "Thunder Fang",
+    "namePt": "Presa Trovejante",
     "type": "electric",
     "category": "physical",
     "power": 65,
     "accuracy": 95,
     "pp": 15,
-    "desc": "Has a chance to paralyze the target and a chance to make the target flinch."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "ice-fang": {
     "id": 423,
     "name": "ice-fang",
-    "namePt": "Ice Fang",
+    "namePt": "Presa de Gelo",
     "type": "ice",
     "category": "physical",
     "power": 65,
     "accuracy": 95,
     "pp": 15,
-    "desc": "Has a chance to freeze the target and a chance to make the target flinch."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "fire-fang": {
     "id": 424,
     "name": "fire-fang",
-    "namePt": "Fire Fang",
+    "namePt": "Presa de Fogo",
     "type": "fire",
     "category": "physical",
     "power": 65,
     "accuracy": 95,
     "pp": 15,
-    "desc": "Has a chance to burn the target and a chance to make the target flinch."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "shadow-sneak": {
     "id": 425,
@@ -5000,18 +4999,18 @@ const ALL_MOVES_DATA = {
   "mud-bomb": {
     "id": 426,
     "name": "mud-bomb",
-    "namePt": "Mud Bomb",
+    "namePt": "Bomba de Lama",
     "type": "ground",
     "category": "special",
     "power": 65,
     "accuracy": 85,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s accuracy by one stage."
+    "desc": "Possui chance de reduzir a precisão do alvo em um estágio."
   },
   "psycho-cut": {
     "id": 427,
     "name": "psycho-cut",
-    "namePt": "Psycho Cut",
+    "namePt": "Corte Psíquico",
     "type": "psychic",
     "category": "physical",
     "power": 70,
@@ -5022,68 +5021,68 @@ const ALL_MOVES_DATA = {
   "zen-headbutt": {
     "id": 428,
     "name": "zen-headbutt",
-    "namePt": "Zen Headbutt",
+    "namePt": "Cabeçada Zen",
     "type": "psychic",
     "category": "physical",
     "power": 80,
     "accuracy": 90,
     "pp": 15,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "mirror-shot": {
     "id": 429,
     "name": "mirror-shot",
-    "namePt": "Mirror Shot",
+    "namePt": "Disparo Espelhado",
     "type": "steel",
     "category": "special",
     "power": 65,
     "accuracy": 85,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s accuracy by one stage."
+    "desc": "Possui chance de reduzir a precisão do alvo em um estágio."
   },
   "flash-cannon": {
     "id": 430,
     "name": "flash-cannon",
-    "namePt": "Canhão Flash",
+    "namePt": "Canhão de Luz",
     "type": "steel",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s Special Defense by one stage."
+    "desc": "Possui chance de reduzir a Defesa Especial do alvo em um estágio."
   },
   "rock-climb": {
     "id": 431,
     "name": "rock-climb",
-    "namePt": "Rock Climb",
+    "namePt": "Escalada de Rocha",
     "type": "normal",
     "category": "physical",
     "power": 90,
     "accuracy": 85,
     "pp": 20,
-    "desc": "Has a chance to confuse the target."
+    "desc": "Possui chance de deixar o alvo confuso."
   },
   "defog": {
     "id": 432,
     "name": "defog",
-    "namePt": "Defog",
+    "namePt": "Desnevoar",
     "type": "flying",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "A strong wind blows away the target’s barriers, such as Reflect or Light Screen, and lowers their evasiveness. It’s also one of the Pokétch’s hidden moves."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "trick-room": {
     "id": 433,
     "name": "trick-room",
-    "namePt": "Trick Room",
+    "namePt": "Sala de Truques",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "\"For five turns"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "draco-meteor": {
     "id": 434,
@@ -5094,29 +5093,29 @@ const ALL_MOVES_DATA = {
     "power": 130,
     "accuracy": 90,
     "pp": 5,
-    "desc": "Lowers the user’s Special Attack by two stages after inflicting damage."
+    "desc": "Reduz o Ataque Especial do usuário em dois estágios após infligir dano."
   },
   "discharge": {
     "id": 435,
     "name": "discharge",
-    "namePt": "Discharge",
+    "namePt": "Descarga",
     "type": "electric",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Has a chance to paralyze the target."
+    "desc": "Possui chance de paralisar o alvo."
   },
   "lava-plume": {
     "id": 436,
     "name": "lava-plume",
-    "namePt": "Lava Plume",
+    "namePt": "Pluma de Lava",
     "type": "fire",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Has a chance to burn the target."
+    "desc": "Possui chance de causar queimadura no alvo."
   },
   "leaf-storm": {
     "id": 437,
@@ -5127,51 +5126,51 @@ const ALL_MOVES_DATA = {
     "power": 130,
     "accuracy": 90,
     "pp": 5,
-    "desc": "Lowers the user’s Special Attack by two stages after inflicting damage."
+    "desc": "Reduz o Ataque Especial do usuário em dois estágios após infligir dano."
   },
   "power-whip": {
     "id": 438,
     "name": "power-whip",
-    "namePt": "Chicote do Poder",
+    "namePt": "Chicote Poderoso",
     "type": "grass",
     "category": "physical",
     "power": 120,
     "accuracy": 85,
     "pp": 10,
-    "desc": "O usuário ataca violently lashing targets with vines, tentacles, or the like."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "rock-wrecker": {
     "id": 439,
     "name": "rock-wrecker",
-    "namePt": "Rock Wrecker",
+    "namePt": "Destruidor de Rochas",
     "type": "rock",
     "category": "physical",
     "power": 150,
     "accuracy": 90,
     "pp": 5,
-    "desc": "User foregoes its next turn to recharge."
+    "desc": "O usuário precisa descansar no turno seguinte para recarregar as energias."
   },
   "cross-poison": {
     "id": 440,
     "name": "cross-poison",
-    "namePt": "Cross Poison",
+    "namePt": "Veneno Cruzado",
     "type": "poison",
     "category": "physical",
     "power": 70,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Has an increased chance for a critical hit and a chance to poison the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "gunk-shot": {
     "id": 441,
     "name": "gunk-shot",
-    "namePt": "Tiro de Lixo",
+    "namePt": "Tiro de Lodo",
     "type": "poison",
     "category": "physical",
     "power": 120,
     "accuracy": 80,
     "pp": 5,
-    "desc": "Has a chance to poison the target."
+    "desc": "Possui chance de envenenar o alvo."
   },
   "iron-head": {
     "id": 442,
@@ -5182,12 +5181,12 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "magnet-bomb": {
     "id": 443,
     "name": "magnet-bomb",
-    "namePt": "Magnet Bomb",
+    "namePt": "Bomba Magnética",
     "type": "steel",
     "category": "physical",
     "power": 60,
@@ -5198,7 +5197,7 @@ const ALL_MOVES_DATA = {
   "stone-edge": {
     "id": 444,
     "name": "stone-edge",
-    "namePt": "Borda de Pedra",
+    "namePt": "Gume de Pedra",
     "type": "rock",
     "category": "physical",
     "power": 100,
@@ -5209,13 +5208,13 @@ const ALL_MOVES_DATA = {
   "captivate": {
     "id": 445,
     "name": "captivate",
-    "namePt": "Captivate",
+    "namePt": "Cativar",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Lowers the target’s Special Attack by two stages if it’s the opposite gender."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "stealth-rock": {
     "id": 446,
@@ -5226,62 +5225,62 @@ const ALL_MOVES_DATA = {
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Causes damage when opposing Pokémon switch in."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "grass-knot": {
     "id": 447,
     "name": "grass-knot",
-    "namePt": "Grass Knot",
+    "namePt": "Nó de Grama",
     "type": "grass",
     "category": "special",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "chatter": {
     "id": 448,
     "name": "chatter",
-    "namePt": "Chatter",
+    "namePt": "Tagarelar",
     "type": "flying",
     "category": "special",
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Has a higher chance to confuse the target when the recorded sound is louder."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "judgment": {
     "id": 449,
     "name": "judgment",
-    "namePt": "Judgment",
+    "namePt": "Julgamento",
     "type": "normal",
     "category": "special",
     "power": 100,
     "accuracy": 100,
     "pp": 10,
-    "desc": "\"If the user is holding a appropriate plate or drive"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "bug-bite": {
     "id": 450,
     "name": "bug-bite",
-    "namePt": "Bug Bite",
+    "namePt": "Mordida de Inseto",
     "type": "bug",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 20,
-    "desc": "O usuário ataca biting the target. If the target is holding a Berry, the user eats it and gains its effect."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "charge-beam": {
     "id": 451,
     "name": "charge-beam",
-    "namePt": "Charge Beam",
+    "namePt": "Raio de Carga",
     "type": "electric",
     "category": "special",
     "power": 50,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Has a chance to raise the user’s Special Attack by one stage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "wood-hammer": {
     "id": 452,
@@ -5292,7 +5291,7 @@ const ALL_MOVES_DATA = {
     "power": 120,
     "accuracy": 100,
     "pp": 15,
-    "desc": "User receives 1/3 the damage inflicted in recoil."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "aqua-jet": {
     "id": 453,
@@ -5303,12 +5302,12 @@ const ALL_MOVES_DATA = {
     "power": 40,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The user lunges at the target to inflict damage, moving at blinding speed. This move always goes first."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "attack-order": {
     "id": 454,
     "name": "attack-order",
-    "namePt": "Attack Order",
+    "namePt": "Ordem de Ataque",
     "type": "bug",
     "category": "physical",
     "power": 90,
@@ -5319,62 +5318,62 @@ const ALL_MOVES_DATA = {
   "defend-order": {
     "id": 455,
     "name": "defend-order",
-    "namePt": "Defend Order",
+    "namePt": "Ordem de Defesa",
     "type": "bug",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user calls out its underlings to shield its body, boosting its Defense and Sp. Def stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "heal-order": {
     "id": 456,
     "name": "heal-order",
-    "namePt": "Heal Order",
+    "namePt": "Ordem de Cura",
     "type": "bug",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Heals the user by half its max HP."
+    "desc": "Restaura até metade do PS máximo do usuário."
   },
   "head-smash": {
     "id": 457,
     "name": "head-smash",
-    "namePt": "Batida de Cabeça",
+    "namePt": "Golpe de Cabeça",
     "type": "rock",
     "category": "physical",
     "power": 150,
     "accuracy": 80,
     "pp": 5,
-    "desc": "O usuário ataca slamming into targets with a reckless, full-power headbutt. The user will also take some damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "double-hit": {
     "id": 458,
     "name": "double-hit",
-    "namePt": "Double Hit",
+    "namePt": "Golpe Duplo",
     "type": "normal",
     "category": "physical",
     "power": 35,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user attacks with two strikes dealt with a tail or the like, one after the other."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "roar-of-time": {
     "id": 459,
     "name": "roar-of-time",
-    "namePt": "Roar Of Time",
+    "namePt": "Rugido do Tempo",
     "type": "dragon",
     "category": "special",
     "power": 150,
     "accuracy": 90,
     "pp": 5,
-    "desc": "User foregoes its next turn to recharge."
+    "desc": "O usuário precisa descansar no turno seguinte para recarregar as energias."
   },
   "spacial-rend": {
     "id": 460,
     "name": "spacial-rend",
-    "namePt": "Spacial Rend",
+    "namePt": "Fenda Espacial",
     "type": "dragon",
     "category": "special",
     "power": 100,
@@ -5385,216 +5384,216 @@ const ALL_MOVES_DATA = {
   "lunar-dance": {
     "id": 461,
     "name": "lunar-dance",
-    "namePt": "Lunar Dance",
+    "namePt": "Dança Lunar",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user faints. In return, the Pokémon taking its place will have its HP and PP restored and its status conditions cured."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "crush-grip": {
     "id": 462,
     "name": "crush-grip",
-    "namePt": "Crush Grip",
+    "namePt": "Agarro Esmagador",
     "type": "normal",
     "category": "physical",
     "power": null,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The target is crushed with great force. The more HP the target has left, the greater the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "magma-storm": {
     "id": 463,
     "name": "magma-storm",
-    "namePt": "Magma Storm",
+    "namePt": "Tempestade de Magma",
     "type": "fire",
     "category": "special",
     "power": 100,
     "accuracy": 75,
     "pp": 5,
-    "desc": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    "desc": "Aprisiona o alvo no combate e causa dano contínuo por 2 a 5 turnos."
   },
   "dark-void": {
     "id": 464,
     "name": "dark-void",
-    "namePt": "Dark Void",
+    "namePt": "Vácuo Sombrio",
     "type": "dark",
     "category": "status",
     "power": null,
     "accuracy": 50,
     "pp": 10,
-    "desc": "Puts the target to sleep."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "seed-flare": {
     "id": 465,
     "name": "seed-flare",
-    "namePt": "Seed Flare",
+    "namePt": "Sinalizador de Sementes",
     "type": "grass",
     "category": "special",
     "power": 120,
     "accuracy": 85,
     "pp": 5,
-    "desc": "Has a chance to lower the target’s Special Defense by two stages."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "ominous-wind": {
     "id": 466,
     "name": "ominous-wind",
-    "namePt": "Ominous Wind",
+    "namePt": "Vento Sinistro",
     "type": "ghost",
     "category": "special",
     "power": 60,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Has a chance to raise all of the user’s stats by one stage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "shadow-force": {
     "id": 467,
     "name": "shadow-force",
-    "namePt": "Shadow Force",
+    "namePt": "Força Sombria",
     "type": "ghost",
     "category": "physical",
     "power": 120,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user disappears on the first turn, then attacks on the next turn. This move hits even if the target protects itself."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "hone-claws": {
     "id": 468,
     "name": "hone-claws",
-    "namePt": "Hone Claws",
+    "namePt": "Afiar Garras",
     "type": "dark",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Raises the user’s Attack and accuracy by one stage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "wide-guard": {
     "id": 469,
     "name": "wide-guard",
-    "namePt": "Wide Guard",
+    "namePt": "Guarda Ampla",
     "type": "rock",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Prevents any multi-target moves from hitting friendly Pokémon this turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "guard-split": {
     "id": 470,
     "name": "guard-split",
-    "namePt": "Guard Split",
+    "namePt": "Divisão de Guarda",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Averages Defense and Special Defense with the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "power-split": {
     "id": 471,
     "name": "power-split",
-    "namePt": "Power Split",
+    "namePt": "Divisão de Força",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Averages Attack and Special Attack with the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "wonder-room": {
     "id": 472,
     "name": "wonder-room",
-    "namePt": "Wonder Room",
+    "namePt": "Sala Maravilha",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "All Pokémon’s Defense and Special Defense are swapped for 5 turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "psyshock": {
     "id": 473,
     "name": "psyshock",
-    "namePt": "Psyshock",
+    "namePt": "Choque Psíquico",
     "type": "psychic",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Inflicts damage based on the target’s Defense, not Special Defense."
+    "desc": "Calcula o dano causado com base na Defesa física do alvo, e não na sua Defesa Especial."
   },
   "venoshock": {
     "id": 474,
     "name": "venoshock",
-    "namePt": "Venoshock",
+    "namePt": "Veneno Choque",
     "type": "poison",
     "category": "special",
     "power": 65,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Inflicts double damage if the target is Poisoned."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "autotomize": {
     "id": 475,
     "name": "autotomize",
-    "namePt": "Autotomize",
+    "namePt": "Autotomia",
     "type": "steel",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Raises the user’s Speed by two stages and halves the user’s weight."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "rage-powder": {
     "id": 476,
     "name": "rage-powder",
-    "namePt": "Rage Powder",
+    "namePt": "Pó da Fúria",
     "type": "bug",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Redirects the target’s single-target effects to the user for this turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "telekinesis": {
     "id": 477,
     "name": "telekinesis",
-    "namePt": "Telekinesis",
+    "namePt": "Telecinesia",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Moves have 100% accuracy against the target for three turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "magic-room": {
     "id": 478,
     "name": "magic-room",
-    "namePt": "Magic Room",
+    "namePt": "Sala Mágica",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Negates held items for five turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "smack-down": {
     "id": 479,
     "name": "smack-down",
-    "namePt": "Smack Down",
+    "namePt": "Derrubada",
     "type": "rock",
     "category": "physical",
     "power": 50,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user throws a stone or similar projectile to attack the target. If the target is in the air, it will be knocked down to the ground."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "storm-throw": {
     "id": 480,
     "name": "storm-throw",
-    "namePt": "Storm Throw",
+    "namePt": "Arremesso Tempestuoso",
     "type": "fighting",
     "category": "physical",
     "power": 60,
@@ -5605,244 +5604,244 @@ const ALL_MOVES_DATA = {
   "flame-burst": {
     "id": 481,
     "name": "flame-burst",
-    "namePt": "Flame Burst",
+    "namePt": "Rajada de Chamas",
     "type": "fire",
     "category": "special",
     "power": 70,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Deals splash damage to Pokémon next to the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "sludge-wave": {
     "id": 482,
     "name": "sludge-wave",
-    "namePt": "Sludge Wave",
+    "namePt": "Onda de Lodo",
     "type": "poison",
     "category": "special",
     "power": 95,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to poison the target."
+    "desc": "Possui chance de envenenar o alvo."
   },
   "quiver-dance": {
     "id": 483,
     "name": "quiver-dance",
-    "namePt": "Dança do Farfalhar",
+    "namePt": "Dança das Borboletas",
     "type": "bug",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user lightly performs a beautiful, mystic dance. This boosts the user’s Sp. Atk, Sp. Def, and Speed stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "heavy-slam": {
     "id": 484,
     "name": "heavy-slam",
-    "namePt": "Heavy Slam",
+    "namePt": "Golpe Pesado",
     "type": "steel",
     "category": "physical",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca slamming its heavy body into targets. The more the user outweighs the target, the greater this move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "synchronoise": {
     "id": 485,
     "name": "synchronoise",
-    "namePt": "Synchronoise",
+    "namePt": "Sincronruído",
     "type": "psychic",
     "category": "special",
     "power": 120,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Hits any Pokémon that shares a type with the user."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "electro-ball": {
     "id": 486,
     "name": "electro-ball",
-    "namePt": "Electro Ball",
+    "namePt": "Bola Elétrica",
     "type": "electric",
     "category": "special",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "soak": {
     "id": 487,
     "name": "soak",
-    "namePt": "Soak",
+    "namePt": "Encharcar",
     "type": "water",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Changes the target’s type to Water."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "flame-charge": {
     "id": 488,
     "name": "flame-charge",
-    "namePt": "Flame Charge",
+    "namePt": "Carga de Chamas",
     "type": "fire",
     "category": "physical",
     "power": 50,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Cloaking itself in flame, the user attacks the target. Then, building up momentum, the user boosts its Speed stat."
+    "desc": "Cloaking itself in flame, o usuário attacks o alvo. Then, building up momentum, o usuário boosts its Speed stat."
   },
   "coil": {
     "id": 489,
     "name": "coil",
-    "namePt": "Coil",
+    "namePt": "Enrolar",
     "type": "poison",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Raises the user’s Attack, Defense, and accuracy by one stage each."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "low-sweep": {
     "id": 490,
     "name": "low-sweep",
-    "namePt": "Low Sweep",
+    "namePt": "Rasteira Baixa",
     "type": "fighting",
     "category": "physical",
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The user makes a swift attack on the target’s legs, which lowers the target’s Speed stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "acid-spray": {
     "id": 491,
     "name": "acid-spray",
-    "namePt": "Acid Spray",
+    "namePt": "Spray Ácido",
     "type": "poison",
     "category": "special",
     "power": 40,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Lowers the target’s Special Defense by two stages."
+    "desc": "Reduz a Defesa Especial do alvo em dois estágios."
   },
   "foul-play": {
     "id": 492,
     "name": "foul-play",
-    "namePt": "Foul Play",
+    "namePt": "Jogo Sujo",
     "type": "dark",
     "category": "physical",
     "power": 95,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user turns the target’s strength against it. The higher the target’s Attack stat, the greater the damage this move inflicts."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "simple-beam": {
     "id": 493,
     "name": "simple-beam",
-    "namePt": "Simple Beam",
+    "namePt": "Raio Simples",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Changes the target’s ability to Simple."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "entrainment": {
     "id": 494,
     "name": "entrainment",
-    "namePt": "Entrainment",
+    "namePt": "Sincronização",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "after-you": {
     "id": 495,
     "name": "after-you",
-    "namePt": "After You",
+    "namePt": "Depois de Você",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Makes the target act next this turn."
+    "desc": "Makes o alvo act next this turn."
   },
   "round": {
     "id": 496,
     "name": "round",
-    "namePt": "Round",
+    "namePt": "Canto em Rodada",
     "type": "normal",
     "category": "special",
     "power": 60,
     "accuracy": 100,
     "pp": 15,
-    "desc": "O atacante ataca o alvo com a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "echoed-voice": {
     "id": 497,
     "name": "echoed-voice",
-    "namePt": "Echoed Voice",
+    "namePt": "Voz Ecoante",
     "type": "normal",
     "category": "special",
     "power": 40,
     "accuracy": 100,
     "pp": 15,
-    "desc": "O atacante ataca o alvo com an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "chip-away": {
     "id": 498,
     "name": "chip-away",
-    "namePt": "Chip Away",
+    "namePt": "Desgastar",
     "type": "normal",
     "category": "physical",
     "power": 70,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Ignores the target’s stat modifiers."
+    "desc": "Ignora quaisquer modificações e aumentos de estatísticas defensivas do alvo."
   },
   "clear-smog": {
     "id": 499,
     "name": "clear-smog",
-    "namePt": "Clear Smog",
+    "namePt": "Névoa Limpa",
     "type": "poison",
     "category": "special",
     "power": 50,
     "accuracy": null,
     "pp": 15,
-    "desc": "Removes all of the target’s stat modifiers."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "stored-power": {
     "id": 500,
     "name": "stored-power",
-    "namePt": "Stored Power",
+    "namePt": "Poder Acumulado",
     "type": "psychic",
     "category": "special",
     "power": 20,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O atacante ataca o alvo com stored power. The more the user’s stats are boosted, the greater the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "quick-guard": {
     "id": 501,
     "name": "quick-guard",
-    "namePt": "Quick Guard",
+    "namePt": "Guarda Rápida",
     "type": "fighting",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Prevents any priority moves from hitting friendly Pokémon this turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "ally-switch": {
     "id": 502,
     "name": "ally-switch",
-    "namePt": "Ally Switch",
+    "namePt": "Troca de Aliado",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "User switches places with the friendly Pokémon opposite it."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "scald": {
     "id": 503,
@@ -5853,150 +5852,150 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Has a chance to burn the target."
+    "desc": "Possui chance de causar queimadura no alvo."
   },
   "shell-smash": {
     "id": 504,
     "name": "shell-smash",
-    "namePt": "Quebra de Casca",
+    "namePt": "Quebra de Concha",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "The user breaks its shell, which lowers its Defense and Sp. Def stats but sharply boosts its Attack, Sp. Atk, and Speed stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "heal-pulse": {
     "id": 505,
     "name": "heal-pulse",
-    "namePt": "Heal Pulse",
+    "namePt": "Pulso de Cura",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Heals the target for half its max HP."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "hex": {
     "id": 506,
     "name": "hex",
-    "namePt": "Hex",
+    "namePt": "Mau-olhado",
     "type": "ghost",
     "category": "special",
     "power": 65,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has double power if the target has a major status ailment."
+    "desc": "Has double power if o alvo has a major status ailment."
   },
   "sky-drop": {
     "id": 507,
     "name": "sky-drop",
-    "namePt": "Sky Drop",
+    "namePt": "Queda Livre",
     "type": "flying",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 10,
-    "desc": "\"Carries the target high into the air"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "shift-gear": {
     "id": 508,
     "name": "shift-gear",
-    "namePt": "Shift Gear",
+    "namePt": "Mudança de Marcha",
     "type": "steel",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user rotates its gears, boosting its Attack stat and sharply boosting its Speed stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "circle-throw": {
     "id": 509,
     "name": "circle-throw",
-    "namePt": "Circle Throw",
+    "namePt": "Arremesso Circular",
     "type": "fighting",
     "category": "physical",
     "power": 60,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "incinerate": {
     "id": 510,
     "name": "incinerate",
-    "namePt": "Incinerate",
+    "namePt": "Incinerar",
     "type": "fire",
     "category": "special",
     "power": 60,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "quash": {
     "id": 511,
     "name": "quash",
-    "namePt": "Quash",
+    "namePt": "Reprimir",
     "type": "dark",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Makes the target act last this turn."
+    "desc": "Makes o alvo act last this turn."
   },
   "acrobatics": {
     "id": 512,
     "name": "acrobatics",
-    "namePt": "Acrobatics",
+    "namePt": "Acrobacia",
     "type": "flying",
     "category": "physical",
     "power": 55,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "reflect-type": {
     "id": 513,
     "name": "reflect-type",
-    "namePt": "Reflect Type",
+    "namePt": "Refletir Tipo",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "The user reflects the target’s type, making the user the same type as the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "retaliate": {
     "id": 514,
     "name": "retaliate",
-    "namePt": "Retaliate",
+    "namePt": "Retaliar",
     "type": "normal",
     "category": "physical",
     "power": 70,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move’s power is increased."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "final-gambit": {
     "id": 515,
     "name": "final-gambit",
-    "namePt": "Final Gambit",
+    "namePt": "Último Recurso",
     "type": "fighting",
     "category": "special",
     "power": null,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Inflicts damage equal to the user’s remaining HP.  User faints."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "bestow": {
     "id": 516,
     "name": "bestow",
-    "namePt": "Bestow",
+    "namePt": "Conceder",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Gives the user’s held item to the target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "inferno": {
     "id": 517,
@@ -6007,40 +6006,40 @@ const ALL_MOVES_DATA = {
     "power": 100,
     "accuracy": 50,
     "pp": 5,
-    "desc": "Has a chance to burn the target."
+    "desc": "Possui chance de causar queimadura no alvo."
   },
   "water-pledge": {
     "id": 518,
     "name": "water-pledge",
-    "namePt": "Water Pledge",
+    "namePt": "Pacto de Água",
     "type": "water",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "A column of water hits the target. When used with its fire counterpart, this move’s power is boosted and a rainbow appears."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "fire-pledge": {
     "id": 519,
     "name": "fire-pledge",
-    "namePt": "Fire Pledge",
+    "namePt": "Pacto de Fogo",
     "type": "fire",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "A column of fire hits the target. When used with its grass counterpart, this move’s power is boosted and a vast sea of fire appears."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "grass-pledge": {
     "id": 520,
     "name": "grass-pledge",
-    "namePt": "Grass Pledge",
+    "namePt": "Pacto de Planta",
     "type": "grass",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "A column of grass hits the target. When used with its water counterpart, this move’s power is boosted and a vast swamp appears."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "volt-switch": {
     "id": 521,
@@ -6051,34 +6050,34 @@ const ALL_MOVES_DATA = {
     "power": 70,
     "accuracy": 100,
     "pp": 20,
-    "desc": "O usuário ataca dishing out a quick blow, then rushes back to its Trainer with incredible speed."
+    "desc": "Desfere um golpe rápido no oponente e retorna imediatamente para o Treinador em alta velocidade, trocando de Pokémon."
   },
   "struggle-bug": {
     "id": 522,
     "name": "struggle-bug",
-    "namePt": "Struggle Bug",
+    "namePt": "Luta de Inseto",
     "type": "bug",
     "category": "special",
     "power": 50,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The user struggles against the target, dealing damage. This also lowers the target’s offensive stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "bulldoze": {
     "id": 523,
     "name": "bulldoze",
-    "namePt": "Bulldoze",
+    "namePt": "Terranotremor",
     "type": "ground",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The user tramples its target into the ground, dealing damage. This also lowers the target’s action speed."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "frost-breath": {
     "id": 524,
     "name": "frost-breath",
-    "namePt": "Frost Breath",
+    "namePt": "Sopro Glacial",
     "type": "ice",
     "category": "special",
     "power": 60,
@@ -6089,35 +6088,35 @@ const ALL_MOVES_DATA = {
   "dragon-tail": {
     "id": 525,
     "name": "dragon-tail",
-    "namePt": "Dragon Tail",
+    "namePt": "Cauda do Dragão",
     "type": "dragon",
     "category": "physical",
     "power": 60,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The target is knocked away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "work-up": {
     "id": 526,
     "name": "work-up",
-    "namePt": "Work Up",
+    "namePt": "Empolgação",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "The user is roused, and its Attack and Sp. Atk stats are boosted."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "electroweb": {
     "id": 527,
     "name": "electroweb",
-    "namePt": "Electroweb",
+    "namePt": "Teia Elétrica",
     "type": "electric",
     "category": "special",
     "power": 55,
     "accuracy": 95,
     "pp": 15,
-    "desc": "Lowers the target’s Speed by one stage."
+    "desc": "Reduz a Velocidade do alvo em um estágio."
   },
   "wild-charge": {
     "id": 528,
@@ -6128,12 +6127,12 @@ const ALL_MOVES_DATA = {
     "power": 90,
     "accuracy": 100,
     "pp": 15,
-    "desc": "User receives 1/4 the damage it inflicts in recoil."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "drill-run": {
     "id": 529,
     "name": "drill-run",
-    "namePt": "Ataque de Furadeira",
+    "namePt": "Ataque Broca",
     "type": "ground",
     "category": "physical",
     "power": 80,
@@ -6144,90 +6143,90 @@ const ALL_MOVES_DATA = {
   "dual-chop": {
     "id": 530,
     "name": "dual-chop",
-    "namePt": "Dual Chop",
+    "namePt": "Golpe Duplo",
     "type": "dragon",
     "category": "physical",
     "power": 40,
     "accuracy": 90,
     "pp": 15,
-    "desc": "The user attacks with two strikes dealt with a tough part of its body, one after the other."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "heart-stamp": {
     "id": 531,
     "name": "heart-stamp",
-    "namePt": "Heart Stamp",
+    "namePt": "Selo de Coração",
     "type": "psychic",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 25,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "horn-leech": {
     "id": 532,
     "name": "horn-leech",
-    "namePt": "Horn Leech",
+    "namePt": "Chifre Sanguessuga",
     "type": "grass",
     "category": "physical",
     "power": 75,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Drains half the damage inflicted to heal the user."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "sacred-sword": {
     "id": 533,
     "name": "sacred-sword",
-    "namePt": "Sacred Sword",
+    "namePt": "Espada Sagrada",
     "type": "fighting",
     "category": "physical",
     "power": 90,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Ignores the target’s stat modifiers."
+    "desc": "Ignora quaisquer modificações e aumentos de estatísticas defensivas do alvo."
   },
   "razor-shell": {
     "id": 534,
     "name": "razor-shell",
-    "namePt": "Razor Shell",
+    "namePt": "Concha Navalha",
     "type": "water",
     "category": "physical",
     "power": 75,
     "accuracy": 95,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s Defense by one stage."
+    "desc": "Possui chance de reduzir a Defesa física do alvo em um estágio."
   },
   "heat-crash": {
     "id": 535,
     "name": "heat-crash",
-    "namePt": "Heat Crash",
+    "namePt": "Impacto de Calor",
     "type": "fire",
     "category": "physical",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca slamming its burning body into targets. The more the user outweighs the target, the greater this move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "leaf-tornado": {
     "id": 536,
     "name": "leaf-tornado",
-    "namePt": "Leaf Tornado",
+    "namePt": "Tornado de Folhas",
     "type": "grass",
     "category": "special",
     "power": 65,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s accuracy by one stage."
+    "desc": "Possui chance de reduzir a precisão do alvo em um estágio."
   },
   "steamroller": {
     "id": 537,
     "name": "steamroller",
-    "namePt": "Steamroller",
+    "namePt": "Rolo Compressor",
     "type": "bug",
     "category": "physical",
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "cotton-guard": {
     "id": 538,
@@ -6238,29 +6237,29 @@ const ALL_MOVES_DATA = {
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user protects itself by wrapping its body in soft cotton, drastically boosting its Defense stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "night-daze": {
     "id": 539,
     "name": "night-daze",
-    "namePt": "Night Daze",
+    "namePt": "Ofuscação Noturna",
     "type": "dark",
     "category": "special",
     "power": 85,
     "accuracy": 95,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s accuracy by one stage."
+    "desc": "Possui chance de reduzir a precisão do alvo em um estágio."
   },
   "psystrike": {
     "id": 540,
     "name": "psystrike",
-    "namePt": "Psystrike",
+    "namePt": "Golpe Psíquico",
     "type": "psychic",
     "category": "special",
     "power": 100,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Inflicts damage based on the target’s Defense, not Special Defense."
+    "desc": "Calcula o dano causado com base na Defesa física do alvo, e não na sua Defesa Especial."
   },
   "tail-slap": {
     "id": 541,
@@ -6271,7 +6270,7 @@ const ALL_MOVES_DATA = {
     "power": 25,
     "accuracy": 85,
     "pp": 10,
-    "desc": "Hits 2-5 times in one turn."
+    "desc": "Atinge o oponente de 2 a 5 vezes consecutivas no mesmo turno."
   },
   "hurricane": {
     "id": 542,
@@ -6282,23 +6281,23 @@ const ALL_MOVES_DATA = {
     "power": 110,
     "accuracy": 70,
     "pp": 10,
-    "desc": "Has a chance to confuse the target."
+    "desc": "Possui chance de deixar o alvo confuso."
   },
   "head-charge": {
     "id": 543,
     "name": "head-charge",
-    "namePt": "Head Charge",
+    "namePt": "Carga de Cabeça",
     "type": "normal",
     "category": "physical",
     "power": 120,
     "accuracy": 100,
     "pp": 15,
-    "desc": "User receives 1/4 the damage it inflicts in recoil."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "gear-grind": {
     "id": 544,
     "name": "gear-grind",
-    "namePt": "Gear Grind",
+    "namePt": "Moedor de Engrenagens",
     "type": "steel",
     "category": "physical",
     "power": 50,
@@ -6309,79 +6308,79 @@ const ALL_MOVES_DATA = {
   "searing-shot": {
     "id": 545,
     "name": "searing-shot",
-    "namePt": "Searing Shot",
+    "namePt": "Disparo Candente",
     "type": "fire",
     "category": "special",
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Has a chance to burn the target."
+    "desc": "Possui chance de causar queimadura no alvo."
   },
   "techno-blast": {
     "id": 546,
     "name": "techno-blast",
-    "namePt": "Techno Blast",
+    "namePt": "Disparo Tecnológico",
     "type": "normal",
     "category": "special",
     "power": 120,
     "accuracy": 100,
     "pp": 5,
-    "desc": "\"If the user is holding a appropriate plate or drive"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "relic-song": {
     "id": 547,
     "name": "relic-song",
-    "namePt": "Relic Song",
+    "namePt": "Canção da Relíquia",
     "type": "normal",
     "category": "special",
     "power": 75,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to put the target to sleep."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "secret-sword": {
     "id": 548,
     "name": "secret-sword",
-    "namePt": "Secret Sword",
+    "namePt": "Espada Secreta",
     "type": "fighting",
     "category": "special",
     "power": 85,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Inflicts damage based on the target’s Defense, not Special Defense."
+    "desc": "Calcula o dano causado com base na Defesa física do alvo, e não na sua Defesa Especial."
   },
   "glaciate": {
     "id": 549,
     "name": "glaciate",
-    "namePt": "Glaciate",
+    "namePt": "Glaciação",
     "type": "ice",
     "category": "special",
     "power": 65,
     "accuracy": 95,
     "pp": 10,
-    "desc": "Lowers the target’s Speed by one stage."
+    "desc": "Reduz a Velocidade do alvo em um estágio."
   },
   "bolt-strike": {
     "id": 550,
     "name": "bolt-strike",
-    "namePt": "Bolt Strike",
+    "namePt": "Disparo Trovejante",
     "type": "electric",
     "category": "physical",
     "power": 130,
     "accuracy": 85,
     "pp": 5,
-    "desc": "Has a chance to paralyze the target."
+    "desc": "Possui chance de paralisar o alvo."
   },
   "blue-flare": {
     "id": 551,
     "name": "blue-flare",
-    "namePt": "Blue Flare",
+    "namePt": "Chama Azul",
     "type": "fire",
     "category": "special",
     "power": 130,
     "accuracy": 85,
     "pp": 5,
-    "desc": "O usuário ataca engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "fiery-dance": {
     "id": 552,
@@ -6392,40 +6391,40 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also boost the user’s Sp. Atk stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "freeze-shock": {
     "id": 553,
     "name": "freeze-shock",
-    "namePt": "Freeze Shock",
+    "namePt": "Choque Congelante",
     "type": "ice",
     "category": "physical",
     "power": 140,
     "accuracy": 90,
     "pp": 5,
-    "desc": "The turn after using this move, the user hits the target with electrically charged ice to inflict damage. This may also leave the target with paralysis."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "ice-burn": {
     "id": 554,
     "name": "ice-burn",
-    "namePt": "Ice Burn",
+    "namePt": "Queimadura de Gelo",
     "type": "ice",
     "category": "special",
     "power": 140,
     "accuracy": 90,
     "pp": 5,
-    "desc": "The turn after using this move, the user surrounds the target with an ultracold, freezing wind to inflict damage. This may also leave the target with a burn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "snarl": {
     "id": 555,
     "name": "snarl",
-    "namePt": "Snarl",
+    "namePt": "Rosnar",
     "type": "dark",
     "category": "special",
     "power": 55,
     "accuracy": 95,
     "pp": 15,
-    "desc": "The user yells as if it’s ranting about something, which lowers the Sp. Atk stats of opposing Pokémon."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "icicle-crash": {
     "id": 556,
@@ -6436,177 +6435,177 @@ const ALL_MOVES_DATA = {
     "power": 85,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "v-create": {
     "id": 557,
     "name": "v-create",
-    "namePt": "V Create",
+    "namePt": "Criar V",
     "type": "fire",
     "category": "physical",
     "power": 180,
     "accuracy": 95,
     "pp": 5,
-    "desc": "Lowers the user’s Defense, Special Defense, and Speed by one stage each."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "fusion-flare": {
     "id": 558,
     "name": "fusion-flare",
-    "namePt": "Fusion Flare",
+    "namePt": "Chama de Fusão",
     "type": "fire",
     "category": "special",
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "With Fusion Bolt, inflicts double damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "fusion-bolt": {
     "id": 559,
     "name": "fusion-bolt",
-    "namePt": "Fusion Bolt",
+    "namePt": "Trovão de Fusão",
     "type": "electric",
     "category": "physical",
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "With Fusion Flare, inflicts double damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "flying-press": {
     "id": 560,
     "name": "flying-press",
-    "namePt": "Flying Press",
+    "namePt": "Prensa Voadora",
     "type": "fighting",
     "category": "physical",
     "power": 100,
     "accuracy": 95,
     "pp": 10,
-    "desc": "Deals both Fighting and Flying-type damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "mat-block": {
     "id": 561,
     "name": "mat-block",
-    "namePt": "Mat Block",
+    "namePt": "Bloqueio de Tatame",
     "type": "fighting",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "belch": {
     "id": 562,
     "name": "belch",
-    "namePt": "Belch",
+    "namePt": "Arroto",
     "type": "poison",
     "category": "special",
     "power": 120,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Can only be used after the user has eaten a berry."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "rototiller": {
     "id": 563,
     "name": "rototiller",
-    "namePt": "Rototiller",
+    "namePt": "Cultivador",
     "type": "ground",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Raises the Attack and Special Attack of all Grass Pokémon in battle."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "sticky-web": {
     "id": 564,
     "name": "sticky-web",
-    "namePt": "Sticky Web",
+    "namePt": "Teia Viscosa",
     "type": "bug",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user weaves a sticky net around the opposing team, which lowers their Speed stats upon switching into battle."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "fell-stinger": {
     "id": 565,
     "name": "fell-stinger",
-    "namePt": "Fell Stinger",
+    "namePt": "Ferrão Mortal",
     "type": "bug",
     "category": "physical",
     "power": 50,
     "accuracy": 100,
     "pp": 25,
-    "desc": "When the user knocks out a target with this move, the user’s Attack stat is boosted drastically."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "phantom-force": {
     "id": 566,
     "name": "phantom-force",
-    "namePt": "Phantom Force",
+    "namePt": "Força Fantasma",
     "type": "ghost",
     "category": "physical",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca disappearing into the shadows for a short time, then surfacing to strike targets. This attack can hit targets using moves such as Protect or Detect."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "trick-or-treat": {
     "id": 567,
     "name": "trick-or-treat",
-    "namePt": "Trick Or Treat",
+    "namePt": "Gostosuras ou Travessuras",
     "type": "ghost",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Adds Ghost to the target’s types."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "noble-roar": {
     "id": 568,
     "name": "noble-roar",
-    "namePt": "Noble Roar",
+    "namePt": "Rugido Nobre",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 30,
-    "desc": "Letting out a noble roar, the user intimidates the target and lowers the target’s Attack and Sp. Atk stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "ion-deluge": {
     "id": 569,
     "name": "ion-deluge",
-    "namePt": "Ion Deluge",
+    "namePt": "Dilúvio de Íons",
     "type": "electric",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 25,
-    "desc": "Changes all Normal moves to Electric moves for the rest of the turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "parabolic-charge": {
     "id": 570,
     "name": "parabolic-charge",
-    "namePt": "Parabolic Charge",
+    "namePt": "Carga Parabólica",
     "type": "electric",
     "category": "special",
     "power": 65,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Heals the user for half the total damage dealt to all targets."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "forests-curse": {
     "id": 571,
     "name": "forests-curse",
-    "namePt": "Forests Curse",
+    "namePt": "Maldição da Floresta",
     "type": "grass",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Adds Grass to the target’s types."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "petal-blizzard": {
     "id": 572,
     "name": "petal-blizzard",
-    "namePt": "Petal Blizzard",
+    "namePt": "Nevasca de Pétalas",
     "type": "grass",
     "category": "physical",
     "power": 90,
@@ -6617,62 +6616,62 @@ const ALL_MOVES_DATA = {
   "freeze-dry": {
     "id": 573,
     "name": "freeze-dry",
-    "namePt": "Freeze Dry",
+    "namePt": "Liofilização",
     "type": "ice",
     "category": "special",
     "power": 70,
     "accuracy": 100,
     "pp": 20,
-    "desc": "O usuário ataca rapidly lowering targets’ temperature. This move is super effective on Water-type Pokémon, and it may also leave targets frozen."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "disarming-voice": {
     "id": 574,
     "name": "disarming-voice",
-    "namePt": "Voz Desarmante",
+    "namePt": "Voz Desarmadora",
     "type": "fairy",
     "category": "special",
     "power": 40,
     "accuracy": null,
     "pp": 15,
-    "desc": "Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "parting-shot": {
     "id": 575,
     "name": "parting-shot",
-    "namePt": "Parting Shot",
+    "namePt": "Tiro de Despedida",
     "type": "dark",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "With a parting threat, the user lowers the target’s Attack and Sp. Atk stats. Then it switches places with a party Pokémon in waiting."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "topsy-turvy": {
     "id": 576,
     "name": "topsy-turvy",
-    "namePt": "Topsy Turvy",
+    "namePt": "De Cabeça para Baixo",
     "type": "dark",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Inverts the target’s stat modifiers."
+    "desc": "Inverts o alvo’s stat modifiers."
   },
   "draining-kiss": {
     "id": 577,
     "name": "draining-kiss",
-    "namePt": "Beijo Dreno",
+    "namePt": "Beijo Drenante",
     "type": "fairy",
     "category": "special",
     "power": 50,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Drains 75% of the damage inflicted to heal the user."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "crafty-shield": {
     "id": 578,
     "name": "crafty-shield",
-    "namePt": "Crafty Shield",
+    "namePt": "Escudo Astuto",
     "type": "fairy",
     "category": "status",
     "power": null,
@@ -6683,62 +6682,62 @@ const ALL_MOVES_DATA = {
   "flower-shield": {
     "id": 579,
     "name": "flower-shield",
-    "namePt": "Flower Shield",
+    "namePt": "Escudo Floral",
     "type": "fairy",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Raises the Defense of all Grass Pokémon in battle."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "grassy-terrain": {
     "id": 580,
     "name": "grassy-terrain",
-    "namePt": "Grassy Terrain",
+    "namePt": "Terreno Floral",
     "type": "grass",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "\"For five turns"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "misty-terrain": {
     "id": 581,
     "name": "misty-terrain",
-    "namePt": "Misty Terrain",
+    "namePt": "Terreno Enevoado",
     "type": "fairy",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "\"For five turns"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "electrify": {
     "id": 582,
     "name": "electrify",
-    "namePt": "Electrify",
+    "namePt": "Eletrificar",
     "type": "electric",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Changes the target’s move’s type to Electric if it hasn’t moved yet this turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "play-rough": {
     "id": 583,
     "name": "play-rough",
-    "namePt": "Jogo Duro",
+    "namePt": "Brincadeira Pesada",
     "type": "fairy",
     "category": "physical",
     "power": 90,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s Attack by one stage."
+    "desc": "Possui chance de reduzir o Ataque físico do alvo em um estágio."
   },
   "fairy-wind": {
     "id": 584,
     "name": "fairy-wind",
-    "namePt": "Fairy Wind",
+    "namePt": "Vento de Fada",
     "type": "fairy",
     "category": "special",
     "power": 40,
@@ -6755,133 +6754,133 @@ const ALL_MOVES_DATA = {
     "power": 95,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s Sp. Atk stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "boomburst": {
     "id": 586,
     "name": "boomburst",
-    "namePt": "Estrondo Sonoro",
+    "namePt": "Explosão Estrondosa",
     "type": "normal",
     "category": "special",
     "power": 140,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user attacks everything around it with the destructive power of a terrible, explosive sound."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "fairy-lock": {
     "id": 587,
     "name": "fairy-lock",
-    "namePt": "Fairy Lock",
+    "namePt": "Trava de Fada",
     "type": "fairy",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "kings-shield": {
     "id": 588,
     "name": "kings-shield",
-    "namePt": "Kings Shield",
+    "namePt": "Escudo Real",
     "type": "steel",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Blocks damaging attacks and lowers attacking Pokémon’s Attack by two stages on contact.  Switches Aegislash to Shield Forme."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "play-nice": {
     "id": 589,
     "name": "play-nice",
-    "namePt": "Play Nice",
+    "namePt": "Ser Legal",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user and the target become friends, and the target loses its will to fight. This lowers the target’s Attack stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "confide": {
     "id": 590,
     "name": "confide",
-    "namePt": "Confide",
+    "namePt": "Confidência",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "diamond-storm": {
     "id": 591,
     "name": "diamond-storm",
-    "namePt": "Diamond Storm",
+    "namePt": "Tempestade de Diamantes",
     "type": "rock",
     "category": "physical",
     "power": 100,
     "accuracy": 95,
     "pp": 5,
-    "desc": "Has a chance to raise the user’s Defense by two stages for each target hit."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "steam-eruption": {
     "id": 592,
     "name": "steam-eruption",
-    "namePt": "Steam Eruption",
+    "namePt": "Erupção de Vapor",
     "type": "water",
     "category": "special",
     "power": 110,
     "accuracy": 95,
     "pp": 5,
-    "desc": "Has a chance to burn the target."
+    "desc": "Possui chance de causar queimadura no alvo."
   },
   "hyperspace-hole": {
     "id": 593,
     "name": "hyperspace-hole",
-    "namePt": "Hyperspace Hole",
+    "namePt": "Buraco do Hiperespaço",
     "type": "psychic",
     "category": "special",
     "power": 80,
     "accuracy": null,
     "pp": 5,
-    "desc": "Using a hyperspace hole, the user appears right next to the target and strikes. This attack can hit a target using a move such as Protect or Detect."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "water-shuriken": {
     "id": 594,
     "name": "water-shuriken",
-    "namePt": "Water Shuriken",
+    "namePt": "Shuriken de Água",
     "type": "water",
     "category": "special",
     "power": 15,
     "accuracy": 100,
     "pp": 20,
-    "desc": "The user attacks with five throwing stars formed from mucus, launched one after the other."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "mystical-fire": {
     "id": 595,
     "name": "mystical-fire",
-    "namePt": "Mystical Fire",
+    "namePt": "Fogo Místico",
     "type": "fire",
     "category": "special",
     "power": 75,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca breathing a special, hot fire. This also lowers the target’s Sp. Atk stat."
+    "desc": "O usuário ataca breathing a special, hot fire. This also lowers o alvo’s Sp. Atk stat."
   },
   "spiky-shield": {
     "id": 596,
     "name": "spiky-shield",
-    "namePt": "Spiky Shield",
+    "namePt": "Escudo de Espinhos",
     "type": "grass",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "In addition to protecting the user from attacks, this move also damages any attacker that makes direct contact."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "aromatic-mist": {
     "id": 597,
     "name": "aromatic-mist",
-    "namePt": "Aromatic Mist",
+    "namePt": "Névoa Aromática",
     "type": "fairy",
     "category": "status",
     "power": null,
@@ -6892,62 +6891,62 @@ const ALL_MOVES_DATA = {
   "eerie-impulse": {
     "id": 598,
     "name": "eerie-impulse",
-    "namePt": "Eerie Impulse",
+    "namePt": "Impulso Misterioso",
     "type": "electric",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user generates an eerie impulse from its body, which lowers targets’ Sp. Atk stats for a while."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "venom-drench": {
     "id": 599,
     "name": "venom-drench",
-    "namePt": "Venom Drench",
+    "namePt": "Encharcar de Veneno",
     "type": "poison",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "powder": {
     "id": 600,
     "name": "powder",
-    "namePt": "Powder",
+    "namePt": "Pó Explosivo",
     "type": "bug",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Explodes if the target uses a Fire move this turn, damaging it for 1/4 its max HP and preventing the move."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "geomancy": {
     "id": 601,
     "name": "geomancy",
-    "namePt": "Geomancy",
+    "namePt": "Geomancia",
     "type": "fairy",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Takes one turn to charge, then raises the user’s Special Attack, Special Defense, and Speed by two stages."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "magnetic-flux": {
     "id": 602,
     "name": "magnetic-flux",
-    "namePt": "Magnetic Flux",
+    "namePt": "Fluxo Magnético",
     "type": "electric",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "The user manipulates magnetic fields, which boosts the Defense and Sp. Def stats of ally Pokémon with the Plus Ability or the Minus Ability."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "happy-hour": {
     "id": 603,
     "name": "happy-hour",
-    "namePt": "Happy Hour",
+    "namePt": "Hora Feliz",
     "type": "normal",
     "category": "status",
     "power": null,
@@ -6958,18 +6957,18 @@ const ALL_MOVES_DATA = {
   "electric-terrain": {
     "id": 604,
     "name": "electric-terrain",
-    "namePt": "Electric Terrain",
+    "namePt": "Terreno Elétrico",
     "type": "electric",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user turns the ground into Electric Terrain for five turns, powering up Electric-type moves. Pokémon on the ground can no longer fall asleep."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "dazzling-gleam": {
     "id": 605,
     "name": "dazzling-gleam",
-    "namePt": "Brilho Ofuscante",
+    "namePt": "Brilho Deslumbrante",
     "type": "fairy",
     "category": "special",
     "power": 80,
@@ -6980,7 +6979,7 @@ const ALL_MOVES_DATA = {
   "celebrate": {
     "id": 606,
     "name": "celebrate",
-    "namePt": "Celebrate",
+    "namePt": "Comemorar",
     "type": "normal",
     "category": "status",
     "power": null,
@@ -6991,7 +6990,7 @@ const ALL_MOVES_DATA = {
   "hold-hands": {
     "id": 607,
     "name": "hold-hands",
-    "namePt": "Hold Hands",
+    "namePt": "Dadas as Mãos",
     "type": "normal",
     "category": "status",
     "power": null,
@@ -7002,95 +7001,95 @@ const ALL_MOVES_DATA = {
   "baby-doll-eyes": {
     "id": 608,
     "name": "baby-doll-eyes",
-    "namePt": "Baby Doll Eyes",
+    "namePt": "Olhos Ternurinha",
     "type": "fairy",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 30,
-    "desc": "The user stares at the target with its baby-doll eyes, which lowers the target’s Attack stat. This move always goes first."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "nuzzle": {
     "id": 609,
     "name": "nuzzle",
-    "namePt": "Nuzzle",
+    "namePt": "Carinho",
     "type": "electric",
     "category": "physical",
     "power": 20,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Has a chance to paralyze the target."
+    "desc": "Possui chance de paralisar o alvo."
   },
   "hold-back": {
     "id": 610,
     "name": "hold-back",
-    "namePt": "Hold Back",
+    "namePt": "Conter",
     "type": "normal",
     "category": "physical",
     "power": 40,
     "accuracy": 100,
     "pp": 40,
-    "desc": "Cannot lower the target’s HP below 1."
+    "desc": "Cannot lower o alvo’s HP below 1."
   },
   "infestation": {
     "id": 611,
     "name": "infestation",
-    "namePt": "Infestation",
+    "namePt": "Infestação",
     "type": "bug",
     "category": "special",
     "power": 20,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    "desc": "Aprisiona o alvo no combate e causa dano contínuo por 2 a 5 turnos."
   },
   "power-up-punch": {
     "id": 612,
     "name": "power-up-punch",
-    "namePt": "Power Up Punch",
+    "namePt": "Soco de Fortalecimento",
     "type": "fighting",
     "category": "physical",
     "power": 40,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Raises the user’s Attack by one stage after inflicting damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "oblivion-wing": {
     "id": 613,
     "name": "oblivion-wing",
-    "namePt": "Oblivion Wing",
+    "namePt": "Asa do Esquecimento",
     "type": "flying",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Drains 75% of the damage inflicted to heal the user."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "thousand-arrows": {
     "id": 614,
     "name": "thousand-arrows",
-    "namePt": "Thousand Arrows",
+    "namePt": "Mil Flechas",
     "type": "ground",
     "category": "physical",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "\"Grounds the target"
+    "desc": "Grounds o alvo"
   },
   "thousand-waves": {
     "id": 615,
     "name": "thousand-waves",
-    "namePt": "Thousand Waves",
+    "namePt": "Mil Ondas",
     "type": "ground",
     "category": "physical",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Prevents the target from leaving battle."
+    "desc": "Impede que o Pokémon adversário fuja ou seja trocado de batalha."
   },
   "lands-wrath": {
     "id": 616,
     "name": "lands-wrath",
-    "namePt": "Lands Wrath",
+    "namePt": "Ira da Terra",
     "type": "ground",
     "category": "physical",
     "power": 90,
@@ -7101,18 +7100,18 @@ const ALL_MOVES_DATA = {
   "light-of-ruin": {
     "id": 617,
     "name": "light-of-ruin",
-    "namePt": "Light Of Ruin",
+    "namePt": "Luz da Ruína",
     "type": "fairy",
     "category": "special",
     "power": 140,
     "accuracy": 90,
     "pp": 5,
-    "desc": "User receives 1/2 the damage inflicted in recoil."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "origin-pulse": {
     "id": 618,
     "name": "origin-pulse",
-    "namePt": "Pulso Original",
+    "namePt": "Pulso de Origem",
     "type": "water",
     "category": "special",
     "power": 110,
@@ -7140,23 +7139,23 @@ const ALL_MOVES_DATA = {
     "power": 120,
     "accuracy": 100,
     "pp": 5,
-    "desc": "After soaring upward, the user attacks its target by dropping out of the sky at high speeds. But it lowers its own Defense and Sp. Def stats in the process."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "hyperspace-fury": {
     "id": 621,
     "name": "hyperspace-fury",
-    "namePt": "Hyperspace Fury",
+    "namePt": "Fúria do Hiperespaço",
     "type": "dark",
     "category": "physical",
     "power": 100,
     "accuracy": null,
     "pp": 5,
-    "desc": "The user attacks with a barrage from multiple arms. This attack ignores moves such as Protect or Detect, but it also lowers the user’s Defense stat for a short time."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "breakneck-blitz--physical": {
     "id": 622,
     "name": "breakneck-blitz--physical",
-    "namePt": "Breakneck Blitz  Physical",
+    "namePt": "Supercarregador de Colisão (Físico)",
     "type": "normal",
     "category": "physical",
     "power": null,
@@ -7167,7 +7166,7 @@ const ALL_MOVES_DATA = {
   "breakneck-blitz--special": {
     "id": 623,
     "name": "breakneck-blitz--special",
-    "namePt": "Breakneck Blitz  Special",
+    "namePt": "Supercarregador de Colisão (Especial)",
     "type": "normal",
     "category": "special",
     "power": null,
@@ -7178,7 +7177,7 @@ const ALL_MOVES_DATA = {
   "all-out-pummeling--physical": {
     "id": 624,
     "name": "all-out-pummeling--physical",
-    "namePt": "All Out Pummeling  Physical",
+    "namePt": "Golpe com Toda a Força (Físico)",
     "type": "fighting",
     "category": "physical",
     "power": null,
@@ -7189,7 +7188,7 @@ const ALL_MOVES_DATA = {
   "all-out-pummeling--special": {
     "id": 625,
     "name": "all-out-pummeling--special",
-    "namePt": "All Out Pummeling  Special",
+    "namePt": "Golpe com Toda a Força (Especial)",
     "type": "fighting",
     "category": "special",
     "power": null,
@@ -7200,7 +7199,7 @@ const ALL_MOVES_DATA = {
   "supersonic-skystrike--physical": {
     "id": 626,
     "name": "supersonic-skystrike--physical",
-    "namePt": "Supersonic Skystrike  Physical",
+    "namePt": "Ataque Aéreo Supersônico (Físico)",
     "type": "flying",
     "category": "physical",
     "power": null,
@@ -7211,7 +7210,7 @@ const ALL_MOVES_DATA = {
   "supersonic-skystrike--special": {
     "id": 627,
     "name": "supersonic-skystrike--special",
-    "namePt": "Supersonic Skystrike  Special",
+    "namePt": "Ataque Aéreo Supersônico (Especial)",
     "type": "flying",
     "category": "special",
     "power": null,
@@ -7222,7 +7221,7 @@ const ALL_MOVES_DATA = {
   "acid-downpour--physical": {
     "id": 628,
     "name": "acid-downpour--physical",
-    "namePt": "Acid Downpour  Physical",
+    "namePt": "Dilúvio Ácido (Físico)",
     "type": "poison",
     "category": "physical",
     "power": null,
@@ -7233,7 +7232,7 @@ const ALL_MOVES_DATA = {
   "acid-downpour--special": {
     "id": 629,
     "name": "acid-downpour--special",
-    "namePt": "Acid Downpour  Special",
+    "namePt": "Dilúvio Ácido (Especial)",
     "type": "poison",
     "category": "special",
     "power": null,
@@ -7244,7 +7243,7 @@ const ALL_MOVES_DATA = {
   "tectonic-rage--physical": {
     "id": 630,
     "name": "tectonic-rage--physical",
-    "namePt": "Tectonic Rage  Physical",
+    "namePt": "Fúria Tectônica (Físico)",
     "type": "ground",
     "category": "physical",
     "power": null,
@@ -7255,7 +7254,7 @@ const ALL_MOVES_DATA = {
   "tectonic-rage--special": {
     "id": 631,
     "name": "tectonic-rage--special",
-    "namePt": "Tectonic Rage  Special",
+    "namePt": "Fúria Tectônica (Especial)",
     "type": "ground",
     "category": "special",
     "power": null,
@@ -7266,7 +7265,7 @@ const ALL_MOVES_DATA = {
   "continental-crush--physical": {
     "id": 632,
     "name": "continental-crush--physical",
-    "namePt": "Continental Crush  Physical",
+    "namePt": "Esmagamento Continental (Físico)",
     "type": "rock",
     "category": "physical",
     "power": null,
@@ -7277,7 +7276,7 @@ const ALL_MOVES_DATA = {
   "continental-crush--special": {
     "id": 633,
     "name": "continental-crush--special",
-    "namePt": "Continental Crush  Special",
+    "namePt": "Esmagamento Continental (Especial)",
     "type": "rock",
     "category": "special",
     "power": null,
@@ -7288,7 +7287,7 @@ const ALL_MOVES_DATA = {
   "savage-spin-out--physical": {
     "id": 634,
     "name": "savage-spin-out--physical",
-    "namePt": "Savage Spin Out  Physical",
+    "namePt": "Giro Selvagem (Físico)",
     "type": "bug",
     "category": "physical",
     "power": null,
@@ -7299,7 +7298,7 @@ const ALL_MOVES_DATA = {
   "savage-spin-out--special": {
     "id": 635,
     "name": "savage-spin-out--special",
-    "namePt": "Savage Spin Out  Special",
+    "namePt": "Giro Selvagem (Especial)",
     "type": "bug",
     "category": "special",
     "power": null,
@@ -7310,7 +7309,7 @@ const ALL_MOVES_DATA = {
   "never-ending-nightmare--physical": {
     "id": 636,
     "name": "never-ending-nightmare--physical",
-    "namePt": "Never Ending Nightmare  Physical",
+    "namePt": "Pesadelo Sem Fim (Físico)",
     "type": "ghost",
     "category": "physical",
     "power": null,
@@ -7321,7 +7320,7 @@ const ALL_MOVES_DATA = {
   "never-ending-nightmare--special": {
     "id": 637,
     "name": "never-ending-nightmare--special",
-    "namePt": "Never Ending Nightmare  Special",
+    "namePt": "Pesadelo Sem Fim (Especial)",
     "type": "ghost",
     "category": "special",
     "power": null,
@@ -7332,7 +7331,7 @@ const ALL_MOVES_DATA = {
   "corkscrew-crash--physical": {
     "id": 638,
     "name": "corkscrew-crash--physical",
-    "namePt": "Corkscrew Crash  Physical",
+    "namePt": "Impacto Espiralado (Físico)",
     "type": "steel",
     "category": "physical",
     "power": null,
@@ -7343,7 +7342,7 @@ const ALL_MOVES_DATA = {
   "corkscrew-crash--special": {
     "id": 639,
     "name": "corkscrew-crash--special",
-    "namePt": "Corkscrew Crash  Special",
+    "namePt": "Impacto Espiralado (Especial)",
     "type": "steel",
     "category": "special",
     "power": null,
@@ -7354,7 +7353,7 @@ const ALL_MOVES_DATA = {
   "inferno-overdrive--physical": {
     "id": 640,
     "name": "inferno-overdrive--physical",
-    "namePt": "Inferno Overdrive  Physical",
+    "namePt": "Sobrecarga Infernal (Físico)",
     "type": "fire",
     "category": "physical",
     "power": null,
@@ -7365,7 +7364,7 @@ const ALL_MOVES_DATA = {
   "inferno-overdrive--special": {
     "id": 641,
     "name": "inferno-overdrive--special",
-    "namePt": "Inferno Overdrive  Special",
+    "namePt": "Sobrecarga Infernal (Especial)",
     "type": "fire",
     "category": "special",
     "power": null,
@@ -7376,7 +7375,7 @@ const ALL_MOVES_DATA = {
   "hydro-vortex--physical": {
     "id": 642,
     "name": "hydro-vortex--physical",
-    "namePt": "Hydro Vortex  Physical",
+    "namePt": "Vórtice Hidráulico (Físico)",
     "type": "water",
     "category": "physical",
     "power": null,
@@ -7387,7 +7386,7 @@ const ALL_MOVES_DATA = {
   "hydro-vortex--special": {
     "id": 643,
     "name": "hydro-vortex--special",
-    "namePt": "Hydro Vortex  Special",
+    "namePt": "Vórtice Hidráulico (Especial)",
     "type": "water",
     "category": "special",
     "power": null,
@@ -7398,7 +7397,7 @@ const ALL_MOVES_DATA = {
   "bloom-doom--physical": {
     "id": 644,
     "name": "bloom-doom--physical",
-    "namePt": "Bloom Doom  Physical",
+    "namePt": "Florescimento da Ruína (Físico)",
     "type": "grass",
     "category": "physical",
     "power": null,
@@ -7409,7 +7408,7 @@ const ALL_MOVES_DATA = {
   "bloom-doom--special": {
     "id": 645,
     "name": "bloom-doom--special",
-    "namePt": "Bloom Doom  Special",
+    "namePt": "Florescimento da Ruína (Especial)",
     "type": "grass",
     "category": "special",
     "power": null,
@@ -7420,7 +7419,7 @@ const ALL_MOVES_DATA = {
   "gigavolt-havoc--physical": {
     "id": 646,
     "name": "gigavolt-havoc--physical",
-    "namePt": "Gigavolt Havoc  Physical",
+    "namePt": "Devastação Gigavolt (Físico)",
     "type": "electric",
     "category": "physical",
     "power": null,
@@ -7431,7 +7430,7 @@ const ALL_MOVES_DATA = {
   "gigavolt-havoc--special": {
     "id": 647,
     "name": "gigavolt-havoc--special",
-    "namePt": "Gigavolt Havoc  Special",
+    "namePt": "Devastação Gigavolt (Especial)",
     "type": "electric",
     "category": "special",
     "power": null,
@@ -7442,7 +7441,7 @@ const ALL_MOVES_DATA = {
   "shattered-psyche--physical": {
     "id": 648,
     "name": "shattered-psyche--physical",
-    "namePt": "Shattered Psyche  Physical",
+    "namePt": "Psique Estilhaçada (Físico)",
     "type": "psychic",
     "category": "physical",
     "power": null,
@@ -7453,7 +7452,7 @@ const ALL_MOVES_DATA = {
   "shattered-psyche--special": {
     "id": 649,
     "name": "shattered-psyche--special",
-    "namePt": "Shattered Psyche  Special",
+    "namePt": "Psique Estilhaçada (Especial)",
     "type": "psychic",
     "category": "special",
     "power": null,
@@ -7464,7 +7463,7 @@ const ALL_MOVES_DATA = {
   "subzero-slammer--physical": {
     "id": 650,
     "name": "subzero-slammer--physical",
-    "namePt": "Subzero Slammer  Physical",
+    "namePt": "Pancada Subzero (Físico)",
     "type": "ice",
     "category": "physical",
     "power": null,
@@ -7475,7 +7474,7 @@ const ALL_MOVES_DATA = {
   "subzero-slammer--special": {
     "id": 651,
     "name": "subzero-slammer--special",
-    "namePt": "Subzero Slammer  Special",
+    "namePt": "Pancada Subzero (Especial)",
     "type": "ice",
     "category": "special",
     "power": null,
@@ -7486,7 +7485,7 @@ const ALL_MOVES_DATA = {
   "devastating-drake--physical": {
     "id": 652,
     "name": "devastating-drake--physical",
-    "namePt": "Devastating Drake  Physical",
+    "namePt": "Dragão Devastador (Físico)",
     "type": "dragon",
     "category": "physical",
     "power": null,
@@ -7497,7 +7496,7 @@ const ALL_MOVES_DATA = {
   "devastating-drake--special": {
     "id": 653,
     "name": "devastating-drake--special",
-    "namePt": "Devastating Drake  Special",
+    "namePt": "Dragão Devastador (Especial)",
     "type": "dragon",
     "category": "special",
     "power": null,
@@ -7508,7 +7507,7 @@ const ALL_MOVES_DATA = {
   "black-hole-eclipse--physical": {
     "id": 654,
     "name": "black-hole-eclipse--physical",
-    "namePt": "Black Hole Eclipse  Physical",
+    "namePt": "Eclipse de Buraco Negro (Físico)",
     "type": "dark",
     "category": "physical",
     "power": null,
@@ -7519,7 +7518,7 @@ const ALL_MOVES_DATA = {
   "black-hole-eclipse--special": {
     "id": 655,
     "name": "black-hole-eclipse--special",
-    "namePt": "Black Hole Eclipse  Special",
+    "namePt": "Eclipse de Buraco Negro (Especial)",
     "type": "dark",
     "category": "special",
     "power": null,
@@ -7530,7 +7529,7 @@ const ALL_MOVES_DATA = {
   "twinkle-tackle--physical": {
     "id": 656,
     "name": "twinkle-tackle--physical",
-    "namePt": "Twinkle Tackle  Physical",
+    "namePt": "Investida Cintilante (Físico)",
     "type": "fairy",
     "category": "physical",
     "power": null,
@@ -7541,7 +7540,7 @@ const ALL_MOVES_DATA = {
   "twinkle-tackle--special": {
     "id": 657,
     "name": "twinkle-tackle--special",
-    "namePt": "Twinkle Tackle  Special",
+    "namePt": "Investida Cintilante (Especial)",
     "type": "fairy",
     "category": "special",
     "power": null,
@@ -7552,7 +7551,7 @@ const ALL_MOVES_DATA = {
   "catastropika": {
     "id": 658,
     "name": "catastropika",
-    "namePt": "Catastropika",
+    "namePt": "CatastroPika",
     "type": "electric",
     "category": "physical",
     "power": 210,
@@ -7563,35 +7562,35 @@ const ALL_MOVES_DATA = {
   "shore-up": {
     "id": 659,
     "name": "shore-up",
-    "namePt": "Shore Up",
+    "namePt": "Fortalecer Duna",
     "type": "ground",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The user restores some HP by kicking up a cloud of sand from its surroundings, then absorbing the sand into itself."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "first-impression": {
     "id": 660,
     "name": "first-impression",
-    "namePt": "First Impression",
+    "namePt": "Primeira Impressão",
     "type": "bug",
     "category": "physical",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user attacks with tremendous power, but this move only succeeds if it is used first thing upon the user entering a battle."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "baneful-bunker": {
     "id": 661,
     "name": "baneful-bunker",
-    "namePt": "Baneful Bunker",
+    "namePt": "Bunker Nocivo",
     "type": "poison",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "spirit-shackle": {
     "id": 662,
@@ -7602,7 +7601,7 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Traps the target."
+    "desc": "Traps o alvo."
   },
   "darkest-lariat": {
     "id": 663,
@@ -7613,40 +7612,40 @@ const ALL_MOVES_DATA = {
     "power": 85,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Ignores the target’s stat modifiers."
+    "desc": "Ignora quaisquer modificações e aumentos de estatísticas defensivas do alvo."
   },
   "sparkling-aria": {
     "id": 664,
     "name": "sparkling-aria",
-    "namePt": "Ária Cintilante",
+    "namePt": "Ária Reluzente",
     "type": "water",
     "category": "special",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be cured by the touch of these bubbles."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "ice-hammer": {
     "id": 665,
     "name": "ice-hammer",
-    "namePt": "Ice Hammer",
+    "namePt": "Martelo de Gelo",
     "type": "ice",
     "category": "physical",
     "power": 100,
     "accuracy": 90,
     "pp": 10,
-    "desc": "O usuário ataca swinging its strong, heavy fist at targets to inflict damage. This also lowers the user’s movement speed for a short time."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "floral-healing": {
     "id": 666,
     "name": "floral-healing",
-    "namePt": "Floral Healing",
+    "namePt": "Cura Floral",
     "type": "fairy",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Heals the target for ½ its max HP, or ⅔ on Grassy Terrain."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "high-horsepower": {
     "id": 667,
@@ -7662,29 +7661,29 @@ const ALL_MOVES_DATA = {
   "strength-sap": {
     "id": 668,
     "name": "strength-sap",
-    "namePt": "Strength Sap",
+    "namePt": "Drenagem de Força",
     "type": "grass",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Heals the user by the target’s current Attack stat and lowers the target’s Attack by one stage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "solar-blade": {
     "id": 669,
     "name": "solar-blade",
-    "namePt": "Solar Blade",
+    "namePt": "Lâmina Solar",
     "type": "grass",
     "category": "physical",
     "power": 125,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca gathering a great deal of light, then funneling it into a huge blade to swing at its targets. This move takes some time to carry out."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "leafage": {
     "id": 670,
     "name": "leafage",
-    "namePt": "Leafage",
+    "namePt": "Folhagem",
     "type": "grass",
     "category": "physical",
     "power": 40,
@@ -7695,150 +7694,150 @@ const ALL_MOVES_DATA = {
   "spotlight": {
     "id": 671,
     "name": "spotlight",
-    "namePt": "Spotlight",
+    "namePt": "Holofote",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Forces the target’s opponents to aim at the target for the rest of the turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "toxic-thread": {
     "id": 672,
     "name": "toxic-thread",
-    "namePt": "Toxic Thread",
+    "namePt": "Fio Tóxico",
     "type": "poison",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Poisons the target and lowers its Speed by one stage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "laser-focus": {
     "id": 673,
     "name": "laser-focus",
-    "namePt": "Laser Focus",
+    "namePt": "Foco Laser",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "desc": "Guarantees a critical hit with the user’s next move."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "gear-up": {
     "id": 674,
     "name": "gear-up",
-    "namePt": "Gear Up",
+    "namePt": "Engrenar",
     "type": "steel",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Raises the Attack and Special Attack of all friendly Pokémon with Plus or Minus by one stage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "throat-chop": {
     "id": 675,
     "name": "throat-chop",
-    "namePt": "Throat Chop",
+    "namePt": "Golpe na Garganta",
     "type": "dark",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user attacks the target’s throat, and the resultant suffering prevents the target from using sound-based moves for two turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "pollen-puff": {
     "id": 676,
     "name": "pollen-puff",
-    "namePt": "Pollen Puff",
+    "namePt": "Pólen Explosivo",
     "type": "bug",
     "category": "special",
     "power": 90,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "anchor-shot": {
     "id": 677,
     "name": "anchor-shot",
-    "namePt": "Anchor Shot",
+    "namePt": "Disparo de Âncora",
     "type": "steel",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Traps the target."
+    "desc": "Traps o alvo."
   },
   "psychic-terrain": {
     "id": 678,
     "name": "psychic-terrain",
-    "namePt": "Psychic Terrain",
+    "namePt": "Terreno Psíquico",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Protects Pokémon on the ground from priority moves and increases the power of their  Psychic moves by 50%."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "lunge": {
     "id": 679,
     "name": "lunge",
-    "namePt": "Lunge",
+    "namePt": "Investida",
     "type": "bug",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user makes a lunge at the target, attacking with full force. This also lowers the target’s Attack stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "fire-lash": {
     "id": 680,
     "name": "fire-lash",
-    "namePt": "Fire Lash",
+    "namePt": "Chicote de Fogo",
     "type": "fire",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Lowers the target’s Defense by one stage after inflicting damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "power-trip": {
     "id": 681,
     "name": "power-trip",
-    "namePt": "Power Trip",
+    "namePt": "Viagem de Poder",
     "type": "dark",
     "category": "physical",
     "power": 20,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user boasts its strength and attacks the target. The more the user’s stats are boosted, the greater the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "burn-up": {
     "id": 682,
     "name": "burn-up",
-    "namePt": "Burn Up",
+    "namePt": "Combustão",
     "type": "fire",
     "category": "special",
     "power": 130,
     "accuracy": 100,
     "pp": 5,
-    "desc": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "speed-swap": {
     "id": 683,
     "name": "speed-swap",
-    "namePt": "Speed Swap",
+    "namePt": "Troca de Velocidade",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Exchanges the user’s Speed with the target’s."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "smart-strike": {
     "id": 684,
     "name": "smart-strike",
-    "namePt": "Smart Strike",
+    "namePt": "Golpe Inteligente",
     "type": "steel",
     "category": "physical",
     "power": 70,
@@ -7849,84 +7848,84 @@ const ALL_MOVES_DATA = {
   "purify": {
     "id": 685,
     "name": "purify",
-    "namePt": "Purify",
+    "namePt": "Purificar",
     "type": "poison",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Cures the target of a major status ailment and heals the user for 50% of its max HP."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "revelation-dance": {
     "id": 686,
     "name": "revelation-dance",
-    "namePt": "Revelation Dance",
+    "namePt": "Dança da Revelação",
     "type": "normal",
     "category": "special",
     "power": 90,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Has the same type as the user."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "core-enforcer": {
     "id": 687,
     "name": "core-enforcer",
-    "namePt": "Core Enforcer",
+    "namePt": "Executor do Núcleo",
     "type": "dragon",
     "category": "special",
     "power": 100,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Nullifies the target’s ability if it moves earlier."
+    "desc": "Nullifies o alvo’s ability if it moves earlier."
   },
   "trop-kick": {
     "id": 688,
     "name": "trop-kick",
-    "namePt": "Trop Kick",
+    "namePt": "Chute Tropical",
     "type": "grass",
     "category": "physical",
     "power": 70,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Lowers the target’s Attack by one stage after inflicting damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "instruct": {
     "id": 689,
     "name": "instruct",
-    "namePt": "Instruct",
+    "namePt": "Instruir",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Forces the target to repeat its last used move."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "beak-blast": {
     "id": 690,
     "name": "beak-blast",
-    "namePt": "Beak Blast",
+    "namePt": "Explosão de Bico",
     "type": "flying",
     "category": "physical",
     "power": 100,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user first heats up its beak, and then it attacks the target. Making direct contact with the user while it’s heating up its beak results in a burn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "clanging-scales": {
     "id": 691,
     "name": "clanging-scales",
-    "namePt": "Clanging Scales",
+    "namePt": "Escamas Ressoantes",
     "type": "dragon",
     "category": "special",
     "power": 110,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Lowers the user’s Defense by one stage after inflicting damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "dragon-hammer": {
     "id": 692,
     "name": "dragon-hammer",
-    "namePt": "Dragon Hammer",
+    "namePt": "Martelo do Dragão",
     "type": "dragon",
     "category": "physical",
     "power": 90,
@@ -7937,7 +7936,7 @@ const ALL_MOVES_DATA = {
   "brutal-swing": {
     "id": 693,
     "name": "brutal-swing",
-    "namePt": "Brutal Swing",
+    "namePt": "Balanço Brutal",
     "type": "dark",
     "category": "physical",
     "power": 60,
@@ -7948,18 +7947,18 @@ const ALL_MOVES_DATA = {
   "aurora-veil": {
     "id": 694,
     "name": "aurora-veil",
-    "namePt": "Aurora Veil",
+    "namePt": "Véu de Aurora",
     "type": "ice",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Reduces damage five turns, but must be used during hail."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "sinister-arrow-raid": {
     "id": 695,
     "name": "sinister-arrow-raid",
-    "namePt": "Sinister Arrow Raid",
+    "namePt": "Chuva de Flechas Sinistras",
     "type": "ghost",
     "category": "physical",
     "power": 180,
@@ -7970,7 +7969,7 @@ const ALL_MOVES_DATA = {
   "malicious-moonsault": {
     "id": 696,
     "name": "malicious-moonsault",
-    "namePt": "Malicious Moonsault",
+    "namePt": "Salto Mortal Malicioso",
     "type": "dark",
     "category": "physical",
     "power": 180,
@@ -7981,7 +7980,7 @@ const ALL_MOVES_DATA = {
   "oceanic-operetta": {
     "id": 697,
     "name": "oceanic-operetta",
-    "namePt": "Oceanic Operetta",
+    "namePt": "Opereta Oceânica",
     "type": "water",
     "category": "special",
     "power": 195,
@@ -7992,18 +7991,18 @@ const ALL_MOVES_DATA = {
   "guardian-of-alola": {
     "id": 698,
     "name": "guardian-of-alola",
-    "namePt": "Guardian Of Alola",
+    "namePt": "Guardião de Alola",
     "type": "fairy",
     "category": "special",
     "power": null,
     "accuracy": null,
     "pp": 1,
-    "desc": "Damages the target for 75% of its remaining HP."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "soul-stealing-7-star-strike": {
     "id": 699,
     "name": "soul-stealing-7-star-strike",
-    "namePt": "Soul Stealing 7 Star Strike",
+    "namePt": "Ataque das 7 Estrelas Ladrão de Almas",
     "type": "ghost",
     "category": "physical",
     "power": 195,
@@ -8014,18 +8013,18 @@ const ALL_MOVES_DATA = {
   "stoked-sparksurfer": {
     "id": 700,
     "name": "stoked-sparksurfer",
-    "namePt": "Stoked Sparksurfer",
+    "namePt": "Surfista de Faíscas",
     "type": "electric",
     "category": "special",
     "power": 175,
     "accuracy": null,
     "pp": 1,
-    "desc": "Has a chance to paralyze the target."
+    "desc": "Possui chance de paralisar o alvo."
   },
   "pulverizing-pancake": {
     "id": 701,
     "name": "pulverizing-pancake",
-    "namePt": "Pulverizing Pancake",
+    "namePt": "Panqueca Pulverizadora",
     "type": "normal",
     "category": "physical",
     "power": 210,
@@ -8036,84 +8035,84 @@ const ALL_MOVES_DATA = {
   "extreme-evoboost": {
     "id": 702,
     "name": "extreme-evoboost",
-    "namePt": "Extreme Evoboost",
+    "namePt": "Superimpulso Evolutivo",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 1,
-    "desc": "Raises all of the user’s stats by two stages."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "genesis-supernova": {
     "id": 703,
     "name": "genesis-supernova",
-    "namePt": "Genesis Supernova",
+    "namePt": "Supernova da Gênese",
     "type": "psychic",
     "category": "special",
     "power": 185,
     "accuracy": null,
     "pp": 1,
-    "desc": "Changes the terrain to Psychic Terrain after inflicting damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "shell-trap": {
     "id": 704,
     "name": "shell-trap",
-    "namePt": "Shell Trap",
+    "namePt": "Armadilha de Concha",
     "type": "fire",
     "category": "special",
     "power": 150,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Only inflicts damage if the user was hit by a physical move this turn."
+    "desc": "Prepara uma armadilha na carapaça que explode causando dano massivo se for atingido por um ataque físico neste turno."
   },
   "fleur-cannon": {
     "id": 705,
     "name": "fleur-cannon",
-    "namePt": "Fleur Cannon",
+    "namePt": "Canhão de Flores",
     "type": "fairy",
     "category": "special",
     "power": 130,
     "accuracy": 90,
     "pp": 5,
-    "desc": "Lowers the user’s Special Attack by two stages after inflicting damage."
+    "desc": "Reduz o Ataque Especial do usuário em dois estágios após infligir dano."
   },
   "psychic-fangs": {
     "id": 706,
     "name": "psychic-fangs",
-    "namePt": "Psychic Fangs",
+    "namePt": "Presas Psíquicas",
     "type": "psychic",
     "category": "physical",
     "power": 85,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca biting the target with its psychic capabilities. This move can also break barriers, such as Light Screen and Reflect."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "stomping-tantrum": {
     "id": 707,
     "name": "stomping-tantrum",
-    "namePt": "Stomping Tantrum",
+    "namePt": "Chute Birrento",
     "type": "ground",
     "category": "physical",
     "power": 75,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Driven by frustration, the user attacks the target. This move’s power is doubled if the user’s previous move failed."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "shadow-bone": {
     "id": 708,
     "name": "shadow-bone",
-    "namePt": "Shadow Bone",
+    "namePt": "Osso Sombrio",
     "type": "ghost",
     "category": "physical",
     "power": 85,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s Defense by one stage."
+    "desc": "Possui chance de reduzir a Defesa física do alvo em um estágio."
   },
   "accelerock": {
     "id": 709,
     "name": "accelerock",
-    "namePt": "Accelerock",
+    "namePt": "Pedra Acelerada",
     "type": "rock",
     "category": "physical",
     "power": 40,
@@ -8124,40 +8123,40 @@ const ALL_MOVES_DATA = {
   "liquidation": {
     "id": 710,
     "name": "liquidation",
-    "namePt": "Liquidation",
+    "namePt": "Liquidação",
     "type": "water",
     "category": "physical",
     "power": 85,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to lower the target’s Defense by one stage."
+    "desc": "Possui chance de reduzir a Defesa física do alvo em um estágio."
   },
   "prismatic-laser": {
     "id": 711,
     "name": "prismatic-laser",
-    "namePt": "Prismatic Laser",
+    "namePt": "Laser Prismático",
     "type": "psychic",
     "category": "special",
     "power": 160,
     "accuracy": 100,
     "pp": 10,
-    "desc": "User foregoes its next turn to recharge."
+    "desc": "O usuário precisa descansar no turno seguinte para recarregar as energias."
   },
   "spectral-thief": {
     "id": 712,
     "name": "spectral-thief",
-    "namePt": "Spectral Thief",
+    "namePt": "Ladrão Espectral",
     "type": "ghost",
     "category": "physical",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca hiding itself in a target’s shadow, stealing any stat boosts the target has, and then striking."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "sunsteel-strike": {
     "id": 713,
     "name": "sunsteel-strike",
-    "namePt": "Golpe Solar de Aço",
+    "namePt": "Impacto de Aço Solar",
     "type": "steel",
     "category": "physical",
     "power": 100,
@@ -8168,7 +8167,7 @@ const ALL_MOVES_DATA = {
   "moongeist-beam": {
     "id": 714,
     "name": "moongeist-beam",
-    "namePt": "Raio Espiritual da Lua",
+    "namePt": "Raio Espectral Lunar",
     "type": "ghost",
     "category": "special",
     "power": 100,
@@ -8179,51 +8178,51 @@ const ALL_MOVES_DATA = {
   "tearful-look": {
     "id": 715,
     "name": "tearful-look",
-    "namePt": "Tearful Look",
+    "namePt": "Olhar Lacrimejante",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "desc": "Lowers the target’s Attack and Special Attack by one stage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "zing-zap": {
     "id": 716,
     "name": "zing-zap",
-    "namePt": "Zing Zap",
+    "namePt": "Zigue-zague Elétrico",
     "type": "electric",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user crashes into the target, delivering a powerful electric shock. This may also make the target flinch."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "natures-madness": {
     "id": 717,
     "name": "natures-madness",
-    "namePt": "Natures Madness",
+    "namePt": "Loucura da Natureza",
     "type": "fairy",
     "category": "special",
     "power": null,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Inflicts damage equal to half the target’s HP."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "multi-attack": {
     "id": 718,
     "name": "multi-attack",
-    "namePt": "Multi Attack",
+    "namePt": "Multiataque",
     "type": "normal",
     "category": "physical",
     "power": 120,
     "accuracy": 100,
     "pp": 10,
-    "desc": "\"If the user is holding a appropriate plate or drive"
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "10-000-000-volt-thunderbolt": {
     "id": 719,
     "name": "10-000-000-volt-thunderbolt",
-    "namePt": "10 000 000 Volt Thunderbolt",
+    "namePt": "Relâmpago de 10.000.000 de Volts",
     "type": "electric",
     "category": "special",
     "power": 195,
@@ -8234,13 +8233,13 @@ const ALL_MOVES_DATA = {
   "mind-blown": {
     "id": 720,
     "name": "mind-blown",
-    "namePt": "Mind Blown",
+    "namePt": "Explosão Mental",
     "type": "fire",
     "category": "special",
     "power": 150,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Inflicts damage, and the user takes damage equal to half of its max HP, rounded up."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "plasma-fists": {
     "id": 721,
@@ -8251,12 +8250,12 @@ const ALL_MOVES_DATA = {
     "power": 100,
     "accuracy": 100,
     "pp": 15,
-    "desc": "After inflicting damage, causes all Normal-type moves to become Electric-type for the remainder of the turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "photon-geyser": {
     "id": 722,
     "name": "photon-geyser",
-    "namePt": "Photon Geyser",
+    "namePt": "Gêiser de Fótons",
     "type": "psychic",
     "category": "special",
     "power": 100,
@@ -8267,18 +8266,18 @@ const ALL_MOVES_DATA = {
   "light-that-burns-the-sky": {
     "id": 723,
     "name": "light-that-burns-the-sky",
-    "namePt": "Light That Burns The Sky",
+    "namePt": "Luz que Incendeia o Céu",
     "type": "psychic",
     "category": "special",
     "power": 200,
     "accuracy": null,
     "pp": 1,
-    "desc": "Inflicts damage using either Attack or Special Attack stat, whichever is higher."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "searing-sunraze-smash": {
     "id": 724,
     "name": "searing-sunraze-smash",
-    "namePt": "Searing Sunraze Smash",
+    "namePt": "Golpe Solar Candente",
     "type": "steel",
     "category": "physical",
     "power": 200,
@@ -8289,7 +8288,7 @@ const ALL_MOVES_DATA = {
   "menacing-moonraze-maelstrom": {
     "id": 725,
     "name": "menacing-moonraze-maelstrom",
-    "namePt": "Menacing Moonraze Maelstrom",
+    "namePt": "Turbilhão Lunar Ameaçador",
     "type": "ghost",
     "category": "special",
     "power": 200,
@@ -8300,7 +8299,7 @@ const ALL_MOVES_DATA = {
   "lets-snuggle-forever": {
     "id": 726,
     "name": "lets-snuggle-forever",
-    "namePt": "Lets Snuggle Forever",
+    "namePt": "Vamos nos Abraçar para Sempre",
     "type": "fairy",
     "category": "physical",
     "power": 190,
@@ -8311,24 +8310,24 @@ const ALL_MOVES_DATA = {
   "splintered-stormshards": {
     "id": 727,
     "name": "splintered-stormshards",
-    "namePt": "Splintered Stormshards",
+    "namePt": "Fragmentos de Tempestade",
     "type": "rock",
     "category": "physical",
     "power": 190,
     "accuracy": null,
     "pp": 1,
-    "desc": "Inflicts damage and removes any terrain present on the battlefield."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "clangorous-soulblaze": {
     "id": 728,
     "name": "clangorous-soulblaze",
-    "namePt": "Clangorous Soulblaze",
+    "namePt": "Incêndio Ressoante da Alma",
     "type": "dragon",
     "category": "special",
     "power": 185,
     "accuracy": null,
     "pp": 1,
-    "desc": "Inflicts damage to all opposing Pokémon and increases the user’s Attack, Defense, Special Attack, Special Defense, and Speed by one stage each."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "zippy-zap": {
     "id": 729,
@@ -8366,7 +8365,7 @@ const ALL_MOVES_DATA = {
   "pika-papow": {
     "id": 732,
     "name": "pika-papow",
-    "namePt": "Pika Papow",
+    "namePt": "Pika-Pancada",
     "type": "electric",
     "category": "special",
     "power": null,
@@ -8377,7 +8376,7 @@ const ALL_MOVES_DATA = {
   "bouncy-bubble": {
     "id": 733,
     "name": "bouncy-bubble",
-    "namePt": "Bouncy Bubble",
+    "namePt": "Bolha Saltitante",
     "type": "water",
     "category": "special",
     "power": 60,
@@ -8388,7 +8387,7 @@ const ALL_MOVES_DATA = {
   "buzzy-buzz": {
     "id": 734,
     "name": "buzzy-buzz",
-    "namePt": "Buzzy Buzz",
+    "namePt": "Zumbido Zumbidor",
     "type": "electric",
     "category": "special",
     "power": 60,
@@ -8399,7 +8398,7 @@ const ALL_MOVES_DATA = {
   "sizzly-slide": {
     "id": 735,
     "name": "sizzly-slide",
-    "namePt": "Sizzly Slide",
+    "namePt": "Deslize Ardente",
     "type": "fire",
     "category": "physical",
     "power": 60,
@@ -8410,7 +8409,7 @@ const ALL_MOVES_DATA = {
   "glitzy-glow": {
     "id": 736,
     "name": "glitzy-glow",
-    "namePt": "Glitzy Glow",
+    "namePt": "Brilho Cintilante",
     "type": "psychic",
     "category": "special",
     "power": 80,
@@ -8421,7 +8420,7 @@ const ALL_MOVES_DATA = {
   "baddy-bad": {
     "id": 737,
     "name": "baddy-bad",
-    "namePt": "Baddy Bad",
+    "namePt": "Maldade Pura",
     "type": "dark",
     "category": "special",
     "power": 80,
@@ -8432,7 +8431,7 @@ const ALL_MOVES_DATA = {
   "sappy-seed": {
     "id": 738,
     "name": "sappy-seed",
-    "namePt": "Sappy Seed",
+    "namePt": "Semente de Seiva",
     "type": "grass",
     "category": "physical",
     "power": 100,
@@ -8443,7 +8442,7 @@ const ALL_MOVES_DATA = {
   "freezy-frost": {
     "id": 739,
     "name": "freezy-frost",
-    "namePt": "Freezy Frost",
+    "namePt": "Geada Congelante",
     "type": "ice",
     "category": "special",
     "power": 100,
@@ -8454,7 +8453,7 @@ const ALL_MOVES_DATA = {
   "sparkly-swirl": {
     "id": 740,
     "name": "sparkly-swirl",
-    "namePt": "Sparkly Swirl",
+    "namePt": "Espiral Brilhante",
     "type": "fairy",
     "category": "special",
     "power": 120,
@@ -8465,7 +8464,7 @@ const ALL_MOVES_DATA = {
   "veevee-volley": {
     "id": 741,
     "name": "veevee-volley",
-    "namePt": "Veevee Volley",
+    "namePt": "Veevee-Voleio",
     "type": "normal",
     "category": "physical",
     "power": null,
@@ -8476,35 +8475,35 @@ const ALL_MOVES_DATA = {
   "double-iron-bash": {
     "id": 742,
     "name": "double-iron-bash",
-    "namePt": "Double Iron Bash",
+    "namePt": "Pancada Dupla de Ferro",
     "type": "steel",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 5,
-    "desc": "O usuário ataca spinning itself around the hex nut in its chest, striking targets twice with its arms, one after another. This may also make targets flinch."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "max-guard": {
     "id": 743,
     "name": "max-guard",
-    "namePt": "Max Guard",
+    "namePt": "Guarda Max",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Prevents any moves from hitting the user this turn."
+    "desc": "Movimento Max defensivo que protege completamente o usuário contra qualquer ataque adversário."
   },
   "dynamax-cannon": {
     "id": 744,
     "name": "dynamax-cannon",
-    "namePt": "Dynamax Cannon",
+    "namePt": "Canhão Dynamax",
     "type": "dragon",
     "category": "special",
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Deals twice the damage if the target is Dynamaxed."
+    "desc": "Causa o dobro de dano caso o alvo esteja sob a transformação Dynamax."
   },
   "snipe-shot": {
     "id": 745,
@@ -8515,337 +8514,337 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user ignores the effects of opposing Pokémon’s moves and Abilities that draw in moves, allowing this move to hit the chosen target."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "jaw-lock": {
     "id": 746,
     "name": "jaw-lock",
-    "namePt": "Jaw Lock",
+    "namePt": "Trava de Mandíbula",
     "type": "dark",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Prevents you and the target from switching out. "
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "stuff-cheeks": {
     "id": 747,
     "name": "stuff-cheeks",
-    "namePt": "Stuff Cheeks",
+    "namePt": "Bochechas Cheias",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user eats its held Berry, then sharply boosts its Defense stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "no-retreat": {
     "id": 748,
     "name": "no-retreat",
-    "namePt": "No Retreat",
+    "namePt": "Sem Retirada",
     "type": "fighting",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 5,
-    "desc": "The user puts everything on the line and boosts all its stats for a short time. In exchange, the user temporarily loses the ability to switch out of battle."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "tar-shot": {
     "id": 749,
     "name": "tar-shot",
-    "namePt": "Tar Shot",
+    "namePt": "Disparo de Alcatrão",
     "type": "rock",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user pours sticky tar over the target, lowering the target’s Speed stat. The target becomes weaker to Fire-type moves."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "magic-powder": {
     "id": 750,
     "name": "magic-powder",
-    "namePt": "Magic Powder",
+    "namePt": "Pó Mágico",
     "type": "psychic",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Causes the target to become a Psychic type."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "dragon-darts": {
     "id": 751,
     "name": "dragon-darts",
-    "namePt": "Dragon Darts",
+    "namePt": "Dardos de Dragão",
     "type": "dragon",
     "category": "physical",
     "power": 50,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user attacks twice using Dreepy. If there are two opposing Pokémon, this move hits each of them once."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "teatime": {
     "id": 752,
     "name": "teatime",
-    "namePt": "Teatime",
+    "namePt": "Hora do Chá",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "All Pokemon on the field consume their held berries."
+    "desc": "All Pokemon no campo de batalha consume their held berries."
   },
   "octolock": {
     "id": 753,
     "name": "octolock",
-    "namePt": "Octolock",
+    "namePt": "Trava de Polvo",
     "type": "fighting",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "bolt-beak": {
     "id": 754,
     "name": "bolt-beak",
-    "namePt": "Bolt Beak",
+    "namePt": "Bico de Raio",
     "type": "electric",
     "category": "physical",
     "power": 85,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Power doubles if the user moves before the target."
+    "desc": "Power doubles if o usuário moves before o alvo."
   },
   "fishious-rend": {
     "id": 755,
     "name": "fishious-rend",
-    "namePt": "Fishious Rend",
+    "namePt": "Fenda Voraz",
     "type": "water",
     "category": "physical",
     "power": 85,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Power doubles if the user moves before the target."
+    "desc": "Power doubles if o usuário moves before o alvo."
   },
   "court-change": {
     "id": 756,
     "name": "court-change",
-    "namePt": "Court Change",
+    "namePt": "Troca de Campo",
     "type": "normal",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "With its mysterious power, the user swaps the effects on either side of the field."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "max-flare": {
     "id": 757,
     "name": "max-flare",
-    "namePt": "Max Flare",
+    "namePt": "Labareda Max",
     "type": "fire",
     "category": "physical",
     "power": 100,
     "accuracy": null,
     "pp": 10,
-    "desc": "Changes the weather to sunny for five turns."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-flutterby": {
     "id": 758,
     "name": "max-flutterby",
-    "namePt": "Max Flutterby",
+    "namePt": "Borboleta Max",
     "type": "bug",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-lightning": {
     "id": 759,
     "name": "max-lightning",
-    "namePt": "Max Lightning",
+    "namePt": "Relâmpago Max",
     "type": "electric",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "\"For five turns"
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-strike": {
     "id": 760,
     "name": "max-strike",
-    "namePt": "Max Strike",
+    "namePt": "Ataque Max",
     "type": "normal",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, lower the Speed of all Pokemon on the opposing side by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-knuckle": {
     "id": 761,
     "name": "max-knuckle",
-    "namePt": "Max Knuckle",
+    "namePt": "Punho Max",
     "type": "fighting",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, raise the Attack of the user and its allies' by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-phantasm": {
     "id": 762,
     "name": "max-phantasm",
-    "namePt": "Max Phantasm",
+    "namePt": "Fantasma Max",
     "type": "ghost",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, lower the Defense of all Pokemon on the opposing side by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-hailstorm": {
     "id": 763,
     "name": "max-hailstorm",
-    "namePt": "Max Hailstorm",
+    "namePt": "Granizo Max",
     "type": "ice",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "Changes the weather to a hailstorm for five turns."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-ooze": {
     "id": 764,
     "name": "max-ooze",
-    "namePt": "Max Ooze",
+    "namePt": "Lodo Max",
     "type": "poison",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, raise the Special Attack of the user and its allies' by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-geyser": {
     "id": 765,
     "name": "max-geyser",
-    "namePt": "Max Geyser",
+    "namePt": "Gêiser Max",
     "type": "water",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "Changes the weather to rain for five turns."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-airstream": {
     "id": 766,
     "name": "max-airstream",
-    "namePt": "Max Airstream",
+    "namePt": "Corrente de Ar Max",
     "type": "flying",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, raise the Speed of the user and its allies' by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-starfall": {
     "id": 767,
     "name": "max-starfall",
-    "namePt": "Max Starfall",
+    "namePt": "Estrela Cadente Max",
     "type": "fairy",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "\"For five turns"
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-wyrmwind": {
     "id": 768,
     "name": "max-wyrmwind",
-    "namePt": "Max Wyrmwind",
+    "namePt": "Vendaval do Dragão Max",
     "type": "dragon",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, lower the Attack of all Pokemon on the opposing side by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-mindstorm": {
     "id": 769,
     "name": "max-mindstorm",
-    "namePt": "Max Mindstorm",
+    "namePt": "Tempestade Mental Max",
     "type": "psychic",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "Protects Pokémon on the ground from priority moves and increases the power of their  Psychic moves by 50%."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-rockfall": {
     "id": 770,
     "name": "max-rockfall",
-    "namePt": "Max Rockfall",
+    "namePt": "Desabamento Max",
     "type": "rock",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "Changes the weather to a sandstorm for five turns."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-quake": {
     "id": 771,
     "name": "max-quake",
-    "namePt": "Max Quake",
+    "namePt": "Terremoto Max",
     "type": "ground",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, raise the Special Defense of the user and its allies' by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-darkness": {
     "id": 772,
     "name": "max-darkness",
-    "namePt": "Max Darkness",
+    "namePt": "Escuridão Max",
     "type": "dark",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, lower the Special Defense of all Pokemon on the opposing side by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-overgrowth": {
     "id": 773,
     "name": "max-overgrowth",
-    "namePt": "Max Overgrowth",
+    "namePt": "Supercrescimento Max",
     "type": "grass",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "\"For five turns"
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "max-steelspike": {
     "id": 774,
     "name": "max-steelspike",
-    "namePt": "Max Steelspike",
+    "namePt": "Espinho de Aço Max",
     "type": "steel",
     "category": "physical",
     "power": 10,
     "accuracy": null,
     "pp": 10,
-    "desc": "If this move hits, raise the Defense of the user and its allies' by 1 stage."
+    "desc": "Ataque colossal do fenômeno Dynamax do tipo seu tipo que causa dano massivo e altera o campo de combate."
   },
   "clangorous-soul": {
     "id": 775,
     "name": "clangorous-soul",
-    "namePt": "Clangorous Soul",
+    "namePt": "Alma Ressoante",
     "type": "dragon",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 5,
-    "desc": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "body-press": {
     "id": 776,
@@ -8856,18 +8855,18 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca slamming its body into the target. The higher the user’s Defense stat, the greater the damage this move deals."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "decorate": {
     "id": 777,
     "name": "decorate",
-    "namePt": "Decorate",
+    "namePt": "Decorar",
     "type": "fairy",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "desc": "Raise the targets Attack and Special Attack by 2 stages."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "drum-beating": {
     "id": 778,
@@ -8878,18 +8877,18 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user plays its drum, controlling the drum’s roots to attack the target. This also lowers the target’s Speed stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "snap-trap": {
     "id": 779,
     "name": "snap-trap",
-    "namePt": "Snap Trap",
+    "namePt": "Armadilha de Pressão",
     "type": "grass",
     "category": "physical",
     "power": 35,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    "desc": "Aprisiona o alvo no combate e causa dano contínuo por 2 a 5 turnos."
   },
   "pyro-ball": {
     "id": 780,
@@ -8900,7 +8899,7 @@ const ALL_MOVES_DATA = {
     "power": 120,
     "accuracy": 90,
     "pp": 5,
-    "desc": "Has a chance to burn the target."
+    "desc": "Possui chance de causar queimadura no alvo."
   },
   "behemoth-blade": {
     "id": 781,
@@ -8911,7 +8910,7 @@ const ALL_MOVES_DATA = {
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Deals twice the damage if the target is Dynamaxed."
+    "desc": "Causa o dobro de dano caso o alvo esteja sob a transformação Dynamax."
   },
   "behemoth-bash": {
     "id": 782,
@@ -8922,7 +8921,7 @@ const ALL_MOVES_DATA = {
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Deals twice the damage if the target is Dynamaxed."
+    "desc": "Causa o dobro de dano caso o alvo esteja sob a transformação Dynamax."
   },
   "aura-wheel": {
     "id": 783,
@@ -8933,23 +8932,23 @@ const ALL_MOVES_DATA = {
     "power": 110,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user attacks with energy from its cheeks, increasing its movement speed and boosting its Attack stat for a short time. This move’s type changes based on Morpeko’s form."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "breaking-swipe": {
     "id": 784,
     "name": "breaking-swipe",
-    "namePt": "Breaking Swipe",
+    "namePt": "Golpe Quebrador",
     "type": "dragon",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Lowers the target’s Attack by one stage after inflicting damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "branch-poke": {
     "id": 785,
     "name": "branch-poke",
-    "namePt": "Branch Poke",
+    "namePt": "Espetada de Galho",
     "type": "grass",
     "category": "physical",
     "power": 40,
@@ -8960,255 +8959,255 @@ const ALL_MOVES_DATA = {
   "overdrive": {
     "id": 786,
     "name": "overdrive",
-    "namePt": "Overdrive",
+    "namePt": "Sobrecarga",
     "type": "electric",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user attacks targets by twanging a guitar or bass guitar, causing a huge echo and strong vibration."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "apple-acid": {
     "id": 787,
     "name": "apple-acid",
-    "namePt": "Apple Acid",
+    "namePt": "Ácido de Maçã",
     "type": "grass",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Lower the targets Special Defense by 1 stage."
+    "desc": "Lower o alvos Special Defense by 1 stage."
   },
   "grav-apple": {
     "id": 788,
     "name": "grav-apple",
-    "namePt": "Grav Apple",
+    "namePt": "Maçã Gravitacional",
     "type": "grass",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "spirit-break": {
     "id": 789,
     "name": "spirit-break",
-    "namePt": "Spirit Break",
+    "namePt": "Quebra-espírito",
     "type": "fairy",
     "category": "physical",
     "power": 75,
     "accuracy": 100,
     "pp": 15,
-    "desc": "Has a chance to lower the target’s Special Attack by one stage."
+    "desc": "Possui chance de reduzir o Ataque Especial do alvo em um estágio."
   },
   "strange-steam": {
     "id": 790,
     "name": "strange-steam",
-    "namePt": "Strange Steam",
+    "namePt": "Vapor Estranho",
     "type": "fairy",
     "category": "special",
     "power": 90,
     "accuracy": 95,
     "pp": 10,
-    "desc": "Has a chance to confuse the target."
+    "desc": "Possui chance de deixar o alvo confuso."
   },
   "life-dew": {
     "id": 791,
     "name": "life-dew",
-    "namePt": "Life Dew",
+    "namePt": "Orvalho da Vida",
     "type": "water",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "obstruct": {
     "id": 792,
     "name": "obstruct",
-    "namePt": "Obstruct",
+    "namePt": "Obstruir",
     "type": "dark",
     "category": "status",
     "power": null,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "false-surrender": {
     "id": 793,
     "name": "false-surrender",
-    "namePt": "False Surrender",
+    "namePt": "Falsa Rendição",
     "type": "dark",
     "category": "physical",
     "power": 80,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user pretends to bow its head, but then it stabs the target with its disheveled hair. This attack never misses."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "meteor-assault": {
     "id": 794,
     "name": "meteor-assault",
-    "namePt": "Meteor Assault",
+    "namePt": "Investida de Meteoro",
     "type": "fighting",
     "category": "physical",
     "power": 150,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user attacks wildly with its thick leek. However, this also makes the user stagger, leaving it unable to move for a short time."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "eternabeam": {
     "id": 795,
     "name": "eternabeam",
-    "namePt": "Eternabeam",
+    "namePt": "Raio Eterno",
     "type": "dragon",
     "category": "special",
     "power": 160,
     "accuracy": 90,
     "pp": 5,
-    "desc": "User foregoes its next turn to recharge."
+    "desc": "O usuário precisa descansar no turno seguinte para recarregar as energias."
   },
   "steel-beam": {
     "id": 796,
     "name": "steel-beam",
-    "namePt": "Steel Beam",
+    "namePt": "Raio de Aço",
     "type": "steel",
     "category": "special",
     "power": 140,
     "accuracy": 95,
     "pp": 5,
-    "desc": "Inflicts damage, and the user takes damage equal to half of its max HP, rounded up."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "expanding-force": {
     "id": 797,
     "name": "expanding-force",
-    "namePt": "Expanding Force",
+    "namePt": "Força Expansiva",
     "type": "psychic",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O atacante ataca o alvo com its psychic power. When the ground is Psychic Terrain, this move’s power is boosted and it damages all opposing Pokémon."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "steel-roller": {
     "id": 798,
     "name": "steel-roller",
-    "namePt": "Steel Roller",
+    "namePt": "Rolo de Aço",
     "type": "steel",
     "category": "physical",
     "power": 130,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Ends the effect of Electric, Grassy, Misty, or Psychic Terrains. Fails if no Terrain is active. "
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "scale-shot": {
     "id": 799,
     "name": "scale-shot",
-    "namePt": "Scale Shot",
+    "namePt": "Disparo de Escamas",
     "type": "dragon",
     "category": "physical",
     "power": 25,
     "accuracy": 90,
     "pp": 20,
-    "desc": "O usuário ataca shooting out five volleys of scales, one after the other. This increases the user’s movement speed but also lowers its Defense stat for a short time."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "meteor-beam": {
     "id": 800,
     "name": "meteor-beam",
-    "namePt": "Meteor Beam",
+    "namePt": "Raio de Meteoros",
     "type": "rock",
     "category": "special",
     "power": 120,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user gathers energy from space and boosts its Sp. Atk stat on the first turn, then attacks on the next turn."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "shell-side-arm": {
     "id": 801,
     "name": "shell-side-arm",
-    "namePt": "Shell Side Arm",
+    "namePt": "Canhão de Concha",
     "type": "poison",
     "category": "special",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "This move inflicts physical or special damage, whichever will be more effective. This may also poison the target."
+    "desc": "Causa dano físico ou especial, escolhendo o que for mais efetivo contra o alvo. Pode também envenenar o adversário."
   },
   "misty-explosion": {
     "id": 802,
     "name": "misty-explosion",
-    "namePt": "Misty Explosion",
+    "namePt": "Explosão Enevoada",
     "type": "fairy",
     "category": "special",
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "grassy-glide": {
     "id": 803,
     "name": "grassy-glide",
-    "namePt": "Grassy Glide",
+    "namePt": "Deslize Floral",
     "type": "grass",
     "category": "physical",
     "power": 55,
     "accuracy": 100,
     "pp": 20,
-    "desc": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "rising-voltage": {
     "id": 804,
     "name": "rising-voltage",
-    "namePt": "Rising Voltage",
+    "namePt": "Tensão Crescente",
     "type": "electric",
     "category": "special",
     "power": 70,
     "accuracy": 100,
     "pp": 20,
-    "desc": "If Electric Terrain is active and the user is grounded, this move has has its power doubled."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "terrain-pulse": {
     "id": 805,
     "name": "terrain-pulse",
-    "namePt": "Terrain Pulse",
+    "namePt": "Pulso de Terreno",
     "type": "normal",
     "category": "special",
     "power": 50,
     "accuracy": 100,
     "pp": 10,
-    "desc": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "skitter-smack": {
     "id": 806,
     "name": "skitter-smack",
-    "namePt": "Skitter Smack",
+    "namePt": "Pancada Sorrateira",
     "type": "bug",
     "category": "physical",
     "power": 70,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Lowers the target’s Special Attack by one stage."
+    "desc": "Reduz o Ataque Especial do alvo em um estágio."
   },
   "burning-jealousy": {
     "id": 807,
     "name": "burning-jealousy",
-    "namePt": "Burning Jealousy",
+    "namePt": "Ciúme Ardente",
     "type": "fire",
     "category": "special",
     "power": 70,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Burns the target if it had a state stage raise this turn."
+    "desc": "Burns o alvo if it had a state stage raise this turn."
   },
   "lash-out": {
     "id": 808,
     "name": "lash-out",
-    "namePt": "Lash Out",
+    "namePt": "Descontrole",
     "type": "dark",
     "category": "physical",
     "power": 75,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user lashes out to vent its frustration toward the target. If the user’s stats were lowered during this turn, the power of this move is doubled."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "poltergeist": {
     "id": 809,
@@ -9219,12 +9218,12 @@ const ALL_MOVES_DATA = {
     "power": 110,
     "accuracy": 90,
     "pp": 5,
-    "desc": "Fails if the target has no held item."
+    "desc": "Fails if o alvo has no held item."
   },
   "corrosive-gas": {
     "id": 810,
     "name": "corrosive-gas",
-    "namePt": "Corrosive Gas",
+    "namePt": "Gás Corrosivo",
     "type": "poison",
     "category": "status",
     "power": null,
@@ -9235,79 +9234,79 @@ const ALL_MOVES_DATA = {
   "coaching": {
     "id": 811,
     "name": "coaching",
-    "namePt": "Coaching",
+    "namePt": "Treinamento",
     "type": "fighting",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "flip-turn": {
     "id": 812,
     "name": "flip-turn",
-    "namePt": "Flip Turn",
+    "namePt": "Giro Mortal",
     "type": "water",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 20,
-    "desc": "O usuário ataca dishing out a quick blow, then rushes back to its Trainer with incredible speed."
+    "desc": "Desfere um golpe rápido no oponente e retorna imediatamente para o Treinador em alta velocidade, trocando de Pokémon."
   },
   "triple-axel": {
     "id": 813,
     "name": "triple-axel",
-    "namePt": "Triple Axel",
+    "namePt": "Axel Triplo",
     "type": "ice",
     "category": "physical",
     "power": 20,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user attacks with three kicks, one after the other. The range of these attacks grow wider each time the user jumps up to unleash a kick."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "dual-wingbeat": {
     "id": 814,
     "name": "dual-wingbeat",
-    "namePt": "Dual Wingbeat",
+    "namePt": "Batida Dupla de Asas",
     "type": "flying",
     "category": "physical",
     "power": 40,
     "accuracy": 90,
     "pp": 10,
-    "desc": "O usuário ataca slamming targets with its wings to deal two strikes, one after the other."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "scorching-sands": {
     "id": 815,
     "name": "scorching-sands",
-    "namePt": "Scorching Sands",
+    "namePt": "Areias Escaldantes",
     "type": "ground",
     "category": "special",
     "power": 70,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to burn the target."
+    "desc": "Possui chance de causar queimadura no alvo."
   },
   "jungle-healing": {
     "id": 816,
     "name": "jungle-healing",
-    "namePt": "Jungle Healing",
+    "namePt": "Cura da Selva",
     "type": "grass",
     "category": "status",
     "power": null,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user becomes one with the jungle, restoring HP and curing status conditions for itself and its ally Pokémon currently in the battle."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "wicked-blow": {
     "id": 817,
     "name": "wicked-blow",
-    "namePt": "Golpe Maligno",
+    "namePt": "Golpe Malicioso",
     "type": "dark",
     "category": "physical",
     "power": 75,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user, having mastered the Dark style, strikes the target with a fierce blow. This move always lands a critical hit."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "surging-strikes": {
     "id": 818,
@@ -9318,62 +9317,62 @@ const ALL_MOVES_DATA = {
     "power": 25,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user, having mastered the Water style, strikes the target with a flowing motion three times in a row. This move always lands a critical hit."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "thunder-cage": {
     "id": 819,
     "name": "thunder-cage",
-    "namePt": "Thunder Cage",
+    "namePt": "Jaula de Trovão",
     "type": "electric",
     "category": "special",
     "power": 80,
     "accuracy": 90,
     "pp": 15,
-    "desc": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    "desc": "Aprisiona o alvo no combate e causa dano contínuo por 2 a 5 turnos."
   },
   "dragon-energy": {
     "id": 820,
     "name": "dragon-energy",
-    "namePt": "Dragon Energy",
+    "namePt": "Energia do Dragão",
     "type": "dragon",
     "category": "special",
     "power": 150,
     "accuracy": 100,
     "pp": 5,
-    "desc": "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user’s HP, the lower the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "freezing-glare": {
     "id": 821,
     "name": "freezing-glare",
-    "namePt": "Freezing Glare",
+    "namePt": "Olhar Congelante",
     "type": "psychic",
     "category": "special",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to freeze the target."
+    "desc": "Possui chance de congelar o alvo."
   },
   "fiery-wrath": {
     "id": 822,
     "name": "fiery-wrath",
-    "namePt": "Fiery Wrath",
+    "namePt": "Ira Flamejante",
     "type": "dark",
     "category": "special",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Has a chance to make the target flinch."
+    "desc": "Possui chance de fazer o alvo recuar (flinch)."
   },
   "thunderous-kick": {
     "id": 823,
     "name": "thunderous-kick",
-    "namePt": "Thunderous Kick",
+    "namePt": "Chute Trovejante",
     "type": "fighting",
     "category": "physical",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Lowers the target’s Defense by one stage after inflicting damage."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "glacial-lance": {
     "id": 824,
@@ -9400,40 +9399,40 @@ const ALL_MOVES_DATA = {
   "eerie-spell": {
     "id": 826,
     "name": "eerie-spell",
-    "namePt": "Eerie Spell",
+    "namePt": "Feitiço Misterioso",
     "type": "psychic",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The target loses 3 PP from the last move it used."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "dire-claw": {
     "id": 827,
     "name": "dire-claw",
-    "namePt": "Dire Claw",
+    "namePt": "Garra Sinistra",
     "type": "poison",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user lashes out at the target with ruinous claws. This may also leave the target poisoned, paralyzed, or asleep."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "psyshield-bash": {
     "id": 828,
     "name": "psyshield-bash",
-    "namePt": "Psyshield Bash",
+    "namePt": "Golpe de Psicoescudo",
     "type": "psychic",
     "category": "physical",
     "power": 70,
     "accuracy": 90,
     "pp": 10,
-    "desc": "Cloaking itself in psychic energy, the user slams into the target. This also boosts the user’s Defense stat."
+    "desc": "Cloaking itself in psychic energy, o usuário slams into o alvo. This also boosts o usuário’s Defense stat."
   },
   "power-shift": {
     "id": 829,
     "name": "power-shift",
-    "namePt": "Power Shift",
+    "namePt": "Troca de Poder",
     "type": "normal",
     "category": "status",
     "power": 0,
@@ -9444,18 +9443,18 @@ const ALL_MOVES_DATA = {
   "stone-axe": {
     "id": 830,
     "name": "stone-axe",
-    "namePt": "Stone Axe",
+    "namePt": "Machado de Pedra",
     "type": "rock",
     "category": "physical",
     "power": 65,
     "accuracy": 90,
     "pp": 15,
-    "desc": "The user swings its stone axes at the target, aiming to land a critical hit. Stone splinters left behind by this attack continue to damage the target for several turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "springtide-storm": {
     "id": 831,
     "name": "springtide-storm",
-    "namePt": "Springtide Storm",
+    "namePt": "Tempestade da Primavera",
     "type": "fairy",
     "category": "special",
     "power": 100,
@@ -9466,29 +9465,29 @@ const ALL_MOVES_DATA = {
   "mystical-power": {
     "id": 832,
     "name": "mystical-power",
-    "namePt": "Mystical Power",
+    "namePt": "Poder Místico",
     "type": "psychic",
     "category": "special",
     "power": 70,
     "accuracy": 90,
     "pp": 10,
-    "desc": "The user strengthens itself with a mysterious power. If it excels in offense, its offensive stats are raised. If it excels in defense, its defensive stats are raised."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "raging-fury": {
     "id": 833,
     "name": "raging-fury",
-    "namePt": "Raging Fury",
+    "namePt": "Fúria Desenfreada",
     "type": "fire",
     "category": "physical",
     "power": 120,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user rampages and spews vicious flames to inflict damage on the target, then becomes fixated on using this move."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "wave-crash": {
     "id": 834,
     "name": "wave-crash",
-    "namePt": "Wave Crash",
+    "namePt": "Impacto de Onda",
     "type": "water",
     "category": "physical",
     "power": 120,
@@ -9499,7 +9498,7 @@ const ALL_MOVES_DATA = {
   "chloroblast": {
     "id": 835,
     "name": "chloroblast",
-    "namePt": "Chloroblast",
+    "namePt": "Cloroblasto",
     "type": "grass",
     "category": "special",
     "power": 150,
@@ -9510,7 +9509,7 @@ const ALL_MOVES_DATA = {
   "mountain-gale": {
     "id": 836,
     "name": "mountain-gale",
-    "namePt": "Mountain Gale",
+    "namePt": "Vendaval da Montanha",
     "type": "ice",
     "category": "physical",
     "power": 100,
@@ -9521,18 +9520,18 @@ const ALL_MOVES_DATA = {
   "victory-dance": {
     "id": 837,
     "name": "victory-dance",
-    "namePt": "Victory Dance",
+    "namePt": "Dança da Vitória",
     "type": "fighting",
     "category": "status",
     "power": 0,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user performs an intense dance to usher in victory, boosting its Attack, Defense, and Speed stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "headlong-rush": {
     "id": 838,
     "name": "headlong-rush",
-    "namePt": "Headlong Rush",
+    "namePt": "Investida Precipitada",
     "type": "ground",
     "category": "physical",
     "power": 120,
@@ -9543,18 +9542,18 @@ const ALL_MOVES_DATA = {
   "barb-barrage": {
     "id": 839,
     "name": "barb-barrage",
-    "namePt": "Barb Barrage",
+    "namePt": "Rajada de Farpas",
     "type": "poison",
     "category": "physical",
     "power": 60,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca launching countless toxic barbs, which may also poison targets. This move’s power is doubled if a target is already poisoned."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "esper-wing": {
     "id": 840,
     "name": "esper-wing",
-    "namePt": "Esper Wing",
+    "namePt": "Asa Psíquica",
     "type": "psychic",
     "category": "special",
     "power": 80,
@@ -9565,7 +9564,7 @@ const ALL_MOVES_DATA = {
   "bitter-malice": {
     "id": 841,
     "name": "bitter-malice",
-    "namePt": "Bitter Malice",
+    "namePt": "Malícia Amarga",
     "type": "ghost",
     "category": "special",
     "power": 75,
@@ -9576,29 +9575,29 @@ const ALL_MOVES_DATA = {
   "shelter": {
     "id": 842,
     "name": "shelter",
-    "namePt": "Shelter",
+    "namePt": "Abrigo",
     "type": "steel",
     "category": "status",
     "power": 0,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user makes its skin as hard as an iron shield, sharply boosting its Defense stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "triple-arrows": {
     "id": 843,
     "name": "triple-arrows",
-    "namePt": "Triple Arrows",
+    "namePt": "Flechas Triplas",
     "type": "fighting",
     "category": "physical",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user kicks, then fires three arrows. This move has a heightened chance of landing a critical hit and may also lower the target’s Defense stat or make it flinch."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "infernal-parade": {
     "id": 844,
     "name": "infernal-parade",
-    "namePt": "Infernal Parade",
+    "namePt": "Desfile Infernal",
     "type": "ghost",
     "category": "special",
     "power": 60,
@@ -9609,18 +9608,18 @@ const ALL_MOVES_DATA = {
   "ceaseless-edge": {
     "id": 845,
     "name": "ceaseless-edge",
-    "namePt": "Ceaseless Edge",
+    "namePt": "Corte Incessante",
     "type": "dark",
     "category": "physical",
     "power": 65,
     "accuracy": 90,
     "pp": 15,
-    "desc": "The user slashes its shell blade at the target, aiming to land a critical hit. Shell splinters left behind by this attack will continue to damage the target for several turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "bleakwind-storm": {
     "id": 846,
     "name": "bleakwind-storm",
-    "namePt": "Bleakwind Storm",
+    "namePt": "Tempestade Desoladora",
     "type": "flying",
     "category": "special",
     "power": 100,
@@ -9631,7 +9630,7 @@ const ALL_MOVES_DATA = {
   "wildbolt-storm": {
     "id": 847,
     "name": "wildbolt-storm",
-    "namePt": "Wildbolt Storm",
+    "namePt": "Tempestade Trovejante",
     "type": "electric",
     "category": "special",
     "power": 100,
@@ -9642,7 +9641,7 @@ const ALL_MOVES_DATA = {
   "sandsear-storm": {
     "id": 848,
     "name": "sandsear-storm",
-    "namePt": "Sandsear Storm",
+    "namePt": "Tempestade Abrasadora",
     "type": "ground",
     "category": "special",
     "power": 100,
@@ -9653,29 +9652,29 @@ const ALL_MOVES_DATA = {
   "lunar-blessing": {
     "id": 849,
     "name": "lunar-blessing",
-    "namePt": "Lunar Blessing",
+    "namePt": "Bênção Lunar",
     "type": "psychic",
     "category": "status",
     "power": 0,
     "accuracy": null,
     "pp": 5,
-    "desc": "The user receives a blessing from the crescent moon, restoring HP and curing status conditions for itself and its ally Pokémon currently in the battle."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "take-heart": {
     "id": 850,
     "name": "take-heart",
-    "namePt": "Take Heart",
+    "namePt": "Coragem",
     "type": "psychic",
     "category": "status",
     "power": 0,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "tera-blast": {
     "id": 851,
     "name": "tera-blast",
-    "namePt": "Explosão Tera",
+    "namePt": "Disparo Terastal",
     "type": "normal",
     "category": "special",
     "power": 80,
@@ -9686,40 +9685,40 @@ const ALL_MOVES_DATA = {
   "silk-trap": {
     "id": 852,
     "name": "silk-trap",
-    "namePt": "Silk Trap",
+    "namePt": "Armadilha de Seda",
     "type": "bug",
     "category": "status",
     "power": 0,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user spins a silken trap, protecting itself from damage while lowering the Speed stat of any attacker that makes direct contact."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "axe-kick": {
     "id": 853,
     "name": "axe-kick",
-    "namePt": "Axe Kick",
+    "namePt": "Chute de Machado",
     "type": "fighting",
     "category": "physical",
     "power": 120,
     "accuracy": 90,
     "pp": 10,
-    "desc": "O usuário ataca kicking up into the air and slamming its heel down upon the target. This may also confuse the target. If it misses, the user takes damage instead."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "last-respects": {
     "id": 854,
     "name": "last-respects",
-    "namePt": "Last Respects",
+    "namePt": "Últimas Homenagens",
     "type": "ghost",
     "category": "physical",
     "power": 50,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user attacks to avenge its allies. The more defeated allies there are in the user’s party, the greater the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "lumina-crash": {
     "id": 855,
     "name": "lumina-crash",
-    "namePt": "Lumina Crash",
+    "namePt": "Impacto de Lúmina",
     "type": "psychic",
     "category": "special",
     "power": 80,
@@ -9730,18 +9729,18 @@ const ALL_MOVES_DATA = {
   "order-up": {
     "id": 856,
     "name": "order-up",
-    "namePt": "Order Up",
+    "namePt": "Manda Ver",
     "type": "dragon",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user attacks with roguish poise. If the user has a Tatsugiri in its mouth, this move boosts one of the user’s stats based on the Tatsugiri’s form."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "jet-punch": {
     "id": 857,
     "name": "jet-punch",
-    "namePt": "Jet Punch",
+    "namePt": "Soco a Jato",
     "type": "water",
     "category": "physical",
     "power": 60,
@@ -9752,29 +9751,29 @@ const ALL_MOVES_DATA = {
   "spicy-extract": {
     "id": 858,
     "name": "spicy-extract",
-    "namePt": "Spicy Extract",
+    "namePt": "Extrato Picante",
     "type": "grass",
     "category": "status",
     "power": 0,
     "accuracy": null,
     "pp": 15,
-    "desc": "The user emits an incredibly spicy extract, which boosts targets’ Attack stats but also lowers their Defense stats for a while."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "spin-out": {
     "id": 859,
     "name": "spin-out",
-    "namePt": "Spin Out",
+    "namePt": "Rodopio Veloz",
     "type": "steel",
     "category": "physical",
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user spins furiously by straining its legs, inflicting damage on the target. This also harshly lowers the user’s Speed stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "population-bomb": {
     "id": 860,
     "name": "population-bomb",
-    "namePt": "Population Bomb",
+    "namePt": "Bomba Populacional",
     "type": "normal",
     "category": "physical",
     "power": 20,
@@ -9785,73 +9784,73 @@ const ALL_MOVES_DATA = {
   "ice-spinner": {
     "id": 861,
     "name": "ice-spinner",
-    "namePt": "Ice Spinner",
+    "namePt": "Giro de Gelo",
     "type": "ice",
     "category": "physical",
     "power": 80,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user covers its feet in thin ice and twirls around, slamming into the target. This move’s spinning motion also destroys the terrain."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "glaive-rush": {
     "id": 862,
     "name": "glaive-rush",
-    "namePt": "Glaive Rush",
+    "namePt": "Investida de Gládio",
     "type": "dragon",
     "category": "physical",
     "power": 120,
     "accuracy": 100,
     "pp": 5,
-    "desc": "O usuário ataca throwing its entire body into a reckless charge. However, the user is left wide open and unable to move for a short time."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "revival-blessing": {
     "id": 863,
     "name": "revival-blessing",
-    "namePt": "Revival Blessing",
+    "namePt": "Bênção da Ressurreição",
     "type": "normal",
     "category": "status",
     "power": 0,
     "accuracy": null,
     "pp": 1,
-    "desc": "The user bestows a loving blessing, reviving a party Pokémon that has fainted and restoring half that Pokémon’s max HP."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "salt-cure": {
     "id": 864,
     "name": "salt-cure",
-    "namePt": "Salt Cure",
+    "namePt": "Cura de Sal",
     "type": "rock",
     "category": "physical",
     "power": 40,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "triple-dive": {
     "id": 865,
     "name": "triple-dive",
-    "namePt": "Triple Dive",
+    "namePt": "Mergulho Triplo",
     "type": "water",
     "category": "physical",
     "power": 30,
     "accuracy": 95,
     "pp": 10,
-    "desc": "The user performs a perfectly timed triple dive, hitting the target with splashes of water three times in a row."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "mortal-spin": {
     "id": 866,
     "name": "mortal-spin",
-    "namePt": "Mortal Spin",
+    "namePt": "Giro Mortal",
     "type": "poison",
     "category": "physical",
     "power": 30,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also poisons opposing Pokémon."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "doodle": {
     "id": 867,
     "name": "doodle",
-    "namePt": "Doodle",
+    "namePt": "Rabisco",
     "type": "normal",
     "category": "status",
     "power": 0,
@@ -9862,18 +9861,18 @@ const ALL_MOVES_DATA = {
   "fillet-away": {
     "id": 868,
     "name": "fillet-away",
-    "namePt": "Fillet Away",
+    "namePt": "Fatiar",
     "type": "normal",
     "category": "status",
     "power": 0,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "kowtow-cleave": {
     "id": 869,
     "name": "kowtow-cleave",
-    "namePt": "Kowtow Cleave",
+    "namePt": "Corte Reverente",
     "type": "dark",
     "category": "physical",
     "power": 85,
@@ -9901,7 +9900,7 @@ const ALL_MOVES_DATA = {
     "power": 80,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user blows out raging flames as if singing a song, scorching the target. This also boosts the user’s Sp. Atk stat."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "aqua-step": {
     "id": 872,
@@ -9917,29 +9916,29 @@ const ALL_MOVES_DATA = {
   "raging-bull": {
     "id": 873,
     "name": "raging-bull",
-    "namePt": "Raging Bull",
+    "namePt": "Touro Enfurecido",
     "type": "normal",
     "category": "physical",
     "power": 90,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user performs a tackle like a raging bull. This move’s type depends on the user’s form. It can also break barriers, such as Light Screen and Reflect."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "make-it-rain": {
     "id": 874,
     "name": "make-it-rain",
-    "namePt": "Make It Rain",
+    "namePt": "Chuva de Dinheiro",
     "type": "steel",
     "category": "special",
     "power": 120,
     "accuracy": 100,
     "pp": 5,
-    "desc": "O usuário ataca throwing out a mass of coins. This also lowers the user’s Sp. Atk stat for a short time. If a target is successfully struck, you will earn money."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "psyblade": {
     "id": 875,
     "name": "psyblade",
-    "namePt": "Psyblade",
+    "namePt": "Lâmina Psíquica",
     "type": "psychic",
     "category": "physical",
     "power": 80,
@@ -9950,7 +9949,7 @@ const ALL_MOVES_DATA = {
   "hydro-steam": {
     "id": 876,
     "name": "hydro-steam",
-    "namePt": "Hydro Steam",
+    "namePt": "Hidrovapor",
     "type": "water",
     "category": "special",
     "power": 80,
@@ -9961,7 +9960,7 @@ const ALL_MOVES_DATA = {
   "ruination": {
     "id": 877,
     "name": "ruination",
-    "namePt": "Ruination",
+    "namePt": "Ruína",
     "type": "dark",
     "category": "special",
     "power": 1,
@@ -9978,23 +9977,23 @@ const ALL_MOVES_DATA = {
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user transforms and crashes to the ground, causing a massive prehistoric explosion. This move’s power is boosted more than usual if it’s a supereffective hit."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "electro-drift": {
     "id": 879,
     "name": "electro-drift",
-    "namePt": "Derivação Elétrica",
+    "namePt": "Drift Elétrico",
     "type": "electric",
     "category": "special",
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move’s power is boosted more than usual if it’s a supereffective hit."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "shed-tail": {
     "id": 880,
     "name": "shed-tail",
-    "namePt": "Shed Tail",
+    "namePt": "Soltar Cauda",
     "type": "normal",
     "category": "status",
     "power": 0,
@@ -10005,7 +10004,7 @@ const ALL_MOVES_DATA = {
   "chilly-reception": {
     "id": 881,
     "name": "chilly-reception",
-    "namePt": "Chilly Reception",
+    "namePt": "Recepção Fria",
     "type": "ice",
     "category": "status",
     "power": 0,
@@ -10016,18 +10015,18 @@ const ALL_MOVES_DATA = {
   "tidy-up": {
     "id": 882,
     "name": "tidy-up",
-    "namePt": "Tidy Up",
+    "namePt": "Organização",
     "type": "normal",
     "category": "status",
     "power": 0,
     "accuracy": null,
     "pp": 10,
-    "desc": "The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user’s Attack and Speed stats."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "snowscape": {
     "id": 883,
     "name": "snowscape",
-    "namePt": "Snowscape",
+    "namePt": "Paisagem de Neve",
     "type": "ice",
     "category": "status",
     "power": 0,
@@ -10038,7 +10037,7 @@ const ALL_MOVES_DATA = {
   "pounce": {
     "id": 884,
     "name": "pounce",
-    "namePt": "Pounce",
+    "namePt": "Bote",
     "type": "bug",
     "category": "physical",
     "power": 50,
@@ -10049,7 +10048,7 @@ const ALL_MOVES_DATA = {
   "trailblaze": {
     "id": 885,
     "name": "trailblaze",
-    "namePt": "Trailblaze",
+    "namePt": "Abrir Caminho",
     "type": "grass",
     "category": "physical",
     "power": 50,
@@ -10060,7 +10059,7 @@ const ALL_MOVES_DATA = {
   "chilling-water": {
     "id": 886,
     "name": "chilling-water",
-    "namePt": "Chilling Water",
+    "namePt": "Água Congelante",
     "type": "water",
     "category": "special",
     "power": 50,
@@ -10071,7 +10070,7 @@ const ALL_MOVES_DATA = {
   "hyper-drill": {
     "id": 887,
     "name": "hyper-drill",
-    "namePt": "Hyper Drill",
+    "namePt": "Hiperfuradeira",
     "type": "normal",
     "category": "physical",
     "power": 100,
@@ -10082,7 +10081,7 @@ const ALL_MOVES_DATA = {
   "twin-beam": {
     "id": 888,
     "name": "twin-beam",
-    "namePt": "Twin Beam",
+    "namePt": "Feixe Duplo",
     "type": "psychic",
     "category": "special",
     "power": 40,
@@ -10093,18 +10092,18 @@ const ALL_MOVES_DATA = {
   "rage-fist": {
     "id": 889,
     "name": "rage-fist",
-    "namePt": "Rage Fist",
+    "namePt": "Punho de Fúria",
     "type": "ghost",
     "category": "physical",
     "power": 50,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca converting its rage into energy. The more times the user has been hit by attacks, the greater this move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "armor-cannon": {
     "id": 890,
     "name": "armor-cannon",
-    "namePt": "Armor Cannon",
+    "namePt": "Canhão de Armadura",
     "type": "fire",
     "category": "special",
     "power": 120,
@@ -10115,7 +10114,7 @@ const ALL_MOVES_DATA = {
   "bitter-blade": {
     "id": 891,
     "name": "bitter-blade",
-    "namePt": "Bitter Blade",
+    "namePt": "Lâmina Amarga",
     "type": "fire",
     "category": "physical",
     "power": 90,
@@ -10126,18 +10125,18 @@ const ALL_MOVES_DATA = {
   "double-shock": {
     "id": 892,
     "name": "double-shock",
-    "namePt": "Double Shock",
+    "namePt": "Choque Duplo",
     "type": "electric",
     "category": "physical",
     "power": 120,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user discharges all the electricity from its body to perform a high-damage attack. After using this move, the user will no longer be Electric type."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "gigaton-hammer": {
     "id": 893,
     "name": "gigaton-hammer",
-    "namePt": "Gigaton Hammer",
+    "namePt": "Martelo Gigaton",
     "type": "steel",
     "category": "physical",
     "power": 160,
@@ -10148,7 +10147,7 @@ const ALL_MOVES_DATA = {
   "comeuppance": {
     "id": 894,
     "name": "comeuppance",
-    "namePt": "Comeuppance",
+    "namePt": "Merecido",
     "type": "dark",
     "category": "physical",
     "power": 1,
@@ -10159,7 +10158,7 @@ const ALL_MOVES_DATA = {
   "aqua-cutter": {
     "id": 895,
     "name": "aqua-cutter",
-    "namePt": "Aqua Cutter",
+    "namePt": "Cortador d'Água",
     "type": "water",
     "category": "physical",
     "power": 70,
@@ -10170,7 +10169,7 @@ const ALL_MOVES_DATA = {
   "blazing-torque": {
     "id": 896,
     "name": "blazing-torque",
-    "namePt": "Blazing Torque",
+    "namePt": "Torque Flamejante",
     "type": "fire",
     "category": "physical",
     "power": 80,
@@ -10181,7 +10180,7 @@ const ALL_MOVES_DATA = {
   "wicked-torque": {
     "id": 897,
     "name": "wicked-torque",
-    "namePt": "Wicked Torque",
+    "namePt": "Torque Malicioso",
     "type": "dark",
     "category": "physical",
     "power": 80,
@@ -10192,7 +10191,7 @@ const ALL_MOVES_DATA = {
   "noxious-torque": {
     "id": 898,
     "name": "noxious-torque",
-    "namePt": "Noxious Torque",
+    "namePt": "Torque Tóxico",
     "type": "poison",
     "category": "physical",
     "power": 100,
@@ -10203,7 +10202,7 @@ const ALL_MOVES_DATA = {
   "combat-torque": {
     "id": 899,
     "name": "combat-torque",
-    "namePt": "Combat Torque",
+    "namePt": "Torque de Combate",
     "type": "fighting",
     "category": "physical",
     "power": 100,
@@ -10214,7 +10213,7 @@ const ALL_MOVES_DATA = {
   "magical-torque": {
     "id": 900,
     "name": "magical-torque",
-    "namePt": "Magical Torque",
+    "namePt": "Torque Mágico",
     "type": "fairy",
     "category": "physical",
     "power": 100,
@@ -10236,7 +10235,7 @@ const ALL_MOVES_DATA = {
   "matcha-gotcha": {
     "id": 902,
     "name": "matcha-gotcha",
-    "namePt": "Chá Matcha",
+    "namePt": "Gole de Matcha",
     "type": "grass",
     "category": "special",
     "power": 80,
@@ -10247,13 +10246,13 @@ const ALL_MOVES_DATA = {
   "syrup-bomb": {
     "id": 903,
     "name": "syrup-bomb",
-    "namePt": "Syrup Bomb",
+    "namePt": "Bomba de Xarope",
     "type": "grass",
     "category": "special",
     "power": 60,
     "accuracy": 85,
     "pp": 10,
-    "desc": "The user sets off an explosion of sticky candy syrup, which coats the target and causes the target’s Speed stat to drop each turn for three turns."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "ivy-cudgel": {
     "id": 904,
@@ -10264,45 +10263,45 @@ const ALL_MOVES_DATA = {
     "power": 100,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user strikes with an ivy-wrapped cudgel. This move’s type changes depending on the mask worn by the user, and it has a heightened chance of landing a critical hit."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "electro-shot": {
     "id": 905,
     "name": "electro-shot",
-    "namePt": "Electro Shot",
+    "namePt": "Disparo Elétrico",
     "type": "electric",
     "category": "special",
     "power": 130,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The user gathers electricity on the first turn, boosting its Sp. Atk stat, then fires a high-voltage shot on the next turn. The shot will be fired immediately in rain."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "tera-starstorm": {
     "id": 906,
     "name": "tera-starstorm",
-    "namePt": "Tera Starstorm",
+    "namePt": "Tempestade Estelar Terastal",
     "type": "normal",
     "category": "special",
     "power": 120,
     "accuracy": 100,
     "pp": 5,
-    "desc": "With the power of its crystals, the user bombards and eliminates the target. When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "fickle-beam": {
     "id": 907,
     "name": "fickle-beam",
-    "namePt": "Fickle Beam",
+    "namePt": "Feixe Caprichoso",
     "type": "dragon",
     "category": "special",
     "power": 80,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user shoots a beam of light to inflict damage. Sometimes all the user’s heads shoot beams in unison, doubling the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "burning-bulwark": {
     "id": 908,
     "name": "burning-bulwark",
-    "namePt": "Burning Bulwark",
+    "namePt": "Baluarte Ardente",
     "type": "fire",
     "category": "status",
     "power": 0,
@@ -10313,7 +10312,7 @@ const ALL_MOVES_DATA = {
   "thunderclap": {
     "id": 909,
     "name": "thunderclap",
-    "namePt": "Thunderclap",
+    "namePt": "Estrondo do Trovão",
     "type": "electric",
     "category": "special",
     "power": 70,
@@ -10324,7 +10323,7 @@ const ALL_MOVES_DATA = {
   "mighty-cleave": {
     "id": 910,
     "name": "mighty-cleave",
-    "namePt": "Mighty Cleave",
+    "namePt": "Clivagem Poderosa",
     "type": "rock",
     "category": "physical",
     "power": 95,
@@ -10335,7 +10334,7 @@ const ALL_MOVES_DATA = {
   "tachyon-cutter": {
     "id": 911,
     "name": "tachyon-cutter",
-    "namePt": "Tachyon Cutter",
+    "namePt": "Cortador de Táquions",
     "type": "steel",
     "category": "special",
     "power": 50,
@@ -10346,18 +10345,18 @@ const ALL_MOVES_DATA = {
   "hard-press": {
     "id": 912,
     "name": "hard-press",
-    "namePt": "Hard Press",
+    "namePt": "Aperto Firme",
     "type": "steel",
     "category": "physical",
     "power": 0,
     "accuracy": 100,
     "pp": 10,
-    "desc": "The target is crushed with an arm, a claw, or the like to inflict damage. The more HP the target has left, the greater the move’s power."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "dragon-cheer": {
     "id": 913,
     "name": "dragon-cheer",
-    "namePt": "Dragon Cheer",
+    "namePt": "Grito do Dragão",
     "type": "dragon",
     "category": "status",
     "power": 0,
@@ -10368,7 +10367,7 @@ const ALL_MOVES_DATA = {
   "alluring-voice": {
     "id": 914,
     "name": "alluring-voice",
-    "namePt": "Alluring Voice",
+    "namePt": "Voz Sedutora",
     "type": "fairy",
     "category": "special",
     "power": 80,
@@ -10379,46 +10378,46 @@ const ALL_MOVES_DATA = {
   "temper-flare": {
     "id": 915,
     "name": "temper-flare",
-    "namePt": "Temper Flare",
+    "namePt": "Chama da Fúria",
     "type": "fire",
     "category": "physical",
     "power": 75,
     "accuracy": 100,
     "pp": 10,
-    "desc": "Spurred by desperation, the user attacks the target. This move’s power is doubled if the user’s previous move failed."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "supercell-slam": {
     "id": 916,
     "name": "supercell-slam",
-    "namePt": "Supercell Slam",
+    "namePt": "Pancada de Supercélula",
     "type": "electric",
     "category": "physical",
     "power": 100,
     "accuracy": 95,
     "pp": 15,
-    "desc": "The user electrifies its body and drops onto the target to inflict damage. If this move misses, the user takes damage instead."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "psychic-noise": {
     "id": 917,
     "name": "psychic-noise",
-    "namePt": "Psychic Noise",
+    "namePt": "Ruído Psíquico",
     "type": "psychic",
     "category": "special",
     "power": 75,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O atacante ataca o alvo com unpleasant sound waves. For two turns, the target is prevented from recovering HP through moves, Abilities, or held items."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "upper-hand": {
     "id": 918,
     "name": "upper-hand",
-    "namePt": "Upper Hand",
+    "namePt": "Vantagem Superior",
     "type": "fighting",
     "category": "physical",
     "power": 65,
     "accuracy": 100,
     "pp": 15,
-    "desc": "The user reacts to the target’s movement and strikes with the heel of its palm, making the target flinch. This move fails if the target is not readying a priority move."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "malignant-chain": {
     "id": 919,
@@ -10429,19 +10428,21 @@ const ALL_MOVES_DATA = {
     "power": 100,
     "accuracy": 100,
     "pp": 5,
-    "desc": "The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This may also leave the target badly poisoned."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   },
   "nihil-light": {
     "id": 920,
     "name": "nihil-light",
-    "namePt": "Nihil Light",
+    "namePt": "Luz do Nada",
     "type": "dragon",
     "category": "special",
     "power": 100,
     "accuracy": 100,
     "pp": 10,
-    "desc": "O usuário ataca unleashing a powerful light that defies all laws of nature, striking even Fairy types and ignoring any stat changes affecting its targets."
+    "desc": "Ataque característico do tipo Normal registrado oficialmente na Pokédex."
   }
 };
 
-if (typeof module !== 'undefined') { module.exports = { ALL_MOVES_DATA }; }
+if (typeof module !== 'undefined') {
+    module.exports = { ALL_MOVES_DATA };
+}
