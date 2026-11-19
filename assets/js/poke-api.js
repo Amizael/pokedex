@@ -164,7 +164,9 @@ const POKE_API = {
                         (typeof ALL_POKEMONS !== 'undefined' ? ALL_POKEMONS.find(p => p.id === numId) : null);
 
         let defaultDesc = pokemon?.description || 'Um Pokémon extraordinário registrado nos arquivos oficiais da Pokédex.';
+        let defaultDescEn = pokemon?.descriptionEn || 'An extraordinary Pokémon registered in the official Pokédex files.';
         let defaultGenus = pokemon?.genus || 'Pokémon';
+        let defaultGenusEn = pokemon?.genusEn || 'Pokémon';
         let defaultGender = '50% Macho, 50% Fêmea';
 
         try {
@@ -183,32 +185,42 @@ const POKE_API = {
             if (!species) {
                 return {
                     flavorText: defaultDesc,
+                    flavorTextEn: defaultDescEn,
                     genus: defaultGenus,
+                    genusEn: defaultGenusEn,
                     genderText: defaultGender,
                     evolutionChain: null
                 };
             }
 
-            // Descrição da Pokédex (blindagem: nunca sobrescrever texto local em português por espanhol/inglês)
+            // Descrição da Pokédex (blindagem: mantém textos oficiais em PT e EN)
             let flavorText = defaultDesc;
+            let flavorTextEn = defaultDescEn;
             if (species.flavor_text_entries && species.flavor_text_entries.length > 0) {
                 const ptEntry = species.flavor_text_entries.find(e => e.language.name === 'pt' || e.language.name === 'pt-BR');
+                const enEntry = species.flavor_text_entries.find(e => e.language.name === 'en');
                 if (ptEntry) {
                     flavorText = ptEntry.flavor_text.replace(/[\n\f\r]/g, ' ').replace(/\u00ad/g, '').trim();
                 } else if (!flavorText) {
                     const esEntry = species.flavor_text_entries.find(e => e.language.name === 'es');
-                    const enEntry = species.flavor_text_entries.find(e => e.language.name === 'en');
                     const chosen = esEntry || enEntry;
                     if (chosen) {
                         flavorText = chosen.flavor_text.replace(/[\n\f\r]/g, ' ').replace(/\u00ad/g, '').trim();
                     }
                 }
+                if (enEntry) {
+                    flavorTextEn = enEntry.flavor_text.replace(/[\n\f\r]/g, ' ').replace(/\u00ad/g, '').trim();
+                }
             }
 
-            // Categoria / Espécie (Gênero) com blindagem e tradução imediata
+            // Categoria / Espécie (Gênero) com blindagem e suporte bilíngue PT/EN
             let genus = (typeof translateGenus === 'function' ? translateGenus(defaultGenus) : defaultGenus);
+            let genusEn = defaultGenusEn;
             const ptGenus = species.genera?.find(g => g.language.name === 'pt' || g.language.name === 'pt-BR');
             const enGenus = species.genera?.find(g => g.language.name === 'en');
+            if (enGenus) {
+                genusEn = enGenus.genus;
+            }
             if (ptGenus) {
                 genus = ptGenus.genus;
             } else if (enGenus) {
@@ -259,7 +271,9 @@ const POKE_API = {
 
             const result = {
                 flavorText,
+                flavorTextEn,
                 genus,
+                genusEn,
                 genderText,
                 evolutionChain
             };
@@ -270,7 +284,9 @@ const POKE_API = {
             console.warn(`Erro ao buscar dados complementares de #${numId}:`, error);
             return {
                 flavorText: defaultDesc,
+                flavorTextEn: defaultDescEn,
                 genus: defaultGenus,
+                genusEn: defaultGenusEn,
                 genderText: defaultGender,
                 evolutionChain: null
             };

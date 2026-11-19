@@ -1,4 +1,3 @@
-// Catálogo Oficial dos 1025 Pokémon (Gerações I a IX)
 const ALL_POKEMONS = [
   {
     "id": 1,
@@ -248,7 +247,8 @@ const ALL_POKEMONS = [
     "displayName": "Bulbasaur",
     "genus": "Pokémon Semente",
     "evolutionChainId": 1,
-    "description": "Enquanto jovem, ele utiliza os nutrientes que estão armazenados na semente em seu dorso para crescer."
+    "description": "Enquanto jovem, ele utiliza os nutrientes que estão armazenados na semente em seu dorso para crescer.",
+    "genusEn": "Seed Pokémon"
   },
   {
     "id": 2,
@@ -458,7 +458,8 @@ const ALL_POKEMONS = [
     "displayName": "Ivysaur",
     "genus": "Pokémon Semente",
     "evolutionChainId": 1,
-    "description": "A exposição à luz solar aumenta sua força. A luz solar também faz com que o botão nas costas cresça."
+    "description": "A exposição à luz solar aumenta sua força. A luz solar também faz com que o botão nas costas cresça.",
+    "genusEn": "Seed Pokémon"
   },
   {
     "id": 3,
@@ -688,7 +689,8 @@ const ALL_POKEMONS = [
     "displayName": "Venusaur",
     "genus": "Pokémon Semente",
     "evolutionChainId": 1,
-    "description": "Um aroma encantador exala de sua flor. A fragrância acalma aqueles que estão envolvidos em uma batalha."
+    "description": "Um aroma encantador exala de sua flor. A fragrância acalma aqueles que estão envolvidos em uma batalha.",
+    "genusEn": "Seed Pokémon"
   },
   {
     "id": 4,
@@ -965,9 +967,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Charmander",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Lagarto",
     "evolutionChainId": 1,
-    "description": "Desde o nascimento, uma chama arde na ponta da cauda. Sua vida terminaria se a chama se apagasse."
+    "description": "Desde o nascimento, uma chama arde na ponta da cauda. Sua vida terminaria se a chama se apagasse.",
+    "genusEn": "Lizard Pokémon"
   },
   {
     "id": 5,
@@ -1214,9 +1217,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Charmeleon",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Chama",
     "evolutionChainId": 1,
-    "description": "Se ficar agitado durante a batalha, ele solta chamas intensas, incinerando o ambiente ao seu redor."
+    "description": "Se ficar agitado durante a batalha, ele solta chamas intensas, incinerando o ambiente ao seu redor.",
+    "genusEn": "Flame Pokémon"
   },
   {
     "id": 6,
@@ -1504,9 +1508,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Charizard",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Chama",
     "evolutionChainId": 1,
-    "description": "Suas asas podem transportar este Pokémon a uma altitude de até 4.600 pés. Ele apaga fogo em temperaturas muito altas."
+    "description": "Suas asas podem transportar este Pokémon a uma altitude de até 4.600 pés. Ele apaga fogo em temperaturas muito altas.",
+    "genusEn": "Flame Pokémon"
   },
   {
     "id": 7,
@@ -1788,9 +1793,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Squirtle",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Tartaruguinha",
     "evolutionChainId": 1,
-    "description": "Quando se sente ameaçado, ele puxa os membros para dentro da concha e espirra água pela boca."
+    "description": "Quando se sente ameaçado, ele puxa os membros para dentro da concha e espirra água pela boca.",
+    "genusEn": "Tiny Turtle Pokémon"
   },
   {
     "id": 8,
@@ -2032,9 +2038,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Wartortle",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Tartaruga",
     "evolutionChainId": 1,
-    "description": "Ele controla habilmente suas orelhas e cauda peludas para manter o equilíbrio enquanto nada."
+    "description": "Ele controla habilmente suas orelhas e cauda peludas para manter o equilíbrio enquanto nada.",
+    "genusEn": "Turtle Pokémon"
   },
   {
     "id": 9,
@@ -2296,9 +2303,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Blastoise",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Crustáceo",
     "evolutionChainId": 1,
-    "description": "Os canhões de foguete em seu projétil disparam jatos de água capazes de perfurar aço grosso."
+    "description": "Os canhões de foguete em seu projétil disparam jatos de água capazes de perfurar aço grosso.",
+    "genusEn": "Shellfish Pokémon"
   },
   {
     "id": 10,
@@ -2345,9 +2353,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Caterpie",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Verme",
     "evolutionChainId": 1,
-    "description": "Seus pés curtos possuem ventosas nas pontas que lhe permitem escalar encostas e paredes incansavelmente."
+    "description": "Seus pés curtos possuem ventosas nas pontas que lhe permitem escalar encostas e paredes incansavelmente.",
+    "genusEn": "Worm Pokémon"
   },
   {
     "id": 11,
@@ -2384,9 +2393,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Metapod",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Casulo",
     "evolutionChainId": 1,
-    "description": "Embora esteja envolto em uma concha resistente, o corpo por dentro é macio. Não pode resistir a um ataque severo."
+    "description": "Embora esteja envolto em uma concha resistente, o corpo por dentro é macio. Não pode resistir a um ataque severo.",
+    "genusEn": "Cocoon Pokémon"
   },
   {
     "id": 12,
@@ -2599,9 +2609,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Butterfree",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Borboleta",
     "evolutionChainId": 1,
-    "description": "Coleta mel todos os dias. Ele esfrega mel nos pelos das pernas para carregá-lo de volta ao ninho."
+    "description": "Coleta mel todos os dias. Ele esfrega mel nos pelos das pernas para carregá-lo de volta ao ninho.",
+    "genusEn": "Butterfly Pokémon"
   },
   {
     "id": 13,
@@ -2649,9 +2660,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Weedle",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Inseto Peludo",
     "evolutionChainId": 1,
-    "description": "Cuidado com o ferrão afiado em sua cabeça. Esconde-se na grama e nos arbustos onde come folhas."
+    "description": "Cuidado com o ferrão afiado em sua cabeça. Esconde-se na grama e nos arbustos onde come folhas.",
+    "genusEn": "Hairy Bug Pokémon"
   },
   {
     "id": 14,
@@ -2689,9 +2701,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Kakuna",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Casulo",
     "evolutionChainId": 1,
-    "description": "Capaz de se mover apenas ligeiramente. Quando ameaçado, pode esticar o ferrão e envenenar o inimigo."
+    "description": "Capaz de se mover apenas ligeiramente. Quando ameaçado, pode esticar o ferrão e envenenar o inimigo.",
+    "genusEn": "Cocoon Pokémon"
   },
   {
     "id": 15,
@@ -2889,9 +2902,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Beedrill",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Abelha Venenosa",
     "evolutionChainId": 1,
-    "description": "Possui três ferrões venenosos nas patas dianteiras e na cauda. Eles são usados para atacar repetidamente o inimigo."
+    "description": "Possui três ferrões venenosos nas patas dianteiras e na cauda. Eles são usados para atacar repetidamente o inimigo.",
+    "genusEn": "Poison Bee Pokémon"
   },
   {
     "id": 16,
@@ -3094,9 +3108,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Pidgey",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Passarinho",
     "evolutionChainId": 1,
-    "description": "Muito dócil. Se for atacado, muitas vezes levanta areia para se proteger, em vez de revidar."
+    "description": "Muito dócil. Se for atacado, muitas vezes levanta areia para se proteger, em vez de revidar.",
+    "genusEn": "Tiny Bird Pokémon"
   },
   {
     "id": 17,
@@ -3279,9 +3294,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Pidgeotto",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Pássaro",
     "evolutionChainId": 1,
-    "description": "Este Pokémon está cheio de vitalidade. Ele voa constantemente pelo seu grande território em busca de presas."
+    "description": "Este Pokémon está cheio de vitalidade. Ele voa constantemente pelo seu grande território em busca de presas.",
+    "genusEn": "Bird Pokémon"
   },
   {
     "id": 18,
@@ -3469,9 +3485,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Pidgeot",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Pássaro",
     "evolutionChainId": 1,
-    "description": "Este Pokémon voa na velocidade Mach 2 em busca de presas. Suas grandes garras são temidas como armas malignas."
+    "description": "Este Pokémon voa na velocidade Mach 2 em busca de presas. Suas grandes garras são temidas como armas malignas.",
+    "genusEn": "Bird Pokémon"
   },
   {
     "id": 19,
@@ -3738,9 +3755,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Rattata",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Rato",
     "evolutionChainId": 1,
-    "description": "Mastigará qualquer coisa com suas presas. Se você vir um, pode ter certeza de que mais 40 vivem na área."
+    "description": "Mastigará qualquer coisa com suas presas. Se você vir um, pode ter certeza de que mais 40 vivem na área.",
+    "genusEn": "Mouse Pokémon"
   },
   {
     "id": 20,
@@ -3987,9 +4005,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Raticate",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Rato",
     "evolutionChainId": 1,
-    "description": "Suas patas traseiras são palmadas. Eles agem como nadadeiras, para que possam nadar em rios e caçar presas."
+    "description": "Suas patas traseiras são palmadas. Eles agem como nadadeiras, para que possam nadar em rios e caçar presas.",
+    "genusEn": "Mouse Pokémon"
   },
   {
     "id": 21,
@@ -4197,9 +4216,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Spearow",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Passarinho",
     "evolutionChainId": 1,
-    "description": "Inepto em voar alto. No entanto, pode voar muito rápido para proteger o seu território."
+    "description": "Inepto em voar alto. No entanto, pode voar muito rápido para proteger o seu território.",
+    "genusEn": "Tiny Bird Pokémon"
   },
   {
     "id": 22,
@@ -4377,9 +4397,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Fearow",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Bico",
     "evolutionChainId": 1,
-    "description": "Um Pokémon que remonta a muitos anos. Se sentir perigo, ele voa alto e para longe, instantaneamente."
+    "description": "Um Pokémon que remonta a muitos anos. Se sentir perigo, ele voa alto e para longe, instantaneamente.",
+    "genusEn": "Beak Pokémon"
   },
   {
     "id": 23,
@@ -4631,9 +4652,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Ekans",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Cobra",
     "evolutionChainId": 1,
-    "description": "Quanto mais velho fica, mais cresce. À noite, ele envolve seu longo corpo em galhos de árvores para descansar."
+    "description": "Quanto mais velho fica, mais cresce. À noite, ele envolve seu longo corpo em galhos de árvores para descansar.",
+    "genusEn": "Snake Pokémon"
   },
   {
     "id": 24,
@@ -4865,9 +4887,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Arbok",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Naja",
     "evolutionChainId": 1,
-    "description": "Os padrões assustadores em sua barriga foram estudados. Seis variações foram confirmadas."
+    "description": "Os padrões assustadores em sua barriga foram estudados. Seis variações foram confirmadas.",
+    "genusEn": "Cobra Pokémon"
   },
   {
     "id": 25,
@@ -5089,9 +5112,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Pikachu",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Rato",
     "evolutionChainId": 1,
-    "description": "Possui bolsas nas bochechas nas quais armazena eletricidade. Este inteligente morador da floresta assa frutas duras com um choque elétrico antes de consumi-las."
+    "description": "Possui bolsas nas bochechas nas quais armazena eletricidade. Este inteligente morador da floresta assa frutas duras com um choque elétrico antes de consumi-las.",
+    "genusEn": "Mouse Pokémon"
   },
   {
     "id": 26,
@@ -5308,9 +5332,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Raichu",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Rato",
     "evolutionChainId": 1,
-    "description": "Ele pode descarregar rajadas de eletricidade superiores a 100.000 volts – um único ataque com essa quantidade de energia incapacitaria um dos Copperajah da minha terra natal."
+    "description": "Ele pode descarregar rajadas de eletricidade superiores a 100.000 volts – um único ataque com essa quantidade de energia incapacitaria um dos Copperajah da minha terra natal.",
+    "genusEn": "Mouse Pokémon"
   },
   {
     "id": 27,
@@ -5567,9 +5592,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Sandshrew",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Rato",
     "evolutionChainId": 1,
-    "description": "Ele está enterrado não apenas para criar seu filho. Se pedras duras impedem a abertura dos túneis, ele usa suas garras afiadas para quebrá-las e depois continua cavando."
+    "description": "Ele está enterrado não apenas para criar seu filho. Se pedras duras impedem a abertura dos túneis, ele usa suas garras afiadas para quebrá-las e depois continua cavando.",
+    "genusEn": "Mouse Pokémon"
   },
   {
     "id": 28,
@@ -5806,9 +5832,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Sandslash",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Rato",
     "evolutionChainId": 1,
-    "description": "Ele sobe em árvores prendendo-se com suas garras afiadas. Sandslash compartilha as frutas que coleta, deixando-as cair para Sandshrew que espera abaixo da árvore."
+    "description": "Ele sobe em árvores prendendo-se com suas garras afiadas. Sandslash compartilha as frutas que coleta, deixando-as cair para Sandshrew que espera abaixo da árvore.",
+    "genusEn": "Mouse Pokémon"
   },
   {
     "id": 29,
@@ -6085,9 +6112,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Nidoran-f",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Espinho Venenoso",
     "evolutionChainId": 1,
-    "description": "Ele usa seus dentes incisivos duros para esmagar e comer frutas. A ponta do chifre de uma fêmea Nidoran é um pouco mais arredondada do que a ponta do chifre de um macho."
+    "description": "Ele usa seus dentes incisivos duros para esmagar e comer frutas. A ponta do chifre de uma fêmea Nidoran é um pouco mais arredondada do que a ponta do chifre de um macho.",
+    "genusEn": "Poison Pin Pokémon"
   },
   {
     "id": 30,
@@ -6334,9 +6362,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Nidorina",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Espinho Venenoso",
     "evolutionChainId": 1,
-    "description": "Se o grupo for ameaçado, estes Pokémon irão unir-se para atacar os inimigos com um coro de ondas ultrassónicas."
+    "description": "Se o grupo for ameaçado, estes Pokémon irão unir-se para atacar os inimigos com um coro de ondas ultrassónicas.",
+    "genusEn": "Poison Pin Pokémon"
   },
   {
     "id": 31,
@@ -6644,9 +6673,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Nidoqueen",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Broca",
     "evolutionChainId": 1,
-    "description": "Ele pacifica os filhotes, colocando-os nos espaços entre os espinhos de suas costas. Os espinhos nunca secretarão veneno enquanto os jovens estiverem presentes."
+    "description": "Ele pacifica os filhotes, colocando-os nos espaços entre os espinhos de suas costas. Os espinhos nunca secretarão veneno enquanto os jovens estiverem presentes.",
+    "genusEn": "Drill Pokémon"
   },
   {
     "id": 32,
@@ -6918,9 +6948,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Nidoran-m",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Espinho Venenoso",
     "evolutionChainId": 1,
-    "description": "Pequeno mas corajoso, este Pokémon manter-se-á firme e até arriscará a sua vida em batalha para proteger a fêmea com quem é amigo."
+    "description": "Pequeno mas corajoso, este Pokémon manter-se-á firme e até arriscará a sua vida em batalha para proteger a fêmea com quem é amigo.",
+    "genusEn": "Poison Pin Pokémon"
   },
   {
     "id": 33,
@@ -7162,9 +7193,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Nidorino",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Espinho Venenoso",
     "evolutionChainId": 1,
-    "description": "É nervoso e rápido para agir agressivamente. A potência de seu veneno aumenta junto com o nível de adrenalina presente em seu corpo."
+    "description": "É nervoso e rápido para agir agressivamente. A potência de seu veneno aumenta junto com o nível de adrenalina presente em seu corpo.",
+    "genusEn": "Poison Pin Pokémon"
   },
   {
     "id": 34,
@@ -7472,9 +7504,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Nidoking",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Broca",
     "evolutionChainId": 1,
-    "description": "Nidoking se orgulha de sua força. É forte e espirituoso em batalha, fazendo uso de sua cauda grossa e chifre esmagador de diamantes."
+    "description": "Nidoking se orgulha de sua força. É forte e espirituoso em batalha, fazendo uso de sua cauda grossa e chifre esmagador de diamantes.",
+    "genusEn": "Drill Pokémon"
   },
   {
     "id": 35,
@@ -7801,9 +7834,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Clefairy",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Fada",
     "evolutionChainId": 1,
-    "description": "Pode ser encontrado em áreas montanhosas tranquilas em noite de lua cheia. Sua dança e suas asas minúsculas e levemente brilhantes conferem-lhe uma adorável qualidade de fada."
+    "description": "Pode ser encontrado em áreas montanhosas tranquilas em noite de lua cheia. Sua dança e suas asas minúsculas e levemente brilhantes conferem-lhe uma adorável qualidade de fada.",
+    "genusEn": "Fairy Pokémon"
   },
   {
     "id": 36,
@@ -8095,9 +8129,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Clefable",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Fada",
     "evolutionChainId": 1,
-    "description": "A lenda diz que em noites claras e tranquilas, ele escuta as vozes dos seus parentes que vivem na lua. Também eu penso muitas vezes na minha terra natal, tão distante."
+    "description": "A lenda diz que em noites claras e tranquilas, ele escuta as vozes dos seus parentes que vivem na lua. Também eu penso muitas vezes na minha terra natal, tão distante.",
+    "genusEn": "Fairy Pokémon"
   },
   {
     "id": 37,
@@ -8324,9 +8359,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Vulpix",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Raposa",
     "evolutionChainId": 1,
-    "description": "Em sua barriga arde um fogo, que Vulpix cospe na forma de bolas de fogo. Quando jovem, este Pokémon tem apenas uma cauda branca. À medida que o Pokémon amadurece, esta cauda única se divide em seis."
+    "description": "Em sua barriga arde um fogo, que Vulpix cospe na forma de bolas de fogo. Quando jovem, este Pokémon tem apenas uma cauda branca. À medida que o Pokémon amadurece, esta cauda única se divide em seis.",
+    "genusEn": "Fox Pokémon"
   },
   {
     "id": 38,
@@ -8498,9 +8534,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Ninetales",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Raposa",
     "evolutionChainId": 1,
-    "description": "A pelagem dourada brilhante é bastante magnífica. Diz-se que esta espécie armazena poder sagrado em suas nove longas caudas e vive por um milênio."
+    "description": "A pelagem dourada brilhante é bastante magnífica. Diz-se que esta espécie armazena poder sagrado em suas nove longas caudas e vive por um milênio.",
+    "genusEn": "Fox Pokémon"
   },
   {
     "id": 39,
@@ -8788,9 +8825,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Jigglypuff",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Balão",
     "evolutionChainId": 1,
-    "description": "Ao alterar livremente o comprimento de onda de sua voz, Jigglypuff canta uma melodia misteriosa que certamente deixará qualquer ouvinte sonolento."
+    "description": "Ao alterar livremente o comprimento de onda de sua voz, Jigglypuff canta uma melodia misteriosa que certamente deixará qualquer ouvinte sonolento.",
+    "genusEn": "Balloon Pokémon"
   },
   {
     "id": 40,
@@ -9068,9 +9106,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Wigglytuff",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Balão",
     "evolutionChainId": 1,
-    "description": "Tem orgulho da sua pelagem, que é fina e delicada. Em particular, o cacho na testa tem uma textura perfeitamente celestial."
+    "description": "Tem orgulho da sua pelagem, que é fina e delicada. Em particular, o cacho na testa tem uma textura perfeitamente celestial.",
+    "genusEn": "Balloon Pokémon"
   },
   {
     "id": 41,
@@ -9308,9 +9347,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Zubat",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Morcego",
     "evolutionChainId": 1,
-    "description": "Faz seu lar em cavernas sombrias. Os olhos atrofiados deixaram este Pokémon cego, por isso ele examina os arredores por meio de ondas sonoras que emite pela boca enquanto voa."
+    "description": "Faz seu lar em cavernas sombrias. Os olhos atrofiados deixaram este Pokémon cego, por isso ele examina os arredores por meio de ondas sonoras que emite pela boca enquanto voa.",
+    "genusEn": "Bat Pokémon"
   },
   {
     "id": 42,
@@ -9528,9 +9568,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Golbat",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Morcego",
     "evolutionChainId": 1,
-    "description": "Ele afunda suas presas afiadas em outras criaturas e suga seu sangue. Um olhar mais atento às presas revela que elas são ocas e semelhantes a canudos."
+    "description": "Ele afunda suas presas afiadas em outras criaturas e suga seu sangue. Um olhar mais atento às presas revela que elas são ocas e semelhantes a canudos.",
+    "genusEn": "Bat Pokémon"
   },
   {
     "id": 43,
@@ -9738,9 +9779,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Oddish",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Erva",
     "evolutionChainId": 1,
-    "description": "Durante o dia, fica no frio subterrâneo para evitar o sol. Ela cresce tomando banho ao luar."
+    "description": "Durante o dia, fica no frio subterrâneo para evitar o sol. Ela cresce tomando banho ao luar.",
+    "genusEn": "Weed Pokémon"
   },
   {
     "id": 44,
@@ -9923,9 +9965,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Gloom",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Erva",
     "evolutionChainId": 1,
-    "description": "O que parece babar é, na verdade, doce mel. É muito pegajoso e adere teimosamente se for tocado."
+    "description": "O que parece babar é, na verdade, doce mel. É muito pegajoso e adere teimosamente se for tocado.",
+    "genusEn": "Weed Pokémon"
   },
   {
     "id": 45,
@@ -10103,9 +10146,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Vileplume",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Flor",
     "evolutionChainId": 1,
-    "description": "Quanto maiores forem suas pétalas, mais pólen tóxico ela contém. Sua cabeça grande é pesada e difícil de segurar."
+    "description": "Quanto maiores forem suas pétalas, mais pólen tóxico ela contém. Sua cabeça grande é pesada e difícil de segurar.",
+    "genusEn": "Flower Pokémon"
   },
   {
     "id": 46,
@@ -10358,9 +10402,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Paras",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Cogumelo",
     "evolutionChainId": 1,
-    "description": "Às vezes visto ao pé de árvores em florestas úmidas. Os cogumelos nas suas costas – chamados tochukaso – não estão presentes em espécimes infantis e, em vez disso, emergem à medida que o Paras amadurece."
+    "description": "Às vezes visto ao pé de árvores em florestas úmidas. Os cogumelos nas suas costas – chamados tochukaso – não estão presentes em espécimes infantis e, em vez disso, emergem à medida que o Paras amadurece.",
+    "genusEn": "Mushroom Pokémon"
   },
   {
     "id": 47,
@@ -10583,9 +10628,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Parasect",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Cogumelo",
     "evolutionChainId": 1,
-    "description": "Espécimes deste Pokémon sem cogumelos ficam imóveis na floresta, dando credibilidade à hipótese de que o grande cogumelo está no controle das ações do Parasect."
+    "description": "Espécimes deste Pokémon sem cogumelos ficam imóveis na floresta, dando credibilidade à hipótese de que o grande cogumelo está no controle das ações do Parasect.",
+    "genusEn": "Mushroom Pokémon"
   },
   {
     "id": 48,
@@ -10798,9 +10844,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Venonat",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Inseto",
     "evolutionChainId": 1,
-    "description": "Seus grandes olhos funcionam como radar. Em um local claro, você pode ver que são aglomerados de muitos olhinhos."
+    "description": "Seus grandes olhos funcionam como radar. Em um local claro, você pode ver que são aglomerados de muitos olhinhos.",
+    "genusEn": "Insect Pokémon"
   },
   {
     "id": 49,
@@ -11018,9 +11065,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Venomoth",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Mariposa Venenosa",
     "evolutionChainId": 1,
-    "description": "As escamas pulverulentas nas asas são difíceis de remover da pele. Eles também contêm veneno que vaza com o contato."
+    "description": "As escamas pulverulentas nas asas são difíceis de remover da pele. Eles também contêm veneno que vaza com o contato.",
+    "genusEn": "Poison Moth Pokémon"
   },
   {
     "id": 50,
@@ -11252,9 +11300,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Diglett",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Toupeira",
     "evolutionChainId": 1,
-    "description": "Ele escava o solo em uma profundidade rasa. Ele deixa terra elevada em seu rastro, facilitando a localização."
+    "description": "Ele escava o solo em uma profundidade rasa. Ele deixa terra elevada em seu rastro, facilitando a localização.",
+    "genusEn": "Mole Pokémon"
   },
   {
     "id": 51,
@@ -11471,9 +11520,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Dugtrio",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Toupeira",
     "evolutionChainId": 1,
-    "description": "Esses trigêmeos Diglett escavam mais de 60 milhas abaixo do nível do mar. Ninguém sabe como é o subsolo."
+    "description": "Esses trigêmeos Diglett escavam mais de 60 milhas abaixo do nível do mar. Ninguém sabe como é o subsolo.",
+    "genusEn": "Mole Pokémon"
   },
   {
     "id": 52,
@@ -11750,9 +11800,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Meowth",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Gato Arranhador",
     "evolutionChainId": 1,
-    "description": "Ele lava o rosto regularmente para manter a moeda na testa impecável. Não se dá bem com Galarian Meowth."
+    "description": "Ele lava o rosto regularmente para manter a moeda na testa impecável. Não se dá bem com Galarian Meowth.",
+    "genusEn": "Scratch Cat Pokémon"
   },
   {
     "id": 53,
@@ -12009,9 +12060,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Persian",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Gato Elegante",
     "evolutionChainId": 1,
-    "description": "Seu comportamento elegante e refinado contrasta com o do bárbaro Perrserker. A relação entre os dois é de desdém mútuo."
+    "description": "Seu comportamento elegante e refinado contrasta com o do bárbaro Perrserker. A relação entre os dois é de desdém mútuo.",
+    "genusEn": "Classy Cat Pokémon"
   },
   {
     "id": 54,
@@ -12313,9 +12365,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Psyduck",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Pato",
     "evolutionChainId": 1,
-    "description": "Sofre de dores de cabeça perpétuas. Se a agonia aumentar muito, o poder latente de Psyduck irrompe, ao contrário da intenção de Psyduck. Portanto, estou explorando maneiras de aliviar a dor."
+    "description": "Sofre de dores de cabeça perpétuas. Se a agonia aumentar muito, o poder latente de Psyduck irrompe, ao contrário da intenção de Psyduck. Portanto, estou explorando maneiras de aliviar a dor.",
+    "genusEn": "Duck Pokémon"
   },
   {
     "id": 55,
@@ -12582,9 +12635,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Golduck",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Pato",
     "evolutionChainId": 1,
-    "description": "Seu corpo é forte e possui membranas nas mãos e nos pés. Golduck pode nadar facilmente em mares agitados, abrindo caminho através das ondas altas."
+    "description": "Seu corpo é forte e possui membranas nas mãos e nos pés. Golduck pode nadar facilmente em mares agitados, abrindo caminho através das ondas altas.",
+    "genusEn": "Duck Pokémon"
   },
   {
     "id": 56,
@@ -12891,9 +12945,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Mankey",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Macaco Suíno",
     "evolutionChainId": 1,
-    "description": "Um Pokémon ágil que vive nas árvores. Irrita-se facilmente e não hesitará em atacar nada."
+    "description": "Um Pokémon ágil que vive nas árvores. Irrita-se facilmente e não hesitará em atacar nada.",
+    "genusEn": "Pig Monkey Pokémon"
   },
   {
     "id": 57,
@@ -13180,9 +13235,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Primeape",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Macaco Suíno",
     "evolutionChainId": 1,
-    "description": "Ele para de ficar com raiva apenas quando não há mais ninguém por perto. Visualizar esse momento é muito difícil."
+    "description": "Ele para de ficar com raiva apenas quando não há mais ninguém por perto. Visualizar esse momento é muito difícil.",
+    "genusEn": "Pig Monkey Pokémon"
   },
   {
     "id": 58,
@@ -13419,9 +13475,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Growlithe",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Filhote de Cão",
     "evolutionChainId": 1,
-    "description": "Eles patrulham seu território em pares. Acredito que os componentes da rocha ígnea na pelagem desta espécie são o resultado da atividade vulcânica em seu habitat."
+    "description": "Eles patrulham seu território em pares. Acredito que os componentes da rocha ígnea na pelagem desta espécie são o resultado da atividade vulcânica em seu habitat.",
+    "genusEn": "Puppy Pokémon"
   },
   {
     "id": 59,
@@ -13613,9 +13670,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Arcanine",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Lendário",
     "evolutionChainId": 1,
-    "description": "Ataca seus inimigos com presas envoltas em chamas ardentes. Apesar de seu tamanho, ele finta habilmente em todas as direções, conduzindo os oponentes em uma perseguição enganosamente alegre enquanto praticamente dança ao redor deles."
+    "description": "Ataca seus inimigos com presas envoltas em chamas ardentes. Apesar de seu tamanho, ele finta habilmente em todas as direções, conduzindo os oponentes em uma perseguição enganosamente alegre enquanto praticamente dança ao redor deles.",
+    "genusEn": "Legendary Pokémon"
   },
   {
     "id": 60,
@@ -13847,9 +13905,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Poliwag",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Girino",
     "evolutionChainId": 1,
-    "description": "Em rios com águas correntes, este Pokémon se agarra a uma rocha usando seus lábios grossos, que funcionam como uma ventosa."
+    "description": "Em rios com águas correntes, este Pokémon se agarra a uma rocha usando seus lábios grossos, que funcionam como uma ventosa.",
+    "genusEn": "Tadpole Pokémon"
   },
   {
     "id": 61,
@@ -14096,9 +14155,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Poliwhirl",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Girino",
     "evolutionChainId": 1,
-    "description": "O suor deste Pokémon é um muco viscoso. Quando capturado, Poliwhirl pode escapar das garras de seus inimigos."
+    "description": "O suor deste Pokémon é um muco viscoso. Quando capturado, Poliwhirl pode escapar das garras de seus inimigos.",
+    "genusEn": "Tadpole Pokémon"
   },
   {
     "id": 62,
@@ -14356,9 +14416,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Poliwrath",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Girino",
     "evolutionChainId": 1,
-    "description": "Poliwrath é hábil tanto em natação quanto em artes marciais. Ele usa seus braços bem treinados para desferir socos poderosos."
+    "description": "Poliwrath é hábil tanto em natação quanto em artes marciais. Ele usa seus braços bem treinados para desferir socos poderosos.",
+    "genusEn": "Tadpole Pokémon"
   },
   {
     "id": 63,
@@ -14625,9 +14686,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Abra",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Psi",
     "evolutionChainId": 1,
-    "description": "Passa 18 horas do dia dormindo. Mesmo enquanto dorme, Abra consegue controlar seus poderes psíquicos. Se o perigo se aproximar, o Pokémon simplesmente se teletransportará para longe."
+    "description": "Passa 18 horas do dia dormindo. Mesmo enquanto dorme, Abra consegue controlar seus poderes psíquicos. Se o perigo se aproximar, o Pokémon simplesmente se teletransportará para longe.",
+    "genusEn": "Psi Pokémon"
   },
   {
     "id": 64,
@@ -14904,9 +14966,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Kadabra",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Psi",
     "evolutionChainId": 1,
-    "description": "Há rumores de que uma criança com poderes místicos se tornou um Kadabra; no entanto, isso ainda não foi confirmado. Suspeito que a colher que o Kadabra segura aumenta suas ondas cerebrais."
+    "description": "Há rumores de que uma criança com poderes místicos se tornou um Kadabra; no entanto, isso ainda não foi confirmado. Suspeito que a colher que o Kadabra segura aumenta suas ondas cerebrais.",
+    "genusEn": "Psi Pokémon"
   },
   {
     "id": 65,
@@ -15183,9 +15246,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Alakazam",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Psi",
     "evolutionChainId": 1,
-    "description": "Quanto mais tempo o Alakazam vive, maior e mais pesada fica a sua cabeça. Nossos testes mostraram que a força dos seus poderes psíquicos está positivamente correlacionada com o peso da sua cabeça."
+    "description": "Quanto mais tempo o Alakazam vive, maior e mais pesada fica a sua cabeça. Nossos testes mostraram que a força dos seus poderes psíquicos está positivamente correlacionada com o peso da sua cabeça.",
+    "genusEn": "Psi Pokémon"
   },
   {
     "id": 66,
@@ -15472,9 +15536,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Machop",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Superpoder",
     "evolutionChainId": 1,
-    "description": "Embora seja tão pequeno quanto uma criança, tem força suficiente para derrubar facilmente um adulto bem constituído. Esforçando-se para ficar cada vez mais forte, Machop treina carregando um Graveler nos ombros."
+    "description": "Embora seja tão pequeno quanto uma criança, tem força suficiente para derrubar facilmente um adulto bem constituído. Esforçando-se para ficar cada vez mais forte, Machop treina carregando um Graveler nos ombros.",
+    "genusEn": "Superpower Pokémon"
   },
   {
     "id": 67,
@@ -15736,9 +15801,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Machoke",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Superpoder",
     "evolutionChainId": 1,
-    "description": "Uma criatura robusta com um físico robusto e resistência ilimitada. Adora treinar acima de tudo e auxilia voluntariamente em tarefas como construção e limpeza de terrenos."
+    "description": "Uma criatura robusta com um físico robusto e resistência ilimitada. Adora treinar acima de tudo e auxilia voluntariamente em tarefas como construção e limpeza de terrenos.",
+    "genusEn": "Superpower Pokémon"
   },
   {
     "id": 68,
@@ -16005,9 +16071,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Machamp",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Superpoder",
     "evolutionChainId": 1,
-    "description": "No combate corpo a corpo, seus quatro braços proporcionam supremacia ofensiva e defensiva. Num piscar de olhos, este valente Pokémon pode dominar seus inimigos com mais de 1.000 golpes de seus punhos."
+    "description": "No combate corpo a corpo, seus quatro braços proporcionam supremacia ofensiva e defensiva. Num piscar de olhos, este valente Pokémon pode dominar seus inimigos com mais de 1.000 golpes de seus punhos.",
+    "genusEn": "Superpower Pokémon"
   },
   {
     "id": 69,
@@ -16235,9 +16302,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Bellsprout",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Flor",
     "evolutionChainId": 1,
-    "description": "Prefere locais quentes e úmidos. Ele captura pequenos insetos com suas vinhas e os devora."
+    "description": "Prefere locais quentes e úmidos. Ele captura pequenos insetos com suas vinhas e os devora.",
+    "genusEn": "Flower Pokémon"
   },
   {
     "id": 70,
@@ -16435,9 +16503,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Weepinbell",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Papa-moscas",
     "evolutionChainId": 1,
-    "description": "Quando está com fome, engole tudo que se move. Sua infeliz presa é dissolvida por ácidos fortes."
+    "description": "Quando está com fome, engole tudo que se move. Sua infeliz presa é dissolvida por ácidos fortes.",
+    "genusEn": "Flycatcher Pokémon"
   },
   {
     "id": 71,
@@ -16630,9 +16699,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Victreebel",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Papa-moscas",
     "evolutionChainId": 1,
-    "description": "Atrai as presas com o aroma doce do mel. Engolida inteira, a presa é dissolvida em um dia, com ossos e tudo."
+    "description": "Atrai as presas com o aroma doce do mel. Engolida inteira, a presa é dissolvida em um dia, com ossos e tudo.",
+    "genusEn": "Flycatcher Pokémon"
   },
   {
     "id": 72,
@@ -16880,9 +16950,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Tentacool",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Água-viva",
     "evolutionChainId": 1,
-    "description": "Eles disparam raios a partir dos orbes vítreos e magenta que se assemelham a olhos no topo de suas cabeças, e vagam por mares rasos. Durante a maré baixa, às vezes podem ser encontrados nas praias, ressecados."
+    "description": "Eles disparam raios a partir dos orbes vítreos e magenta que se assemelham a olhos no topo de suas cabeças, e vagam por mares rasos. Durante a maré baixa, às vezes podem ser encontrados nas praias, ressecados.",
+    "genusEn": "Jellyfish Pokémon"
   },
   {
     "id": 73,
@@ -17105,9 +17176,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Tentacruel",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Água-viva",
     "evolutionChainId": 1,
-    "description": "Possui 80 tentáculos, cada um com uma ponta venenosa. Esses tentáculos também são extensíveis, alongando-se quando Tentacruel tenta capturar uma presa. Tenha cuidado."
+    "description": "Possui 80 tentáculos, cada um com uma ponta venenosa. Esses tentáculos também são extensíveis, alongando-se quando Tentacruel tenta capturar uma presa. Tenha cuidado.",
+    "genusEn": "Jellyfish Pokémon"
   },
   {
     "id": 74,
@@ -17350,9 +17422,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Geodude",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Rocha",
     "evolutionChainId": 1,
-    "description": "Vive em regiões montanhosas, usando os braços para escalar estradas montanhosas acidentadas. Pode ser problemático – chutar um descuidadamente fará com que ele fique furioso e persiga você."
+    "description": "Vive em regiões montanhosas, usando os braços para escalar estradas montanhosas acidentadas. Pode ser problemático – chutar um descuidadamente fará com que ele fique furioso e persiga você.",
+    "genusEn": "Rock Pokémon"
   },
   {
     "id": 75,
@@ -17590,9 +17663,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Graveler",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Rocha",
     "evolutionChainId": 1,
-    "description": "Dwells in holes dug into sheer walls of stone. It enjoys rolling down slopes as though it were a boulder during a rockfall, so keep an eye upward while traversing mountain roads."
+    "description": "Dwells in holes dug into sheer walls of stone. It enjoys rolling down slopes as though it were a boulder during a rockfall, so keep an eye upward while traversing mountain roads.",
+    "genusEn": "Rock Pokémon"
   },
   {
     "id": 76,
@@ -17845,9 +17919,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Golem",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Megaton",
     "evolutionChainId": 1,
-    "description": "A carapaça rochosa é trocada todos os anos. A carapaça descartada então se desfaz, revertendo-se em uma massa de solo, que pode ser espalhada pelos campos para promover o crescimento das plantações."
+    "description": "A carapaça rochosa é trocada todos os anos. A carapaça descartada então se desfaz, revertendo-se em uma massa de solo, que pode ser espalhada pelos campos para promover o crescimento das plantações.",
+    "genusEn": "Megaton Pokémon"
   },
   {
     "id": 77,
@@ -18064,9 +18139,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Ponyta",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Cavalo de Fogo",
     "evolutionChainId": 1,
-    "description": "Esses Pokémon vivem em manadas nas pradarias. Os potros recém-nascidos não têm suas crinas flamejantes, que se desenvolverão cerca de uma hora após o nascimento."
+    "description": "Esses Pokémon vivem em manadas nas pradarias. Os potros recém-nascidos não têm suas crinas flamejantes, que se desenvolverão cerca de uma hora após o nascimento.",
+    "genusEn": "Fire Horse Pokémon"
   },
   {
     "id": 78,
@@ -18268,9 +18344,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Rapidash",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Cavalo de Fogo",
     "evolutionChainId": 1,
-    "description": "Com a crina flamejante brilhando, Rapidash dispara como uma flecha pela terra. Esta criatura incrivelmente veloz pode atravessar a vasta região de Hisui em um dia e meio."
+    "description": "Com a crina flamejante brilhando, Rapidash dispara como uma flecha pela terra. Esta criatura incrivelmente veloz pode atravessar a vasta região de Hisui em um dia e meio.",
+    "genusEn": "Fire Horse Pokémon"
   },
   {
     "id": 79,
@@ -18573,9 +18650,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Slowpoke",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Lento",
     "evolutionChainId": 1,
-    "description": "Quando a cauda deste Pokémon fica encharcada em água, a doçura escorre dela. Slowpoke usa essa característica para atrair e pescar outros Pokémon."
+    "description": "Quando a cauda deste Pokémon fica encharcada em água, a doçura escorre dela. Slowpoke usa essa característica para atrair e pescar outros Pokémon.",
+    "genusEn": "Dopey Pokémon"
   },
   {
     "id": 80,
@@ -18893,9 +18971,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Slowbro",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Caranguejo Eremita",
     "evolutionChainId": 1,
-    "description": "Ser mordido por um Shellder chocou este Pokémon, fazendo-o ficar em pé sobre duas patas. Se o Shellder soltar, parece que o Slowbro voltará a ser um Slowpoke."
+    "description": "Ser mordido por um Shellder chocou este Pokémon, fazendo-o ficar em pé sobre duas patas. Se o Shellder soltar, parece que o Slowbro voltará a ser um Slowpoke.",
+    "genusEn": "Hermit Crab Pokémon"
   },
   {
     "id": 81,
@@ -19088,9 +19167,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Magnemite",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Ímã",
     "evolutionChainId": 1,
-    "description": "Um Pokémon bizarro com apenas um olho encaixado em uma esfera de ferro. Suspeito que esta criatura levite devido ao magnetismo que emite dos seus braços, que se assemelham a ímãs em forma de ferradura."
+    "description": "Um Pokémon bizarro com apenas um olho encaixado em uma esfera de ferro. Suspeito que esta criatura levite devido ao magnetismo que emite dos seus braços, que se assemelham a ímãs em forma de ferradura.",
+    "genusEn": "Magnet Pokémon"
   },
   {
     "id": 82,
@@ -19288,9 +19368,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Magneton",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Ímã",
     "evolutionChainId": 1,
-    "description": "Três Magnemite se reuniram para evoluir para este Pokémon. A fonte de muita irritação da minha parte, pois seu poderoso magnetismo destrói meu equipamento de pesquisa."
+    "description": "Três Magnemite se reuniram para evoluir para este Pokémon. A fonte de muita irritação da minha parte, pois seu poderoso magnetismo destrói meu equipamento de pesquisa.",
+    "genusEn": "Magnet Pokémon"
   },
   {
     "id": 83,
@@ -19523,9 +19604,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Farfetchd",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Pato Selvagem",
     "evolutionChainId": 1,
-    "description": "Eles usam um caule de planta como arma, mas nem todos o usam da mesma forma. Vários estilos distintos de luta com talos foram observados."
+    "description": "Eles usam um caule de planta como arma, mas nem todos o usam da mesma forma. Vários estilos distintos de luta com talos foram observados.",
+    "genusEn": "Wild Duck Pokémon"
   },
   {
     "id": 84,
@@ -19738,9 +19820,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Doduo",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Pássaro Duplo",
     "evolutionChainId": 1,
-    "description": "Suas asas curtas dificultam o vôo. Em vez disso, este Pokémon corre em alta velocidade com pernas desenvolvidas."
+    "description": "Suas asas curtas dificultam o vôo. Em vez disso, este Pokémon corre em alta velocidade com pernas desenvolvidas.",
+    "genusEn": "Twin Bird Pokémon"
   },
   {
     "id": 85,
@@ -19938,9 +20021,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Dodrio",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Pássaro Triplo",
     "evolutionChainId": 1,
-    "description": "One of Doduo’s two heads splits to form a unique species. It runs close to 40 mph in prairies."
+    "description": "One of Doduo’s two heads splits to form a unique species. It runs close to 40 mph in prairies.",
+    "genusEn": "Triple Bird Pokémon"
   },
   {
     "id": 86,
@@ -20167,9 +20251,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Seel",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Leão-marinho",
     "evolutionChainId": 1,
-    "description": "Loves freezing-cold conditions. Relishes swimming in a frigid climate of around 14 degrees Fahrenheit."
+    "description": "Loves freezing-cold conditions. Relishes swimming in a frigid climate of around 14 degrees Fahrenheit.",
+    "genusEn": "Sea Lion Pokémon"
   },
   {
     "id": 87,
@@ -20372,9 +20457,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Dewgong",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Leão-marinho",
     "evolutionChainId": 1,
-    "description": "Todo o seu corpo é branco como a neve. Imune até mesmo ao frio intenso, ele nada com vigor em águas geladas."
+    "description": "Todo o seu corpo é branco como a neve. Imune até mesmo ao frio intenso, ele nada com vigor em águas geladas.",
+    "genusEn": "Sea Lion Pokémon"
   },
   {
     "id": 88,
@@ -20631,9 +20717,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Grimer",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Lama",
     "evolutionChainId": 1,
-    "description": "Feito de lama congelada. Tem um cheiro muito pútrido para ser tocado. Nem mesmo as ervas daninhas crescerão em seu caminho."
+    "description": "Feito de lama congelada. Tem um cheiro muito pútrido para ser tocado. Nem mesmo as ervas daninhas crescerão em seu caminho.",
+    "genusEn": "Sludge Pokémon"
   },
   {
     "id": 89,
@@ -20885,9 +20972,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Muk",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Lama",
     "evolutionChainId": 1,
-    "description": "O cheiro é tão horrível que pode causar desmaios. Através da degeneração do nariz, perdeu o olfato."
+    "description": "O cheiro é tão horrível que pode causar desmaios. Através da degeneração do nariz, perdeu o olfato.",
+    "genusEn": "Sludge Pokémon"
   },
   {
     "id": 90,
@@ -21094,9 +21182,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Shellder",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Bivalve",
     "evolutionChainId": 1,
-    "description": "Sua casca dura repele qualquer tipo de ataque. É vulnerável apenas quando seu shell está aberto."
+    "description": "Sua casca dura repele qualquer tipo de ataque. É vulnerável apenas quando seu shell está aberto.",
+    "genusEn": "Bivalve Pokémon"
   },
   {
     "id": 91,
@@ -21279,9 +21368,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Cloyster",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Bivalve",
     "evolutionChainId": 1,
-    "description": "Após fechar a casca, é impossível abri-la, mesmo para quem tem resistência superior."
+    "description": "Após fechar a casca, é impossível abri-la, mesmo para quem tem resistência superior.",
+    "genusEn": "Bivalve Pokémon"
   },
   {
     "id": 92,
@@ -21519,9 +21609,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Gastly",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Gás",
     "evolutionChainId": 1,
-    "description": "Gasoso e completamente impalpável. Também altamente perigoso: inalar parte de seu corpo venenoso fará com que a pessoa desmaie instantaneamente."
+    "description": "Gasoso e completamente impalpável. Também altamente perigoso: inalar parte de seu corpo venenoso fará com que a pessoa desmaie instantaneamente.",
+    "genusEn": "Gas Pokémon"
   },
   {
     "id": 93,
@@ -21734,9 +21825,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Haunter",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Gás",
     "evolutionChainId": 1,
-    "description": "Este espírito assustador e malévolo pode deslizar através das paredes, aparecendo onde quiser. Segundo rumores, as vítimas da lambida de um Haunter murcharão até a morte dia após dia."
+    "description": "Este espírito assustador e malévolo pode deslizar através das paredes, aparecendo onde quiser. Segundo rumores, as vítimas da lambida de um Haunter murcharão até a morte dia após dia.",
+    "genusEn": "Gas Pokémon"
   },
   {
     "id": 94,
@@ -22014,9 +22106,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Gengar",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Sombra",
     "evolutionChainId": 1,
-    "description": "Possui as sombras de vítimas em potencial em uma tentativa de roubar as vidas delas. Se a sua sombra começar a rir, você deve pegar um amuleto de proteção imediatamente!"
+    "description": "Possui as sombras de vítimas em potencial em uma tentativa de roubar as vidas delas. Se a sua sombra começar a rir, você deve pegar um amuleto de proteção imediatamente!",
+    "genusEn": "Shadow Pokémon"
   },
   {
     "id": 95,
@@ -22249,9 +22342,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Onix",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Cobra de Pedra",
     "evolutionChainId": 1,
-    "description": "Esta fileira de pedras imensas se assemelha a uma serpente gigante. Tremores sacodem a terra acima enquanto ela se enterra profundamente no subsolo, alimentando-se de pedregulhos pelo caminho."
+    "description": "Esta fileira de pedras imensas se assemelha a uma serpente gigante. Tremores sacodem a terra acima enquanto ela se enterra profundamente no subsolo, alimentando-se de pedregulhos pelo caminho.",
+    "genusEn": "Rock Snake Pokémon"
   },
   {
     "id": 96,
@@ -22558,9 +22652,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Drowzee",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Hipnose",
     "evolutionChainId": 1,
-    "description": "Se você dormir perto dele o tempo todo, às vezes ele vai mostrar sonhos que consumiu no passado."
+    "description": "Se você dormir perto dele o tempo todo, às vezes ele vai mostrar sonhos que consumiu no passado.",
+    "genusEn": "Hypnosis Pokémon"
   },
   {
     "id": 97,
@@ -22847,9 +22942,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Hypno",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Hipnose",
     "evolutionChainId": 1,
-    "description": "Evite contato visual se você encontrar um. Ele tentará fazer você dormir usando seu pêndulo."
+    "description": "Evite contato visual se você encontrar um. Ele tentará fazer você dormir usando seu pêndulo.",
+    "genusEn": "Hypnosis Pokémon"
   },
   {
     "id": 98,
@@ -23096,9 +23192,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Krabby",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Caranguejo do Rio",
     "evolutionChainId": 1,
-    "description": "Se sentir o perigo se aproximando, ele se cobre com bolhas que saem da boca para parecer maior."
+    "description": "Se sentir o perigo se aproximando, ele se cobre com bolhas que saem da boca para parecer maior.",
+    "genusEn": "River Crab Pokémon"
   },
   {
     "id": 99,
@@ -23335,9 +23432,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Kingler",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Pinça",
     "evolutionChainId": 1,
-    "description": "Sua garra enorme é muito poderosa, mas, quando não está em batalha, ela só atrapalha."
+    "description": "Sua garra enorme é muito poderosa, mas, quando não está em batalha, ela só atrapalha.",
+    "genusEn": "Pincer Pokémon"
   },
   {
     "id": 100,
@@ -23534,9 +23632,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Voltorb",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Bola",
     "evolutionChainId": 1,
-    "description": "Um Pokémon enigmático que por acaso se parece com uma Poké Bola. Quando fica animado, ele libera a corrente elétrica que armazenou na barriga e, em seguida, solta uma gargalhada estridente."
+    "description": "Um Pokémon enigmático que por acaso se parece com uma Poké Bola. Quando fica animado, ele libera a corrente elétrica que armazenou na barriga e, em seguida, solta uma gargalhada estridente.",
+    "genusEn": "Ball Pokémon"
   },
   {
     "id": 101,
@@ -23738,9 +23837,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Electrode",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Bola",
     "evolutionChainId": 1,
-    "description": "O tecido na superfície do seu corpo é curiosamente semelhante em composição a uma Apricorn. Quando irritado, este Pokémon libera uma corrente elétrica equivalente a 20 raios."
+    "description": "O tecido na superfície do seu corpo é curiosamente semelhante em composição a uma Apricorn. Quando irritado, este Pokémon libera uma corrente elétrica equivalente a 20 raios.",
+    "genusEn": "Ball Pokémon"
   },
   {
     "id": 102,
@@ -23983,9 +24083,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Exeggcute",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Ovo",
     "evolutionChainId": 1,
-    "description": "Esses Pokémon ficam nervosos quando não estão em um grupo de seis. No momento em que um membro do grupo desaparece, os Exeggcute ficam covardes."
+    "description": "Esses Pokémon ficam nervosos quando não estão em um grupo de seis. No momento em que um membro do grupo desaparece, os Exeggcute ficam covardes.",
+    "genusEn": "Egg Pokémon"
   },
   {
     "id": 103,
@@ -24188,9 +24289,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Exeggutor",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Coco",
     "evolutionChainId": 1,
-    "description": "Quando trabalham juntas, as três cabeças do Exeggutor podem emitir uma poderosa energia psíquica. Dias nublados tornam este Pokémon lento."
+    "description": "Quando trabalham juntas, as três cabeças do Exeggutor podem emitir uma poderosa energia psíquica. Dias nublados tornam este Pokémon lento.",
+    "genusEn": "Coconut Pokémon"
   },
   {
     "id": 104,
@@ -24492,9 +24594,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Cubone",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Solitário",
     "evolutionChainId": 1,
-    "description": "Este Pokémon usa o crânio de sua mãe falecida. Às vezes, os sonhos do Cubone o fazem chorar, mas cada lágrima que o Cubone derrama o torna mais forte."
+    "description": "Este Pokémon usa o crânio de sua mãe falecida. Às vezes, os sonhos do Cubone o fazem chorar, mas cada lágrima que o Cubone derrama o torna mais forte.",
+    "genusEn": "Lonely Pokémon"
   },
   {
     "id": 105,
@@ -24776,9 +24879,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Marowak",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Guardião de Ossos",
     "evolutionChainId": 1,
-    "description": "Quando este Pokémon evoluiu, o crânio de sua mãe se fundiu a ele. O temperamento de Marowak também ficou agressivo ao mesmo tempo."
+    "description": "Quando este Pokémon evoluiu, o crânio de sua mãe se fundiu a ele. O temperamento de Marowak também ficou agressivo ao mesmo tempo.",
+    "genusEn": "Bone Keeper Pokémon"
   },
   {
     "id": 106,
@@ -25025,9 +25129,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Hitmonlee",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Chutador",
     "evolutionChainId": 1,
-    "description": "As pernas se contraem e se esticam livremente. As pernas elásticas permitem que ele acerte um inimigo distante com um chute ascendente."
+    "description": "As pernas se contraem e se esticam livremente. As pernas elásticas permitem que ele acerte um inimigo distante com um chute ascendente.",
+    "genusEn": "Kicking Pokémon"
   },
   {
     "id": 107,
@@ -25269,9 +25374,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Hitmonchan",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Socador",
     "evolutionChainId": 1,
-    "description": "Seus socos cortam o ar. No entanto, parece precisar de uma pequena pausa depois de lutar por três minutos."
+    "description": "Seus socos cortam o ar. No entanto, parece precisar de uma pequena pausa depois de lutar por três minutos.",
+    "genusEn": "Punching Pokémon"
   },
   {
     "id": 108,
@@ -25623,9 +25729,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Lickitung",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Lambedor",
     "evolutionChainId": 1,
-    "description": "Usa sua língua longa com destreza, como se fosse um braço. A saliva viscosa do Pokémon, depois de coletada e fervida, produz um adesivo forte e muito útil."
+    "description": "Usa sua língua longa com destreza, como se fosse um braço. A saliva viscosa do Pokémon, depois de coletada e fervida, produz um adesivo forte e muito útil.",
+    "genusEn": "Licking Pokémon"
   },
   {
     "id": 109,
@@ -25867,9 +25974,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Koffing",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Gás Venenoso",
     "evolutionChainId": 1,
-    "description": "Ele adora ar poluído. Alguns afirmam que os Koffing costumavam ser mais numerosos na região de Galar do que são agora."
+    "description": "Ele adora ar poluído. Alguns afirmam que os Koffing costumavam ser mais numerosos na região de Galar do que são agora.",
+    "genusEn": "Poison Gas Pokémon"
   },
   {
     "id": 110,
@@ -26091,9 +26199,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Weezing",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Gás Venenoso",
     "evolutionChainId": 1,
-    "description": "Ele não consegue sugar o ar tão bem quanto um Weezing de Galar, mas as toxinas que cria são mais potentes do que as de seu equivalente."
+    "description": "Ele não consegue sugar o ar tão bem quanto um Weezing de Galar, mas as toxinas que cria são mais potentes do que as de seu equivalente.",
+    "genusEn": "Poison Gas Pokémon"
   },
   {
     "id": 111,
@@ -26381,9 +26490,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Rhyhorn",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Espinhos",
     "evolutionChainId": 1,
-    "description": "Incrivelmente forte — quando ela bate de cabeça em uma montanha, é a montanha que se despedaça. Mas suas pernas curtas têm dificuldade para fazer curvas e ele é incapaz de parar, a menos que colida com alguma coisa."
+    "description": "Incrivelmente forte — quando ela bate de cabeça em uma montanha, é a montanha que se despedaça. Mas suas pernas curtas têm dificuldade para fazer curvas e ele é incapaz de parar, a menos que colida com alguma coisa.",
+    "genusEn": "Spikes Pokémon"
   },
   {
     "id": 112,
@@ -26686,9 +26796,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Rhydon",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Broca",
     "evolutionChainId": 1,
-    "description": "Gira seu chifre rapidamente para perfurar o subsolo. Ele se exibe pelas regiões vulcânicas, protegido do calor da lava por sua pele dura e semelhante a uma armadura."
+    "description": "Gira seu chifre rapidamente para perfurar o subsolo. Ele se exibe pelas regiões vulcânicas, protegido do calor da lava por sua pele dura e semelhante a uma armadura.",
+    "genusEn": "Drill Pokémon"
   },
   {
     "id": 113,
@@ -27045,9 +27156,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Chansey",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Ovo",
     "evolutionChainId": 1,
-    "description": "Este Pokémon de coração puro compartilha seus ovos com os feridos."
+    "description": "Este Pokémon de coração puro compartilha seus ovos com os feridos.",
+    "genusEn": "Egg Pokémon"
   },
   {
     "id": 114,
@@ -27304,9 +27416,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Tangela",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Cipó",
     "evolutionChainId": 1,
-    "description": "Ela está totalmente coberta por videiras azuis, impedindo qualquer vislumbre de sua verdadeira identidade. As videiras proporcionam uma sensação refrescante quando mastigadas — elas são úteis como tempero."
+    "description": "Ela está totalmente coberta por videiras azuis, impedindo qualquer vislumbre de sua verdadeira identidade. As videiras proporcionam uma sensação refrescante quando mastigadas — elas são úteis como tempero.",
+    "genusEn": "Vine Pokémon"
   },
   {
     "id": 115,
@@ -27658,9 +27771,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Kangaskhan",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Pai/Mãe",
     "evolutionChainId": 1,
-    "description": "There are records of a lost human child being raised by a childless Kangaskhan."
+    "description": "There are records of a lost human child being raised by a childless Kangaskhan.",
+    "genusEn": "Parent Pokémon"
   },
   {
     "id": 116,
@@ -27882,9 +27996,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Horsea",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Dragão",
     "evolutionChainId": 1,
-    "description": "Eles nadam com movimentos parecidos com uma dança e fazem com que se formem redemoinhos. Os Horseas competem para ver qual deles consegue gerar o maior redemoinho."
+    "description": "Eles nadam com movimentos parecidos com uma dança e fazem com que se formem redemoinhos. Os Horseas competem para ver qual deles consegue gerar o maior redemoinho.",
+    "genusEn": "Dragon Pokémon"
   },
   {
     "id": 117,
@@ -28076,9 +28191,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Seadra",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Dragão",
     "evolutionChainId": 1,
-    "description": "A boca do Seadra é estreita, mas seu poder de sucção é forte. Em um instante, o Seadra consegue sugar alimentos maiores do que a abertura da sua boca."
+    "description": "A boca do Seadra é estreita, mas seu poder de sucção é forte. Em um instante, o Seadra consegue sugar alimentos maiores do que a abertura da sua boca.",
+    "genusEn": "Dragon Pokémon"
   },
   {
     "id": 118,
@@ -28300,9 +28416,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Goldeen",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Peixinho Dourado",
     "evolutionChainId": 1,
-    "description": "Suas nadadeiras dorsal e peitoral são fortemente desenvolvidas como músculos. Pode nadar a uma velocidade de cinco nós."
+    "description": "Suas nadadeiras dorsal e peitoral são fortemente desenvolvidas como músculos. Pode nadar a uma velocidade de cinco nós.",
+    "genusEn": "Goldfish Pokémon"
   },
   {
     "id": 119,
@@ -28504,9 +28621,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Seaking",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Peixinho Dourado",
     "evolutionChainId": 1,
-    "description": "Usando seu chifre, ele faz buracos nas pedras do leito dos rios, fazendo ninhos para evitar que seus ovos sejam levados pela água."
+    "description": "Usando seu chifre, ele faz buracos nas pedras do leito dos rios, fazendo ninhos para evitar que seus ovos sejam levados pela água.",
+    "genusEn": "Goldfish Pokémon"
   },
   {
     "id": 120,
@@ -28738,9 +28856,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Staryu",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Forma de Estrela",
     "evolutionChainId": 1,
-    "description": "Os Pokémon peixes mordiscam-no, mas Staryu não se incomoda. Seu corpo se regenera rapidamente, mesmo que parte dele seja completamente arrancado."
+    "description": "Os Pokémon peixes mordiscam-no, mas Staryu não se incomoda. Seu corpo se regenera rapidamente, mesmo que parte dele seja completamente arrancado.",
+    "genusEn": "Star Shape Pokémon"
   },
   {
     "id": 121,
@@ -28958,9 +29077,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Starmie",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Misterioso",
     "evolutionChainId": 1,
-    "description": "A Starmie nada girando o corpo a alta velocidade. Enquanto este Pokémon navega pelo oceano, ele absorve pequenos plânctons."
+    "description": "A Starmie nada girando o corpo a alta velocidade. Enquanto este Pokémon navega pelo oceano, ele absorve pequenos plânctons.",
+    "genusEn": "Mysterious Pokémon"
   },
   {
     "id": 122,
@@ -29288,9 +29408,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Mr-mime",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Barreira",
     "evolutionChainId": 1,
-    "description": "O comportamento deste Pokémon parecido com um palhaço lembra a pantomima. Ele cria paredes invisíveis usando uma força emitida pelas pontas dos dedos."
+    "description": "O comportamento deste Pokémon parecido com um palhaço lembra a pantomima. Ele cria paredes invisíveis usando uma força emitida pelas pontas dos dedos.",
+    "genusEn": "Barrier Pokémon"
   },
   {
     "id": 123,
@@ -29528,9 +29649,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Scyther",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Louva-a-deus",
     "evolutionChainId": 1,
-    "description": "As foices grandes e extremamente afiadas em seus antebraços são armas realmente assustadoras. As tentativas de fuga das presas são invariavelmente frustradas pelos movimentos ágeis deste Pokémon."
+    "description": "As foices grandes e extremamente afiadas em seus antebraços são armas realmente assustadoras. As tentativas de fuga das presas são invariavelmente frustradas pelos movimentos ágeis deste Pokémon.",
+    "genusEn": "Mantis Pokémon"
   },
   {
     "id": 124,
@@ -29808,9 +29930,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Jynx",
-    "genus": "Pokémon Semente",
+    "genus": "Human Shape Pokémon",
     "evolutionChainId": 1,
-    "description": "As Jynx de Galar geralmente têm vozes belas e delicadas. Alguns desses Pokémon até conquistaram uma base de fãs."
+    "description": "As Jynx de Galar geralmente têm vozes belas e delicadas. Alguns desses Pokémon até conquistaram uma base de fãs.",
+    "genusEn": "Human Shape Pokémon"
   },
   {
     "id": 125,
@@ -30037,9 +30160,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Electabuzz",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Elétrico",
     "evolutionChainId": 1,
-    "description": "Alimenta-se de energia elétrica. Durante pancadas de chuva repentinas sob nuvens de tempestade ameaçadoras, é possível observar Electabuzzs subindo em árvores altas, onde os Pokémon ficam esperando que os raios caiam."
+    "description": "Alimenta-se de energia elétrica. Durante pancadas de chuva repentinas sob nuvens de tempestade ameaçadoras, é possível observar Electabuzzs subindo em árvores altas, onde os Pokémon ficam esperando que os raios caiam.",
+    "genusEn": "Electric Pokémon"
   },
   {
     "id": 126,
@@ -30251,9 +30375,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Magmar",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Cuspidor de Fogo",
     "evolutionChainId": 1,
-    "description": "Diz a lenda que este Pokémon nasceu da cratera de um vulcão. Quando ferido, ele se banha em lava para curar seu corpo, assim como alguém se banharia em uma fonte termal."
+    "description": "Diz a lenda que este Pokémon nasceu da cratera de um vulcão. Quando ferido, ele se banha em lava para curar seu corpo, assim como alguém se banharia em uma fonte termal.",
+    "genusEn": "Spitfire Pokémon"
   },
   {
     "id": 127,
@@ -30500,9 +30625,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Pinsir",
-    "genus": "Pokémon Semente",
+    "genus": "Stag Beetle Pokémon",
     "evolutionChainId": 1,
-    "description": "Este Pokémon agarra sua presa com as pinças e, em seguida, a parte ao meio ou a arremessa para longe."
+    "description": "Este Pokémon agarra sua presa com as pinças e, em seguida, a parte ao meio ou a arremessa para longe.",
+    "genusEn": "Stag Beetle Pokémon"
   },
   {
     "id": 128,
@@ -30754,9 +30880,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Tauros",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Touro Selvagem",
     "evolutionChainId": 1,
-    "description": "Os Tauros da região de Galar são de natureza volátil e não permitem que as pessoas andem montadas nas suas costas."
+    "description": "Os Tauros da região de Galar são de natureza volátil e não permitem que as pessoas andem montadas nas suas costas.",
+    "genusEn": "Wild Bull Pokémon"
   },
   {
     "id": 129,
@@ -30808,9 +30935,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Magikarp",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Peixe",
     "evolutionChainId": 1,
-    "description": "A feeble, pitiful imbecile of a Pokémon that is nonetheless very hardy. Unperturbed by turbid water, it can be found living in all sorts of places."
+    "description": "A feeble, pitiful imbecile of a Pokémon that is nonetheless very hardy. Unperturbed by turbid water, it can be found living in all sorts of places.",
+    "genusEn": "Fish Pokémon"
   },
   {
     "id": 130,
@@ -31058,9 +31186,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Gyarados",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Atroz",
     "evolutionChainId": 1,
-    "description": "Suspeito que este Pokémon seja a verdadeira identidade de um dragão mencionado em textos antigos, que afirmavam que ele arrasou uma vila inteira com raios brancos incandescentes que saíam de sua boca."
+    "description": "Suspeito que este Pokémon seja a verdadeira identidade de um dragão mencionado em textos antigos, que afirmavam que ele arrasou uma vila inteira com raios brancos incandescentes que saíam de sua boca.",
+    "genusEn": "Atrocious Pokémon"
   },
   {
     "id": 131,
@@ -31343,9 +31472,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Lapras",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Transporte",
     "evolutionChainId": 1,
-    "description": "Atravessar mares gelados não é problema para este Pokémon resistente ao frio. Sua pele lisa é um pouco fria ao toque."
+    "description": "Atravessar mares gelados não é problema para este Pokémon resistente ao frio. Sua pele lisa é um pouco fria ao toque.",
+    "genusEn": "Transport Pokémon"
   },
   {
     "id": 132,
@@ -31387,9 +31517,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Ditto",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Transformação",
     "evolutionChainId": 1,
-    "description": "Quando encontrar outro Ditto, ele se moverá mais rápido que o normal para duplicar exatamente esse oponente."
+    "description": "Quando encontrar outro Ditto, ele se moverá mais rápido que o normal para duplicar exatamente esse oponente.",
+    "genusEn": "Transform Pokémon"
   },
   {
     "id": 133,
@@ -31601,9 +31732,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Eevee",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Evolução",
     "evolutionChainId": 1,
-    "description": "Tem o potencial de evoluir para diversas formas. Dentro de Eevee está a chave para os mistérios da evolução dos Pokémon. Tenho certeza disso."
+    "description": "Tem o potencial de evoluir para diversas formas. Dentro de Eevee está a chave para os mistérios da evolução dos Pokémon. Tenho certeza disso.",
+    "genusEn": "Evolution Pokémon"
   },
   {
     "id": 134,
@@ -31835,9 +31967,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Vaporeon",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Jato de Bolhas",
     "evolutionChainId": 1,
-    "description": "Os testes mostram que as suas células se assemelham muito às moléculas de água, o que talvez explique a sua capacidade de ocultar a sua forma enquanto está submersa. Acredito que as origens do folclore das sereias estão relacionadas a este Pokémon."
+    "description": "Os testes mostram que as suas células se assemelham muito às moléculas de água, o que talvez explique a sua capacidade de ocultar a sua forma enquanto está submersa. Acredito que as origens do folclore das sereias estão relacionadas a este Pokémon.",
+    "genusEn": "Bubble Jet Pokémon"
   },
   {
     "id": 135,
@@ -32049,9 +32182,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Jolteon",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Raio",
     "evolutionChainId": 1,
-    "description": "Eriça seu pelo em pontas afiadas como agulhas quando enfurecido. Pode-se ouvir a eletricidade estalando em sua respiração quando ela expira."
+    "description": "Eriça seu pelo em pontas afiadas como agulhas quando enfurecido. Pode-se ouvir a eletricidade estalando em sua respiração quando ela expira.",
+    "genusEn": "Lightning Pokémon"
   },
   {
     "id": 136,
@@ -32258,9 +32392,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Flareon",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Chama",
     "evolutionChainId": 1,
-    "description": "Chamas queimam dentro de um órgão em forma de saco dentro deste Pokémon. Quando Flareon inala, essas chamas aumentam de intensidade, atingindo poderosos 3.000 graus Fahrenheit."
+    "description": "Chamas queimam dentro de um órgão em forma de saco dentro deste Pokémon. Quando Flareon inala, essas chamas aumentam de intensidade, atingindo poderosos 3.000 graus Fahrenheit.",
+    "genusEn": "Flame Pokémon"
   },
   {
     "id": 137,
@@ -32502,9 +32637,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Porygon",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Virtual",
     "evolutionChainId": 1,
-    "description": "Não tem batimentos cardíacos perceptíveis e não parece respirar, mas parece funcionar sem problemas. Não consigo nem começar a explicar esta anomalia totalmente bizarra."
+    "description": "Não tem batimentos cardíacos perceptíveis e não parece respirar, mas parece funcionar sem problemas. Não consigo nem começar a explicar esta anomalia totalmente bizarra.",
+    "genusEn": "Virtual Pokémon"
   },
   {
     "id": 138,
@@ -32757,9 +32893,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Omanyte",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Espiral",
     "evolutionChainId": 1,
-    "description": "Este Pokémon pertence a uma espécie antiga e extinta. O Omanyte nada pela água com seus 10 tentáculos, parecendo estar apenas à deriva."
+    "description": "Este Pokémon pertence a uma espécie antiga e extinta. O Omanyte nada pela água com seus 10 tentáculos, parecendo estar apenas à deriva.",
+    "genusEn": "Spiral Pokémon"
   },
   {
     "id": 139,
@@ -32997,9 +33134,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Omastar",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Espiral",
     "evolutionChainId": 1,
-    "description": "As presas afiadas de Omastar podem esmagar pedras, mas o Pokémon só pode atacar as presas que ficam ao alcance de seus tentáculos."
+    "description": "As presas afiadas de Omastar podem esmagar pedras, mas o Pokémon só pode atacar as presas que ficam ao alcance de seus tentáculos.",
+    "genusEn": "Spiral Pokémon"
   },
   {
     "id": 140,
@@ -33267,9 +33405,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Kabuto",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Crustáceo",
     "evolutionChainId": 1,
-    "description": "Embora alguns digam que esta espécie foi extinta, os avistamentos de Kabuto são aparentemente bastante comuns em alguns lugares."
+    "description": "Embora alguns digam que esta espécie foi extinta, os avistamentos de Kabuto são aparentemente bastante comuns em alguns lugares.",
+    "genusEn": "Shellfish Pokémon"
   },
   {
     "id": 141,
@@ -33552,9 +33691,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Kabutops",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Crustáceo",
     "evolutionChainId": 1,
-    "description": "A causa da extinção desta espécie é desconhecida. Os Kabutops eram Pokémon agressivos que habitavam mares quentes."
+    "description": "A causa da extinção desta espécie é desconhecida. Os Kabutops eram Pokémon agressivos que habitavam mares quentes.",
+    "genusEn": "Shellfish Pokémon"
   },
   {
     "id": 142,
@@ -33822,9 +33962,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Aerodactyl",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Fóssil",
     "evolutionChainId": 1,
-    "description": "As presas serrilhadas do Aerodactyl podem rasgar a pele em pedaços — até mesmo a pele de Pokémons do tipo Aço."
+    "description": "As presas serrilhadas do Aerodactyl podem rasgar a pele em pedaços — até mesmo a pele de Pokémons do tipo Aço.",
+    "genusEn": "Fossil Pokémon"
   },
   {
     "id": 143,
@@ -34146,9 +34287,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Snorlax",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Sonolento",
     "evolutionChainId": 1,
-    "description": "Este glutão aparece nas aldeias sem aviso e devora todos os celeiros de arroz. Há muito tempo, essas ocorrências são consideradas um dos piores desastres."
+    "description": "Este glutão aparece nas aldeias sem aviso e devora todos os celeiros de arroz. Há muito tempo, essas ocorrências são consideradas um dos piores desastres.",
+    "genusEn": "Sleeping Pokémon"
   },
   {
     "id": 144,
@@ -34346,9 +34488,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Articuno",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Congelamento",
     "evolutionChainId": 1,
-    "description": "Este Pokémon pode controlar o gelo à vontade. Diz-se que Articuno vive em montanhas nevadas repletas de permafrost."
+    "description": "Este Pokémon pode controlar o gelo à vontade. Diz-se que Articuno vive em montanhas nevadas repletas de permafrost.",
+    "genusEn": "Freeze Pokémon"
   },
   {
     "id": 145,
@@ -34551,9 +34694,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Zapdos",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Elétrico",
     "evolutionChainId": 1,
-    "description": "Zapdos é um Pokémon pássaro lendário. Dizem que, quando o Zapdos esfrega suas penas, um raio cai imediatamente depois."
+    "description": "Zapdos é um Pokémon pássaro lendário. Dizem que, quando o Zapdos esfrega suas penas, um raio cai imediatamente depois.",
+    "genusEn": "Electric Pokémon"
   },
   {
     "id": 146,
@@ -34751,9 +34895,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Moltres",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Chama",
     "evolutionChainId": 1,
-    "description": "Há histórias sobre este Pokémon usando suas asas radiantes e envoltas em chamas para iluminar caminhos para aqueles que se perderam nas montanhas."
+    "description": "Há histórias sobre este Pokémon usando suas asas radiantes e envoltas em chamas para iluminar caminhos para aqueles que se perderam nas montanhas.",
+    "genusEn": "Flame Pokémon"
   },
   {
     "id": 147,
@@ -35010,9 +35155,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Dratini",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Dragão",
     "evolutionChainId": 1,
-    "description": "Este Pokémon foi considerado por muito tempo como nada mais do que um mito. O pequeno caroço na testa de um Dratini é, na verdade, um chifre que ainda está crescendo."
+    "description": "Este Pokémon foi considerado por muito tempo como nada mais do que um mito. O pequeno caroço na testa de um Dratini é, na verdade, um chifre que ainda está crescendo.",
+    "genusEn": "Dragon Pokémon"
   },
   {
     "id": 148,
@@ -35239,9 +35385,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Dragonair",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Dragão",
     "evolutionChainId": 1,
-    "description": "Este Pokémon acumula poder nas esferas da sua cauda e controla o clima. Quando envolto por uma aura, o Dragonair tem uma aparência mística."
+    "description": "Este Pokémon acumula poder nas esferas da sua cauda e controla o clima. Quando envolto por uma aura, o Dragonair tem uma aparência mística.",
+    "genusEn": "Dragon Pokémon"
   },
   {
     "id": 149,
@@ -35544,9 +35691,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Dragonite",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Dragão",
     "evolutionChainId": 1,
-    "description": "Este Pokémon é conhecido como a Encarnação do Mar. Proas de navio que se assemelham a Dragonite decoram a proa de muitos navios."
+    "description": "Este Pokémon é conhecido como a Encarnação do Mar. Proas de navio que se assemelham a Dragonite decoram a proa de muitos navios.",
+    "genusEn": "Dragon Pokémon"
   },
   {
     "id": 150,
@@ -35898,9 +36046,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Mewtwo",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Genético",
     "evolutionChainId": 1,
-    "description": "Seu DNA é quase igual ao de Mew. No entanto, seu tamanho e temperamento são muito diferentes."
+    "description": "Seu DNA é quase igual ao de Mew. No entanto, seu tamanho e temperamento são muito diferentes.",
+    "genusEn": "Genetic Pokémon"
   },
   {
     "id": 151,
@@ -36312,9 +36461,10 @@ const ALL_POKEMONS = [
     ],
     "generation": 1,
     "displayName": "Mew",
-    "genus": "Pokémon Semente",
+    "genus": "Pokémon Nova Espécie",
     "evolutionChainId": 1,
-    "description": "Quando visto através de um microscópio, o cabelo curto, fino e delicado deste Pokémon pode ser visto."
+    "description": "Quando visto através de um microscópio, o cabelo curto, fino e delicado deste Pokémon pode ser visto.",
+    "genusEn": "New Species Pokémon"
   },
   {
     "id": 152,

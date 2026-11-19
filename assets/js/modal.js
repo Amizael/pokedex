@@ -352,11 +352,28 @@ function renderModalContent(pokemon, speciesData) {
 
     const displayedFlavorText = activeVariant
         ? (isEn ? activeVariant.descriptionEn : activeVariant.descriptionPt)
-        : (speciesData?.flavorText || pokemon.description || baseFlavorText);
+        : (isEn ? (speciesData?.flavorTextEn || pokemon.descriptionEn || baseFlavorText) : (speciesData?.flavorText || pokemon.description || baseFlavorText));
 
-    const genus = isEn 
-        ? (speciesData?.genusEn || `${pokemon.genus || 'Pokémon'} Pokémon`)
-        : (speciesData?.genus || pokemon.genus || 'Pokémon');
+    // Determina categoria canônica em PT e EN sem duplicação de sufixos
+    let genus = 'Pokémon';
+    if (isEn) {
+        genus = speciesData?.genusEn || pokemon.genusEn;
+        if (!genus && typeof GENUS_TRANSLATIONS !== 'undefined') {
+            const currentPt = speciesData?.genus || pokemon.genus;
+            for (const [enKey, ptVal] of Object.entries(GENUS_TRANSLATIONS)) {
+                if (ptVal.toLowerCase() === (currentPt || '').toLowerCase()) {
+                    genus = enKey;
+                    break;
+                }
+            }
+        }
+        if (!genus) {
+            const raw = pokemon.genus || 'Pokémon';
+            genus = (raw.toLowerCase().includes('pokémon') || raw.toLowerCase().includes('pokemon')) ? raw : `${raw} Pokémon`;
+        }
+    } else {
+        genus = speciesData?.genus || pokemon.genus || 'Pokémon';
+    }
 
     const genderText = isEn
         ? (speciesData?.genderText ? (speciesData.genderText.replace(/Macho/g, 'Male').replace(/Fêmea/g, 'Female').replace(/Sem Gênero/g, 'Genderless')) : '50% Male, 50% Female')
@@ -540,7 +557,7 @@ function renderModalContent(pokemon, speciesData) {
                 <div class="modal-title-box">
                     <h2 class="pokemon-modal-name">${displayedName}</h2>
                     <span class="pokemon-modal-id">${pokemon.formattedId}</span>
-                    <span class="pokemon-modal-gen">${isEn ? 'Generation' : 'Geração'} ${genInfo.roman} • ${genInfo.name}</span>
+                    <span class="pokemon-modal-gen">Gen ${genInfo.roman} • ${genInfo.name}</span>
                 </div>
 
                 ${nextPokemon ? `
@@ -577,10 +594,10 @@ function renderModalContent(pokemon, speciesData) {
                 ${isEn ? 'Overview' : 'Visão Geral'}
             </button>
             <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-matchups' ? 'active' : ''}" data-tab="tab-matchups" onclick="switchModalTab('tab-matchups')">
-                ${isEn ? 'Matchups & Weaknesses' : 'Vantagens & Fraquezas'}
+                ${isEn ? 'Matchups' : 'Vantagens & Fraquezas'}
             </button>
             <button type="button" class="modal-tab-button ${currentActiveTab === 'tab-moves' ? 'active' : ''}" data-tab="tab-moves" onclick="switchModalTab('tab-moves')">
-                ${isEn ? 'Learnset & Moves' : 'Ataques'}
+                ${isEn ? 'Moves' : 'Ataques'}
             </button>
         </nav>
 
@@ -592,14 +609,14 @@ function renderModalContent(pokemon, speciesData) {
             <div id="tab-overview" class="modal-tab-panel ${currentActiveTab === 'tab-overview' ? 'active' : ''}">
                 ${formsSelectorHtml}
 
-                <div class="modal-grid-layout">
+                <div class="modal-grid">
                     <!-- Coluna Esquerda: Imagem, Tipos e Relações de Tipos -->
                     <div class="modal-col-left">
-                        <div class="modal-hero-artwork" style="--hero-glow: ${primaryColor}">
-                            <img src="${displayedImage}" alt="${displayedName}" class="hero-image" />
+                        <div class="modal-image-card" style="--hero-glow: ${primaryColor}">
+                            <img src="${displayedImage}" alt="${displayedName}" class="modal-pokemon-img" />
                         </div>
 
-                        <div class="modal-types-row">
+                        <div class="types-row">
                             ${typesHtml}
                         </div>
 

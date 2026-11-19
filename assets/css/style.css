@@ -578,11 +578,13 @@ body {
 .modal-dialog {
     background-color: #f7f7f7;
     width: 100%;
-    max-width: 950px;
+    max-width: 960px;
     border-radius: 18px;
     box-shadow: var(--shadow-lg);
     overflow: hidden;
-    max-height: 90vh;
+    height: 88vh;
+    max-height: 860px;
+    min-height: 620px;
     display: flex;
     flex-direction: column;
     animation: modalSlideUp 0.3s ease forwards;
@@ -601,20 +603,31 @@ body {
 
 .modal-content-scroll {
     overflow-y: auto;
-    padding: 1.5rem;
+    padding: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Cabeçalho do Modal */
 .modal-header {
     background-color: #212121;
     color: #fff;
-    padding: 1rem 1.5rem;
+    padding: 0 1.5rem;
+    height: 64px;
+    min-height: 64px;
+    max-height: 64px;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
     border-bottom: 3px solid #e3350d;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    white-space: nowrap;
+    user-select: none;
 }
 
 .modal-nav {
@@ -623,23 +636,26 @@ body {
     justify-content: space-between;
     flex: 1;
     min-width: 0;
-    margin-right: 1.2rem;
-    gap: 1rem;
+    margin-right: 1rem;
+    gap: 0.8rem;
+    white-space: nowrap;
 }
 
 .btn-nav {
     background-color: #333;
     color: #fff;
     border: none;
-    padding: 0.5rem 0.9rem;
+    padding: 0.45rem 0.85rem;
     border-radius: 8px;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.45rem;
     font-size: 0.85rem;
     font-weight: 600;
     transition: var(--transition);
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .btn-nav:hover {
@@ -648,33 +664,45 @@ body {
 
 .btn-nav .nav-name {
     text-transform: capitalize;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
 }
 
 .btn-nav .nav-num {
     color: var(--accent-orange);
+    font-weight: 700;
 }
 
 .nav-spacer {
-    width: 80px;
+    width: 60px;
+    flex-shrink: 0;
 }
 
 .modal-title-box {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 0.6rem;
+    white-space: nowrap;
+    min-width: 0;
+    flex-shrink: 0;
 }
 
 .pokemon-modal-name {
-    font-size: 1.6rem;
+    font-size: clamp(1.2rem, 2.2vw, 1.55rem);
     font-weight: 800;
     text-transform: capitalize;
     color: #fff;
+    white-space: nowrap;
 }
 
 .pokemon-modal-id {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 700;
     color: #999;
+    white-space: nowrap;
 }
 
 .modal-close-btn {
@@ -685,6 +713,8 @@ body {
     line-height: 1;
     cursor: pointer;
     transition: var(--transition);
+    flex-shrink: 0;
+    padding: 0 4px;
 }
 
 .modal-close-btn:hover {
@@ -699,10 +729,18 @@ body {
     background-color: #262626;
     display: flex;
     border-bottom: 2px solid #3d3d3d;
-    padding: 0 1.2rem;
+    padding: 0 1.5rem;
     gap: 0.5rem;
     overflow-x: auto;
     scrollbar-width: none;
+    position: sticky;
+    top: 64px;
+    z-index: 15;
+    height: 48px;
+    min-height: 48px;
+    max-height: 48px;
+    box-sizing: border-box;
+    align-items: stretch;
 }
 
 .modal-tabs-nav::-webkit-scrollbar {
@@ -716,13 +754,14 @@ body {
     color: #a0a0a0;
     font-size: 0.92rem;
     font-weight: 700;
-    padding: 0.85rem 1.1rem;
+    padding: 0 1.2rem;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     transition: var(--transition);
     white-space: nowrap;
+    height: 100%;
 }
 
 .modal-tab-button:hover {
@@ -752,8 +791,9 @@ body {
 }
 
 /* Área de Conteúdo das Abas */
-.modal-tabs-content-area {
-    padding-top: 1rem;
+.modal-tab-container {
+    padding: 1.5rem;
+    flex: 1;
 }
 
 .modal-tab-panel {
@@ -779,8 +819,9 @@ body {
 /* Grid Principal do Modal */
 .modal-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 320px 1fr;
     gap: 1.5rem;
+    align-items: start;
     margin-bottom: 1.5rem;
 }
 
@@ -790,10 +831,11 @@ body {
     padding: 1.2rem;
     box-shadow: var(--shadow-sm);
     margin-bottom: 1rem;
+    border: 1px solid #e5e7eb;
 }
 
 .section-title {
-    font-size: 1.05rem;
+    font-size: 1.02rem;
     font-weight: 700;
     color: #2b2b2b;
     margin-bottom: 0.8rem;
@@ -810,21 +852,24 @@ body {
 
 /* Card de Imagem */
 .modal-image-card {
-    background: radial-gradient(circle, rgba(240, 240, 240, 1) 0%, rgba(220, 220, 220, 1) 100%);
-    border-radius: 14px;
-    padding: 2rem 1rem;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.95) 0%, rgba(235, 238, 242, 0.6) 100%);
+    border-radius: 16px;
+    padding: 1.5rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
-    border: 2px solid #e0e0e0;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    position: relative;
+    min-height: 240px;
 }
 
 .modal-pokemon-img {
-    max-width: 230px;
-    max-height: 230px;
+    width: 220px;
+    height: 220px;
     object-fit: contain;
-    filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.2));
     animation: floatImage 3s ease-in-out infinite alternate;
 }
 
@@ -837,6 +882,7 @@ body {
     display: flex;
     gap: 0.6rem;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
 /* Relações de Combate (Fraquezas, Vantagens, Resistências) */
@@ -1661,9 +1707,20 @@ body {
 /* ==========================================================================
    RESPONSIVIDADE (TABLET E CELULAR)
    ========================================================================== */
+@media screen and (max-width: 950px) {
+    .btn-nav .nav-name {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .modal-grid {
         grid-template-columns: 1fr;
+    }
+
+    .modal-dialog {
+        height: 92vh;
+        max-height: 92vh;
     }
 
     .stat-row {
