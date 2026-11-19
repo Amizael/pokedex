@@ -2154,49 +2154,56 @@ const ABILITIES_DATABASE = {
     "name": "piercing-drill",
     "nameEn": "Piercing Drill",
     "namePt": "Broca Perfurante",
-    "desc": "A broca afiada perfura e ignora proteções como Protect e Detect ao desferir ataques."
+    "desc": "A broca afiada perfura e ignora proteções como Protect e Detect ao desferir ataques.",
+    "isCustom": true
   },
   "dragonize": {
     "id": 309,
     "name": "dragonize",
     "nameEn": "Dragonize",
     "namePt": "Dragonizar",
-    "desc": "Converte todos os golpes do tipo Normal para o tipo Dragão e aumenta a potência deles em 20%."
+    "desc": "Converte todos os golpes do tipo Normal para o tipo Dragão e aumenta a potência deles em 20%.",
+    "isCustom": true
   },
   "mega-sol": {
     "id": 310,
     "name": "mega-sol",
     "nameEn": "Mega Sol",
     "namePt": "Mega Sol",
-    "desc": "Intensifica a absorção de luz solar, aumentando drasticamente o Ataque Especial e a Velocidade sob o Sol."
+    "desc": "Intensifica a absorção de luz solar, aumentando drasticamente o Ataque Especial e a Velocidade sob o Sol.",
+    "isCustom": true
   },
   "spicy-spray": {
     "id": 311,
     "name": "spicy-spray",
     "nameEn": "Spicy Spray",
     "namePt": "Spray Picante",
-    "desc": "Borrifa um spray picante ao sofrer dano físico, reduzindo o Ataque do agressor e causando confusão."
+    "desc": "Borrifa um spray picante ao sofrer dano físico, reduzindo o Ataque do agressor e causando confusão.",
+    "isCustom": true
   },
   "eelevate": {
     "id": 312,
     "name": "eelevate",
     "nameEn": "Eelevate",
     "namePt": "Eelevação",
-    "desc": "Combina levitação com reflexos rápidos, concedendo imunidade a ataques Terrestres e aumentando a evasão."
+    "desc": "Combina levitação com reflexos rápidos, concedendo imunidade a ataques Terrestres e aumentando a evasão.",
+    "isCustom": true
   },
   "fire-mane": {
     "id": 313,
     "name": "fire-mane",
     "nameEn": "Fire Mane",
     "namePt": "Juba de Fogo",
-    "desc": "A crina em brasa aumenta a potência de todos os ataques do tipo Fogo do Pokémon em 50%."
+    "desc": "A crina em brasa aumenta a potência de todos os ataques do tipo Fogo do Pokémon em 50%.",
+    "isCustom": true
   },
   "aura-guard": {
     "id": 314,
     "name": "aura-guard",
     "nameEn": "Aura Guard",
     "namePt": "Guarda da Aura",
-    "desc": "A aura protetora reduz pela metade o dano recebido de todos os ataques que fizerem contato físico."
+    "desc": "A aura protetora reduz pela metade o dano recebido de todos os ataques que fizerem contato físico.",
+    "isCustom": true
   }
 };
 
