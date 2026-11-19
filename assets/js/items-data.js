@@ -555,7 +555,7 @@ const ITEMS_DATABASE = [
     "identifier": "mega-ring",
     "namePt": "Mega Anel",
     "nameEn": "Mega Ring",
-    "category": "Gimmicks & Batalha",
+    "category": "Mecânicas Especiais & Batalha",
     "cost": 0,
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mega-ring.png",
     "desc": "Dispositivo contendo a Key Stone. Permite que treinadores ativem a Mega Evolução com uma Mega Stone compatível."
@@ -565,7 +565,7 @@ const ITEMS_DATABASE = [
     "identifier": "z-ring",
     "namePt": "Anel Z",
     "nameEn": "Z Ring",
-    "category": "Gimmicks & Batalha",
+    "category": "Mecânicas Especiais & Batalha",
     "cost": 0,
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/z-ring.png",
     "desc": "Pulseira de Alola que canaliza o Z-Power através de Z-Crystals para disparar os devastadores Movimentos Z."
@@ -595,7 +595,7 @@ const ITEMS_DATABASE = [
     "identifier": "dynamax-band",
     "namePt": "Faixa Dynamax",
     "nameEn": "Dynamax Band",
-    "category": "Gimmicks & Batalha",
+    "category": "Mecânicas Especiais & Batalha",
     "cost": 0,
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-band.png",
     "desc": "Pulseira especial com Wishing Star que permite ativar o fenômeno Dynamax e Gigantamax em Galar."
@@ -625,7 +625,7 @@ const ITEMS_DATABASE = [
     "identifier": "tera-orb",
     "namePt": "Orbe Tera",
     "nameEn": "Tera Orb",
-    "category": "Gimmicks & Batalha",
+    "category": "Mecânicas Especiais & Batalha",
     "cost": 0,
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tera-orb.png",
     "desc": "Dispositivo em formato de orbe cristalino de Paldea que permite ativar a Teracristalização."

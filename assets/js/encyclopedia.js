@@ -1,4 +1,4 @@
-// Controlador da Enciclopédia Pokémon: Golpes, Itens e Gimmicks de Batalha
+// Controlador da Enciclopédia Pokémon: Golpes, Itens e Mecânicas Especiais de Batalha
 
 let currentMainView = 'view-pokedex'; // 'view-pokedex' | 'view-moves' | 'view-items' | 'view-gimmicks'
 
@@ -253,7 +253,9 @@ function renderGimmicksSection() {
         <article class="gimmick-main-article" style="--gimmick-color: ${data.badgeColor}">
             <header class="gimmick-header">
                 <div class="gimmick-title-block">
-                    <span class="gimmick-icon-badge">${data.icon}</span>
+                    <span class="gimmick-icon-badge" aria-hidden="true">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>
+                    </span>
                     <div>
                         <h2 class="gimmick-title">${data.name}</h2>
                         <span class="gimmick-gen-tag">${data.generation}</span>
