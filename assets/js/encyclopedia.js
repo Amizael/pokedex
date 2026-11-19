@@ -336,9 +336,20 @@ document.addEventListener('DOMContentLoaded', () => {
             renderItemsEncyclopedia();
         });
     }
+
+    // Atualiza visual ao alternar idioma
+    window.addEventListener('languagechange', () => {
+        if (currentMainView === 'view-moves') {
+            renderMovesEncyclopedia();
+        } else if (currentMainView === 'view-items') {
+            renderItemsEncyclopedia();
+        } else if (currentMainView === 'view-gimmicks') {
+            renderGimmicksSection();
+        }
+    });
 });
 
-if (typeof module !== 'undefined') {
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = {
         switchMainView,
         renderMovesEncyclopedia,

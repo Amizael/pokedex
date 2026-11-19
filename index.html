@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
 
     <!-- Estilos Customizados -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=2">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23e3350d' stroke='%23333' stroke-width='4'/><path d='M2 50 A48 48 0 0 0 98 50 Z' fill='%23fff' stroke='%23333' stroke-width='4'/><circle cx='50' cy='50' r='16' fill='%23fff' stroke='%23333' stroke-width='6'/><circle cx='50' cy='50' r='7' fill='%23333'/></svg>">
 </head>
 
@@ -38,23 +38,39 @@
                     <circle cx="50" cy="50" r="16" fill="#ffffff" stroke="#333" stroke-width="6"/>
                     <circle cx="50" cy="50" r="7" fill="#333"/>
                 </svg>
-                <h1 class="brand-title">Poké<span>dex</span></h1>
+                <h1 class="brand-title" data-i18n="siteTitle">Poké<span>dex</span></h1>
             </div>
-            <span class="gen-tag">Gerações I a IX • 1025 Pokémon</span>
+            <div class="header-right-group" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+                <span class="gen-tag" data-i18n="genSubtitle">Gerações I a IX • 1025 Pokémon</span>
+                <div class="lang-switch-wrapper" data-component="lang-switch">
+                    <button type="button" 
+                            class="lang-pill-switch" 
+                            role="switch" 
+                            aria-checked="false" 
+                            aria-label="Alternar idioma entre Português e Inglês"
+                            onclick="I18nController.toggleLanguage()">
+                        <span class="lang-pill-track">
+                            <span class="lang-pill-indicator"></span>
+                            <span class="lang-label pt-label">PT</span>
+                            <span class="lang-label en-label">EN</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
         </div>
 
         <!-- Barra de Navegação das 4 Seções Principais -->
         <nav class="main-site-nav" aria-label="Navegação da Enciclopédia">
-            <button type="button" class="site-nav-btn active" data-view="view-pokedex" onclick="switchMainView('view-pokedex')">
+            <button type="button" class="site-nav-btn active" data-view="view-pokedex" data-i18n="navPokedex" onclick="switchMainView('view-pokedex')">
                 Pokédex
             </button>
-            <button type="button" class="site-nav-btn" data-view="view-moves" onclick="switchMainView('view-moves')">
+            <button type="button" class="site-nav-btn" data-view="view-moves" data-i18n="navMoves" onclick="switchMainView('view-moves')">
                 Golpes
             </button>
-            <button type="button" class="site-nav-btn" data-view="view-items" onclick="switchMainView('view-items')">
+            <button type="button" class="site-nav-btn" data-view="view-items" data-i18n="navItems" onclick="switchMainView('view-items')">
                 Itens
             </button>
-            <button type="button" class="site-nav-btn" data-view="view-gimmicks" onclick="switchMainView('view-gimmicks')">
+            <button type="button" class="site-nav-btn" data-view="view-gimmicks" data-i18n="navGimmicks" onclick="switchMainView('view-gimmicks')">
                 Mecânicas Especiais
             </button>
         </nav>
@@ -70,21 +86,21 @@
             <section class="filter-panel" aria-label="Filtros da Pokédex">
                 <div class="search-row">
                     <div class="search-box">
-                        <input type="text" id="search-input" class="search-input" placeholder="Pesquisar por nome ou número (ex: Pikachu, Lucario ou 25)..." autocomplete="off" />
-                        <button type="button" id="search-btn" class="search-btn">Buscar</button>
+                        <input type="text" id="search-input" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Pesquisar por nome ou número (ex: Pikachu, Lucario ou 25)..." autocomplete="off" />
+                        <button type="button" id="search-btn" class="search-btn" data-i18n="searchBtn">Buscar</button>
                     </div>
 
                     <div class="action-buttons">
-                        <button type="button" id="btn-surprise" class="btn-surprise" title="Sorteia um Pokémon aleatório de 1 a 1025">
+                        <button type="button" id="btn-surprise" class="btn-surprise" data-i18n="surpriseBtn" title="Sorteia um Pokémon aleatório de 1 a 1025">
                             Surpreenda-me!
                         </button>
 
                         <div class="sort-box">
                             <select id="sort-select" class="sort-select" aria-label="Ordenar Pokémon">
-                                <option value="id-asc">Menor número primeiro</option>
-                                <option value="id-desc">Maior número primeiro</option>
-                                <option value="name-asc">Nome (A - Z)</option>
-                                <option value="name-desc">Nome (Z - A)</option>
+                                <option value="id-asc" data-i18n="sortLowest">Menor número primeiro</option>
+                                <option value="id-desc" data-i18n="sortHighest">Maior número primeiro</option>
+                                <option value="name-asc" data-i18n="sortNameAsc">Nome (A - Z)</option>
+                                <option value="name-desc" data-i18n="sortNameDesc">Nome (Z - A)</option>
                             </select>
                         </div>
                     </div>
@@ -289,6 +305,8 @@
 
     <!-- Scripts da Aplicação -->
     <script src="assets/js/generations-config.js"></script>
+    <script src="assets/js/i18n-controller.js"></script>
+    <script src="assets/js/pokemon-forms-data.js"></script>
     <script src="assets/js/all-moves-data.js"></script>
     <script src="assets/js/frlg-moves-data.js"></script>
     <script src="assets/js/pokemons-data.js"></script>

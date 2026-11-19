@@ -72,10 +72,11 @@ async function loadPokemons() {
  */
 function renderGenerationFilterButtons() {
     if (!generationFiltersContainer) return;
+    const isEn = typeof I18nController !== 'undefined' && I18nController.isEnglish();
 
     let html = `
         <button type="button" class="gen-filter-btn active" data-gen="all">
-            <span class="gen-btn-title">Todas</span>
+            <span class="gen-btn-title">${isEn ? 'All' : 'Todas'}</span>
             <span class="gen-btn-count">1025</span>
         </button>
     `;
@@ -98,18 +99,20 @@ function renderGenerationFilterButtons() {
  */
 function renderTypeFilterButtons() {
     if (!typeFiltersContainer) return;
+    const isEn = typeof I18nController !== 'undefined' && I18nController.isEnglish();
 
     let html = `
         <button type="button" class="type-filter-btn active" data-type="all">
-            Todos os Tipos
+            ${isEn ? 'All Types' : 'Todos os Tipos'}
         </button>
     `;
 
     ALL_TYPES.forEach(t => {
-        const info = TYPE_INFO[t];
+        const info = TYPE_INFO[t] || { namePt: t, nameEn: t };
+        const label = isEn ? (info.nameEn || info.namePt) : info.namePt;
         html += `
             <button type="button" class="type-filter-btn" data-type="${t}" style="--btn-color: ${info.color}; --btn-text: ${info.textColor}">
-                ${info.namePt}
+                ${label}
             </button>
         `;
     });
@@ -309,31 +312,35 @@ function applyFiltersAndRender() {
 function renderCards() {
     if (!cardsContainer) return;
 
+    const isEn = typeof I18nController !== 'undefined' && I18nController.isEnglish();
+
     // Atualiza contador de resultados
     if (resultsCounter) {
         const matching = filteredPokemons.length;
-        let contextLabel = 'todas as 9 Gerações';
+        let contextLabel = isEn ? 'all 9 Generations' : 'todas as 9 Gerações';
         if (selectedGeneration !== 'all') {
             const g = GENERATIONS_CONFIG[selectedGeneration];
-            contextLabel = `${g.roman}ª Geração (${g.name} • ${g.mainGames})`;
+            contextLabel = isEn ? `Generation ${g.roman} (${g.name} • ${g.mainGames})` : `${g.roman}ª Geração (${g.name} • ${g.mainGames})`;
         }
         if (selectedType !== 'all') {
-            const tInfo = TYPE_INFO[selectedType] || { namePt: selectedType };
-            contextLabel += ` • Tipo ${tInfo.namePt}`;
+            const tInfo = TYPE_INFO[selectedType] || { namePt: selectedType, nameEn: selectedType };
+            contextLabel += isEn ? ` • ${tInfo.nameEn || tInfo.namePt} Type` : ` • Tipo ${tInfo.namePt}`;
         }
         if (searchTerm) {
-            contextLabel += ' (Busca personalizada)';
+            contextLabel += isEn ? ' (Custom search)' : ' (Busca personalizada)';
         }
-        resultsCounter.textContent = `Exibindo ${Math.min(displayedLimit, matching)} de ${matching} Pokémon • ${contextLabel}`;
+        resultsCounter.textContent = isEn 
+            ? `Showing ${Math.min(displayedLimit, matching)} of ${matching} Pokémon • ${contextLabel}`
+            : `Exibindo ${Math.min(displayedLimit, matching)} de ${matching} Pokémon • ${contextLabel}`;
     }
 
     if (filteredPokemons.length === 0) {
         cardsContainer.innerHTML = `
             <div class="empty-state">
-                <h3>Nenhum Pokémon encontrado</h3>
-                <p>Nenhum resultado corresponde aos filtros selecionados.</p>
+                <h3>${isEn ? 'No Pokémon found' : 'Nenhum Pokémon encontrado'}</h3>
+                <p>${isEn ? 'No results match the selected filters.' : 'Nenhum resultado corresponde aos filtros selecionados.'}</p>
                 <button type="button" class="btn-clear" onclick="document.getElementById('btn-clear-filters').click()">
-                    Limpar Filtros
+                    ${isEn ? 'Clear Filters' : 'Limpar Filtros'}
                 </button>
             </div>
         `;
@@ -345,21 +352,24 @@ function renderCards() {
 
     const cardsHtml = visibleItems.map(p => {
         const typesHtml = p.types.map(t => {
-            const info = TYPE_INFO[t] || { namePt: t, color: '#777', textColor: '#fff' };
+            const info = TYPE_INFO[t] || { namePt: t, nameEn: t, color: '#777', textColor: '#fff' };
+            const typeLabel = isEn ? (info.nameEn || info.namePt) : info.namePt;
             return `
                 <span class="type-badge" style="background-color: ${info.color}; color: ${info.textColor}">
-                    ${info.namePt}
+                    ${typeLabel}
                 </span>
             `;
         }).join('');
 
         const primaryType = p.types[0];
         const primaryColor = TYPE_INFO[primaryType]?.color || '#999';
-        const displayName = p.displayName || p.name.charAt(0).toUpperCase() + p.name.slice(1);
+        const displayName = isEn 
+            ? p.name.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ')
+            : (p.displayName || p.name.charAt(0).toUpperCase() + p.name.slice(1));
         const gen = GENERATIONS_CONFIG[p.generation];
 
         return `
-            <article class="pokemon-card" onclick="openPokemonModal(${p.id})" tabindex="0" role="button" aria-label="Ver detalhes de ${displayName}">
+            <article class="pokemon-card" onclick="openPokemonModal(${p.id})" tabindex="0" role="button" aria-label="${isEn ? 'View details of' : 'Ver detalhes de'} ${displayName}">
                 <div class="card-img-box" style="--accent-color: ${primaryColor}">
                     <img src="${p.image}" alt="${displayName}" loading="lazy" class="pokemon-card-img" />
                     <span class="card-gen-pill">Gen ${gen ? gen.roman : p.generation}</span>
@@ -384,7 +394,33 @@ function renderCards() {
         } else {
             btnLoadMore.parentElement.style.display = 'flex';
             const remaining = filteredPokemons.length - displayedLimit;
-            btnLoadMore.textContent = `Carregar mais Pokémon (+${Math.min(ITEMS_PER_PAGE, remaining)})`;
+            btnLoadMore.textContent = isEn 
+                ? `Load more Pokémon (+${Math.min(ITEMS_PER_PAGE, remaining)})`
+                : `Carregar mais Pokémon (+${Math.min(ITEMS_PER_PAGE, remaining)})`;
         }
     }
 }
+
+// Sincroniza filtros e visual ao receber evento de troca de idioma
+window.addEventListener('languagechange', () => {
+    const isEn = typeof I18nController !== 'undefined' && I18nController.isEnglish();
+    if (genActiveBadge) {
+        if (selectedGeneration === 'all') {
+            genActiveBadge.textContent = isEn ? 'All Generations (1025)' : 'Todas as Gerações (1025)';
+        } else {
+            const g = GENERATIONS_CONFIG[selectedGeneration];
+            genActiveBadge.textContent = isEn ? `Generation ${g.roman} (${g.name} • ${g.total} Pokémon)` : `Geração ${g.roman} (${g.name} • ${g.total} Pokémon)`;
+        }
+    }
+    const currentGen = selectedGeneration;
+    const currentType = selectedType;
+    renderGenerationFilterButtons();
+    renderTypeFilterButtons();
+    if (currentGen) {
+        document.querySelectorAll('.gen-filter-btn').forEach(b => b.classList.toggle('active', b.dataset.gen === currentGen));
+    }
+    if (currentType) {
+        document.querySelectorAll('.type-filter-btn').forEach(b => b.classList.toggle('active', b.dataset.type === currentType));
+    }
+    renderCards();
+});

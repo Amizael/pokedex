@@ -612,6 +612,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
     border-bottom: 3px solid #e3350d;
     position: relative;
 }
@@ -620,7 +621,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: calc(100% - 40px);
+    flex: 1;
+    min-width: 0;
+    margin-right: 1.2rem;
     gap: 1rem;
 }
 
@@ -1668,8 +1671,9 @@ body {
     }
 
     .modal-nav {
-        width: 100%;
-        margin-right: 30px;
+        flex: 1;
+        min-width: 0;
+        margin-right: 0.8rem;
     }
 
     .btn-nav .nav-name {
@@ -3438,3 +3442,201 @@ body {
     color: #666;
     line-height: 1.4;
 }
+
+/* ==========================================================================
+   INTERRUPTOR DESLIZANTE DE IDIOMA (PILL TOGGLE SWITCH)
+   ========================================================================== */
+
+.lang-switch-wrapper {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.lang-pill-switch {
+    position: relative;
+    width: 86px;
+    height: 34px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    border-radius: 9999px;
+    transition: transform 0.15s ease;
+}
+
+.lang-pill-switch:active {
+    transform: scale(0.96);
+}
+
+.lang-pill-switch:focus-visible {
+    box-shadow: 0 0 0 3px rgba(48, 167, 215, 0.5);
+}
+
+.lang-pill-track {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+    padding: 3px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.lang-pill-indicator {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: calc(50% - 3px);
+    height: calc(100% - 6px);
+    background: linear-gradient(135deg, #ee6b2f, #d25b24);
+    border-radius: 9999px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), background 0.25s ease;
+    z-index: 1;
+}
+
+.lang-pill-switch[aria-checked="true"] .lang-pill-indicator {
+    transform: translateX(100%);
+    background: linear-gradient(135deg, #30a7d7, #228cb7);
+}
+
+.lang-label {
+    position: relative;
+    z-index: 2;
+    flex: 1;
+    text-align: center;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.lang-pill-switch[aria-checked="false"] .pt-label { color: #ffffff; }
+.lang-pill-switch[aria-checked="false"] .en-label { color: #888888; }
+.lang-pill-switch[aria-checked="true"] .pt-label { color: #888888; }
+.lang-pill-switch[aria-checked="true"] .en-label { color: #ffffff; }
+
+.modal-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* ==========================================================================
+   PAINEL DE FORMAS ALTERNATIVAS & BADGE DE ITEM OBRIGATÓRIO
+   ========================================================================== */
+
+.forms-selector-section {
+    margin-bottom: 20px;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 14px 16px;
+}
+
+.forms-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.forms-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-main, #313131);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.forms-chips-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.form-chip-btn,
+button.form-chip-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #ffffff;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #444444;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.form-chip-btn:hover,
+button.form-chip-btn:hover {
+    border-color: var(--accent-blue, #30a7d7);
+    color: var(--accent-blue, #30a7d7);
+    background: #f0f8fc;
+}
+
+.form-chip-btn.active,
+button.form-chip-btn.active {
+    background: var(--accent-blue, #30a7d7);
+    border-color: var(--accent-blue, #30a7d7);
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(48, 167, 215, 0.35);
+}
+
+.required-item-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: linear-gradient(135deg, rgba(238, 107, 47, 0.08), rgba(48, 167, 215, 0.08));
+    border: 1px solid rgba(238, 107, 47, 0.3);
+    border-radius: 10px;
+}
+
+.required-item-title {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #d25b24;
+}
+
+.required-item-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    padding: 4px 12px 4px 6px;
+    border-radius: 20px;
+    border: 1px solid #e1e4e8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.item-icon-img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.15));
+}
+
+.item-name-text {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #24292e;
+}
+

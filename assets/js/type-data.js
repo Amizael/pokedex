@@ -1,24 +1,31 @@
 // Dados Oficiais de Tipos, Cores e Matriz de Efetividade (Pokémon)
 const TYPE_INFO = {
-    normal: { namePt: 'Normal', color: '#a4acaf', textColor: '#212121' },
-    fire: { namePt: 'Fogo', color: '#fd7d24', textColor: '#ffffff' },
-    water: { namePt: 'Água', color: '#4592c4', textColor: '#ffffff' },
-    grass: { namePt: 'Planta', color: '#9bcc50', textColor: '#212121' },
-    electric: { namePt: 'Elétrico', color: '#eed535', textColor: '#212121' },
-    ice: { namePt: 'Gelo', color: '#51c4e7', textColor: '#212121' },
-    fighting: { namePt: 'Lutador', color: '#d56723', textColor: '#ffffff' },
-    poison: { namePt: 'Veneno', color: '#b97fc9', textColor: '#ffffff' },
-    ground: { namePt: 'Terrestre', color: '#ab9842', textColor: '#ffffff' },
-    flying: { namePt: 'Voador', color: '#3dc7ef', textColor: '#212121' },
-    psychic: { namePt: 'Psíquico', color: '#f366b9', textColor: '#ffffff' },
-    bug: { namePt: 'Inseto', color: '#729f3f', textColor: '#ffffff' },
-    rock: { namePt: 'Pedra', color: '#a38c21', textColor: '#ffffff' },
-    ghost: { namePt: 'Fantasma', color: '#7b62a3', textColor: '#ffffff' },
-    dragon: { namePt: 'Dragão', color: '#f16e57', textColor: '#ffffff' },
-    steel: { namePt: 'Aço', color: '#9eb7b8', textColor: '#212121' },
-    fairy: { namePt: 'Fada', color: '#fdb9e9', textColor: '#212121' },
-    dark: { namePt: 'Sombrio', color: '#707070', textColor: '#ffffff' }
+    normal: { namePt: 'Normal', nameEn: 'Normal', color: '#a4acaf', textColor: '#212121' },
+    fire: { namePt: 'Fogo', nameEn: 'Fire', color: '#fd7d24', textColor: '#ffffff' },
+    water: { namePt: 'Água', nameEn: 'Water', color: '#4592c4', textColor: '#ffffff' },
+    grass: { namePt: 'Planta', nameEn: 'Grass', color: '#9bcc50', textColor: '#212121' },
+    electric: { namePt: 'Elétrico', nameEn: 'Electric', color: '#eed535', textColor: '#212121' },
+    ice: { namePt: 'Gelo', nameEn: 'Ice', color: '#51c4e7', textColor: '#212121' },
+    fighting: { namePt: 'Lutador', nameEn: 'Fighting', color: '#d56723', textColor: '#ffffff' },
+    poison: { namePt: 'Veneno', nameEn: 'Poison', color: '#b97fc9', textColor: '#ffffff' },
+    ground: { namePt: 'Terrestre', nameEn: 'Ground', color: '#ab9842', textColor: '#ffffff' },
+    flying: { namePt: 'Voador', nameEn: 'Flying', color: '#3dc7ef', textColor: '#212121' },
+    psychic: { namePt: 'Psíquico', nameEn: 'Psychic', color: '#f366b9', textColor: '#ffffff' },
+    bug: { namePt: 'Inseto', nameEn: 'Bug', color: '#729f3f', textColor: '#ffffff' },
+    rock: { namePt: 'Pedra', nameEn: 'Rock', color: '#a38c21', textColor: '#ffffff' },
+    ghost: { namePt: 'Fantasma', nameEn: 'Ghost', color: '#7b62a3', textColor: '#ffffff' },
+    dragon: { namePt: 'Dragão', nameEn: 'Dragon', color: '#f16e57', textColor: '#ffffff' },
+    steel: { namePt: 'Aço', nameEn: 'Steel', color: '#9eb7b8', textColor: '#212121' },
+    fairy: { namePt: 'Fada', nameEn: 'Fairy', color: '#fdb9e9', textColor: '#212121' },
+    dark: { namePt: 'Sombrio', nameEn: 'Dark', color: '#707070', textColor: '#ffffff' }
 };
+
+function getTypeName(typeKey) {
+    const isEn = typeof I18nController !== 'undefined' && I18nController.isEnglish();
+    const info = TYPE_INFO[typeKey];
+    if (!info) return typeKey;
+    return isEn ? (info.nameEn || info.namePt) : info.namePt;
+}
 
 // Matriz oficial de dano (Atacante -> Defensor)
 const TYPE_CHART = {
@@ -1434,6 +1441,7 @@ function formatEvolutionDetail(details) {
 if (typeof module !== 'undefined') {
     module.exports = {
         TYPE_INFO,
+        getTypeName,
         TYPE_CHART,
         ALL_TYPES,
         calculateTypeRelations,
