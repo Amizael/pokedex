@@ -869,16 +869,18 @@ function renderEvolutionSection(chain, currentId) {
                     const artworkUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${node.id}.png`;
                     const fallbackUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${node.id}.png`;
                     const nodeGen = getGenerationByPokemonId(node.id);
+                    const pMatch = (typeof ALL_POKEMONS !== 'undefined' && ALL_POKEMONS.find(p => p.id === node.id));
+                    const displayName = pMatch ? (pMatch.displayName || pMatch.name) : (node.name.charAt(0).toUpperCase() + node.name.slice(1).replace(/-/g, ' '));
 
                     return `
                         <div class="evolution-card ${isCurrent ? 'current-pokemon' : ''} clickable" onclick="openPokemonModal(${node.id})">
                             ${isCurrent ? `<span class="current-badge">Atual</span>` : ''}
                             <span class="gen-badge">Gen ${nodeGen.roman}</span>
                             <div class="evo-img-box">
-                                <img src="${artworkUrl}" onerror="this.onerror=null; this.src='${fallbackUrl}'" alt="${node.name}" />
+                                <img src="${artworkUrl}" onerror="this.onerror=null; this.src='${fallbackUrl}'" alt="${displayName}" />
                             </div>
                             <span class="evo-id">${formattedId}</span>
-                            <span class="evo-name">${node.name}</span>
+                            <span class="evo-name">${displayName}</span>
                             ${node.condition ? `<span class="evo-condition">${node.condition}</span>` : ''}
                         </div>
                     `;

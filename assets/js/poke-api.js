@@ -189,26 +189,35 @@ const POKE_API = {
                 };
             }
 
-            // Descrição da Pokédex (preferência: pt/pt-BR > es > en)
+            // Descrição da Pokédex (blindagem: nunca sobrescrever texto local em português por espanhol/inglês)
             let flavorText = defaultDesc;
             if (species.flavor_text_entries && species.flavor_text_entries.length > 0) {
                 const ptEntry = species.flavor_text_entries.find(e => e.language.name === 'pt' || e.language.name === 'pt-BR');
-                const esEntry = species.flavor_text_entries.find(e => e.language.name === 'es');
-                const enEntry = species.flavor_text_entries.find(e => e.language.name === 'en');
-                const chosen = ptEntry || esEntry || enEntry;
-                if (chosen) {
-                    flavorText = chosen.flavor_text.replace(/[\n\f\r]/g, ' ').replace(/\u00ad/g, '').trim();
+                if (ptEntry) {
+                    flavorText = ptEntry.flavor_text.replace(/[\n\f\r]/g, ' ').replace(/\u00ad/g, '').trim();
+                } else if (!flavorText) {
+                    const esEntry = species.flavor_text_entries.find(e => e.language.name === 'es');
+                    const enEntry = species.flavor_text_entries.find(e => e.language.name === 'en');
+                    const chosen = esEntry || enEntry;
+                    if (chosen) {
+                        flavorText = chosen.flavor_text.replace(/[\n\f\r]/g, ' ').replace(/\u00ad/g, '').trim();
+                    }
                 }
             }
 
-            // Categoria / Espécie (Gênero)
-            let genus = defaultGenus;
+            // Categoria / Espécie (Gênero) com blindagem e tradução imediata
+            let genus = (typeof translateGenus === 'function' ? translateGenus(defaultGenus) : defaultGenus);
             const ptGenus = species.genera?.find(g => g.language.name === 'pt' || g.language.name === 'pt-BR');
             const enGenus = species.genera?.find(g => g.language.name === 'en');
             if (ptGenus) {
                 genus = ptGenus.genus;
-            } else if (enGenus && typeof GENUS_TRANSLATIONS !== 'undefined' && GENUS_TRANSLATIONS[enGenus.genus]) {
-                genus = GENUS_TRANSLATIONS[enGenus.genus];
+            } else if (enGenus) {
+                const cleanEn = (enGenus.genus || '').trim();
+                if (typeof translateGenus === 'function') {
+                    genus = translateGenus(cleanEn) || genus;
+                } else if (typeof GENUS_TRANSLATIONS !== 'undefined' && GENUS_TRANSLATIONS[cleanEn]) {
+                    genus = GENUS_TRANSLATIONS[cleanEn];
+                }
             }
 
             // Gênero
@@ -269,7 +278,7 @@ const POKE_API = {
     },
 
     /**
-     * Transforma a árvore aninhada de evolução em nós simplificados
+     * Transforma a árvore aninhada de evolução em nós simplificados com localização 100% PT-BR
      */
     parseEvolutionChain(node) {
         if (!node) return null;
@@ -278,15 +287,17 @@ const POKE_API = {
         const details = node.evolution_details?.[0] || {};
 
         let condition = '';
-        if (details.min_level) {
+        if (typeof formatEvolutionDetail === 'function') {
+            condition = formatEvolutionDetail(details);
+        } else if (details.min_level) {
             condition = `Nível ${details.min_level}`;
         } else if (details.item) {
             const rawItem = details.item.name;
-            condition = (typeof EVOLUTION_TRANSLATIONS !== 'undefined' && EVOLUTION_TRANSLATIONS[rawItem]) || rawItem.replace(/-/g, ' ');
+            condition = (typeof EVOLUTION_TRANSLATIONS !== 'undefined' && EVOLUTION_TRANSLATIONS[rawItem]) || `Usar ${rawItem.replace(/-/g, ' ')}`;
         } else if (details.trigger?.name === 'trade') {
             condition = 'Troca';
         } else if (details.trigger?.name) {
-            condition = (typeof EVOLUTION_TRANSLATIONS !== 'undefined' && EVOLUTION_TRANSLATIONS[details.trigger.name]) || details.trigger.name;
+            condition = (typeof EVOLUTION_TRANSLATIONS !== 'undefined' && EVOLUTION_TRANSLATIONS[details.trigger.name]) || details.trigger.name.replace(/-/g, ' ');
         }
 
         return {

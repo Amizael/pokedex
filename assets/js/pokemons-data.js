@@ -37013,7 +37013,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 167,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Long Leg Pokémon ",
+    "genus": "Pokémon Pernas Longas",
     "description": "Captura suas presas con el hilo que segrega. Al caer la noche, abandona su tela y sale a cazar activamente.",
     "abilities": [
       {
@@ -37191,7 +37191,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tiny Mouse Pokémon ",
+    "genus": "Pokémon Ratinho",
     "description": "Las bolsas de electricidad de sus mejillas son muy pequeñas y, a poco que se desborden, recibe una fuerte descarga.",
     "abilities": [
       {
@@ -37231,7 +37231,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Star Shape Pokémon ",
+    "genus": "Pokémon Forma de Estrela",
     "description": "Por su inusual forma estrellada, la gente cree que procede de un meteorito que cayó a la tierra.",
     "abilities": [
       {
@@ -37277,7 +37277,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Balloon Pokémon ",
+    "genus": "Pokémon Balão",
     "description": "Se desplaza dando botes con seu corpo mullido. Cuando aumenta su temperatura corporal, se va poniendo de un color rosa cada vez más intenso.",
     "abilities": [
       {
@@ -37322,7 +37322,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spike Ball Pokémon ",
+    "genus": "Pokémon Bola de Espinhos",
     "description": "Se lo considera un símbolo de buena suerte y, según se dice, su cascarón está lleno de alegría.",
     "abilities": [
       {
@@ -37368,7 +37368,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 175,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Happiness Pokémon ",
+    "genus": "Pokémon Felicidade",
     "description": "Si no está con gente amable, se entristece. Puede flotar en el aire sin mover las alas.",
     "abilities": [
       {
@@ -37460,7 +37460,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 177,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mystic Pokémon ",
+    "genus": "Pokémon Místico",
     "description": "Este extraño Pokémon puede ver el pasado y el futuro. Se pasa el día mirando al sol.",
     "abilities": [
       {
@@ -37666,7 +37666,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 298,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Aqua Mouse Pokémon ",
+    "genus": "Pokémon Rato Aquático",
     "description": "Su pelaje repele el agua, lo que evita que pase frío al salir de mares gélidos porque se seca al momento.",
     "abilities": [
       {
@@ -37712,7 +37712,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 183,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Aqua Rabbit Pokémon ",
+    "genus": "Pokémon Coelho Aquático",
     "description": "Crea burbujas llenas de aire con las que cubre a los Azurill cuando juegan en el río.",
     "abilities": [
       {
@@ -37757,7 +37757,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 438,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Imitation Pokémon ",
+    "genus": "Pokémon Imitação",
     "description": "Finge ser un árbol para evitar que lo ataquen. Odia tanto el agua que desaparecerá si empieza a llover.",
     "abilities": [
       {
@@ -37802,7 +37802,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 61,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Frog Pokémon ",
+    "genus": "Pokémon Sapo",
     "description": "Los machos emiten gritos muy potentes. Las hembras sienten predilección por los de voz grave e imponente.",
     "abilities": [
       {
@@ -37848,7 +37848,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cottonweed Pokémon ",
+    "genus": "Pokémon Erva de Algodão",
     "description": "Este Pokémon flota en el aire y se deja llevar. Cuando percibe que el viento va a cambiar a fuerte, Hoppip entrelaza sus hojas con otros Hoppip para hacer resistencia y evitar salir volando por la fuerza de la corriente.",
     "abilities": [
       {
@@ -37894,7 +37894,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 187,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cottonweed Pokémon ",
+    "genus": "Pokémon Erva de Algodão",
     "description": "Skiploom florece cuando la temperatura llega a 18 °C. La apertura de los pétalos varía según la temperatura que haga. Por este motivo, la gente lo usa a veces a modo de termómetro.",
     "abilities": [
       {
@@ -37940,7 +37940,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 188,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cottonweed Pokémon ",
+    "genus": "Pokémon Erva de Algodão",
     "description": "Jumpluff se vale de los cálidos vientos del sur para volar a tierras lejanas. Si llega a zonas de aire frío en pleno vuelo, descenderá y tomará tierra.",
     "abilities": [
       {
@@ -37985,7 +37985,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Long Tail Pokémon ",
+    "genus": "Pokémon Cauda Longa",
     "description": "Sube a las copas de los árboles para buscar presas. Si encuentra un Bounsweet, su manjar predilecto, se alboroza y se abalanza sobre él.",
     "abilities": [
       {
@@ -38121,7 +38121,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Clear Wing Pokémon ",
+    "genus": "Pokémon Asa Transparente",
     "description": "Yanma tem um ángulo de visión de 360° sin mover los ojos. Es un gran volador, experto en hacer repentinas paradas y cambios de dirección en el aire. Aprovecha la habilidad que tiene de volar para lanzarse sobre su presa.",
     "abilities": [
       {
@@ -38167,7 +38167,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Water Fish Pokémon ",
+    "genus": "Pokémon Peixe d'Água",
     "description": "Cuando se desplaza en tierra firme, cubre seu corpo con una membrana mucosa y venenosa para mantener hidratada la piel.",
     "abilities": [
       {
@@ -38213,7 +38213,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 194,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Water Fish Pokémon ",
+    "genus": "Pokémon Peixe d'Água",
     "description": "seu corpo sempre resulta escurridizo al tacto. Suele chocarse contra el lecho del río al nadar, pero no le importa demasiado.",
     "abilities": [
       {
@@ -38385,7 +38385,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 79,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Royal Pokémon ",
+    "genus": "Pokémon Majestoso",
     "description": "é capaz de dar respuesta a cualquier cuestión que se le formule, pero, por desgracia, nadie logra descifrar una sola palabra de lo que dice.",
     "abilities": [
       {
@@ -38430,7 +38430,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Screech Pokémon ",
+    "genus": "Pokémon Guincho",
     "description": "Disfruta imitando llantos humanos para asustar a la gente. Los valientes no le caen demasiado bien.",
     "abilities": [
       {
@@ -38465,7 +38465,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Symbol Pokémon ",
+    "genus": "Pokémon Símbolo",
     "description": "Estos Pokémon tienen forma de caracteres antiguos. No se sabe qué surgió primero, si la vieja escritura o los distintos Unown. Esta cuestión sigue siendo objeto de estudio, pero aún no se ha averiguado nada.",
     "abilities": [
       {
@@ -38500,7 +38500,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 360,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Patient Pokémon ",
+    "genus": "Pokémon Paciente",
     "description": "Para mantener oculta su negra cola, vive em silencio en la oscuridad. nunca ataca primero.",
     "abilities": [
       {
@@ -38541,7 +38541,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Long Neck Pokémon ",
+    "genus": "Pokémon Pescoço Longo",
     "description": "La cabeza trasera de Girafarig tem um cerebro muy pequeño para pensar, pero, como no le hace falta dormir, al menos puede hacer de centinela las 24 horas del día.",
     "abilities": [
       {
@@ -38586,7 +38586,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bagworm Pokémon ",
+    "genus": "Pokémon Bicho-do-cesto",
     "description": "Usa saliva para adherir corteza de árbol a seu corpo y así aumentar de volumen. Con la edad puede alcanzar un tamaño gigantesco.",
     "abilities": [
       {
@@ -38627,7 +38627,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 204,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bagworm Pokémon ",
+    "genus": "Pokémon Bicho-do-cesto",
     "description": "El momento en el que engulle a su presa es el único instante donde muestra seu corpo, pero hasta ahora ningún humano lo ha visto.",
     "abilities": [
       {
@@ -38667,7 +38667,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Land Snake Pokémon ",
+    "genus": "Pokémon Cobra Terrestre",
     "description": "Habita en madrigueras laberínticas. graças a su capacidad para ubicarse por el olor de la tierra que lo rodea, nunca se pierde.",
     "abilities": [
       {
@@ -38713,7 +38713,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fly Scorpion Pokémon ",
+    "genus": "Pokémon Escorpião Voador",
     "description": "Gligar planea por el aire sin hacer ningún ruido, como si fuera patinando. Este Pokémon se agarra a la cara de su rival con las patas traseras, con forma de garra, y las pinzas de las delanteras y le inyecta veneno por el aguijón.",
     "abilities": [
       {
@@ -38759,7 +38759,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 95,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Iron Snake Pokémon ",
+    "genus": "Pokémon Serpente de Ferro",
     "description": "Se cree que seu corpo se ha ido transformando por el hierro acumulado en la tierra que ha ingerido.",
     "abilities": [
       {
@@ -38895,7 +38895,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Balloon Pokémon ",
+    "genus": "Pokémon Balão",
     "description": "Las pequeñas púas que cubren seu corpo eran escamas. Inyectan una toxina que hace perder el conocimiento.",
     "abilities": [
       {
@@ -38987,7 +38987,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mold Pokémon ",
+    "genus": "Pokémon Mofo",
     "description": "Las bayas que almacena en su caparazón con forma de vasija se convierten al final en un espeso zumo.",
     "abilities": [
       {
@@ -39033,7 +39033,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Single Horn Pokémon ",
+    "genus": "Pokémon Chifre Único",
     "description": "Este Pokémon muestra una fuerza hercúlea, que le permite levantar cien veces su propio peso sin inmutarse.",
     "abilities": [
       {
@@ -39079,7 +39079,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sharp Claw Pokémon ",
+    "genus": "Pokémon Garra Afiada",
     "description": "Es un Pokémon de naturaleza astuta y fiera. Se cuela en los nidos de otros Pokémon cuando no están y roba sus huevos.",
     "abilities": [
       {
@@ -39124,7 +39124,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Little Bear Pokémon ",
+    "genus": "Pokémon Ursinho",
     "description": "A Teddiursa le encanta chuparse las palmas impregnadas de dulce miel. Este Pokémon fabrica su propia miel mezclando frutos y el polen que recoge Beedrill.",
     "abilities": [
       {
@@ -39169,7 +39169,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 216,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hibernator Pokémon ",
+    "genus": "Pokémon Hibernador",
     "description": "nas florestas habitados por Ursaring, dicen que abundan los arroyos y árboles gigantes en los que guardan su alimento. Este Pokémon se dedica todos los días a pasear por el bosque para buscar comida y guardarla.",
     "abilities": [
       {
@@ -39214,7 +39214,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Lava Pokémon ",
+    "genus": "Pokémon Lava",
     "description": "Slugma no tiene sangre en su organismo, sino ardiente magma que hace circular por todo el cuerpo los nutrientes y el oxígeno que necesitan sus órganos.",
     "abilities": [
       {
@@ -39260,7 +39260,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 218,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Lava Pokémon ",
+    "genus": "Pokémon Lava",
     "description": "Magcargo tem uma temperatura corporal de 1000 °C aproximadamente. El agua se evapora al contacto con él. Si llueve, las gotas que le rozan se transforman en vapor al instante y crean una densa niebla.",
     "abilities": [
       {
@@ -39306,7 +39306,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Pig Pokémon ",
+    "genus": "Pokémon Porco",
     "description": "Si percibe un aroma tentador, se lanza de cabeza sin pensárselo dos veces para hallar su origen.",
     "abilities": [
       {
@@ -39352,7 +39352,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 220,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Swine Pokémon ",
+    "genus": "Pokémon Suíno",
     "description": "Aunque tiene las patas cortas, sus fuertes pezuñas le permiten caminar por la nieve sin resbalar.",
     "abilities": [
       {
@@ -39398,7 +39398,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Coral Pokémon ",
+    "genus": "Pokémon Coral",
     "description": "Habita en mares cálidos. Antiguamente vivían en las aguas costeras de Galar un gran número de ejemplares.",
     "abilities": [
       {
@@ -39443,7 +39443,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Jet Pokémon ",
+    "genus": "Pokémon Jato",
     "description": "Usa su aleta dorsal a modo de ventosa para aferrarse a un Mantine en busca de restos de comida.",
     "abilities": [
       {
@@ -39488,7 +39488,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 223,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Jet Pokémon ",
+    "genus": "Pokémon Jato",
     "description": "Atrapa seus inimigos con los tentáculos y después los golpea con su dura cabeza.",
     "abilities": [
       {
@@ -39534,7 +39534,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Delivery Pokémon ",
+    "genus": "Pokémon Mensageiro",
     "description": "Tiene la costumbre de compartir su comida con todo el mundo, sea humano o Pokémon, por isso está constantemente en busca de alimento.",
     "abilities": [
       {
@@ -39580,7 +39580,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 458,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Kite Pokémon ",
+    "genus": "Pokémon Pipa",
     "description": "Mientras nada plácidamente, no le importa que los Remoraid se aferren a él para comerse sus sobras.",
     "abilities": [
       {
@@ -39626,7 +39626,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Armor Bird Pokémon ",
+    "genus": "Pokémon Pássaro Blindado",
     "description": "Aparece a menudo en escudos heráldicos, pues se pueden forjar espadas a partir de las plumas que pierde.",
     "abilities": [
       {
@@ -39672,7 +39672,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Dark Pokémon ",
+    "genus": "Pokémon Escuridão",
     "description": "Los escalofriantes aullidos que profiere justo antes del alba son para señalar la presencia de su manada.",
     "abilities": [
       {
@@ -39718,7 +39718,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 228,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Dark Pokémon ",
+    "genus": "Pokémon Escuridão",
     "description": "Su rasgo distintivo son los escalofriantes aullidos que profiere. Antiguamente, era temido y considerado un emisario del inframundo.",
     "abilities": [
       {
@@ -39809,7 +39809,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Long Nose Pokémon ",
+    "genus": "Pokémon Nariz Longo",
     "description": "Phanpy se vale de la trompa para ducharse. Cuando varios se agrupan, se dedican a echarse agua unos a otros. Es muy fácil ver a estos Pokémon secándose cerca del agua.",
     "abilities": [
       {
@@ -39849,7 +39849,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 231,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Armor Pokémon ",
+    "genus": "Pokémon Armadura",
     "description": "Si Donphan tuviera que dar un golpe con todo el cuerpo, con lo robusto que es echaría abajo hasta una casa. Estos Pokémon usan su fuerza para ayudar a despejar pasos de montaña cuando hay piedras o lodo.",
     "abilities": [
       {
@@ -39934,7 +39934,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big Horn Pokémon ",
+    "genus": "Pokémon Chifre Grande",
     "description": "Hace tiempo, se comerciaba con la magnífica cornamenta de Stantler. Se vendía como obra de arte a alto precio. Los interesados en cornamentas de valor incalculable empezaron a cazarlos y casi provocan su extinción.",
     "abilities": [
       {
@@ -39979,7 +39979,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Painter Pokémon ",
+    "genus": "Pokémon Pintor",
     "description": "Dibuja marcas con el líquido que secreta por la cola. Algunos de sus admiradores han llegado a pagar auténticas fortunas por ellas.",
     "abilities": [
       {
@@ -40024,7 +40024,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scuffle Pokémon ",
+    "genus": "Pokémon Valentão",
     "description": "Su pequeño tamaño no debe ser motivo para subestimarlo, ya que se liará de inmediato a golpes con cualquier rival que estime oportuno.",
     "abilities": [
       {
@@ -40069,7 +40069,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 236,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Handstand Pokémon ",
+    "genus": "Pokémon Parada de Mão",
     "description": "Tras hacer el pino para desconcertar a su rival, comienza a propinar sus espectaculares patadas.",
     "abilities": [
       {
@@ -40115,7 +40115,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Kiss Pokémon ",
+    "genus": "Pokémon Beijo",
     "description": "Este Pokémon rebosante de curiosidad lo toca todo con los labios para determinar qué cosas le gustan y cuáles no.",
     "abilities": [
       {
@@ -40200,7 +40200,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Live Coal Pokémon ",
+    "genus": "Pokémon Brasa Viva",
     "description": "vive em los alrededores de los volcanes. Al final del día, se baña en magma para aliviar el cansancio.",
     "abilities": [
       {
@@ -40240,7 +40240,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Milk Cow Pokémon ",
+    "genus": "Pokémon Vaca Leiteira",
     "description": "Si no se ordeña a Miltank a diario, enferma. El sabor de la leche que produce cambia según la época del año.",
     "abilities": [
       {
@@ -40285,7 +40285,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 113,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Happiness Pokémon ",
+    "genus": "Pokémon Felicidade",
     "description": "Pone unos extraños huevos llenos de felicidad. Dicen que aquellos que los prueban se vuelven amables con todo el mundo.",
     "abilities": [
       {
@@ -40330,7 +40330,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Thunder Pokémon ",
+    "genus": "Pokémon Trovão",
     "description": "Raikou tiene la velocidad del rayo. Los rugidos de este Pokémon emiten ondas de choque que se esparcen vibrando por el aire y sacuden el suelo como si fueran auténticas descargas de rayo.",
     "abilities": [
       {
@@ -40410,7 +40410,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Aurora Pokémon ",
+    "genus": "Pokémon Aurora",
     "description": "Suicune emana la pureza de los manantiales. Suele corretear por el campo con gran elegancia. Este Pokémon tiene el poder de purificar el agua contaminada.",
     "abilities": [
       {
@@ -40451,7 +40451,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rock Skin Pokémon ",
+    "genus": "Pokémon Pele de Rocha",
     "description": "alimenta-se de tierra. Después de devorar el equivalente a una montaña, se duerme y empieza a crecer.",
     "abilities": [
       {
@@ -40492,7 +40492,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 246,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hard Shell Pokémon ",
+    "genus": "Pokémon Concha Rígida",
     "description": "No se está quieto ni aun siendo una pupa. Sus extremidades ya se han formado bajo su robusta coraza.",
     "abilities": [
       {
@@ -40528,7 +40528,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 247,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Armor Pokémon ",
+    "genus": "Pokémon Armadura",
     "description": "Sus estrepitosos pasos derrumban montañas y hacen que el terreno a su alrededor cambie drásticamente.",
     "abilities": [
       {
@@ -40569,7 +40569,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Diving Pokémon ",
+    "genus": "Pokémon Mergulhador",
     "description": "La fuerza que tiene Lugia en las alas es devastadora; con nada que las bata é capaz de derribar edificios enteros. Por eso mismo, prefiere vivir donde no haya nadie, en lo más profundo del mar.",
     "abilities": [
       {
@@ -40610,7 +40610,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Rainbow Pokémon ",
+    "genus": "Pokémon Arco-íris",
     "description": "El plumaje de Ho-Oh contiene siete colores que pueden apreciarse según el ángulo desde el que les dé la luz. Dicen que sus plumas dan felicidad a quienes las llevan y, também, que este Pokémon vive a los pies del arco iris.",
     "abilities": [
       {
@@ -41050,7 +41050,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bite Pokémon ",
+    "genus": "Pokémon Mordida",
     "description": "Poochyena es un Pokémon omnívoro. Se come lo que sea. Le caracteriza el gran tamaño de sus colmillos respecto al resto del cuerpo. Este Pokémon hace que se le erice la cola para intentar intimidar a su rival.",
     "abilities": [
       {
@@ -41095,7 +41095,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 261,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bite Pokémon ",
+    "genus": "Pokémon Mordida",
     "description": "Mightyena se desplaza y vive con su jauría en estado salvaje. Por eso, acostumbrado a esta libertad, obedece al Entrenador al que considere realmente dotado de habilidades superiores al resto.",
     "abilities": [
       {
@@ -41140,7 +41140,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tiny Raccoon Pokémon ",
+    "genus": "Pokémon Guaxininho",
     "description": "El Zigzagoon de Galar desarrolló este aspecto tras adaptarse a otras regiones. Muestra una gran habilidad a la hora de encontrar cosas.",
     "abilities": [
       {
@@ -41185,7 +41185,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 263,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rushing Pokémon ",
+    "genus": "Pokémon Apressado",
     "description": "Abate suas presas con su vertiginosa velocidad y sus afiladas garras. Los trayectos sinuosos merman notablemente su capacidad para correr.",
     "abilities": [
       {
@@ -41423,7 +41423,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Water Weed Pokémon ",
+    "genus": "Pokémon Alga d'Água",
     "description": "El excesivo tamaño y peso de la hoja que tiene en la cabeza ha propiciado que viva flotando na água.",
     "abilities": [
       {
@@ -41469,7 +41469,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 270,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Jolly Pokémon ",
+    "genus": "Pokémon Alegre",
     "description": "vive em las riberas bañadas por el sol. De día duerme sobre un lecho de plantas acuáticas y de noche entra en acción.",
     "abilities": [
       {
@@ -41515,7 +41515,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 271,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Carefree Pokémon ",
+    "genus": "Pokémon Despreocupado",
     "description": "Mover seu corpo al ritmo de música festiva puede hacer que aumente su fuerza.",
     "abilities": [
       {
@@ -41560,7 +41560,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Acorn Pokémon ",
+    "genus": "Pokémon Bolota",
     "description": "Se cuelga de las ramas con el extremo de la cabeza. A veces se cae cuando soplan vientos fuertes.",
     "abilities": [
       {
@@ -41606,7 +41606,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 273,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Wily Pokémon ",
+    "genus": "Pokémon Astuto",
     "description": "vive em las oquedades de los árboles grandes. El sonido que emite al usar la hoja de la cabeza como flauta asusta a quienes lo escuchan.",
     "abilities": [
       {
@@ -41652,7 +41652,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 274,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Wicked Pokémon ",
+    "genus": "Pokémon Malicioso",
     "description": "Vive sigiloso en lo más profundo del bosque. diz-se que con sus abanicos puede generar vientos gélidos.",
     "abilities": [
       {
@@ -41698,7 +41698,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tiny Swallow Pokémon ",
+    "genus": "Pokémon Andorinha Pequena",
     "description": "Taillow es pequeño, está recién salido del nido. Por eso, se siente solo con frecuencia y se pone a piar. Este Pokémon alimenta-se de los Wurmple que hay por el bosque.",
     "abilities": [
       {
@@ -41739,7 +41739,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 276,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Swallow Pokémon ",
+    "genus": "Pokémon Andorinha",
     "description": "Swellow se preocupa a conciencia del mantenimiento de sus lustrosas alas. Cuando hay dos juntos, el uno se ocupa de limpiarle las alas al otro.",
     "abilities": [
       {
@@ -41780,7 +41780,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Seagull Pokémon ",
+    "genus": "Pokémon Gaivota",
     "description": "Aprovecha las corrientes de aire para ganar altura sin necesidad de batir las alas. Anida en acantilados costeros.",
     "abilities": [
       {
@@ -41826,7 +41826,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 278,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Water Bird Pokémon ",
+    "genus": "Pokémon Pássaro d'Água",
     "description": "Vuela a ras de la superficie marina para llenar su inmenso pico de agua y comida, que se lleva consigo.",
     "abilities": [
       {
@@ -41872,7 +41872,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Feeling Pokémon ",
+    "genus": "Pokémon Sentimento",
     "description": "Si sus cuernos perciben emociones positivas de personas o Pokémon, seu corpo se calienta un poco.",
     "abilities": [
       {
@@ -41918,7 +41918,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 280,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Emotion Pokémon ",
+    "genus": "Pokémon Emoção",
     "description": "Con sus poderes psíquicos puede deformar el espacio a su alrededor y predecir el futuro.",
     "abilities": [
       {
@@ -41964,7 +41964,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 281,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Embrace Pokémon ",
+    "genus": "Pokémon Abraço",
     "description": "Para proteger a su Entrenador, emplea todo su poder psíquico en crear un pequeño agujero negro.",
     "abilities": [
       {
@@ -42010,7 +42010,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Pond Skater Pokémon ",
+    "genus": "Pokémon Alfaiate d'Água",
     "description": "vive em estanques y pantanales donde abunde la flora acuática y compite fieramente con los Dewpider por el territorio y el sustento.",
     "abilities": [
       {
@@ -42051,7 +42051,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 283,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Eyeball Pokémon ",
+    "genus": "Pokémon Globo Ocular",
     "description": "Sus grandes antenas en forma de ojos tienden a absorber humedad. Los días de lluvia, se refugia en cavidades de los árboles y espera paciente.",
     "abilities": [
       {
@@ -42182,7 +42182,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Slacker Pokémon ",
+    "genus": "Pokémon Preguiçoso",
     "description": "A Slakoth le late el corazón una vez por minuto. Ya puede pasar lo que pase, que este Pokémon no mueve un dedo. Está todo el día holgazaneando. Es muy raro verlo en movimiento.",
     "abilities": [
       {
@@ -42217,7 +42217,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 287,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Wild Monkey Pokémon ",
+    "genus": "Pokémon Macaco Selvagem",
     "description": "A Vigoroth le resulta totalmente imposible estarse quieto. Cuando intenta dormir, la sangre le fluye a velocidad de vértigo y se pone a correr por el bosque de un lado a otro hasta que se calma.",
     "abilities": [
       {
@@ -42252,7 +42252,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 288,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Lazy Pokémon ",
+    "genus": "Pokémon Preguiçoso",
     "description": "Cuando Slaking se instala a vivir en una zona, aparecen círculos de un metro de radio de terreno baldío, pues se come todo el césped que pilla mientras está tumbado boca abajo.",
     "abilities": [
       {
@@ -42288,7 +42288,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Trainee Pokémon ",
+    "genus": "Pokémon Aprendiz",
     "description": "Pueden pasar más de diez años bajo tierra. Absorben nutrientes de las raíces de los árboles.",
     "abilities": [
       {
@@ -42370,7 +42370,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 290,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Shed Pokémon ",
+    "genus": "Pokémon Muda de Pele",
     "description": "Es un Pokémon muy peculiar: revolotea sin batir las alas, no respira y seu corpo está hueco por dentro.",
     "abilities": [
       {
@@ -42405,7 +42405,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Whisper Pokémon ",
+    "genus": "Pokémon Sussurro",
     "description": "Al chillar, se asusta con su propia voz, lo cual le lleva a gritar más fuerte todavía. Cuando se cansa, se echa a dormir.",
     "abilities": [
       {
@@ -42445,7 +42445,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 293,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big Voice Pokémon ",
+    "genus": "Pokémon Voz Poderosa",
     "description": "Su voz no afecta solo al oído. Sus ondas sonoras provocan variaciones de presión en el aire que hacen que sus enemigos salgan despedidos.",
     "abilities": [
       {
@@ -42485,7 +42485,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 294,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Loud Noise Pokémon ",
+    "genus": "Pokémon Barulhento",
     "description": "além disso de sus bramidos, é capaz de emitir distintos tonos por los tubos de seu corpo, que le permiten comunicarse con sus semejantes.",
     "abilities": [
       {
@@ -42525,7 +42525,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Guts Pokémon ",
+    "genus": "Pokémon Destemido",
     "description": "Dicen que los Entrenadores dan de comer a sus Makuhita un guiso tradicional para que se hagan más fuertes todavía.",
     "abilities": [
       {
@@ -42570,7 +42570,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 296,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Arm Thrust Pokémon ",
+    "genus": "Pokémon Empurrão",
     "description": "No todos los Hariyama son grandotes, recios y fuertes. também los hay de menor tamaño pero mayor agilidad y precisión en los movimientos.",
     "abilities": [
       {
@@ -42616,7 +42616,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Polka Dot Pokémon ",
+    "genus": "Pokémon Bolinhas",
     "description": "Es un Pokémon tranquilo, pero, si se le hace enfadar, atacará utilizando la enorme bola que tiene en la cola.",
     "abilities": [
       {
@@ -42661,7 +42661,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Compass Pokémon ",
+    "genus": "Pokémon Bússola",
     "description": "Su potente fuerza magnética le permite atraer suas presas sin necesidad de moverse, aunque a veces também atrae seus inimigos naturales.",
     "abilities": [
       {
@@ -42706,7 +42706,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Kitten Pokémon ",
+    "genus": "Pokémon Gatinho",
     "description": "Skitty es conocido por la costumbre que tiene de juguetear y de intentar pillarse la cola. En estado salvaje, habita en las cavidades de los troncos de los árboles del bosque. Es la mascota de muchos por lo dulce que parece.",
     "abilities": [
       {
@@ -42751,7 +42751,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 300,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Prim Pokémon ",
+    "genus": "Pokémon Formal",
     "description": "Delcatty duerme en cualquier lugar sin tener que mantener el nido en un mismo sitio. Si otro Pokémon se le acerca mientras duerme, no se pondrá a luchar con él; simplemente se irá a otro sitio.",
     "abilities": [
       {
@@ -42843,7 +42843,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Deceiver Pokémon ",
+    "genus": "Pokémon Trapaceiro",
     "description": "Sus otrora cuernos de acero se han transformado en grandes fauces con las que muerde seus inimigos.",
     "abilities": [
       {
@@ -43027,7 +43027,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Meditate Pokémon ",
+    "genus": "Pokémon Meditação",
     "description": "Meditite aumenta su energía interior mediante meditación. Para subsistir le basta con una baya al día. El comer poco entra dentro de su entrenamiento.",
     "abilities": [
       {
@@ -43068,7 +43068,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 307,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Meditate Pokémon ",
+    "genus": "Pokémon Meditação",
     "description": "através de la meditación, Medicham desarrolló su sexto sentido y aprendió a usar poderes psicoquinéticos. Se sabe que este Pokémon puede pasarse un mes meditando y sin comer.",
     "abilities": [
       {
@@ -43153,7 +43153,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 309,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Discharge Pokémon ",
+    "genus": "Pokémon Descarga",
     "description": "Rara vez aparece ante la gente. Dicen que suele colocar su madriguera donde caen rayos.",
     "abilities": [
       {
@@ -43198,7 +43198,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cheering Pokémon ",
+    "genus": "Pokémon Torcedor",
     "description": "Cuando Plusle está animando a su compañero, resplandece y provoca un chisporroteo que le rodea todo el cuerpo. Si su compañero pierde, se pone a chillar a voz en grito.",
     "abilities": [
       {
@@ -43238,7 +43238,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cheering Pokémon ",
+    "genus": "Pokémon Torcedor",
     "description": "Minun empieza a echar chispas cuando está animando a su compañero en pleno combate. Si su compañero está en peligro, el chisporroteo aumenta su intensidad por momentos.",
     "abilities": [
       {
@@ -43278,7 +43278,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Firefly Pokémon ",
+    "genus": "Pokémon Vagalume",
     "description": "La cola de Volbeat brilla como una bombilla. Ante otro de su grupo, la usa para dibujar formas geométricas en la oscuridad del cielo à noite. Este Pokémon adora el dulce aroma que desprende Illumise.",
     "abilities": [
       {
@@ -43323,7 +43323,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Firefly Pokémon ",
+    "genus": "Pokémon Vagalume",
     "description": "Illumise guía en el vuelo a un grupo de iluminados Volbeat para que hagan dibujos en el oscuro cielo. Según dicen, cuanto más complejos sean los dibujos, más le respetan los miembros de su grupo.",
     "abilities": [
       {
@@ -43369,7 +43369,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 406,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Thorn Pokémon ",
+    "genus": "Pokémon Espinho",
     "description": "Ataca con sus manos, cada una de las cuales contem um tipo de veneno diferente. Cuanto más intenso es su aroma, mejor salud tiene.",
     "abilities": [
       {
@@ -43414,7 +43414,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Stomach Pokémon ",
+    "genus": "Pokémon Estômago",
     "description": "La mayor parte del cuerpo de Gulpin está ocupado por su estómago. En comparación, el corazón y el cerebro son muy pequeños. Este Pokémon tiene enzimas especiales en el estómago capaces de corroerlo todo.",
     "abilities": [
       {
@@ -43459,7 +43459,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 316,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Poison Bag Pokémon ",
+    "genus": "Pokémon Bolsa de Veneno",
     "description": "Swalot no tiene dientes, así que lo que come se lo traga de una vez; da igual lo que sea. A este Pokémon le cabría un neumático en la boca sin problema.",
     "abilities": [
       {
@@ -43505,7 +43505,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Savage Pokémon ",
+    "genus": "Pokémon Selvagem",
     "description": "Los marineros evitan por completo las zonas donde habita este Pokémon de afilados colmillos y mandíbulas poderosas.",
     "abilities": [
       {
@@ -43546,7 +43546,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 318,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Brutal Pokémon ",
+    "genus": "Pokémon Brutal",
     "description": "Conocido como el Terror de los Mares, ataca sin excepción a todo barco que ose adentrarse en su territorio oceánico.",
     "abilities": [
       {
@@ -43586,7 +43586,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ball Whale Pokémon ",
+    "genus": "Pokémon Baleia Bola",
     "description": "Cuando traga una gran cantidad de agua marina, se hincha hasta parecer una pelota. Necesita una tonelada de alimento al día.",
     "abilities": [
       {
@@ -43631,7 +43631,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 320,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Float Whale Pokémon ",
+    "genus": "Pokémon Baleia Flutuante",
     "description": "Su descomunal tamaño lo convierte en un Pokémon muy popular. Los enclaves turísticos donde se avistan Wailord son todo un éxito.",
     "abilities": [
       {
@@ -43677,7 +43677,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Numb Pokémon ",
+    "genus": "Pokémon Entorpecente",
     "description": "Numel acumula en su interior un magma de 1200 °C. Si se moja, el magma se enfría y se solidifica. Cuando esto ocurre, aumenta su tamaño y se vuelve pesado y lento en sus movimientos.",
     "abilities": [
       {
@@ -43723,7 +43723,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 322,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Eruption Pokémon ",
+    "genus": "Pokémon Erupção",
     "description": "Las jorobas de Camerupt se originaron por una deformación de los huesos. A veces escupen magma líquido, sobre todo cuando el Pokémon se enfada.",
     "abilities": [
       {
@@ -43768,7 +43768,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Coal Pokémon ",
+    "genus": "Pokémon Carvão",
     "description": "Se junta con numerosos congéneres para establecer su morada en minas abandonadas, donde se afanan en localizar y extraer carbón.",
     "abilities": [
       {
@@ -43813,7 +43813,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bounce Pokémon ",
+    "genus": "Pokémon Saltitante",
     "description": "Spoink lleva una perla en la cabeza, que sirve para amplificar los poderes psicoquinéticos que tiene. Por eso, está continuamente buscando una perla mayor.",
     "abilities": [
       {
@@ -43858,7 +43858,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 325,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Manipulate Pokémon ",
+    "genus": "Pokémon Manipulador",
     "description": "Grumpig utiliza las perlas negras que tiene para usar fantásticos poderes mientras baila de forma muy extraña. Las perlas de este Pokémon están consideradas como valiosas obras de arte.",
     "abilities": [
       {
@@ -43903,7 +43903,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spot Panda Pokémon ",
+    "genus": "Pokémon Panda Malhado",
     "description": "Los dibujos en el pelaje de cada Spinda son diferentes. Esquiva de forma asombrosa los ataques de los rivales graças a sus tambaleos.",
     "abilities": [
       {
@@ -43948,7 +43948,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ant Pit Pokémon ",
+    "genus": "Pokémon Formigueiro",
     "description": "Excava fosas cóncavas, de las cuales resulta imposible escapar, y espera a que una presa caiga en su interior.",
     "abilities": [
       {
@@ -43994,7 +43994,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 328,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Vibration Pokémon ",
+    "genus": "Pokémon Vibração",
     "description": "Para terminar de desarrollar suas asas, se nutre a diario de un gran número de presas, a las que disuelve con ácido antes de devorarlas.",
     "abilities": [
       {
@@ -44030,7 +44030,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 329,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mystic Pokémon ",
+    "genus": "Pokémon Místico",
     "description": "El batir de suas asas suena como un bello canto de mujer. Se lo conoce como el Alma del Desierto.",
     "abilities": [
       {
@@ -44065,7 +44065,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cactus Pokémon ",
+    "genus": "Pokémon Cacto",
     "description": "Cuanto más árido y hostil sea el hábitat de Cacnea, más bonita y aromática será la flor que le crece. Este Pokémon lucha agitando violentamente los brazos cargados de pinchos que tiene.",
     "abilities": [
       {
@@ -44106,7 +44106,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 331,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scarecrow Pokémon ",
+    "genus": "Pokémon Espantalho",
     "description": "Cuando alguien se adentra en un desierto à noite, Cacturne le sigue junto con varios de los suyos. Este Pokémon espera pacientemente a que el viajero se fatigue y no pueda continuar más, vencido por el cansancio.",
     "abilities": [
       {
@@ -44147,7 +44147,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cotton Bird Pokémon ",
+    "genus": "Pokémon Pássaro de Algodão",
     "description": "suas asas parecen nubes algodonadas y lo ocultan de sus rivales. Se cree que se volvieron blancas con el paso de las generaciones.",
     "abilities": [
       {
@@ -44188,7 +44188,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 333,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Humming Pokémon ",
+    "genus": "Pokémon Cantador",
     "description": "Es de carácter amable, pero, si monta en cólera, intimidará al oponente con estridentes chillidos y atacará sin piedad.",
     "abilities": [
       {
@@ -44228,7 +44228,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cat Ferret Pokémon ",
+    "genus": "Pokémon Furão-gato",
     "description": "Zangoose suele caminar a cuatro patas, pero Quando fica irritado se pone de pie sobre las traseras y saca las zarpas. Este Pokémon tiene desde hace varias generaciones una áspera rivalidad con Seviper.",
     "abilities": [
       {
@@ -44268,7 +44268,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fang Snake Pokémon ",
+    "genus": "Pokémon Serpente de Presas",
     "description": "Seviper tem uma cola que parece una espada y le sirve para dar un sablazo al enemigo y para envenenarlo. Este Pokémon se mantiene firme en la enemistad que siente hacia Zangoose.",
     "abilities": [
       {
@@ -44309,7 +44309,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Meteorite Pokémon ",
+    "genus": "Pokémon Meteorito",
     "description": "Fue descubierto hace 40 años en el lugar donde había caído un meteorito. Le basta fulminar seus inimigos con la mirada para dormirlos.",
     "abilities": [
       {
@@ -44345,7 +44345,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Meteorite Pokémon ",
+    "genus": "Pokémon Meteorito",
     "description": "Usa el sol como fuente de energía, por isso es más poderoso de día. Brilla al rotar.",
     "abilities": [
       {
@@ -44381,7 +44381,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Whiskers Pokémon ",
+    "genus": "Pokémon Bigodes",
     "description": "Examina los lechos lodosos de los ríos con los largos bigotes que tiene. Está protegido por una capa viscosa.",
     "abilities": [
       {
@@ -44427,7 +44427,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 339,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Whiskers Pokémon ",
+    "genus": "Pokémon Bigodes",
     "description": "Habita en grandes pantanos. Si se acerca un enemigo, monta en cólera y causa temblores monumentales.",
     "abilities": [
       {
@@ -44472,7 +44472,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ruffian Pokémon ",
+    "genus": "Pokémon Rufião",
     "description": "Si bien procede del extranjero, ahora se halla en estado salvaje. Puede vivir hasta en los ríos más sucios.",
     "abilities": [
       {
@@ -44518,7 +44518,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 341,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rogue Pokémon ",
+    "genus": "Pokémon Trapaceiro",
     "description": "Le encanta pelear, devido a su naturaleza. Si alguien se acerca a su madriguera, le propinará una paliza sin ningún tipo de miramiento.",
     "abilities": [
       {
@@ -44564,7 +44564,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Clay Doll Pokémon ",
+    "genus": "Pokémon Boneco de Argila",
     "description": "Fue hallado en unas ruinas antiguas. Se desplaza girando sobre sí mismo y se mantiene sobre una extremidad inclusive Quando dorme.",
     "abilities": [
       {
@@ -44600,7 +44600,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 343,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Clay Doll Pokémon ",
+    "genus": "Pokémon Boneco de Argila",
     "description": "Dicen que surgió de una figurilla de barro hecha por una antigua civilización. Usa telequinesia para levitar y moverse.",
     "abilities": [
       {
@@ -44636,7 +44636,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sea Lily Pokémon ",
+    "genus": "Pokémon Lírio-do-mar",
     "description": "Se ancla a una roca en el lecho marino y atrapa a las presas que se le acercan con sus tentáculos en forma de pétalos.",
     "abilities": [
       {
@@ -44677,7 +44677,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 345,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Barnacle Pokémon ",
+    "genus": "Pokémon Craca",
     "description": "Atrapa suas presas con los tentáculos y enseguida las disuelve con sus jugos gástricos para absorber los nutrientes.",
     "abilities": [
       {
@@ -44718,7 +44718,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Old Shrimp Pokémon ",
+    "genus": "Pokémon Camarão Antigo",
     "description": "Puede nadar rápidamente graças a sus ocho alas que usa a modo de remo. Es uno de los antepasados de los Pokémon insecto.",
     "abilities": [
       {
@@ -44759,7 +44759,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 347,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Plate Pokémon ",
+    "genus": "Pokémon Placa",
     "description": "vive em tierra firme, pero es un hábil nadador. Se zambulle na água en busca de presas y las atrapa con sus afiladas pinzas.",
     "abilities": [
       {
@@ -44844,7 +44844,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 349,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tender Pokémon ",
+    "genus": "Pokémon Carinhoso",
     "description": "diz-se que su hermosa figura puede apaciguar el corazón de aquellos que tengan el ánimo alterado.",
     "abilities": [
       {
@@ -44889,7 +44889,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Weather Pokémon ",
+    "genus": "Pokémon Clima",
     "description": "El tiempo atmosférico cambia tanto su aspecto como su estado de ánimo. Cuanto más arrecia, más agresivo se vuelve.",
     "abilities": [
       {
@@ -44924,7 +44924,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Color Swap Pokémon ",
+    "genus": "Pokémon Troca-cor",
     "description": "inclusive cuando no se está mimetizando, el color de seu corpo cambia según cómo se encuentre. Un color más intenso indica mayor vitalidad.",
     "abilities": [
       {
@@ -44964,7 +44964,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Puppet Pokémon ",
+    "genus": "Pokémon Marionete",
     "description": "Según un viejo proverbio, conviene mantenerse alejado de aquellas casas a las que se arrime una multitud de Shuppet cuando cae la noche.",
     "abilities": [
       {
@@ -45009,7 +45009,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 353,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Marionette Pokémon ",
+    "genus": "Pokémon Marionete",
     "description": "El rencor de haber sido tirado a la basura fue lo que le dio vida. diz-se que puede convertirse novamente en muñeco si se le trata con cariño.",
     "abilities": [
       {
@@ -45054,7 +45054,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Requiem Pokémon ",
+    "genus": "Pokémon Réquiem",
     "description": "Se vuelve invisible para acercarse sigilosamente a su presa. é capaz de atravesar anchos muros.",
     "abilities": [
       {
@@ -45094,7 +45094,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 355,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Beckon Pokémon ",
+    "genus": "Pokémon Aceno",
     "description": "Busca fuegos fatuos y los absorbe en seu corpo hueco. Lo que pasa dentro luego es un misterio.",
     "abilities": [
       {
@@ -45135,7 +45135,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fruit Pokémon ",
+    "genus": "Pokémon Fruta",
     "description": "A la gente le encanta la deliciosa fruta de sus racimos. En las regiones cálidas abundan las granjas que se dedican a criar Tropius.",
     "abilities": [
       {
@@ -45180,7 +45180,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 433,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Wind Chime Pokémon ",
+    "genus": "Pokémon Sino de Vento",
     "description": "Cuando hay viento fuerte, Chimecho chilla colgado de la rama de un árbol o de los aleros de un edificio por la ventosa que tiene en la cabeza. Este Pokémon usa la larga cola que tiene para agarrar bayas y comérselas.",
     "abilities": [
       {
@@ -45215,7 +45215,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Disaster Pokémon ",
+    "genus": "Pokémon Desastre",
     "description": "devido a su capacidad para predecir desastres, se lo ha considerado desacertadamente un Pokémon portador de desgracias.",
     "abilities": [
       {
@@ -45260,7 +45260,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bright Pokémon ",
+    "genus": "Pokémon Brilhante",
     "description": "Suelen ir en grupo y, a la hora de dormir, se pegan unos a otros para descansar resguardados en cuevas.",
     "abilities": [
       {
@@ -45300,7 +45300,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Snow Hat Pokémon ",
+    "genus": "Pokémon Chapéu de Neve",
     "description": "Las regiones frías son su hábitat natural. Se encuentra a sus anchas inclusive en lugares donde la temperatura alcanza los -100 °C.",
     "abilities": [
       {
@@ -45345,7 +45345,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 361,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Face Pokémon ",
+    "genus": "Pokémon Rosto",
     "description": "Congela suas presas helando en un momento la humedad contenida en el aire que lo rodea.",
     "abilities": [
       {
@@ -45391,7 +45391,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Clap Pokémon ",
+    "genus": "Pokémon Aplauso",
     "description": "Flota entre las olas para examinar el océano. Si encuentra una presa, avisa enseguida a los Walrein de su manada.",
     "abilities": [
       {
@@ -45437,7 +45437,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 363,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ball Roll Pokémon ",
+    "genus": "Pokémon Rola-bola",
     "description": "Tiene la costumbre de hacer girar en la punta del morro cualquier objeto redondeado, ya sea una Poké Ball o un Spheal.",
     "abilities": [
       {
@@ -45483,7 +45483,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 364,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ice Break Pokémon ",
+    "genus": "Pokémon Quebra-gelo",
     "description": "Sus colmillos nunca dejan de crecer. Aunque los pierda en un combate, al cabo de un año ya los habrá regenerado por completo.",
     "abilities": [
       {
@@ -45528,7 +45528,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bivalve Pokémon ",
+    "genus": "Pokémon Bivalve",
     "description": "La perla que contiene vale un potosí. De hecho, su precio puede llegar a ser inclusive más de diez veces superior al de la perla de Shellder.",
     "abilities": [
       {
@@ -45568,7 +45568,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 366,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Deep Sea Pokémon ",
+    "genus": "Pokémon Mar Profundo",
     "description": "vive em los fondos marinos. Según una leyenda, que un Huntail aparezca varado en la playa es señal de mal augurio.",
     "abilities": [
       {
@@ -45608,7 +45608,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 366,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "South Sea Pokémon ",
+    "genus": "Pokémon Mar do Sul",
     "description": "Absorbe los fluidos corporales de su presa. Los restos que deja caen hasta el lecho marino y se convierten en alimento para otros Pokémon.",
     "abilities": [
       {
@@ -45649,7 +45649,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Longevity Pokémon ",
+    "genus": "Pokémon Longevidade",
     "description": "Fue descubierto durante una expedición marina. Se lo considera un fósil viviente, pues no ha cambiado en cien millones de años.",
     "abilities": [
       {
@@ -45694,7 +45694,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rendezvous Pokémon ",
+    "genus": "Pokémon Encontro",
     "description": "vive em los arrecifes de coral de mares cálidos. Dormir entre las ramas de los Corsola es algo por isso siente una especial predilección.",
     "abilities": [
       {
@@ -45734,7 +45734,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rock Head Pokémon ",
+    "genus": "Pokémon Cabeça de Rocha",
     "description": "vive em solitario, sin formar manadas, y posee una cabeza dura como la piedra que le permite hacer añicos rocas enormes de un solo golpe.",
     "abilities": [
       {
@@ -45774,7 +45774,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 371,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Endurance Pokémon ",
+    "genus": "Pokémon Resistência",
     "description": "Aguanta el hambre sin comer nada. Al parecer, inicia el proceso evolutivo cuando se agota toda la energía que tenía acumulada.",
     "abilities": [
       {
@@ -45856,7 +45856,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Iron Ball Pokémon ",
+    "genus": "Pokémon Bola de Ferro",
     "description": "Las células de seu corpo están hechas de imanes. En lugar de sangre, una fuerza magnética recorre seu corpo.",
     "abilities": [
       {
@@ -45897,7 +45897,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 374,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Iron Claw Pokémon ",
+    "genus": "Pokémon Garra de Ferro",
     "description": "Levita graças al magnetismo. é capaz de sortear escarpadas montañas mientras vuela a altas velocidades en pos de su presa.",
     "abilities": [
       {
@@ -45938,7 +45938,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 375,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Iron Leg Pokémon ",
+    "genus": "Pokémon Perna de Ferro",
     "description": "Formado a partir de la unión de dos Metang. Emplea su inteligencia, comparable a la de un superordenador, para derrotar a sus rivales.",
     "abilities": [
       {
@@ -45978,7 +45978,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Rock Peak Pokémon ",
+    "genus": "Pokémon Pico Rochoso",
     "description": "seu corpo rocoso ha sido examinado con las técnicas científicas más avanzadas, pero no se han encontrado ni su cerebro ni su corazón.",
     "abilities": [
       {
@@ -46018,7 +46018,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Iceberg Pokémon ",
+    "genus": "Pokémon Iceberg",
     "description": "Todo seu corpo está compuesto de hielo. diz-se que surgió bajo una gruesa placa de hielo durante alguna glaciación.",
     "abilities": [
       {
@@ -46058,7 +46058,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Iron Pokémon ",
+    "genus": "Pokémon Ferro",
     "description": "Dicen que se formó en el manto terrestre y ascendió a la superficie hace aproximadamente diez mil años.",
     "abilities": [
       {
@@ -46099,7 +46099,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Eon Pokémon ",
+    "genus": "Pokémon Éon",
     "description": "Latias tem um nivel de inteligencia tan alto que é capaz de entender el lenguaje humano. Este Pokémon usa el plumón cristalizado del que está cubierto como peto para refractar la luz y cambiar de aspecto.",
     "abilities": [
       {
@@ -46135,7 +46135,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Eon Pokémon ",
+    "genus": "Pokémon Éon",
     "description": "Latios solo le abre el corazón a los Entrenadores compasivos. A la hora de volar, este Pokémon pliega las patas delanteras para minimizar la resistencia al aire y supera en velocidad a un avión a reacción.",
     "abilities": [
       {
@@ -46170,7 +46170,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Sea Basin Pokémon ",
+    "genus": "Pokémon Bacia Marinha",
     "description": "A Kyogre sempre se le ha descrito como el Pokémon que expandió los océanos. Varias leyendas cuentan que libró combates contra Groudon en repetidas ocasiones para tener el control de la energía de la naturaleza.",
     "abilities": [
       {
@@ -46277,7 +46277,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Wish Pokémon ",
+    "genus": "Pokémon Desejo",
     "description": "diz-se que concederá los deseos escritos en las notas de sua cabeça cuando se despierte de su sueño milenario.",
     "abilities": [
       {
@@ -46312,7 +46312,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "DNA Pokémon ",
+    "genus": "Pokémon DNA",
     "description": "Deoxys surgió a partir de un virus espacial. tem um alto nivel intelectual y poderes psicoquinéticos. Este Pokémon dispara rayos láser por el órgano cristalino que tiene en el torso.",
     "abilities": [
       {
@@ -46347,7 +46347,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tiny Leaf Pokémon ",
+    "genus": "Pokémon Folhinha",
     "description": "Realiza la fotosíntesis para obtener oxígeno. Si tiene sed, las hojas de la cabeza se marchitan.",
     "abilities": [
       {
@@ -46387,7 +46387,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 387,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Grove Pokémon ",
+    "genus": "Pokémon Arvoredo",
     "description": "Sabe dónde encontrar manantiales de agua pura y lleva a los Pokémon amigos hasta allí en su lomo.",
     "abilities": [
       {
@@ -46590,7 +46590,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Penguin Pokémon ",
+    "genus": "Pokémon Pinguim",
     "description": "Es muy orgulloso, por isso odia aceptar comida de la gente. Su grueso plumón lo protege del frío.",
     "abilities": [
       {
@@ -46630,7 +46630,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 393,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Penguin Pokémon ",
+    "genus": "Pokémon Pinguim",
     "description": "No hace amigos. Puede partir en dos un árbol gigantesco de un fuerte aletazo.",
     "abilities": [
       {
@@ -46671,7 +46671,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 394,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Emperor Pokémon ",
+    "genus": "Pokémon Imperador",
     "description": "Los tres cuernos de su pico son muestra de su fuerza. El líder tiene los cuernos más grandes.",
     "abilities": [
       {
@@ -46712,7 +46712,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Starling Pokémon ",
+    "genus": "Pokémon Estorninho",
     "description": "Sobrevuela los campos buscando Pokémon de tipo Bicho. Chilla de forma muy estridente.",
     "abilities": [
       {
@@ -46753,7 +46753,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 396,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Starling Pokémon ",
+    "genus": "Pokémon Estorninho",
     "description": "vive em bosques y campos. Si dos bandadas se encuentran, pelean por el territorio.",
     "abilities": [
       {
@@ -46794,7 +46794,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 397,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Predator Pokémon ",
+    "genus": "Pokémon Predador",
     "description": "Al evolucionar a Staraptor deja su bandada y pasa a vivir en soledad. suas asas son inmensas.",
     "abilities": [
       {
@@ -46834,7 +46834,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Plump Mouse Pokémon ",
+    "genus": "Pokémon Rato Rechonchudo",
     "description": "Roe constantemente los troncos y las rocas para limarse los dientes. Anida cerca del agua.",
     "abilities": [
       {
@@ -46880,7 +46880,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 399,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Beaver Pokémon ",
+    "genus": "Pokémon Castor",
     "description": "Para anidar, crea presas en los ríos con maderas y barro. Tiene fama de trabajador.",
     "abilities": [
       {
@@ -46925,7 +46925,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cricket Pokémon ",
+    "genus": "Pokémon Grilo",
     "description": "Si choca sus antenas, emite un sonido similar al de un xilófono.",
     "abilities": [
       {
@@ -46965,7 +46965,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 401,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cricket Pokémon ",
+    "genus": "Pokémon Grilo",
     "description": "Los científicos tratan de estudiar sus melodías, que son reflejo de sus emociones.",
     "abilities": [
       {
@@ -47005,7 +47005,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Flash Pokémon ",
+    "genus": "Pokémon Clarão",
     "description": "Su pelaje brilla graças a la electricidad. Envía señales a sus semejantes agitando la punta luminosa de la cola.",
     "abilities": [
       {
@@ -47050,7 +47050,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 403,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spark Pokémon ",
+    "genus": "Pokémon Faísca",
     "description": "Cuando encuentra a un adversario, se prepara para combatir sacando las garras, que emiten una corriente eléctrica de un millón de voltios.",
     "abilities": [
       {
@@ -47095,7 +47095,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 404,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Gleam Eyes Pokémon ",
+    "genus": "Pokémon Olhos Cintilantes",
     "description": "Duerme durante largos períodos para recuperar la enorme cantidad de electricidad que consume al usar su capacidad para ver através de objetos.",
     "abilities": [
       {
@@ -47141,7 +47141,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bud Pokémon ",
+    "genus": "Pokémon Broto",
     "description": "Es muy sensible a los cambios de temperatura. Anuncia la llegada inminente de la primavera cuando florece.",
     "abilities": [
       {
@@ -47187,7 +47187,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 315,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bouquet Pokémon ",
+    "genus": "Pokémon Buquê",
     "description": "Las toxinas de la mano derecha son de efecto inmediato, y las de la izquierda, retardado. No obstante, ambas pueden ser letales.",
     "abilities": [
       {
@@ -47232,7 +47232,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Head Butt Pokémon ",
+    "genus": "Pokémon Cabeçada",
     "description": "Se caracteriza por la dureza de su cráneo. Derribaba árboles a cabezazos para comerse las bayas maduras que colgaban de ellos.",
     "abilities": [
       {
@@ -47272,7 +47272,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 408,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Head Butt Pokémon ",
+    "genus": "Pokémon Cabeçada",
     "description": "Pokémon prehistórico especializado en dar cabezazos. Una teoría atribuye su extinción a su cerebro pequeño y a su poca inteligencia.",
     "abilities": [
       {
@@ -47313,7 +47313,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Shield Pokémon ",
+    "genus": "Pokémon Escudo",
     "description": "Los fósiles que se han encontrado hasta ahora en estratos prehistóricos pertenecen solo a su cara.",
     "abilities": [
       {
@@ -47354,7 +47354,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 410,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Shield Pokémon ",
+    "genus": "Pokémon Escudo",
     "description": "Un Pokémon con una antigüedad de unos cien millones de años. Su rostro posee una dureza impresionante, superior inclusive a la del acero.",
     "abilities": [
       {
@@ -47394,7 +47394,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bagworm Pokémon ",
+    "genus": "Pokémon Bicho-do-cesto",
     "description": "Si su caparazón se rompe en combate, lo rehace rápidamente con lo que tenga a mano.",
     "abilities": [
       {
@@ -47435,7 +47435,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 412,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bagworm Pokémon ",
+    "genus": "Pokémon Bicho-do-cesto",
     "description": "Cuando Burmy evolucionó, su caparazón pasó a formar parte de este Pokémon.",
     "abilities": [
       {
@@ -47476,7 +47476,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 412,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Moth Pokémon ",
+    "genus": "Pokémon Mariposa",
     "description": "Hace vida nocturna. Revolotea y roba la miel de las colmenas de Combee Quando dormen.",
     "abilities": [
       {
@@ -47517,7 +47517,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tiny Bee Pokémon ",
+    "genus": "Pokémon Abelhinha",
     "description": "Recolecta néctar de sol a sol para entregarlo a la colonia y a Vespiquen.",
     "abilities": [
       {
@@ -47558,7 +47558,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 415,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Beehive Pokémon ",
+    "genus": "Pokémon Colmeia",
     "description": "Cuanto mayor sea la cantidad de feromonas que segregue, mayor será el número de Combee que pueda controlar.",
     "abilities": [
       {
@@ -47598,7 +47598,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "EleSquirrel Pokémon ",
+    "genus": "Pokémon Esquilo Elétrico",
     "description": "A veces se ve a dos frotándose las bolsas de las mejillas para compartir electricidad almacenada.",
     "abilities": [
       {
@@ -47643,7 +47643,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sea Weasel Pokémon ",
+    "genus": "Pokémon Doninha-do-mar",
     "description": "Hincha el flotador de su cuello para flotar y saca la cabeza de la superficie del agua para explorar sus alrededores.",
     "abilities": [
       {
@@ -47683,7 +47683,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 418,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sea Weasel Pokémon ",
+    "genus": "Pokémon Doninha-do-mar",
     "description": "Su flotador se desarrolló a raíz de perseguir presas acuáticas. também sirve como balsa.",
     "abilities": [
       {
@@ -47723,7 +47723,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cherry Pokémon ",
+    "genus": "Pokémon Cereja",
     "description": "Cuanto más rojo sea seu corpo, más dulce y deliciosa será su pequeña esfera repleta de nutrientes.",
     "abilities": [
       {
@@ -47758,7 +47758,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 420,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Blossom Pokémon ",
+    "genus": "Pokémon Florescimento",
     "description": "Al cerrarse, sus pétalos son tan duros que resultan inmunes a los picotazos de los Pokémon pájaro.",
     "abilities": [
       {
@@ -47793,7 +47793,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sea Slug Pokémon ",
+    "genus": "Pokémon Lesma-do-mar",
     "description": "Si se le aprieta muito forte, secreta un misterioso fluido morado que, aunque inofensivo, resulta desagradable por su viscosidad.",
     "abilities": [
       {
@@ -47839,7 +47839,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 422,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sea Slug Pokémon ",
+    "genus": "Pokémon Lesma-do-mar",
     "description": "Aunque blando, seu corpo es tremendamente resistente, ya que dispersa cualquier impacto que recibe dada su flexibilidad.",
     "abilities": [
       {
@@ -47884,7 +47884,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 190,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Long Tail Pokémon ",
+    "genus": "Pokémon Cauda Longa",
     "description": "Utiliza las dos colas para todo. Cuando abraza a alguien con ellas significa que esa persona se ha ganado por completo su confianza.",
     "abilities": [
       {
@@ -47930,7 +47930,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Balloon Pokémon ",
+    "genus": "Pokémon Balão",
     "description": "Está formado por una aglomeración de espíritus. Suele aparecer en grandes números durante las estaciones húmedas.",
     "abilities": [
       {
@@ -47976,7 +47976,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 425,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Blimp Pokémon ",
+    "genus": "Pokémon Dirigível",
     "description": "Agarra a gente y a Pokémon para llevárselos a algún sitio, aunque nadie sabe exactamente adónde.",
     "abilities": [
       {
@@ -48111,7 +48111,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 200,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Magical Pokémon ",
+    "genus": "Pokémon Mágico",
     "description": "Murmura conjuros para atormentar al enemigo y provocarle dolores de cabeza insoportables o visiones terroríficas.",
     "abilities": [
       {
@@ -48147,7 +48147,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 198,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big Boss Pokémon ",
+    "genus": "Pokémon Chefão",
     "description": "Delega el combate en sus leales súbditos y solo se involucra cuando llega la hora de asestarle el golpe de gracia al enemigo.",
     "abilities": [
       {
@@ -48192,7 +48192,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Catty Pokémon ",
+    "genus": "Pokémon Bichano",
     "description": "Dependiendo de su humor, mueve grácilmente sua cauda, que se asemeja a un lazo de gimnasia rítmica.",
     "abilities": [
       {
@@ -48237,7 +48237,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 431,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tiger Cat Pokémon ",
+    "genus": "Pokémon Gato-tigre",
     "description": "para intimidar y parecer más corpulento, se aprieta la cintura con sua cauda bífida.",
     "abilities": [
       {
@@ -48282,7 +48282,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bell Pokémon ",
+    "genus": "Pokémon Sino",
     "description": "tem uma esfera en la boca. Cuando salta, la esfera rebota y emite un tintineo.",
     "abilities": [
       {
@@ -48318,7 +48318,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Skunk Pokémon ",
+    "genus": "Pokémon Gambá",
     "description": "Si levanta la cola y apunta los cuartos traseros, es señal de que se dispone a expulsar un líquido cuyo hedor llega a provocar desmayos.",
     "abilities": [
       {
@@ -48364,7 +48364,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 434,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Skunk Pokémon ",
+    "genus": "Pokémon Gambá",
     "description": "El fluido que expulsa por la punta de la cola emana una hediondez insoportable. Construye sus madrigueras cavando hoyos en la tierra.",
     "abilities": [
       {
@@ -48410,7 +48410,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bronze Pokémon ",
+    "genus": "Pokémon Bronze",
     "description": "diz-se que brilla y refleja la verdad al pulirlo, aunque es algo que detesta.",
     "abilities": [
       {
@@ -48456,7 +48456,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 436,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bronze Bell Pokémon ",
+    "genus": "Pokémon Sino de Bronze",
     "description": "Basándose en los motivos de seu corpo, muchos eruditos creen que este Pokémon no es originario de Galar.",
     "abilities": [
       {
@@ -48501,7 +48501,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bonsai Pokémon ",
+    "genus": "Pokémon Bonsai",
     "description": "vive em entornos áridos y pedregosos. Cuanto más se secan sus esferas verdes, más destaca su sutil lustre.",
     "abilities": [
       {
@@ -48547,7 +48547,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mime Pokémon ",
+    "genus": "Pokémon Mímico",
     "description": "Su admiración por Mr. Rime, un consumado danzarín, lo lleva a seguirlo para aprender de él e imitar con esmero sus pasos de baile.",
     "abilities": [
       {
@@ -48592,7 +48592,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Playhouse Pokémon ",
+    "genus": "Pokémon Casinha",
     "description": "Les deja su preciada roca redonda a aquellos con los que se lleva bien. Si no se la devuelven, se echa a llorar, presa de una rabieta.",
     "abilities": [
       {
@@ -48638,7 +48638,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Music Note Pokémon ",
+    "genus": "Pokémon Nota Musical",
     "description": "Puede imitar el lenguaje humano. Si se juntan varios, todos aprenden las mismas palabras.",
     "abilities": [
       {
@@ -48684,7 +48684,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Forbidden Pokémon ",
+    "genus": "Pokémon Proibido",
     "description": "Un viajero utilizó un misterioso hechizo para unirlo a una Piedra Espíritu por sus constantes fechorías.",
     "abilities": [
       {
@@ -48725,7 +48725,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Land Shark Pokémon ",
+    "genus": "Pokémon Tubarão Terrestre",
     "description": "Ataca indiscriminadamente a cualquier cosa que se mueva y la arrastra a su agujero. Pese a tener una boca enorme, su estómago es pequeño.",
     "abilities": [
       {
@@ -48766,7 +48766,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 443,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cave Pokémon ",
+    "genus": "Pokémon Caverna",
     "description": "Entierra gemas en la cueva que le sirve de nido y hace trizas con suas garras y colmillos a cualquier intruso.",
     "abilities": [
       {
@@ -48807,7 +48807,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 444,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mach Pokémon ",
+    "genus": "Pokémon Supersônico",
     "description": "Se mueve em alta velocidade inclusive por tierra. é capaz de cazar una presa en una montaña nevada y volver a su guarida sin llegar a pasar frío.",
     "abilities": [
       {
@@ -48847,7 +48847,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big Eater Pokémon ",
+    "genus": "Pokémon Comilão",
     "description": "Guarda alimentos bajo el pelaje. Compartirá un pequeño bocado de vez en cuando con quien logre ganarse su confianza.",
     "abilities": [
       {
@@ -48892,7 +48892,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Emanation Pokémon ",
+    "genus": "Pokémon Emanação",
     "description": "Percibe los sentimientos de quienes lo rodean, así como las condiciones del entorno, mediante unas ondas conocidas como auras.",
     "abilities": [
       {
@@ -48983,7 +48983,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hippo Pokémon ",
+    "genus": "Pokémon Hipopótamo",
     "description": "Este Pokémon de hábitos diurnos se entierra en la arena para dormir cuando la temperatura en el desierto se desploma al caer la noche.",
     "abilities": [
       {
@@ -49023,7 +49023,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 449,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Heavyweight Pokémon ",
+    "genus": "Pokémon Peso-pesado",
     "description": "Puede ser muy agresivo Quando fica irritado. Provoca auténticas tempestades de arena al expeler la que ha tragado.",
     "abilities": [
       {
@@ -49064,7 +49064,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scorpion Pokémon ",
+    "genus": "Pokémon Escorpião",
     "description": "Ataca con las pinzas venenosas de la cola. Tras clavarlas, inyecta una toxina que inmoviliza a la presa.",
     "abilities": [
       {
@@ -49110,7 +49110,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 451,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ogre Scorpion Pokémon ",
+    "genus": "Pokémon Escorpião Ogro",
     "description": "Su ferocidad le ha granjeado el sobrenombre del Diablo de la Arena, pero en presencia de los Hippowdon se muestra dócil y pacífico.",
     "abilities": [
       {
@@ -49156,7 +49156,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Toxic Mouth Pokémon ",
+    "genus": "Pokémon Boca Tóxica",
     "description": "Su veneno posee propiedades medicinales si se diluye. Se ha vuelto muy popular desde que una empresa farmacéutica lo adoptó como mascota.",
     "abilities": [
       {
@@ -49202,7 +49202,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 453,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Toxic Mouth Pokémon ",
+    "genus": "Pokémon Boca Tóxica",
     "description": "Cuando abate una presa, emite un croar de victoria a pleno pulmón. Está emparentado con los Seismitoad.",
     "abilities": [
       {
@@ -49247,7 +49247,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bug Catcher Pokémon ",
+    "genus": "Pokémon Pega-insetos",
     "description": "Se cuelga de los árboles en los pantanos. Atrae suas presas con su dulce olor y las engulle.",
     "abilities": [
       {
@@ -49282,7 +49282,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Wing Fish Pokémon ",
+    "genus": "Pokémon Peixe Alado",
     "description": "Por el día permanece cerca de la superficie y se retira a las profundidades à noite. Atrae a las presas con sus brillantes aletas caudales.",
     "abilities": [
       {
@@ -49327,7 +49327,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 456,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Neon Pokémon ",
+    "genus": "Pokémon Neon",
     "description": "Nada arrastrándose por el lecho marino. Sus espléndidas aletas brillan como las estrellas del firmamento.",
     "abilities": [
       {
@@ -49373,7 +49373,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Kite Pokémon ",
+    "genus": "Pokémon Pipa",
     "description": "Nada con los bancos de Remoraid y lucha junto a ellos cuando los ataca un enemigo.",
     "abilities": [
       {
@@ -49419,7 +49419,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Frost Tree Pokémon ",
+    "genus": "Pokémon Árvore de Gelo",
     "description": "Las bayas con aspecto de helado que le crecen ao redor de la barriga son la comida favorita de los Darumaka que habitan en Galar.",
     "abilities": [
       {
@@ -49460,7 +49460,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 459,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Frost Tree Pokémon ",
+    "genus": "Pokémon Árvore de Gelo",
     "description": "Posee la capacidad de generar ventiscas. Si agita su enorme cuerpo, el terreno circundante queda inmediatamente cubierto de nieve.",
     "abilities": [
       {
@@ -49501,7 +49501,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 215,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sharp Claw Pokémon ",
+    "genus": "Pokémon Garra Afiada",
     "description": "Se comunican mediante marcas que tallan con suas garras. Se cree que tienen un repertorio de más de 500.",
     "abilities": [
       {
@@ -49542,7 +49542,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 82,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Magnet Area Pokémon ",
+    "genus": "Pokémon Área Magnética",
     "description": "Se piensa que estuvo expuesto a un campo magnético especial que alteró su estructura molecular e hizo que evolucionara.",
     "abilities": [
       {
@@ -49723,7 +49723,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 125,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Thunderbolt Pokémon ",
+    "genus": "Pokémon Raio Trovejante",
     "description": "Es de los Pokémon de tipo Eléctrico que más electricidad producen. Genera una corriente de alta tensión desde las puntas de las colas.",
     "abilities": [
       {
@@ -49763,7 +49763,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 126,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Blast Pokémon ",
+    "genus": "Pokémon Explosão",
     "description": "Al vivir en un cráter, seu corpo ha adquirido un aspecto similar al de un volcán y ha desarrollado un órgano parecido a una cámara magmática.",
     "abilities": [
       {
@@ -49804,7 +49804,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 176,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Jubilee Pokémon ",
+    "genus": "Pokémon Jubileu",
     "description": "diz-se que es portador de buena suerte. Por ello, su imagen aparece representada en talismanes y amuletos desde la antigüedad.",
     "abilities": [
       {
@@ -49850,7 +49850,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 193,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ogre Darner Pokémon ",
+    "genus": "Pokémon Libélula Gigante",
     "description": "Con sus seis patas puede llevar a un adulto y volar con comodidad. Se equilibra con las alas de sua cauda.",
     "abilities": [
       {
@@ -49895,7 +49895,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 133,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Verdant Pokémon ",
+    "genus": "Pokémon Verdejante",
     "description": "Se siente muy orgulloso de sua cauda afilada como una espada, con la que é capaz de cortar en dos el tronco de un árbol grueso.",
     "abilities": [
       {
@@ -49935,7 +49935,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 133,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fresh Snow Pokémon ",
+    "genus": "Pokémon Neve Fresca",
     "description": "El aire gélido que exhala crea una suerte de cristales de hielo que lo hace muy demandado en las estaciones de esquí.",
     "abilities": [
       {
@@ -49976,7 +49976,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 207,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fang Scorpion Pokémon ",
+    "genus": "Pokémon Escorpião de Presas",
     "description": "Vuela sin hacer nada de ruido. Con su larga cola captura suas presas y las muerde con sus colmillos.",
     "abilities": [
       {
@@ -50022,7 +50022,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 221,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Twin Tusk Pokémon ",
+    "genus": "Pokémon Duas Presas",
     "description": "Es tan fuerte como parece. Cuanto más frío hace, más gruesos, largos e imponentes se vuelven sus colmillos de hielo.",
     "abilities": [
       {
@@ -50113,7 +50113,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 281,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Blade Pokémon ",
+    "genus": "Pokémon Lâmina",
     "description": "é capaz de percibir al instante cuando alguien está en un aprieto y corre raudo a su lado para prestarle ayuda.",
     "abilities": [
       {
@@ -50159,7 +50159,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 299,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Compass Pokémon ",
+    "genus": "Pokémon Bússola",
     "description": "Usa sus tres pequeñas unidades para capturar presas o combatir, mientras que el resto de seu corpo se dedica casi solo a impartir órdenes.",
     "abilities": [
       {
@@ -50204,7 +50204,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 356,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Gripper Pokémon ",
+    "genus": "Pokémon Agarrador",
     "description": "Engulle a los rivales con la boca del estómago y, tras haber devorado el alma, escupe el cuerpo.",
     "abilities": [
       {
@@ -50245,7 +50245,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 361,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Snow Land Pokémon ",
+    "genus": "Pokémon Terra Nevada",
     "description": "Expulsa un vaho gélido a -50 °C con el que congela suas presas para luego llevarlas a su morada y colocarlas como adorno.",
     "abilities": [
       {
@@ -50286,7 +50286,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Plasma Pokémon ",
+    "genus": "Pokémon Plasma",
     "description": "seu corpo de plasma le permite infiltrarse en toda clase de dispositivos electrónicos. Adora sobresaltar a la gente.",
     "abilities": [
       {
@@ -50321,7 +50321,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Knowledge Pokémon ",
+    "genus": "Pokémon Conhecimento",
     "description": "diz-se que su aparición otorgó a los humanos la inteligencia para mejorar sus vidas.",
     "abilities": [
       {
@@ -50356,7 +50356,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Emotion Pokémon ",
+    "genus": "Pokémon Emoção",
     "description": "Duerme en el fondo de un lago. diz-se que su espíritu deja el cuerpo para volar sobre el agua.",
     "abilities": [
       {
@@ -50391,7 +50391,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Willpower Pokémon ",
+    "genus": "Pokémon Força de Vontade",
     "description": "Se cree que Uxie, Mesprit y Azelf provienen del mismo huevo.",
     "abilities": [
       {
@@ -50509,7 +50509,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Lava Dome Pokémon ",
+    "genus": "Pokémon Domo de Lava",
     "description": "Su sangre fluye ardiendo como si fuera magma. vive em cráteres de volcanes.",
     "abilities": [
       {
@@ -50549,7 +50549,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Colossal Pokémon ",
+    "genus": "Pokémon Colossal",
     "description": "Dicen que creó a otros Pokémon a partir de distintos materiales y que, después, colocó los continentes en su posición actual.",
     "abilities": [
       {
@@ -50625,7 +50625,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Lunar Pokémon ",
+    "genus": "Pokémon Lunar",
     "description": "Si alguien se duerme con una pluma suya, tendrá sueños maravillosos. Encarna el creciente lunar.",
     "abilities": [
       {
@@ -50660,7 +50660,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Sea Drifter Pokémon ",
+    "genus": "Pokémon Náufrago do Mar",
     "description": "Va a la deriva por mares cálidos. sempre vuelve a donde nació, por mucho que se haya alejado.",
     "abilities": [
       {
@@ -50695,7 +50695,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Seafaring Pokémon ",
+    "genus": "Pokémon Marinheiro",
     "description": "Posee un poder singular que hace que entable amistad con casi cualquier Pokémon.",
     "abilities": [
       {
@@ -50730,7 +50730,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Pitch-Black Pokémon ",
+    "genus": "Pokémon Escuridão Absoluta",
     "description": "Puede adormecer a la gente y hacerles soñar. Está activo en las noches de luna nueva.",
     "abilities": [
       {
@@ -50765,7 +50765,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Gratitude Pokémon ",
+    "genus": "Pokémon Gratidão",
     "description": "diz-se que, cuando florecen las Gracídeas, Shaymin alza el vuelo para mostrar su gratitud.",
     "abilities": [
       {
@@ -50836,7 +50836,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Victory Pokémon ",
+    "genus": "Pokémon Vitória",
     "description": "Cuando Victini comparte su energía ilimitada, esa persona o Pokémon irradia abundante poder.",
     "abilities": [
       {
@@ -51153,7 +51153,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 501,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Discipline Pokémon ",
+    "genus": "Pokémon Disciplina",
     "description": "Tras un exhaustivo entrenamiento, Dewott puede dominar diversas técnicas para usar con sus vieiras.",
     "abilities": [
       {
@@ -51278,7 +51278,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 504,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Lookout Pokémon ",
+    "genus": "Pokémon Sentinela",
     "description": "Ataca lanzando las semillas de las bayas que acumula en sus mofletes. sua cauda se tensa al avistar a un enemigo.",
     "abilities": [
       {
@@ -51368,7 +51368,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 506,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Loyal Dog Pokémon ",
+    "genus": "Pokémon Cão Fiel",
     "description": "El pelaje negro que lo recubre es tan denso y elástico que puede repeler inclusive los colmillos más afilados.",
     "abilities": [
       {
@@ -51413,7 +51413,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 507,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big-Hearted Pokémon ",
+    "genus": "Pokémon Generoso",
     "description": "Sus impresionantes bigotes son su orgullo. Entre los de su especie se establece una jerarquía según su longitud.",
     "abilities": [
       {
@@ -51458,7 +51458,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Devious Pokémon ",
+    "genus": "Pokémon Dissimulado",
     "description": "Una vez que ha logrado distraer al rival mediante sus gestos adorables, lo araña de improviso con las garras mientras muestra un semblante risueño.",
     "abilities": [
       {
@@ -51503,7 +51503,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 509,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cruel Pokémon ",
+    "genus": "Pokémon Cruel",
     "description": "Libra disputas territoriales con los Thievul. Se acerca a sus rivales por la espalda sin hacer el menor ruido.",
     "abilities": [
       {
@@ -51548,7 +51548,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Grass Monkey Pokémon ",
+    "genus": "Pokémon Macaco de Grama",
     "description": "Es todo un experto en la búsqueda de bayas y es tan gentil que las comparte con todos sus compañeros.",
     "abilities": [
       {
@@ -51588,7 +51588,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 511,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Thorn Monkey Pokémon ",
+    "genus": "Pokémon Macaco de Espinhos",
     "description": "Pokémon muy temperamental que lucha con sua cauda revestida de púas. Las hojas de sua cabeça están muy amargas.",
     "abilities": [
       {
@@ -51628,7 +51628,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "High Temp Pokémon ",
+    "genus": "Pokémon Alta Temperatura",
     "description": "vive em cuevas volcánicas. El interior de su mata de pelo arde, llegando a alcanzar hasta 300 °C.",
     "abilities": [
       {
@@ -51668,7 +51668,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 513,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ember Pokémon ",
+    "genus": "Pokémon Brasa",
     "description": "Cuando se emociona, echa chispas por la cola y la cabeza, y calienta seu corpo. Por alguna razón le encantan los dulces.",
     "abilities": [
       {
@@ -51708,7 +51708,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spray Pokémon ",
+    "genus": "Pokémon Spray",
     "description": "La acuosidad que acumula en su mata de pelo es rica en nutrientes, ideal para regar plantas y que crezcan mucho.",
     "abilities": [
       {
@@ -51748,7 +51748,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 515,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Geyser Pokémon ",
+    "genus": "Pokémon Gêiser",
     "description": "Le encantan los lugares con agua limpia. Cuando desciende el nivel de agua de su pelo, se abastece através de sua cauda.",
     "abilities": [
       {
@@ -51788,7 +51788,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Dream Eater Pokémon ",
+    "genus": "Pokémon Comedor de Sonhos",
     "description": "El humo que despide cambia de color en función del sueño que haya consumido. Si es alegre, será rosa, o negruzco en el caso de una pesadilla.",
     "abilities": [
       {
@@ -51833,7 +51833,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 517,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Drowsing Pokémon ",
+    "genus": "Pokémon Sonolento",
     "description": "sempre está soñando o adormecido. Se pone de muy mal humor al despertar, por isso es mejor no perturbarlo.",
     "abilities": [
       {
@@ -51879,7 +51879,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tiny Pigeon Pokémon ",
+    "genus": "Pokémon Pombinho",
     "description": "Es muy olvidadizo y no demasiado avispado, pero muchos Entrenadores le tienen simpatía por su carácter afable y sincero.",
     "abilities": [
       {
@@ -51925,7 +51925,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 519,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Wild Pigeon Pokémon ",
+    "genus": "Pokémon Pombo Selvagem",
     "description": "Posee una mente ágil y muy buena memoria. Tal vez por eso muchos repartidores lo eligen como compañero.",
     "abilities": [
       {
@@ -51971,7 +51971,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 520,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Proud Pokémon ",
+    "genus": "Pokémon Orgulhoso",
     "description": "Es un Pokémon muito inteligente y orgulloso. Se tiene en alta estima a aquellos que se convierten en sus Entrenadores.",
     "abilities": [
       {
@@ -52016,7 +52016,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Electrified Pokémon ",
+    "genus": "Pokémon Eletrificado",
     "description": "Su crin brilla cuando emite una descarga eléctrica. Se comunica con los suyos mediante el ritmo y el número de brillos.",
     "abilities": [
       {
@@ -52061,7 +52061,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 522,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Thunderbolt Pokémon ",
+    "genus": "Pokémon Raio Trovejante",
     "description": "Su velocidad se asemeja a la de un rayo. Si corre al máximo, se dejan oír truenos por doquier.",
     "abilities": [
       {
@@ -52106,7 +52106,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mantle Pokémon ",
+    "genus": "Pokémon Manto",
     "description": "Se dirige hacia cualquier sonido que perciba. Es ligeramente cálido al tacto, devido al efecto de su núcleo energético.",
     "abilities": [
       {
@@ -52151,7 +52151,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 524,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ore Pokémon ",
+    "genus": "Pokémon Minério",
     "description": "Se vale del sonido para percibir el entorno. Si alguien despierta su ira, lo perseguirá sin cambiar la orientación del cuerpo.",
     "abilities": [
       {
@@ -52196,7 +52196,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 525,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Compressed Pokémon ",
+    "genus": "Pokémon Compactado",
     "description": "Las bolas de energía que lanza solo en días soleados son tan potentes que pueden hacer saltar un camión por los aires.",
     "abilities": [
       {
@@ -52288,7 +52288,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 527,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Courting Pokémon ",
+    "genus": "Pokémon Galanteador",
     "description": "En algunas regiones se venera a este Pokémon, ya que consideran la forma de su nariz como un símbolo de felicidad.",
     "abilities": [
       {
@@ -52379,7 +52379,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 529,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Subterrene Pokémon ",
+    "genus": "Pokémon Subterrâneo",
     "description": "Se lo conoce como el Rey del Taladro. Puede horadar túneles bajo tierra a una velocidad de 150 km/h.",
     "abilities": [
       {
@@ -52424,7 +52424,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hearing Pokémon ",
+    "genus": "Pokémon Audição",
     "description": "Un Pokémon gentil que é capaz de comprender los sentimientos y averiguar el estado de salud de todo aquel que toque con sus antenas.",
     "abilities": [
       {
@@ -52469,7 +52469,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Muscular Pokémon ",
+    "genus": "Pokémon Musculoso",
     "description": "Cuando logra transportar una viga de madera que triplica su altura y peso, es señal de que va a evolucionar.",
     "abilities": [
       {
@@ -52514,7 +52514,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 532,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Muscular Pokémon ",
+    "genus": "Pokémon Musculoso",
     "description": "Blande vigas de acero con gran destreza, pero la construcción no se le da muy bien; de hecho, su especialidad es la demolición.",
     "abilities": [
       {
@@ -52559,7 +52559,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 533,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Muscular Pokémon ",
+    "genus": "Pokémon Musculoso",
     "description": "Cuando decide ponerse en serio, suelta sus pilares de hormigón y se abalanza sobre el rival con solo un puño como arma.",
     "abilities": [
       {
@@ -52650,7 +52650,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 535,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Vibration Pokémon ",
+    "genus": "Pokémon Vibração",
     "description": "A veces emiten un bello canto. Cuanto mayores son las protuberancias del cuerpo, más extenso es su registro vocal.",
     "abilities": [
       {
@@ -52696,7 +52696,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 536,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Vibration Pokémon ",
+    "genus": "Pokémon Vibração",
     "description": "Las vibraciones de sus bultos resultan perfectas para dar masajes, lo que lo ha hecho muy popular entre la tercera edad.",
     "abilities": [
       {
@@ -52741,7 +52741,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Judo Pokémon ",
+    "genus": "Pokémon Judoca",
     "description": "Entrenan en grupos de cinco individuos. Si alguno es incapaz de seguir el ritmo, arroja el cinturón y abandona la cuadrilla.",
     "abilities": [
       {
@@ -52786,7 +52786,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Karate Pokémon ",
+    "genus": "Pokémon Carateca",
     "description": "Cuando un Sawk ha entrenado duro, é capaz de separar las aguas del océano con la potencia de sus técnicas de kárate.",
     "abilities": [
       {
@@ -52832,7 +52832,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sewing Pokémon ",
+    "genus": "Pokémon Costureiro",
     "description": "Usa hojas como material para fabricar su propia ropa, por isso los diseñadores más famosos los tienen como mascota.",
     "abilities": [
       {
@@ -52878,7 +52878,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 540,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Leaf-Wrapped Pokémon ",
+    "genus": "Pokémon Envolto em Folha",
     "description": "Se guarece del frío envolviéndose en hojas. Se desplaza por el bosque comiendo a su paso las hojas caídas.",
     "abilities": [
       {
@@ -52924,7 +52924,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 541,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Nurturing Pokémon ",
+    "genus": "Pokémon Afetuoso",
     "description": "Calienta sus huevos con el calor desprendido por el humus. Hace mantillas con las hojas para Sewaddle.",
     "abilities": [
       {
@@ -52970,7 +52970,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Centipede Pokémon ",
+    "genus": "Pokémon Centopeia",
     "description": "Sus colmillos contienen un veneno letal. Si encuentra una presa que parece comestible, se abalanza sobre ella sin pensárselo dos veces.",
     "abilities": [
       {
@@ -53016,7 +53016,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 543,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Curlipede Pokémon ",
+    "genus": "Pokémon Centopeia Enrolada",
     "description": "Se defiende con su duro caparazón y sus púas venenosas mientras acumula la energía necesaria para evolucionar.",
     "abilities": [
       {
@@ -53062,7 +53062,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 544,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Megapede Pokémon ",
+    "genus": "Pokémon Megalópode",
     "description": "Las disputas territoriales con Centiskorch son extremadamente violentas. El perdedor se convierte en la presa del ganador.",
     "abilities": [
       {
@@ -53108,7 +53108,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cotton Puff Pokémon ",
+    "genus": "Pokémon Tufo de Algodão",
     "description": "Combinando los algodones de los Cottonee y Eldegoss se obtem uma tela exquisita, que usan las marcas más exclusivas.",
     "abilities": [
       {
@@ -53154,7 +53154,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 546,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Windveiled Pokémon ",
+    "genus": "Pokémon Envolto em Vento",
     "description": "Su algodón se expande cuando recibe los rayos del sol, pero acaba desprendiéndose si se vuelve demasiado voluminoso.",
     "abilities": [
       {
@@ -53199,7 +53199,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bulb Pokémon ",
+    "genus": "Pokémon Bulbo",
     "description": "Cuanto más sano está este Pokémon, más intenso se vuelve el color de sus hojas. A veces se asienta en huertos o jardines de flores bien cuidados.",
     "abilities": [
       {
@@ -53244,7 +53244,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 548,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Flowering Pokémon ",
+    "genus": "Pokémon Florido",
     "description": "El aceite esencial que se extrae de su flor emana un aroma sublime, aunque su precio resulta desorbitado.",
     "abilities": [
       {
@@ -53289,7 +53289,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hostile Pokémon ",
+    "genus": "Pokémon Hostil",
     "description": "Un alimento básico de la dieta de antaño. A los jóvenes se les daba Basculin de raya roja por su alto contenido en ácidos grasos.",
     "abilities": [
       {
@@ -53335,7 +53335,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Desert Croc Pokémon ",
+    "genus": "Pokémon Crocodilo do Deserto",
     "description": "Es pequeño, pero cuenta con un tren inferior fuerte. Se desplaza por el desierto abriéndose paso entre la arena, como si nadase.",
     "abilities": [
       {
@@ -53381,7 +53381,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 551,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Desert Croc Pokémon ",
+    "genus": "Pokémon Crocodilo do Deserto",
     "description": "tem umos ojos especiales que le permiten ver en la oscuridad, pero suele permanecer inmóvil en las frías noches del desierto.",
     "abilities": [
       {
@@ -53427,7 +53427,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 552,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Intimidation Pokémon ",
+    "genus": "Pokémon Intimidação",
     "description": "Es de naturaleza violenta, pero também tiene la paciencia necesaria para esperar a su presa oculto en la arena durante varios días.",
     "abilities": [
       {
@@ -53472,7 +53472,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Zen Charm Pokémon ",
+    "genus": "Pokémon Talismã Zen",
     "description": "Quando dorme es imposible tumbarlo por más que lo zarandeen. Es muy popular como amuleto de la suerte.",
     "abilities": [
       {
@@ -53512,7 +53512,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 554,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Blazing Pokémon ",
+    "genus": "Pokémon Flamejante",
     "description": "Su fuerza aumenta cuanto más se aviva su fuego interior, que puede alcanzar temperaturas superiores a los 1400 °C.",
     "abilities": [
       {
@@ -53552,7 +53552,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cactus Pokémon ",
+    "genus": "Pokémon Cacto",
     "description": "Una vez al año, esparce sus semillas, cuyo alto valor nutritivo las convierte en una inestimable fuente de alimento en el desierto.",
     "abilities": [
       {
@@ -53598,7 +53598,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rock Inn Pokémon ",
+    "genus": "Pokémon Pousada de Rocha",
     "description": "Si no encuentra una piedra que sea idónea como morada, se instala en los orificios de algún Hippowdon.",
     "abilities": [
       {
@@ -53644,7 +53644,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 557,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Stone Home Pokémon ",
+    "genus": "Pokémon Casa de Pedra",
     "description": "Su arma más potente son sus gruesas pinzas, tan duras que pueden abrir una brecha inclusive en el Protector de Rhyperior.",
     "abilities": [
       {
@@ -53690,7 +53690,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Shedding Pokémon ",
+    "genus": "Pokémon Descamação",
     "description": "Su robusta piel le sirve de protección. Cuando ya no puede estirarse más, es señal de que va a evolucionar pronto.",
     "abilities": [
       {
@@ -53736,7 +53736,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 559,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hoodlum Pokémon ",
+    "genus": "Pokémon Vândalo",
     "description": "apesar de su carácter agresivo, se muestra muy protector con sus allegados y su territorio.",
     "abilities": [
       {
@@ -53782,7 +53782,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Avianoid Pokémon ",
+    "genus": "Pokémon Aviário",
     "description": "Explorando la zona desértica que sobrevuela, se han descubierto los vestigios de lo que parece ser una antigua ciudad.",
     "abilities": [
       {
@@ -53827,7 +53827,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spirit Pokémon ",
+    "genus": "Pokémon Espírito",
     "description": "Surgió del alma de una persona que vivió en tiempos remotos. Merodea por las ruinas en busca de alguien que reconozca su rostro.",
     "abilities": [
       {
@@ -53862,7 +53862,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 562,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Coffin Pokémon ",
+    "genus": "Pokémon Caixão",
     "description": "Aparece representado en los muros de antiguas sepulturas como símbolo de riqueza de reyes de antaño.",
     "abilities": [
       {
@@ -53898,7 +53898,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Prototurtle Pokémon ",
+    "genus": "Pokémon Prototartaruga",
     "description": "Se piensa que es el antepasado de numerosos Pokémon tortuga. Fue regenerado a partir de un fósil.",
     "abilities": [
       {
@@ -53944,7 +53944,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 564,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Prototurtle Pokémon ",
+    "genus": "Pokémon Prototartaruga",
     "description": "Aunque se mueva con mayor lentitud sobre la superficie terrestre que na água, emerge a tierra en busca de presas.",
     "abilities": [
       {
@@ -53990,7 +53990,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "First Bird Pokémon ",
+    "genus": "Pokémon Primeiro Pássaro",
     "description": "diz-se que es el antepasado de los Pokémon pájaro. Vivía en las copas de los árboles y se alimentaba de bayas y Pokémon insecto.",
     "abilities": [
       {
@@ -54026,7 +54026,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 566,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "First Bird Pokémon ",
+    "genus": "Pokémon Primeiro Pássaro",
     "description": "Si bien era capaz de volar, parece ser que se le daba mucho mejor cazar presas en tierra firme que en el aire.",
     "abilities": [
       {
@@ -54061,7 +54061,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Trash Bag Pokémon ",
+    "genus": "Pokémon Saco de Lixo",
     "description": "Nació a partir de una rebosante bolsa de basura. Los gases nocivos que eructa son un manjar para los Weezing de Galar.",
     "abilities": [
       {
@@ -54106,7 +54106,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 568,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Trash Heap Pokémon ",
+    "genus": "Pokémon Monte de Lixo",
     "description": "El veneno líquido que brota de su brazo derecho es tan nocivo que puede acabar con una criatura ya débil al menor contacto.",
     "abilities": [
       {
@@ -54151,7 +54151,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tricky Fox Pokémon ",
+    "genus": "Pokémon Raposa Astuta",
     "description": "Suele transformarse en personas, sobre todo en niños, y se adentra en pueblos buscando comida.",
     "abilities": [
       {
@@ -54186,7 +54186,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 570,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Illusion Fox Pokémon ",
+    "genus": "Pokémon Raposa Ilusão",
     "description": "Los Entrenadores solitarios le piden a Zoroark que les muestre ilusiones con las que combatir la desazón de la soledad.",
     "abilities": [
       {
@@ -54221,7 +54221,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Chinchilla Pokémon ",
+    "genus": "Pokémon Chinchila",
     "description": "Se saludan entre sí frotándose la cola. Cuanto más voluminosa es, más orgullosos se muestran.",
     "abilities": [
       {
@@ -54266,7 +54266,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 572,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scarf Pokémon ",
+    "genus": "Pokémon Cachecol",
     "description": "Su pelaje está recubierto por una grasa especial que repele los ataques enemigos y por la que se llegan a pagar auténticas fortunas.",
     "abilities": [
       {
@@ -54311,7 +54311,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fixation Pokémon ",
+    "genus": "Pokémon Fixação",
     "description": "A veces susurra aunque no haya nadie alrededor. Por eso se cree que tal vez hable con alguien o algo imperceptible para los demás.",
     "abilities": [
       {
@@ -54356,7 +54356,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 574,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Manipulate Pokémon ",
+    "genus": "Pokémon Manipulador",
     "description": "Sus poderes psíquicos alcanzan su apogeo en las noches estrelladas, aunque su posible vínculo con el espacio está envuelto en misterio.",
     "abilities": [
       {
@@ -54401,7 +54401,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 575,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Astral Body Pokémon ",
+    "genus": "Pokémon Corpo Astral",
     "description": "Los malhechores a los que revela sus últimos momentos pierden la vida el mismo día.",
     "abilities": [
       {
@@ -54446,7 +54446,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cell Pokémon ",
+    "genus": "Pokémon Célula",
     "description": "Se cree que la sustancia viscosa que lo envuelve le permite sobrevivir en el espacio exterior.",
     "abilities": [
       {
@@ -54491,7 +54491,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 577,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mitosis Pokémon ",
+    "genus": "Pokémon Mitose",
     "description": "Las dos partes de su cerebro casi nunca piensan lo mismo, por isso es imposible predecir sus intenciones.",
     "abilities": [
       {
@@ -54536,7 +54536,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 578,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Multiplying Pokémon ",
+    "genus": "Pokémon Multiplicador",
     "description": "Al parecer, beber su líquido especial otorga un intelecto sin par, pero resulta muy venenoso, excepto para los propios Reuniclus.",
     "abilities": [
       {
@@ -54582,7 +54582,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Water Bird Pokémon ",
+    "genus": "Pokémon Pássaro d'Água",
     "description": "Nada a mayor velocidad de la que puede volar. Se sumerge na água para buscar musgo acuático, su comida favorita.",
     "abilities": [
       {
@@ -54628,7 +54628,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 580,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "White Bird Pokémon ",
+    "genus": "Pokémon Pássaro Branco",
     "description": "Comienzan a danzar al amanecer. El líder de la bandada se sitúa en el centro.",
     "abilities": [
       {
@@ -54673,7 +54673,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fresh Snow Pokémon ",
+    "genus": "Pokémon Neve Fresca",
     "description": "Este Pokémon nació a partir de un carámbano. Exhala un vaho a -50 °C con el que congela el ambiente para adaptarlo a sus necesidades.",
     "abilities": [
       {
@@ -54718,7 +54718,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 582,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Icy Snow Pokémon ",
+    "genus": "Pokémon Neve Congelada",
     "description": "Congela seus inimigos con un vaho a -100 °C, pero no llega a arrebatarles la vida devido a su carácter benévolo.",
     "abilities": [
       {
@@ -54763,7 +54763,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 583,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Snowstorm Pokémon ",
+    "genus": "Pokémon Nevasca",
     "description": "Su temperatura corporal ronda los -6 °C. diz-se que nace de la fusión de dos Vanillish.",
     "abilities": [
       {
@@ -54809,7 +54809,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Season Pokémon ",
+    "genus": "Pokémon Estações",
     "description": "Durante los cambios de estación, su pelaje y olor cambian. Esto anuncia el comienzo de una estación.",
     "abilities": [
       {
@@ -54855,7 +54855,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 585,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Season Pokémon ",
+    "genus": "Pokémon Estações",
     "description": "Migra con el cambio de estación, por isso hay quien considera a Sawsbuck el heraldo de la primavera.",
     "abilities": [
       {
@@ -54901,7 +54901,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sky Squirrel Pokémon ",
+    "genus": "Pokémon Esquilo Voador",
     "description": "Le encantan las bayas dulces. A veces almacena tanta comida en los carrillos que no puede volar bien.",
     "abilities": [
       {
@@ -54941,7 +54941,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Clamping Pokémon ",
+    "genus": "Pokémon Prendedor",
     "description": "Escupe un líquido corrosivo con el que disuelve el caparazón de los Shelmet para luego devorar el contenido.",
     "abilities": [
       {
@@ -54987,7 +54987,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 588,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cavalry Pokémon ",
+    "genus": "Pokémon Cavalaria",
     "description": "Ataca a los enemigos con sus lanzas. Aparece representado en pleno duelo contra un Sirfetch’d en un famoso cuadro.",
     "abilities": [
       {
@@ -55115,7 +55115,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Floating Pokémon ",
+    "genus": "Pokémon Flutuante",
     "description": "Cuenta la leyenda que los Frillish son en realidad los habitantes de una antigua ciudad sumergida convertidos en Pokémon.",
     "abilities": [
       {
@@ -55161,7 +55161,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 592,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Floating Pokémon ",
+    "genus": "Pokémon Flutuante",
     "description": "Las noches de luna llena, bancos enteros de Jellicent emergen a la superficie y aguardan la llegada de alguna presa incauta.",
     "abilities": [
       {
@@ -55206,7 +55206,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Caring Pokémon ",
+    "genus": "Pokémon Atencioso",
     "description": "Se cree que ayuda a los Pokémon heridos y debilitados de forma que los depredadores naturales de estos no le ataquen a él também.",
     "abilities": [
       {
@@ -55252,7 +55252,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Attaching Pokémon ",
+    "genus": "Pokémon Fixador",
     "description": "Se agarra a otros Pokémon para absorber su electricidad estática. Es muy común verlo aferrado a las posaderas de un Yamper.",
     "abilities": [
       {
@@ -55298,7 +55298,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 595,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "EleSpider Pokémon ",
+    "genus": "Pokémon Aranha Elétrica",
     "description": "Teje una tela con hilo electrificado junto a los nidos de Pokémon pájaro para atrapar a los polluelos que aún no saben volar bien.",
     "abilities": [
       {
@@ -55344,7 +55344,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Thorn Seed Pokémon ",
+    "genus": "Pokémon Semente de Espinho",
     "description": "Prefiere las cuevas de paredes musgosas, ya que las enzimas contenidas en el musgo le permiten desarrollar unas púas grandes y robustas.",
     "abilities": [
       {
@@ -55380,7 +55380,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 597,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Thorn Pod Pokémon ",
+    "genus": "Pokémon Vagem de Espinhos",
     "description": "Sus púas son más duras que el acero. Se aferra y desplaza por paredes rocosas usando las que tiene en los tentáculos como ganchos.",
     "abilities": [
       {
@@ -55420,7 +55420,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Gear Pokémon ",
+    "genus": "Pokémon Engrenagem",
     "description": "diz-se que en tiempos remotos los seres humanos se inspiraron en este Pokémon para inventar el mecanismo de engranaje.",
     "abilities": [
       {
@@ -55465,7 +55465,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 599,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Gear Pokémon ",
+    "genus": "Pokémon Engrenagem",
     "description": "Muchas empresas de Galar usan su imagen en sus logotipos como símbolo de tecnología industrial.",
     "abilities": [
       {
@@ -55510,7 +55510,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 600,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Gear Pokémon ",
+    "genus": "Pokémon Engrenagem",
     "description": "Las tres ruedas dentadas giran em alta velocidade. El aro metálico dotado de púas no es materia viva.",
     "abilities": [
       {
@@ -55555,7 +55555,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "EleFish Pokémon ",
+    "genus": "Pokémon Peixe Elétrico",
     "description": "Apenas puede generar energía por sí mismo, pero un banco de Tynamo puede crear violentas descargas elétricas.",
     "abilities": [
       {
@@ -55590,7 +55590,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 602,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "EleFish Pokémon ",
+    "genus": "Pokémon Peixe Elétrico",
     "description": "Pokémon de apetito voraz. En cuanto encuentra una presa, la paraliza con electricidad y la engulle.",
     "abilities": [
       {
@@ -55625,7 +55625,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 603,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "EleFish Pokémon ",
+    "genus": "Pokémon Peixe Elétrico",
     "description": "Sale del mar con la fuerza de sus brazos y ataca suas presas en la costa. Luego se las lleva de vuelta al mar.",
     "abilities": [
       {
@@ -55660,7 +55660,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cerebral Pokémon ",
+    "genus": "Pokémon Cerebral",
     "description": "Fue descubierto hace aproximadamente 50 años. Posee un cerebro muy desarrollado que le otorga poderes psíquicos.",
     "abilities": [
       {
@@ -55705,7 +55705,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 605,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cerebral Pokémon ",
+    "genus": "Pokémon Cerebral",
     "description": "é capaz de manipular los recuerdos del rival. Se lo avista en ocasiones vagando por campos de trigo.",
     "abilities": [
       {
@@ -55751,7 +55751,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Candle Pokémon ",
+    "genus": "Pokémon Vela",
     "description": "Cuanto más joven sea la energía vital que ha absorbido, mayor tamaño tendrá la llama de la cabeza y más siniestro será su brillo.",
     "abilities": [
       {
@@ -55797,7 +55797,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 607,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Lamp Pokémon ",
+    "genus": "Pokémon Lâmpada",
     "description": "Se oculta en entornos urbanos haciéndose pasar por una lámpara corriente. Si se topa con alguien moribundo, lo sigue en silencio.",
     "abilities": [
       {
@@ -55843,7 +55843,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 608,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Luring Pokémon ",
+    "genus": "Pokémon Isca",
     "description": "Cuentan que, en las mansiones donde se usaba para la iluminación, los funerales se sucedían de forma incesante.",
     "abilities": [
       {
@@ -55888,7 +55888,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tusk Pokémon ",
+    "genus": "Pokémon Presa",
     "description": "Juega con sus congéneres chocando sus enormes colmillos con la tranquilidad de saber que, si se le rompen, se regenerarán enseguida.",
     "abilities": [
       {
@@ -55933,7 +55933,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 610,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Axe Jaw Pokémon ",
+    "genus": "Pokémon Mandíbula de Machado",
     "description": "Su piel es dura como una coraza. Su técnica predilecta consiste en embestir al rival para hincarle los colmillos.",
     "abilities": [
       {
@@ -55978,7 +55978,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 611,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Axe Jaw Pokémon ",
+    "genus": "Pokémon Mandíbula de Machado",
     "description": "Amable por naturaleza, infunde auténtico pavor al enfadarse. Su mayor baza son los colmillos, con los que puede cortar un armazón de acero.",
     "abilities": [
       {
@@ -56023,7 +56023,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Chill Pokémon ",
+    "genus": "Pokémon Gelado",
     "description": "Antes de ejecutar un movimiento, se sorbe los mocos. El frío intenso de estos constituye la base de sus movimientos de tipo Hielo.",
     "abilities": [
       {
@@ -56068,7 +56068,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 613,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Freezing Pokémon ",
+    "genus": "Pokémon Congelante",
     "description": "Nada plácidamente en mares fríos. Cuando se cansa, congela el agua con su aliento y reposa sobre el hielo.",
     "abilities": [
       {
@@ -56113,7 +56113,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Crystallizing Pokémon ",
+    "genus": "Pokémon Cristalizante",
     "description": "Cuando aumenta su temperatura corporal, se convierte en vapor, por isso es muy difícil de avistar durante el verano.",
     "abilities": [
       {
@@ -56148,7 +56148,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Snail Pokémon ",
+    "genus": "Pokémon Caracol",
     "description": "devido a su peculiar constitución, reacciona ante la energía eléctrica. Por alguna misteriosa razón, evoluciona en presencia de Karrablast.",
     "abilities": [
       {
@@ -56193,7 +56193,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 616,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Shell Out Pokémon ",
+    "genus": "Pokémon Descascador",
     "description": "Tras deshacerse del caparazón, su agilidad ha aumentado. Las membranas que le recubren el cuerpo evitan que se deshidrate.",
     "abilities": [
       {
@@ -56239,7 +56239,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Trap Pokémon ",
+    "genus": "Pokémon Armadilha",
     "description": "Se desconoce la razón, pero esboza una leve sonrisa al liberar potentes descargas elétricas através de las zonas amarillentas de seu corpo.",
     "abilities": [
       {
@@ -56284,7 +56284,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Martial Arts Pokémon ",
+    "genus": "Pokémon Artes Marciais",
     "description": "Su apariencia menuda contrasta con su carácter poco afable. Abruma a los rivales que se acercan a él con gráciles oleadas de ataques sucesivos.",
     "abilities": [
       {
@@ -56329,7 +56329,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 619,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Martial Arts Pokémon ",
+    "genus": "Pokémon Artes Marciais",
     "description": "Sus veloces patadas, que escapan al ojo humano, são capazes de reducir a escombros inclusive rocas de gran tamaño.",
     "abilities": [
       {
@@ -56374,7 +56374,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cave Pokémon ",
+    "genus": "Pokémon Caverna",
     "description": "Posee una personalidad despiadada y ladina. Se apropia de los túneles excavados por otros Pokémon y los habita.",
     "abilities": [
       {
@@ -56420,7 +56420,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Automaton Pokémon ",
+    "genus": "Pokémon Autômato",
     "description": "Fue creado a partir del barro para emplearlo como sirviente. Todavía acata las órdenes que le dio su amo hace milenios.",
     "abilities": [
       {
@@ -56466,7 +56466,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 622,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Automaton Pokémon ",
+    "genus": "Pokémon Autômato",
     "description": "diz-se que seu corpo alberga un móvil perpetuo que genera energía, pero no se ha constatado la veracidad de tamaña afirmación.",
     "abilities": [
       {
@@ -56512,7 +56512,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sharp Blade Pokémon ",
+    "genus": "Pokémon Lâmina Afiada",
     "description": "Forman grupos encabezados por un Bisharp. Se entrenan a diario soñando con llegar a liderar el grupo algún día.",
     "abilities": [
       {
@@ -56558,7 +56558,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 624,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sword Blade Pokémon ",
+    "genus": "Pokémon Lâmina de Espada",
     "description": "Libra encarnizados combates con los Fraxure por el control de los emplazamientos donde se hallan las piedras con las que afila sus cuchillas.",
     "abilities": [
       {
@@ -56603,7 +56603,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bash Buffalo Pokémon ",
+    "genus": "Pokémon Búfalo Investidor",
     "description": "Forman manadas de unos veinte individuos. Se desconoce el motivo, pero los que traicionan la confianza del grupo pierden la melena.",
     "abilities": [
       {
@@ -56649,7 +56649,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Eaglet Pokémon ",
+    "genus": "Pokémon Filhote de Águia",
     "description": "é capaz de partir hasta la baya más dura graças a la fuerza de sus extremidades. Belicoso por naturaleza, planta cara a cualquiera.",
     "abilities": [
       {
@@ -56695,7 +56695,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 627,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Valiant Pokémon ",
+    "genus": "Pokémon Valente",
     "description": "Su carácter agresivo e irascible le ha hecho perder su puesto como transportista en Galar en favor de los Corviknight.",
     "abilities": [
       {
@@ -56741,7 +56741,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Diapered Pokémon ",
+    "genus": "Pokémon Enfraldado",
     "description": "Deja en el nido las calaveras que va descartando a medida que crece con celeridad para que las reutilicen futuras generaciones.",
     "abilities": [
       {
@@ -56787,7 +56787,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 629,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bone Vulture Pokémon ",
+    "genus": "Pokémon Abutre de Ossos",
     "description": "Se engalana con los huesos que va recogiendo. Al parecer, la elección no es casual, sino que obedece a los dictados de la moda.",
     "abilities": [
       {
@@ -56832,7 +56832,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Anteater Pokémon ",
+    "genus": "Pokémon Tamanduá",
     "description": "Usa llamas a modo de lengua para derretir el duro exoesqueleto de los Durant antes de devorarlos.",
     "abilities": [
       {
@@ -56878,7 +56878,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Iron Ant Pokémon ",
+    "genus": "Pokémon Formiga de Ferro",
     "description": "Con sus grandes mandíbulas puede destrozar inclusive rocas. Lucha en grupo para proteger sus larvas del ataque de los Sandaconda.",
     "abilities": [
       {
@@ -56924,7 +56924,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Irate Pokémon ",
+    "genus": "Pokémon Irritado",
     "description": "Al no poder ver, su forma de orientarse y percibir el entorno consiste en chocarse a diestro y siniestro, mordiendo todo lo que se encuentra.",
     "abilities": [
       {
@@ -56960,7 +56960,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 633,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hostile Pokémon ",
+    "genus": "Pokémon Hostil",
     "description": "Las dos cabezas se disputan la comida con brutalidad. Por eso sempre está cubierto de heridas, aunque no haya combatido contra nadie.",
     "abilities": [
       {
@@ -56996,7 +56996,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 634,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Brutal Pokémon ",
+    "genus": "Pokémon Brutal",
     "description": "Sus tres cabezas se alternan para dar mordiscos y no cejarán en su ataque hasta que el rival haya caído redondo.",
     "abilities": [
       {
@@ -57032,7 +57032,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Torch Pokémon ",
+    "genus": "Pokémon Tocha",
     "description": "seu corpo es cálido. Expulsa llamaradas por los cuernos com o objetivo de intimidar seus inimigos y presas.",
     "abilities": [
       {
@@ -57114,7 +57114,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Iron Will Pokémon ",
+    "genus": "Pokémon Determinação de Ferro",
     "description": "Un líder nato. inclusive los Pokémon más agresivos se muestran dóciles en su presencia.",
     "abilities": [
       {
@@ -57150,7 +57150,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Cavern Pokémon ",
+    "genus": "Pokémon Caverna",
     "description": "Las leyendas de Teselia narran la lucha que libró contra los humanos para proteger a los Pokémon.",
     "abilities": [
       {
@@ -57186,7 +57186,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Grassland Pokémon ",
+    "genus": "Pokémon Campina",
     "description": "Confunde a los enemigos con sus movimientos relampagueantes y luego los rebana sin piedad con sus afilados cuernos.",
     "abilities": [
       {
@@ -57221,7 +57221,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Cyclone Pokémon ",
+    "genus": "Pokémon Ciclone",
     "description": "La energía que desprende de sua cauda genera violentas tempestades capaces de echar abajo casas.",
     "abilities": [
       {
@@ -57262,7 +57262,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Bolt Strike Pokémon ",
+    "genus": "Pokémon Golpe Elétrico",
     "description": "Su gusto por surcar el cielo lanzando rayos y provocando incendios forestales le ha granjeado pocas simpatías.",
     "abilities": [
       {
@@ -57375,7 +57375,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Abundance Pokémon ",
+    "genus": "Pokémon Abundância",
     "description": "Utiliza energía que obtiene del viento y del relámpago para nutrir el suelo y generar abundantes cosechas.",
     "abilities": [
       {
@@ -57452,7 +57452,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Colt Pokémon ",
+    "genus": "Pokémon Potro",
     "description": "A base de superar encarnizados combates, su cuerno se fortalece y, entonces, despierta su verdadero poder.",
     "abilities": [
       {
@@ -57488,7 +57488,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Melody Pokémon ",
+    "genus": "Pokémon Melodia",
     "description": "Controla los sentimientos de los que escuchan las melodías que emite con su singular vocalización.",
     "abilities": [
       {
@@ -57524,7 +57524,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Paleozoic Pokémon ",
+    "genus": "Pokémon Paleozoico",
     "description": "Un Pokémon de hace 300 millones de años y alterado por el Equipo Plasma, quienes le han equipado con un cañón en el lomo.",
     "abilities": [
       {
@@ -57559,7 +57559,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spiny Nut Pokémon ",
+    "genus": "Pokémon Noz Espinhosa",
     "description": "La robusta coraza que le recubre la cabeza y la espalda lo protege de tal manera que podría chocar contra un camión y permanecer impasible.",
     "abilities": [
       {
@@ -57599,7 +57599,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 650,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spiny Armor Pokémon ",
+    "genus": "Pokémon Armadura de Espinhos",
     "description": "Chocan contra sus congéneres para fortalecer sus piernas. devido a su carácter afable, nunca son los que provocan un combate.",
     "abilities": [
       {
@@ -57640,7 +57640,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 651,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spiny Armor Pokémon ",
+    "genus": "Pokémon Armadura de Espinhos",
     "description": "Cuando adopta una postura defensiva juntando ambos puños delante de la cara, é capaz de resistir inclusive el impacto directo de una bomba.",
     "abilities": [
       {
@@ -57801,7 +57801,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bubble Frog Pokémon ",
+    "genus": "Pokémon Sapo de Bolhas",
     "description": "Protege su piel cubriendo el cuerpo con una fina capa de burbujas. Aunque parezca despreocupado, no deja de vigilar con astucia lo que le rodea.",
     "abilities": [
       {
@@ -57841,7 +57841,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 656,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bubble Frog Pokémon ",
+    "genus": "Pokémon Sapo de Bolhas",
     "description": "Su agilidad no tiene parangón. De hecho, é capaz de escalar una torre de más de 600 metros en tan solo un minuto.",
     "abilities": [
       {
@@ -57922,7 +57922,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Digging Pokémon ",
+    "genus": "Pokémon Cavador",
     "description": "Está en alerta permanente. En cuanto oye el batir de alas de un Corviknight, cava un agujero y se oculta bajo tierra.",
     "abilities": [
       {
@@ -57968,7 +57968,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 659,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Digging Pokémon ",
+    "genus": "Pokémon Cavador",
     "description": "El pelaje de su abdomen es un aislante térmico excelente, tanto que antaño se usaba el que mudaba para confeccionar prendas de abrigo.",
     "abilities": [
       {
@@ -58014,7 +58014,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tiny Robin Pokémon ",
+    "genus": "Pokémon Pintassilgo",
     "description": "Su temperatura corporal aumenta de repente cuando se exalta y puede causar quemaduras al contacto con la piel.",
     "abilities": [
       {
@@ -58055,7 +58055,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 661,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ember Pokémon ",
+    "genus": "Pokémon Brasa",
     "description": "Defienden su territorio con suma agresividad. Se pelean entre sí por el control de las áreas de caza.",
     "abilities": [
       {
@@ -58096,7 +58096,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 662,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scorching Pokémon ",
+    "genus": "Pokémon Escaldante",
     "description": "Arremete contrsuas presas a una velocidad de 500 km/h y les asesta el golpe de gracia con una patada muy potente, sin dejarles escapatoria.",
     "abilities": [
       {
@@ -58136,7 +58136,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scatterdust Pokémon ",
+    "genus": "Pokémon Poeira Espalhada",
     "description": "graças al polvo de escamas que lo recubre y regula su temperatura, puede vivir en cualquier región, sin importar las características del terreno o el clima.",
     "abilities": [
       {
@@ -58181,7 +58181,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 664,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scatterdust Pokémon ",
+    "genus": "Pokémon Poeira Espalhada",
     "description": "seu corpo es tan duro que ni siquiera los Pokémon pájaro pueden hacerle el menor rasguño con sus picos. Esparce polvo de escamas para se defender.",
     "abilities": [
       {
@@ -58222,7 +58222,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 665,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scale Pokémon ",
+    "genus": "Pokémon Escama",
     "description": "Las alas cambian de motivo según el clima y las características naturales del terreno que habite. Esparce escamas de lo más coloridas.",
     "abilities": [
       {
@@ -58268,7 +58268,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Lion Cub Pokémon ",
+    "genus": "Pokémon Filhote de Leão",
     "description": "Este enérgico Pokémon es de naturaleza curiosa e inquieta y, tanto al comienzo de un combate como cuando se enoja, su crin prende fuego.",
     "abilities": [
       {
@@ -58314,7 +58314,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 667,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Royal Pokémon ",
+    "genus": "Pokémon Majestoso",
     "description": "Su aliento alcanza temperaturas de 6000 ºC, aunque no lo emplea contrsuas presas, ya que prefiere la carne más bien cruda.",
     "abilities": [
       {
@@ -58359,7 +58359,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Single Bloom Pokémon ",
+    "genus": "Pokémon Flor Solitária",
     "description": "Acumula el polen de las flores para confeccionar la tiara que lleva en la cabeza, que cuenta con propiedades curativas.",
     "abilities": [
       {
@@ -58399,7 +58399,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 669,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Single Bloom Pokémon ",
+    "genus": "Pokémon Flor Solitária",
     "description": "Confiere su poder a las flores y cuida de ellas con mucho esmero; no perdona que destruyan los campos donde estas crecen.",
     "abilities": [
       {
@@ -58439,7 +58439,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 670,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Garden Pokémon ",
+    "genus": "Pokémon Jardim",
     "description": "Su esperanza de vida asciende a varios siglos y dedica toda su dilatada existencia al cuidado de los jardines.",
     "abilities": [
       {
@@ -58479,7 +58479,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mount Pokémon ",
+    "genus": "Pokémon Montaria",
     "description": "Puede generar energía con las hojas que tiene en la espalda disponiendo tan solo de agua y luz solar. graças a ello puede sobrevivir sin comer.",
     "abilities": [
       {
@@ -58519,7 +58519,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 672,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mount Pokémon ",
+    "genus": "Pokémon Montaria",
     "description": "Habita en regiones montañosas. El líder de la manada se decide en una demostración de fuerza en la que los contendientes luchan con los cuernos.",
     "abilities": [
       {
@@ -58605,7 +58605,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 674,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Daunting Pokémon ",
+    "genus": "Pokémon Intimidador",
     "description": "La hoja que lleva en la boca le permite predecir los movimientos del rival. Puede reducir un camión a chatarra de un solo puñetazo.",
     "abilities": [
       {
@@ -58650,7 +58650,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Poodle Pokémon ",
+    "genus": "Pokémon Poodle",
     "description": "El pelo le crece sin cesar, pero solo deja que se lo corten aquellos de quienes se fía plenamente.",
     "abilities": [
       {
@@ -58685,7 +58685,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Restraint Pokémon ",
+    "genus": "Pokémon Contenção",
     "description": "é capaz de mandar por los aires a un luchador profesional graças a sus poderes psíquicos, pero tiene serios problemas para controlarlos.",
     "abilities": [
       {
@@ -58730,7 +58730,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 677,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Constraint Pokémon ",
+    "genus": "Pokémon Restrição",
     "description": "El fuerte instinto protector de los machos los lleva a liberar todo su poder cuando se trata de defenderse a sí mismos o a su Entrenador.",
     "abilities": [
       {
@@ -58776,7 +58776,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sword Pokémon ",
+    "genus": "Pokémon Espada",
     "description": "El ojo azul de la empuñadura es su verdadero cuerpo. Absorbe la energía vital de las personas con su paño de aspecto andrajoso.",
     "abilities": [
       {
@@ -58812,7 +58812,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 679,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sword Pokémon ",
+    "genus": "Pokémon Espada",
     "description": "Su táctica para abatir a las presas consiste en alternar ataque y defensa de forma frenética entre ambas espadas.",
     "abilities": [
       {
@@ -58848,7 +58848,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 680,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Royal Sword Pokémon ",
+    "genus": "Pokémon Espada Real",
     "description": "Mediante el control ejercido con su inmenso poder espectral, logró que humanos y Pokémon le forjaran un país a medida de sus necesidades.",
     "abilities": [
       {
@@ -58883,7 +58883,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Perfume Pokémon ",
+    "genus": "Pokémon Perfume",
     "description": "seu corpo emana una fragancia que embelesa a quien la huele. Llegó a ser muy apreciado entre las damas de la nobleza.",
     "abilities": [
       {
@@ -58923,7 +58923,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 682,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fragrance Pokémon ",
+    "genus": "Pokémon Fragrância",
     "description": "Puede emanar tanto un olor desagradable para desmotivar al rival como un dulce aroma para reconfortar a los aliados en combate.",
     "abilities": [
       {
@@ -58963,7 +58963,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cotton Candy Pokémon ",
+    "genus": "Pokémon Algodão-doce",
     "description": "Su esponjoso pelaje desprende un olor dulzón como el del algodón de azúcar. Escupe hebras pegajosas con las que envuelve seus inimigos.",
     "abilities": [
       {
@@ -59003,7 +59003,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 684,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Meringue Pokémon ",
+    "genus": "Pokémon Merengue",
     "description": "La gran cantidad de aire acumulada en su pelaje le confiere un tacto aterciopelado y un peso muy inferior al que aparenta.",
     "abilities": [
       {
@@ -59044,7 +59044,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Revolving Pokémon ",
+    "genus": "Pokémon Giratório",
     "description": "Los destellos de luz intermitente que emite aplacan el ánimo de lucha del enemigo, tras lo que aprovecha para esconderse.",
     "abilities": [
       {
@@ -59090,7 +59090,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 686,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Overturning Pokémon ",
+    "genus": "Pokémon Inversor",
     "description": "diz-se que sus poderes hipnóticos han influido en grandes acontecimientos que han cambiado el curso de la historia.",
     "abilities": [
       {
@@ -59136,7 +59136,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Two-Handed Pokémon ",
+    "genus": "Pokémon Duas Mãos",
     "description": "Si no se llevan bien, no consiguen ni atacar ni defenderse de forma eficaz y sus probabilidades de supervivencia se reducen.",
     "abilities": [
       {
@@ -59182,7 +59182,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 688,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Collective Pokémon ",
+    "genus": "Pokémon Coletivo",
     "description": "Los ojos de las manos le permiten ver en todas direcciones. em caso de apuro, sus extremidades se mueven solas para derribar al enemigo.",
     "abilities": [
       {
@@ -59228,7 +59228,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mock Kelp Pokémon ",
+    "genus": "Pokémon Alga Falsa",
     "description": "Su aspecto de alga podrida le permite ocultarse entre los restos que flotan a la deriva y pasar desapercibido ante sus enemigos.",
     "abilities": [
       {
@@ -59274,7 +59274,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 690,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mock Kelp Pokémon ",
+    "genus": "Pokémon Alga Falsa",
     "description": "Asoma la cresta de la cabeza sobre la superficie del agua y transforma la luz que absorbe del sol en energía dragón.",
     "abilities": [
       {
@@ -59319,7 +59319,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Water Gun Pokémon ",
+    "genus": "Pokémon Revólver d'Água",
     "description": "Acalla seus inimigos con balas de agua que dispara haciendo explotar el gas de su pinza derecha.",
     "abilities": [
       {
@@ -59354,7 +59354,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 692,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Howitzer Pokémon ",
+    "genus": "Pokémon Obuseiro",
     "description": "Con el cañón de su brazo derecho dispara proyectiles de agua marina con tanta potencia que são capazes de hundir un petrolero.",
     "abilities": [
       {
@@ -59390,7 +59390,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Generator Pokémon ",
+    "genus": "Pokémon Gerador",
     "description": "é capaz de generar electricidad a partir de la luz del sol. Si lo interrumpen en pleno proceso, se pone nervioso y pierde las fuerzas.",
     "abilities": [
       {
@@ -59436,7 +59436,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 694,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Generator Pokémon ",
+    "genus": "Pokémon Gerador",
     "description": "Al extender su gorguera y exponerse a la luz solar, genera la energía eléctrica suficiente para cubrir el consumo de una metrópoli entera.",
     "abilities": [
       {
@@ -59482,7 +59482,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Royal Heir Pokémon ",
+    "genus": "Pokémon Herdeiro Real",
     "description": "Un Pokémon un tanto egoísta y malcriado. Puede ocasionar graves lesiones a su Entrenador inclusive jugando.",
     "abilities": [
       {
@@ -59523,7 +59523,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 696,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Despot Pokémon ",
+    "genus": "Pokémon Déspota",
     "description": "Puede hacer trizas un coche de un solo mordisco graças a sus potentes mandíbulas. Antaño era considerado un rey.",
     "abilities": [
       {
@@ -59564,7 +59564,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tundra Pokémon ",
+    "genus": "Pokémon Tundra",
     "description": "Un Pokémon prehistórico extinto. Se han hallado algunos ejemplares conservados bajo el hielo.",
     "abilities": [
       {
@@ -59605,7 +59605,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 698,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tundra Pokémon ",
+    "genus": "Pokémon Tundra",
     "description": "Cuando se deja llevar por la ira, emite un vaho extremadamente gélido que lo congela todo a su alrededor.",
     "abilities": [
       {
@@ -59645,7 +59645,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 133,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Intertwining Pokémon ",
+    "genus": "Pokémon Entrelaçado",
     "description": "En un cuento infantil de Galar se narra la victoria de un Sylveon de extraordinaria belleza sobre un temible Pokémon de tipo Dragón.",
     "abilities": [
       {
@@ -59686,7 +59686,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Wrestling Pokémon ",
+    "genus": "Pokémon Lutador",
     "description": "sempre se exhibe con alguna pose justo antes de propinar el golpe de gracia, momento que algunos rivales aprovechan para contraatacar.",
     "abilities": [
       {
@@ -59732,7 +59732,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Antenna Pokémon ",
+    "genus": "Pokémon Antena",
     "description": "Su capacidad para producir electricidad es muy limitada, de modo que tiene que robarla de las tomas de corriente o de otros Pokémon.",
     "abilities": [
       {
@@ -59778,7 +59778,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Jewel Pokémon ",
+    "genus": "Pokémon Joia",
     "description": "Se cree que en algún lugar de este mundo existe un filón rebosante de Carbink que viven bajo las órdenes de una reina.",
     "abilities": [
       {
@@ -59818,7 +59818,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Soft Tissue Pokémon ",
+    "genus": "Pokémon Tecido Mole",
     "description": "Sus antenas son órganos sensoriales sumamente desarrollados. Poder esconderse nada más detectar enemigos le ha permitido sobrevivir.",
     "abilities": [
       {
@@ -59863,7 +59863,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 704,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Soft Tissue Pokémon ",
+    "genus": "Pokémon Tecido Mole",
     "description": "La protuberancia del lomo contiene su pequeño cerebro, que solo piensa en buscar comida y huir de los enemigos.",
     "abilities": [
       {
@@ -59954,7 +59954,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Key Ring Pokémon ",
+    "genus": "Pokémon Chaveiro",
     "description": "Según parece, absorbe iones metálicos por el apéndice de la cabeza para adoptar una forma similar a la de sus amadas llaves.",
     "abilities": [
       {
@@ -59995,7 +59995,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Stump Pokémon ",
+    "genus": "Pokémon Toco",
     "description": "Imita el llanto de un niño con la intención de que algún adulto se adentre y se pierda en lo más profundo del bosque.",
     "abilities": [
       {
@@ -60041,7 +60041,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 708,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Elder Tree Pokémon ",
+    "genus": "Pokémon Árvore Anciã",
     "description": "Puede extender las finas raíces que le brotan de las extremidades inferiores para conectarse con el resto de los árboles y controlarlos a voluntad.",
     "abilities": [
       {
@@ -60087,7 +60087,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Pumpkin Pokémon ",
+    "genus": "Pokémon Abóbora",
     "description": "La luz que emite por los orificios de la calabaza hipnotiza a humanos y Pokémon y los deja bajo su control.",
     "abilities": [
       {
@@ -60133,7 +60133,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 710,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Pumpkin Pokémon ",
+    "genus": "Pokémon Abóbora",
     "description": "Las noches de luna nueva llama a la puerta de las casas y se lleva al otro mundo a quien abra.",
     "abilities": [
       {
@@ -60178,7 +60178,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ice Chunk Pokémon ",
+    "genus": "Pokémon Pedaço de Gelo",
     "description": "vive em regiones sumamente frías. Se aferra al lomo de los Avalugg congelando sus propias extremidades.",
     "abilities": [
       {
@@ -60223,7 +60223,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 712,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Iceberg Pokémon ",
+    "genus": "Pokémon Iceberg",
     "description": "Las fisuras de seu corpo se agrandan durante o dia, pero à noite vuelven a cerrarse.",
     "abilities": [
       {
@@ -60269,7 +60269,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sound Wave Pokémon ",
+    "genus": "Pokémon Onda Sonora",
     "description": "Su registro vocal cubre todo el espectro de frecuencias. Ni los Pokémon más grandes soportan las ondas ultrasónicas que emite.",
     "abilities": [
       {
@@ -60315,7 +60315,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 714,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sound Wave Pokémon ",
+    "genus": "Pokémon Onda Sonora",
     "description": "Vuela en la oscuridad atormentando al enemigo con ondas ultrasónicas capaces de partir rocas antes de rematarlo con sus afilados colmillos.",
     "abilities": [
       {
@@ -60468,7 +60468,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Jewel Pokémon ",
+    "genus": "Pokémon Joia",
     "description": "Puede crear una gran cantidad de diamantes en un instante comprimiendo con las manos el carbono que flota en el aire.",
     "abilities": [
       {
@@ -60504,7 +60504,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Mischief Pokémon ",
+    "genus": "Pokémon Travessura",
     "description": "Dicen que graças a sus seis anillos y seis enormes brazos puede robar todo lo que se le antoja. Adquirió una forma reducida cuando alguien selló su poder.",
     "abilities": [
       {
@@ -60540,7 +60540,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Steam Pokémon ",
+    "genus": "Pokémon Vapor",
     "description": "Expulsa vapor de agua por los brazos que tiene en la espalda. Sale a tal potencia que sería capaz de arrasar una montaña entera.",
     "abilities": [
       {
@@ -60576,7 +60576,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Grass Quill Pokémon ",
+    "genus": "Pokémon Pena de Folha",
     "description": "durante o dia acumula energía mediante la fotosíntesis y, al caer la noche, vuela sin hacer ruido en busca de presas.",
     "abilities": [
       {
@@ -60617,7 +60617,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 722,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Blade Quill Pokémon ",
+    "genus": "Pokémon Espinho de Lâmina",
     "description": "Jamás desatiende el cuidado de suas asas, no solo por mera cuestión estética, sino também para mantener las plumas perfectamente afiladas.",
     "abilities": [
       {
@@ -60658,7 +60658,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 723,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Arrow Quill Pokémon ",
+    "genus": "Pokémon Pena de Flecha",
     "description": "Tan solo le lleva una décima de segundo sacar una pluma y disparar al rival, a quien acierta en un punto vital antes de que pueda darse cuenta.",
     "abilities": [
       {
@@ -60698,7 +60698,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fire Cat Pokémon ",
+    "genus": "Pokémon Gato de Fogo",
     "description": "Quien trate de acariciarlo antes de ganarse su plena confianza se arriesga a comprobar de primera mano lo afiladas que están suas garras.",
     "abilities": [
       {
@@ -60738,7 +60738,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 725,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fire Cat Pokémon ",
+    "genus": "Pokémon Gato de Fogo",
     "description": "Enfrentarse a un adversario formidable aviva tanto su espíritu combativo como la energía térmica de su cascabel.",
     "abilities": [
       {
@@ -60779,7 +60779,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 726,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Heel Pokémon ",
+    "genus": "Pokémon Vilão",
     "description": "apesar de que a menudo se comporta de forma violenta, tem um lado amable que se manifiesta cuando ayuda a Pokémon más pequeños.",
     "abilities": [
       {
@@ -60859,7 +60859,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 728,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Pop Star Pokémon ",
+    "genus": "Pokémon Estrela Pop",
     "description": "Las noches en las que el mar está en calma, baila junto a sus congéneres al compás del canto de su líder, Primarina.",
     "abilities": [
       {
@@ -60900,7 +60900,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 729,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Soloist Pokémon ",
+    "genus": "Pokémon Solista",
     "description": "Considera el terreno de combate un escenario desde el que encandilar al público con su canto y la coreografía de sus globos.",
     "abilities": [
       {
@@ -60941,7 +60941,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Woodpecker Pokémon ",
+    "genus": "Pokémon Pica-pau",
     "description": "Pese a su fino aspecto, tiene la musculatura del cuello muy desarrollada: agujerea los árboles a una velocidad de 16 picotazos por segundo.",
     "abilities": [
       {
@@ -60987,7 +60987,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 731,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bugle Beak Pokémon ",
+    "genus": "Pokémon Bico de Corneta",
     "description": "Dispara por el pico las semillas de las bayas ingeridas. Al dispersarse por el suelo, de ellas acaban germinando nuevas plantas.",
     "abilities": [
       {
@@ -61033,7 +61033,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 732,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cannon Pokémon ",
+    "genus": "Pokémon Canhão",
     "description": "Las parejas de Toucannon son famosas por la armonía que reina entre ellas. Por eso se llevan a las bodas como portadores de buena fortuna.",
     "abilities": [
       {
@@ -61078,7 +61078,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Loitering Pokémon ",
+    "genus": "Pokémon Vagaroso",
     "description": "Pese a ser omnívoro, siente predilección por los alimentos frescos o inclusive seres vivos. Por eso marcha por los caminos en busca de presas.",
     "abilities": [
       {
@@ -61123,7 +61123,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 734,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Stakeout Pokémon ",
+    "genus": "Pokémon Espreitador",
     "description": "tem um carácter muy paciente, pero en cuanto avista un Rattata, su manjar predilecto, pierde el control y se lanza sobre él como un poseso.",
     "abilities": [
       {
@@ -61168,7 +61168,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Larva Pokémon ",
+    "genus": "Pokémon Larva",
     "description": "Cava su madriguera en el lecho boscoso con sus grandes mandíbulas. Le encanta la savia dulce de los árboles.",
     "abilities": [
       {
@@ -61204,7 +61204,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 736,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Battery Pokémon ",
+    "genus": "Pokémon Bateria",
     "description": "Al digerir la hojarasca de la que se alimenta, genera energía eléctrica que almacena en la bolsa que posee para tal efecto.",
     "abilities": [
       {
@@ -61275,7 +61275,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Boxing Pokémon ",
+    "genus": "Pokémon Boxeador",
     "description": "A veces trepa por Exeggutor al confundirlo con una palmera de verdad. Este, presa de la ira, se desembaraza de él a sacudidas y lo pisotea.",
     "abilities": [
       {
@@ -61321,7 +61321,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 739,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Woolly Crab Pokémon ",
+    "genus": "Pokémon Caranguejo Peludo",
     "description": "No se lo piensa dos veces a la hora de zurrar. Se tiene constancia de que sus puñetazos frenéticos han llegado a detener aludes.",
     "abilities": [
       {
@@ -61367,7 +61367,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Dancing Pokémon ",
+    "genus": "Pokémon Dançarino",
     "description": "Forma que toma Oricorio al libar Néctar Rojo. Su vehemencia le lleva a ponerse hecho una furia si el Entrenador le imparte la orden equivocada.",
     "abilities": [
       {
@@ -61403,7 +61403,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bee Fly Pokémon ",
+    "genus": "Pokémon Mosca-abelha",
     "description": "Al percibir el aura del rival, puede predecir sus movimientos y esquivarlos sin problema mientras lanza su contraataque.",
     "abilities": [
       {
@@ -61449,7 +61449,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 742,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bee Fly Pokémon ",
+    "genus": "Pokémon Mosca-abelha",
     "description": "Detesta verse empapado por la lluvia, por isso rara vez se deja ver en la nubosa región de Galar.",
     "abilities": [
       {
@@ -61539,7 +61539,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 744,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Wolf Pokémon ",
+    "genus": "Pokémon Lobo",
     "description": "Va acorralando pacientemente a su presa con movimientos raudos para finalmente clavarle los colmillos en sus puntos vitales.",
     "abilities": [
       {
@@ -61584,7 +61584,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Small Fry Pokémon ",
+    "genus": "Pokémon Alevino",
     "description": "Al sentirse amenazado, le lloran los ojos. La luz que se refleja en sus lágrimas sirve de señal a sus congéneres para agruparse en gran número.",
     "abilities": [
       {
@@ -61620,7 +61620,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Brutal Star Pokémon ",
+    "genus": "Pokémon Estrela Brutal",
     "description": "A diferencia de sus congéneres de Alola, los ejemplares de Galar aún no saben lo deliciosas que están las ramas de Corsola.",
     "abilities": [
       {
@@ -61666,7 +61666,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 747,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Brutal Star Pokémon ",
+    "genus": "Pokémon Estrela Brutal",
     "description": "La bolsa de veneno en el interior de seu corpo contiene toxinas tan potentes que provocarían tres días de dolores intensos hasta a un Wailord.",
     "abilities": [
       {
@@ -61711,7 +61711,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Donkey Pokémon ",
+    "genus": "Pokémon Burro",
     "description": "Tras recubrir suas patas con el lodo que crea masticando tierra, puede recorrer los peores caminos sin temor a resbalar.",
     "abilities": [
       {
@@ -61756,7 +61756,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 749,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Draft Horse Pokémon ",
+    "genus": "Pokémon Cavalo de Tração",
     "description": "Su resistencia le permitiría recorrer Galar de punta a punta sin un solo descanso portando cargas de más de diez toneladas.",
     "abilities": [
       {
@@ -61802,7 +61802,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Water Bubble Pokémon ",
+    "genus": "Pokémon Bolha d'Água",
     "description": "Vive sob a água y, cuando emerge a tierra firme en busca de presas, se recubre la cabeza con una burbuja.",
     "abilities": [
       {
@@ -61843,7 +61843,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 751,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Water Bubble Pokémon ",
+    "genus": "Pokémon Bolha d'Água",
     "description": "Cuida de pequeños Dewpider acogiéndolos en su burbuja de agua y dejando que se alimenten de los restos de las presas que ha ingerido.",
     "abilities": [
       {
@@ -61883,7 +61883,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sickle Grass Pokémon ",
+    "genus": "Pokémon Grama-foice",
     "description": "De día duerme tranquilamente a la luz del sol y, al ocaso, despierta e inicia su actividad nocturna.",
     "abilities": [
       {
@@ -61923,7 +61923,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 753,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bloom Sickle Pokémon ",
+    "genus": "Pokémon Foice em Flor",
     "description": "Los pétalos de sus brazos son finos y afilados. Absorbe la luz solar y la concentra para lanzar poderosos rayos.",
     "abilities": [
       {
@@ -61964,7 +61964,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Illuminating Pokémon ",
+    "genus": "Pokémon Iluminador",
     "description": "vive em bosques umbríos. Esparce a su alrededor esporas titilantes que adormecen seus inimigos.",
     "abilities": [
       {
@@ -62010,7 +62010,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 755,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Illuminating Pokémon ",
+    "genus": "Pokémon Iluminador",
     "description": "Conviene no acercarse si se avistan luces en la espesura del bosque en plena noche, ya que podrían ser las esporas soporíferas de Shiinotic.",
     "abilities": [
       {
@@ -62056,7 +62056,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Toxic Lizard Pokémon ",
+    "genus": "Pokémon Lagarto Tóxico",
     "description": "Se aproxima a su presa por la espalda y, antes de que pueda advertirlo, la inmoviliza con un gas venenoso.",
     "abilities": [
       {
@@ -62097,7 +62097,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 757,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Toxic Lizard Pokémon ",
+    "genus": "Pokémon Lagarto Tóxico",
     "description": "Libran disputas con sus congéneres cuyo resultado, al parecer, se inclina por quien tenga un séquito de Salandit machos más numeroso.",
     "abilities": [
       {
@@ -62138,7 +62138,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Flailing Pokémon ",
+    "genus": "Pokémon Debatente",
     "description": "Cuando patalea para tratar de defenderse resulta adorable, pero conviene no fiarse, ya que su fuerza sería capaz de derribar un árbol.",
     "abilities": [
       {
@@ -62184,7 +62184,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 759,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Strong Arm Pokémon ",
+    "genus": "Pokémon Braço Forte",
     "description": "Después de abatir a su presa con movimientos que harían palidecer a un luchador profesional, la carga en brazos y se la lleva a su madriguera.",
     "abilities": [
       {
@@ -62229,7 +62229,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fruit Pokémon ",
+    "genus": "Pokémon Fruta",
     "description": "Cuando lo atacan, produce un sudor dulce y delicioso cuyo aroma atrae a más enemigos.",
     "abilities": [
       {
@@ -62274,7 +62274,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 761,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fruit Pokémon ",
+    "genus": "Pokémon Fruta",
     "description": "Si un Corvisquire viene a picotearlo, se defiende golpeándolo con el cáliz de la cabeza y con fuertes patadas.",
     "abilities": [
       {
@@ -62319,7 +62319,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 762,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fruit Pokémon ",
+    "genus": "Pokémon Fruta",
     "description": "Propina patadas con sus duras y puntiagudas piernas, con las que deja heridas indelebles en el cuerpo y el corazón del adversario.",
     "abilities": [
       {
@@ -62364,7 +62364,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Posy Picker Pokémon ",
+    "genus": "Pokémon Colhedor de Buquê",
     "description": "Este Pokémon libera una agradable fragancia, que varía de individuo a individuo devido a que cada uno se engalana con flores diferentes.",
     "abilities": [
       {
@@ -62410,7 +62410,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sage Pokémon ",
+    "genus": "Pokémon Sábio",
     "description": "Conoce hasta el último rincón del bosque y, si encuentra un Pokémon herido, va en busca de hierbas medicinales para curarlo.",
     "abilities": [
       {
@@ -62455,7 +62455,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Teamwork Pokémon ",
+    "genus": "Pokémon Trabalho em Equipe",
     "description": "vivem em grupos de unos veinte ejemplares. Cada individuo tem um rol definido, lo que les permite sobrevivir en entornos hostiles.",
     "abilities": [
       {
@@ -62496,7 +62496,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Turn Tail Pokémon ",
+    "genus": "Pokémon Fujão",
     "description": "Forman colonias y permanecen sempre alerta. En cuanto perciben a un enemigo, salen huyendo en todas direcciones.",
     "abilities": [
       {
@@ -62532,7 +62532,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 767,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hard Scale Pokémon ",
+    "genus": "Pokémon Escama Dura",
     "description": "vive em cavernas del fondo marino o en barcos hundidos. Lucha contra los Grapploct y el que pierde se convierte en una suculenta presa.",
     "abilities": [
       {
@@ -62568,7 +62568,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sand Heap Pokémon ",
+    "genus": "Pokémon Monte de Areia",
     "description": "Suele habitar en playas. Aumenta de tamaño al tomar control de todo aquel que se atreva a introducir la mano en su boca.",
     "abilities": [
       {
@@ -62609,7 +62609,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 769,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sand Castle Pokémon ",
+    "genus": "Pokémon Castelo de Areia",
     "description": "Habita en las playas, aunque odia el agua. Cuando caen fuertes lluvias, no é capaz de preservar su forma de castillo.",
     "abilities": [
       {
@@ -62649,7 +62649,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sea Cucumber Pokémon ",
+    "genus": "Pokémon Pepino-do-mar",
     "description": "La formidable mucosidad que envuelve su piel lo mantiene hidratado y le permite permanecer en tierra firme varios días sin secarse.",
     "abilities": [
       {
@@ -62689,7 +62689,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Synthetic Pokémon ",
+    "genus": "Pokémon Sintético",
     "description": "Fue creado a imagen de un Pokémon mitológico. Lleva una máscara de contención para evitar que su poder se descontrole.",
     "abilities": [
       {
@@ -62724,7 +62724,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 772,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Synthetic Pokémon ",
+    "genus": "Pokémon Sintético",
     "description": "El factor decisivo que le ha permitido liberar toda su fuerza ha sido el estrecho vínculo y la confianza que profesa a su Entrenador.",
     "abilities": [
       {
@@ -62760,7 +62760,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Meteor Pokémon ",
+    "genus": "Pokémon Meteoro",
     "description": "Lo recubre un duro caparazón que se quiebra en pedazos al impactar con la superficie de la tierra.",
     "abilities": [
       {
@@ -62795,7 +62795,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Drowsing Pokémon ",
+    "genus": "Pokémon Sonolento",
     "description": "El motivo de su letargo vitalicio es la sustancia somnífera que contienen las hojas de las que se alimenta.",
     "abilities": [
       {
@@ -62831,7 +62831,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Blast Turtle Pokémon ",
+    "genus": "Pokémon Tartaruga Explosiva",
     "description": "El material explosivo de su caparazón está compuesto por el azufre del que se alimenta. Sus excrementos explosivos son muito perigosos.",
     "abilities": [
       {
@@ -62867,7 +62867,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Roly-Poly Pokémon ",
+    "genus": "Pokémon Tatu-bola",
     "description": "Cuando se encuentra en peligro, se hace una bola, eriza las púas del lomo y propina descargas elétricas a diestro y siniestro.",
     "abilities": [
       {
@@ -62913,7 +62913,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Disguise Pokémon ",
+    "genus": "Pokémon Disfarce",
     "description": "Un investigador que miró dentro del saco para estudiar a este Pokémon perdió la vida a causa de una misteriosa enfermedad.",
     "abilities": [
       {
@@ -62949,7 +62949,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Gnash Teeth Pokémon ",
+    "genus": "Pokémon Rangente",
     "description": "Su piel es tan gruesa que ni las espinas de Mareanie pueden perforarla. Con su fuerte dentadura tritura y engulle dichas espinas.",
     "abilities": [
       {
@@ -62995,7 +62995,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Placid Pokémon ",
+    "genus": "Pokémon Plácido",
     "description": "Es de naturaleza mansa y amable, pero, si se enfurece, puede desatar fuertes vientos capaces de llevarse cualquier cosa por delante.",
     "abilities": [
       {
@@ -63041,7 +63041,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sea Creeper Pokémon ",
+    "genus": "Pokémon Rastejador do Mar",
     "description": "Acecha a su presa hundiendo el ancla en el mar. é capaz de drenar la vitalidad inclusive de presas del tamaño de un Wailord.",
     "abilities": [
       {
@@ -63076,7 +63076,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scaly Pokémon ",
+    "genus": "Pokémon Escamado",
     "description": "Se comunica con sus congéneres mediante los sonidos que produce al golpear sus escamas, duras como el acero.",
     "abilities": [
       {
@@ -63122,7 +63122,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 782,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scaly Pokémon ",
+    "genus": "Pokémon Escamado",
     "description": "Tras hacer sonar sus escamas y proferir su grito de guerra, carga contra el enemigo y lo hace trizas con sus afiladas garras.",
     "abilities": [
       {
@@ -63168,7 +63168,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 783,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Scaly Pokémon ",
+    "genus": "Pokémon Escamado",
     "description": "Se han descubierto antiguas representaciones pictóricas de guerreros que lucían armaduras confeccionadas con escamas de Kommo-o.",
     "abilities": [
       {
@@ -63214,7 +63214,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Land Spirit Pokémon ",
+    "genus": "Pokémon Espírito da Terra",
     "description": "El espíritu guardián de Melemele, capaz de blandir el rayo. Su eterna curiosidad le lleva a veces a mostrarse ante las personas.",
     "abilities": [
       {
@@ -63255,7 +63255,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Land Spirit Pokémon ",
+    "genus": "Pokémon Espírito da Terra",
     "description": "Este espíritu guardián es tan candoroso como despiadado, por isso se podría decir que es la encarnación de la naturaleza misma.",
     "abilities": [
       {
@@ -63296,7 +63296,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Land Spirit Pokémon ",
+    "genus": "Pokémon Espírito da Terra",
     "description": "El espíritu guardián de Ula-Ula, que gobierna la flora. Hace repicar sua cauda para alertar de su presencia y prevenir riñas sin sentido.",
     "abilities": [
       {
@@ -63337,7 +63337,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Land Spirit Pokémon ",
+    "genus": "Pokémon Espírito da Terra",
     "description": "apesar de ser un espíritu guardián, trae desgraças a aquellos que se le acercan sin la debida cortesía.",
     "abilities": [
       {
@@ -63377,7 +63377,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Nebula Pokémon ",
+    "genus": "Pokémon Nebulosa",
     "description": "Su escasa prudencia y gran curiosidad lo llevan a menudo a ponerse en peligro. em caso de apuro, se teletransporta para huir.",
     "abilities": [
       {
@@ -63412,7 +63412,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 789,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Protostar Pokémon ",
+    "genus": "Pokémon Protoestrela",
     "description": "Absorbe impetuoso polvo de la atmósfera y pone todo su empeño en crear en su núcleo la energía necesaria para evolucionar.",
     "abilities": [
       {
@@ -63520,7 +63520,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Parasite Pokémon ",
+    "genus": "Pokémon Parasita",
     "description": "Llegó a este mundo através de un Ultraumbral. Es un parásito que se aprovecha de Pokémon y personas.",
     "abilities": [
       {
@@ -63556,7 +63556,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Swollen Pokémon ",
+    "genus": "Pokémon Inchado",
     "description": "Uno de los Ultraentes. Posee una musculatura excesivamente desarrollada.",
     "abilities": [
       {
@@ -63592,7 +63592,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Lissome Pokémon ",
+    "genus": "Pokémon Gracioso",
     "description": "Para los seres de este mundo resulta extraño y peligroso, pero en el mundo del que procede es una criatura muy común.",
     "abilities": [
       {
@@ -63627,7 +63627,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Glowing Pokémon ",
+    "genus": "Pokémon Brilhante",
     "description": "Uno de los llamados Ultraentes. Algunos ejemplares plantan sus extremidades en el suelo como si fueran árboles y permanecen inmóviles.",
     "abilities": [
       {
@@ -63663,7 +63663,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Launch Pokémon ",
+    "genus": "Pokémon Lançamento",
     "description": "Para los seres de este mundo resulta extraño y peligroso, pero en el mundo del que procede es una criatura muy común.",
     "abilities": [
       {
@@ -63699,7 +63699,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Drawn Sword Pokémon ",
+    "genus": "Pokémon Espada Desembainhada",
     "description": "Para los seres de este mundo resulta extraño y peligroso, pero en el mundo del que procede es una criatura muy común.",
     "abilities": [
       {
@@ -63735,7 +63735,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Junkivore Pokémon ",
+    "genus": "Pokémon Sucateiro",
     "description": "Uno de los extraños Ultraentes. sempre está comiendo algo, como poseído de un hambre insaciable.",
     "abilities": [
       {
@@ -63806,7 +63806,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Artificial Pokémon ",
+    "genus": "Pokémon Artificial",
     "description": "Pokémon artificial creado por científicos hace unos 500 años. Su verdadera esencia es una pieza llamada Coránima.",
     "abilities": [
       {
@@ -63842,7 +63842,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Gloomdweller Pokémon ",
+    "genus": "Pokémon Habitante das Sombras",
     "description": "Posee la extraordinaria capacidad de infiltrarse en cualquier sombra, por isso nadie lo había visto en mucho tiempo.",
     "abilities": [
       {
@@ -63949,7 +63949,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rampart Pokémon ",
+    "genus": "Pokémon Muralha",
     "description": "Extraña criatura que podría ser un Ultraente. Parece un muro rocoso hasta que se mueve de repente y ataca.",
     "abilities": [
       {
@@ -63985,7 +63985,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fireworks Pokémon ",
+    "genus": "Pokémon Fogos de Artifício",
     "description": "Un Ultraente surgido de un Ultraumbral. Crea una explosión para sorprender al oponente y aprovecha para absorber su energía vital.",
     "abilities": [
       {
@@ -64020,7 +64020,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Thunderclap Pokémon ",
+    "genus": "Pokémon Estrondo do Trovão",
     "description": "Las almohadillas de suas patas desprenden descargas elétricas. Cuando corre, hace que caigan rayos y reverberen los truenos.",
     "abilities": [
       {
@@ -64055,7 +64055,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Hex Nut Pokémon ",
+    "genus": "Pokémon Porca Sextavada",
     "description": "vivem em grupos, pero, llegado el momento, el ejemplar más fuerte absorbe a sus camaradas y evoluciona.",
     "abilities": [
       {
@@ -64090,7 +64090,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 808,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Hex Nut Pokémon ",
+    "genus": "Pokémon Porca Sextavada",
     "description": "graças a la inercia y la fuerza centrífuga, los puñetazos que propina con sus pesadas tuercas son los más potentes del mundo Pokémon.",
     "abilities": [
       {
@@ -64165,7 +64165,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 810,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Beat Pokémon ",
+    "genus": "Pokémon Batida",
     "description": "Se concentra tanto en marcar el ritmo que, cuando su rival se debilita en combate, no se da ni cuenta.",
     "abilities": [
       {
@@ -64205,7 +64205,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 811,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Drummer Pokémon ",
+    "genus": "Pokémon Baterista",
     "description": "El percusionista con la técnica más depurada se convierte en líder. Son de carácter tranquilo y dan mucha importancia a la armonía del grupo.",
     "abilities": [
       {
@@ -64485,7 +64485,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cheeky Pokémon ",
+    "genus": "Pokémon Atrevido",
     "description": "sempre están comiendo bayas, por isso son más robustos de lo que aparentan. Frecuentan los huertos en busca de su preciado manjar.",
     "abilities": [
       {
@@ -64525,7 +64525,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 819,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Greedy Pokémon ",
+    "genus": "Pokémon Ganancioso",
     "description": "Sus incisivos, de fuerza y dureza extraordinarias, le permiten mordisquear inclusive las bayas más duras. Es un Pokémon muy común en Galar.",
     "abilities": [
       {
@@ -64610,7 +64610,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 821,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Raven Pokémon ",
+    "genus": "Pokémon Corvo",
     "description": "Tras haber librado combates muy duros, ha desarrollado la habilidad de determinar con precisión la fuerza de su adversario.",
     "abilities": [
       {
@@ -64656,7 +64656,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 822,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Raven Pokémon ",
+    "genus": "Pokémon Corvo",
     "description": "devido a su excelente capacidad de vuelo y a su gran inteligencia, ejerce de taxi volador en Galar.",
     "abilities": [
       {
@@ -64701,7 +64701,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Larva Pokémon ",
+    "genus": "Pokémon Larva",
     "description": "Es habitual verlo en el campo. Los pelos que tiene son sensores con los que percibe lo que ocurre a su alrededor.",
     "abilities": [
       {
@@ -64747,7 +64747,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 824,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Radome Pokémon ",
+    "genus": "Pokémon Radome",
     "description": "Está en constante crecimiento dentro del caparazón. Mientras se prepara para evolucionar, examina el exterior con sus poderes psíquicos.",
     "abilities": [
       {
@@ -64793,7 +64793,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 825,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Seven Spot Pokémon ",
+    "genus": "Pokémon Sete Pontos",
     "description": "Se sirve de sus poderes psíquicos, con los que é capaz de percibir lo que ocurre en un radio de 10 km, para examinar sus alrededores.",
     "abilities": [
       {
@@ -64928,7 +64928,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Flowering Pokémon ",
+    "genus": "Pokémon Florido",
     "description": "Muchos los crían tras quedar prendados de lo adorables que resultan cuando cantan dando vueltas empujados por la brisa.",
     "abilities": [
       {
@@ -64973,7 +64973,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 829,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cotton Bloom Pokémon ",
+    "genus": "Pokémon Flor de Algodão",
     "description": "El hilo fabricado a partir de su algodón es muy bello y brillante; uno de los productos estrella de la región de Galar.",
     "abilities": [
       {
@@ -65018,7 +65018,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sheep Pokémon ",
+    "genus": "Pokémon Ovelha",
     "description": "Si le crece el pelo demasiado, no puede moverse. Las telas confeccionadas con lana de Wooloo son sorprendentemente resistentes.",
     "abilities": [
       {
@@ -65063,7 +65063,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 831,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sheep Pokémon ",
+    "genus": "Pokémon Ovelha",
     "description": "Sus espléndidos cuernos sirven de reclamo para atraer al sexo opuesto. No los utiliza como arma.",
     "abilities": [
       {
@@ -65108,7 +65108,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Snapping Pokémon ",
+    "genus": "Pokémon Mordedor",
     "description": "El cuerno que tiene en la cabeza es duro como una roca. Lo usa para atacar al rival y, cuando este baja la guardia, lo muerde y no lo suelta.",
     "abilities": [
       {
@@ -65154,7 +65154,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 833,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bite Pokémon ",
+    "genus": "Pokémon Mordida",
     "description": "Su cuello extensible le permite alcanzar a los rivales a distancia. Hundiendo sus afilados dientes, les da el golpe de gracia.",
     "abilities": [
       {
@@ -65239,7 +65239,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 835,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Dog Pokémon ",
+    "genus": "Pokémon Cão",
     "description": "La electricidad le confiere una enorme fuerza en las patas. Su velocidad punta puede superar los 90 km/h sin problema.",
     "abilities": [
       {
@@ -65279,7 +65279,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Coal Pokémon ",
+    "genus": "Pokémon Carvão",
     "description": "Recorre inclusive los caminos más impracticables y pedregosos como si de un monociclo se tratase. La combustión de carbón es su fuente vital.",
     "abilities": [
       {
@@ -65325,7 +65325,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 837,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Coal Pokémon ",
+    "genus": "Pokémon Carvão",
     "description": "Gira las patas em alta velocidade para correr a unos 30 km/h. Emite llamas a una temperatura de 1000 °C.",
     "abilities": [
       {
@@ -65371,7 +65371,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 838,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Coal Pokémon ",
+    "genus": "Pokémon Carvão",
     "description": "Cuando se enzarza en un combate, la montaña de carbón arde al rojo vivo y esparce chispas que calcinan todo lo que le rodea.",
     "abilities": [
       {
@@ -65417,7 +65417,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Apple Core Pokémon ",
+    "genus": "Pokémon Miolo de Maçã",
     "description": "Nada más nacer se refugia en una manzana, cuyo interior va devorando a medida que crece. El sabor de la fruta determina la evolución.",
     "abilities": [
       {
@@ -65463,7 +65463,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 840,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Apple Wing Pokémon ",
+    "genus": "Pokémon Asa de Maçã",
     "description": "Escupe una saliva sumamente ácida y vuela con suas asas compuestas por piel de manzana, cuyo aspecto é capaz de adoptar.",
     "abilities": [
       {
@@ -65509,7 +65509,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 840,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Apple Nectar Pokémon ",
+    "genus": "Pokémon Néctar de Maçã",
     "description": "seu corpo está recubierto de néctar. La piel de la espalda es tan dulce que los niños de antaño solían tomarla como merienda.",
     "abilities": [
       {
@@ -65554,7 +65554,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sand Snake Pokémon ",
+    "genus": "Pokémon Serpente de Areia",
     "description": "Expulsa arena por los orificios nasales. Una vez que aturde al enemigo, aprovecha la ocasión para ocultarse bajo tierra.",
     "abilities": [
       {
@@ -65599,7 +65599,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 843,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sand Snake Pokémon ",
+    "genus": "Pokémon Serpente de Areia",
     "description": "La manera tan particular que tiene de enrollarse sobre sí mismo le permite expulsar con mayor eficacia la arena que almacena en la bolsa.",
     "abilities": [
       {
@@ -65645,7 +65645,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Gulp Pokémon ",
+    "genus": "Pokémon Engolidor",
     "description": "Traga Arrokuda enteros devido a su glotonería, tan notable que en ocasiones ingiere hasta otros Pokémon sin querer.",
     "abilities": [
       {
@@ -65680,7 +65680,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rush Pokémon ",
+    "genus": "Pokémon Investida",
     "description": "Cuando tiene el estómago lleno, le cuesta moverse y corre el riesgo de ser engullido por algún Cramorant.",
     "abilities": [
       {
@@ -65720,7 +65720,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 846,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Skewer Pokémon ",
+    "genus": "Pokémon Espetador",
     "description": "Hace girar su aleta caudal para impulsarse y arremeter contra la presa, a la que ensarta a una velocidad que supera los 100 nudos.",
     "abilities": [
       {
@@ -65761,7 +65761,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Baby Pokémon ",
+    "genus": "Pokémon Bebê",
     "description": "Provoca una reacción química para generar energía eléctrica con sus toxinas. Aunque de bajo voltaje, puede causar entumecimiento.",
     "abilities": [
       {
@@ -65807,7 +65807,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 848,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Punk Pokémon ",
+    "genus": "Pokémon Punk",
     "description": "Posee un carácter belicoso e irascible. Bebe una gran cantidad de agua estancada para absorber sus toxinas.",
     "abilities": [
       {
@@ -65853,7 +65853,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Radiator Pokémon ",
+    "genus": "Pokémon Radiador",
     "description": "Oprime suas presas con seu corpo candente. Una vez bien tostadas, las devora con fruición.",
     "abilities": [
       {
@@ -65899,7 +65899,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 850,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Radiator Pokémon ",
+    "genus": "Pokémon Radiador",
     "description": "Posee una naturaleza agresiva. El peligro que entraña seu corpo candente es considerable, aunque sus afilados colmillos no le van a la zaga.",
     "abilities": [
       {
@@ -65944,7 +65944,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tantrum Pokémon ",
+    "genus": "Pokémon Birrento",
     "description": "Su inteligencia es similar a la de un niño de tres años. Sus tentáculos se desprenden a menudo, pero ni se inmuta, ya que se regeneran solos.",
     "abilities": [
       {
@@ -65984,7 +65984,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 852,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Jujitsu Pokémon ",
+    "genus": "Pokémon Lutador de Jiu-jitsu",
     "description": "Se aventura en tierra firme para buscar rivales contra los que luchar para medir su valía. Tras terminar el combate, regresa al mar.",
     "abilities": [
       {
@@ -66024,7 +66024,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Black Tea Pokémon ",
+    "genus": "Pokémon Chá Preto",
     "description": "La taza de té donde se hospeda forma parte de una antigua y valiosa vajilla, de la que circulan numerosas falsificaciones.",
     "abilities": [
       {
@@ -66064,7 +66064,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 854,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Black Tea Pokémon ",
+    "genus": "Pokémon Chá Preto",
     "description": "Si avista una taza de té abandonada a su suerte, la rellena vertiendo parte de su propio cuerpo para generar otro Polteageist.",
     "abilities": [
       {
@@ -66104,7 +66104,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Calm Pokémon ",
+    "genus": "Pokémon Calmo",
     "description": "Siente predilección por los lugares despoblados. Si percibe una emoción intensa, emprende la huida a toda prisa.",
     "abilities": [
       {
@@ -66149,7 +66149,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 856,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Serene Pokémon ",
+    "genus": "Pokémon Sereno",
     "description": "Silencia al objetivo atizándole con los mechones. Despliega una potencia devastadora capaz de noquear a un boxeador profesional.",
     "abilities": [
       {
@@ -66195,7 +66195,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 857,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Silent Pokémon ",
+    "genus": "Pokémon Silencioso",
     "description": "Recibe el apodo de Hechicera del Bosque. Quienes arman demasiado barullo se exponen a ser despedazados por las garras de su tentáculo.",
     "abilities": [
       {
@@ -66241,7 +66241,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Wily Pokémon ",
+    "genus": "Pokémon Astuto",
     "description": "Se infiltra en las casas para hurtar a sus anchas y, por si fuera poco, nutrirse de la energía negativa que liberan sus contrariados habitantes.",
     "abilities": [
       {
@@ -66287,7 +66287,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 859,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Devious Pokémon ",
+    "genus": "Pokémon Dissimulado",
     "description": "De noche, atrae con astucia a su objetivo hasta el bosque. Al parecer, tiene la capacidad de hacer crecer productos agrícolas.",
     "abilities": [
       {
@@ -66333,7 +66333,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 860,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Bulk Up Pokémon ",
+    "genus": "Pokémon Musculoso",
     "description": "Su cabello desempeña una función similar a la de fibras musculares. Al soltárselo, su movimiento tentacular le permite reducir a su objetivo.",
     "abilities": [
       {
@@ -66379,7 +66379,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 264,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Blocking Pokémon ",
+    "genus": "Pokémon Bloqueador",
     "description": "Evoluciona tras haber librado numerosas peleas. El grito de guerra que profiere mientras pone los brazos en cruz atemoriza a cualquier rival.",
     "abilities": [
       {
@@ -66424,7 +66424,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 52,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Viking Pokémon ",
+    "genus": "Pokémon Viking",
     "description": "Su devoción por la lucha ha propiciado que evolucionara y le ha conferido unas peligrosas garras que se convierten en dagas al extenderse.",
     "abilities": [
       {
@@ -66469,7 +66469,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 222,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Coral Pokémon ",
+    "genus": "Pokémon Coral",
     "description": "Conviene tener cuidado con el cuerpo espectral que recubre su alma, pues quien lo toque podría acabar inerte como una piedra.",
     "abilities": [
       {
@@ -66550,7 +66550,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 122,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Comedian Pokémon ",
+    "genus": "Pokémon Comediante",
     "description": "Se ha granjeado la simpatía de todo el mundo por sus cómicos movimientos. Emite poderes psíquicos por el motivo de su barriga.",
     "abilities": [
       {
@@ -66596,7 +66596,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 562,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Grudge Pokémon ",
+    "genus": "Pokémon Rancor",
     "description": "seu corpo, similar a una sombra, no debe tocarse bajo ningún concepto o se visualizarán los horribles recuerdos impregnados en la imagen.",
     "abilities": [
       {
@@ -66631,7 +66631,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cream Pokémon ",
+    "genus": "Pokémon Creme",
     "description": "diz-se que las pastelerías donde ha aparecido Milcery tienen casi todas las papeletas para saborear las mieles del éxito.",
     "abilities": [
       {
@@ -66671,7 +66671,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 868,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Cream Pokémon ",
+    "genus": "Pokémon Creme",
     "description": "La nata que le brota de las manos es más dulce y sustanciosa cuando está feliz.",
     "abilities": [
       {
@@ -66711,7 +66711,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Formation Pokémon ",
+    "genus": "Pokémon Formação",
     "description": "Este Pokémon está formado por seis individuos que cambian de formación al luchar, haciendo gala de un notable espíritu de equipo.",
     "abilities": [
       {
@@ -66751,7 +66751,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Sea Urchin Pokémon ",
+    "genus": "Pokémon Ouriço-do-mar",
     "description": "Acumula electricidad en cada una de sus púas. Aunque estas se rompan, são capazes de seguir descargando energía durante 3 h.",
     "abilities": [
       {
@@ -66833,7 +66833,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 872,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Frost Moth Pokémon ",
+    "genus": "Pokémon Mariposa do Gelo",
     "description": "No muestra la menor compasión con quien asole el campo: lo escarmienta batiendo sus gélidas alas para provocar una ventisca.",
     "abilities": [
       {
@@ -66873,7 +66873,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big Rock Pokémon ",
+    "genus": "Pokémon Rocha Grande",
     "description": "Una vez al año y en una fecha concreta, tienen la costumbre de aparecer de la nada para reunirse y formar un círculo.",
     "abilities": [
       {
@@ -66908,7 +66908,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Penguin Pokémon ",
+    "genus": "Pokémon Pinguim",
     "description": "Se enfría constantemente la cara con hielo por su escasa resistencia al calor. Utiliza el pelo de la cabeza para pescar en el mar.",
     "abilities": [
       {
@@ -66944,7 +66944,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Emotion Pokémon ",
+    "genus": "Pokémon Emoção",
     "description": "Con sus cuernos percibe las emociones de los seres vivos que se hallen cerca. Los sentimientos positivos constituyen su fuente de energía.",
     "abilities": [
       {
@@ -66990,7 +66990,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Two-Sided Pokémon ",
+    "genus": "Pokémon Dois Lados",
     "description": "sempre tiene apetito, sin importar lo mucho que coma. Lleva con sumo cuidado las semillas que ha tostado con su propia electricidad.",
     "abilities": [
       {
@@ -67025,7 +67025,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Copperderm Pokémon ",
+    "genus": "Pokémon Pele de Cobre",
     "description": "Realiza tareas que requieren de esfuerzo físico, es su fuerte. Con la lluvia, seu corpo de cobre se oxida y adquiere una tonalidad verde intensa.",
     "abilities": [
       {
@@ -67065,7 +67065,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 878,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Copperderm Pokémon ",
+    "genus": "Pokémon Pele de Cobre",
     "description": "vivem em manadas. La fuerza prensil de su trompa es tan extraordinaria que le permite hacer añicos inclusive grandes rocas.",
     "abilities": [
       {
@@ -67290,7 +67290,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Alloy Pokémon ",
+    "genus": "Pokémon Liga Metálica",
     "description": "Hace gala de una agilidad extraordinaria, ya que seu corpo está compuesto de un metal especial. Detesta la lluvia, por isso habita en cuevas.",
     "abilities": [
       {
@@ -67336,7 +67336,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Lingering Pokémon ",
+    "genus": "Pokémon Persistente",
     "description": "En solitario es tan débil que no sería rival ni para un niño, pero, al entrenarse con sus congéneres, evoluciona y se vuelve más fuerte.",
     "abilities": [
       {
@@ -67382,7 +67382,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 885,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Caretaker Pokémon ",
+    "genus": "Pokémon Cuidador",
     "description": "Si no lleva un Dreepy del que cuidar encima de la cabeza, se intranquiliza y trata de sustituirlo con otro Pokémon.",
     "abilities": [
       {
@@ -67428,7 +67428,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 886,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Stealth Pokémon ",
+    "genus": "Pokémon Furtivo",
     "description": "Al parecer, los Dreepy que residen en sus cuernos esperan con ilusión el momento de ser propulsados a velocidad supersónica.",
     "abilities": [
       {
@@ -67544,7 +67544,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Gigantic Pokémon ",
+    "genus": "Pokémon Gigante",
     "description": "Fue hallado en el interior de un meteorito caído hace 20 000 años. Por lo visto, está relacionado con el misterio que rodea al fenómeno Dinamax.",
     "abilities": [
       {
@@ -67579,7 +67579,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Wushu Pokémon ",
+    "genus": "Pokémon Wushu",
     "description": "Al tirar de los mechones blancos de la cabeza, acrecienta su espíritu luchador y empieza a acumular fuerza en el órgano de su bajo vientre.",
     "abilities": [
       {
@@ -67615,7 +67615,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 891,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Wushu Pokémon ",
+    "genus": "Pokémon Wushu",
     "description": "vive em zonas montañosas en áreas recónditas, donde entrena corriendo por escarpados riscos para fortalecer sus piernas y refinar su técnica.",
     "abilities": [
       {
@@ -67651,7 +67651,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": true,
-    "genus": "Rogue Monkey Pokémon ",
+    "genus": "Pokémon Macaco Rebelde",
     "description": "Las lianas que le brotan del cuerpo nutren y fertilizan el mantillo del bosque cuando se le desprenden.",
     "abilities": [
       {
@@ -67686,7 +67686,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Electron Pokémon ",
+    "genus": "Pokémon Elétron",
     "description": "Todo seu corpo es un órgano electrógeno, cuya potencia sería suficiente para abastecer la región de Galar por completo.",
     "abilities": [
       {
@@ -67721,7 +67721,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Dragon Orb Pokémon ",
+    "genus": "Pokémon Esfera do Dragão",
     "description": "Todo seu corpo es una gema de energía dragón cristalizada. Se cree que posee los poderes de todos los Pokémon dragón.",
     "abilities": [
       {
@@ -67756,7 +67756,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Wild Horse Pokémon ",
+    "genus": "Pokémon Cavalo Selvagem",
     "description": "Cuenta con una fuerza física sobrecogedora. La máscara de hielo que le cubre el rostro es cien veces más dura que el diamante.",
     "abilities": [
       {
@@ -67791,7 +67791,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Swift Horse Pokémon ",
+    "genus": "Pokémon Cavalo Veloz",
     "description": "Amante de la quietud y la soledad, galopa por las tinieblas nocturnas absorbiendo la energía vital de toda criatura que esté durmiendo.",
     "abilities": [
       {
@@ -67827,7 +67827,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "King Pokémon ",
+    "genus": "Pokémon Rei",
     "description": "Legendario monarca del antiguo Galar. Posee el poder de sanar el espíritu y de hacer brotar la vegetación.",
     "abilities": [
       {
@@ -67863,7 +67863,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 234,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big Horn Pokémon ",
+    "genus": "Pokémon Chifre Grande",
     "description": "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
     "abilities": [
       {
@@ -67909,7 +67909,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 123,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Axe Pokémon ",
+    "genus": "Pokémon Machado",
     "description": "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
     "abilities": [
       {
@@ -67955,7 +67955,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 217,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Peat Pokémon ",
+    "genus": "Pokémon Turfa",
     "description": "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
     "abilities": [
       {
@@ -68001,7 +68001,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 550,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big Fish Pokémon ",
+    "genus": "Pokémon Peixe Grande",
     "description": "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
     "abilities": [
       {
@@ -68047,7 +68047,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 215,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Free Climb Pokémon ",
+    "genus": "Pokémon Escalador Livre",
     "description": "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
     "abilities": [
       {
@@ -68093,7 +68093,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 211,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Pin Cluster Pokémon ",
+    "genus": "Pokémon Aglomerado de Alfinetes",
     "description": "Its lancelike spikes and savage temperament have earned it the nickname ”sea fiend.” It slurps up poison to nourish itself.",
     "abilities": [
       {
@@ -68139,7 +68139,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Love-Hate Pokémon ",
+    "genus": "Pokémon Amor e Ódio",
     "description": "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
     "abilities": [
       {
@@ -68179,7 +68179,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Grass Cat Pokémon ",
+    "genus": "Pokémon Gato de Grama",
     "description": "The sweet scent its body gives off mesmerizes those around it. The scent grows stronger when this Pokémon is in the sun.",
     "abilities": [
       {
@@ -68219,7 +68219,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 906,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Grass Cat Pokémon ",
+    "genus": "Pokémon Gato de Grama",
     "description": "The hardness of Floragato’s fur depends on the Pokémon’s mood. When Floragato is prepared to battle, its fur becomes pointed and needle sharp.",
     "abilities": [
       {
@@ -68260,7 +68260,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 907,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Magician Pokémon ",
+    "genus": "Pokémon Mágico",
     "description": "With skillful misdirection, it rigs foes with pollen-packed flower bombs. Meowscarada sets off the bombs before its foes realize what’s going on.",
     "abilities": [
       {
@@ -68300,7 +68300,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fire Croc Pokémon ",
+    "genus": "Pokémon Crocodilo de Fogo",
     "description": "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco’s head and flickers to and fro.",
     "abilities": [
       {
@@ -68340,7 +68340,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 909,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fire Croc Pokémon ",
+    "genus": "Pokémon Crocodilo de Fogo",
     "description": "The valve in Crocalor’s flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",
     "abilities": [
       {
@@ -68381,7 +68381,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 910,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Singer Pokémon ",
+    "genus": "Pokémon Cantora",
     "description": "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
     "abilities": [
       {
@@ -68421,7 +68421,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Duckling Pokémon ",
+    "genus": "Pokémon Patinho",
     "description": "Its strong legs let it easily swim around in even fast-flowing rivers. It likes to keep things tidy and is prone to overthinking things.",
     "abilities": [
       {
@@ -68461,7 +68461,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 912,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Practicing Pokémon ",
+    "genus": "Pokémon Aprendiz",
     "description": "The hardworking Quaxwell observes people and Pokémon from various regions and incorporates their movements into its own dance routines.",
     "abilities": [
       {
@@ -68502,7 +68502,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 913,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Dancer Pokémon ",
+    "genus": "Pokémon Dançarino",
     "description": "Dancing in ways that evoke far-away places, this Pokémon mesmerizes all that see it. Flourishes of its decorative water feathers slice into its foes.",
     "abilities": [
       {
@@ -68542,7 +68542,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hog Pokémon ",
+    "genus": "Pokémon Javali",
     "description": "This Pokémon spurns all but the finest of foods. Its body gives off an herblike scent that bug Pokémon detest.",
     "abilities": [
       {
@@ -68587,7 +68587,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 915,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hog Pokémon ",
+    "genus": "Pokémon Javali",
     "description": "It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.",
     "abilities": [
       {
@@ -68632,7 +68632,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "String Ball Pokémon ",
+    "genus": "Pokémon Bola de Fio",
     "description": "The thread it secretes from its rear is as strong as wire. The secret behind the thread’s strength is the topic of ongoing research.",
     "abilities": [
       {
@@ -68672,7 +68672,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 917,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Trap Pokémon ",
+    "genus": "Pokémon Armadilha",
     "description": "Spidops covers its territory in tough, sticky threads to set up traps for intruders.",
     "abilities": [
       {
@@ -68712,7 +68712,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Grasshopper Pokémon ",
+    "genus": "Pokémon Gafanhoto",
     "description": "It’s highly skilled at a fighting style in which it uses its jumping capabilities to dodge incoming attacks while also dealing damage to opponents.",
     "abilities": [
       {
@@ -68753,7 +68753,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 919,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Grasshopper Pokémon ",
+    "genus": "Pokémon Gafanhoto",
     "description": "It uses its normally folded third set of legs when in Showdown Mode. This places a huge burden on its body, so it can’t stay in this mode for long.",
     "abilities": [
       {
@@ -68885,7 +68885,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 922,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hands-On Pokémon ",
+    "genus": "Pokémon Dedicado",
     "description": "Pawmot’s fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
     "abilities": [
       {
@@ -68930,7 +68930,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Couple Pokémon ",
+    "genus": "Pokémon Casal",
     "description": "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
     "abilities": [
       {
@@ -68975,7 +68975,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 924,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Family Pokémon ",
+    "genus": "Pokémon Família",
     "description": "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
     "abilities": [
       {
@@ -69060,7 +69060,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 926,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Dog Pokémon ",
+    "genus": "Pokémon Cão",
     "description": "The surface of this Pokémon’s skin hardens when exposed to intense heat, and its body has an appetizing aroma.",
     "abilities": [
       {
@@ -69101,7 +69101,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Olive Pokémon ",
+    "genus": "Pokémon Azeitona",
     "description": "This Pokémon converts nutrients into oil, which it stores in the fruit on its head. It can easily go a whole week without eating or drinking.",
     "abilities": [
       {
@@ -69142,7 +69142,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 928,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Olive Pokémon ",
+    "genus": "Pokémon Azeitona",
     "description": "It basks in the sun to its heart’s content until the fruits on its head ripen. After that, Dolliv departs from human settlements and goes on a journey.",
     "abilities": [
       {
@@ -69183,7 +69183,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 929,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Olive Pokémon ",
+    "genus": "Pokémon Azeitona",
     "description": "This Pokémon drives back enemies by launching its rich, aromatic oil at them with enough force to smash a boulder.",
     "abilities": [
       {
@@ -69224,7 +69224,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Parrot Pokémon ",
+    "genus": "Pokémon Papagaio",
     "description": "Green-feathered flocks hold the most sway. When they’re out searching for food in the mornings and evenings, it gets very noisy.",
     "abilities": [
       {
@@ -69269,7 +69269,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rock Salt Pokémon ",
+    "genus": "Pokémon Sal-gema",
     "description": "The ground scrapes its body as it travels, causing it to leave salt behind. Salt is constantly being created and replenished inside Nacli’s body.",
     "abilities": [
       {
@@ -69314,7 +69314,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 932,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rock Salt Pokémon ",
+    "genus": "Pokémon Sal-gema",
     "description": "It compresses rock salt inside its body and shoots out hardened salt pellets with enough force to perforate an iron sheet.",
     "abilities": [
       {
@@ -69359,7 +69359,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 933,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rock Salt Pokémon ",
+    "genus": "Pokémon Sal-gema",
     "description": "Many Pokémon gather around Garganacl, hoping to lick at its mineral-rich salt.",
     "abilities": [
       {
@@ -69404,7 +69404,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fire Child Pokémon ",
+    "genus": "Pokémon Criança de Fogo",
     "description": "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat.",
     "abilities": [
       {
@@ -69445,7 +69445,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 935,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fire Warrior Pokémon ",
+    "genus": "Pokémon Guerreiro de Fogo",
     "description": "This Pokémon clads itself in armor that has been fortified by psychic and fire energy, and it shoots blazing fireballs.",
     "abilities": [
       {
@@ -69486,7 +69486,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 935,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Fire Blades Pokémon ",
+    "genus": "Pokémon Lâminas de Fogo",
     "description": "An old set of armor steeped in grudges caused this Pokémon’s evolution. Ceruledge cuts its enemies to pieces without mercy.",
     "abilities": [
       {
@@ -69526,7 +69526,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "EleTadpole Pokémon ",
+    "genus": "Pokémon Girino Elétrico",
     "description": "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
     "abilities": [
       {
@@ -69571,7 +69571,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 938,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "EleFrog Pokémon ",
+    "genus": "Pokémon Sapo Elétrico",
     "description": "What appear to be eyeballs are actually organs for discharging the electricity generated by Bellibolt’s belly-button dynamo.",
     "abilities": [
       {
@@ -69617,7 +69617,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Storm Petrel Pokémon ",
+    "genus": "Pokémon Alma-de-mestre",
     "description": "These Pokémon make their nests on coastal cliffs. The nests have a strange, crackling texture, and they’re a popular delicacy.",
     "abilities": [
       {
@@ -69663,7 +69663,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 940,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Frigatebird Pokémon ",
+    "genus": "Pokémon Fragata",
     "description": "It uses its throat sac to store electricity generated by its wings. There’s hardly any oil in its feathers, so it is a poor swimmer.",
     "abilities": [
       {
@@ -69708,7 +69708,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rascal Pokémon ",
+    "genus": "Pokémon Trapalhão",
     "description": "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
     "abilities": [
       {
@@ -69753,7 +69753,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 942,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Boss Pokémon ",
+    "genus": "Pokémon Chefe",
     "description": "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
     "abilities": [
       {
@@ -69799,7 +69799,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Toxic Mouse Pokémon ",
+    "genus": "Pokémon Rato Tóxico",
     "description": "To keep enemies away from its territory, it paints markings around its nest using a poisonous liquid that has an acrid odor.",
     "abilities": [
       {
@@ -69845,7 +69845,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 944,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Toxic Monkey Pokémon ",
+    "genus": "Pokémon Macaco Tóxico",
     "description": "Each Grafaiai paints its own individual pattern, and it will paint that same pattern over and over again throughout its life.",
     "abilities": [
       {
@@ -69891,7 +69891,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tumbleweed Pokémon ",
+    "genus": "Pokémon Planta-rolante",
     "description": "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
     "abilities": [
       {
@@ -69932,7 +69932,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 946,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Tumbleweed Pokémon ",
+    "genus": "Pokémon Planta-rolante",
     "description": "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
     "abilities": [
       {
@@ -69973,7 +69973,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Woodear Pokémon ",
+    "genus": "Pokémon Orelha-de-pau",
     "description": "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but Consegue correr at a speed of 30 mph.",
     "abilities": [
       {
@@ -70009,7 +70009,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 948,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Woodear Pokémon ",
+    "genus": "Pokémon Orelha-de-pau",
     "description": "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
     "abilities": [
       {
@@ -70044,7 +70044,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ambush Pokémon ",
+    "genus": "Pokémon Emboscada",
     "description": "This Pokémon lives on sheer cliffs. It sidesteps opponents’ attacks, then lunges for their weak spots with its claws.",
     "abilities": [
       {
@@ -70089,7 +70089,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spicy Pepper Pokémon ",
+    "genus": "Pokémon Pimenta Picante",
     "description": "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
     "abilities": [
       {
@@ -70135,7 +70135,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 951,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spicy Pepper Pokémon ",
+    "genus": "Pokémon Pimenta Picante",
     "description": "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",
     "abilities": [
       {
@@ -70180,7 +70180,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rolling Pokémon ",
+    "genus": "Pokémon Rolador",
     "description": "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve.",
     "abilities": [
       {
@@ -70221,7 +70221,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 953,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rolling Pokémon ",
+    "genus": "Pokémon Rolador",
     "description": "An infant sleeps inside the ball. Rabsca rolls the ball soothingly with its legs to ensure the infant sleeps comfortably.",
     "abilities": [
       {
@@ -70261,7 +70261,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Frill Pokémon ",
+    "genus": "Pokémon Gola",
     "description": "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
     "abilities": [
       {
@@ -70306,7 +70306,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 955,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ostrich Pokémon ",
+    "genus": "Pokémon Avestruz",
     "description": "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
     "abilities": [
       {
@@ -70352,7 +70352,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Metalsmith Pokémon ",
+    "genus": "Pokémon Metalúrgico",
     "description": "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it’s satisfied with the result.",
     "abilities": [
       {
@@ -70398,7 +70398,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 957,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hammer Pokémon ",
+    "genus": "Pokémon Martelo",
     "description": "These Pokémon make their homes in piles of scrap metal. They test the strength of each other’s hammers by smashing them together.",
     "abilities": [
       {
@@ -70444,7 +70444,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 958,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Hammer Pokémon ",
+    "genus": "Pokémon Martelo",
     "description": "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",
     "abilities": [
       {
@@ -70489,7 +70489,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Garden Eel Pokémon ",
+    "genus": "Pokémon Enguia de Jardim",
     "description": "Though it looks like Diglett, Wiglett is an entirely different species. The resemblance seems to be a coincidental result of environmental adaptation.",
     "abilities": [
       {
@@ -70534,7 +70534,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 960,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Garden Eel Pokémon ",
+    "genus": "Pokémon Enguia de Jardim",
     "description": "A variety of fish Pokémon, Wugtrio was once considered to be a regional form of Dugtrio.",
     "abilities": [
       {
@@ -70580,7 +70580,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Item Drop Pokémon ",
+    "genus": "Pokémon Lançador de Itens",
     "description": "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises.",
     "abilities": [
       {
@@ -70625,7 +70625,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Dolphin Pokémon ",
+    "genus": "Pokémon Golfinho",
     "description": "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole.",
     "abilities": [
       {
@@ -70660,7 +70660,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 963,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Dolphin Pokémon ",
+    "genus": "Pokémon Golfinho",
     "description": "Its physical capabilities are no different than a Finizen’s, but when its allies are in danger, it transforms and powers itself up.",
     "abilities": [
       {
@@ -70696,7 +70696,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Single-Cyl Pokémon ",
+    "genus": "Pokémon Monocilindro",
     "description": "The steel section is Varoom’s actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
     "abilities": [
       {
@@ -70737,7 +70737,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 965,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Multi-Cyl Pokémon ",
+    "genus": "Pokémon Multicilindro",
     "description": "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",
     "abilities": [
       {
@@ -70778,7 +70778,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mount Pokémon ",
+    "genus": "Pokémon Montaria",
     "description": "It can sprint at over 70 mph while carrying a human. The rider’s body heat warms Cyclizar’s back and lifts the Pokémon’s spirit.",
     "abilities": [
       {
@@ -70818,7 +70818,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Earthworm Pokémon ",
+    "genus": "Pokémon Minhoca",
     "description": "This Pokémon vive em arid deserts. It maintains its metal body by consuming iron from the soil.",
     "abilities": [
       {
@@ -70859,7 +70859,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ore Pokémon ",
+    "genus": "Pokémon Minério",
     "description": "Glimmet’s toxic mineral crystals look just like flower petals. This Pokémon scatters poisonous powder like pollen para se proteger.",
     "abilities": [
       {
@@ -70900,7 +70900,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 969,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ore Pokémon ",
+    "genus": "Pokémon Minério",
     "description": "Glimmora’s petals are made of crystallized poison energy. It has recently become evident that these petals resemble Tera Jewels.",
     "abilities": [
       {
@@ -70940,7 +70940,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ghost Dog Pokémon ",
+    "genus": "Pokémon Cão Fantasma",
     "description": "This friendly Pokémon doesn’t like being alone. Pay it even the slightest bit of attention, and it will follow you forever.",
     "abilities": [
       {
@@ -70980,7 +70980,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 971,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ghost Dog Pokémon ",
+    "genus": "Pokémon Cão Fantasma",
     "description": "A lovingly mourned Pokémon was reborn as Houndstone. It doesn’t like anyone touching the protuberance atop its head.",
     "abilities": [
       {
@@ -71021,7 +71021,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Synchronize Pokémon ",
+    "genus": "Pokémon Sincronia",
     "description": "Thanks to a behavior of theirs known as “synchronizing,” an entire flock of these Pokémon can attack simultaneously in perfect harmony.",
     "abilities": [
       {
@@ -71066,7 +71066,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Terra Whale Pokémon ",
+    "genus": "Pokémon Baleia da Terra",
     "description": "It vive em frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
     "abilities": [
       {
@@ -71111,7 +71111,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 974,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Terra Whale Pokémon ",
+    "genus": "Pokémon Baleia da Terra",
     "description": "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",
     "abilities": [
       {
@@ -71157,7 +71157,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Jettison Pokémon ",
+    "genus": "Pokémon Ejetor",
     "description": "Veluza has excellent regenerative capabilities. It sheds spare flesh de seu corpo to boost its agility, then charges at its prey.",
     "abilities": [
       {
@@ -71197,7 +71197,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big Catfish Pokémon ",
+    "genus": "Pokémon Peixe-gato Grande",
     "description": "It treats Tatsugiri like its boss and follows it loyally. Though powerful, Dondozo is apparently not very smart.",
     "abilities": [
       {
@@ -71243,7 +71243,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Mimicry Pokémon ",
+    "genus": "Pokémon Mimetismo",
     "description": "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
     "abilities": [
       {
@@ -71284,7 +71284,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 57,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Rage Monkey Pokémon ",
+    "genus": "Pokémon Macaco Furioso",
     "description": "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
     "abilities": [
       {
@@ -71330,7 +71330,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 194,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Spiny Fish Pokémon ",
+    "genus": "Pokémon Peixe Espinhoso",
     "description": "It lives at the bottom of ponds and swamps. It will carry Wooper on its back and ferry them across water from one shore to the other.",
     "abilities": [
       {
@@ -71376,7 +71376,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 203,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Long Neck Pokémon ",
+    "genus": "Pokémon Pescoço Longo",
     "description": "The hardened head from the tail protects the head of the main body as Farigiraf whips its long neck around to headbutt enemies.",
     "abilities": [
       {
@@ -71421,7 +71421,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 206,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Land Snake Pokémon ",
+    "genus": "Pokémon Cobra Terrestre",
     "description": "It drives enemies out of its nest by sucking in enough air to fill its long, narrow lungs, then releasing the air in an intense blast.",
     "abilities": [
       {
@@ -71467,7 +71467,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 625,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Big Blade Pokémon ",
+    "genus": "Pokémon Grande Lâmina",
     "description": "Though it commands a massive army in battle, it’s not skilled at devising complex strategies. It just uses brute strength to keep pushing.",
     "abilities": [
       {
@@ -71499,7 +71499,7 @@ const ALL_POKEMONS = [
   {
     "id": 984,
     "name": "great-tusk",
-    "displayName": "Great Tusk",
+    "displayName": "Presa Grande",
     "formattedId": "Nº 0984",
     "types": [
       "ground",
@@ -71535,7 +71535,7 @@ const ALL_POKEMONS = [
   {
     "id": 985,
     "name": "scream-tail",
-    "displayName": "Scream Tail",
+    "displayName": "Cauda Brado",
     "formattedId": "Nº 0985",
     "types": [
       "fairy",
@@ -71571,7 +71571,7 @@ const ALL_POKEMONS = [
   {
     "id": 986,
     "name": "brute-bonnet",
-    "displayName": "Brute Bonnet",
+    "displayName": "Capuz Bruto",
     "formattedId": "Nº 0986",
     "types": [
       "grass",
@@ -71607,7 +71607,7 @@ const ALL_POKEMONS = [
   {
     "id": 987,
     "name": "flutter-mane",
-    "displayName": "Flutter Mane",
+    "displayName": "Juba Sopro",
     "formattedId": "Nº 0987",
     "types": [
       "ghost",
@@ -71643,7 +71643,7 @@ const ALL_POKEMONS = [
   {
     "id": 988,
     "name": "slither-wing",
-    "displayName": "Slither Wing",
+    "displayName": "Asa Rastejante",
     "formattedId": "Nº 0988",
     "types": [
       "bug",
@@ -71679,7 +71679,7 @@ const ALL_POKEMONS = [
   {
     "id": 989,
     "name": "sandy-shocks",
-    "displayName": "Sandy Shocks",
+    "displayName": "Choque Areia",
     "formattedId": "Nº 0989",
     "types": [
       "electric",
@@ -71715,7 +71715,7 @@ const ALL_POKEMONS = [
   {
     "id": 990,
     "name": "iron-treads",
-    "displayName": "Iron Treads",
+    "displayName": "Trilho Férreo",
     "formattedId": "Nº 0990",
     "types": [
       "ground",
@@ -71751,7 +71751,7 @@ const ALL_POKEMONS = [
   {
     "id": 991,
     "name": "iron-bundle",
-    "displayName": "Iron Bundle",
+    "displayName": "Pacote Férreo",
     "formattedId": "Nº 0991",
     "types": [
       "ice",
@@ -71787,7 +71787,7 @@ const ALL_POKEMONS = [
   {
     "id": 992,
     "name": "iron-hands",
-    "displayName": "Iron Hands",
+    "displayName": "Mãos Férreas",
     "formattedId": "Nº 0992",
     "types": [
       "fighting",
@@ -71823,7 +71823,7 @@ const ALL_POKEMONS = [
   {
     "id": 993,
     "name": "iron-jugulis",
-    "displayName": "Iron Jugulis",
+    "displayName": "Jugulares Férreas",
     "formattedId": "Nº 0993",
     "types": [
       "dark",
@@ -71859,7 +71859,7 @@ const ALL_POKEMONS = [
   {
     "id": 994,
     "name": "iron-moth",
-    "displayName": "Iron Moth",
+    "displayName": "Mariposa Férrea",
     "formattedId": "Nº 0994",
     "types": [
       "fire",
@@ -71895,7 +71895,7 @@ const ALL_POKEMONS = [
   {
     "id": 995,
     "name": "iron-thorns",
-    "displayName": "Iron Thorns",
+    "displayName": "Espinhos Férreos",
     "formattedId": "Nº 0995",
     "types": [
       "rock",
@@ -71945,7 +71945,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ice Fin Pokémon ",
+    "genus": "Pokémon Barbatana de Gelo",
     "description": "This Pokémon vive em forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator.",
     "abilities": [
       {
@@ -71986,7 +71986,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 996,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ice Fin Pokémon ",
+    "genus": "Pokémon Barbatana de Gelo",
     "description": "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique.",
     "abilities": [
       {
@@ -72027,7 +72027,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 997,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Ice Dragon Pokémon ",
+    "genus": "Pokémon Dragão de Gelo",
     "description": "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade.",
     "abilities": [
       {
@@ -72067,7 +72067,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Coin Chest Pokémon ",
+    "genus": "Pokémon Baú de Moedas",
     "description": "It vive emside an old treasure chest. Sometimes it gets left in shop corners since no one realizes it’s actually a Pokémon.",
     "abilities": [
       {
@@ -72103,7 +72103,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 999,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Coin Entity Pokémon ",
+    "genus": "Pokémon Entidade de Moedas",
     "description": "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession.",
     "abilities": [
       {
@@ -72139,7 +72139,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Ruinous Pokémon ",
+    "genus": "Pokémon Ruinoso",
     "description": "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
     "abilities": [
       {
@@ -72175,7 +72175,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Ruinous Pokémon ",
+    "genus": "Pokémon Ruinoso",
     "description": "The hatred of those who perished by the sword long ago has clad itself in snow and become a Pokémon.",
     "abilities": [
       {
@@ -72211,7 +72211,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Ruinous Pokémon ",
+    "genus": "Pokémon Ruinoso",
     "description": "It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over 160 feet deep.",
     "abilities": [
       {
@@ -72247,7 +72247,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Ruinous Pokémon ",
+    "genus": "Pokémon Ruinoso",
     "description": "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
     "abilities": [
       {
@@ -72269,7 +72269,7 @@ const ALL_POKEMONS = [
   {
     "id": 1005,
     "name": "roaring-moon",
-    "displayName": "Roaring Moon",
+    "displayName": "Lua Rugidora",
     "formattedId": "Nº 1005",
     "types": [
       "dragon",
@@ -72305,7 +72305,7 @@ const ALL_POKEMONS = [
   {
     "id": 1006,
     "name": "iron-valiant",
-    "displayName": "Iron Valiant",
+    "displayName": "Valentia Férrea",
     "formattedId": "Nº 1006",
     "types": [
       "fairy",
@@ -72413,7 +72413,7 @@ const ALL_POKEMONS = [
   {
     "id": 1009,
     "name": "walking-wake",
-    "displayName": "Walking Wake",
+    "displayName": "Onda Feroz",
     "formattedId": "Nº 1009",
     "types": [
       "water",
@@ -72449,7 +72449,7 @@ const ALL_POKEMONS = [
   {
     "id": 1010,
     "name": "iron-leaves",
-    "displayName": "Iron Leaves",
+    "displayName": "Folhas Férreas",
     "formattedId": "Nº 1010",
     "types": [
       "grass",
@@ -72499,7 +72499,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 840,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Candy Apple Pokémon ",
+    "genus": "Pokémon Maçã do Amor",
     "description": "The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.",
     "abilities": [
       {
@@ -72545,7 +72545,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Matcha Pokémon ",
+    "genus": "Pokémon Matcha",
     "description": "Poltchageist looks like a regional form of Sinistea, but it was recently discovered that the two Pokémon are entirely unrelated.",
     "abilities": [
       {
@@ -72586,7 +72586,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 1012,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Matcha Pokémon ",
+    "genus": "Pokémon Matcha",
     "description": "It prefers cool, dark places, such as the back of a shelf or the space beneath a home's floorboards. It wanders in search of prey after sunset.",
     "abilities": [
       {
@@ -72627,7 +72627,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Retainer Pokémon ",
+    "genus": "Pokémon Escudeiro",
     "description": "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
     "abilities": [
       {
@@ -72668,7 +72668,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Retainer Pokémon ",
+    "genus": "Pokémon Escudeiro",
     "description": "Munkidori keeps itself somewhere safe while it toys with its foes, using psychokinesis to induce intense dizziness.",
     "abilities": [
       {
@@ -72709,7 +72709,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Retainer Pokémon ",
+    "genus": "Pokémon Escudeiro",
     "description": "Fezandipiti beats its glossy wings to scatter pheromones that captivate people and Pokémon.",
     "abilities": [
       {
@@ -72749,7 +72749,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Mask Pokémon ",
+    "genus": "Pokémon Máscara",
     "description": "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
     "abilities": [
       {
@@ -72785,7 +72785,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 884,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Alloy Pokémon ",
+    "genus": "Pokémon Liga Metálica",
     "description": "It digs holes on mountains, searching for food. It’s so durable that being caught in a cave-in won’t faze it.",
     "abilities": [
       {
@@ -72831,7 +72831,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": 1011,
     "isLegendary": false,
     "isMythical": false,
-    "genus": "Apple Hydra Pokémon ",
+    "genus": "Pokémon Hidra de Maçã",
     "description": "These capricious syrpents have banded together. On the rare occasion that their moods align, their true power is unleashed.",
     "abilities": [
       {
@@ -72863,7 +72863,7 @@ const ALL_POKEMONS = [
   {
     "id": 1020,
     "name": "gouging-fire",
-    "displayName": "Gouging Fire",
+    "displayName": "Fogo Corrosão",
     "formattedId": "Nº 1020",
     "types": [
       "fire",
@@ -72899,7 +72899,7 @@ const ALL_POKEMONS = [
   {
     "id": 1021,
     "name": "raging-bolt",
-    "displayName": "Raging Bolt",
+    "displayName": "Raio Fúria",
     "formattedId": "Nº 1021",
     "types": [
       "electric",
@@ -72935,7 +72935,7 @@ const ALL_POKEMONS = [
   {
     "id": 1022,
     "name": "iron-boulder",
-    "displayName": "Iron Boulder",
+    "displayName": "Pedregulho Férreo",
     "formattedId": "Nº 1022",
     "types": [
       "rock",
@@ -72971,7 +72971,7 @@ const ALL_POKEMONS = [
   {
     "id": 1023,
     "name": "iron-crown",
-    "displayName": "Iron Crown",
+    "displayName": "Coroa Férrea",
     "formattedId": "Nº 1023",
     "types": [
       "steel",
@@ -73020,7 +73020,7 @@ const ALL_POKEMONS = [
     "evolvesFrom": null,
     "isLegendary": true,
     "isMythical": false,
-    "genus": "Tera Pokémon ",
+    "genus": "Pokémon Terastal",
     "description": "It’s thought that this Pokémon lived in ancient Paldea until it got caught in seismic shifts and went extinct.",
     "abilities": [
       {
