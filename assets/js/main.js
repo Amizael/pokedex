@@ -245,6 +245,22 @@ function setupEventListeners() {
             displayedLimit += ITEMS_PER_PAGE;
             renderCards();
         });
+
+        // Rolagem infinita automática para o catálogo geral
+        if ('IntersectionObserver' in window) {
+            const scrollObserver = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    const hasActiveFilter = (selectedGeneration && selectedGeneration !== 'all') ||
+                                            (selectedType && selectedType !== 'all') ||
+                                            Boolean(searchTerm && searchTerm.trim());
+                    if (!hasActiveFilter && displayedLimit < filteredPokemons.length) {
+                        displayedLimit += ITEMS_PER_PAGE;
+                        renderCards();
+                    }
+                }
+            }, { rootMargin: '400px' });
+            scrollObserver.observe(btnLoadMore);
+        }
     }
 
     // Clique fora do modal fecha o modal
@@ -262,7 +278,90 @@ function setupEventListeners() {
  * Aplica os filtros de busca, geração, tipo e ordenação e atualiza a interface
  */
 function applyFiltersAndRender() {
-    let result = [...(window.allPokemons || [])];
+    const isEn = typeof I18nController !== 'undefined' && I18nController.isEnglish();
+    const rawQuery = (searchTerm || '').trim().toLowerCase();
+    const cleanQuery = rawQuery.replace(/[^a-z0-9]/gi, '');
+
+    // Verifica se a busca acionou palavras-chave de formas alternativas ou mecânicas
+    const isMegaKeyword = rawQuery === 'mega' || rawQuery === 'mega evolution' || rawQuery === 'mega evolucao' || rawQuery === 'mega-evolucao' || rawQuery.startsWith('mega ') || rawQuery.endsWith(' mega');
+    const isGmaxKeyword = rawQuery === 'gmax' || rawQuery === 'g-max' || rawQuery === 'gigantamax' || rawQuery === 'dmax' || rawQuery === 'dynamax' || rawQuery.startsWith('gmax ') || rawQuery.startsWith('gigantamax ') || rawQuery.endsWith(' gmax') || rawQuery.endsWith(' gigantamax');
+    const isAlolaKeyword = rawQuery === 'alola' || rawQuery === 'alolan' || rawQuery.startsWith('alola ') || rawQuery.endsWith(' alola');
+    const isGalarKeyword = rawQuery === 'galar' || rawQuery === 'galarian' || rawQuery.startsWith('galar ') || rawQuery.endsWith(' galar');
+    const isHisuiKeyword = rawQuery === 'hisui' || rawQuery === 'hisuian' || rawQuery.startsWith('hisui ') || rawQuery.endsWith(' hisui');
+    const isPaldeaKeyword = rawQuery === 'paldea' || rawQuery === 'paldean' || rawQuery.startsWith('paldea ') || rawQuery.endsWith(' paldea');
+    const isPrimalKeyword = rawQuery === 'primal' || rawQuery === 'primitivo' || rawQuery.includes('reversao') || rawQuery.includes('reversion');
+    const isOriginKeyword = rawQuery === 'origin' || rawQuery === 'origem';
+    const isCrownedKeyword = rawQuery === 'crowned' || rawQuery === 'coroado' || rawQuery === 'coroada';
+
+    const isFormSearch = isMegaKeyword || isGmaxKeyword || isAlolaKeyword || isGalarKeyword || isHisuiKeyword || isPaldeaKeyword || isPrimalKeyword || isOriginKeyword || isCrownedKeyword;
+
+    let result = [];
+
+    if (isFormSearch && typeof getAllAlternativeForms === 'function') {
+        const allForms = getAllAlternativeForms();
+        // Palavra secundária se o usuário digitou "mega charizard", "gmax pikachu", etc.
+        let subTerm = rawQuery
+            .replace(/\b(mega|gigantamax|gmax|g-max|dmax|dynamax|alola|alolan|galar|galarian|hisui|hisuian|paldea|paldean|primal|primitivo|origin|origem|crowned|coroado|coroada)\b/gi, '')
+            .trim();
+
+        const matchedForms = allForms.filter(f => {
+            let matchesCategory = false;
+            if (isMegaKeyword && f.formType === 'mega') matchesCategory = true;
+            if (isGmaxKeyword && f.formType === 'gmax') matchesCategory = true;
+            if (isAlolaKeyword && f.formType === 'alola') matchesCategory = true;
+            if (isGalarKeyword && f.formType === 'galar') matchesCategory = true;
+            if (isHisuiKeyword && f.formType === 'hisui') matchesCategory = true;
+            if (isPaldeaKeyword && f.formType === 'paldea') matchesCategory = true;
+            if (isPrimalKeyword && f.formType === 'primal') matchesCategory = true;
+            if (isOriginKeyword && f.formType === 'origin') matchesCategory = true;
+            if (isCrownedKeyword && f.formType === 'crowned') matchesCategory = true;
+
+            if (!matchesCategory) return false;
+
+            if (subTerm) {
+                const subClean = subTerm.toLowerCase();
+                const nameMatches = (f.namePt && f.namePt.toLowerCase().includes(subClean)) ||
+                                    (f.nameEn && f.nameEn.toLowerCase().includes(subClean)) ||
+                                    (f.formId && f.formId.toLowerCase().includes(subClean));
+                return nameMatches;
+            }
+
+            return true;
+        });
+
+        // Mapeia cada forma para a estrutura de card
+        result = matchedForms.map(f => {
+            const basePokemon = (window.allPokemons || []).find(p => p.id === f.speciesId) || {};
+            const badgeInfo = typeof getFormGimmickBadgeInfo === 'function' ? getFormGimmickBadgeInfo(f.formType, isEn) : { label: 'FORMA', bg: '#e02424', color: '#fff' };
+
+            return {
+                id: f.speciesId,
+                formId: f.formId,
+                isAlternativeForm: true,
+                formType: f.formType,
+                name: f.formId,
+                displayName: isEn ? f.nameEn : f.namePt,
+                formattedId: basePokemon.formattedId || `Nº ${String(f.speciesId).padStart(4, '0')}`,
+                types: f.types,
+                image: f.image,
+                generation: basePokemon.generation || 1,
+                stats: f.stats,
+                badgeInfo
+            };
+        });
+    } else {
+        // Exibição geral padrão (NÃO inclui versões alternativas no catálogo base)
+        result = [...(window.allPokemons || [])];
+
+        // Filtro por Texto normal (Nome ou Número)
+        if (rawQuery) {
+            result = result.filter(p => {
+                const matchName = p.name.toLowerCase().includes(rawQuery) || (p.displayName && p.displayName.toLowerCase().includes(rawQuery));
+                const matchId = String(p.id) === cleanQuery || p.formattedId.toLowerCase().includes(rawQuery);
+                return matchName || matchId;
+            });
+        }
+    }
 
     // Filtro por Geração
     if (selectedGeneration && selectedGeneration !== 'all') {
@@ -270,19 +369,9 @@ function applyFiltersAndRender() {
         result = result.filter(p => p.generation === genNum);
     }
 
-    // Filtro por Texto (Nome ou Número)
-    if (searchTerm) {
-        result = result.filter(p => {
-            const cleanQuery = searchTerm.replace(/[^a-z0-9]/gi, '');
-            const matchName = p.name.toLowerCase().includes(searchTerm) || (p.displayName && p.displayName.toLowerCase().includes(searchTerm));
-            const matchId = String(p.id) === cleanQuery || p.formattedId.toLowerCase().includes(searchTerm);
-            return matchName || matchId;
-        });
-    }
-
     // Filtro por Tipo
     if (selectedType && selectedType !== 'all') {
-        result = result.filter(p => p.types.includes(selectedType));
+        result = result.filter(p => p.types && p.types.includes(selectedType));
     }
 
     // Ordenação
@@ -303,13 +392,29 @@ function applyFiltersAndRender() {
     }
 
     filteredPokemons = result;
-    renderCards();
+
+    // Se qualquer filtro estiver ativo (Geração, Tipo, Busca de Texto ou Mecânica/Forma),
+    // exibe TODOS os Pokémon correspondentes àquele filtro sem cortar em 100!
+    const hasActiveFilter = (selectedGeneration && selectedGeneration !== 'all') ||
+                            (selectedType && selectedType !== 'all') ||
+                            Boolean(rawQuery) ||
+                            isFormSearch;
+
+    if (hasActiveFilter) {
+        displayedLimit = filteredPokemons.length;
+    } else {
+        if (!displayedLimit || displayedLimit < ITEMS_PER_PAGE) {
+            displayedLimit = ITEMS_PER_PAGE;
+        }
+    }
+
+    renderCards(isFormSearch, { isMegaKeyword, isGmaxKeyword, isAlolaKeyword, isGalarKeyword, isHisuiKeyword, isPaldeaKeyword, isPrimalKeyword });
 }
 
 /**
  * Renderiza os cards no grid de acordo com o limite de exibição atual (100 por página)
  */
-function renderCards() {
+function renderCards(isFormSearch = false, formFlags = {}) {
     if (!cardsContainer) return;
 
     const isEn = typeof I18nController !== 'undefined' && I18nController.isEnglish();
@@ -317,21 +422,36 @@ function renderCards() {
     // Atualiza contador de resultados
     if (resultsCounter) {
         const matching = filteredPokemons.length;
-        let contextLabel = isEn ? 'all 9 Generations' : 'todas as 9 Gerações';
-        if (selectedGeneration !== 'all') {
-            const g = GENERATIONS_CONFIG[selectedGeneration];
-            contextLabel = isEn ? `Generation ${g.roman} (${g.name} • ${g.mainGames})` : `${g.roman}ª Geração (${g.name} • ${g.mainGames})`;
+        if (isFormSearch) {
+            let formLabel = isEn ? 'Special Forms' : 'Formas Especiais';
+            if (formFlags.isMegaKeyword) formLabel = isEn ? 'Mega Evolution forms' : 'formas de Mega Evolução';
+            else if (formFlags.isGmaxKeyword) formLabel = isEn ? 'Gigantamax forms' : 'formas Gigantamax';
+            else if (formFlags.isAlolaKeyword) formLabel = isEn ? 'Alolan regional variants' : 'variantes regionais de Alola';
+            else if (formFlags.isGalarKeyword) formLabel = isEn ? 'Galarian regional variants' : 'variantes regionais de Galar';
+            else if (formFlags.isHisuiKeyword) formLabel = isEn ? 'Hisuian regional variants' : 'variantes regionais de Hisui';
+            else if (formFlags.isPaldeaKeyword) formLabel = isEn ? 'Paldean regional variants' : 'variantes regionais de Paldea';
+            else if (formFlags.isPrimalKeyword) formLabel = isEn ? 'Primal Reversions' : 'Reversões Primitivas';
+
+            resultsCounter.textContent = isEn 
+                ? `Showing ${Math.min(displayedLimit, matching)} of ${matching} ${formLabel} • (Gimmick search)`
+                : `Exibindo ${Math.min(displayedLimit, matching)} de ${matching} ${formLabel} • (Busca por Mecânica)`;
+        } else {
+            let contextLabel = isEn ? 'all 9 Generations' : 'todas as 9 Gerações';
+            if (selectedGeneration !== 'all') {
+                const g = GENERATIONS_CONFIG[selectedGeneration];
+                contextLabel = isEn ? `Generation ${g.roman} (${g.name} • ${g.mainGames})` : `${g.roman}ª Geração (${g.name} • ${g.mainGames})`;
+            }
+            if (selectedType !== 'all') {
+                const tInfo = TYPE_INFO[selectedType] || { namePt: selectedType, nameEn: selectedType };
+                contextLabel += isEn ? ` • ${tInfo.nameEn || tInfo.namePt} Type` : ` • Tipo ${tInfo.namePt}`;
+            }
+            if (searchTerm) {
+                contextLabel += isEn ? ' (Custom search)' : ' (Busca personalizada)';
+            }
+            resultsCounter.textContent = isEn 
+                ? `Showing ${Math.min(displayedLimit, matching)} of ${matching} Pokémon • ${contextLabel}`
+                : `Exibindo ${Math.min(displayedLimit, matching)} de ${matching} Pokémon • ${contextLabel}`;
         }
-        if (selectedType !== 'all') {
-            const tInfo = TYPE_INFO[selectedType] || { namePt: selectedType, nameEn: selectedType };
-            contextLabel += isEn ? ` • ${tInfo.nameEn || tInfo.namePt} Type` : ` • Tipo ${tInfo.namePt}`;
-        }
-        if (searchTerm) {
-            contextLabel += isEn ? ' (Custom search)' : ' (Busca personalizada)';
-        }
-        resultsCounter.textContent = isEn 
-            ? `Showing ${Math.min(displayedLimit, matching)} of ${matching} Pokémon • ${contextLabel}`
-            : `Exibindo ${Math.min(displayedLimit, matching)} de ${matching} Pokémon • ${contextLabel}`;
     }
 
     if (filteredPokemons.length === 0) {
@@ -363,16 +483,27 @@ function renderCards() {
 
         const primaryType = p.types[0];
         const primaryColor = TYPE_INFO[primaryType]?.color || '#999';
-        const displayName = isEn 
-            ? p.name.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ')
-            : (p.displayName || p.name.charAt(0).toUpperCase() + p.name.slice(1));
+        const isAlt = p.isAlternativeForm;
+        const displayName = isAlt
+            ? p.displayName
+            : (isEn 
+                ? p.name.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ')
+                : (p.displayName || p.name.charAt(0).toUpperCase() + p.name.slice(1)));
+
         const gen = GENERATIONS_CONFIG[p.generation];
+        const clickHandler = isAlt 
+            ? `openPokemonModal(${p.id}, '${p.formId}')`
+            : `openPokemonModal(${p.id})`;
+
+        const badgeHtml = isAlt && p.badgeInfo 
+            ? `<span class="card-gimmick-tag" style="background-color: ${p.badgeInfo.bg}; color: ${p.badgeInfo.color}" title="${p.badgeInfo.title}">${p.badgeInfo.label}</span>`
+            : `<span class="card-gen-pill">Gen ${gen ? gen.roman : p.generation}</span>`;
 
         return `
-            <article class="pokemon-card" onclick="openPokemonModal(${p.id})" tabindex="0" role="button" aria-label="${isEn ? 'View details of' : 'Ver detalhes de'} ${displayName}">
+            <article class="pokemon-card ${isAlt ? 'alt-form-card' : ''}" onclick="${clickHandler}" tabindex="0" role="button" aria-label="${isEn ? 'View details of' : 'Ver detalhes de'} ${displayName}">
                 <div class="card-img-box" style="--accent-color: ${primaryColor}">
                     <img src="${p.image}" alt="${displayName}" loading="lazy" class="pokemon-card-img" />
-                    <span class="card-gen-pill">Gen ${gen ? gen.roman : p.generation}</span>
+                    ${badgeHtml}
                 </div>
                 <div class="card-info">
                     <span class="pokemon-id">${p.formattedId}</span>

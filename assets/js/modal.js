@@ -36,12 +36,12 @@ function refreshActiveModalContent() {
 /**
  * Abre o modal de detalhes do Pokémon
  */
-async function openPokemonModal(pokemonId) {
+async function openPokemonModal(pokemonId, initialFormId = null) {
     const numId = parseInt(pokemonId, 10);
     if (!numId || numId < 1 || numId > 1025) return;
 
     currentModalPokemonId = numId;
-    activeModalFormVariant = null;
+    activeModalFormVariant = initialFormId || null;
     const modalElement = document.getElementById('pokemon-modal');
     const modalBody = document.getElementById('modal-body-content');
 
@@ -368,12 +368,14 @@ function renderModalContent(pokemon, speciesData) {
             }
         }
         if (!genus) {
-            const raw = pokemon.genus || 'Pokémon';
-            genus = (raw.toLowerCase().includes('pokémon') || raw.toLowerCase().includes('pokemon')) ? raw : `${raw} Pokémon`;
+            const raw = (pokemon.genus || 'Pokémon').replace(/pok[eé]mon/gi, '').trim();
+            genus = raw ? `${raw} Pokémon` : 'Pokémon';
         }
     } else {
         genus = speciesData?.genus || pokemon.genus || 'Pokémon';
     }
+    // Remove qualquer repetição indesejada como "Pokémon Semente Pokémon"
+    genus = (genus || 'Pokémon').replace(/pok[eé]mon\s+pok[eé]mon/gi, 'Pokémon').trim();
 
     const genderText = isEn
         ? (speciesData?.genderText ? (speciesData.genderText.replace(/Macho/g, 'Male').replace(/Fêmea/g, 'Female').replace(/Sem Gênero/g, 'Genderless')) : '50% Male, 50% Female')
@@ -538,6 +540,18 @@ function renderModalContent(pokemon, speciesData) {
                         </div>
                     </div>
                 ` : ''}
+                ${activeVariant && activeVariant.gmaxMove ? `
+                    <div class="gmax-move-banner">
+                        <div class="gmax-badge">G-MAX</div>
+                        <div class="gmax-move-details">
+                            <div class="gmax-move-title">
+                                <span class="gmax-title-label">${isEn ? 'Signature Gigantamax Move:' : 'Golpe Gigantamax Exclusivo:'}</span>
+                                <strong class="gmax-move-name">${isEn ? activeVariant.gmaxMove.nameEn : activeVariant.gmaxMove.namePt}</strong>
+                            </div>
+                            <p class="gmax-move-desc">${activeVariant.gmaxMove.desc || activeVariant.gmaxMove.description}</p>
+                        </div>
+                    </div>
+                ` : ''}
             </div>
         `;
     }
@@ -658,6 +672,9 @@ function renderModalContent(pokemon, speciesData) {
                             <h3 class="section-title">${isEn ? 'Pokédex Entry' : 'Descrição da Pokédex'}</h3>
                             <p class="flavor-text">"${displayedFlavorText}"</p>
                         </div>
+
+                        <!-- Mecânicas Especiais & Gimmicks -->
+                        ${renderPokemonGimmicksCard(pokemon, activeVariant, isEn)}
 
                         <!-- Características / Perfil -->
                         <div class="modal-section-card profile-card">
@@ -1071,6 +1088,238 @@ function renderEvolutionSection(chain, currentId) {
                     </div>
                 `;
             }).join('')}
+        </div>
+    `;
+}
+
+/**
+ * Renderiza o painel de Mecânicas Especiais & Gimmicks do Pokémon
+ */
+function renderPokemonGimmicksCard(pokemon, activeVariant, isEn) {
+    const forms = typeof getSpeciesForms === 'function' ? getSpeciesForms(pokemon.id) : [];
+    const zMoves = typeof getSpeciesExclusiveZMoves === 'function' ? getSpeciesExclusiveZMoves(pokemon.id) : [];
+
+    const megaForms = forms.filter(f => f.formType === 'mega');
+    const gmaxForms = forms.filter(f => f.formType === 'gmax');
+    const primalForms = forms.filter(f => f.formType === 'primal');
+    const otherForms = forms.filter(f => !['mega', 'gmax', 'primal'].includes(f.formType));
+
+    const hasExclusive = megaForms.length > 0 || gmaxForms.length > 0 || primalForms.length > 0 || otherForms.length > 0 || zMoves.length > 0;
+
+    let contentHtml = '';
+
+    if (hasExclusive) {
+        // Mega Evoluções
+        if (megaForms.length > 0) {
+            contentHtml += `
+                <div class="gimmick-item gimmick-mega">
+                    <div class="gimmick-item-top">
+                        <div class="gimmick-badge-box">
+                            <span class="gimmick-badge mega">MEGA</span>
+                            <span class="gimmick-name">${isEn ? 'Mega Evolution' : 'Mega Evolução'}</span>
+                        </div>
+                        <div class="gimmick-action-buttons">
+                            ${megaForms.map(m => {
+                                const isActive = activeVariant && activeVariant.formId === m.formId;
+                                return `
+                                    <button type="button" class="btn-gimmick-view ${isActive ? 'active' : ''}" onclick="selectModalFormVariant('${m.formId}')">
+                                        ${isActive ? (isEn ? 'Active Form' : 'Forma Ativa') : (isEn ? 'View ' + m.nameEn : 'Ver ' + m.namePt)}
+                                    </button>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                    <div class="gimmick-item-content">
+                        ${megaForms.map(m => `
+                            <div class="gimmick-sub-row">
+                                ${m.requiredItem ? `
+                                    <div class="gimmick-item-req">
+                                        <img src="${m.requiredItem.image}" alt="${m.requiredItem.namePt}" class="gimmick-stone-icon" onerror="this.style.display='none'">
+                                        <span><strong>${isEn ? m.requiredItem.nameEn : m.requiredItem.namePt}</strong></span>
+                                    </div>
+                                ` : ''}
+                                <span class="gimmick-types-preview">
+                                    ${m.types.map(t => {
+                                        const ti = TYPE_INFO[t] || { namePt: t, nameEn: t, color: '#777' };
+                                        return `<span class="type-badge mini" style="background:${ti.color}">${isEn ? (ti.nameEn||ti.namePt) : ti.namePt}</span>`;
+                                    }).join(' ')}
+                                </span>
+                                <span class="gimmick-stat-total">BST: <strong>${m.stats.total}</strong></span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Gigantamax
+        if (gmaxForms.length > 0) {
+            contentHtml += `
+                <div class="gimmick-item gimmick-gmax">
+                    <div class="gimmick-item-top">
+                        <div class="gimmick-badge-box">
+                            <span class="gimmick-badge gmax">G-MAX</span>
+                            <span class="gimmick-name">Gigantamax (G-Max)</span>
+                        </div>
+                        <div class="gimmick-action-buttons">
+                            ${gmaxForms.map(g => {
+                                const isActive = activeVariant && activeVariant.formId === g.formId;
+                                return `
+                                    <button type="button" class="btn-gimmick-view ${isActive ? 'active' : ''}" onclick="selectModalFormVariant('${g.formId}')">
+                                        ${isActive ? (isEn ? 'Active Form' : 'Forma Ativa') : (isEn ? 'View G-Max' : 'Ver G-Max')}
+                                    </button>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                    <div class="gimmick-item-content">
+                        ${gmaxForms.map(g => g.gmaxMove ? `
+                            <div class="gimmick-gmax-move">
+                                <span class="gmax-move-pill">${isEn ? 'Signature Move:' : 'Golpe Exclusivo:'} <strong>${isEn ? g.gmaxMove.nameEn : g.gmaxMove.namePt}</strong></span>
+                                <p class="gmax-move-desc-text">${g.gmaxMove.desc || g.gmaxMove.description}</p>
+                            </div>
+                        ` : '').join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Reversão Primitiva
+        if (primalForms.length > 0) {
+            contentHtml += `
+                <div class="gimmick-item gimmick-primal">
+                    <div class="gimmick-item-top">
+                        <div class="gimmick-badge-box">
+                            <span class="gimmick-badge primal">${isEn ? 'PRIMAL' : 'PRIMITIVO'}</span>
+                            <span class="gimmick-name">${isEn ? 'Primal Reversion' : 'Reversão Primitiva'}</span>
+                        </div>
+                        <div class="gimmick-action-buttons">
+                            ${primalForms.map(p => {
+                                const isActive = activeVariant && activeVariant.formId === p.formId;
+                                return `
+                                    <button type="button" class="btn-gimmick-view ${isActive ? 'active' : ''}" onclick="selectModalFormVariant('${p.formId}')">
+                                        ${isActive ? (isEn ? 'Active Form' : 'Forma Ativa') : (isEn ? 'View ' + p.nameEn : 'Ver ' + p.namePt)}
+                                    </button>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                    <div class="gimmick-item-content">
+                        ${primalForms.map(p => `
+                            <div class="gimmick-sub-row">
+                                ${p.requiredItem ? `
+                                    <div class="gimmick-item-req">
+                                        <img src="${p.requiredItem.image}" alt="${p.requiredItem.namePt}" class="gimmick-stone-icon" onerror="this.style.display='none'">
+                                        <span><strong>${isEn ? p.requiredItem.nameEn : p.requiredItem.namePt}</strong></span>
+                                    </div>
+                                ` : ''}
+                                <span class="gimmick-stat-total">BST: <strong>${p.stats.total}</strong></span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Golpes Z Exclusivos
+        if (zMoves.length > 0) {
+            contentHtml += `
+                <div class="gimmick-item gimmick-zmove">
+                    <div class="gimmick-item-top">
+                        <div class="gimmick-badge-box">
+                            <span class="gimmick-badge zmove">${isEn ? 'Z-MOVE' : 'MOVIMENTO Z'}</span>
+                            <span class="gimmick-name">${isEn ? 'Exclusive Z-Move' : 'Golpe Z Exclusivo'}</span>
+                        </div>
+                    </div>
+                    <div class="gimmick-item-content">
+                        ${zMoves.map(z => `
+                            <div class="z-move-card">
+                                <div class="z-move-header">
+                                    <img src="${z.crystalImg}" alt="${z.crystalNamePt}" class="z-crystal-img" onerror="this.style.display='none'">
+                                    <div class="z-move-title-info">
+                                        <strong class="z-move-name">${isEn ? z.moveEn : z.movePt}</strong>
+                                        <span class="z-crystal-name">${isEn ? z.crystalNameEn : z.crystalNamePt}</span>
+                                    </div>
+                                    <span class="z-move-power-badge">${isEn ? 'Power' : 'Poder'}: ${z.power}</span>
+                                </div>
+                                <div class="z-move-details">
+                                    <span class="z-base-move">${isEn ? 'Base Move:' : 'Golpe Base:'} <em>${z.baseMove}</em></span>
+                                    <p class="z-move-desc">${isEn ? z.descEn : z.descPt}</p>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Variantes Regionais e Especiais
+        if (otherForms.length > 0) {
+            contentHtml += `
+                <div class="gimmick-item gimmick-regional">
+                    <div class="gimmick-item-top">
+                        <div class="gimmick-badge-box">
+                            <span class="gimmick-badge regional">${isEn ? 'VARIANT' : 'VARIANTE'}</span>
+                            <span class="gimmick-name">${isEn ? 'Regional & Special Forms' : 'Formas Regionais & Especiais'}</span>
+                        </div>
+                        <div class="gimmick-action-buttons">
+                            ${otherForms.map(f => {
+                                const isActive = activeVariant && activeVariant.formId === f.formId;
+                                return `
+                                    <button type="button" class="btn-gimmick-view ${isActive ? 'active' : ''}" onclick="selectModalFormVariant('${f.formId}')">
+                                        ${isActive ? (isEn ? 'Active Form' : 'Forma Ativa') : (isEn ? 'View ' + f.nameEn : 'Ver ' + f.namePt)}
+                                    </button>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                    <div class="gimmick-item-content">
+                        ${otherForms.map(f => `
+                            <div class="gimmick-sub-row">
+                                <span class="gimmick-types-preview">
+                                    ${f.types.map(t => {
+                                        const ti = TYPE_INFO[t] || { namePt: t, nameEn: t, color: '#777' };
+                                        return `<span class="type-badge mini" style="background:${ti.color}">${isEn ? (ti.nameEn||ti.namePt) : ti.namePt}</span>`;
+                                    }).join(' ')}
+                                </span>
+                                <span class="gimmick-stat-total">BST: <strong>${f.stats.total}</strong></span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+    } else {
+        // Padrão de Mecânicas Gerais para Pokémon sem formas exclusivas
+        contentHtml = `
+            <div class="gimmick-standard-box">
+                <div class="standard-gimmick-row">
+                    <span class="gimmick-badge tera">TERA</span>
+                    <div class="standard-gimmick-info">
+                        <strong>${isEn ? 'Terastallization (Gen IX)' : 'Terastalização (Geração IX)'}</strong>
+                        <p>${isEn ? 'Compatible with Tera Jewels across all 18 elemental Tera Types, boosting STAB and defensive profiles in Paldea.' : 'Compatível com Tera Cristais nos 18 Tipos Tera elementais, fortalecendo ataques STAB e alterando tipagem defensiva em Paldea.'}</p>
+                    </div>
+                </div>
+                <div class="standard-gimmick-row">
+                    <span class="gimmick-badge dynamax">D-MAX</span>
+                    <div class="standard-gimmick-info">
+                        <strong>${isEn ? 'Dynamax (Gen VIII)' : 'Dinamax (Geração VIII)'}</strong>
+                        <p>${isEn ? 'Grows colossally in Power Spots across Galar, converting learnset attacks into powerful Max Moves for 3 turns.' : 'Expande-se em proporções colossais em Batalhas de Reide em Galar, convertendo ataques comuns em Golpes Max por 3 turnos.'}</p>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    return `
+        <div class="modal-section-card gimmicks-card">
+            <div class="gimmicks-header">
+                <h3 class="section-title">${isEn ? 'Special Battle Gimmicks' : 'Mecânicas Especiais & Gimmicks'}</h3>
+                <span class="gimmicks-count-badge">${hasExclusive ? (isEn ? 'Signature Features' : 'Gimmicks Exclusivas') : (isEn ? 'Standard Features' : 'Mecânicas Padrão')}</span>
+            </div>
+            <div class="gimmicks-list">
+                ${contentHtml}
+            </div>
         </div>
     `;
 }
